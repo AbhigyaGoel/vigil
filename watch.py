@@ -1,29 +1,24 @@
 #!/usr/bin/env python3
 """
-vigil - instant hardware internship tracker.
+vigil - hardware internship tracker (wide-net tier).
 
-Polls two source tiers and pushes new matches to your phone the minute they post:
+Scans job sources once, pushes new matches to your phone via ntfy, and remembers
+what it has seen so you're never pinged twice. This script is the WIDE-NET tier:
+GitHub Actions runs it every few minutes over the aggregator feeds (the hidden
+listings.json behind the SimplifyJobs-style repos, which holds ~10x more roles
+than the rendered README). The INSTANT tier - polling company boards every
+minute - is the Cloudflare Worker in cloudflare/; see the README.
 
-  1. ATS APIs (Greenhouse / Lever / Ashby) -> the INSTANT tier, polled every
-     `poll_seconds` (default 60s). A role appears here the moment a company
-     posts it, hours-to-days before any aggregator picks it up.
-  2. Aggregator feeds -> the WIDE-NET tier, polled every `feed_poll_seconds`
-     (default 15 min). This reads the machine-readable listings.json that the
-     SimplifyJobs-style repos build their README from - it holds ~10x more
-     hardware roles than the rendered README, because the README filters to a
-     single season term while hardware recruiting runs off-cycle.
+Two sources:
+  - Aggregator feeds  (listings.json)          -> hundreds of companies
+  - Company ATS boards (Greenhouse/Lever/Ashby) -> instant, per-company
 
-Notifications: ntfy.sh push (free, no signup, tappable Apply button) and
-optionally Twilio SMS via TWILIO_SID/TOKEN/FROM/TO env vars.
-
-Config: config.json ships the defaults; config.local.json (gitignored)
-overrides any key wholesale. Run setup.ps1 on Windows to install everything.
+Set SKIP_ATS=1 to run feeds only (used on Actions once the worker owns the
+board tier, so the same role never alerts from both).
 
 Modes:
-  python watch.py --watch    persistent daemon (what setup.ps1 installs)
-  python watch.py --once     single pass (cron / CI / debugging)
-  python watch.py --dry      print everything that currently matches your
-                             filters, touching nothing - use this to tune
+  python watch.py --once    single pass - what GitHub Actions runs
+  python watch.py --dry     print current matches, notify nothing - for tuning
 
 Stdlib only. No pip installs, no API keys, no accounts.
 """
@@ -32,26 +27,24 @@ import base64
 import json
 import os
 import re
-import socket
 import sys
 import time
-import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-UA = {"User-Agent": "vigil/4.0 (github.com/AbhigyaGoel/vigil)"}
+UA = {"User-Agent": "vigil/1.0 (github.com/AbhigyaGoel/vigil)"}
 
 
 def load_config():
-    # utf-8-sig: tolerate the BOM that PowerShell 5.1 writes.
+    # utf-8-sig tolerates the BOM PowerShell writes; config.local.json (gitignored)
+    # overrides keys wholesale; NTFY_TOPIC env var beats both (Actions secret).
     cfg = json.loads((ROOT / "config.json").read_text(encoding="utf-8-sig"))
     local = ROOT / "config.local.json"
     if local.exists():
         cfg.update(json.loads(local.read_text(encoding="utf-8-sig")))
-    # Env var wins - lets CI (GitHub Actions) inject the topic as a secret.
     if os.environ.get("NTFY_TOPIC"):
         cfg["ntfy_topic"] = os.environ["NTFY_TOPIC"]
     return cfg
@@ -59,7 +52,6 @@ def load_config():
 
 CFG = load_config()
 SEEN_PATH = ROOT / "seen.json"
-LOG_PATH = ROOT / "watch.log"
 
 INCLUDE = re.compile("|".join(CFG["include_keywords"]), re.I)
 EXCLUDE = re.compile("|".join(CFG["exclude_keywords"]), re.I) if CFG.get("exclude_keywords") else None
@@ -91,9 +83,8 @@ def to_epoch(val):
 # ---------------- filtering ----------------
 
 def keep(title, company="", category=None, ats=False):
-    """Category match OR title keyword match, minus excludes.
-    ATS sources additionally require an intern/co-op term (aggregator feeds
-    are internship-only by construction, so they skip that gate)."""
+    """Category match OR title keyword match, minus excludes. ATS sources also
+    require an intern/co-op term; aggregator feeds are internship-only already."""
     if EXCLUDE and EXCLUDE.search(f"{title} {company}"):
         return False
     if ats and ATS_REQUIRE and not ATS_REQUIRE.search(title):
@@ -174,13 +165,12 @@ def ashby(slug):
         }
 
 
-def build_plan(include_feeds):
-    """(fetch_fn, slug, is_ats) triples. ATS sources are the instant tier."""
-    plan = []
-    if include_feeds:
-        plan += [(listings_feed, r, False) for r in CFG.get("listings_repos", [])]
+def build_plan():
+    """(fetch_fn, slug, is_ats) triples. SKIP_ATS drops the board tier when the
+    Cloudflare worker owns it."""
+    plan = [(listings_feed, r, False) for r in CFG.get("listings_repos", [])]
     if os.environ.get("SKIP_ATS"):
-        return plan  # a faster runner (e.g. the Cloudflare worker) owns the ATS tier
+        return plan
     plan += [(greenhouse, s, True) for s in CFG.get("greenhouse", [])]
     plan += [(lever, s, True) for s in CFG.get("lever", [])]
     plan += [(ashby, s, True) for s in CFG.get("ashby", [])]
@@ -250,10 +240,10 @@ def load_seen():
     return set()
 
 
-def run_once(seen, include_feeds=True):
-    first_run = not seen
+def scan(seen):
+    """One pass over every source. Adds new ids to `seen`, returns matches."""
     found, errors, scanned = [], [], 0
-    for fn, slug, is_ats in build_plan(include_feeds):
+    for fn, slug, is_ats in build_plan():
         try:
             for job in fn(slug):
                 scanned += 1
@@ -265,120 +255,48 @@ def run_once(seen, include_feeds=True):
         except Exception as e:
             errors.append(f"{fn.__name__}:{slug} -> {repr(e)[:90]}")
         time.sleep(0.3)
-
     found.sort(key=lambda j: -(j.get("posted") or 0))
-
-    cap = CFG.get("max_alerts_per_run", 25)
-    capped = False
-    if not first_run and len(found) > cap:
-        errors.append(f"capped alerts at {cap} (found {len(found)})")
-        found, capped = found[:cap], True
-
-    if not first_run and found:
-        try:
-            dispatch(found)
-        except Exception as e:
-            errors.append(f"notify -> {repr(e)[:90]}")
-
-    SEEN_PATH.write_text(json.dumps(sorted(seen), indent=0), encoding="utf-8")
-    return found, errors, scanned, first_run, capped
-
-
-def stamp():
-    return datetime.now(timezone.utc).strftime("%m-%d %H:%M:%S")
-
-
-def acquire_lock():
-    """Cross-platform single-instance guard: bind a localhost port and hold it."""
-    s = socket.socket()
-    try:
-        s.bind(("127.0.0.1", CFG.get("lock_port", 47113)))
-        s.listen(1)
-        return s  # keep a reference so it isn't GC'd
-    except OSError:
-        print("vigil is already running (lock port busy). Exiting.")
-        sys.exit(0)
-
-
-def dry_run():
-    """Print everything that currently matches, touching nothing. For tuning."""
-    matches, scanned = [], 0
-    for fn, slug, is_ats in build_plan(include_feeds=True):
-        try:
-            for job in fn(slug):
-                scanned += 1
-                if job["url"] and keep(job["title"], job["company"], job.get("category"), is_ats):
-                    matches.append(job)
-        except Exception as e:
-            print("WARN", fn.__name__, slug, "->", repr(e)[:90], file=sys.stderr)
-    matches.sort(key=lambda j: -(j.get("posted") or 0))
-    print(f"{len(matches)} current matches out of {scanned} scanned:\n")
-    for j in matches[:40]:
-        print(f"  {j['company'][:24]:24} | {j['title'][:52]:52} | {j['location']}")
-    if len(matches) > 40:
-        print(f"  ... and {len(matches) - 40} more")
-
-
-def daemon():
-    lock = acquire_lock()  # noqa: F841 - held for process lifetime
-    seen = load_seen()
-    interval = CFG.get("poll_seconds", 60)
-    feed_every = CFG.get("feed_poll_seconds", 900)
-    last_feed = 0.0
-    print(f"[{stamp()}] vigil daemon up. ATS tier every {interval}s, "
-          f"aggregator feeds every {feed_every}s.")
-    while True:
-        include_feeds = last_feed == 0.0 or time.monotonic() - last_feed >= feed_every
-        try:
-            found, errors, scanned, first_run, capped = run_once(seen, include_feeds)
-            if include_feeds:
-                last_feed = time.monotonic()
-            if first_run:
-                print(f"[{stamp()}] SEEDED {len(seen)} existing postings, "
-                      f"{len(found)} matched. No alerts on the seed pass.")
-            elif found or errors or include_feeds:
-                # feed cycles double as a ~15-min heartbeat so the log shows life
-                note = ", capped" if capped else ""
-                print(f"[{stamp()}] {len(found)} new / {scanned} scanned{note}")
-                for j in found:
-                    print(f"    PING {j['company']} | {j['title'][:55]}")
-                for e in errors:
-                    print(f"    WARN {e}")
-        except Exception as e:
-            print(f"[{stamp()}] loop error: {repr(e)[:120]}", file=sys.stderr)
-        time.sleep(interval)
+    return found, errors, scanned
 
 
 def main():
-    if "--dry" in sys.argv:
-        return dry_run()
+    dry = "--dry" in sys.argv
 
-    if "--watch" in sys.argv:
-        # Daemon mode always logs to a file: under pythonw.exe there is no
-        # console at all (sys.stdout is None), and a hidden console can't be
-        # tailed. Rotate at 5 MB so it never grows unbounded.
-        if LOG_PATH.exists() and LOG_PATH.stat().st_size > 5_000_000:
-            LOG_PATH.replace(ROOT / "watch.log.1")
-        logf = open(LOG_PATH, "a", encoding="utf-8", buffering=1)
-        sys.stdout = sys.stderr = logf
-        try:
-            daemon()
-        except KeyboardInterrupt:
-            print(f"[{stamp()}] stopped.")
+    if dry:
+        seen = set()  # match everything, change nothing
+        found, errors, scanned = scan(seen)
+        print(f"{len(found)} current matches out of {scanned} scanned:\n")
+        for j in found[:40]:
+            print(f"  {j['company'][:24]:24} | {j['title'][:52]:52} | {j['location']}")
+        if len(found) > 40:
+            print(f"  ... and {len(found) - 40} more")
+        for e in errors:
+            print("WARN", e, file=sys.stderr)
         return
 
-    # --once: single pass for cron/CI/debugging
     seen = load_seen()
-    found, errors, scanned, first_run, _ = run_once(seen)
+    first_run = not seen
+    found, errors, scanned = scan(seen)
+
+    cap = CFG.get("max_alerts_per_run", 25)
+    if not first_run and len(found) > cap:
+        errors.append(f"capped alerts at {cap} (found {len(found)})")
+        found = found[:cap]
+
     if first_run:
         print(f"SEEDED. Scanned {scanned}, tracking {len(seen)}, "
               f"{len(found)} would have matched. No alerts on first run.")
-        for j in found[:25]:
-            print("   ", j["company"], "|", j["title"], "|", j["location"])
     else:
+        if found:
+            try:
+                dispatch(found)
+            except Exception as e:
+                errors.append(f"notify -> {repr(e)[:90]}")
         for j in found:
             print("PING", j["company"], "|", j["title"], "|", j["url"])
         print(f"{len(found)} new from {scanned} scanned, tracking {len(seen)}.")
+
+    SEEN_PATH.write_text(json.dumps(sorted(seen), indent=0), encoding="utf-8")
     for e in errors:
         print("WARN", e, file=sys.stderr)
 
