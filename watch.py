@@ -3,18 +3,20 @@
 vigil - hardware internship tracker (wide-net tier).
 
 Scans job sources once, pushes new matches to your phone via ntfy, and remembers
-what it has seen so you're never pinged twice. This script is the WIDE-NET tier:
-GitHub Actions runs it every few minutes over the aggregator feeds (the hidden
-listings.json behind the SimplifyJobs-style repos, which holds ~10x more roles
-than the rendered README). The INSTANT tier - polling company boards every
-minute - is the Cloudflare Worker in cloudflare/; see the README.
+what it matched so you're never pinged twice. GitHub Actions runs this every few
+minutes. The INSTANT tier (company boards polled every minute) is the Cloudflare
+Worker in cloudflare/.
 
-Two sources:
-  - Aggregator feeds  (listings.json)          -> hundreds of companies
-  - Company ATS boards (Greenhouse/Lever/Ashby) -> instant, per-company
+Sources (all public):
+  - Aggregator listings.json  (SimplifyJobs-style repos; has terms + category)
+  - Markdown-table repos       (e.g. IEEE-at-Cornell; scrapes Indeed/LinkedIn)
+  - Atom feeds                 (e.g. zshah101)
+  - Company ATS boards         (Greenhouse / Lever / Ashby)
+  - Workday                    (NVIDIA, Micron, ADI, KLA, ... where big hardware
+                                intern headcount actually lives)
 
-Set SKIP_ATS=1 to run feeds only (used on Actions once the worker owns the
-board tier, so the same role never alerts from both).
+SKIP_ATS=1 runs the aggregator/markdown/atom feeds only (used on Actions once the
+worker owns the board + Workday tiers, so nothing alerts twice).
 
 Modes:
   python watch.py --once    single pass - what GitHub Actions runs
@@ -29,6 +31,7 @@ import re
 import sys
 import time
 import urllib.request
+import xml.etree.ElementTree as ET
 from datetime import datetime
 from pathlib import Path
 
@@ -51,17 +54,40 @@ def load_config():
 CFG = load_config()
 SEEN_PATH = ROOT / "seen.json"
 
-INCLUDE = re.compile("|".join(CFG["include_keywords"]), re.I)
-EXCLUDE = re.compile("|".join(CFG["exclude_keywords"]), re.I) if CFG.get("exclude_keywords") else None
-ATS_REQUIRE = re.compile("|".join(CFG["ats_require"]), re.I) if CFG.get("ats_require") else None
+
+def _rx(key):
+    vals = CFG.get(key)
+    return re.compile("|".join(vals), re.I) if vals else None
+
+
+INCLUDE = _rx("include_keywords")
+EXCLUDE = _rx("exclude_keywords")
+EXCLUDE_CO = _rx("exclude_companies")
+ATS_REQUIRE = _rx("ats_require")
 CATS = [c.lower() for c in CFG.get("include_categories", [])]
+INCLUDE_TERMS = set(CFG.get("include_terms", []))
+REQUIRE_ACTIVE = CFG.get("require_active", True)
 MAX_AGE = CFG.get("max_age_days", 21) * 86400
 
 
 # ---------------- http ----------------
 
-def get_json(url, timeout=30):
+def get_json(url, timeout=45):
     req = urllib.request.Request(url, headers=UA)
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return json.loads(r.read().decode("utf-8", "replace"))
+
+
+def get_text(url, timeout=45):
+    req = urllib.request.Request(url, headers=UA)
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.read().decode("utf-8", "replace")
+
+
+def post_json(url, payload, timeout=25):
+    req = urllib.request.Request(
+        url, data=json.dumps(payload).encode(),
+        headers={**UA, "Content-Type": "application/json"}, method="POST")
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return json.loads(r.read().decode("utf-8", "replace"))
 
@@ -81,15 +107,18 @@ def to_epoch(val):
 # ---------------- filtering ----------------
 
 def keep(title, company="", category=None, ats=False):
-    """Category match OR title keyword match, minus excludes. ATS sources also
-    require an intern/co-op term; aggregator feeds are internship-only already."""
+    """Category match OR title keyword match, minus title and company excludes.
+    ATS/Workday sources also require an intern/co-op/new-grad term in the title;
+    aggregator feeds are internship-only already."""
     if EXCLUDE and EXCLUDE.search(f"{title} {company}"):
+        return False
+    if EXCLUDE_CO and company and EXCLUDE_CO.search(company):
         return False
     if ats and ATS_REQUIRE and not ATS_REQUIRE.search(title):
         return False
     if category and CATS and any(c in category.lower() for c in CATS):
         return True
-    return bool(INCLUDE.search(title))
+    return bool(INCLUDE and INCLUDE.search(title))
 
 
 def fresh(posted, now):
@@ -97,18 +126,49 @@ def fresh(posted, now):
     return not (MAX_AGE and posted and now - posted > MAX_AGE)
 
 
+def terms_ok(terms):
+    """Keep listings whose season is wanted. Rows with no terms field (some
+    repos omit it) are always kept - we can't season-filter what isn't tagged."""
+    if not INCLUDE_TERMS or not terms:
+        return True
+    tset = set(terms) if isinstance(terms, list) else {terms}
+    return bool(tset & INCLUDE_TERMS)
+
+
+# ---------------- markdown helpers ----------------
+
+_MD_IMG = re.compile(r"!\[[^\]]*\]\([^)]*\)")
+_MD_LINK = re.compile(r"\[([^\]]*)\]\([^)]*\)")
+_HTML = re.compile(r"<[^>]+>")
+_URL = re.compile(r'https?://[^\s)\]"\'<>]+')
+
+
+def strip_md(s):
+    s = _MD_IMG.sub("", s)
+    s = _MD_LINK.sub(r"\1", s)
+    s = _HTML.sub("", s)
+    return s.replace("`", "").strip()
+
+
+def last_url(s):
+    m = _URL.findall(s)
+    return m[-1] if m else ""
+
+
 # ---------------- sources ----------------
 
 def listings_feed(repo):
-    """The structured feed behind SimplifyJobs-style repos. Append :branch to
-    override the default 'dev' branch."""
+    """Structured feed behind SimplifyJobs-style repos. Append :branch to override
+    the default 'dev' branch."""
     branch = "dev"
     if ":" in repo:
         repo, branch = repo.split(":", 1)
     url = f"https://raw.githubusercontent.com/{repo}/{branch}/.github/scripts/listings.json"
     now = time.time()
     for j in get_json(url, timeout=60):
-        if not (j.get("active") and j.get("is_visible")):
+        if REQUIRE_ACTIVE and not (j.get("active") and j.get("is_visible")):
+            continue
+        if not terms_ok(j.get("terms")):
             continue
         posted = to_epoch(j.get("date_posted") or j.get("date_updated"))
         if not fresh(posted, now):
@@ -121,6 +181,48 @@ def listings_feed(repo):
             "url": j.get("url", ""),
             "category": j.get("category"),
             "posted": posted,
+        }
+
+
+def markdown_source(src):
+    """Parse a README with | Company | Role | Location | Apply | ... | rows."""
+    url = src["url"] if isinstance(src, dict) else src
+    for line in get_text(url).splitlines():
+        line = line.strip()
+        if not line.startswith("|") or "---" in line:
+            continue
+        cells = [c.strip() for c in line.strip("|").split("|")]
+        if len(cells) < 4:
+            continue
+        company, title = strip_md(cells[0]), strip_md(cells[1])
+        if not company or not title or company.lower() == "company":
+            continue
+        apply_url = last_url(cells[3]) or last_url(cells[-1])
+        if not apply_url:
+            continue
+        yield {
+            "id": f"md:{apply_url}", "company": company, "title": title,
+            "location": strip_md(cells[2])[:70], "url": apply_url,
+            "category": None, "posted": 0,
+        }
+
+
+def atom_feed(url):
+    """Parse an Atom feed. Entry titles look like 'Company: Role'."""
+    ns = "{http://www.w3.org/2005/Atom}"
+    for e in ET.fromstring(get_text(url)).findall(f"{ns}entry"):
+        title = (e.findtext(f"{ns}title") or "").strip()
+        link = e.find(f"{ns}link")
+        url_ = link.get("href") if link is not None else ""
+        if not title or not url_:
+            continue
+        company = ""
+        if ": " in title:
+            company, title = (x.strip() for x in title.split(": ", 1))
+        yield {
+            "id": f"at:{url_}", "company": company, "title": title,
+            "location": "", "url": url_, "category": None,
+            "posted": to_epoch(e.findtext(f"{ns}updated")),
         }
 
 
@@ -163,16 +265,49 @@ def ashby(slug):
         }
 
 
+def workday(entry):
+    """Workday cxs API. entry = {name, tenant, host, site}. This is where NVIDIA,
+    Micron, ADI, KLA etc. post - searchText 'intern' keeps the volume sane."""
+    host, tenant, site = entry["host"], entry["tenant"], entry["site"]
+    api = f"https://{host}/wday/cxs/{tenant}/{site}/jobs"
+    name = entry.get("name", tenant)
+    for offset in (0, 20, 40):
+        try:
+            d = post_json(api, {"appliedFacets": {}, "limit": 20,
+                                "offset": offset, "searchText": "intern"})
+        except Exception:
+            break
+        posts = d.get("jobPostings", [])
+        for p in posts:
+            path = p.get("externalPath", "")
+            yield {
+                "id": f"wd:{tenant}:{path}", "company": name,
+                "title": p.get("title", ""), "location": p.get("locationsText", ""),
+                "url": f"https://{host}/{site}{path}", "category": None, "posted": 0,
+            }
+        if not posts or offset + 20 >= (d.get("total") or 0):
+            break
+
+
 def build_plan():
-    """(fetch_fn, slug, is_ats) triples. SKIP_ATS drops the board tier when the
-    Cloudflare worker owns it."""
+    """(fetch_fn, arg, is_ats). Feed tier always runs; the ATS/Workday tier is
+    dropped when SKIP_ATS is set (the Cloudflare worker owns it)."""
     plan = [(listings_feed, r, False) for r in CFG.get("listings_repos", [])]
+    plan += [(markdown_source, s, False) for s in CFG.get("markdown_sources", [])]
+    plan += [(atom_feed, s, False) for s in CFG.get("atom_feeds", [])]
     if os.environ.get("SKIP_ATS"):
         return plan
     plan += [(greenhouse, s, True) for s in CFG.get("greenhouse", [])]
     plan += [(lever, s, True) for s in CFG.get("lever", [])]
     plan += [(ashby, s, True) for s in CFG.get("ashby", [])]
+    plan += [(workday, w, True) for w in CFG.get("workday", [])]
     return plan
+
+
+def label(arg):
+    if isinstance(arg, str):
+        return arg
+    return arg.get("name") or arg.get("tenant") or arg.get("url", "?")
 
 
 # ---------------- notify ----------------
@@ -187,8 +322,7 @@ def ntfy(title, body, click=None):
         headers["Click"] = click
         headers["Actions"] = f"view, Apply, {click}"
     req = urllib.request.Request(
-        f"https://ntfy.sh/{topic}", data=body.encode("utf-8"), headers=headers, method="POST"
-    )
+        f"https://ntfy.sh/{topic}", data=body.encode("utf-8"), headers=headers, method="POST")
     urllib.request.urlopen(req, timeout=20).read()
 
 
@@ -212,33 +346,31 @@ def load_seen():
 
 
 def scan(seen):
-    """One pass over every source. Adds new ids to `seen`, returns matches."""
+    """One pass over every source. Only matched roles are added to `seen`, so the
+    state file stays small even when a source has tens of thousands of rows."""
     found, errors, scanned = [], [], 0
-    for fn, slug, is_ats in build_plan():
+    for fn, arg, is_ats in build_plan():
         try:
-            for job in fn(slug):
+            for job in fn(arg):
                 scanned += 1
                 if not job["url"] or job["id"] in seen:
                     continue
-                seen.add(job["id"])
                 if keep(job["title"], job["company"], job.get("category"), is_ats):
+                    seen.add(job["id"])
                     found.append(job)
         except Exception as e:
-            errors.append(f"{fn.__name__}:{slug} -> {repr(e)[:90]}")
+            errors.append(f"{fn.__name__}:{label(arg)} -> {repr(e)[:90]}")
         time.sleep(0.3)
     found.sort(key=lambda j: -(j.get("posted") or 0))
     return found, errors, scanned
 
 
 def main():
-    dry = "--dry" in sys.argv
-
-    if dry:
-        seen = set()  # match everything, change nothing
-        found, errors, scanned = scan(seen)
+    if "--dry" in sys.argv:
+        found, errors, scanned = scan(set())
         print(f"{len(found)} current matches out of {scanned} scanned:\n")
         for j in found[:40]:
-            print(f"  {j['company'][:24]:24} | {j['title'][:52]:52} | {j['location']}")
+            print(f"  {j['company'][:22]:22} | {j['title'][:50]:50} | {j['location']}")
         if len(found) > 40:
             print(f"  ... and {len(found) - 40} more")
         for e in errors:
@@ -255,8 +387,7 @@ def main():
         found = found[:cap]
 
     if first_run:
-        print(f"SEEDED. Scanned {scanned}, tracking {len(seen)}, "
-              f"{len(found)} would have matched. No alerts on first run.")
+        print(f"SEEDED. Scanned {scanned}, tracking {len(seen)} matches. No alerts on first run.")
     else:
         if found:
             try:
