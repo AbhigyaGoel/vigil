@@ -1,4 +1,4 @@
-# jobwatch one-shot setup for Windows.
+# vigil one-shot setup for Windows.
 #   powershell -ExecutionPolicy Bypass -File .\setup.ps1
 # Generates your private notification topic, seeds the tracker, installs the
 # background daemon to start at every logon, starts it now, and sends a test
@@ -7,7 +7,7 @@ $ErrorActionPreference = "Stop"
 Set-Location -Path $PSScriptRoot
 
 Write-Host ""
-Write-Host "jobwatch setup" -ForegroundColor Cyan
+Write-Host "vigil setup" -ForegroundColor Cyan
 Write-Host "--------------"
 
 # -- 1. find Python -----------------------------------------------------------
@@ -27,7 +27,7 @@ if (Test-Path .\config.local.json) {
     try { $topic = (Get-Content .\config.local.json -Raw | ConvertFrom-Json).ntfy_topic } catch {}
 }
 if (-not $topic -or $topic -like "CHANGE-ME*") {
-    $topic = & python -c "import secrets; print('jobwatch-' + secrets.token_hex(5))"
+    $topic = & python -c "import secrets; print('vigil-' + secrets.token_hex(5))"
     $json = '{' + "`n" + '  "ntfy_topic": "' + $topic + '"' + "`n" + '}'
     $json | Out-File -Encoding utf8 .\config.local.json
     Write-Host "  Generated private topic and wrote config.local.json"
@@ -41,9 +41,9 @@ Write-Host "  Scanning sources (first run seeds silently, ~1 min)..."
 
 # -- 4. install autostart (Startup folder - no admin needed) ------------------
 $startup = [Environment]::GetFolderPath("Startup")
-$vbsPath = Join-Path $startup "jobwatch.vbs"
+$vbsPath = Join-Path $startup "vigil.vbs"
 $watchPy = Join-Path $PSScriptRoot "watch.py"
-$vbs = "' Auto-starts the jobwatch daemon at logon, hidden. Delete this file to disable.`r`n"
+$vbs = "' Auto-starts the vigil daemon at logon, hidden. Delete this file to disable.`r`n"
 $vbs += 'Set s = CreateObject("WScript.Shell")' + "`r`n"
 $vbs += ('s.Run """{0}"" ""{1}"" --watch", 0, False' -f $pyw, $watchPy) + "`r`n"
 $vbs | Out-File -Encoding ascii $vbsPath
@@ -58,8 +58,8 @@ Write-Host "  Daemon started (logs to watch.log)"
 # -- 6. test push -------------------------------------------------------------
 try {
     Invoke-RestMethod -Uri "https://ntfy.sh/$topic" -Method Post `
-        -Body "jobwatch is live. New hardware internships will land here with an Apply button." `
-        -Headers @{ Title = "jobwatch installed"; Tags = "zap"; Priority = "high" } | Out-Null
+        -Body "vigil is live. New hardware internships will land here with an Apply button." `
+        -Headers @{ Title = "vigil installed"; Tags = "zap"; Priority = "high" } | Out-Null
     Write-Host "  Test notification sent" -ForegroundColor Green
 } catch {
     Write-Host "  Test push failed (check your network): $_" -ForegroundColor Yellow

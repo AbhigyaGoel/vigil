@@ -1,4 +1,4 @@
-# ⚡ jobwatch
+# ⚡ vigil — never miss a hardware internship again
 
 **Get pinged on your phone the minute a hardware internship posts — before it hits the aggregator repos.**
 
@@ -16,7 +16,7 @@ Everyone watches the same GitHub internship repos (SimplifyJobs etc.). Two probl
    Companies' own job boards (Greenhouse / Lever / Ashby) expose public JSON APIs — a posting
    appears there the *minute* it goes live.
 
-jobwatch polls both: the company boards every **60 seconds** (the instant tier) and the
+vigil polls both: the company boards every **60 seconds** (the instant tier) and the
 aggregators' hidden `listings.json` every 15 minutes (the wide net). New matches hit your
 phone as push notifications with a tappable **Apply** button.
 
@@ -25,10 +25,10 @@ phone as push notifications with a tappable **Apply** button.
 Runs free on GitHub's servers every ~15 minutes:
 
 1. **Fork this repo** (keep it public — public repos get unlimited free Actions minutes).
-2. Make up a private topic name, e.g. `jobwatch-` + 10 random characters. In your fork:
+2. Make up a private topic name, e.g. `vigil-` + 10 random characters. In your fork:
    **Settings → Secrets and variables → Actions → New repository secret** —
    name `NTFY_TOPIC`, value your topic.
-3. **Actions tab → enable workflows → jobwatch → Run workflow.** The first run
+3. **Actions tab → enable workflows → vigil → Run workflow.** The first run
    seeds silently (records what's already posted, alerts on nothing).
 4. On your phone: install the **[ntfy](https://ntfy.sh)** app and subscribe to your topic.
 
@@ -64,7 +64,7 @@ powershell -ExecutionPolicy Bypass -File .\setup.ps1
 
 ```bash
 # macOS / Linux
-python3 -c "import secrets; print('{\"ntfy_topic\": \"jobwatch-%s\"}' % secrets.token_hex(5))" > config.local.json
+python3 -c "import secrets; print('{\"ntfy_topic\": \"vigil-%s\"}' % secrets.token_hex(5))" > config.local.json
 python3 watch.py --once                            # seed (silent first pass)
 nohup python3 watch.py --watch >/dev/null 2>&1 &   # or a systemd/launchd unit
 ```
@@ -121,7 +121,7 @@ Get-Content .\watch.log -Wait -Tail 20          # watch it live
 Get-CimInstance Win32_Process |
   ? { $_.CommandLine -like "*watch.py*" } |
   % { Stop-Process -Id $_.ProcessId -Force }    # stop it
-# disable autostart: delete jobwatch.vbs from shell:startup
+# disable autostart: delete vigil.vbs from shell:startup
 ```
 
 A localhost lock port (`lock_port`) guarantees only one instance runs, so
@@ -130,7 +130,7 @@ re-running setup or double-starting is always safe.
 ## FAQ
 
 **Is hitting these APIs okay?** They're public, unauthenticated endpoints that the
-companies' own careers pages call. jobwatch polls politely (sequential, delayed,
+companies' own careers pages call. vigil polls politely (sequential, delayed,
 identified User-Agent) at a fraction of a human browser's request volume.
 
 **Does it run when my laptop is off?** Yes — the default GitHub Actions mode runs

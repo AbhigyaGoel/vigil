@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-jobwatch - instant hardware internship tracker.
+vigil - instant hardware internship tracker.
 
 Polls two source tiers and pushes new matches to your phone the minute they post:
 
@@ -42,7 +42,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-UA = {"User-Agent": "jobwatch/4.0 (github.com/AbhigyaGoel/jobwatch)"}
+UA = {"User-Agent": "vigil/4.0 (github.com/AbhigyaGoel/vigil)"}
 
 
 def load_config():
@@ -296,7 +296,7 @@ def acquire_lock():
         s.listen(1)
         return s  # keep a reference so it isn't GC'd
     except OSError:
-        print("jobwatch is already running (lock port busy). Exiting.")
+        print("vigil is already running (lock port busy). Exiting.")
         sys.exit(0)
 
 
@@ -325,7 +325,7 @@ def daemon():
     interval = CFG.get("poll_seconds", 60)
     feed_every = CFG.get("feed_poll_seconds", 900)
     last_feed = 0.0
-    print(f"[{stamp()}] jobwatch daemon up. ATS tier every {interval}s, "
+    print(f"[{stamp()}] vigil daemon up. ATS tier every {interval}s, "
           f"aggregator feeds every {feed_every}s.")
     while True:
         include_feeds = last_feed == 0.0 or time.monotonic() - last_feed >= feed_every

@@ -1,8 +1,8 @@
-# Runs jobwatch on GitHub's servers - no laptop needed.
+# Runs vigil on GitHub's servers - no laptop needed.
 # Every ~15 min (GitHub delays scheduled runs a bit under load; expect 15-40 min
 # real-world latency). Your private ntfy topic lives in the NTFY_TOPIC repo
 # secret, never in the code.
-name: jobwatch
+name: vigil
 
 on:
   schedule:
@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: jobwatch
+  group: vigil
   cancel-in-progress: false
 
 permissions:
@@ -41,7 +41,7 @@ jobs:
 
       - name: Commit seen.json (the dedupe memory)
         run: |
-          git config user.name "jobwatch"
+          git config user.name "vigil"
           git config user.email "actions@github.com"
           git pull --rebase --autostash || true
           git add seen.json

@@ -1,27 +1,36 @@
-# One-shot deploy of the jobwatch instant tier to Cloudflare (free plan).
+# One-shot deploy of the vigil instant tier to Cloudflare (free plan).
 # Prereq (once): npx wrangler login   <- opens browser, sign in / create account
 # Then:          powershell -ExecutionPolicy Bypass -File .\deploy.ps1
 $ErrorActionPreference = "Stop"
 Set-Location -Path $PSScriptRoot
 
 Write-Host ""
-Write-Host "jobwatch instant-tier deploy" -ForegroundColor Cyan
+Write-Host "vigil instant-tier deploy" -ForegroundColor Cyan
 Write-Host "----------------------------"
 
-# -- 1. dedupe-memory KV namespace (create once, reuse after) -----------------
-$toml = Get-Content .\wrangler.toml -Raw
-if ($toml -match "REPLACE_WITH_KV_ID") {
+# -- 1. dedupe-memory KV namespace --------------------------------------------
+# Look up (or create) the namespace on YOUR account, then pin its id into
+# wrangler.toml - so a fresh fork never inherits someone else's id.
+$id = $null
+try {
+    $spaces = npx wrangler kv namespace list 2>$null | ConvertFrom-Json
+    $mine = $spaces | Where-Object { $_.title -like "*SEEN*" } | Select-Object -First 1
+    if ($mine) { $id = $mine.id; Write-Host "  Reusing KV namespace: $id" }
+} catch {}
+if (-not $id) {
     Write-Host "  Creating KV namespace..."
     $out = npx wrangler kv namespace create SEEN 2>&1 | Out-String
     if ($out -match '"?id"?\s*[=:]\s*"([0-9a-f]{32})"') {
-        $toml -replace "REPLACE_WITH_KV_ID", $Matches[1] | Set-Content .\wrangler.toml -Encoding utf8
-        Write-Host "  KV namespace ready: $($Matches[1])"
+        $id = $Matches[1]
+        Write-Host "  KV namespace ready: $id"
     } else {
         Write-Host "  Could not parse KV id from wrangler output:" -ForegroundColor Red
         Write-Host $out
         exit 1
     }
 }
+$toml = Get-Content .\wrangler.toml -Raw
+$toml -replace 'id = "(REPLACE_WITH_KV_ID|[0-9a-f]{32})"', "id = `"$id`"" | Set-Content .\wrangler.toml -Encoding utf8
 
 # -- 2. deploy the worker + 1-minute cron -------------------------------------
 npx wrangler deploy

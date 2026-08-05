@@ -1,5 +1,5 @@
 /**
- * jobwatch instant tier - Cloudflare Worker.
+ * vigil instant tier - Cloudflare Worker.
  *
  * Polls the company ATS boards (Greenhouse / Lever / Ashby) on a 1-minute cron
  * and pushes new matches to ntfy. This is what gets you a role within ~1-2
@@ -20,14 +20,14 @@
  */
 
 const GROUPS = 2; // each board polled every GROUPS minutes
-const UA = { "User-Agent": "jobwatch/4.0 (github.com/AbhigyaGoel/jobwatch)" };
+const UA = { "User-Agent": "vigil/1.0 (github.com/AbhigyaGoel/vigil)" };
 
 let cfgCache = { at: 0, cfg: null };
 
 async function getConfig(env) {
   if (cfgCache.cfg && Date.now() - cfgCache.at < 300_000) return cfgCache.cfg;
   const url = env.CONFIG_URL ||
-    "https://raw.githubusercontent.com/AbhigyaGoel/jobwatch/master/config.json";
+    "https://raw.githubusercontent.com/AbhigyaGoel/vigil/master/config.json";
   const cfg = await (await fetch(url, { headers: UA })).json();
   cfgCache = { at: Date.now(), cfg };
   return cfg;
@@ -155,7 +155,7 @@ export default {
   async fetch(_req, env) {
     const n = JSON.parse((await env.SEEN.get("seen")) || "[]").length;
     return new Response(
-      `jobwatch instant tier: alive, tracking ${n} postings across the ATS boards.\n`,
+      `vigil instant tier: alive, tracking ${n} postings across the ATS boards.\n`,
       { headers: { "Content-Type": "text/plain" } });
   },
 };
