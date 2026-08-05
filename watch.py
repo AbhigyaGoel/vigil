@@ -51,6 +51,9 @@ def load_config():
     local = ROOT / "config.local.json"
     if local.exists():
         cfg.update(json.loads(local.read_text(encoding="utf-8-sig")))
+    # Env var wins - lets CI (GitHub Actions) inject the topic as a secret.
+    if os.environ.get("NTFY_TOPIC"):
+        cfg["ntfy_topic"] = os.environ["NTFY_TOPIC"]
     return cfg
 
 

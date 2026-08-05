@@ -20,28 +20,40 @@ jobwatch polls both: the company boards every **60 seconds** (the instant tier) 
 aggregators' hidden `listings.json` every 15 minutes (the wide net). New matches hit your
 phone as push notifications with a tappable **Apply** button.
 
-## Quick start (Windows)
+## Quick start (5 minutes, no laptop required)
+
+Runs free on GitHub's servers every ~15 minutes:
+
+1. **Fork this repo** (keep it public — public repos get unlimited free Actions minutes).
+2. Make up a private topic name, e.g. `jobwatch-` + 10 random characters. In your fork:
+   **Settings → Secrets and variables → Actions → New repository secret** —
+   name `NTFY_TOPIC`, value your topic.
+3. **Actions tab → enable workflows → jobwatch → Run workflow.** The first run
+   seeds silently (records what's already posted, alerts on nothing).
+4. On your phone: install the **[ntfy](https://ntfy.sh)** app and subscribe to your topic.
+
+Done. From now on, every genuinely new hardware internship buzzes your phone
+with a tappable **Apply** button.
+
+## Optional: instant mode (60s latency, runs on your machine)
+
+GitHub's scheduler has ~15–40 min real-world latency. If you want the 60-second
+version while your machine is on:
 
 ```powershell
-git clone https://github.com/AbhigyaGoel/jobwatch
-cd jobwatch
+# Windows — installs a hidden background daemon that starts at logon
 powershell -ExecutionPolicy Bypass -File .\setup.ps1
 ```
 
-Then on your phone: install the **[ntfy](https://ntfy.sh)** app and subscribe to the topic
-setup prints. That's it — the daemon auto-starts at every logon.
-
-Needs Python 3.10+ on PATH. Nothing else.
-
-## Quick start (macOS / Linux)
-
 ```bash
-git clone https://github.com/AbhigyaGoel/jobwatch && cd jobwatch
+# macOS / Linux
 python3 -c "import secrets; print('{\"ntfy_topic\": \"jobwatch-%s\"}' % secrets.token_hex(5))" > config.local.json
-cat config.local.json          # subscribe to this topic in the ntfy app
-python3 watch.py --once        # seed (silent first pass)
+python3 watch.py --once                            # seed (silent first pass)
 nohup python3 watch.py --watch >/dev/null 2>&1 &   # or a systemd/launchd unit
 ```
+
+Running both is fine for latency, but each keeps its own `seen.json`, so you may
+occasionally get the same role from both. Pick one unless you love notifications.
 
 ## How it works
 
@@ -104,8 +116,8 @@ re-running setup or double-starting is always safe.
 companies' own careers pages call. jobwatch polls politely (sequential, delayed,
 identified User-Agent) at a fraction of a human browser's request volume.
 
-**Does it run when my laptop is off?** No — it's local-first by design. A GitHub
-Actions variant is a straightforward PR if you want one (cron `--once` + commit `seen.json`).
+**Does it run when my laptop is off?** Yes — the default GitHub Actions mode runs
+entirely on GitHub's servers. `seen.json` committed back to the repo is its memory.
 
 **Why ntfy and not email/Discord/Slack?** Fastest path from "new posting" to "phone buzz"
 with zero accounts. The webhook surface is one function (`ntfy()`) — swap in anything.
