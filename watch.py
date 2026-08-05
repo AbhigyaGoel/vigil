@@ -179,6 +179,8 @@ def build_plan(include_feeds):
     plan = []
     if include_feeds:
         plan += [(listings_feed, r, False) for r in CFG.get("listings_repos", [])]
+    if os.environ.get("SKIP_ATS"):
+        return plan  # a faster runner (e.g. the Cloudflare worker) owns the ATS tier
     plan += [(greenhouse, s, True) for s in CFG.get("greenhouse", [])]
     plan += [(lever, s, True) for s in CFG.get("lever", [])]
     plan += [(ashby, s, True) for s in CFG.get("ashby", [])]

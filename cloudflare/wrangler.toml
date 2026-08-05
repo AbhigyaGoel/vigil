@@ -1,0 +1,18 @@
+# jobwatch instant tier. Deploy with deploy.ps1 (or: npx wrangler deploy).
+name = "jobwatch"
+main = "worker.js"
+compatibility_date = "2026-08-01"
+
+# Poll every minute. Boards rotate across 2 buckets, so each board is checked
+# every 2 minutes - posting-to-phone latency is ~1-3 minutes.
+[triggers]
+crons = ["* * * * *"]
+
+[vars]
+# Point at YOUR fork so the worker follows your filters/slugs without redeploys.
+CONFIG_URL = "https://raw.githubusercontent.com/AbhigyaGoel/jobwatch/master/config.json"
+
+# Dedupe memory. deploy.ps1 creates the namespace and fills in the id.
+[[kv_namespaces]]
+binding = "SEEN"
+id = "REPLACE_WITH_KV_ID"

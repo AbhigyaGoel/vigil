@@ -35,7 +35,24 @@ Runs free on GitHub's servers every ~15 minutes:
 Done. From now on, every genuinely new hardware internship buzzes your phone
 with a tappable **Apply** button.
 
-## Optional: instant mode (60s latency, runs on your machine)
+## Instant mode (~1–3 min latency, still free, still no laptop)
+
+GitHub's scheduler is the slow lane (~5–20 min real-world). For roles-within-minutes,
+deploy the **instant tier** to Cloudflare Workers — free plan, no credit card, a
+1-minute cron polls the company boards from Cloudflare's edge:
+
+```powershell
+cd cloudflare
+npx wrangler login       # opens browser - sign in or create a free account
+powershell -ExecutionPolicy Bypass -File .\deploy.ps1
+```
+
+The deploy script wires your topic, creates the dedupe store, and tells the
+GitHub Actions run to hand over the company boards (so nothing alerts twice).
+The worker reads `config.json` straight from your repo — tune filters or add
+company slugs with a normal git push, no redeploy.
+
+## Optional: local mode (60s latency, runs on your machine)
 
 GitHub's scheduler has ~15–40 min real-world latency. If you want the 60-second
 version while your machine is on:
