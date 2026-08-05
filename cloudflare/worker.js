@@ -87,17 +87,6 @@ async function ntfy(env, job) {
   });
 }
 
-async function sms(env, body) {
-  const { TWILIO_SID: sid, TWILIO_TOKEN: tok, TWILIO_FROM: from, TWILIO_TO: to } = env;
-  if (!(sid && tok && from && to)) return;
-  await fetch(`https://api.twilio.com/2010-04-01/Accounts/${sid}/Messages.json`, {
-    method: "POST",
-    headers: { Authorization: "Basic " + btoa(`${sid}:${tok}`),
-               "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams({ From: from, To: to, Body: body.slice(0, 1500) }),
-  });
-}
-
 export default {
   async scheduled(event, env, ctx) {
     const cfg = await getConfig(env);
@@ -136,12 +125,6 @@ export default {
     if (!seeding && found.length) {
       const capped = found.slice(0, cfg.max_alerts_per_run || 25);
       for (const j of capped) await ntfy(env, j);
-      if (capped.length <= (cfg.sms_digest_threshold || 4)) {
-        for (const j of capped) await sms(env, `${j.company}: ${j.title}\n${j.location}\n${j.url}`);
-      } else {
-        await sms(env, `${capped.length} new hardware roles:\n` +
-          capped.slice(0, 10).map((j) => `${j.company}: ${j.title.slice(0, 45)}`).join("\n"));
-      }
       console.log(`PING x${capped.length}: ${capped.map((j) => j.title).join(" | ")}`);
     }
     if (seeding) {

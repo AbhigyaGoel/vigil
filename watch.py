@@ -23,13 +23,11 @@ Modes:
 Stdlib only. No pip installs, no API keys, no accounts.
 """
 
-import base64
 import json
 import os
 import re
 import sys
 import time
-import urllib.parse
 import urllib.request
 from datetime import datetime
 from pathlib import Path
@@ -194,26 +192,8 @@ def ntfy(title, body, click=None):
     urllib.request.urlopen(req, timeout=20).read()
 
 
-def sms(body):
-    """Optional real SMS. Set TWILIO_SID / TWILIO_TOKEN / TWILIO_FROM / TWILIO_TO."""
-    sid, tok = os.environ.get("TWILIO_SID"), os.environ.get("TWILIO_TOKEN")
-    frm, to = os.environ.get("TWILIO_FROM"), os.environ.get("TWILIO_TO")
-    if not all([sid, tok, frm, to]):
-        return
-    data = urllib.parse.urlencode({"From": frm, "To": to, "Body": body[:1500]}).encode()
-    auth = base64.b64encode(f"{sid}:{tok}".encode()).decode()
-    req = urllib.request.Request(
-        f"https://api.twilio.com/2010-04-01/Accounts/{sid}/Messages.json",
-        data=data,
-        headers={**UA, "Authorization": f"Basic {auth}",
-                 "Content-Type": "application/x-www-form-urlencoded"},
-        method="POST",
-    )
-    urllib.request.urlopen(req, timeout=25).read()
-
-
 def dispatch(found):
-    """One push per role; SMS batches into a digest so you don't get 40 texts."""
+    """One ntfy push per new role."""
     for job in found:
         try:
             ntfy(f"{job['company']}: {job['title'][:60]}",
@@ -221,15 +201,6 @@ def dispatch(found):
                  job["url"])
         except Exception as e:
             print("WARN ntfy", repr(e)[:80], file=sys.stderr)
-
-    n = len(found)
-    if n <= CFG.get("sms_digest_threshold", 4):
-        for job in found:
-            sms(f"{job['company']}: {job['title']}\n{job['location']}\n{job['url']}")
-    else:
-        lines = [f"{j['company']}: {j['title'][:45]}" for j in found[:10]]
-        extra = f"\n+{n - 10} more" if n > 10 else ""
-        sms(f"{n} new hardware roles:\n" + "\n".join(lines) + extra)
 
 
 # ---------------- core ----------------

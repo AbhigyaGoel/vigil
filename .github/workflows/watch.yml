@@ -1,7 +1,6 @@
-# Runs vigil on GitHub's servers - no laptop needed.
-# Every ~15 min (GitHub delays scheduled runs a bit under load; expect 15-40 min
-# real-world latency). Your private ntfy topic lives in the NTFY_TOPIC repo
-# secret, never in the code.
+# Runs vigil on GitHub's servers, no laptop needed. Cron floor is 5 min;
+# real-world latency is often 5-20 min under scheduler load. The private ntfy
+# topic lives in the NTFY_TOPIC repo secret, never in the code.
 name: vigil
 
 on:
@@ -33,11 +32,6 @@ jobs:
           # Set repo variable SKIP_ATS=1 once the Cloudflare worker owns the
           # instant tier, so the same role doesn't alert from both systems.
           SKIP_ATS: ${{ vars.SKIP_ATS }}
-          # Optional real SMS - add these secrets to enable:
-          TWILIO_SID: ${{ secrets.TWILIO_SID }}
-          TWILIO_TOKEN: ${{ secrets.TWILIO_TOKEN }}
-          TWILIO_FROM: ${{ secrets.TWILIO_FROM }}
-          TWILIO_TO: ${{ secrets.TWILIO_TO }}
 
       - name: Commit seen.json (the dedupe memory)
         run: |
