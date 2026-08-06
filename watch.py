@@ -171,11 +171,8 @@ def geo_tier(location):
 
 # ---------------- scoring ----------------
 
-def base_score(text, policy):
-    s = sum(w for w, r in SCORING if r.search(text))
-    if policy == "curated":
-        s += 1  # generic engineering intern at a hand-picked company is a real signal
-    return s
+def base_score(text):
+    return sum(w for w, r in SCORING if r.search(text))
 
 
 def desc_score(sig):
@@ -344,13 +341,15 @@ def ashby(slug):
 def workday(entry):
     host, tenant, site = entry["host"], entry["tenant"], entry["site"]
     api = f"https://{host}/wday/cxs/{tenant}/{site}/jobs"
-    name, offset = entry.get("name", tenant), 0
-    while offset < 100:  # Workday caps limit at 20; page to ~100 newest intern rows/tenant
+    name, offset, total = entry.get("name", tenant), 0, None
+    while offset < 100:  # Workday caps limit at 20 and only reports 'total' on page 1
         try:
             d = post_json(api, {"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": "intern"})
         except Exception:
             break
         posts = d.get("jobPostings", [])
+        if total is None:
+            total = d.get("total") or 0
         for p in posts:
             path = p.get("externalPath", "")
             yield {
@@ -360,7 +359,7 @@ def workday(entry):
                 "detail": f"https://{host}/wday/cxs/{tenant}/{site}{path}",
             }
         offset += 20
-        if not posts or offset >= (d.get("total") or 0):
+        if not posts or offset >= total:
             break
 
 
@@ -433,9 +432,15 @@ def classify(job, enrich, trace=None):
         note("DROP defense (clearance in description)"); return "drop", "defense-desc"
 
     # --- score & tier ---
-    bs, ds = base_score(title, policy), desc_score(sig)
+    bs, ds = base_score(title), desc_score(sig)
     score = bs + ds
-    note(f"score={score} (title+curated {bs}, desc {ds})")
+    note(f"score={score} (title {bs}, desc {ds})")
+    if policy == "curated":
+        # hand-picked company: any surviving US intern is instant-worthy, regardless
+        # of a vague title. Non-US curated roles still fall to Tier B (never instant).
+        if geo == "us":
+            note("TIER A (curated bypass)"); return "A", max(score, 3)
+        note("TIER B (curated, non-US)"); return "B", score
     a_ok = season_a_eligible(job.get("terms"))
     if score >= 3 and geo == "us" and a_ok:
         note("TIER A"); return "A", score
@@ -454,12 +459,15 @@ def _load(path, default):
     return default
 
 
+LOGIC_VERSION = "v2.1"  # bump when filter/scoring CODE changes -> forces a silent reseed
+
+
 def config_hash():
     keys = ["include_keywords", "exclude_keywords", "exclude_companies", "include_categories",
             "soft_categories", "tagged_subregex", "season_drop_terms", "season_a_terms",
             "season_title_drop", "scoring", "tier_b_countries", "drop_countries",
             "desc_hw_keywords", "desc_clearance", "ats_require", "max_age_days"]
-    blob = json.dumps({k: CFG.get(k) for k in keys}, sort_keys=True)
+    blob = json.dumps({"_v": LOGIC_VERSION, **{k: CFG.get(k) for k in keys}}, sort_keys=True)
     return sha256(blob.encode()).hexdigest()[:16]
 
 
@@ -493,17 +501,22 @@ def send_daily_digest(pending):
          "\n".join(lines) + extra, tags="clipboard", priority="default")
 
 
-def send_weekly_rejects(rejects):
+def send_weekly_rejects(rejects, yld=None):
     import random
     by_rule = Counter(r["rule"] for r in rejects)
     season = Counter(r.get("tag", "?") for r in rejects if r["rule"] == "season")
     sample = random.sample(rejects, min(20, len(rejects))) if rejects else []
-    body = ["Drops by rule: " + ", ".join(f"{k}:{v}" for k, v in by_rule.most_common())]
+    body = []
+    if yld:  # cumulative per-source scanned/A/B since seed -> shows a source that never yields Tier A
+        body.append("Yield since seed (scanned/A/B):")
+        body += [f"  {k}: {y['scanned']}/{y['A']}/{y['B']}" for k, y in sorted(yld.items())]
+        body.append("")
+    body.append("Drops by rule: " + ", ".join(f"{k}:{v}" for k, v in by_rule.most_common()))
     if season:
         body.append("Season drops by tag: " + ", ".join(f"{k}:{v}" for k, v in season.most_common()))
     body.append("")
     body += [f"[{r['rule']}] {r['company']}: {r['title'][:44]}" for r in sample]
-    ntfy(f"vigil weekly: {len(rejects)} rejects sampled", "\n".join(body),
+    ntfy(f"vigil weekly: {len(rejects)} rejects, yield report", "\n".join(body) or "no data",
          tags="wastebasket", priority="low")
 
 
@@ -515,7 +528,8 @@ def scan(seen, enrich, collect_rejects=False):
     stats = defaultdict(lambda: {"scanned": 0, "A": 0, "B": 0, "drop": Counter()})
     for fn, arg in build_plan():
         name = f"{fn.__name__}:{label(arg)}"
-        src_stat = stats[fn.__name__]
+        # Workday is broken out per tenant so thin tenants are visible in the table.
+        src_stat = stats[fn.__name__ if fn.__name__ != "workday" else f"workday:{label(arg)}"]
         try:
             for job in fn(arg):
                 src_stat["scanned"] += 1
@@ -608,6 +622,12 @@ def main():
 
     tier_a, tier_b, rejects, stats = scan(seen, enrich, collect_rejects=not first_run)
 
+    yld = {} if reseed else state.get("yield", {})  # cumulative per-source since seed
+    for k, s in stats.items():
+        y = yld.setdefault(k, {"scanned": 0, "A": 0, "B": 0})
+        y["scanned"] += s["scanned"]; y["A"] += s["A"]; y["B"] += s["B"]
+    state["yield"] = yld
+
     if first_run:
         for r in tier_a:
             pending.pop(r["id"], None)  # seed silently, no pushes
@@ -637,9 +657,9 @@ def main():
                 pending = {}; state["last_daily"] = today
             except Exception as e:
                 print("WARN daily", repr(e)[:70], file=sys.stderr)
-        if now.weekday() == CFG.get("weekly_day", 0) and state.get("last_weekly") != week and rejects:
+        if now.weekday() == CFG.get("weekly_day", 0) and state.get("last_weekly") != week:
             try:
-                send_weekly_rejects(rejects); state["last_weekly"] = week
+                send_weekly_rejects(rejects, yld); state["last_weekly"] = week
             except Exception as e:
                 print("WARN weekly", repr(e)[:70], file=sys.stderr)
 

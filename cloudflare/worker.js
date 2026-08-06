@@ -3,20 +3,19 @@
  *
  * Polls the CURATED company boards (Greenhouse / Lever / Ashby) every minute and
  * instant-pushes new intern roles to ntfy. Curated = hand-picked companies, so
- * there is NO include_keywords gate here: if Waymo posts "Engineering Intern",
- * you want it. Title-only filtering (intern gate + exclusions + title-season).
+ * there is NO include_keywords gate: a vague "Engineering Intern" there is wanted.
+ * Filtering (intern gate, excludes, title-season drop, and geography) is shared
+ * with watch.py via filters.mjs so the two can't drift - see parity tests.
  *
- * Everything else - the aggregator feeds, Workday (needs description enrichment),
- * and Tier A/B scoring - runs in watch.py on GitHub Actions. Keeping the worker
- * title-only and curated-only keeps it well under the free 50-subrequest cap.
- *
- * Config (filters, slugs) is read from config.json in the repo at runtime, cached
- * 5 min, so tuning is a git push with no redeploy. KV keys are versioned; bump
- * the suffix to force a silent reseed after a filter change.
+ * Aggregators, Workday, and Tier A/B scoring run in watch.py on GitHub Actions.
+ * Config is read from the repo at runtime (cached 5 min); KV keys are versioned,
+ * so bump the suffix to force a silent reseed after a filter-behavior change.
  */
 
+import { makeFilters, curatedInstant } from "./filters.mjs";
+
 const GROUPS = 4;
-const UA = { "User-Agent": "vigil/2.0 (github.com/AbhigyaGoel/vigil)" };
+const UA = { "User-Agent": "vigil/2.1 (github.com/AbhigyaGoel/vigil)" };
 let cfgCache = { at: 0, cfg: null };
 
 async function getConfig(env) {
@@ -26,9 +25,6 @@ async function getConfig(env) {
   cfgCache = { at: Date.now(), cfg };
   return cfg;
 }
-
-const rx = (arr) => (arr && arr.length ? new RegExp(arr.join("|"), "i") : null);
-const rxCo = (arr) => (arr && arr.length ? new RegExp("\\b(?:" + arr.join("|") + ")\\b", "i") : null);
 
 function boardsOf(cfg) {
   return [
@@ -82,18 +78,15 @@ async function ntfy(env, job) {
 export default {
   async scheduled(event, env, ctx) {
     const cfg = await getConfig(env);
-    const exclude = rx(cfg.exclude_keywords);
-    const excludeCo = rxCo(cfg.exclude_companies);
-    const intern = rx(cfg.ats_require);
-    const seasonDrop = cfg.season_title_drop ? new RegExp(cfg.season_title_drop, "i") : null;
+    const f = makeFilters(cfg);
     const maxAgeMs = (cfg.max_age_days || 21) * 86_400_000;
     const cap = cfg.max_alerts_per_run || 25;
 
     const bucket = Math.floor(Date.now() / 60_000) % GROUPS;
     const boards = boardsOf(cfg).filter((_, i) => i % GROUPS === bucket);
 
-    const seen = new Set(JSON.parse((await env.SEEN.get("seen_v3")) || "[]"));
-    const seedKey = `seeded_v3:${bucket}`;
+    const seen = new Set(JSON.parse((await env.SEEN.get("seen_v4")) || "[]"));
+    const seedKey = `seeded_v4:${bucket}`;
     const seeding = !(await env.SEEN.get(seedKey));
 
     const found = [];
@@ -101,14 +94,9 @@ export default {
     for (const b of boards) {
       try {
         for (const job of await fetchBoard(b)) {
-          if (!job.url || seen.has(job.id)) continue;
+          if (seen.has(job.id)) continue;
           if (job.posted && Date.now() - job.posted > maxAgeMs) continue;
-          const blob = `${job.title} ${job.company}`;
-          if (exclude && exclude.test(blob)) continue;
-          if (excludeCo && job.company && excludeCo.test(job.company)) continue;
-          if (intern && !intern.test(job.title)) continue;      // intern/co-op gate
-          if (seasonDrop && seasonDrop.test(job.title)) continue; // title says wrong season
-          // curated: no include_keywords gate on purpose
+          if (!curatedInstant(job, f)) continue;   // shared: intern + excludes + season + US
           seen.add(job.id);
           dirty = true;
           found.push(job);
@@ -126,11 +114,11 @@ export default {
       await env.SEEN.put(seedKey, new Date().toISOString());
       console.log(`SEEDED bucket ${bucket}: ${seen.size} tracked`);
     }
-    if (dirty) await env.SEEN.put("seen_v3", JSON.stringify([...seen]));
+    if (dirty) await env.SEEN.put("seen_v4", JSON.stringify([...seen]));
   },
 
   async fetch(_req, env) {
-    const n = JSON.parse((await env.SEEN.get("seen_v3")) || "[]").length;
+    const n = JSON.parse((await env.SEEN.get("seen_v4")) || "[]").length;
     return new Response(`vigil instant tier (curated boards): alive, tracking ${n}.\n`,
       { headers: { "Content-Type": "text/plain" } });
   },

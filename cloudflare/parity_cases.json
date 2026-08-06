@@ -1,0 +1,33 @@
+{
+  "geo": [
+    {"loc": "Palo Alto, CA", "expect": "us"},
+    {"loc": "West Lafayette, IN", "expect": "us"},
+    {"loc": "Toronto, ON, Canada", "expect": "tierb"},
+    {"loc": "Munich, Germany", "expect": "tierb"},
+    {"loc": "London, UK", "expect": "tierb"},
+    {"loc": "Auckland, New Zealand", "expect": "drop"},
+    {"loc": "Bengaluru, Karnataka, India", "expect": "drop"},
+    {"loc": "Shenzhen, China", "expect": "drop"},
+    {"loc": "Singapore", "expect": "drop"},
+    {"loc": "Tel Aviv, Israel", "expect": "drop"},
+    {"loc": "Palo Alto, CA / Toronto, ON, Canada", "expect": "us"},
+    {"loc": "Remote - US", "expect": "us"},
+    {"loc": "Remote", "expect": "unknown"},
+    {"loc": "", "expect": "unknown"}
+  ],
+  "season": [
+    {"title": "Perception Intern - Fall 2026", "expect": true},
+    {"title": "SWE Intern (Summer 2026)", "expect": true},
+    {"title": "Analog Intern - Spring 2027", "expect": true},
+    {"title": "Hardware Engineer Intern - Summer 2027", "expect": false},
+    {"title": "Robotics Intern", "expect": false}
+  ],
+  "curated": [
+    {"job": {"title": "Engineering Intern", "company": "Waymo", "location": "Mountain View, CA", "url": "x"}, "expect": true},
+    {"job": {"title": "Engineering Intern", "company": "Waymo", "location": "Auckland, New Zealand", "url": "x"}, "expect": false},
+    {"job": {"title": "Firmware Intern - Fall 2026", "company": "Zoox", "location": "Foster City, CA", "url": "x"}, "expect": false},
+    {"job": {"title": "Robotics Intern", "company": "Anduril", "location": "Costa Mesa, CA", "url": "x"}, "expect": false},
+    {"job": {"title": "Staff Firmware Engineer", "company": "Waymo", "location": "Mountain View, CA", "url": "x"}, "expect": false},
+    {"job": {"title": "Marketing Intern", "company": "Waymo", "location": "Mountain View, CA", "url": "x"}, "expect": false}
+  ]
+}
