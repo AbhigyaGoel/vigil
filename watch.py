@@ -507,7 +507,7 @@ def ntfy(title, body, click=None, tags="zap", priority="high"):
     topic = CFG.get("ntfy_topic", "")
     if not topic or topic.startswith("CHANGE-ME"):
         return
-    headers = {**UA, "Title": title[:100].encode("ascii", "ignore").decode(),
+    headers = {**UA, "Title": title[:140].encode("ascii", "ignore").decode(),
                "Tags": tags, "Priority": priority}
     if click:
         headers["Click"] = click
@@ -517,18 +517,52 @@ def ntfy(title, body, click=None, tags="zap", priority="high"):
     urllib.request.urlopen(req, timeout=20).read()
 
 
-def push_tier_a(job, score):
-    ntfy(f"[A/{score}] {job['company']}: {job['title'][:55]}",
-         f"{job['company']} - {job['title']}\n{job['location'] or 'location n/a'}", job["url"])
+def fmt_age(posted):
+    """'2d' / '5h', or '' when the source gave no real date (never fake a '0d')."""
+    if not posted:
+        return ""
+    secs = time.time() - posted
+    if secs < 0:
+        return ""
+    return f"{int(secs // 3600)}h" if secs < 86400 else f"{int(secs // 86400)}d"
 
 
-def send_daily_digest(pending, header=None):
-    roles = sorted(pending.values(), key=lambda r: -r.get("score", 0))
-    cap = CFG.get("tierb_digest_max", 60)
-    lines = [f"[{r.get('score',0)}] {r['company']}: {r['title'][:48]}" for r in roles[:cap]]
-    extra = f"\n+{len(roles) - cap} more" if len(roles) > cap else ""
-    ntfy(header or f"vigil daily: {len(roles)} Tier B roles",
-         "\n".join(lines) + extra, tags="clipboard", priority="default")
+def fmt_season(terms):
+    if not terms:
+        return ""
+    return terms[0] if isinstance(terms, list) else terms
+
+
+def push_role(job, priority="high"):
+    """One notification. Header = 'Company - Title' (never repeated in the body);
+    body = location + posted-age / season / score, omitting whatever's unknown."""
+    parts = []
+    age = fmt_age(job.get("posted"))
+    if age:
+        parts.append(f"Posted {age} ago")
+    season = fmt_season(job.get("terms"))
+    if season:
+        parts.append(season)
+    parts.append(f"score {job.get('score', 0)}")
+    body = (job.get("location") or "location n/a") + "\n" + " · ".join(parts)
+    ntfy(f"{job['company']} - {job['title']}", body, click=job["url"], priority=priority)
+
+
+def send_digest(roles):
+    """Tier B batch (4+ roles): one line each, hardest-hitting first, cap 25."""
+    roles = sorted(roles, key=lambda r: -r.get("score", 0))
+
+    def line(r):
+        bits = [r["company"], r["title"], r.get("location") or "?"]
+        age = fmt_age(r.get("posted"))
+        if age:
+            bits.append(age)
+        return " · ".join(bits)
+
+    lines = [line(r) for r in roles[:25]]
+    extra = f"\n+{len(roles) - 25} more" if len(roles) > 25 else ""
+    ntfy(f"{len(roles)} new hardware roles", "\n".join(lines) + extra,
+         tags="clipboard", priority="low")
 
 
 def send_weekly_rejects(rejects, yld=None, since=None):
@@ -578,7 +612,8 @@ def scan(seen, enrich, collect_rejects=False):
                     continue
                 seen.add(job["id"])
                 rec = {"id": job["id"], "company": job["company"], "title": job["title"],
-                       "location": job["location"], "url": job["url"], "score": val}
+                       "location": job["location"], "url": job["url"], "score": val,
+                       "posted": job.get("posted", 0), "terms": job.get("terms")}
                 if decision == "A":
                     src_stat["A"] += 1; tier_a.append(rec)
                 else:
@@ -623,21 +658,24 @@ def do_explain(job_id):
 
 
 def test_alert():
-    """Exercise the real delivery path: one Tier A push + one 8-row daily digest.
-    Everything is clearly prefixed [TEST] / TEST - so it can't be mistaken for real."""
-    a = {"company": "Waymo", "title": "[TEST] Robotics Software Intern",
-         "location": "Mountain View, CA", "url": "https://github.com/AbhigyaGoel/vigil", "score": 4}
-    push_tier_a(a, a["score"])
-    print("sent Tier A test ->", a["title"], "| Apply:", a["url"])
-    rows = [("Zipline", "Perception Intern", 5), ("Rivian", "Vehicle Controls Intern", 4),
-            ("Nuro", "Embedded Systems Intern", 4), ("Cobot", "Robotics Hardware Intern", 4),
-            ("Skydio", "Firmware Intern", 3), ("1X", "Mechatronics Intern", 3),
-            ("Physical Intelligence", "Controls Intern", 3), ("Figure", "Sensor Fusion Intern", 3)]
-    pending = {f"t{i}": {"company": c, "title": f"[TEST] {t}", "location": "US",
-                         "url": f"https://github.com/AbhigyaGoel/vigil#{i}", "score": s}
-               for i, (c, t, s) in enumerate(rows)}
-    send_daily_digest(pending, header="TEST - vigil daily digest (8 sample rows)")
-    print(f"sent daily digest -> {len(pending)} Tier B rows")
+    """Exercise the real delivery path in the real format: one Tier A push + one
+    Tier B digest (8 rows). Titles carry [TEST] so it can't be mistaken for real."""
+    day = 86400
+    a = {"company": "Nuro", "title": "[TEST] Embedded Systems Intern",
+         "location": "Mountain View, CA", "url": "https://github.com/AbhigyaGoel/vigil",
+         "score": 4, "posted": time.time() - 2 * day, "terms": ["Summer 2027"]}
+    push_role(a, "high")
+    print("sent Tier A test ->", a["title"])
+    rows = [("Zipline", "Perception Intern", 5, 1), ("Rivian", "Vehicle Controls Intern", 4, 3),
+            ("Nuro", "Embedded Systems Intern", 4, 2), ("Cobot", "Robotics Hardware Intern", 4, 0),
+            ("Skydio", "Firmware Intern", 3, 5), ("1X", "Mechatronics Intern", 3, 4),
+            ("Physical Intelligence", "Controls Intern", 3, 7), ("Figure", "Sensor Fusion Intern", 3, 6)]
+    roles = [{"company": c, "title": f"[TEST] {t}", "location": "South San Francisco, CA",
+              "url": f"https://github.com/AbhigyaGoel/vigil#{i}", "score": s,
+              "posted": (time.time() - d * day) if d else 0, "terms": None}
+             for i, (c, t, s, d) in enumerate(rows)]
+    send_digest(roles)
+    print(f"sent Tier B digest -> {len(roles)} rows")
 
 
 def main():
@@ -686,7 +724,7 @@ def main():
         cap = CFG.get("max_alerts_per_run", 25)
         for r in tier_a[:cap]:
             try:
-                push_tier_a(r, r["score"])
+                push_role(r, "high")
                 print("PING-A", r["company"], "|", r["title"])
             except Exception as e:
                 print("WARN push", repr(e)[:70], file=sys.stderr)
@@ -696,17 +734,23 @@ def main():
             pending[r["id"]] = r
         print(f"{len(tier_a)} Tier A pushed, {len(tier_b)} added to Tier B queue ({len(pending)} pending).")
 
-    # scheduled digests: fire on the first run at/after the target hour that hasn't
-    # fired yet today/this week. Using >= (not ==) means a dropped run inside the
-    # target hour can't silently skip a day - the next run catches up.
+    # Tier B: at most once per hour, and only when there's something new (never an
+    # empty digest). 1-3 roles go out as individual low-priority notifications so each
+    # keeps its own Apply button; 4+ batch into a single low-priority list.
     if not first_run:
-        h = CFG.get("digest_hour_utc", 13)
-        if pending and state.get("last_daily") != today and now.hour >= h:
+        if pending and time.time() - state.get("last_digest", 0) >= 3600:
+            roles = list(pending.values())
             try:
-                send_daily_digest(pending); print(f"daily digest sent ({len(pending)})")
-                pending = {}; state["last_daily"] = today
+                if len(roles) <= 3:
+                    for r in sorted(roles, key=lambda x: -x.get("score", 0)):
+                        push_role(r, "low")
+                    print(f"Tier B: {len(roles)} sent individually")
+                else:
+                    send_digest(roles); print(f"Tier B digest: {len(roles)}")
+                pending = {}; state["last_digest"] = time.time()
             except Exception as e:
-                print("WARN daily", repr(e)[:70], file=sys.stderr)
+                print("WARN digest", repr(e)[:70], file=sys.stderr)
+        h = CFG.get("digest_hour_utc", 13)
         if (state.get("last_weekly") != week and now.weekday() >= CFG.get("weekly_day", 0)
                 and now.hour >= h):
             try:

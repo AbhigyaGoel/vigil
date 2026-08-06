@@ -66,13 +66,22 @@ async function fetchBoard(b) {
   }));
 }
 
+function ageStr(posted) {
+  if (!posted) return "";                 // omit age rather than fake "0d"
+  const secs = (Date.now() - posted) / 1000;
+  if (secs < 0) return "";
+  return secs < 86400 ? `${Math.floor(secs / 3600)}h` : `${Math.floor(secs / 86400)}d`;
+}
+
 async function ntfy(env, job) {
   if (!env.NTFY_TOPIC) return;
+  const age = ageStr(job.posted);
+  const body = (job.location || "location n/a") + (age ? `\nPosted ${age} ago` : "");
   await fetch(`https://ntfy.sh/${env.NTFY_TOPIC}`, {
     method: "POST",
-    body: `${job.company} - ${job.title}\n${job.location || "location n/a"}`,
+    body,   // header (company - title) is NOT repeated here
     headers: {
-      ...UA, Title: `${job.company}: ${job.title}`.slice(0, 100).replace(/[^\x20-\x7e]/g, ""),
+      ...UA, Title: `${job.company} - ${job.title}`.slice(0, 140).replace(/[^\x20-\x7e]/g, ""),
       Tags: "zap", Priority: "high", Click: job.url, Actions: `view, Apply, ${job.url}`,
     },
   });
