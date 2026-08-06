@@ -2422,6 +2422,13 @@
 "tag": "Summer 2026"
 },
 {
+"id": "ls:a5e9c092-6cda-482a-967c-6c02b15a0fbd",
+"company": "BorgWarner",
+"title": "Validation Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
 "id": "ls:fe59e903-3f33-41f3-add0-3ce0ba6fe501",
 "company": "BorgWarner",
 "title": "Validation Intern",
@@ -5931,13 +5938,6 @@
 {
 "id": "ls:7d13d689-657d-404d-9463-284ccb89bd44",
 "company": "Beacon Software",
-"title": "Software Engineer Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
-"id": "ls:b8a3808e-1eee-4b31-a9ed-c8790b1c82b9",
-"company": "Copart",
 "title": "Software Engineer Intern",
 "rule": "season",
 "tag": "Fall 2026"
@@ -9471,13 +9471,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:ac0e3f80-3460-4cf1-b1bb-83a05b56b495",
-"company": "PNC Financial Services",
-"title": "Technology Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:9cb4c737-6df9-4e67-84df-df1d44834fc0",
 "company": "The Boeing Company",
 "title": "Data Analytics Intern",
@@ -10309,13 +10302,6 @@
 "title": "People Analytics Intern",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:ea40b09a-1b9a-48b0-8330-24a499d63fe8",
-"company": "GE Appliances",
-"title": "Engineering Co-op",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:bdefa1b8-76a9-4d2c-8b53-192783c6edd7",
@@ -128485,6 +128471,13 @@
 "tag": ""
 },
 {
+"id": "at:https://job-boards.greenhouse.io/densityai/jobs/4336452009",
+"company": "Densityai",
+"title": "Technical Intern- Software  (Fall 2026) \ud83c\uddfa\ud83c\uddf8",
+"rule": "season",
+"tag": "title"
+},
+{
 "id": "at:https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10243573",
 "company": "Northrop Grumman",
 "title": "2027 Intern Software Engineer \ud83c\uddfa\ud83c\uddf8",
@@ -128593,13 +128586,6 @@
 "id": "at:https://jobs.ashbyhq.com/yotta/09821a51-fbe6-42a7-a566-0d2b5d40fae3",
 "company": "Yotta Labs",
 "title": "Research Engineer Intern - AI Systems",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210773869",
-"company": "JPMorganChase",
-"title": "2027 Data & AI Program - Summer Internship - Analyst - United States",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -129157,6 +129143,13 @@
 "tag": "title"
 },
 {
+"id": "wd:nvidia:/job/Israel-Tel-Aviv/Firmware-Engineer_JR2022198",
+"company": "NVIDIA",
+"title": "Firmware Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "wd:nvidia:/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
 "company": "NVIDIA",
 "title": "Software Engineering Intern, Dynamo - Fall 2026",
@@ -129497,13 +129490,6 @@
 "company": "NVIDIA",
 "title": "Software Engineer, TensorRT Specialized Platforms - New College Grad 2025",
 "rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:",
-"company": "NVIDIA",
-"title": "",
-"rule": "not-intern",
 "tag": ""
 },
 {
@@ -131044,13 +131030,6 @@
 "company": "Intel",
 "title": "Pre-Silicon IP System Validation Intern",
 "rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:intel:/job/Israel-Kiryat-Gat/IT-Network-Student_JR0285867",
-"company": "Intel",
-"title": "IT Network Student",
-"rule": "not-intern",
 "tag": ""
 },
 {
