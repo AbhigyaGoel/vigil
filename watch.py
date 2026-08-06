@@ -480,7 +480,7 @@ def _load(path, default):
     return default
 
 
-LOGIC_VERSION = "v2.2"  # bump when filter/scoring CODE changes -> forces a silent reseed
+LOGIC_VERSION = "v2.3"  # bump when filter/scoring CODE changes -> forces a silent reseed
 
 
 def config_hash():

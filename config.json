@@ -183,9 +183,13 @@
     { "name": "NVIDIA", "tenant": "nvidia", "host": "nvidia.wd5.myworkdayjobs.com", "site": "NVIDIAExternalCareerSite" },
     { "name": "Micron", "tenant": "micron", "host": "micron.wd1.myworkdayjobs.com", "site": "External" },
     { "name": "Analog Devices", "tenant": "analogdevices", "host": "analogdevices.wd1.myworkdayjobs.com", "site": "External" },
-    { "name": "KLA", "tenant": "kla", "host": "kla.wd1.myworkdayjobs.com", "site": "Search" }
+    { "name": "KLA", "tenant": "kla", "host": "kla.wd1.myworkdayjobs.com", "site": "Search" },
+    { "name": "Intel", "tenant": "intel", "host": "intel.wd1.myworkdayjobs.com", "site": "External" },
+    { "name": "Applied Materials", "tenant": "amat", "host": "amat.wd1.myworkdayjobs.com", "site": "External" },
+    { "name": "Marvell", "tenant": "marvell", "host": "marvell.wd1.myworkdayjobs.com", "site": "MarvellCareers" },
+    { "name": "Caterpillar", "tenant": "cat", "host": "cat.wd5.myworkdayjobs.com", "site": "CaterpillarCareers" }
   ],
-  "_workday_todo": "Verified live: NVIDIA, Micron, ADI, KLA. To add more, open the company's Workday careers page: the URL is https://<host>/<site>/... and the tenant is the path segment after /wday/cxs/. Hosts that resolved but need the right site name (returned 422): qualcomm.wd5, appliedmaterials.wd1, lamresearch.wd1.",
+  "_workday_todo": "Verified live (intern workerSubType facet): NVIDIA, Micron, ADI, KLA, Intel, Applied Materials (tenant=amat), Marvell, Caterpillar (tenant=cat). NOT added: Qualcomm (cxs 422 on every site variant), Magna (no workerSubType facet -> would need fuzzy search, blind-spot risk), AMD/John Deere/Rivian/Bosch/Lam Research (no public Workday board found). Non-Workday, need separate adapters: Apple (jobs.apple.com search API), Texas Instruments (Oracle Cloud). To add a Workday tenant: find its board URL (https://<host>/<site>/...), tenant is the path after /wday/cxs/, verify the cxs jobs endpoint returns a workerSubType intern facet.",
   "_deliberately_omitted": {
     "note": "Verified-real slugs left out because the company's revenue is materially defense/DoD. Paste back in if you change your mind.",
     "greenhouse": [
