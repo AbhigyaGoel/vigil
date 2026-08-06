@@ -245,6 +245,13 @@
 "tag": "Spring 2026"
 },
 {
+"id": "ls:e7d90cdc-955f-4bb2-8a94-81ea48265d84",
+"company": "TikTok",
+"title": "Software Engineer Intern - Ads Infrastructure",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
 "id": "ls:c9537cb3-f4e3-41b6-871f-ca361354dd73",
 "company": "PennState University",
 "title": "Physics Department - Research Support - Ultrahigh Energy Neutrinos",
@@ -1055,13 +1062,6 @@
 "title": "Software Engineering Intern (Cyber focus)",
 "rule": "season",
 "tag": "Summer 2026"
-},
-{
-"id": "ls:b8e5d108-c2d4-4203-be00-c0a649c4459d",
-"company": "Etched",
-"title": "Electrical Platform Intern",
-"rule": "season",
-"tag": "Fall 2026"
 },
 {
 "id": "ls:b8ae5631-fcba-47bf-a0d0-e14c18d4a882",
@@ -5348,6 +5348,13 @@
 "tag": "Fall 2026"
 },
 {
+"id": "ls:b4979a01-4110-4ef8-a1a3-cf9c33776e5a",
+"company": "Zoox",
+"title": "Student Worker - Manufacturing Software Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:aede4467-5907-43aa-850b-9d6349575538",
 "company": "National Laboratory of the Rockies",
 "title": "Associate/Undergraduate Intern",
@@ -6146,13 +6153,6 @@
 "tag": ""
 },
 {
-"id": "ls:59c58f10-3239-45d4-9c44-cd1342e15ae8",
-"company": "Magna",
-"title": "Manufacturing Execution Systems Co-op - Manufacturing Execution Systems",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:94928190-a01b-4ff0-8068-4fad65af019c",
 "company": "Cincinnati Children\u2019s Hospital and Medical Center",
 "title": "Student 2 - Data Management",
@@ -6787,6 +6787,13 @@
 "company": "Wells Fargo",
 "title": "Corporate Risk Development Program Intern - Core Risk - Early Careers",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:664a4064-bf27-4a2a-bbd6-939cd77b76ce",
+"company": "GE Healthcare",
+"title": "Field Engineer Apprentice",
+"rule": "seniority",
 "tag": ""
 },
 {
@@ -8239,13 +8246,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:84c60471-c6d0-43de-9f00-63407856c63e",
-"company": "Cohere",
-"title": "Data Annotation Specialist - Simplified Chinese / Mandarin",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:7cda2fe0-d7ab-4d20-8316-4295d0f631fb",
 "company": "Pennsylvania State University",
 "title": "Lab Digital Assistant",
@@ -9051,13 +9051,6 @@
 "tag": ""
 },
 {
-"id": "ls:1bf46509-1ef7-44c8-9af8-cbe0dbe392ff",
-"company": "JP Morgan Chase",
-"title": "Data Internship - Data & AI Program",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:736ed5d6-63be-4dfa-b0d6-5eb9c5d4e663",
 "company": "JP Morgan Chase",
 "title": "Quantitative Research Intern - Risk and Treasury",
@@ -9378,13 +9371,6 @@
 "title": "Media Studio Technology Consultant",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:96b741b8-2256-4846-ae66-6fbce7641a46",
-"company": "HireVue",
-"title": "IO Product Science Intern",
-"rule": "season",
-"tag": "Summer 2026"
 },
 {
 "id": "ls:a8de70cc-4a6f-4f62-a560-4b7baef84d9b",
@@ -10318,13 +10304,6 @@
 "tag": ""
 },
 {
-"id": "ls:af0010c7-8bfd-4664-aa13-4626a4140ee2",
-"company": "Swift",
-"title": "Industry Engagement Research Analyst Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:fef69e02-fe37-4ff4-b158-7dceacfeb578",
 "company": "US Acute Care Solutions",
 "title": "People Analytics Intern",
@@ -10679,13 +10658,6 @@
 "company": "ByteDance",
 "title": "Applied Machine Learning Production Engineer Intern - AML Production Engineer",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:b42d28f6-494f-4b0a-8e40-29dd669c4846",
-"company": "Canva",
-"title": "PhD Research Scientist Intern - Generative AI",
-"rule": "seniority",
 "tag": ""
 },
 {
@@ -129213,13 +129185,6 @@
 "tag": ""
 },
 {
-"id": "wd:nvidia:",
-"company": "NVIDIA",
-"title": "",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:nvidia:/job/Taiwan-Taipei/System-Design-Engineer---LDE--RDSS-Intern-_JR2021878",
 "company": "NVIDIA",
 "title": "System Design Engineer - LDE (RDSS Intern)",
@@ -129535,10 +129500,10 @@
 "tag": ""
 },
 {
-"id": "wd:nvidia:/job/Israel-Yokneam/Applied-Physics-and-Electro-Optics-Intern_JR2018120",
+"id": "wd:nvidia:",
 "company": "NVIDIA",
-"title": "Applied Physics and Electro-Optics Intern",
-"rule": "geo",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -130981,6 +130946,13 @@
 "company": "KLA",
 "title": "Associate Test Engineer Trainee",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/PRC-Chengdu/Facilities-Engineering-Intern_JR0286245",
+"company": "Intel",
+"title": "Facilities Engineering Intern",
+"rule": "irrelevant",
 "tag": ""
 },
 {
