@@ -1645,6 +1645,13 @@
 "tag": ""
 },
 {
+"id": "ls:16245ae0-c25a-4918-a292-b5fdd502742f",
+"company": "GE Healthcare",
+"title": "Surgery Field Engineer Apprentice Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "ls:d2d779ba-bdb3-4801-889e-f3c0da9be4ee",
 "company": "Amazon",
 "title": "Applied Science Intern - Reinforcement Learning & Optimization - Machine Learning",
@@ -3605,13 +3612,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:480b1ffd-7a33-4a90-9d19-fd390e121055",
-"company": "Solar Turbines",
-"title": "Gas Compressor Data Analyst Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:6568ed59-ff3f-4485-97a2-64f6d218c8a0",
 "company": "The Campbell's Company",
 "title": "Data Engineer Co-op - Operational Support",
@@ -5446,13 +5446,6 @@
 "tag": ""
 },
 {
-"id": "ls:dc9a39f7-72fa-452b-8863-2071f8e63489",
-"company": "ABB",
-"title": "Application Engineering Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:037d7693-e6be-486d-b4bd-d7dff6960ce4",
 "company": "GE Healthcare",
 "title": "Field Service Apprentice",
@@ -7280,13 +7273,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:18762fe0-77c9-4c38-9e4c-d649c204e975",
-"company": "GE Healthcare",
-"title": "Surgery Field Engineer Apprentice",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:b325b0d7-6893-48a0-ba15-2cb50835c698",
 "company": "Northwestern Mutual",
 "title": "Investment Analyst Intern - Private Debt & Equity",
@@ -7733,13 +7719,6 @@
 "title": "Analytics & Behavior Change - Engineering Undergrad - Conversion",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:7f0b4b51-7fe2-4636-acda-1f3a52a12e19",
-"company": "Rockwell Automation",
-"title": "Applied AI Intern",
-"rule": "season",
-"tag": "Fall 2026"
 },
 {
 "id": "ls:229ace69-8177-42cc-a85f-c0517803f03b",
@@ -128744,13 +128723,6 @@
 "tag": "title"
 },
 {
-"id": "at:https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Austin-Texas-United-States/Intern--Applied-AI_R26-5631-2",
-"company": "Rockwell Automation",
-"title": "Intern, Applied AI",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "at:https://job-boards.greenhouse.io/rendezvousrobotics/jobs/4328555009",
 "company": "Rendezvous Robotics",
 "title": "Software Engineering Intern (Fall 2026) \ud83c\uddfa\ud83c\uddf8",
@@ -129206,6 +129178,13 @@
 "tag": "title"
 },
 {
+"id": "at:https://www.amazon.jobs/en/jobs/10412530/software-development-engineer-intern-aws-data-services-fall-2026-us",
+"company": "Amazon",
+"title": "Software Development Engineer Intern, AWS Data Services - Fall 2026 (US)",
+"rule": "season",
+"tag": "title"
+},
+{
 "id": "wd:nvidia:/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
 "company": "NVIDIA",
 "title": "Software Engineering Intern, Dynamo - Fall 2026",
@@ -129234,9 +129213,9 @@
 "tag": ""
 },
 {
-"id": "wd:nvidia:/job/Israel-Tel-Aviv/Software-Architect--AI-Networking_JR2022557",
+"id": "wd:nvidia:",
 "company": "NVIDIA",
-"title": "Software Architect, AI Networking",
+"title": "",
 "rule": "not-intern",
 "tag": ""
 },
@@ -131425,13 +131404,6 @@
 "tag": ""
 },
 {
-"id": "wd:amat:/job/RehovotISR/Industrial-Engineer---Student_R2622470",
-"company": "Applied Materials",
-"title": "Industrial Engineer - Student",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:amat:/job/SingaporeSGP/Customer-Engineer---New-College-Graduates-_R2622684",
 "company": "Applied Materials",
 "title": "Customer Engineer ( New College Graduates)",
@@ -131877,6 +131849,20 @@
 "company": "Boston Dynamics",
 "title": "Technical Support Engineer",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:nxp:/job/Shenzhen/XMLNAME-2027-Intern---Field-Quality-Engineer-Intern_R-10065018",
+"company": "NXP",
+"title": "2027 Intern - Field Quality Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:nxp:/job/Shanghai-JingAn/XMLNAME-2027-Intern---Field-Quality-Engineer-Intern_R-10065019",
+"company": "NXP",
+"title": "2027 Intern - Field Quality Engineer Intern",
+"rule": "irrelevant",
 "tag": ""
 },
 {
