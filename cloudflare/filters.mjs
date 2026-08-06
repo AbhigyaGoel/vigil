@@ -57,10 +57,11 @@ export function hardMismatch(desc) {
   return false;
 }
 
-// The instant-push decision for a curated-board role. Curated bypasses the score
-// gate (any surviving US intern is instant-worthy) but must be US, in-season, and
-// (when a description is available) not a hard eligibility mismatch.
-export function curatedInstant(job, f) {
+// Cheap title/geo checks (no description needed). The worker resolves the
+// description separately (inline for Lever/Ashby, per-job fetch for Greenhouse)
+// and applies hardMismatch after this passes, so a description is fetched only
+// for roles about to be pushed.
+export function curatedTitlePass(job, f) {
   if (!job.url || !job.title) return false;
   const blob = `${job.title} ${job.company}`;
   if (f.exclude && f.exclude.test(blob)) return false;
@@ -68,6 +69,11 @@ export function curatedInstant(job, f) {
   if (f.intern && !f.intern.test(job.title)) return false;   // intern/co-op gate
   if (f.seasonDrop(job.title)) return false;                 // title says a 2026 season
   if (f.geo(job.location) !== "us") return false;            // non-US never instant-pushes
-  if (hardMismatch(job.desc)) return false;                  // 2026/27-grad or Master/PhD only
   return true;
+}
+
+// Full instant-push decision (title checks + description hard-mismatch). Used by
+// the parity test; the worker inlines the two halves so it can fetch the GH desc.
+export function curatedInstant(job, f) {
+  return curatedTitlePass(job, f) && !hardMismatch(job.desc);
 }

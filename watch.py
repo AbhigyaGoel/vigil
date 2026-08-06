@@ -83,6 +83,7 @@ SCORING = [(w, re.compile(p, re.I)) for w, p in CFG.get("scoring", [])]
 MAX_AGE = CFG.get("max_age_days", 21) * 86400
 US_STATE = re.compile(r",\s*[A-Z]{2}(\b|$)")
 US_NAME = re.compile(r"\b(united states|usa|u\.s\.a?\.)\b", re.I)
+NEWGRAD = re.compile(r"new col|new ?grad|college grad|\bgraduate\b|university grad", re.I)
 
 ENRICH_FETCH = True      # network description fetch; off during seed and --dry
 ENRICH_BUDGET = [60]     # max Workday/Simplify detail fetches per run (bounds runtime)
@@ -410,7 +411,8 @@ def classify(job, enrich, trace=None):
 
     # --- hard filters (only these may drop; each needs positive evidence) ---
     if policy != "tagged" and ATS_REQUIRE and not ATS_REQUIRE.search(title):
-        note("DROP not-intern"); return "drop", "not-intern"
+        reason = "new-grad" if NEWGRAD.search(title) else "not-intern"
+        note(f"DROP {reason}"); return "drop", reason
     note("pass intern-gate")
     if EXCLUDE and EXCLUDE.search(blob):
         note("DROP seniority/role"); return "drop", "seniority"
@@ -591,11 +593,6 @@ def print_table(stats):
     print("-" * 60)
     print(f"{'TOTAL':14} {tot['scanned']:>8} {tot['A']:>6} {tot['B']:>6}  "
           + ", ".join(f"{k}:{v}" for k, v in dtot.most_common()))
-    season_drops = dtot.get("season", 0)
-    post_cat = tot["A"] + tot["B"] + season_drops
-    if post_cat and season_drops / post_cat > 0.9:
-        print(f"WARN season drops are {season_drops}/{post_cat} (>90%) of post-category candidates",
-              file=sys.stderr)
 
 
 def do_explain(job_id):
@@ -616,8 +613,27 @@ def do_explain(job_id):
     print(f"job id {job_id} not found in any current source")
 
 
+def test_alert():
+    """Exercise the real delivery path: one Tier A push + one 8-row daily digest."""
+    a = {"company": "Waymo", "title": "Robotics Software Intern (vigil TEST)",
+         "location": "Mountain View, CA", "url": "https://github.com/AbhigyaGoel/vigil", "score": 4}
+    push_tier_a(a, a["score"])
+    print("sent Tier A test ->", a["title"], "| Apply:", a["url"])
+    rows = [("Zipline", "Perception Intern", 5), ("Rivian", "Vehicle Controls Intern", 4),
+            ("Nuro", "Embedded Systems Intern", 4), ("Cobot", "Robotics Hardware Intern", 4),
+            ("Skydio", "Firmware Intern", 3), ("1X", "Mechatronics Intern", 3),
+            ("Physical Intelligence", "Controls Intern", 3), ("Figure", "Sensor Fusion Intern", 3)]
+    pending = {f"t{i}": {"company": c, "title": t, "location": "US",
+                         "url": f"https://github.com/AbhigyaGoel/vigil#{i}", "score": s}
+               for i, (c, t, s) in enumerate(rows)}
+    send_daily_digest(pending)
+    print(f"sent daily digest -> {len(pending)} Tier B rows")
+
+
 def main():
     global ENRICH_FETCH
+    if "--test-alert" in sys.argv:
+        return test_alert()
     if "--explain" in sys.argv:
         i = sys.argv.index("--explain")
         return do_explain(sys.argv[i + 1])
@@ -683,6 +699,23 @@ def main():
                 send_weekly_rejects(rejects, yld, state.get("yield_since")); state["last_weekly"] = week
             except Exception as e:
                 print("WARN weekly", repr(e)[:70], file=sys.stderr)
+
+    # season-rate anomaly WARN: fire only on a sharp jump vs the trailing average,
+    # so a steady 98% August doesn't cry wolf but an upstream tagging shift does.
+    dtot = Counter()
+    for s in stats.values():
+        dtot.update(s["drop"])
+    season_drops = dtot.get("season", 0)
+    post_cat = sum(s["A"] + s["B"] for s in stats.values()) + season_drops
+    if not first_run and post_cat:
+        rate = season_drops / post_cat
+        hist = state.get("season_rates", [])
+        if len(hist) >= 12:
+            avg = sum(hist) / len(hist)
+            if rate > avg + 0.05:
+                print(f"WARN season-drop rate {rate:.0%} vs {avg:.0%} trailing-avg "
+                      f"(+{(rate - avg) * 100:.0f}pt) - upstream tagging shift?", file=sys.stderr)
+        state["season_rates"] = (hist + [round(rate, 4)])[-48:]
 
     # persist
     state["config_hash"] = cur_hash
