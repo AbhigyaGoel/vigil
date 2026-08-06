@@ -3255,13 +3255,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:f224e9c0-6aa1-45bb-b02c-b75ccda9b00c",
-"company": "Tesla",
-"title": "Software Engineer Intern - AI Data Infrastructure",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:eee826e6-97e1-40a7-91fd-be9d495e5e43",
 "company": "Tesla",
 "title": "AI Hardware Design Engineer Intern - AI Hardware Design Engineer - AI Hardware",
@@ -4471,13 +4464,6 @@
 "title": "Product Intern",
 "rule": "season",
 "tag": "Summer 2026"
-},
-{
-"id": "ls:f4ebe8cb-1b5d-4c08-a638-8459d6ba8d63",
-"company": "Astranis",
-"title": "Reliability Design Intern",
-"rule": "season",
-"tag": "Fall 2026"
 },
 {
 "id": "ls:8febf19c-cdf5-437d-bf7b-f5d9d35987ea",
@@ -5691,13 +5677,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:aeb731f5-2ac3-477e-921b-74a84adcbdb6",
-"company": "Citadel Securities",
-"title": "Quantitative Trading Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:78885859-7ae3-42cc-a2db-f5d8aff6bfc7",
 "company": "Citadel",
 "title": "Investment & Trading Intern",
@@ -5708,13 +5687,6 @@
 "id": "ls:1ea0ca0e-e61d-4b8d-92fd-4a97c6ba9d82",
 "company": "Citadel",
 "title": "Software Engineer Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
-"id": "ls:18b48766-5e2c-436d-9735-13746605df79",
-"company": "Citadel Securities",
-"title": "Rates Trading Intern",
 "rule": "season",
 "tag": "Fall 2026"
 },
@@ -10596,6 +10568,104 @@
 "title": "AI Deployment Intern",
 "rule": "season",
 "tag": "Fall 2026"
+},
+{
+"id": "ls:6c1e882c-ab83-4d33-81c7-770ca19e76e1",
+"company": "Sargent & Lundy",
+"title": "AI & Automation Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:fad1406c-cd92-4587-b376-d9839b629e3c",
+"company": "TikTok",
+"title": "LLM Post-training Engineer Intern - Research & Product",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:0673c550-4c1f-4d6c-b03d-e2185d8183b0",
+"company": "TikTok",
+"title": "Software Engineer Intern - Media Engine",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:9718a992-279b-4fd3-8a3b-358370055b64",
+"company": "TikTok",
+"title": "AI Product Operations Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:5240d3a1-8474-482a-bb81-33ca1189a842",
+"company": "TikTok",
+"title": "Product Manager Intern - Product Infrastructure - Account",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:b6cb7794-c736-4019-b882-94ec5758132d",
+"company": "TikTok",
+"title": "Strategy Product Manager Intern - Platform Responsibility",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:50940dc5-4b2f-4f49-983e-f589769f3848",
+"company": "ByteDance",
+"title": "Research Scientist Intern - Multimedia Streaming",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:a9d682ef-59ba-42c1-9fad-28a7afc1aea4",
+"company": "Northrop Grumman",
+"title": "Software Engineer Intern - Aeronautics Systems",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:76291290-bef0-475b-8a78-7859ffb4fd99",
+"company": "ByteDance",
+"title": "AI/LLM Network Research Intern - High Speed Network - PhD",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:057bb7a1-e45d-419a-9dce-d6991f31b27d",
+"company": "ByteDance",
+"title": "Software Engineer Intern - Global Payment - Compliance",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:023ddd9a-be5d-40ae-9e52-080a1b833c8e",
+"company": "ByteDance",
+"title": "AI/LLM Network Research Intern - High Speed Network",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:4af25efe-2dc0-4ef6-bd62-34ad9f646360",
+"company": "ByteDance",
+"title": "Research Scientist Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:6f26ea4e-9081-475e-a1fa-ab0a978643f5",
+"company": "ByteDance",
+"title": "Video/Image AI/ML Software Engineer Intern - Multimedia",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:34fa4813-bc92-4deb-8987-cf33bc625246",
+"company": "ByteDance",
+"title": "GPU/AI Application System Software Engineer Intern - System Technologies and Engineering",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -131586,6 +131656,13 @@
 "tag": ""
 },
 {
+"id": "wd:cat:",
+"company": "Caterpillar",
+"title": "",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "wd:cat:/job/Tianjin-Tianjin/Engineering-Intern_R0000385248",
 "company": "Caterpillar",
 "title": "Engineering Intern",
@@ -131922,24 +131999,10 @@
 "tag": ""
 },
 {
-"id": "wd:nxp:",
-"company": "NXP",
-"title": "",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:nxp:/job/Eindhoven/BSc-Intern-position---In-Cabin-Sensing-for-Automotive-Applications-at-Systems-Innovation-Automotive--SI-A-_R-10062367",
 "company": "NXP",
 "title": "BSc Intern position - In-Cabin Sensing for Automotive Applications at Systems Innovation Automotive (SI A)",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:nxp:",
-"company": "NXP",
-"title": "",
-"rule": "not-intern",
 "tag": ""
 },
 {
@@ -132102,13 +132165,6 @@
 "title": "2026 Summer Intern (Penang) Supply Chain Planner",
 "rule": "season",
 "tag": "title"
-},
-{
-"id": "wd:trimble:/job/New-Zealand---Christchurch/Applications-Specialist-Intern_R55718",
-"company": "Trimble",
-"title": "Applications Specialist Intern",
-"rule": "geo",
-"tag": ""
 },
 {
 "id": "wd:trimble:/job/New-Zealand---Christchurch/Survey-Product-Management-Intern_R55930",
