@@ -5,20 +5,23 @@ GitHub Actions (and optionally a Cloudflare Worker).
 
 ## How it works
 
-Two public JSON sources:
+Sources (all public JSON): curated company boards (Greenhouse/Lever/Ashby),
+the `listings.json` behind SimplifyJobs-style repos, markdown/atom scrapes, and
+Workday (NVIDIA, Micron, ADI, KLA). Each source has a `policy` that decides how
+hard it's filtered - curated boards skip the keyword gate ("Engineering Intern"
+at a hand-picked company is wanted); bulk/aggregator sources require keywords.
 
-- Company job boards (Greenhouse, Lever, Ashby) for companies you pick.
-- The `listings.json` behind the SimplifyJobs-style repos. It carries far more
-  roles than their rendered README, which filters to one season while hardware
-  recruiting runs off-cycle.
+Every role is filtered (season, geography, seniority, defense), then **scored**
+hardware-first (hardware +4, robotics-software/perception/CV +3, wrong-skill -2)
+and split into two tiers:
 
-New matches are pushed to your phone with [ntfy](https://ntfy.sh) (free app, no
-account) with a tappable apply link. A saved `seen` list means no repeat pings.
+- **Tier A** - score >= 3, US, Summer-2027-eligible -> **instant** ntfy push.
+- **Tier B** - everything else that survives -> **one grouped digest per day.**
 
-Two tiers, both optional to run together:
-
-- GitHub Actions runs `watch.py` every ~5 min over the aggregator feeds.
-- A Cloudflare Worker polls the company boards every minute, for ~1-3 min latency.
+Two runners: a Cloudflare Worker polls curated boards every minute (instant),
+and GitHub Actions runs `watch.py` every ~5 min over the aggregators + Workday
+(with description enrichment and scoring). Delivery is [ntfy](https://ntfy.sh)
+(free app, no account). Dropped roles are logged; a weekly digest samples them.
 
 ## Setup
 
@@ -47,12 +50,15 @@ worker never alert the same role twice.
 Edit `config.json`, or put personal changes in `config.local.json` (gitignored,
 so your topic and filters stay out of the repo):
 
-- `greenhouse`, `lever`, `ashby`: company slugs from a careers page URL. Add yours.
-- `include_keywords`, `exclude_keywords`: title regex filters.
-- `include_categories`: aggregator category, e.g. `hardware`.
-- `listings_repos`: aggregator repos; update when the season rolls over.
+- `greenhouse`, `lever`, `ashby`, `workday`: company boards. Add your targets.
+- `scoring`: `[weight, regex]` rows - the hardware-vs-software ranking lives here.
+- `season_drop_terms` / `season_a_terms`: what counts as off-season vs Tier-A-eligible.
+- `include_keywords`, `exclude_keywords`, `exclude_companies`: regex filters.
+- `tagged_subregex`: pulls robotics-software out of the AI/ML and Software buckets.
 
-Preview what currently matches without sending anything: `python watch.py --dry`.
+Tools: `python watch.py --dry` (per-source/per-tier table, sends nothing) and
+`python watch.py --explain <job-id>` (full decision trace for one role). Changing
+any filter auto-forces a silent reseed, so widening never floods you with backfill.
 
 ## License
 
