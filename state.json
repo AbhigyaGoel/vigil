@@ -1,40 +1,41 @@
 {
-"config_hash": "9abf263f0eac5f1e",
+"config_hash": "dad6e2026d0cb8b7",
 "yield": {
 "listings_feed": {
-"scanned": 1842,
-"A": 3,
-"B": 22
+"scanned": 3683,
+"A": 6,
+"B": 44
 },
 "markdown_source": {
-"scanned": 16568,
+"scanned": 33136,
 "A": 0,
-"B": 38
+"B": 76
 },
 "atom_feed": {
-"scanned": 100,
+"scanned": 200,
 "A": 0,
-"B": 4
+"B": 8
 },
 "workday:NVIDIA": {
-"scanned": 100,
+"scanned": 186,
 "A": 0,
 "B": 0
 },
 "workday:Micron": {
-"scanned": 100,
+"scanned": 140,
 "A": 0,
-"B": 0
+"B": 2
 },
 "workday:Analog Devices": {
-"scanned": 100,
+"scanned": 228,
 "A": 0,
-"B": 0
+"B": 2
 },
 "workday:KLA": {
-"scanned": 100,
+"scanned": 104,
 "A": 0,
 "B": 0
 }
-}
+},
+"yield_since": "2026-08-06"
 }
