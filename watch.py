@@ -5,7 +5,7 @@ vigil - hardware internship tracker (wide-net / scoring tier).
 Runs on GitHub Actions. Pulls the aggregator + Workday sources, filters with a
 per-source policy, scores each survivor hardware-first, and splits into:
   Tier A -> instant ntfy push        (score >= 3, US, Summer-2027-eligible)
-  Tier B -> one grouped digest a day (everything else that survives)
+  Tier B -> hourly batch, low priority (everything else that survives)
 Curated company boards (Greenhouse/Lever/Ashby) get instant pushes from the
 Cloudflare Worker instead, so they're skipped here when SKIP_ATS is set.
 
@@ -503,12 +503,12 @@ def config_hash():
 
 # ---------------- notify ----------------
 
-def ntfy(title, body, click=None, tags="zap", priority="high"):
+def ntfy(title, body, click=None, priority="high"):
     topic = CFG.get("ntfy_topic", "")
     if not topic or topic.startswith("CHANGE-ME"):
         return
     headers = {**UA, "Title": title[:140].encode("ascii", "ignore").decode(),
-               "Tags": tags, "Priority": priority}
+               "Priority": priority}
     if click:
         headers["Click"] = click
         headers["Actions"] = f"view, Apply, {click}"
@@ -528,9 +528,12 @@ def fmt_age(posted):
 
 
 def fmt_season(terms):
+    """Prefer the term the role actually qualified on (a season_a term), so a role
+    tagged [Fall 2026, Summer 2027] labels as Summer 2027, not its first tag."""
     if not terms:
         return ""
-    return terms[0] if isinstance(terms, list) else terms
+    tlist = terms if isinstance(terms, list) else [terms]
+    return next((t for t in tlist if t in A_SEASONS), tlist[0])
 
 
 def push_role(job, priority="high"):
@@ -561,8 +564,7 @@ def send_digest(roles):
 
     lines = [line(r) for r in roles[:25]]
     extra = f"\n+{len(roles) - 25} more" if len(roles) > 25 else ""
-    ntfy(f"{len(roles)} new hardware roles", "\n".join(lines) + extra,
-         tags="clipboard", priority="low")
+    ntfy(f"{len(roles)} new hardware roles", "\n".join(lines) + extra, priority="low")
 
 
 def send_weekly_rejects(rejects, yld=None, since=None):
@@ -581,7 +583,7 @@ def send_weekly_rejects(rejects, yld=None, since=None):
     body.append("")
     body += [f"[{r['rule']}] {r['company']}: {r['title'][:44]}" for r in sample]
     ntfy(f"vigil weekly: {len(rejects)} rejects, yield report", "\n".join(body) or "no data",
-         tags="wastebasket", priority="low")
+         priority="low")
 
 
 # ---------------- run ----------------

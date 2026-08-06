@@ -16,7 +16,8 @@ hardware-first (hardware +4, robotics-software/perception/CV +3, wrong-skill -2)
 and split into two tiers:
 
 - **Tier A** - score >= 3, US, Summer-2027-eligible -> **instant** ntfy push.
-- **Tier B** - everything else that survives -> **one grouped digest per day.**
+- **Tier B** - everything else that survives -> low-priority, batched hourly
+  (1-3 roles arrive individually so each keeps its apply link; 4+ as one list).
 
 Two runners: a Cloudflare Worker polls curated boards every minute (instant),
 and GitHub Actions runs `watch.py` every ~5 min over the aggregators + Workday

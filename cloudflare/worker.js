@@ -82,7 +82,7 @@ async function ntfy(env, job) {
     body,   // header (company - title) is NOT repeated here
     headers: {
       ...UA, Title: `${job.company} - ${job.title}`.slice(0, 140).replace(/[^\x20-\x7e]/g, ""),
-      Tags: "zap", Priority: "high", Click: job.url, Actions: `view, Apply, ${job.url}`,
+      Priority: "high", Click: job.url, Actions: `view, Apply, ${job.url}`,
     },
   });
 }
