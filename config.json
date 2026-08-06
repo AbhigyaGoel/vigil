@@ -10,15 +10,27 @@
   "max_age_days": 21,
 
   "require_active": true,
-  "include_terms": [
-    "Summer 2027",
-    "Fall 2026",
-    "Spring 2027",
-    "Winter 2027",
-    "Summer 2028",
-    "N/A"
-  ],
+  "season_drop_terms": ["Fall 2026", "Summer 2026", "Spring 2026", "Winter 2026", "Spring 2027", "Winter 2027"],
+  "season_a_terms": ["Summer 2027", "Summer 2028", "Fall 2027"],
+  "season_title_drop": "summer 2026|fall 2026|spring 2026|winter 2026|2026 summer|spring 2027|winter 2027",
   "include_categories": ["Hardware", "Hardware Engineering"],
+  "soft_categories": ["AI/ML/Data", "Data Science, AI & Machine Learning", "Software", "Software Engineering"],
+  "tagged_subregex": "robot|perception|autonom|self-?driving|\\bAV\\b|\\bADAS\\b|\\bSLAM\\b|computer vision|embodied|manipulation|sensor|lidar|drone|\\bUAV\\b|vehicle|controls?|motion|edge|on-?device|embedded|hardware|firmware|inference|kernel|\\bCUDA\\b|compiler|accelerat",
+  "tier_b_countries": ["canada", "united kingdom", "\\buk\\b", "england", "scotland", "ireland", "germany", "france", "spain", "italy", "netherlands", "sweden", "switzerland", "poland", "portugal", "austria", "belgium", "denmark", "finland", "norway", "czech", "japan"],
+  "drop_countries": ["china", "\\bindia\\b", "singapore", "korea", "taiwan", "israel", "australia", "new zealand", "brazil", "mexico", "united arab emirates", "\\buae\\b", "saudi arabia", "\\bqatar\\b", "hong kong", "philippines", "vietnam", "thailand", "indonesia", "malaysia", "turkey", "egypt"],
+  "_scoring_note": "Deviation from the +3/+2 in the prompt: hardware is +4 and robotics-software is +3 (both clear the Tier A >=3 bar on title alone, hardware still sorts higher). The written +3/+2 left robotics-software below the bar unless a fragile description fetch added +1, which failed the Zipline/Multiply recall test.",
+  "scoring": [
+    [4, "embedded|firmware|\\bhardware\\b|bring-?up|electronics design|board design|\\bPCB\\b|mechatronic|electrical engineer|hardware test|hardware validation|systems integration|schematic"],
+    [3, "robot|\\bcontrols?\\b|autonom|perception|computer vision|sensor fusion|\\bSLAM\\b|\\bADAS\\b|edge (ai|ml|comput)|on-?device|flight software|3d vision|manipulation|\\bROS ?2?\\b|\\bvehicle\\b"],
+    [1, "\\bC\\+\\+|\\bROS\\b|jetson|kicad|oscilloscope|logic analyzer|\\bI2C\\b|\\bSPI\\b|\\bUART\\b"],
+    [-2, "\\bASIC\\b|\\bFPGA\\b|\\bRTL\\b|design verification|digital design|physical design|\\bVLSI\\b|\\banalog\\b|mixed-?signal|\\bRF\\b|photonic|power electronics|\\bbattery\\b|\\bthermal\\b|\\bmechanical\\b|manufacturing|materials"],
+    [-3, "\\bPhD\\b|\\bMBA\\b"]
+  ],
+  "desc_hw_keywords": ["\\bPCB\\b", "\\bSoC\\b", "\\bSLAM\\b", "lidar", "radar", "sensor fusion", "\\bROS ?2?\\b", "kinematics", "microcontroller", "\\bMCU\\b", "\\bDSP\\b", "\\bCUDA\\b", "\\bTPU\\b", "motor control", "actuator", "bring-?up", "\\bHIL\\b", "signal integrity", "photonics", "schematic", "verilog", "\\bVHDL\\b", "\\bI2C\\b", "\\bSPI\\b", "\\bUART\\b", "\\bPWM\\b", "\\bRTOS\\b", "\\bFPGA\\b"],
+  "desc_clearance": "security clearance|\\bTS/SCI\\b|\\bITAR\\b|\\bclearance\\b|polygraph|export control",
+  "digest_hour_utc": 13,
+  "weekly_day": 0,
+  "tierb_digest_max": 60,
   "ats_require": [
     "intern",
     "co-?op",
