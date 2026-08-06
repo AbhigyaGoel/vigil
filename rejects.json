@@ -455,6 +455,13 @@
 "tag": "Summer 2026"
 },
 {
+"id": "ls:5be21c8e-1326-4ca1-9b44-d4839ecb5574",
+"company": "TikTok",
+"title": "Data Science Intern - Advertisement Team - 2026 Start','PhD",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "ls:74a463ca-e5ee-4f23-ab53-9a132f2123b2",
 "company": "Medical Informatics Engineering",
 "title": "Development Intern",
@@ -4648,13 +4655,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:6813e05c-291f-4297-bae8-9e6c59d4a809",
-"company": "Citadel",
-"title": "Quantitative Researcher \u2013 PhD Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:f49b4766-f352-4e81-9cb2-0f42fb9fd101",
 "company": "Optiver",
 "title": "Software Engineer Intern",
@@ -5040,13 +5040,6 @@
 "tag": ""
 },
 {
-"id": "ls:79ceb913-ca59-4a50-9fa9-18c378d86c3e",
-"company": "Citadel",
-"title": "Trader: Fixed Income & Macro Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:48327e8c-a8f7-4339-83a4-019ef774f663",
 "company": "Citadel",
 "title": "Quantitative Research Analyst Intern",
@@ -5253,13 +5246,6 @@
 "id": "ls:cce4a124-68d8-4941-9fff-ddbee5dfc0b3",
 "company": "1X",
 "title": "AI Residency Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
-"id": "ls:af41c8d1-6670-4cbb-9111-9204ac3a4da9",
-"company": "Citadel",
-"title": "Quantitative Trader: Equity Quantitative Research Intern",
 "rule": "season",
 "tag": "Fall 2026"
 },
@@ -7182,20 +7168,6 @@
 "tag": "Winter 2027"
 },
 {
-"id": "ls:4239cf96-37b5-405d-8764-53684b347047",
-"company": "Royal Bank of Canada",
-"title": "Relationship Manager Commercial Markets Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "ls:15949f9f-5891-47a6-bcc1-7d9b08cc30da",
-"company": "Royal Bank of Canada",
-"title": "Relationship Manager Commercial Markets Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:c3cb586c-7a74-433e-9247-a5bf6ab308e5",
 "company": "Golden Pet Brands",
 "title": "Data Analytics Intern",
@@ -8153,13 +8125,6 @@
 "title": "Application Development Intern",
 "rule": "season",
 "tag": "Summer 2026"
-},
-{
-"id": "ls:71e539ff-f839-4f08-8c0f-0c7a934bbf05",
-"company": "Citadel",
-"title": "Sector Data Analyst Intern",
-"rule": "season",
-"tag": "Fall 2026"
 },
 {
 "id": "ls:ff0616b4-484e-4ce8-b74e-55a7e8cc0e9d",
@@ -10664,6 +10629,20 @@
 "id": "ls:34fa4813-bc92-4deb-8987-cf33bc625246",
 "company": "ByteDance",
 "title": "GPU/AI Application System Software Engineer Intern - System Technologies and Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:fa4acb7b-e2c6-4b0a-8f93-4d09b537db1b",
+"company": "TikTok",
+"title": "Software Engineer Intern - Foundation Platform",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:b2cd571c-f4e5-486e-b725-8596bbcb6db9",
+"company": "TikTok",
+"title": "Product Operations Intern - TikTok Shop Apps and API - MBA",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -128681,62 +128660,6 @@
 "tag": ""
 },
 {
-"id": "at:https://jobs.lever.co/tevora/1be28747-e28c-43af-b38c-087452263f96",
-"company": "Tevora",
-"title": "Cybersecurity Internship Fall 2026 - Enterprise Risk Management",
-"rule": "season",
-"tag": "title"
-},
-{
-"id": "at:https://jobs.lever.co/tevora/23fb4ead-6204-4f9b-9a60-9c28b7d1d3dc",
-"company": "Tevora",
-"title": "Cybersecurity Internship Fall 2026 - Solutions",
-"rule": "season",
-"tag": "title"
-},
-{
-"id": "at:https://jobs.lever.co/tevora/335ec3e2-c7ee-4e4c-b4a9-04428999e954",
-"company": "Tevora",
-"title": "Cybersecurity Internship Fall 2026 - Federal",
-"rule": "season",
-"tag": "title"
-},
-{
-"id": "at:https://jobs.lever.co/tevora/5bec7454-0bde-4db3-85ec-f0af7a0a1733",
-"company": "Tevora",
-"title": "Cybersecurity Internship Fall 2026 - Threat",
-"rule": "season",
-"tag": "title"
-},
-{
-"id": "at:https://jobs.lever.co/tevora/c0af26d1-51b0-41ba-9916-a208c1cafc29",
-"company": "Tevora",
-"title": "Cybersecurity Internship Fall 2026 - Payments",
-"rule": "season",
-"tag": "title"
-},
-{
-"id": "at:https://jobs.lever.co/tevora/dd7cd048-9997-425d-b1f4-d13f37c66df0",
-"company": "Tevora",
-"title": "Cybersecurity Internship Fall 2026 - International Organization for Standardization (ISO)",
-"rule": "season",
-"tag": "title"
-},
-{
-"id": "at:https://jobs.lever.co/tevora/f3d10f98-0ee6-4ad7-a1a0-6863ff008adf",
-"company": "Tevora",
-"title": "Cybersecurity Internship Fall 2026 - Healthcare",
-"rule": "season",
-"tag": "title"
-},
-{
-"id": "at:https://jobs.lever.co/tevora/fe730e76-b19c-4026-97d6-f4b6120b299e",
-"company": "Tevora",
-"title": "Cybersecurity Internship Fall 2026 - Systems and Organizations Controls (SOC)",
-"rule": "season",
-"tag": "title"
-},
-{
 "id": "at:https://spe.wd1.myworkdayjobs.com/SonyPicturesEntertainment/job/Culver-City-California/Current-Programming-Intern--Sony-Pictures-Television---Fall-2026_JR113893",
 "company": "Sony Pictures Entertainment",
 "title": "Current Programming Intern, Sony Pictures Television \u2013 Fall 2026",
@@ -129162,6 +129085,62 @@
 "title": "Software Engineer Intern - Full Stack Web, Summer 2027",
 "rule": "irrelevant",
 "tag": ""
+},
+{
+"id": "at:https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
+"company": "Hudson River Trading",
+"title": "Software Engineering Internship (C++ or Python) \u2013 Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://jobs.ashbyhq.com/junior/23ee686b-d305-4ac9-860d-16c99ddb4891",
+"company": "Junior",
+"title": "Software Engineering Intern \u2014 Fall 2026 \ud83c\uddfa\ud83c\uddf8",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "at:https://www.tower-research.com/open-positions/?gh_jid=8044334",
+"company": "Tower Research Capital",
+"title": "Quantitative Developer Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
+"company": "NVIDIA",
+"title": "Applied Research Intern, NLP - Fall 2026",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "at:https://job-boards.eu.greenhouse.io/imc/jobs/4823924101",
+"company": "IMC Trading",
+"title": "Software Engineer Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://job-boards.eu.greenhouse.io/imc/jobs/4907430101",
+"company": "IMC Trading",
+"title": "Machine Learning Research Intern - Summer 2027 - Chicago",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://apply.workable.com/tmeic-corporation-americas/j/FD4C9770FF/",
+"company": "TMEIC",
+"title": "Intern - Applications, AI and Machine Learning (Fall 2026) (ET26021) \ud83d\udec2",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "at:https://lego.wd103.myworkdayjobs.com/lego_executive/job/Boston-Hub/Firmware-Engineering-Intern_0000031568",
+"company": "Lego",
+"title": "Firmware Engineering Co-Op - Fall 2026",
+"rule": "season",
+"tag": "title"
 },
 {
 "id": "wd:nvidia:/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
@@ -129763,6 +129742,20 @@
 "company": "NVIDIA",
 "title": "Software Architect, Advanced Development",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10W-Singapore/Intern---Manufacturing-Technician--Wet-Process-and-Data-Analysis-_JR100531",
+"company": "Micron",
+"title": "Intern \u2013 Manufacturing Technician (Wet Process and Data Analysis)",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Penang-Malaysia---Grande/Intern---Module-Test-Process-Engineer_JR106613",
+"company": "Micron",
+"title": "Intern - Module Test Process Engineer",
+"rule": "geo",
 "tag": ""
 },
 {
@@ -131152,6 +131145,13 @@
 "tag": ""
 },
 {
+"id": "wd:amat:/job/KaohsiungTWN/XMLNAME--2026-New-College-Graduate--Process-Support-Engineer_R2625605-1",
+"company": "Applied Materials",
+"title": "\u30102026 New College Graduate \u65b0\u9bae\u4eba\u5c08\u5340\u3011Process Support Engineer \u88fd\u7a0b\u5de5\u7a0b\u5e2b",
+"rule": "new-grad",
+"tag": ""
+},
+{
 "id": "wd:amat:/job/SingaporeSGP/Manufacturing-Engineer_R2624123",
 "company": "Applied Materials",
 "title": "Manufacturing Engineer",
@@ -131652,13 +131652,6 @@
 "id": "wd:cat:/job/Wuxi-Jiangsu/_R0000386717-1",
 "company": "Caterpillar",
 "title": "\u81ea\u52a8\u9a7e\u9a76\u611f\u77e5\u6807\u6ce8\u5b9e\u4e60\u751f",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:cat:",
-"company": "Caterpillar",
-"title": "",
 "rule": "not-intern",
 "tag": ""
 },
@@ -132165,6 +132158,13 @@
 "title": "2026 Summer Intern (Penang) Supply Chain Planner",
 "rule": "season",
 "tag": "title"
+},
+{
+"id": "wd:trimble:/job/New-Zealand---Christchurch/Applications-Specialist-Intern_R55718",
+"company": "Trimble",
+"title": "Applications Specialist Intern",
+"rule": "geo",
+"tag": ""
 },
 {
 "id": "wd:trimble:/job/New-Zealand---Christchurch/Survey-Product-Management-Intern_R55930",
