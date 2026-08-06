@@ -29,5 +29,18 @@
     {"job": {"title": "Robotics Intern", "company": "Anduril", "location": "Costa Mesa, CA", "url": "x"}, "expect": false},
     {"job": {"title": "Staff Firmware Engineer", "company": "Waymo", "location": "Mountain View, CA", "url": "x"}, "expect": false},
     {"job": {"title": "Marketing Intern", "company": "Waymo", "location": "Mountain View, CA", "url": "x"}, "expect": false}
+  ],
+  "grad": [
+    {"desc": "Graduating in 2027 or later.", "expect": false},
+    {"desc": "Expected graduation December 2027 and beyond.", "expect": false},
+    {"desc": "Class of 2027 onwards.", "expect": false},
+    {"desc": "Rising senior graduating 2027+.", "expect": false},
+    {"desc": "Graduating between 2026 and 2028.", "expect": false},
+    {"desc": "Must graduate by May 2027.", "expect": true},
+    {"desc": "PhD candidates only.", "expect": true},
+    {"desc": "Master's degree required.", "expect": true},
+    {"desc": "Pursuing a BS or MS in Electrical Engineering.", "expect": false},
+    {"desc": "BSEE required, graduating 2028.", "expect": false},
+    {"desc": "Pursuing a Bachelor's degree.", "expect": false}
   ]
 }

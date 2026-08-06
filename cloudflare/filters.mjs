@@ -47,12 +47,14 @@ export function makeFilters(cfg) {
 // Hard eligibility mismatch from a description (mirrors watch.py extract_signals):
 // an explicit 2025-27 graduation requirement without 2028, or a Master's/PhD-only
 // requirement. Only applied when a description is available for free (Lever/Ashby).
-const GRAD_EARLY = /(graduat|class of|degree by|complet\w+)[^.]{0,40}\b20(25|26|27)\b/i;
+const GRAD_EARLY = /(graduat|class of|degree by|complet\w+)[^.]{0,40}?\b20(25|26|27)\b([^.]{0,20})/i;
+const ELIGIBLE_TAIL = /or later|and beyond|onwards?|or after|or above|and later|\+/i;
 const GRAD_ONLY = /\b(ph\.?d|doctoral|master)/i;
-const HAS_BACH = /\bbachelor|\bundergrad|\bb\.s\./i;
+const HAS_BACH = /\bbachelor|\bundergrad|\bB\.?S\.?\b|\bBSc\b|\bBS[A-Z]{2,3}\b/i;
 export function hardMismatch(desc) {
   if (!desc) return false;
-  if (GRAD_EARLY.test(desc) && !/\b2028\b/.test(desc)) return true;
+  const m = desc.match(GRAD_EARLY);   // 2027-or-later / and-beyond / 2027+ is eligible
+  if (m && !ELIGIBLE_TAIL.test(m[3] || "") && !/\b2028\b/.test(desc)) return true;
   if (GRAD_ONLY.test(desc) && !HAS_BACH.test(desc)) return true;
   return false;
 }

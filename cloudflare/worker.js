@@ -94,7 +94,8 @@ export default {
 
     const found = [];
     let dirty = false;
-    for (const b of boards) {
+    let ghBudget = cfg.gh_detail_budget || 10;  // cap per-job GH desc fetches so a busy
+    for (const b of boards) {                    // bucket can't blow the 50-subrequest cap
       try {
         for (const job of await fetchBoard(b)) {
           if (seen.has(job.id)) continue;
@@ -103,9 +104,12 @@ export default {
           // grad/degree demotion: Lever/Ashby carry desc inline; Greenhouse needs a
           // per-job fetch, but only for a role about to be pushed (0-2/run).
           let desc = job.desc || "";
-          if (!desc && job.detail) {
+          if (!desc && job.detail && ghBudget > 0) {
+            ghBudget--;
             try { const jd = await gj(job.detail); desc = (jd.content || "").replace(/<[^>]+>/g, " "); } catch {}
+            if (ghBudget === 0) console.log("WARN gh_detail_budget spent; remaining GH roles push without grad/degree check");
           }
+          // budget spent -> desc stays "" -> hardMismatch false -> push anyway (recall-first)
           if (hardMismatch(desc)) continue;
           seen.add(job.id);
           dirty = true;

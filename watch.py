@@ -189,17 +189,26 @@ def desc_score(sig):
 
 # ---------------- description enrichment (stage 2) ----------------
 
+# "2027 or later" / "and beyond" / "onwards" / "2027+" means I (2028) am eligible.
+_ELIGIBLE_TAIL = re.compile(r"or later|and beyond|onwards?|or after|or above|and later|\+", re.I)
+# Bachelor's, however postings actually write it: BS, B.S., BS/MS, BSc, BSEE, BSCS...
+_HAS_BACH = re.compile(r"\bbachelor|\bundergrad|\bB\.?S\.?\b|\bBSc\b|\bBS[A-Z]{2,3}\b", re.I)
+
+
 def extract_signals(desc):
     if not desc:
         return {}
-    early = re.search(r"(graduat|class of|degree by|complet\w+).{0,40}\b20(25|26|27)\b", desc, re.I)
-    ok2028 = re.search(r"\b2028\b", desc)
+    grad_bad = False
+    m = re.search(r"(graduat|class of|degree by|complet\w+)[^.]{0,40}?\b20(25|26|27)\b([^.]{0,20})", desc, re.I)
+    if m:
+        eligible = _ELIGIBLE_TAIL.search(m.group(3) or "") or re.search(r"\b2028\b", desc)
+        grad_bad = not eligible
     return {
         "clearance": bool(CLEARANCE and CLEARANCE.search(desc)),
         "hw": bool(DESC_HW and DESC_HW.search(desc)),
-        "grad_bad": bool(early and not ok2028),
+        "grad_bad": grad_bad,
         "grad_only": bool(re.search(r"\b(ph\.?d|doctoral|master)", desc, re.I)
-                          and not re.search(r"\bbachelor|\bundergrad|\bb\.s\.", desc, re.I)),
+                          and not _HAS_BACH.search(desc)),
     }
 
 
@@ -480,7 +489,7 @@ def _load(path, default):
     return default
 
 
-LOGIC_VERSION = "v2.3"  # bump when filter/scoring CODE changes -> forces a silent reseed
+LOGIC_VERSION = "v2.4"  # bump when filter/scoring CODE changes -> forces a silent reseed
 
 
 def config_hash():
@@ -686,15 +695,19 @@ def main():
             pending[r["id"]] = r
         print(f"{len(tier_a)} Tier A pushed, {len(tier_b)} added to Tier B queue ({len(pending)} pending).")
 
-    # scheduled digests (once per day / week, guarded by state)
-    if not first_run and now.hour == CFG.get("digest_hour_utc", 13):
-        if pending and state.get("last_daily") != today:
+    # scheduled digests: fire on the first run at/after the target hour that hasn't
+    # fired yet today/this week. Using >= (not ==) means a dropped run inside the
+    # target hour can't silently skip a day - the next run catches up.
+    if not first_run:
+        h = CFG.get("digest_hour_utc", 13)
+        if pending and state.get("last_daily") != today and now.hour >= h:
             try:
                 send_daily_digest(pending); print(f"daily digest sent ({len(pending)})")
                 pending = {}; state["last_daily"] = today
             except Exception as e:
                 print("WARN daily", repr(e)[:70], file=sys.stderr)
-        if now.weekday() == CFG.get("weekly_day", 0) and state.get("last_weekly") != week:
+        if (state.get("last_weekly") != week and now.weekday() >= CFG.get("weekly_day", 0)
+                and now.hour >= h):
             try:
                 send_weekly_rejects(rejects, yld, state.get("yield_since")); state["last_weekly"] = week
             except Exception as e:

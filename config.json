@@ -187,9 +187,13 @@
     { "name": "Intel", "tenant": "intel", "host": "intel.wd1.myworkdayjobs.com", "site": "External" },
     { "name": "Applied Materials", "tenant": "amat", "host": "amat.wd1.myworkdayjobs.com", "site": "External" },
     { "name": "Marvell", "tenant": "marvell", "host": "marvell.wd1.myworkdayjobs.com", "site": "MarvellCareers" },
-    { "name": "Caterpillar", "tenant": "cat", "host": "cat.wd5.myworkdayjobs.com", "site": "CaterpillarCareers" }
+    { "name": "Caterpillar", "tenant": "cat", "host": "cat.wd5.myworkdayjobs.com", "site": "CaterpillarCareers" },
+    { "name": "Boston Dynamics", "tenant": "bostondynamics", "host": "bostondynamics.wd1.myworkdayjobs.com", "site": "Boston_Dynamics" },
+    { "name": "NXP", "tenant": "nxp", "host": "nxp.wd3.myworkdayjobs.com", "site": "careers" },
+    { "name": "Zebra", "tenant": "zebra", "host": "zebra.wd501.myworkdayjobs.com", "site": "Zebra_careers" },
+    { "name": "Trimble", "tenant": "trimble", "host": "trimble.wd1.myworkdayjobs.com", "site": "TrimbleCareers" }
   ],
-  "_workday_todo": "Verified live (intern workerSubType facet): NVIDIA, Micron, ADI, KLA, Intel, Applied Materials (tenant=amat), Marvell, Caterpillar (tenant=cat). NOT added: Qualcomm (cxs 422 on every site variant), Magna (no workerSubType facet -> would need fuzzy search, blind-spot risk), AMD/John Deere/Rivian/Bosch/Lam Research (no public Workday board found). Non-Workday, need separate adapters: Apple (jobs.apple.com search API), Texas Instruments (Oracle Cloud). To add a Workday tenant: find its board URL (https://<host>/<site>/...), tenant is the path after /wday/cxs/, verify the cxs jobs endpoint returns a workerSubType intern facet.",
+  "_workday_todo": "12 verified tenants (intern workerSubType facet): NVIDIA, Micron, ADI, KLA, Intel, Applied Materials (amat), Marvell, Caterpillar (cat), Boston Dynamics, NXP, Zebra, Trimble. SKIPPED - no workerSubType facet (would need fuzzy fallback): Cognex (has a Core Vision Intern, board is only ~96 rows so fuzzy would be complete - add if wanted), Magna, Rockwell (early-careers site had only 2 roles). Qualcomm cxs 422s on every site. AMD/John Deere/Rivian/Bosch/Lam Research: no public Workday board found. NON-Workday, need separate adapters: Apple (jobs.apple.com search API), Texas Instruments (Oracle Cloud). To add: find board URL https://<host>/<site>/..., tenant is the path after /wday/cxs/, verify a workerSubType intern facet exists.",
   "_deliberately_omitted": {
     "note": "Verified-real slugs left out because the company's revenue is materially defense/DoD. Paste back in if you change your mind.",
     "greenhouse": [
