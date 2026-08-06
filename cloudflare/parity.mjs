@@ -20,5 +20,6 @@ for (const c of cases.curated) {
   if (got !== c.expect) { fail++; console.log(`CURATED FAIL ${c.job.title} @ ${c.job.location} -> ${got} (want ${c.expect})`); }
 }
 const n = cases.geo.length + cases.season.length + cases.curated.length;
+console.log(`COUNT geo=${cases.geo.length} season=${cases.season.length} curated=${cases.curated.length} total=${n}`);
 console.log(fail ? `JS parity: ${fail}/${n} FAIL` : `JS parity: all ${n} pass`);
 process.exit(fail ? 1 : 0);

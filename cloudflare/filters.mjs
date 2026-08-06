@@ -44,8 +44,22 @@ export function makeFilters(cfg) {
   };
 }
 
+// Hard eligibility mismatch from a description (mirrors watch.py extract_signals):
+// an explicit 2025-27 graduation requirement without 2028, or a Master's/PhD-only
+// requirement. Only applied when a description is available for free (Lever/Ashby).
+const GRAD_EARLY = /(graduat|class of|degree by|complet\w+)[^.]{0,40}\b20(25|26|27)\b/i;
+const GRAD_ONLY = /\b(ph\.?d|doctoral|master)/i;
+const HAS_BACH = /\bbachelor|\bundergrad|\bb\.s\./i;
+export function hardMismatch(desc) {
+  if (!desc) return false;
+  if (GRAD_EARLY.test(desc) && !/\b2028\b/.test(desc)) return true;
+  if (GRAD_ONLY.test(desc) && !HAS_BACH.test(desc)) return true;
+  return false;
+}
+
 // The instant-push decision for a curated-board role. Curated bypasses the score
-// gate (any surviving US intern is instant-worthy) but must be US and in-season.
+// gate (any surviving US intern is instant-worthy) but must be US, in-season, and
+// (when a description is available) not a hard eligibility mismatch.
 export function curatedInstant(job, f) {
   if (!job.url || !job.title) return false;
   const blob = `${job.title} ${job.company}`;
@@ -54,5 +68,6 @@ export function curatedInstant(job, f) {
   if (f.intern && !f.intern.test(job.title)) return false;   // intern/co-op gate
   if (f.seasonDrop(job.title)) return false;                 // title says a 2026 season
   if (f.geo(job.location) !== "us") return false;            // non-US never instant-pushes
+  if (hardMismatch(job.desc)) return false;                  // 2026/27-grad or Master/PhD only
   return true;
 }

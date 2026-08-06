@@ -54,12 +54,14 @@ async function fetchBoard(b) {
     return d.map((j) => ({
       id: `lv:${b.slug}:${j.id}`, company: b.slug, title: j.text || "",
       location: (j.categories || {}).location || "", url: j.hostedUrl || "", posted: toMs(j.createdAt),
+      desc: j.descriptionPlain || "",   // free in the board pull -> enables grad/degree demotion
     }));
   }
   const d = await gj(`https://api.ashbyhq.com/posting-api/job-board/${b.slug}`);
   return (d.jobs || []).map((j) => ({
     id: `ab:${b.slug}:${j.id}`, company: b.slug, title: j.title || "",
     location: j.location || "", url: j.jobUrl || "", posted: toMs(j.publishedAt || j.updatedAt),
+    desc: j.descriptionPlain || "",   // free in the board pull -> enables grad/degree demotion
   }));
 }
 

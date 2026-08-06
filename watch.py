@@ -338,13 +338,30 @@ def ashby(slug):
         }
 
 
+_WD_INTERN = re.compile(r"intern|co-?op|trainee|new coll|university|early career|student|graduate", re.I)
+
+
 def workday(entry):
+    """Discover the tenant's intern/co-op/new-grad workerSubType facet and page
+    through ALL of it. searchText='intern' was fuzzy (relevance-ranked, 900 rows
+    mostly senior) so a 100-cap silently hid roles ranked 100th+; the facet set is
+    small and complete, so nothing is missed."""
     host, tenant, site = entry["host"], entry["tenant"], entry["site"]
     api = f"https://{host}/wday/cxs/{tenant}/{site}/jobs"
-    name, offset, total = entry.get("name", tenant), 0, None
-    while offset < 100:  # Workday caps limit at 20 and only reports 'total' on page 1
+    name = entry.get("name", tenant)
+    try:
+        probe = post_json(api, {"appliedFacets": {}, "limit": 1, "offset": 0, "searchText": ""})
+    except Exception:
+        return
+    ids = [v.get("id") for f in probe.get("facets", []) if f.get("facetParameter") == "workerSubType"
+           for v in f.get("values", []) if _WD_INTERN.search(v.get("descriptor", ""))]
+    facets = {"workerSubType": ids} if ids else {}
+    stext = "" if ids else "intern"   # fall back to fuzzy search only if no facet exists
+    cap = 400 if ids else 100
+    offset, total = 0, None
+    while offset < cap:
         try:
-            d = post_json(api, {"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": "intern"})
+            d = post_json(api, {"appliedFacets": facets, "limit": 20, "offset": offset, "searchText": stext})
         except Exception:
             break
         posts = d.get("jobPostings", [])
@@ -436,11 +453,13 @@ def classify(job, enrich, trace=None):
     score = bs + ds
     note(f"score={score} (title {bs}, desc {ds})")
     if policy == "curated":
-        # hand-picked company: any surviving US intern is instant-worthy, regardless
-        # of a vague title. Non-US curated roles still fall to Tier B (never instant).
-        if geo == "us":
-            note("TIER A (curated bypass)"); return "A", max(score, 3)
-        note("TIER B (curated, non-US)"); return "B", score
+        # hand-picked company: a vague US intern title is instant-worthy. But a hard
+        # eligibility mismatch from the description still demotes (I graduate 2028).
+        if geo != "us":
+            note("TIER B (curated, non-US)"); return "B", score
+        if sig.get("grad_bad") or sig.get("grad_only"):
+            note("TIER B (curated, grad/degree mismatch)"); return "B", score
+        note("TIER A (curated bypass)"); return "A", max(score, 3)
     a_ok = season_a_eligible(job.get("terms"))
     if score >= 3 and geo == "us" and a_ok:
         note("TIER A"); return "A", score
@@ -459,7 +478,7 @@ def _load(path, default):
     return default
 
 
-LOGIC_VERSION = "v2.1"  # bump when filter/scoring CODE changes -> forces a silent reseed
+LOGIC_VERSION = "v2.2"  # bump when filter/scoring CODE changes -> forces a silent reseed
 
 
 def config_hash():
@@ -501,14 +520,14 @@ def send_daily_digest(pending):
          "\n".join(lines) + extra, tags="clipboard", priority="default")
 
 
-def send_weekly_rejects(rejects, yld=None):
+def send_weekly_rejects(rejects, yld=None, since=None):
     import random
     by_rule = Counter(r["rule"] for r in rejects)
     season = Counter(r.get("tag", "?") for r in rejects if r["rule"] == "season")
     sample = random.sample(rejects, min(20, len(rejects))) if rejects else []
     body = []
-    if yld:  # cumulative per-source scanned/A/B since seed -> shows a source that never yields Tier A
-        body.append("Yield since seed (scanned/A/B):")
+    if yld:  # cumulative per-source scanned/A/B -> shows a source that never yields Tier A
+        body.append(f"Yield since {since or 'seed'} (scanned/A/B):")
         body += [f"  {k}: {y['scanned']}/{y['A']}/{y['B']}" for k, y in sorted(yld.items())]
         body.append("")
     body.append("Drops by rule: " + ", ".join(f"{k}:{v}" for k, v in by_rule.most_common()))
@@ -622,7 +641,11 @@ def main():
 
     tier_a, tier_b, rejects, stats = scan(seen, enrich, collect_rejects=not first_run)
 
-    yld = {} if reseed else state.get("yield", {})  # cumulative per-source since seed
+    now = datetime.now(timezone.utc)
+    today, week = now.strftime("%Y-%m-%d"), now.strftime("%Y-W%W")
+    # yield PERSISTS across reseeds - the probation metric must survive LOGIC_VERSION bumps
+    yld = state.get("yield", {})
+    state.setdefault("yield_since", today)
     for k, s in stats.items():
         y = yld.setdefault(k, {"scanned": 0, "A": 0, "B": 0})
         y["scanned"] += s["scanned"]; y["A"] += s["A"]; y["B"] += s["B"]
@@ -648,8 +671,6 @@ def main():
         print(f"{len(tier_a)} Tier A pushed, {len(tier_b)} added to Tier B queue ({len(pending)} pending).")
 
     # scheduled digests (once per day / week, guarded by state)
-    now = datetime.now(timezone.utc)
-    today, week = now.strftime("%Y-%m-%d"), now.strftime("%Y-W%W")
     if not first_run and now.hour == CFG.get("digest_hour_utc", 13):
         if pending and state.get("last_daily") != today:
             try:
@@ -659,7 +680,7 @@ def main():
                 print("WARN daily", repr(e)[:70], file=sys.stderr)
         if now.weekday() == CFG.get("weekly_day", 0) and state.get("last_weekly") != week:
             try:
-                send_weekly_rejects(rejects, yld); state["last_weekly"] = week
+                send_weekly_rejects(rejects, yld, state.get("yield_since")); state["last_weekly"] = week
             except Exception as e:
                 print("WARN weekly", repr(e)[:70], file=sys.stderr)
 
