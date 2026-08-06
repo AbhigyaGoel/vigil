@@ -522,12 +522,12 @@ def push_tier_a(job, score):
          f"{job['company']} - {job['title']}\n{job['location'] or 'location n/a'}", job["url"])
 
 
-def send_daily_digest(pending):
+def send_daily_digest(pending, header=None):
     roles = sorted(pending.values(), key=lambda r: -r.get("score", 0))
     cap = CFG.get("tierb_digest_max", 60)
     lines = [f"[{r.get('score',0)}] {r['company']}: {r['title'][:48]}" for r in roles[:cap]]
     extra = f"\n+{len(roles) - cap} more" if len(roles) > cap else ""
-    ntfy(f"vigil daily: {len(roles)} Tier B roles",
+    ntfy(header or f"vigil daily: {len(roles)} Tier B roles",
          "\n".join(lines) + extra, tags="clipboard", priority="default")
 
 
@@ -623,8 +623,9 @@ def do_explain(job_id):
 
 
 def test_alert():
-    """Exercise the real delivery path: one Tier A push + one 8-row daily digest."""
-    a = {"company": "Waymo", "title": "Robotics Software Intern (vigil TEST)",
+    """Exercise the real delivery path: one Tier A push + one 8-row daily digest.
+    Everything is clearly prefixed [TEST] / TEST - so it can't be mistaken for real."""
+    a = {"company": "Waymo", "title": "[TEST] Robotics Software Intern",
          "location": "Mountain View, CA", "url": "https://github.com/AbhigyaGoel/vigil", "score": 4}
     push_tier_a(a, a["score"])
     print("sent Tier A test ->", a["title"], "| Apply:", a["url"])
@@ -632,10 +633,10 @@ def test_alert():
             ("Nuro", "Embedded Systems Intern", 4), ("Cobot", "Robotics Hardware Intern", 4),
             ("Skydio", "Firmware Intern", 3), ("1X", "Mechatronics Intern", 3),
             ("Physical Intelligence", "Controls Intern", 3), ("Figure", "Sensor Fusion Intern", 3)]
-    pending = {f"t{i}": {"company": c, "title": t, "location": "US",
+    pending = {f"t{i}": {"company": c, "title": f"[TEST] {t}", "location": "US",
                          "url": f"https://github.com/AbhigyaGoel/vigil#{i}", "score": s}
                for i, (c, t, s) in enumerate(rows)}
-    send_daily_digest(pending)
+    send_daily_digest(pending, header="TEST - vigil daily digest (8 sample rows)")
     print(f"sent daily digest -> {len(pending)} Tier B rows")
 
 

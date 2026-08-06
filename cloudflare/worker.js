@@ -94,8 +94,12 @@ export default {
 
     const found = [];
     let dirty = false;
-    let ghBudget = cfg.gh_detail_budget || 10;  // cap per-job GH desc fetches so a busy
-    for (const b of boards) {                    // bucket can't blow the 50-subrequest cap
+    // Dynamic GH per-job fetch budget: whatever's left under the 50-subrequest cap
+    // after this bucket's board fetches, minus 5 headroom for ntfy sends.
+    let ghBudget = Math.max(0, 50 - boards.length - 5);
+    console.log(`boards/bucket=${boards.length} gh_detail_budget=${ghBudget}`);
+    if (boards.length > 40) console.log(`WARN boards/bucket=${boards.length} > 40 - raise GROUPS`);
+    for (const b of boards) {
       try {
         for (const job of await fetchBoard(b)) {
           if (seen.has(job.id)) continue;
@@ -133,7 +137,7 @@ export default {
 
   async fetch(req, env) {
     if (new URL(req.url).searchParams.has("test")) {   // exercise the worker's push path
-      const job = { company: "Figure", title: "Hardware Test Intern (WORKER TEST)",
+      const job = { company: "Figure", title: "[TEST] Hardware Test Intern (worker)",
         location: "Sunnyvale, CA", url: "https://github.com/AbhigyaGoel/vigil" };
       await ntfy(env, job);
       return new Response(`worker test push sent: ${job.title} -> ${job.url}\n`);
