@@ -2261,13 +2261,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:8faaec18-134c-4920-952c-046aa22b3053",
-"company": "Sun Life",
-"title": "Student Software Engineer",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:908ea2de-e80d-4c76-9020-f31ac7f04345",
 "company": "Medpace, Inc.",
 "title": "Software Development Co-op",
@@ -5579,6 +5572,13 @@
 "tag": ""
 },
 {
+"id": "ls:51614fe5-c79b-42d9-997f-c9a22d17645c",
+"company": "Leidos",
+"title": "Engineering Engineer Intern",
+"rule": "defense",
+"tag": ""
+},
+{
 "id": "ls:bd8719b9-2be8-458c-ad81-df18b03a5ef2",
 "company": "Citadel",
 "title": "Quantitative Research Engineer Intern",
@@ -6107,6 +6107,13 @@
 "id": "ls:5fdbf0e9-e98a-4251-b983-801d494ae586",
 "company": "Chicago Trading Company",
 "title": "Software Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:9ec52711-cf87-406e-83ad-c5bb73c1e65d",
+"company": "Chicago Trading Company",
+"title": "Quant Trading Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -7469,6 +7476,13 @@
 "tag": "Fall 2026"
 },
 {
+"id": "ls:08a728f0-6281-4206-a022-403284d64763",
+"company": "CVS Health",
+"title": "Analytics & Behavior Change - Engineering Undergrad - Conversion",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:d821822b-83af-4852-9853-6c6285ac4f11",
 "company": "National Laboratory of the Rockies",
 "title": "Focused Ion Beam, Electron Microscopy, and Autonomous Characterization Intern - Multiple Teams",
@@ -7516,6 +7530,13 @@
 "title": "Embedded Software Engineer Intern",
 "rule": "season",
 "tag": "Fall 2026"
+},
+{
+"id": "ls:40c1294a-a472-402c-882b-843d26a07449",
+"company": "CVS Health",
+"title": "Analytics & Behavior Change - Data Science - Conversion",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "ls:0b70d1e1-a241-43ea-b553-844b484972d9",
@@ -8062,13 +8083,6 @@
 "title": "Visitor",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:ac4b7c86-f2c8-4763-9e74-95e9afc7bf63",
-"company": "Nationwide Children's Hospital",
-"title": "Research Intern",
-"rule": "season",
-"tag": "Fall 2026"
 },
 {
 "id": "ls:72e9a1b8-bf1d-419d-a68b-ff77d2c0349f",
@@ -9098,6 +9112,20 @@
 "title": "AI Scientist Intern",
 "rule": "season",
 "tag": "Fall 2026"
+},
+{
+"id": "ls:cef4c60b-0a55-4305-94cf-d725b8c66ad2",
+"company": "Chicago Trading Company",
+"title": "Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:ca124ec8-21c1-40d5-8aba-dea45cf0fe0d",
+"company": "Chicago Trading Company",
+"title": "Quantitative Trading Intern",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "ls:1637f003-d1c1-4f07-a7da-d53a33e61cc1",
@@ -10353,6 +10381,13 @@
 "tag": "Fall 2026"
 },
 {
+"id": "ls:5379a4df-fa7a-4799-8978-00d1844415b9",
+"company": "Atoms",
+"title": "Software Engineer Intern - Winter 2027",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
 "id": "ls:f5f8ee5c-c30e-425b-8613-da35ccc354be",
 "company": "Microsoft",
 "title": "Software Engineer Intern - Gears of War",
@@ -10666,6 +10701,230 @@
 "title": "Technology Intern - Texas Immersive Institute - Moody College of Communication",
 "rule": "season",
 "tag": "Summer 2026"
+},
+{
+"id": "ls:01ba76c4-8637-49c3-a04f-324409838c74",
+"company": "Trillium",
+"title": "Software Engineer Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:6eff9788-f38e-4357-8646-cd6f5984f3cb",
+"company": "Axon",
+"title": "Software Engineer Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:2751af83-9f4f-48b8-8aba-6f534e9681e7",
+"company": "Atoms",
+"title": "Software Engineer Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:c89c7602-1daa-44bd-a2e1-6c6fa55deb73",
+"company": "Axon",
+"title": "Firmware Engineer Intern - Platform Firmware",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:8d32ce9d-b2f0-4126-8727-69bbd17e3c2e",
+"company": "Epic Games",
+"title": "Machine Learning Intern - Special Projects - Epic Research Group",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:9d04080d-0ad1-42fe-b047-599eef0c1fd7",
+"company": "Epic Games",
+"title": "Machine Learning Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:31ab487e-bda7-4337-94b7-bda1786f13f2",
+"company": "Epic Games",
+"title": "Machine Learning Intern - Special Projects - Epic Research Group",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:cca92450-5ead-4d71-8d7f-084c27b9d1f9",
+"company": "The Nuclear Company",
+"title": "AI/ML Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:b57a206e-05f4-4b02-9ccd-b54ba30848e2",
+"company": "The Nuclear Company",
+"title": "Software Engineering Intern - Product - Platform",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:40ea3092-e7fc-4bc8-9e63-abe6f047adf4",
+"company": "The Nuclear Company",
+"title": "AI/ML Engineer Intern - Platform Integration & AI/Data",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:e53bf9a1-b4a2-4708-ab00-bcc4ac9a8901",
+"company": "The Nuclear Company",
+"title": "Data Science Intern",
+"rule": "season",
+"tag": "Spring 2027"
+},
+{
+"id": "ls:becc9f50-d65f-4749-b064-6d3e221e83da",
+"company": "The Nuclear Company",
+"title": "Data Science Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:46feb1be-8c27-4695-b879-9eaddca4b9ea",
+"company": "The Nuclear Company",
+"title": "AI/ML Engineer Intern - Platform Integration & AI/Data",
+"rule": "season",
+"tag": "Spring 2027"
+},
+{
+"id": "ls:51b99bce-c9cc-4f6f-9a52-d602f8e9e826",
+"company": "Johnson & Johnson",
+"title": "Software Engineer Co-op",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:50faea58-028e-467f-b373-f0c40e657222",
+"company": "The Nuclear Company",
+"title": "Software Engineering Intern",
+"rule": "season",
+"tag": "Spring 2027"
+},
+{
+"id": "ls:44950f93-2f35-41ce-9bbc-d82279022aa6",
+"company": "The Nuclear Company",
+"title": "AI Software Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:17936a1f-6724-46a7-a97a-6feceb9c2a92",
+"company": "John Deere",
+"title": "Part-Time Student - Dynamic Systems Modeling - Product Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:ca66c41c-e5ec-46c9-b384-86a95ed3dbc6",
+"company": "Autodesk",
+"title": "Cloud Developer Intern - Interactive Graphics, Media & Entertainment",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:a5f9bcc3-042f-46fd-9cdd-df31579889a1",
+"company": "Autodesk",
+"title": "Cloud Developer Intern - Interactive Graphics, Media & Entertainment",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:88a53309-0a50-46d5-a5a1-9e196633f951",
+"company": "Engineers and Geoscientists BC",
+"title": "Information Systems Co-op",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:5cd02bbb-4f1e-49d8-a75c-44f5f6e2e968",
+"company": "TikTok",
+"title": "Frontend Engineer Intern - Ads Interface",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:34280898-ae52-4450-896d-1e47305b467e",
+"company": "TikTok",
+"title": "AI Agent Product Manager Intern - Product Infrastructure-Customer Service Platform",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:2c44a377-3a3b-4d57-af73-669e66675373",
+"company": "Autodesk",
+"title": "Cloud Developer Intern - Fcap",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:fb717af7-686b-4077-a8c0-033da193b3fb",
+"company": "Autodesk",
+"title": "Cloud Developer Intern - Fcap",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:016ffb65-6a85-485b-b718-14b7c85d9463",
+"company": "TikTok",
+"title": "Search Safety Operations Intern - Platform Responsibility - Search",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:22bd8216-0e96-4a9c-858c-61b383700c83",
+"company": "Bank of Montreal",
+"title": "Card Products Intern Co-op - Customer Solutions",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:fc244a70-fbd2-4a62-a5e8-7caad750e8d9",
+"company": "Royal Bank of Canada",
+"title": "Capital Markets Quant Summer Associate - Quantitative Technology Services",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:2115234d-be28-4c20-b435-cbb15464dda9",
+"company": "Royal Bank of Canada",
+"title": "Global Markets Quantitative Trading Summer Analyst - Capital Markets",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:8b6ea404-0949-4cd3-a4e1-f77ec1d8cca0",
+"company": "Royal Bank of Canada",
+"title": "Global Markets Sales & Trading Summer Analyst - Capital Markets",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:e296a9f7-4502-4c56-9801-a0b9fca3e850",
+"company": "Medline",
+"title": "MBA Intern - Product Management",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:e0146efc-ad03-47dd-b1a8-89f53a3fac8c",
+"company": "Sony Pictures Entertainment",
+"title": "Insights Intern - Multiple Teams",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:3e61b1a6-a2f1-43ac-b111-540ea2cf2915",
+"company": "WSP",
+"title": "Business Intelligence Intern",
+"rule": "season",
+"tag": "Fall 2026"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
