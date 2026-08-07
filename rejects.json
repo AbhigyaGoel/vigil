@@ -2331,6 +2331,13 @@
 "tag": "Summer 2026"
 },
 {
+"id": "ls:8faaec18-134c-4920-952c-046aa22b3053",
+"company": "Sun Life",
+"title": "Student Software Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:908ea2de-e80d-4c76-9020-f31ac7f04345",
 "company": "Medpace, Inc.",
 "title": "Software Development Co-op",
@@ -2539,13 +2546,6 @@
 "title": "Data Analytics Intern",
 "rule": "season",
 "tag": "Summer 2026"
-},
-{
-"id": "ls:06de75c2-cc22-4498-95d5-a96d0f6f920b",
-"company": "Magna",
-"title": "Artificial Intelligence Student",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:32ef093e-4ade-4a88-bac2-63b0be259cf4",
@@ -9037,13 +9037,6 @@
 "tag": ""
 },
 {
-"id": "ls:75880263-18a3-4cf6-b94e-6780699c7aa3",
-"company": "SRI International",
-"title": "Computer Science Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:42c0c70a-f3aa-4aab-b737-a65c498589b7",
 "company": "TikTok",
 "title": "Research Engineer Intern - Monetization Technology - Business Integrity",
@@ -10045,6 +10038,13 @@
 "tag": ""
 },
 {
+"id": "ls:af0010c7-8bfd-4664-aa13-4626a4140ee2",
+"company": "Swift",
+"title": "Industry Engagement Research Analyst Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
 "id": "ls:fef69e02-fe37-4ff4-b158-7dceacfeb578",
 "company": "US Acute Care Solutions",
 "title": "People Analytics Intern",
@@ -10715,6 +10715,20 @@
 "title": "Intelligence Solutions Intern",
 "rule": "season",
 "tag": "Summer 2026"
+},
+{
+"id": "ls:63347020-90de-4daa-bacc-ff4e521ca908",
+"company": "Ciena",
+"title": "Software Developer Intern - Fall 2026",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:7d4b9464-fcce-47d6-9331-a1d0c501709f",
+"company": "Delta Dental",
+"title": "Application Development Intern",
+"rule": "season",
+"tag": "Fall 2026"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -131064,6 +131078,13 @@
 "id": "wd:kla:/job/DEU-Saxony-Dresden-City-Center/Working-Student-Foundry-Analytics---SW-Development--m-f-d-_2638557",
 "company": "KLA",
 "title": "Working Student Foundry Analytics & SW Development (m/f/d)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:kla:/job/DEU-Saxony-Dresden-City-Center/Working-Student--gn--for-Data-Analysis_2638365",
+"company": "KLA",
+"title": "Working Student for Data Analysis (m/f/d)",
 "rule": "not-intern",
 "tag": ""
 },
