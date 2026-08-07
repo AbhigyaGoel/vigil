@@ -6104,6 +6104,13 @@
 "tag": ""
 },
 {
+"id": "ls:5fdbf0e9-e98a-4251-b983-801d494ae586",
+"company": "Chicago Trading Company",
+"title": "Software Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:12e90625-1a21-45ca-b442-bd210e183914",
 "company": "National Laboratory of the Rockies",
 "title": "Graduate Intern",
@@ -8694,6 +8701,20 @@
 "tag": ""
 },
 {
+"id": "ls:98635871-6276-41e4-ad95-172485704a2c",
+"company": "JP Morgan Chase",
+"title": "Data & AI Intern - Analyst",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:1bf46509-1ef7-44c8-9af8-cbe0dbe392ff",
+"company": "JP Morgan Chase",
+"title": "Data Internship - Data & AI Program",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:736ed5d6-63be-4dfa-b0d6-5eb9c5d4e663",
 "company": "JP Morgan Chase",
 "title": "Quantitative Research Intern - Risk and Treasury",
@@ -9077,20 +9098,6 @@
 "title": "AI Scientist Intern",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:cef4c60b-0a55-4305-94cf-d725b8c66ad2",
-"company": "Chicago Trading Company",
-"title": "Software Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:ca124ec8-21c1-40d5-8aba-dea45cf0fe0d",
-"company": "Chicago Trading Company",
-"title": "Quantitative Trading Intern",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:1637f003-d1c1-4f07-a7da-d53a33e61cc1",
@@ -10346,13 +10353,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:5379a4df-fa7a-4799-8978-00d1844415b9",
-"company": "Atoms",
-"title": "Software Engineer Intern - Winter 2027",
-"rule": "season",
-"tag": "Winter 2027"
-},
-{
 "id": "ls:f5f8ee5c-c30e-425b-8613-da35ccc354be",
 "company": "Microsoft",
 "title": "Software Engineer Intern - Gears of War",
@@ -10568,6 +10568,104 @@
 "title": "Application Development Intern",
 "rule": "season",
 "tag": "Fall 2026"
+},
+{
+"id": "ls:9d5c67c2-016a-400b-a091-495a945e1778",
+"company": "General Dynamics Information Technology",
+"title": "Artificial Intelligence/Machine Learning Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:ea2731af-2fbc-4e8e-834a-a0db3c17ab9c",
+"company": "RTX",
+"title": "Systems Engineer 1 Intern - Intern Conversion",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:5e274ea4-55e9-4ee0-8e93-82d466c18810",
+"company": "RTX",
+"title": "Systems Engineer 1 Intern - Intern Conversion",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:1aeed220-bf37-4565-a0cb-fa72dae2456d",
+"company": "Amcor",
+"title": "Product Development Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:cd083629-4e4e-44cb-bb63-7fdd44841b74",
+"company": "Ameren",
+"title": "DERMS Co-op/Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:51b0d062-6f05-4d98-afb7-8dc7523b4758",
+"company": "Ameren",
+"title": "Digital Co-op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:c2163298-bd36-4efb-8554-64b9997a0b1b",
+"company": "Belvedere Trading",
+"title": "Quantitative Trading Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:8448183d-9b74-41ff-993d-5918d540dd73",
+"company": "Belvedere Trading",
+"title": "Quantitative Trading Intern - Winter Quarter 2027",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:fc66b12e-8d7f-4a0e-b4f6-8f54189941d9",
+"company": "Belvedere Trading",
+"title": "Software Engineer Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:da5a57a2-4947-4eb5-9195-d53eb6871b1c",
+"company": "Varda Space",
+"title": "Flight Software Intern - Spring 2027",
+"rule": "season",
+"tag": "Spring 2027"
+},
+{
+"id": "ls:b85eddaf-16be-4f29-9179-6de363f4299b",
+"company": "Varda Space",
+"title": "Applications Engineer Intern",
+"rule": "season",
+"tag": "Spring 2027"
+},
+{
+"id": "ls:c2b49de6-3b28-48c3-9157-ee5f9c0a2059",
+"company": "GCI",
+"title": "Telecommunications Intern - Computer Science/Data Analytics",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:6a212112-d9f9-4c10-9b56-d8fd10c8fd96",
+"company": "Canva",
+"title": "PhD Research Scientist Intern - Edge AI",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:688685f6-3e2b-48ae-b097-6e9a5fea7143",
+"company": "University of Texas at Austin",
+"title": "Technology Intern - Texas Immersive Institute - Moody College of Communication",
+"rule": "season",
+"tag": "Summer 2026"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -129413,13 +129511,6 @@
 "company": "NVIDIA",
 "title": "DFT Engineer - New College Grad",
 "rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/PhD-Research-Intern--System-Software-and-I-O-Architecture---Fall-2026_JR2019667",
-"company": "NVIDIA",
-"title": "PhD Research Intern, System Software and I/O Architecture - Fall 2026",
-"rule": "seniority",
 "tag": ""
 },
 {
