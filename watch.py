@@ -471,7 +471,15 @@ def classify(job, enrich, trace=None):
         if sig.get("grad_bad") or sig.get("grad_only"):
             note("TIER B (curated, grad/degree mismatch)"); return "B", score
         note("TIER A (curated bypass)"); return "A", max(score, 3)
-    a_ok = season_a_eligible(job.get("terms"))
+    if policy == "tagged":
+        # SimplifyJobs carries explicit season terms -> trust them exactly.
+        a_ok = season_a_eligible(job.get("terms"))
+    else:
+        # bulk/untagged (Workday, markdown, atom) have no structured terms, so a
+        # strict term match would cap them at Tier B forever. A disqualifying season
+        # was already dropped above; promote unless the description shows a hard
+        # eligibility mismatch (I graduate 2028).
+        a_ok = not (sig.get("grad_bad") or sig.get("grad_only"))
     if score >= 3 and geo == "us" and a_ok:
         note("TIER A"); return "A", score
     note(f"TIER B (score>=3:{score>=3} us:{geo=='us'} season_a:{a_ok})")
@@ -489,7 +497,7 @@ def _load(path, default):
     return default
 
 
-LOGIC_VERSION = "v2.4"  # bump when filter/scoring CODE changes -> forces a silent reseed
+LOGIC_VERSION = "v2.5"  # bump when filter/scoring CODE changes -> forces a silent reseed
 
 
 def config_hash():

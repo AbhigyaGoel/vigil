@@ -20,7 +20,12 @@
     {"title": "SWE Intern (Summer 2026)", "expect": true},
     {"title": "Analog Intern - Spring 2027", "expect": true},
     {"title": "Hardware Engineer Intern - Summer 2027", "expect": false},
-    {"title": "Robotics Intern", "expect": false}
+    {"title": "Robotics Intern", "expect": false},
+    {"title": "Co-op, Hardware Development Engineer (January to June 2026)", "expect": true},
+    {"title": "Co-op, Hardware Development Engineer (May - Dec 2026)", "expect": true},
+    {"title": "Hardware Co-op (January to August 2026)", "expect": true},
+    {"title": "Robotics Co-op (June to August 2027)", "expect": false},
+    {"title": "Hardware Engineer Intern 2028", "expect": false}
   ],
   "curated": [
     {"job": {"title": "Engineering Intern", "company": "Waymo", "location": "Mountain View, CA", "url": "x"}, "expect": true},

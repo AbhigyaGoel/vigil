@@ -12,7 +12,7 @@
   "require_active": true,
   "season_drop_terms": ["Fall 2026", "Summer 2026", "Spring 2026", "Winter 2026", "Spring 2027", "Winter 2027"],
   "season_a_terms": ["Summer 2027", "Summer 2028", "Fall 2027"],
-  "season_title_drop": "summer 2026|fall 2026|spring 2026|winter 2026|2026 summer|spring 2027|winter 2027",
+  "season_title_drop": "summer 2026|fall 2026|spring 2026|winter 2026|2026 summer|spring 2027|winter 2027|\\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\\s*(?:to|through|[-–—])\\s*(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)?[a-z]*\\.?,?\\s*20(?:2[0-6])\\b",
   "include_categories": ["Hardware", "Hardware Engineering"],
   "soft_categories": ["AI/ML/Data", "Data Science, AI & Machine Learning", "Software", "Software Engineering"],
   "tagged_subregex": "robot|perception|autonom|self-?driving|\\bAV\\b|\\bADAS\\b|\\bSLAM\\b|computer vision|embodied|manipulation|sensor|lidar|drone|\\bUAV\\b|vehicle|controls?|motion|edge|on-?device|embedded|hardware|firmware|inference|kernel|\\bCUDA\\b|compiler|accelerat",
