@@ -1414,13 +1414,6 @@
 "tag": "Winter 2026"
 },
 {
-"id": "ls:d8ba3403-7b44-457e-b0fa-fa0b885bfec1",
-"company": "Moog ",
-"title": "Intern IT Computer Science - Data Analytics",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:de291dac-66b0-4867-84dc-697d2f4f487c",
 "company": "ByteDance",
 "title": "Student Researcher - Seed Infra-Compiler - PhD",
@@ -9408,6 +9401,13 @@
 "tag": "Fall 2026"
 },
 {
+"id": "ls:8d9b8a71-2379-496c-bfbe-ba06bd67f73e",
+"company": "PNC Financial Services",
+"title": "Data and Analytics Intern - Modeling",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
 "id": "ls:b4947a2f-6ea5-4d4a-8cb0-1e08e351d0e9",
 "company": "American Express",
 "title": "Product Innovation Intern - Credit & Fraud Risk",
@@ -10776,6 +10776,13 @@
 "id": "ls:0a45c012-edc2-4b79-bd41-d7c92f3689ba",
 "company": "Marshall Wace",
 "title": "AI Placement - Imperial 6 month placement",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:eac8db70-c9b5-4336-aacd-473e34b2745d",
+"company": "Pennsylvania State University",
+"title": "Research Assistant - FAIR Lab",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -134328,6 +134335,13 @@
 "title": "2026 Summer Intern (Penang) Supply Chain Planner",
 "rule": "season",
 "tag": "title"
+},
+{
+"id": "wd:trimble:/job/Brazil---Remote/Intern-Undergraduate---Estgio_R57123",
+"company": "Trimble",
+"title": "Intern Undergraduate - Est\u00e1gio",
+"rule": "geo",
+"tag": ""
 },
 {
 "id": "wd:trimble:/job/New-Zealand---Christchurch/Applications-Specialist-Intern_R55718",
