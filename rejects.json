@@ -5159,13 +5159,6 @@
 "tag": ""
 },
 {
-"id": "ls:17a2243a-f588-4ca1-887b-f97b5cf3acd3",
-"company": "Environmental Defense Fund",
-"title": "Climate & Health Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:f0aadc2c-2a47-404c-bc18-f3863ab3e456",
 "company": "Pylon",
 "title": "Software Engineer Intern",
@@ -9903,13 +9896,6 @@
 "title": "Lab Intern",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:14c1c923-d903-4696-b2fe-7351cfa70ab2",
-"company": "Point Blue Conservation Science",
-"title": "Data Science Intern - Ecoinformatics",
-"rule": "season",
-"tag": "Summer 2026"
 },
 {
 "id": "ls:11033c28-f47a-4136-b04c-1449edaa13f8",
@@ -133248,6 +133234,13 @@
 "id": "wd:intel:/job/Israel-Kiryat-Gat/Practical-Engineering-Student----Kiryat-Gat_JR0281401",
 "company": "Intel",
 "title": "Practical Engineering Student -  Kiryat Gat",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/DalianCHN/Customer-Engineer--Trilingual--Chinese--English---Korean-_R2625799",
+"company": "Applied Materials",
+"title": "Customer Engineer (Trilingual: Chinese, English & Korean)",
 "rule": "not-intern",
 "tag": ""
 },
