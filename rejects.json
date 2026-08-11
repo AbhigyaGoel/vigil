@@ -131019,6 +131019,20 @@
 "tag": ""
 },
 {
+"id": "at:https://jobs.ashbyhq.com/sentry/672e2a76-d8e1-49c1-b227-4a189c4e49a1",
+"company": "Sentry",
+"title": "Software Engineer, Intern (Summer 2027)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/R-D---Data-Science-Internship-Fall-2026_0014841",
+"company": "CCC Intelligent Solutions",
+"title": "R&D & Data Science Internship Fall 2026",
+"rule": "season",
+"tag": "title"
+},
+{
 "id": "at:https://jobs.lever.co/analyticpartners/485ae801-3fae-4dc1-950d-445ba990f6c9",
 "company": "Analytic Partners",
 "title": "Software Engineer Co-Op | University of Toronto",
@@ -131691,20 +131705,6 @@
 "tag": "title"
 },
 {
-"id": "at:https://jobs.lever.co/tevora/dd7cd048-9997-425d-b1f4-d13f37c66df0",
-"company": "Tevora",
-"title": "Cybersecurity Internship Fall 2026 - International Organization for Standardization (ISO)",
-"rule": "season",
-"tag": "title"
-},
-{
-"id": "at:https://jobs.lever.co/tevora/f3d10f98-0ee6-4ad7-a1a0-6863ff008adf",
-"company": "Tevora",
-"title": "Cybersecurity Internship Fall 2026 - Healthcare",
-"rule": "season",
-"tag": "title"
-},
-{
 "id": "wd:nvidia:/job/Israel-Tel-Aviv/Firmware-Engineer_JR2022198",
 "company": "NVIDIA",
 "title": "Firmware Engineer",
@@ -131726,10 +131726,10 @@
 "tag": "title"
 },
 {
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Developer-Technology-Engineer--AI---New-College-Grad-2026_JR2014130-1",
+"id": "wd:nvidia:",
 "company": "NVIDIA",
-"title": "Developer Technology Engineer, AI - New College Grad 2026",
-"rule": "new-grad",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -131978,10 +131978,10 @@
 "tag": ""
 },
 {
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/GPU-Architect---New-College-Grad-2026_JR2019445",
+"id": "wd:nvidia:",
 "company": "NVIDIA",
-"title": "GPU Architect - New College Grad 2026",
-"rule": "new-grad",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
