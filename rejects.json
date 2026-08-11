@@ -9821,13 +9821,6 @@
 "tag": ""
 },
 {
-"id": "ls:2501f0b1-c33a-4309-87a7-8de524f63285",
-"company": "Harris Computer",
-"title": "Technology Architecture Intern - Corporate AI Foundation",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:e80e3302-1101-475b-8706-adaf4a95d93a",
 "company": " impact.com ",
 "title": "Associate Software Engineer Intern",
@@ -10224,13 +10217,6 @@
 "company": "Axon",
 "title": "Software Engineer Intern",
 "rule": "defense",
-"tag": ""
-},
-{
-"id": "ls:2751af83-9f4f-48b8-8aba-6f534e9681e7",
-"company": "Atoms",
-"title": "Software Engineer Intern - Summer 2027",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -10755,13 +10741,6 @@
 "id": "ls:8b699e41-5c53-4b40-aaf9-57a6bd162427",
 "company": "McKesson",
 "title": "Technology Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:755d53f2-611b-41ed-b60e-f7e1ed63a5ef",
-"company": "PEAK6",
-"title": "Trading Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -11308,6 +11287,20 @@
 "id": "ls:7ffcd789-ef9d-4dfa-a950-34fda3485559",
 "company": "Bank of Montreal",
 "title": "Full Stack Engineer Intern - Data Cognition Team",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:ab415b2f-4b79-4996-a204-a63273564c89",
+"company": "Deloitte",
+"title": "Software Engineering Analyst Intern - Government & Public Services",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:83d5ce20-ba22-49dc-a345-e4d8c85a7ef8",
+"company": "Deloitte",
+"title": "AI and Data Engineering Summer Scholar Intern - Government & Public Services",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -131068,6 +131061,13 @@
 "tag": ""
 },
 {
+"id": "at:https://jobs.lever.co/analyticpartners/485ae801-3fae-4dc1-950d-445ba990f6c9",
+"company": "Analytic Partners",
+"title": "Software Engineer Co-Op | University of Toronto",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "at:https://jobs.lever.co/analyticpartners/5452f2a3-77ba-4cce-afdd-000351105650",
 "company": "Analytic Partners",
 "title": "Software Engineer Co-Op | Georgia Tech",
@@ -131075,9 +131075,9 @@
 "tag": ""
 },
 {
-"id": "at:https://jobs.lever.co/analyticpartners/f4d7b848-878f-4761-be25-3d6e4f4d1a54",
+"id": "at:https://jobs.lever.co/analyticpartners/6303782e-636f-4bac-90cd-051411558b8b",
 "company": "Analytic Partners",
-"title": "Software Engineer Co-Op | McGill University",
+"title": "Software Engineer Co-Op | University of Waterloo",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -131089,16 +131089,9 @@
 "tag": ""
 },
 {
-"id": "at:https://jobs.lever.co/analyticpartners/485ae801-3fae-4dc1-950d-445ba990f6c9",
+"id": "at:https://jobs.lever.co/analyticpartners/f4d7b848-878f-4761-be25-3d6e4f4d1a54",
 "company": "Analytic Partners",
-"title": "Software Engineer Co-Op | University of Toronto",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://jobs.lever.co/analyticpartners/6303782e-636f-4bac-90cd-051411558b8b",
-"company": "Analytic Partners",
-"title": "Software Engineer Co-Op | University of Waterloo",
+"title": "Software Engineer Co-Op | McGill University",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -133896,13 +133889,6 @@
 "tag": ""
 },
 {
-"id": "wd:amat:",
-"company": "Applied Materials",
-"title": "",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:amat:/job/AustinTX/Finance-Intern--MBA---Austin--TX-_R2624934",
 "company": "Applied Materials",
 "title": "Finance Intern (MBA - Austin, TX)",
@@ -134299,6 +134285,13 @@
 "company": "Marvell",
 "title": "Model Correlation & SI Intern - Ph. D Degree",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:cat:/job/Pontiac-Illinois/High-School-Student-Trainee---Part-Time_R0000387838",
+"company": "Caterpillar",
+"title": "High School Student Trainee - Part-Time",
+"rule": "not-intern",
 "tag": ""
 },
 {
