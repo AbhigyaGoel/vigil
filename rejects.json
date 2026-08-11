@@ -3059,13 +3059,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:b70cf0fc-1a6d-451a-a737-885a6a68884f",
-"company": "Ancestry",
-"title": "Machine Learning Engineer Co-op",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:86bafca9-f202-4817-8184-32aabc6ac975",
 "company": "Four Hands",
 "title": "Product Development Intern",
@@ -5117,13 +5110,6 @@
 "tag": ""
 },
 {
-"id": "ls:ba1e95d6-38c8-4dfd-98bb-f6954a1aaab8",
-"company": "Meta",
-"title": "Research Scientist Intern - Monetization Computer Vision",
-"rule": "season",
-"tag": "Winter 2026"
-},
-{
 "id": "ls:cbc90c52-de35-4d7b-b7f2-bc0a30bb1d72",
 "company": "Xsolla",
 "title": "AI-First Engineer Intern",
@@ -5738,13 +5724,6 @@
 "title": "Manufacturing Execution Systems Co-op - Manufacturing Execution Systems",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:94928190-a01b-4ff0-8068-4fad65af019c",
-"company": "Cincinnati Children\u2019s Hospital and Medical Center",
-"title": "Student 2 - Data Management",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:9b8c84ef-c762-4da1-9f47-56e4a62375d5",
@@ -9282,13 +9261,6 @@
 "tag": ""
 },
 {
-"id": "ls:cbc54767-dc6e-40b3-a3be-54f9edcc4ef5",
-"company": "University System of New Hampshire",
-"title": "Research Assistant - Keesee",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:9ea4299f-1e3a-45fc-b204-aa0870712b23",
 "company": "Lumentum",
 "title": "Optical Verification Technician Intern/Co-op",
@@ -11072,13 +11044,6 @@
 "title": "AI Safety Evaluation & Governance Product Manager Intern - Multiple Teams",
 "rule": "seniority",
 "tag": ""
-},
-{
-"id": "ls:152f0dd1-e6c5-4072-8a15-e122312fc5c7",
-"company": "ATCO",
-"title": "Engineering Co-op - Electric Division",
-"rule": "season",
-"tag": "Winter 2026"
 },
 {
 "id": "ls:4e0d8be2-4c96-42c3-96c6-17850b196a60",
@@ -133619,6 +133584,13 @@
 "id": "wd:kla:/job/Milpitas-CA/Associate-Test-Engineer-Trainee_2637886",
 "company": "KLA",
 "title": "Associate Test Engineer Trainee",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Israel-Haifa/Haifa-Lab-technician---Student_JR0285553",
+"company": "Intel",
+"title": "Haifa Lab technician - Student",
 "rule": "not-intern",
 "tag": ""
 },
