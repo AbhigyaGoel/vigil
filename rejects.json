@@ -10122,13 +10122,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:9a82fcbd-e34b-494d-8264-b065e528699d",
-"company": "Premium Merchant Funding",
-"title": "Real Estate Investment Analyst Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:1befbdf8-c7d1-4c45-8adc-8870dcde0ff4",
 "company": "Luminance",
 "title": "AI Engineering Intern",
@@ -11112,6 +11105,62 @@
 "id": "ls:bbf77bc1-a60b-4e9b-94f4-e788816c9c46",
 "company": "OpusClip",
 "title": "AI Product Management Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:cac1f15d-cf74-42c8-b16e-6781eacbab92",
+"company": "Micron Technology",
+"title": "DRAM IP Circuits Design Engineer Intern - IP Development",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:c4745709-5fa9-4f56-b6f8-9e2f7d7a0cb3",
+"company": "Micron Technology",
+"title": "DRAM Design Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:5d13cd38-a186-470d-a3a8-b605e114e041",
+"company": "Micron Technology",
+"title": "DRAM Design Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:74882eb7-2f7f-4a33-9ecc-7ad6865fdbd5",
+"company": "Truist Bank",
+"title": "Analyst Intern - Equity Research - Sales, Trading & Research",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:a73a78fc-c2c9-4dac-84b6-3d7d8f0702c5",
+"company": "Truist Bank",
+"title": "Fixed Income Loans S&T Intern - Sales, Trading & Research - Analyst Program",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:5862704c-af4b-420f-9538-a27f52a6dc49",
+"company": "Truist Bank",
+"title": "Analyst Intern Conversion - Multiple Teams",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:fd960a3d-8212-46cf-8d1f-60df0b47e33d",
+"company": "Moog ",
+"title": "Product Engineering Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:06fa48a4-38e1-4ac5-9534-ba1c6702b680",
+"company": "Tesla",
+"title": "Applied AI Engineer Intern - AI Hardware",
 "rule": "season",
 "tag": "Fall 2026"
 },
@@ -132118,6 +132167,13 @@
 "tag": ""
 },
 {
+"id": "wd:micron:/job/Hyderabad---Phoenix-Aquila-India/Intern_JR108596",
+"company": "Micron",
+"title": "Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-CMP_JR107848",
 "company": "Micron",
 "title": "Intern - Process Development Engineer, 3D DRAM CMP",
@@ -133539,20 +133595,6 @@
 "tag": ""
 },
 {
-"id": "wd:intel:/job/Vietnam-Ho_Chi_Minh_City/Design-Verification-Intern_JR0285979",
-"company": "Intel",
-"title": "Design Verification Intern",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:intel:/job/Malaysia-Penang/Pre-Silicon-IP-System-Validation-Intern_JR0286047",
-"company": "Intel",
-"title": "Pre-Silicon IP System Validation Intern",
-"rule": "geo",
-"tag": ""
-},
-{
 "id": "wd:intel:/job/Costa-Rica-San-Jose/Treasury-Analyst-Student_JR0285827",
 "company": "Intel",
 "title": "Treasury Analyst Intern",
@@ -133637,6 +133679,13 @@
 "tag": ""
 },
 {
+"id": "wd:amat:/job/SingaporeSGP/Global-Software-Support-Engineer_R2625349-1",
+"company": "Applied Materials",
+"title": "Global Software Support Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "wd:amat:/job/SingaporeSGP/Operations-Management--Manager_R2625872",
 "company": "Applied Materials",
 "title": "Operations Management, Manager",
@@ -133655,13 +133704,6 @@
 "company": "Applied Materials",
 "title": "Customer Engineer (Trilingual: Chinese, English & Korean)",
 "rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:amat:/job/Santa-ClaraCA/Chemist---Co-Op---Santa-Clara-_R2624992",
-"company": "Applied Materials",
-"title": "Chemist  New College Grad (Masters - Santa Clara)",
-"rule": "new-grad",
 "tag": ""
 },
 {
