@@ -2996,6 +2996,13 @@
 "tag": "Fall 2026"
 },
 {
+"id": "ls:ecb57e2b-b9a6-4967-9d05-bd9596de3537",
+"company": "Copart",
+"title": "Software Engineer Intern",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
 "id": "ls:47768da2-8643-4881-8249-a78543064605",
 "company": "TikTok",
 "title": "AI Software Engineer Intern - Transaction Platform",
@@ -6706,13 +6713,6 @@
 "tag": ""
 },
 {
-"id": "ls:cff6c5a6-5c4a-4f30-bb48-4543328cc059",
-"company": "Pennsylvania State University",
-"title": "Research Engineering Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:22d08295-47cf-4b31-9064-5548c060a73f",
 "company": "Ambarella",
 "title": "ASIC Design Engineer Intern",
@@ -7719,13 +7719,6 @@
 "title": "Malware Research Intern",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:8f3f9db3-31c7-4d2e-aeb1-91b3181c670b",
-"company": "American Electric Power",
-"title": "GIS Technician",
-"rule": "seniority",
-"tag": ""
 },
 {
 "id": "ls:d719e9cc-0e4d-4015-9ad9-367e0858f42d",
@@ -10444,13 +10437,6 @@
 "tag": ""
 },
 {
-"id": "ls:fa275c09-336d-4067-ad94-70cbcecb4ed9",
-"company": "PEAK6",
-"title": "Trading Bootcamp Micro-Internship - Summer 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:8b699e41-5c53-4b40-aaf9-57a6bd162427",
 "company": "McKesson",
 "title": "Technology Intern",
@@ -11204,6 +11190,27 @@
 "company": "TikTok",
 "title": "Machine Learning Engineer Intern - E-Commerce Recommendation Foundation",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:05cc6b19-1ebc-4435-b908-56f4805a54d3",
+"company": " CCC Intelligent Solutions",
+"title": "Data Science Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:e92a0796-43f8-4a18-a670-14394cd7cb1b",
+"company": "University System of New Hampshire",
+"title": "Robotics Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:98803f68-563e-4966-9b99-92606c5b702e",
+"company": "RTX",
+"title": "Software Engineer Intern",
+"rule": "defense",
 "tag": ""
 },
 {
@@ -131656,6 +131663,13 @@
 "tag": "title"
 },
 {
+"id": "wd:nvidia:/job/Israel-Beer-Sheva/Firmware-Engineer_JR2022198",
+"company": "NVIDIA",
+"title": "Firmware Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "wd:nvidia:/job/Israel-Yokneam/Chip-Design-Engineer_JR2020627",
 "company": "NVIDIA",
 "title": "Chip Design Engineer",
@@ -133578,13 +133592,6 @@
 "company": "Intel",
 "title": "Module Engineering Intern \u2013 AI/ML, Data Science, Robotics, Electrical, and Mechatronics Engineering Disciplines",
 "rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:intel:/job/US-New-Mexico-Albuquerque/New-Mexico-Manufacturing-Technician-Internship_JR0284246",
-"company": "Intel",
-"title": "New Mexico Manufacturing Technician Internship",
-"rule": "seniority",
 "tag": ""
 },
 {
