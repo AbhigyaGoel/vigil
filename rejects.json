@@ -1225,13 +1225,6 @@
 "tag": ""
 },
 {
-"id": "ls:0cbe5f0d-bc44-4b45-85bb-9272f05546e8",
-"company": "ByteDance",
-"title": "Research Scientist in AI Foundation Model Infrastructure \u2013 Graduates - Seed",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:079a44ae-b213-4f4c-9088-cc2c48d346b1",
 "company": "ByteDance",
 "title": "Student Researcher - Large Language Model - Seed",
@@ -3304,13 +3297,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:fd4d4ad1-7cdb-45e6-82a7-3ad24e9bc989",
-"company": "TikTok",
-"title": "Research Scientist Intern - Trust and Safety",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:a2690da9-8ffe-49b7-8e47-3db840df7b79",
 "company": "TikTok",
 "title": "Research Scientist Intern - Trust and Safety - CV/NLP/Multimodal LLM",
@@ -4086,13 +4072,6 @@
 "title": "Software Engineer Intern",
 "rule": "season",
 "tag": "Winter 2026"
-},
-{
-"id": "ls:188c70e9-8a5c-445e-8bcf-9061fecdd0bb",
-"company": "Copart",
-"title": "Database Engineer Intern",
-"rule": "season",
-"tag": "Summer 2026"
 },
 {
 "id": "ls:42d36fe6-4ad6-4a59-ae82-a57bca2b40a4",
@@ -9128,13 +9107,6 @@
 "tag": ""
 },
 {
-"id": "ls:1924d443-3b61-47d4-addf-d6db4308935b",
-"company": "The Federal Reserve System",
-"title": "Graduate Statistical Analysis Intern - Regional & Community Outreach",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:7d3709c5-eca0-4793-8cbd-bb444a1d8975",
 "company": "GE Vernova",
 "title": "Digital Technology Intern",
@@ -10514,13 +10486,6 @@
 "tag": ""
 },
 {
-"id": "ls:810c0d4f-1b94-4649-bec6-20b46e134782",
-"company": "Sargent & Lundy",
-"title": "AI & Automation Intern - Enterprise Data & Analytics",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:887bd43f-e027-47d5-b8ee-3d03c067e13c",
 "company": "RLI",
 "title": "Product Management Intern",
@@ -10931,13 +10896,6 @@
 "company": "Quantbot Technologies",
 "title": "Data Trading Analyst Intern",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:d4bd04b2-b4a7-41b4-ab15-339b8e50f45e",
-"company": "RTX",
-"title": "Enterprise Extended Reality Intern",
-"rule": "defense",
 "tag": ""
 },
 {
@@ -131712,6 +131670,13 @@
 "tag": "title"
 },
 {
+"id": "wd:nvidia:/job/Israel-Yokneam/Interposer-Design-Engineer_JR2022962",
+"company": "NVIDIA",
+"title": "Interposer Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "wd:nvidia:/job/Israel-Tel-Aviv/Firmware-Engineer_JR2022198",
 "company": "NVIDIA",
 "title": "Firmware Engineer",
@@ -133567,6 +133532,13 @@
 "tag": ""
 },
 {
+"id": "wd:intel:/job/Israel-Kiryat-Gat/Engineering-student-for-Intel-Kiryat-Gat_JR0286363",
+"company": "Intel",
+"title": "Engineering student for Intel Kiryat Gat",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "wd:intel:/job/Israel-Haifa/Haifa-Lab-technician---Student_JR0285553",
 "company": "Intel",
 "title": "Haifa Lab technician - Student",
@@ -133739,6 +133711,13 @@
 "company": "Intel",
 "title": "Practical Engineering Student -  Kiryat Gat",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/ShanghaiCHN/-Customer-Engineer-Intern-_R2625965",
+"company": "Applied Materials",
+"title": "\u5ba2\u6237\u670d\u52a1\u5de5\u7a0b\u5e08\u5b9e\u4e60\u5c97\uff08Customer Engineer Intern\uff09",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -133934,13 +133913,6 @@
 "id": "wd:amat:/job/Santa-ClaraCA/Knowledge-Management-Technical-Project-Manager-New-College-Graduate--Bachelor-s--Santa-Clara--CA-_R2622644",
 "company": "Applied Materials",
 "title": "Knowledge Management Technical Project Manager New College Graduate- Bachelor's (Santa Clara, CA)",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:amat:/job/DresdenDEU/Customer-Engineer----Graduate-Program_R2618286",
-"company": "Applied Materials",
-"title": "Customer Engineer  - Graduate Program",
 "rule": "new-grad",
 "tag": ""
 },
@@ -134431,13 +134403,6 @@
 "id": "wd:nxp:/job/Shanghai-JingAn/XMLNAME-2027-Intern---Field-Quality-Engineer-Intern_R-10065019",
 "company": "NXP",
 "title": "2027 Intern - Field Quality Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:nxp:/job/Munich/Intern--f-m-d--AI-ML-Compiler-Engineer_R-10064052",
-"company": "NXP",
-"title": "Intern (f/m/d) AI/ML Compiler Engineer",
 "rule": "irrelevant",
 "tag": ""
 },
