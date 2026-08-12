@@ -6713,6 +6713,13 @@
 "tag": ""
 },
 {
+"id": "ls:cff6c5a6-5c4a-4f30-bb48-4543328cc059",
+"company": "Pennsylvania State University",
+"title": "Research Engineering Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
 "id": "ls:22d08295-47cf-4b31-9064-5548c060a73f",
 "company": "Ambarella",
 "title": "ASIC Design Engineer Intern",
@@ -7012,13 +7019,6 @@
 "title": "Product Management Intern",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:229ace69-8177-42cc-a85f-c0517803f03b",
-"company": "CVS Health",
-"title": "Analytics & Behavior Change \u2013 Data Science Grad - Conversion",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:d821822b-83af-4852-9853-6c6285ac4f11",
@@ -8740,13 +8740,6 @@
 "company": "American Express",
 "title": "Product Management Intern",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:dd4ec464-8abe-43b9-a5a9-cffa389440f6",
-"company": "Cloudflare",
-"title": "Marketing Programs and Analytics Intern",
-"rule": "seniority",
 "tag": ""
 },
 {
@@ -11212,6 +11205,13 @@
 "title": "Software Engineer Intern",
 "rule": "defense",
 "tag": ""
+},
+{
+"id": "ls:5116425b-3685-4fd2-8e7c-e7900b53e239",
+"company": "Loblaw Companies",
+"title": "Software Development Co-op",
+"rule": "season",
+"tag": "Fall 2026"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -130977,6 +130977,13 @@
 "tag": ""
 },
 {
+"id": "at:https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Dev-Internship_JR1005",
+"company": "American Fidelity",
+"title": "Software Dev Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "at:https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Data-Science-Engineer-Internship_0014843",
 "company": "CCC Intelligent Solutions",
 "title": "Data Science Engineer Internship",
@@ -131656,11 +131663,11 @@
 "tag": ""
 },
 {
-"id": "at:https://jobs.ashbyhq.com/melius/6a944911-dbbf-44c7-ba52-7866f7b433cf",
-"company": "Melius",
-"title": "Software Engineering Intern [Fall/Winter 2026]",
-"rule": "season",
-"tag": "title"
+"id": "wd:nvidia:/job/US-MA-Westford/GPU-Verification-Engineer---New-College-Grad-2026_JR2023187",
+"company": "NVIDIA",
+"title": "GPU Verification Engineer - New College Grad 2026",
+"rule": "new-grad",
+"tag": ""
 },
 {
 "id": "wd:nvidia:/job/Israel-Beer-Sheva/Firmware-Engineer_JR2022198",
@@ -133711,6 +133718,20 @@
 "company": "Intel",
 "title": "Practical Engineering Student -  Kiryat Gat",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Data-Scientist-New-College-Grad---Masters-Degree--Santa-Clara--CA-_R2625997",
+"company": "Applied Materials",
+"title": "Data Scientist New College Grad - Masters Degree (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Mechanical-Engineer-New-College-Grad---Masters-Degree--Santa-Clara--CA-_R2516983",
+"company": "Applied Materials",
+"title": "Mechanical Engineer New College Grad - Masters Degree (Santa Clara, CA)",
+"rule": "new-grad",
 "tag": ""
 },
 {
