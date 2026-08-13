@@ -2975,13 +2975,6 @@
 "tag": ""
 },
 {
-"id": "ls:a4780b03-762a-4790-bd5e-2d0cc0c66f12",
-"company": "Mach Industries",
-"title": "Engineering Co-op",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:11aaf289-dda4-4297-8b78-8998a2d45e2f",
 "company": "Block",
 "title": "Applied Research Intern Co-op",
@@ -4473,6 +4466,13 @@
 "tag": "Summer 2026"
 },
 {
+"id": "ls:a619c6de-ef67-4039-af21-31cf505b8ee2",
+"company": "Tower Research Capital",
+"title": "Quantitative Trader Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:9d506d4e-91ee-4f46-bda5-4ab9b5dddf55",
 "company": "Tower Research Capital",
 "title": "Quantitative Developer Intern",
@@ -5757,13 +5757,6 @@
 "id": "ls:0b289d87-b4b1-4056-8003-0a76181dcb52",
 "company": "SpreeAI ",
 "title": "Software Engineer Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
-"id": "ls:b307b311-8a8c-4096-bd3b-0d244f3423f0",
-"company": "SpreeAI ",
-"title": "Machine Learning Engineer Intern - Computer Vision/Multimodal/Generative AI",
 "rule": "season",
 "tag": "Fall 2026"
 },
@@ -8039,13 +8032,6 @@
 "id": "ls:c603c749-ab7d-489e-a4f7-a962ea05b835",
 "company": "JP Morgan Chase",
 "title": "Quantitative Research Intern - Markets - Analyst",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:98635871-6276-41e4-ad95-172485704a2c",
-"company": "JP Morgan Chase",
-"title": "Data & AI Intern - Analyst",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -11435,6 +11421,13 @@
 "company": "Tesla",
 "title": "Product Manager Intern - Residential Energy Engineering",
 "rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:7e2a97b1-541b-498e-9f8b-09e9fb6b0b9f",
+"company": "RTX",
+"title": "Modeling, Simulation & Analysis Intern",
+"rule": "defense",
 "tag": ""
 },
 {
@@ -132622,6 +132615,13 @@
 "tag": ""
 },
 {
+"id": "at:https://jobs.smartrecruiters.com/InfiniteQuant/744000143292044",
+"company": "InfiniteQuant",
+"title": "Quantitative Researcher - Internship - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "at:https://jobs.smartrecruiters.com/VWHCapitalManagementLP/744000135105801",
 "company": "VWH Capital Management",
 "title": "Quantitative Researcher Intern",
@@ -132689,6 +132689,13 @@
 "company": "CCC Intelligent Solutions",
 "title": "Data Science Engineer Internship",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255",
+"company": "Northrop Grumman",
+"title": "2027 Intern Software Engineer \ud83c\uddfa\ud83c\uddf8",
+"rule": "defense",
 "tag": ""
 },
 {
@@ -132814,13 +132821,6 @@
 "id": "at:https://ing.wd3.myworkdayjobs.com/icsgblcor/job/New-York/Summer-2027-Internship---Tech--Infrastructure-_REQ-10119621",
 "company": "ING",
 "title": "Summer 2027 Internship - Tech (Infrastructure)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://jobs.smartrecruiters.com/InfiniteQuant/744000142560129",
-"company": "InfiniteQuant",
-"title": "Quantitative Researcher - Internship - Summer 2027",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -133290,13 +133290,6 @@
 "id": "at:https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210773759",
 "company": "JPMorganChase",
 "title": "2027 Code for Good Hackathon - Software Engineer Program - Summer Internship \u2013 United States",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210773869",
-"company": "JPMorganChase",
-"title": "2027 Data & AI Program - Summer Internship - Analyst - United States",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -133850,6 +133843,13 @@
 "id": "wd:nvidia:/job/Israel-Yokneam/Software-Architect--Advanced-Development_JR1999296",
 "company": "NVIDIA",
 "title": "Software Architect, Advanced Development",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Hiroshima---Fab-15-Japan/_JR108424",
+"company": "Micron",
+"title": "\u5e83\u5cf6\u5927\u5b66\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u7814\u7a76",
 "rule": "not-intern",
 "tag": ""
 },
