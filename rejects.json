@@ -5698,13 +5698,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:fc5686cd-7212-4d14-b8c4-20c9dfeb974d",
-"company": "Bloxd",
-"title": "Software Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:c4946cfa-e397-493b-a5f8-f1e84a399bc5",
 "company": "Veeda AI",
 "title": "AI Scientist Intern - Veeda AI Scientist",
@@ -6247,6 +6240,13 @@
 "id": "ls:b021d4b5-16c6-4efd-a380-34c4d466a750",
 "company": "OpusClip",
 "title": "AI Research Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:3233fcfb-8678-4efa-8fe0-1034b9db4a52",
+"company": "Adtheorant",
+"title": "Enterprise AI Intern",
 "rule": "season",
 "tag": "Fall 2026"
 },
@@ -8209,13 +8209,6 @@
 "title": "Product Management Internship",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:0184a4dc-b3d8-4d2b-ab22-6675bc6e4ec3",
-"company": "SRI International",
-"title": "Embedded Software Engineer Co-op",
-"rule": "season",
-"tag": "Fall 2026"
 },
 {
 "id": "ls:76024ce1-258c-433e-87c4-2d704c53a61c",
@@ -11317,6 +11310,13 @@
 "title": "Methods Intern - Hot Section Engineering",
 "rule": "defense",
 "tag": ""
+},
+{
+"id": "ls:6aeabe90-0f4e-41a7-98a2-cdb7fee43531",
+"company": "Crowe",
+"title": "AI Functional Intern - Consulting Practice",
+"rule": "season",
+"tag": "Fall 2026"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -132489,16 +132489,16 @@
 "tag": ""
 },
 {
-"id": "at:https://crowe.wd12.myworkdayjobs.com/external_careers/job/Chicago-IL-USA/AI-Functional-Intern_R-71008",
+"id": "at:https://crowe.wd12.myworkdayjobs.com/external_careers/job/Chicago-IL-USA/AI-Engineering-Intern_R-51782",
 "company": "Crowe",
-"title": "AI Functional Intern",
+"title": "AI Engineering Intern",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "at:https://crowe.wd12.myworkdayjobs.com/external_careers/job/Chicago-IL-USA/AI-Engineering-Intern_R-51782",
+"id": "at:https://crowe.wd12.myworkdayjobs.com/external_careers/job/Chicago-IL-USA/AI-Functional-Intern_R-71008",
 "company": "Crowe",
-"title": "AI Engineering Intern",
+"title": "AI Functional Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -132598,13 +132598,6 @@
 "company": "CCC Intelligent Solutions",
 "title": "Data Science Engineer Internship",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255",
-"company": "Northrop Grumman",
-"title": "2027 Intern Software Engineer \ud83c\uddfa\ud83c\uddf8",
-"rule": "defense",
 "tag": ""
 },
 {
@@ -133175,6 +133168,20 @@
 "tag": ""
 },
 {
+"id": "at:https://jobs.smartrecruiters.com/BoschGroup/744000141302469",
+"company": "Bosch",
+"title": "AI and SW Development Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/US-CA-Santa-Clara/ASIC-Physical-Design-Engineer--Netlisting---New-College-Grad-2026_JR2017681",
+"company": "NVIDIA",
+"title": "ASIC Physical Design Engineer, Netlisting - New College Grad 2026",
+"rule": "new-grad",
+"tag": ""
+},
+{
 "id": "wd:nvidia:/job/US-MA-Westford/GPU-Verification-Engineer---New-College-Grad-2026_JR2023187",
 "company": "NVIDIA",
 "title": "GPU Verification Engineer - New College Grad 2026",
@@ -133529,13 +133536,6 @@
 "company": "NVIDIA",
 "title": "PhD Software Engineering Intern, Decision Intelligence - Fall 2026",
 "rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/ASIC-Physical-Design-Engineer--Netlisting---New-College-Grad-2026_JR2017681",
-"company": "NVIDIA",
-"title": "ASIC Physical Design Engineer, Netlisting - New College Grad 2026",
-"rule": "new-grad",
 "tag": ""
 },
 {
