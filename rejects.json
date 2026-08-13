@@ -8449,13 +8449,6 @@
 "tag": ""
 },
 {
-"id": "ls:05d6191d-bcef-4557-b17a-783ddb6d4b92",
-"company": "Prophet",
-"title": "AI Engineer Intern - AI Foundry & Digital Growth",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:8b2a46d9-a5b0-4325-976b-4c70e9da4077",
 "company": "Incident IQ",
 "title": "Software Engineer Intern",
@@ -8827,6 +8820,13 @@
 "tag": "Fall 2026"
 },
 {
+"id": "ls:8d9b8a71-2379-496c-bfbe-ba06bd67f73e",
+"company": "PNC Financial Services",
+"title": "Data and Analytics Intern - Modeling",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
 "id": "ls:b4947a2f-6ea5-4d4a-8cb0-1e08e351d0e9",
 "company": "American Express",
 "title": "Product Innovation Intern - Credit & Fraud Risk",
@@ -9154,13 +9154,6 @@
 "title": "Thermal Application Engineer Intern - Summer 2027",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:f7ef705d-f485-470a-99e7-35d2f672783e",
-"company": "Ciena",
-"title": "Hardware Engineer Co-op - 4, 8 Months",
-"rule": "season",
-"tag": "Fall 2026"
 },
 {
 "id": "ls:789f3f1a-8c80-4c58-bc82-1e831e81e1e7",
@@ -11417,17 +11410,24 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:9bd5bf91-17e4-4d57-9268-dd61b4b3cdf4",
-"company": "InfiniteQuant",
-"title": "Quantitative Researcher Intern - Summer 2027",
-"rule": "geo",
-"tag": ""
-},
-{
 "id": "ls:d15c2dd4-7288-4110-bf59-550c753167ab",
 "company": "InfiniteQuant",
 "title": "Quantitative Developer Intern - Summer 2027",
 "rule": "geo",
+"tag": ""
+},
+{
+"id": "ls:b90b1f48-7c8c-4d10-889d-59e14160b61a",
+"company": "Delta Dental",
+"title": "Knowledge Science Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:aed64cac-7a3d-4140-a085-279c03698a7b",
+"company": "RTX",
+"title": "Methods Intern - Hot Section Engineering",
+"rule": "defense",
 "tag": ""
 },
 {
@@ -132608,16 +132608,23 @@
 "tag": ""
 },
 {
-"id": "at:https://jobs.smartrecruiters.com/InfiniteQuant/744000143287594",
-"company": "InfiniteQuant",
-"title": "Quantitative Developer - Internship - Summer 2027",
+"id": "at:https://amainc.wd12.myworkdayjobs.com/ama_careers/job/Remote---New-Jersey/Graduate-Research-Scientist-intern_R-100717-1",
+"company": "Analytical Mechanics Associates",
+"title": "Graduate Research Scientist intern",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "at:https://jobs.smartrecruiters.com/InfiniteQuant/744000143292044",
+"id": "at:https://jobs.smartrecruiters.com/InfiniteQuant/744000143307421",
 "company": "InfiniteQuant",
 "title": "Quantitative Researcher - Internship - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://jobs.smartrecruiters.com/InfiniteQuant/744000143287594",
+"company": "InfiniteQuant",
+"title": "Quantitative Developer - Internship - Summer 2027",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -133283,13 +133290,6 @@
 "id": "at:https://jobs.ashbyhq.com/yotta/09821a51-fbe6-42a7-a566-0d2b5d40fae3",
 "company": "Yotta Labs",
 "title": "Research Engineer Intern - AI Systems",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/210773759",
-"company": "JPMorganChase",
-"title": "2027 Code for Good Hackathon - Software Engineer Program - Summer Internship \u2013 United States",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -134029,20 +134029,6 @@
 "tag": ""
 },
 {
-"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---Equipment-Maintenance-Technician--Data-and-Cost-Analysis-_JR100460",
-"company": "Micron",
-"title": "Intern \u2013 Equipment Maintenance Technician (Data and Cost Analysis)",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---Digital-Automation-and-Solutions-Team_JR102272",
-"company": "Micron",
-"title": "Intern - Digital Automation and Solutions Team",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "wd:micron:/job/Fab-10NX-Singapore/Intern---F10-CVD-PEE_JR97726",
 "company": "Micron",
 "title": "Intern - F10 CVD PEE",
@@ -134060,13 +134046,6 @@
 "id": "wd:micron:/job/Fab-10NX-Singapore/Intern---Dry-Etch-Process-and-Equipment_JR97668",
 "company": "Micron",
 "title": "Intern \u2013 Dry Etch Process and Equipment",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---AI-Driven-Process-Development-Deposition---Ion-implantation_JR100559",
-"company": "Micron",
-"title": "Intern - AI\u2011Driven Process Development Deposition & Ion implantation",
 "rule": "irrelevant",
 "tag": ""
 },
