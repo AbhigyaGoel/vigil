@@ -1197,13 +1197,6 @@
 "tag": ""
 },
 {
-"id": "ls:f1916feb-f156-4153-baa5-e26c75d5ae6f",
-"company": "ByteDance",
-"title": "Research Scientist in Large Language Model - LLM",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:d964cbb0-851e-48b9-97f4-66e970586e9a",
 "company": "ByteDance",
 "title": "Student Researcher - Multimodal Interaction and World Model",
@@ -1242,13 +1235,6 @@
 "id": "ls:021c42ed-56c5-498d-9c09-5301ad13605f",
 "company": "ByteDance",
 "title": "Student Researcher - Speech Foundation Model",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:fe92a675-1a53-4b88-a3e3-7e810871610d",
-"company": "ByteDance",
-"title": "Research Scientist in Vision Foundation Model \u2013 Graduates",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -2593,13 +2579,6 @@
 "id": "ls:f8c55540-2c77-4666-a43b-0bd880b968f9",
 "company": "Nio",
 "title": "Data Analysis Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
-"id": "ls:f083247a-cf19-43ae-8834-7db704881503",
-"company": "Tencent",
-"title": "Multimedia Development Intern",
 "rule": "season",
 "tag": "Summer 2026"
 },
@@ -5761,6 +5740,13 @@
 "tag": "Fall 2026"
 },
 {
+"id": "ls:b307b311-8a8c-4096-bd3b-0d244f3423f0",
+"company": "SpreeAI ",
+"title": "Machine Learning Engineer Intern - Computer Vision/Multimodal/Generative AI",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
 "id": "ls:4c54516c-986b-40c6-be23-fc11b0404861",
 "company": "SpreeAI ",
 "title": "Mobile Software Engineer Intern - Flagship Apps - iOS / Android / Web",
@@ -6088,6 +6074,13 @@
 "title": "Analog/Mixed-Signal IC Design Co-Op/Intern",
 "rule": "season",
 "tag": "Summer 2026"
+},
+{
+"id": "ls:ceffdfc7-2794-424e-836b-524a7a195428",
+"company": "GE Aerospace",
+"title": "Embedded Systems Engineer Co-op",
+"rule": "season",
+"tag": "Spring 2027"
 },
 {
 "id": "ls:b7a7213e-4e27-48ac-82d9-593ced5ab46d",
@@ -7424,13 +7417,6 @@
 "company": "McGill University",
 "title": "Research Assistant",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:dd115846-414f-4a92-b7d1-b2079912aecb",
-"company": "Protech Automotive Solutions",
-"title": "Automotive ADAS Calibration Technician Apprentice",
-"rule": "seniority",
 "tag": ""
 },
 {
@@ -10612,13 +10598,6 @@
 "tag": ""
 },
 {
-"id": "ls:41b56c92-c264-49ff-abb9-86b1d910b890",
-"company": "RTX",
-"title": "Software Engineering Intern",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:0f22ab43-33eb-42ff-90dc-0388e1cb73ea",
 "company": "City of Manhattan Kansas",
 "title": "GIS Planning Intern",
@@ -11428,6 +11407,13 @@
 "company": "RTX",
 "title": "Modeling, Simulation & Analysis Intern",
 "rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:fcd17b4c-48db-46a4-8f82-aab4e940189e",
+"company": "General Dynamics",
+"title": "Tester Apprentice",
+"rule": "seniority",
 "tag": ""
 },
 {
@@ -133966,13 +133952,6 @@
 "tag": ""
 },
 {
-"id": "wd:micron:/job/Hiroshima---Fab-15-Japan/-_JR108318",
-"company": "Micron",
-"title": "\u5e83\u5cf6\u5927\u5b66\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u7814\u7a76\u3000\u624b\u7d9a\u304d\u7528",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Process-Pathfinding--DRAM-Dry-Etch_JR107347",
 "company": "Micron",
 "title": "Intern - Process Pathfinding, DRAM Dry Etch",
@@ -135853,6 +135832,27 @@
 "company": "Marvell",
 "title": "Model Correlation & SI Intern - Ph. D Degree",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:cat:/job/Santiago-Region-Metropolitana-de-Santiago/Prctica-Profesional---Customer-Service---Cat-Financial_R0000382094",
+"company": "Caterpillar",
+"title": "Pr\u00e1ctica Profesional \u2013 Customer Service | Cat Financial",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:cat:/job/Santiago-Region-Metropolitana-de-Santiago/Prctica-Profesional---Human-Resources-Intern---Cat-Financial_R0000383303",
+"company": "Caterpillar",
+"title": "Pr\u00e1ctica Profesional - Human Resources Intern | Cat Financial",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:cat:/job/Santiago-Region-Metropolitana-de-Santiago/Prctica-Profesional---Sales-Intern---Cat-Financial_R0000382093",
+"company": "Caterpillar",
+"title": "Pr\u00e1ctica Profesional - Sales Intern | Cat Financial",
+"rule": "seniority",
 "tag": ""
 },
 {
