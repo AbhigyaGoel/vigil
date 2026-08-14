@@ -5341,13 +5341,6 @@
 "tag": ""
 },
 {
-"id": "ls:59c58f10-3239-45d4-9c44-cd1342e15ae8",
-"company": "Magna",
-"title": "Manufacturing Execution Systems Co-op - Manufacturing Execution Systems",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:9b8c84ef-c762-4da1-9f47-56e4a62375d5",
 "company": "Deepgram",
 "title": "Software Engineer Intern",
@@ -11464,6 +11457,13 @@
 "title": "Self-Built Engineer Intern - CDN Platform",
 "rule": "irrelevant",
 "tag": ""
+},
+{
+"id": "ls:61c28f00-6cc4-4b2c-b4c5-4694f5775150",
+"company": "Penta Group",
+"title": "Monitoring & Insights Intern",
+"rule": "season",
+"tag": "Summer 2026"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -133322,6 +133322,13 @@
 "tag": ""
 },
 {
+"id": "wd:nvidia:/job/Germany-Munich/Solutions-Architect--Graduate-Program_JR2022440",
+"company": "NVIDIA",
+"title": "Solutions Architect, Graduate Program",
+"rule": "new-grad",
+"tag": ""
+},
+{
 "id": "wd:nvidia:/job/US-CA-Santa-Clara/Software-Engineer--Deep-Learning-Libraries---New-College-Graduate-2026_JR2023252",
 "company": "NVIDIA",
 "title": "Software Engineer, Deep Learning Libraries - New College Graduate 2026",
@@ -135376,6 +135383,13 @@
 "id": "wd:intel:/job/Israel-Kiryat-Gat/Practical-Engineering-Student----Kiryat-Gat_JR0281401",
 "company": "Intel",
 "title": "Practical Engineering Student -  Kiryat Gat",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/ShanghaiCHN/Global-Installation-Engineer-Semi-PDC_R2624608",
+"company": "Applied Materials",
+"title": "Global Installation Engineer-Semi-PDC",
 "rule": "not-intern",
 "tag": ""
 },
