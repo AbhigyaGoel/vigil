@@ -3507,13 +3507,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:59023951-9789-4da2-b485-241751672517",
-"company": "Applied Intuition",
-"title": "Research Intern - Robotic Hardware - Simulation and Data",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:83c9bd55-c847-49d7-93fc-3b120ff74a03",
 "company": "Aptiv",
 "title": "RTOS development Intern",
@@ -5390,13 +5383,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:2f47de17-a088-41a1-8238-0a8713c924ae",
-"company": "PGIM",
-"title": "Private Credit \u2013 Investment Analyst Program",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:3ead5def-8555-40d4-817c-7435fa78e157",
 "company": "Synchrony Financial",
 "title": "Technology Intern",
@@ -5430,13 +5416,6 @@
 "title": "Data Science Intern",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:2852d53d-1e2d-4026-9f6f-90758dc79f0a",
-"company": "Copart",
-"title": "Software Engineer Intern",
-"rule": "season",
-"tag": "Fall 2026"
 },
 {
 "id": "ls:80eda434-6c14-4a62-b65d-ecd5dbcdaa18",
@@ -6429,13 +6408,6 @@
 "id": "ls:bb4315b8-bb8b-468f-932a-30ee22b6b85c",
 "company": "Ardian",
 "title": "Data Scientist Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
-"id": "ls:8fc7291e-0de8-484f-8554-ea5ae8d9b5dd",
-"company": "Ambarella",
-"title": "Algorithm Engineer Intern",
 "rule": "season",
 "tag": "Fall 2026"
 },
@@ -8589,13 +8561,6 @@
 "tag": ""
 },
 {
-"id": "ls:b27edad4-236e-4268-8fe8-1e913b1d59c8",
-"company": "Zipline",
-"title": "Mechatronics Perception Intern - Fall 2026",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:6460be14-109c-4ede-a2ad-63b0be123a5a",
 "company": "McKesson",
 "title": "Associate Business Systems Analyst Intern - Data Hub Canada",
@@ -10528,13 +10493,6 @@
 "tag": ""
 },
 {
-"id": "ls:5de68737-25b5-4f5a-bfca-7ade84c68491",
-"company": "PathAI",
-"title": "Software Engineer Co-op",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:072dbf25-7509-499b-9478-b00e9e52963d",
 "company": "Metropolitan Transportation Authority",
 "title": "Data Analyst Intern",
@@ -11464,6 +11422,48 @@
 "title": "AI Commercial Strategy & Activation Co-op - AI Strike Team",
 "rule": "season",
 "tag": "Fall 2026"
+},
+{
+"id": "ls:a0ec26fd-db0f-4eb4-9bed-73b9409cabc5",
+"company": "TikTok",
+"title": "Product Manager Intern - Content and Services",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:56973e0e-ee92-4898-b2d3-7f5df827f064",
+"company": "TikTok",
+"title": "Product Manager Intern - Scaled Growth",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:a5d3459d-3d46-44dd-8e4e-693ca7320203",
+"company": "TikTok",
+"title": "Mobile Software Engineer Intern - Global E-Commerce",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:d1f12ffa-cc86-44c9-aad3-b6def1a50517",
+"company": "TikTok",
+"title": "Product Solutions and Operations Intern - Commerce Ads",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:acad052e-b794-4a83-82c4-4d5ff40c200d",
+"company": "ByteDance",
+"title": "Self-Built Engineer Intern - CDN Platform",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:a46d596b-c711-4444-99f7-3c846ae35bb6",
+"company": "ByteDance",
+"title": "Self-Built Engineer Intern - CDN Platform",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -133322,6 +133322,13 @@
 "tag": ""
 },
 {
+"id": "wd:nvidia:/job/US-CA-Santa-Clara/Software-Engineer--Deep-Learning-Libraries---New-College-Graduate-2026_JR2023252",
+"company": "NVIDIA",
+"title": "Software Engineer, Deep Learning Libraries - New College Graduate 2026",
+"rule": "new-grad",
+"tag": ""
+},
+{
 "id": "wd:nvidia:/job/US-CA-Santa-Clara/ASIC-Physical-Design-Engineer--Netlisting---New-College-Grad-2026_JR2017681",
 "company": "NVIDIA",
 "title": "ASIC Physical Design Engineer, Netlisting - New College Grad 2026",
@@ -135373,6 +135380,20 @@
 "tag": ""
 },
 {
+"id": "wd:amat:/job/ShanghaiCHN/Global-Installation-Engineer-Semi-CMP_R2624602",
+"company": "Applied Materials",
+"title": "Global Installation Engineer-Semi-CMP",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/WuxiCHN/Global-Installation-Engineer-Semi-ETCH-New-Graduate_R2624601",
+"company": "Applied Materials",
+"title": "Global Installation Engineer-Semi-ETCH-New Graduate",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "wd:amat:/job/GloucesterMA/XMLNAME-2027-Engineer-Development-Rotation-Program---Systems-Engineer-I-New-College-Grad---BS-or-MS--Gloucester--MA-_R2625758-1",
 "company": "Applied Materials",
 "title": "2027 Engineer Development Rotation Program - Systems Engineer I New College Grad - BS or MS (Gloucester, MA)",
@@ -136083,13 +136104,6 @@
 "id": "wd:bostondynamics:/job/Germany-Office/Technical-Support-Engineer_R2912",
 "company": "Boston Dynamics",
 "title": "Technical Support Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:nxp:",
-"company": "NXP",
-"title": "",
 "rule": "not-intern",
 "tag": ""
 },
