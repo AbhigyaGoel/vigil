@@ -6944,13 +6944,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:8ab18c77-7639-4f8a-94ee-c6b27666656c",
-"company": "City of Austin",
-"title": "Business Intelligence Intern - Business Intelligence",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:63312998-23b7-4617-994a-97b67a1866fb",
 "company": "New York Post Holdings",
 "title": "Product Intern",
@@ -9709,13 +9702,6 @@
 "tag": ""
 },
 {
-"id": "ls:0f006255-ad30-4908-a94c-10b724df2e44",
-"company": "McKesson",
-"title": "Software Developer Intern - Digital and Enterprise Technology",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:912eecfa-63a9-49e1-8eaf-4ee42653061e",
 "company": "RTX",
 "title": "Software Engineer Intern - Summer 2027",
@@ -9790,6 +9776,13 @@
 "company": "Noblis",
 "title": "Machinery Silencing Technician Intern",
 "rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:def431d1-9130-4304-b4ad-37f66f6af0cd",
+"company": "Montenson",
+"title": "Sustainability Engineer Intern",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -10392,13 +10385,6 @@
 "company": "Quantbot Technologies",
 "title": "Data Trading Analyst Intern - Data Trading Lab",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:4928dfb2-7a20-4da6-8405-a591089e515c",
-"company": "Booz Allen",
-"title": "AI RAN Telecommunications Engineer Intern",
-"rule": "defense",
 "tag": ""
 },
 {
@@ -132573,6 +132559,20 @@
 "tag": ""
 },
 {
+"id": "at:https://crowe.wd12.myworkdayjobs.com/external_careers/job/Chicago-IL-USA/AI-Project-Coordinator-Intern_R-71007",
+"company": "Crowe",
+"title": "AI Project Coordinator Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://job-boards.greenhouse.io/transmarketgroup/jobs/5212335007?gh_jid=5212335007",
+"company": "TransMarket Group",
+"title": "Software Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "at:https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Android-Platform-Software-Engineering-Intern---Summer-2027_R67362-1",
 "company": "Motorola",
 "title": "Android Platform Software Engineering Intern - Summer 2027 \ud83c\uddfa\ud83c\uddf8",
@@ -133248,20 +133248,6 @@
 "id": "at:https://pentair.wd5.myworkdayjobs.com/pentair_careers/job/Golden-Valley-MN/IT---Cybersecurity-Leadership-Development-Internship-Program----Summer-2027_R23700",
 "company": "Pentair",
 "title": "IT & Cybersecurity Leadership Development Internship Program -  Summer 2027 \ud83d\udec2",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/Artificial-Intelligence--AI--IT-Intern-2027---REMOTE_JR170389",
-"company": "CNO Financial Group",
-"title": "Artificial Intelligence (AI) IT Intern 2027 - REMOTE",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://cnoinc.wd5.myworkdayjobs.com/Careers/job/Carmel-IN/Cyber-Security-IT-Intern---REMOTE_JR170419",
-"company": "CNO Financial Group",
-"title": "Cyber Security IT Intern - REMOTE",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -135328,6 +135314,20 @@
 "company": "Intel",
 "title": "Practical Engineering Student -  Kiryat Gat",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Chemist-1--Bachelor-s---Santa-Clara--CA-_R2626220",
+"company": "Applied Materials",
+"title": "Chemist 1 New College Grad (Bachelor's - Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/XMLNAME-2026-Fall-Semester-Intern--Adv-Degree----Santa-Clara--CA_R2625737",
+"company": "Applied Materials",
+"title": "2026 Fall Semester Intern (Adv Degree) - Santa Clara, CA",
+"rule": "irrelevant",
 "tag": ""
 },
 {
