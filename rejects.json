@@ -3437,13 +3437,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:26ca5f88-4aa3-47dd-b7c2-3d192287ce69",
-"company": "Copart",
-"title": "Software Engineer Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:ea053f2a-38d8-4cc1-af0b-e280de37935e",
 "company": "Liberty University",
 "title": "Business Analyst Apprentice",
@@ -10227,13 +10220,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:300bffa5-8c04-495e-a2c8-6487f0ae85ec",
-"company": "Zoox",
-"title": "Machine Learning Engineer Student Worker - Data Mining & VLM",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:aa614bc4-58c3-40d5-a9fb-f5fdbe4a7c43",
 "company": "Lawrence Livermore National Laboratory (LLNL)",
 "title": "Computational Engineering Graduate Intern - Fall 2026",
@@ -10937,13 +10923,6 @@
 "id": "ls:58f7e9f6-b7b9-4af8-bfd7-466b0e3255e7",
 "company": "RTX",
 "title": "Software Engineer Intern",
-"rule": "defense",
-"tag": ""
-},
-{
-"id": "ls:45df96a1-aefa-4c09-ae4c-5c32680da300",
-"company": "RTX",
-"title": "Software Engineer Intern - Summer 2027",
 "rule": "defense",
 "tag": ""
 },
@@ -11667,6 +11646,13 @@
 "title": "Design Engineer Intern",
 "rule": "season",
 "tag": "Fall 2026"
+},
+{
+"id": "ls:aa0ebb73-f646-4f78-ac9d-900e2925f3e9",
+"company": "RTX",
+"title": "Software Engineer Intern",
+"rule": "defense",
+"tag": ""
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -13867,6 +13853,195 @@
 "tag": ""
 },
 {
+"id": "md:https://www.linkedin.com/jobs/view/4444055052",
+"company": "NVIDIA",
+"title": "Applied Research Engineer, Chip Design",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4395479335",
+"company": "NVIDIA",
+"title": "Datacenter GPU Power Architect",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4451256939",
+"company": "AMD",
+"title": "Systems Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4435025876",
+"company": "Rivian",
+"title": "Principal NPU Microarchitect",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454571888",
+"company": "Velaura AI",
+"title": "AI Hardware Performance Architect",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4406249071",
+"company": "Samsung Semiconductor",
+"title": "Senior Director, Architecture Research Lab",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4444744999",
+"company": "Amazon Web Services (AWS))",
+"title": "Hardware Development Engineer, AI/ML Server Development",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=f80ef07a079b3145",
+"company": "Freeform",
+"title": "Software Engineering Intern (Summer 2027)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4434625139",
+"company": "Qualcomm",
+"title": "Machine Learning Systems Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454828194",
+"company": "Samsung Semiconductor",
+"title": "Machine Learning Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4398099208",
+"company": "GM Performance Power Units",
+"title": "ERS ML Design Optimization Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4451236990",
+"company": "Lockheed Martin",
+"title": "A/AI Machine Learning Engineering - E2",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4451248757",
+"company": "Space Capital",
+"title": "AI Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454816327",
+"company": "Crowe",
+"title": "Machine Learning Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4444016155",
+"company": "Intel",
+"title": "CPU Core Logic Designer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=b206fcf8945d64bf",
+"company": "Valeo",
+"title": "Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=4436218009a442e8",
+"company": "HII",
+"title": "Manufacturing Intern 1",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=98c3e527acd5c1af",
+"company": "Rivian and Volkswagen Group Technologies",
+"title": "Electrical Design Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=5f538112e56611db",
+"company": "NVIDIA",
+"title": "Senior Deep Learning Compiler Engineer - XLA",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=021419b814457810",
+"company": "US Naval Sea Systems Command",
+"title": "SUPERVISORY GENERAL ENGINEER",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=2b5cea5b980eebdc",
+"company": "BMW Group",
+"title": "Technical Planning Assembly International Intern (Spring 2027)",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454393397",
+"company": "SAIC",
+"title": "Artificial Intelligence/Machine Learning Engineer (AI/ML)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=1cc1ad84ed22850a",
+"company": "Varda Space Industries",
+"title": "Spacecraft Systems Engineer, Electrical",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=5443c753fcf6b603",
+"company": "Varda Space Industries",
+"title": "Spacecraft Electrical Engineer, HITL & Avionics Systems",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=a9b4ab1ed0f36442",
+"company": "Varda Space Industries",
+"title": "Spacecraft Electrical Engineer, HITL & Avionics Systems",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=434ce84b441a9328",
+"company": "Varda Space Industries",
+"title": "Spacecraft Systems Engineer, Electrical",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454341003",
+"company": "Amazon Web Services (AWS))",
+"title": "ASIC Design Engineer, Cloud-Scale Machine Learning Acceleration team - Annapurna Labs",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://www.indeed.com/viewjob?jk=a669b4f1043b23fb",
 "company": "XCimer Energy",
 "title": "Head of Quality",
@@ -13944,6 +14119,104 @@
 "tag": ""
 },
 {
+"id": "md:https://www.indeed.com/viewjob?jk=f041369fd280a720",
+"company": "Micron Technology",
+"title": "Intern - Process Development Engineer, Planar DRAM CMP",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=ef68941e6c89496c",
+"company": "Intermountain Health",
+"title": "DTS Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=2f57897f3982f48a",
+"company": "Together AI",
+"title": "Senior University Recruiting Program Manager",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=ca8267df94510e6f",
+"company": "Rippling",
+"title": "Instructional Systems Designer Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4453239525",
+"company": "Qualcomm",
+"title": "GPU Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=d2163072d7198918",
+"company": "Micron Technology",
+"title": "Intern - Wafer Bonding Process Development",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=7ee9b81bbf94a790",
+"company": "Science Systems and Applications, Inc.",
+"title": "Student Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=fae6261bc8dd27d4",
+"company": "Micron Technology",
+"title": "Intern - DRAM Process Integration",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=a1663e33816f95a9",
+"company": "Hubbell",
+"title": "2027 Summer Intern: Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=271b47c127830635",
+"company": "Intuit",
+"title": "Staff AI Research Scientist",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4453395560",
+"company": "NVIDIA",
+"title": "Machine Learning Systems Engineer, Networking",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4452963830",
+"company": "Micron Technology",
+"title": "AI/ML Engineer/Architect",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4443986698",
+"company": "Booz Allen Hamilton",
+"title": "Reinforcement Learning AI Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=381e9f6fe4a0521a",
+"company": "Rippling",
+"title": "Instructional Systems Designer Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://www.indeed.com/viewjob?jk=4c052efcfa12aba7",
 "company": "GE Vernova",
 "title": "GE Vernova Engineering Intern - Datacenter Applications 2027",
@@ -14010,6 +14283,27 @@
 "id": "md:https://www.linkedin.com/jobs/view/4453028718",
 "company": "AMD",
 "title": "SOC Performance Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4452746722",
+"company": "Spotlight Partners",
+"title": "Machine Learning Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4450104884",
+"company": "River AI",
+"title": "Member of Technical Staff, Hardware, Kernel Engineer (Custom Silicon)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4443703448",
+"company": "Amazon",
+"title": "Post-Silicon Systems Validation Engineer I, Annapurna Labs",
 "rule": "not-intern",
 "tag": ""
 },
@@ -14578,6 +14872,13 @@
 "company": "MTSI",
 "title": "Engineering Intern Co-op",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=0dac3e83f159cbda",
+"company": "Gravis Robotics",
+"title": "Senior Reinforcement Learning Engineer",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -20009,6 +20310,13 @@
 "id": "md:https://www.linkedin.com/jobs/view/4413731049",
 "company": "Moog Inc.",
 "title": "Intern, Artificial Intelligence",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=d2d09c59d2801eb8",
+"company": "American Honda Motor",
+"title": "Engineering Co-op/Intern - Summer 2027",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -41321,6 +41629,97 @@
 "tag": "title"
 },
 {
+"id": "md:https://www.linkedin.com/jobs/view/4453748768",
+"company": "Freeform",
+"title": "Software Engineering Intern (Summer 2027)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4444724090",
+"company": "Antares",
+"title": "Firmware Engineer I-II",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4451228640",
+"company": "Eaton",
+"title": "Development Program: Embedded Controls Engineering",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454582031",
+"company": "Mesa Laboratories, Inc.",
+"title": "Firmware Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4453583404",
+"company": "Eagle Wireless",
+"title": "Hardware Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4448445270",
+"company": "TPI Global Solutions",
+"title": "Electrical Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4451274133",
+"company": "Silicon Labs",
+"title": "Staff Platform Systems Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=1ddf0c8631aab28c",
+"company": "MiniMed",
+"title": "Senior Product Test Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=5aa454e6aefba45e",
+"company": "Motorola Solutions",
+"title": "Android Platform Software Engineering Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4447257467",
+"company": "Keurig Dr Pepper Inc.",
+"title": "Embedded Software Engineer I",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4453510847",
+"company": "Oho Group",
+"title": "Embedded Firmware Engineer (all levels)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4453520061",
+"company": "Nice Group",
+"title": "Firmware Engineer II",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4451264385",
+"company": "BubblyNet",
+"title": "Electronics Engineer New Grad",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://www.linkedin.com/jobs/view/4452751201",
 "company": "Synapse ITS",
 "title": "Firmware Engineer",
@@ -41352,6 +41751,76 @@
 "id": "md:https://www.linkedin.com/jobs/view/4422444595",
 "company": "Merck",
 "title": "Vence Collar Tech Lead",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4443998499",
+"company": "Georgia Tech Research Institute",
+"title": "Undergraduate Software Intern - Fall 2026 - ELSYS",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4442907896",
+"company": "Neurophos",
+"title": "Firmware Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=a5b6ddc2b327f7bb",
+"company": "Medtronic",
+"title": "Principal Software Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=bb940c3a0d4f4246",
+"company": "Medtronic",
+"title": "Principal R&D Engineer: NPD for Cranial, Spinal Technologies",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=2044b4c2f7f4b1eb",
+"company": "Medtronic",
+"title": "Sr. Software Systems Engineer - Cardiac Ablation Solutions",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=2ff650daed4d0e25",
+"company": "Medtronic",
+"title": "Sr. Principal Software Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454047719",
+"company": "Axiom Space",
+"title": "Embedded Software Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4443869362",
+"company": "BlackRock Resources LLC",
+"title": "Firmware & Embedded Systems Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4441085638",
+"company": "Georgia-Pacific LLC",
+"title": "Embedded Firmware Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4453242506",
+"company": "Qualcomm",
+"title": "IoT Chipset PE",
 "rule": "not-intern",
 "tag": ""
 },
@@ -41401,6 +41870,34 @@
 "id": "md:https://www.linkedin.com/jobs/view/4452352693",
 "company": "Hewlett Packard Enterprise",
 "title": "Manageability Firmware Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4453388531",
+"company": "WindBorne Systems",
+"title": "Electrical Engineer Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4283192717",
+"company": "Onto Innovation",
+"title": "Embedded Software Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4452714681",
+"company": "Sandia National Laboratories",
+"title": "Early Career Computer Engineer - Avionics Software, Onsite",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4434924882",
+"company": "ASSA ABLOY Group",
+"title": "Firmware Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -58639,6 +59136,90 @@
 "tag": "title"
 },
 {
+"id": "md:https://www.indeed.com/viewjob?jk=aa7427292308fe24",
+"company": "Kairos Power",
+"title": "Senior IC&E Reactor Protection System Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4451232987",
+"company": "Lockheed Martin",
+"title": "ASIC & FPGA Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4453596943",
+"company": "ANDREW an Amphenol company",
+"title": "Engineer, FPGA",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4451292654",
+"company": "Lockheed Martin",
+"title": "FPGA Design Engineer - E2",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454855328",
+"company": "Northrop Grumman",
+"title": "Digital Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4435252831",
+"company": "Qualcomm",
+"title": "ASIC Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454028579",
+"company": "Saicon",
+"title": "ASIC/RTL Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4453575356",
+"company": "Micron Technology",
+"title": "Intern - Digital IP Design Engineer, DRAM",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4444956520",
+"company": "Microsoft",
+"title": "Principal Design Verification Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=67f3379c30ae6318",
+"company": "PROBABLYMONSTERS",
+"title": "UI Systems Lead",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=5390127f897ab33e",
+"company": "PROBABLYMONSTERS",
+"title": "Localization Lead",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4448277484",
+"company": "Texas Instruments",
+"title": "Design Verification Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://www.linkedin.com/jobs/view/4432709609",
 "company": "Optiver",
 "title": "FPGA Engineer",
@@ -58709,6 +59290,34 @@
 "tag": ""
 },
 {
+"id": "md:https://www.indeed.com/viewjob?jk=e9fed62318977f53",
+"company": "Georgia Tech",
+"title": "ECE Intern - Fall 2026 - ICL",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4450807879",
+"company": "Rocket Lab",
+"title": "FPGA Engineer II",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454091903",
+"company": "Georgia Tech Research Institute",
+"title": "Field Programmable Gate Array (FPGA) Engineer - ICL",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454059277",
+"company": "Infobahn Softworld Inc",
+"title": "Design Engineer - ASIC/RTL",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://www.linkedin.com/jobs/view/4440462314",
 "company": "Optiver",
 "title": "Graduate FPGA Engineer (2027 Start - Austin)",
@@ -58719,6 +59328,20 @@
 "id": "md:https://www.linkedin.com/jobs/view/4442633321",
 "company": "Micron Technology",
 "title": "ASIC Design Verification Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4453610048",
+"company": "Infobahn Softworld Inc",
+"title": "Application Specific Integrated Circuit Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4450167937",
+"company": "TPI Global Solutions",
+"title": "ASIC/RTL Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -58825,6 +59448,13 @@
 "company": "Amentum",
 "title": "Intern - GN&C Fall Intern",
 "rule": "defense",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=8e2f9033b3483ba6",
+"company": "Micron Technology",
+"title": "Intern - Digital IP Design Engineer, DRAM",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -69699,6 +70329,97 @@
 "tag": ""
 },
 {
+"id": "md:https://www.linkedin.com/jobs/view/4453564359",
+"company": "Micron Technology",
+"title": "Intern - Advanced DRAM Cell/Device Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4453559393",
+"company": "Micron Technology",
+"title": "Intern - DRAM Process Integration",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4451250950",
+"company": "AMD",
+"title": "MTS Product Development Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4453566971",
+"company": "Qualcomm",
+"title": "Engineering Technician, Intermediate",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4451253407",
+"company": "WD",
+"title": "Process Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4451262855",
+"company": "AMD",
+"title": "SMTS Analog Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454847813",
+"company": "AMETEK",
+"title": "Analog and Mixed Signal Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4451270007",
+"company": "AMD",
+"title": "Analog Designer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4451290492",
+"company": "Keysight Technologies",
+"title": "Research Intern (PhD students)",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4453568089",
+"company": "Berkeley Industrial Engineering & Operations Research",
+"title": "Deutsche Bank Internship Program \u2013 Investment Bank & Capital Markets: Investment Bank Capital Markets \u2013 New York 2027 - Fall Hiring at Deutsche Bank",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4453753062",
+"company": "Berkeley Industrial Engineering & Operations Research",
+"title": "Deutsche Bank Internship Program - Investment Bank: Investment Bank Coverage - Jacksonville 2027 - Fall hiring at Deutsche Bank",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4453716906",
+"company": "Rivian and Volkswagen Group Technologies",
+"title": "Electrical Design Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=3d5a5b1e94120a1b",
+"company": "Skyworks Solutions",
+"title": "Audio AI Engineering Intern-Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://www.linkedin.com/jobs/view/4450410067",
 "company": "Qorvo, Inc.",
 "title": "Process Development Engineering Intern",
@@ -69725,6 +70446,34 @@
 "title": "Mixed Signal Design Engineer",
 "rule": "not-intern",
 "tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454028883",
+"company": "NXP Semiconductors",
+"title": "DIGITAL PHYSICAL DESIGN",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454015916",
+"company": "NXP Semiconductors",
+"title": "Digital Design",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4435533756",
+"company": "Cisco",
+"title": "Analog/mixed-signal IC Design Engineer - Acacia (Hybrid)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454089852",
+"company": "Georgia Tech Research Institute",
+"title": "ECE Intern - Fall 2026 - ICL",
+"rule": "season",
+"tag": "title"
 },
 {
 "id": "md:https://www.indeed.com/viewjob?jk=f8295d0497f5d97a",
@@ -69779,6 +70528,13 @@
 "id": "md:https://www.linkedin.com/jobs/view/4453039585",
 "company": "Texas Instruments",
 "title": "Analog IC Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4401474744",
+"company": "Cirrus Logic",
+"title": "Analog Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -90146,6 +90902,55 @@
 "tag": "title"
 },
 {
+"id": "md:https://www.linkedin.com/jobs/view/4451260892",
+"company": "AMD",
+"title": "Product Development Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4451241918",
+"company": "Lockheed Martin",
+"title": "Hardware Engineer Stf/ Digital Design",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454596478",
+"company": "Apetan Consulting LLC",
+"title": "FPGA Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454568344",
+"company": "Global Connect Technologies",
+"title": "Digital Design Engineer / FPGA Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4444224204",
+"company": "Cowboy Space Corporation",
+"title": "FPGA Software Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454878203",
+"company": "Dedalus Labs",
+"title": "Infrastructure Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4451249978",
+"company": "AMD",
+"title": "SMTS Software System Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://www.linkedin.com/jobs/view/4453107596",
 "company": "Microsoft",
 "title": "Hardware Engineer",
@@ -90209,6 +91014,48 @@
 "tag": ""
 },
 {
+"id": "md:https://www.linkedin.com/jobs/view/4452993048",
+"company": "Google",
+"title": "Hardware Validation Engineer, Data Center Engineering Labs",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4453632118",
+"company": "Quantinuum",
+"title": "Integration Engineer - 917",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454099248",
+"company": "SparkFun Electronics",
+"title": "Embedded Hardware Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454074235",
+"company": "Altera",
+"title": "FPGA System Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454098603",
+"company": "True Anomaly",
+"title": "GSE Engineering Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4443196174",
+"company": "Draper",
+"title": "Acoustic and Vibration Technologies Co-op",
+"rule": "defense",
+"tag": ""
+},
+{
 "id": "md:https://www.linkedin.com/jobs/view/4440465189",
 "company": "Optiver",
 "title": "Graduate FPGA Engineer (2027 Start - Chicago)",
@@ -90233,6 +91080,13 @@
 "id": "md:https://www.linkedin.com/jobs/view/4453073694",
 "company": "Tardis Group",
 "title": "Software Architect",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4442639581",
+"company": "Qualcomm",
+"title": "Server Platform Architect",
 "rule": "not-intern",
 "tag": ""
 },
@@ -92134,6 +92988,195 @@
 "tag": ""
 },
 {
+"id": "md:https://www.indeed.com/viewjob?jk=3e2ef227cd68debf",
+"company": "National Security Agency",
+"title": "NSA Summer 2027 Internship Program - Cyber Summer Program- Entry",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=60b2790ba45d2014",
+"company": "National Security Agency",
+"title": "NSA Summer 2027 Internship Program - Science of Security - Entry",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=77174cb29695cfac",
+"company": "Activision",
+"title": "Principal Engineer - Infinity Ward - Temporary",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=fa84f154823cdc6c",
+"company": "ByteDance",
+"title": "Software Engineer Intern (Global Payment Infra and SRE) - 2027 Summer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=29fc19b504bd7e1a",
+"company": "ByteDance",
+"title": "Software Engineer intern (Global Traffic Architecture) - 2027 Summer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=11ccf4bbf9954f2a",
+"company": "Tesla",
+"title": "Internship, Red Team Security Engineer, Vehicle Software (Winter/Spring 2027)",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454821872",
+"company": "Valeo",
+"title": "Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4451290107",
+"company": "Pioneers",
+"title": "Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454596561",
+"company": "TransMarket Group",
+"title": "Software Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454536970",
+"company": "Sanmina",
+"title": "Platform Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4453706476",
+"company": "Ericsson",
+"title": "Software Developer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4451289417",
+"company": "Transmarket Group Inc",
+"title": "Software Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=2e9ce36306caa764",
+"company": "National Security Agency",
+"title": "2027 Summer Internship Program - Installation & Logistics / Data Center Facility Management Program - Entry",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=3a7b31395b226a0c",
+"company": "James Madison University",
+"title": "Assistant Director of Athletics Communications",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=ffbe1a01b28b74ca",
+"company": "KBR",
+"title": "Junior Engineer - Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=b4d8dd1b3c2745c5",
+"company": "MITRE",
+"title": "Critical Infrastructure Systems Security and Resilience, Principal",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4450857207",
+"company": "IBM",
+"title": "Intern Application Developer \u2013 Adobe - 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4450866099",
+"company": "IBM",
+"title": "Intern Application Developer AWS - 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4450866098",
+"company": "IBM",
+"title": "Intern Application Developer \u2013 IBM Technology & Red Hat - 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=44abef96b736946a",
+"company": "Liberty Science Center",
+"title": "Paid Internship: STEM Engager",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=b0a5b8ec5f351162",
+"company": "US Department of Veterans Affairs",
+"title": "Healthcare Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=be99f5d72fcab6cc",
+"company": "US Department of Veterans Affairs",
+"title": "Supervisory Healthcare Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=d0cabd018e5c1835",
+"company": "US Western Area Power Administration",
+"title": "Electrical Engineer (Protection)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=3746fe700e790e32",
+"company": "Douglas Electrical Components",
+"title": "Marketing Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=82bc87dd7cb1347e",
+"company": "US Department of Veterans Affairs",
+"title": "Nursing Assistant",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=0a2b0c661e7d2d14",
+"company": "US Department of Veterans Affairs",
+"title": "Medical Support Assistant (Advanced)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=9f1430ed26a45cdf",
+"company": "US Department of Veterans Affairs",
+"title": "Physician (Geriatrics) CLC",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://www.indeed.com/viewjob?jk=21e0e7cf94b0f9d6",
 "company": "Wells Fargo",
 "title": "2027 Quantitative Analytics Summer Internship Capital Markets (PhD) \u2013 Early Careers",
@@ -92250,6 +93293,41 @@
 "company": "Quad",
 "title": "Software Development Intern",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454507042",
+"company": "Infinite Computer Solutions",
+"title": "Network Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4415940254",
+"company": "Trace3",
+"title": "Engineer: Tier 1 (On-site)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454084207",
+"company": "CleanSpark",
+"title": "Network Engineer \u2013 Corporate IT",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4454002952",
+"company": "Info Advantage Inc.",
+"title": "Systems Engineer II",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.indeed.com/viewjob?jk=206c8ac4e7ecef8b",
+"company": "Labcorp",
+"title": "Associate Chemist - Toxicology",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -92403,6 +93481,13 @@
 "id": "md:https://www.indeed.com/viewjob?jk=0178d341c04a8d82",
 "company": "COCONINO COUNTY, AZ",
 "title": "Reentry Coordinator - Health and Human Services (0826)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://www.linkedin.com/jobs/view/4453067565",
+"company": "Amazon",
+"title": "IT Support Engineer I, Ops Tech Solutions (OTS)",
 "rule": "not-intern",
 "tag": ""
 },
