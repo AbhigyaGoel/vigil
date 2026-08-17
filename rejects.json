@@ -168,13 +168,6 @@
 "tag": "Spring 2026"
 },
 {
-"id": "ls:128e7ee0-9110-45e1-992d-270f1fa2be3d",
-"company": "Boston Consulting Group",
-"title": "Data Scientist Intern",
-"rule": "season",
-"tag": "Spring 2026"
-},
-{
 "id": "ls:c7c7dafc-ce0e-4ed2-92f7-ed3bc461bbb7",
 "company": "Black Box",
 "title": "AI Intern USA",
@@ -7539,6 +7532,13 @@
 "tag": ""
 },
 {
+"id": "ls:98635871-6276-41e4-ad95-172485704a2c",
+"company": "JP Morgan Chase",
+"title": "Data & AI Intern - Analyst",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:1bf46509-1ef7-44c8-9af8-cbe0dbe392ff",
 "company": "JP Morgan Chase",
 "title": "Data Internship - Data & AI Program",
@@ -10724,6 +10724,13 @@
 "tag": ""
 },
 {
+"id": "ls:d7d2d9a2-c865-47e5-9029-23b28fb08f05",
+"company": "PIMCO",
+"title": "Client Solutions & Analytics Analyst Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:8d7b1b4b-f6f4-4db3-929d-3330c61f1430",
 "company": "MaxLinear",
 "title": "AI Intern",
@@ -11312,16 +11319,23 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:a81b0d30-e122-4b3c-9290-3e85c9f02707",
+"id": "ls:8540d9e9-5a90-4ecb-a7f6-b854e696fb8e",
 "company": "Goldman Sachs",
-"title": "Intern - Multiple Teams",
+"title": "Quantitative Strategist Intern - Multiple Teams",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "ls:bc2e9762-a592-48ef-9e42-21dfdec88ec4",
+"id": "ls:629fac72-4880-42e9-b648-cdfa036a00ac",
 "company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - Asset and Wealth Management",
+"title": "Summer Associate Intern - Multiple Teams",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:1c9f2e98-f998-4541-bd39-aec405d39f11",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern - Wealth Management - Product Management and Design",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -11344,6 +11358,20 @@
 "company": "RTX",
 "title": "Software Engineer Intern",
 "rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:439c65c1-64f2-461c-8ca1-ca36969ef10a",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Intern - Multiple Teams",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:1d850622-b67b-4965-a25c-f6872d8a1c79",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern - FICC & Equities - Sales & Trading",
+"rule": "seniority",
 "tag": ""
 },
 {
@@ -11772,6 +11800,300 @@
 "title": "Backend Software Engineer Intern - Team Interstellar",
 "rule": "season",
 "tag": "Winter 2027"
+},
+{
+"id": "ls:fccd4367-7e28-42a3-93ee-6e8e6447fbf3",
+"company": "American Express",
+"title": "Software Engineer Intern - Enterprise Technology Services",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:7b295350-3015-456a-8a5a-c1c0bc02557c",
+"company": "American Express",
+"title": "AI Engineer Intern - Enterprise Technology Services",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:d81967d4-8c47-4e80-bbb7-94d38eb66c5b",
+"company": "American Express",
+"title": "AI Engineer Intern - Enterprise Technology Services",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:c8bf57d8-775c-4186-a07d-1779c7f9ce56",
+"company": "Aramark",
+"title": "Sustainability Data Analyst Student Manager - Food Service Operations",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:f3e59677-5514-4b20-94b5-e6729edf6fd5",
+"company": "L3Harris Technologies",
+"title": "Software Engineering Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:565376c9-9f43-421c-aee2-1c09b5461f85",
+"company": "CACI",
+"title": "GMU Scholar Program Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:72d3b16a-abca-4801-ba46-ede79443dc62",
+"company": "Deutsche Bank",
+"title": "Technology, Data and Innovation Intern - Technology, Data and Innovation",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:8d49244e-af9c-4cbb-bb68-827c8671b75d",
+"company": "Dee Zee",
+"title": "Software Development Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:68016175-f4c9-47e9-bcd4-d43fd815a73f",
+"company": "Centific",
+"title": "Technical Intern - Masters or PhD",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:62fdf5eb-41f2-4c52-93c9-d7b22d35ad57",
+"company": "Centific",
+"title": "Research Intern - Healthcare AI",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:c5e3ece8-669f-4ff8-9bb7-45dba1374d0f",
+"company": "WEC Energy Group",
+"title": "Energy Analytics Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:82254da0-c1bd-49f5-8915-0f8657585f9f",
+"company": "Artisan Partners",
+"title": "Data Engineer Intern - Platform & Product",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:d10a9d0d-62b5-4eb6-8218-d01baa84b887",
+"company": "American Fidelity",
+"title": "Agentic AI Intern",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:60c7c83c-4da3-419f-b94d-37706d65f534",
+"company": "Point72",
+"title": "Quantitative Developer Intern",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:69582230-5dee-4f0d-88be-bcd518c6edd5",
+"company": "American Fidelity",
+"title": "Software Mobile Intern",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:53459724-0b30-44d4-92de-1a790c676770",
+"company": "American Fidelity",
+"title": "Data Intern",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:5539c267-ef6d-41c0-a68d-dcbd5c411ef5",
+"company": "General Motors",
+"title": "Battery and Sustainability Intern - Battery Research and Development",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:581f5af8-7fed-4e27-ae5c-5068ec83d4a6",
+"company": "University of Texas at Austin",
+"title": "Graduate Research Assistant - Quantitative and Systems Health Services",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:192ea991-da08-407c-8609-f30142e9d051",
+"company": "Royal Bank of Canada",
+"title": "Developer Co-op - Multiple Teams",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:1d43fc21-2de6-411c-8141-ec33e8fa8fed",
+"company": "General Motors",
+"title": "Battery & Sustainability Intern - Battery Research and Development",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:974f7352-c917-461d-8c4d-f6ba7ae65d23",
+"company": "Royal Bank of Canada",
+"title": "Machine Learning Software Engineer Co-op - 4 Months",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:65b44c5d-8fda-4aa8-aff9-e9ccb3106913",
+"company": "Royal Bank of Canada",
+"title": "Capital Markets Quantitative Technology Services Co-op - Software Developer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:1babc71b-6886-48e4-9870-7503ec24824f",
+"company": "Royal Bank of Canada",
+"title": "Technology & Operations Co-op - Software Developer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:8343602f-f696-44fe-b18f-25f47c9130b7",
+"company": "Royal Bank of Canada",
+"title": "Technical Systems Analyst Co-op - Technology & Operations",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:639d98a3-934b-4fe7-90f6-1fa6f9302286",
+"company": "Royal Bank of Canada",
+"title": "Software Developer Co-op - Quantitative Technology Services",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:84ac928f-e494-4c4c-a38e-48492b213859",
+"company": "Royal Bank of Canada",
+"title": "Machine Learning Software Engineer Co-op - RBC Borealis",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:382baf9c-98ee-4c9c-a54d-19dd0192822e",
+"company": "Royal Bank of Canada",
+"title": "Credit Model Analyst Intern - Group Risk Management",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:b2401da2-2a84-43cd-b409-91d05ad110bb",
+"company": "Royal Bank of Canada",
+"title": "Data Analyst Student - Commercial Banking",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:9c9ea05a-3192-4de4-a14f-0928c4df49bd",
+"company": "Royal Bank of Canada",
+"title": "Software Developer Co-op - Technology & Operations",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:d6b86750-e627-46d2-92a1-90ec653e1238",
+"company": "Royal Bank of Canada",
+"title": "Technology & Operations Student - Data Specialists",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:22a6c4bd-c737-4a92-ae44-074fdfb8affb",
+"company": "Royal Bank of Canada",
+"title": "Data Analyst Co-op - AI Business Enablement",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:a9948cfe-3281-4e0a-a0b4-f8c58b272354",
+"company": "Royal Bank of Canada",
+"title": "Developer Co-op - Technology & Operations",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:cf970523-d699-4d91-8a73-ffac3bc9d976",
+"company": "Royal Bank of Canada",
+"title": "Data Analyst Co-op - Personal Banking",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:2d8fe16e-0d23-496c-9f2a-a5a1dd0f386a",
+"company": "Intel",
+"title": "Software Development Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:b5a51123-5f95-4578-b058-795e2b7e4ecb",
+"company": "DV Trading",
+"title": "Trading Intern - Summer 2027 - DV Commodities",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:658a23a4-3aa0-48aa-b83a-68f66b6655ee",
+"company": "City of Baltimore",
+"title": "GIS and Data Analysis Assistant",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:6debbf93-aaea-4c7a-ad54-72c5345709a4",
+"company": "GE Vernova",
+"title": "GridOS Solution Integration Intern",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:edbfe6a0-64b5-4ceb-8e7f-1ba82a46bfa4",
+"company": "Arthur J. Gallagher & Co.",
+"title": "Data Analytics Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:ac5989fe-f0e5-4cd6-a149-b8329eda175c",
+"company": "Thomson Reuters",
+"title": "Applied Research Intern - NLP/ML/GenAI",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:2de78b3a-47c4-4a03-9f0b-683df19e56db",
+"company": "Google",
+"title": "Research Scientist PhD Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:efac2095-406f-4054-9c6c-843eb79c6144",
+"company": "Readystate Asset Management",
+"title": "Investment Intern - Summer 2027 & 2028",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:57efe4c7-9370-4c4e-9497-aeb4a91462c2",
+"company": "Bluestaq",
+"title": "Graduate Research Scholar - NDSU Partnership",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -137651,13 +137973,6 @@
 "id": "wd:intel:/job/Mexico-Guadalajara/Design-Verification-Student-Worker_JR0283311",
 "company": "Intel",
 "title": "Design Verification Student Worker",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:intel:/job/Server-Quality-and-Reliability-Intern_JR0284940",
-"company": "Intel",
-"title": "",
 "rule": "not-intern",
 "tag": ""
 },
