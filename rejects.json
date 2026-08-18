@@ -6566,13 +6566,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:12d18ee4-5916-44bb-8d90-d5b39f8a7c4b",
-"company": "GoDaddy",
-"title": "Software Development Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:d8dde7da-b9cd-456f-8810-481073996ee1",
 "company": "Helsing",
 "title": "AI Research Intern - 3D Computer Vision",
@@ -6667,13 +6660,6 @@
 "id": "ls:8e984444-bc04-494b-b26d-4f4a8cd5d1e7",
 "company": "Genworth Financial",
 "title": "IT Development Program Intern - IT Development Program",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:13bded89-387e-4599-bde0-b61dc8d82ab3",
-"company": "Arizona State University",
-"title": "Student Assistant - Gift Administration and Data Management",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -136216,6 +136202,13 @@
 "id": "wd:nvidia:/job/Israel-Beer-Sheva/Firmware-Engineer_JR2022198",
 "company": "NVIDIA",
 "title": "Firmware Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:nvidia:",
+"company": "NVIDIA",
+"title": "",
 "rule": "not-intern",
 "tag": ""
 },
