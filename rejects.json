@@ -280,6 +280,13 @@
 "tag": "Summer 2026"
 },
 {
+"id": "ls:bc6607ea-5320-4f25-8647-3ba280377230",
+"company": "Dryft",
+"title": "Full-Stack Engineer Intern",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
 "id": "ls:5a48777f-0af6-4e37-b9d2-1766b5c02ea2",
 "company": "Auctor",
 "title": "Software Engineering Intern",
@@ -4954,13 +4961,6 @@
 "title": "Quantitative Research Intern",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:27bc7565-972b-4dff-a2b6-d86296a62c88",
-"company": "Copart",
-"title": "Software Engineer Intern",
-"rule": "season",
-"tag": "Fall 2026"
 },
 {
 "id": "ls:7d13d689-657d-404d-9463-284ccb89bd44",
@@ -136150,13 +136150,6 @@
 "tag": ""
 },
 {
-"id": "wd:nvidia:",
-"company": "NVIDIA",
-"title": "",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:nvidia:/job/China-Shanghai/Software-Engineering-Intern--NCCL---2026_JR2022645",
 "company": "NVIDIA",
 "title": "Software Engineering Intern, NCCL - 2026",
@@ -138124,6 +138117,20 @@
 "tag": ""
 },
 {
+"id": "wd:intel:/job/Taiwan-Taipei/Solution-Enabling-Engineer--1-Year-Internship-_JR0286422",
+"company": "Intel",
+"title": "Solution Enabling Engineer (1 Year Internship)",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Israel-Haifa/Security-Software-development-student_JR0286007-1",
+"company": "Intel",
+"title": "Security Software development student",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "wd:intel:/job/Malaysia-Penang/Intern-Systems-Software-Development-Engineer_JR0286499",
 "company": "Intel",
 "title": "Intern Systems Software Development Engineer",
@@ -138135,6 +138142,13 @@
 "company": "Intel",
 "title": "Software Development Graduate Intern",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Production-ME-Student-for-Intel-Kiryat-Gat_JR0286364",
+"company": "Intel",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
