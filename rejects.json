@@ -14,6 +14,13 @@
 "tag": "Summer 2026"
 },
 {
+"id": "ls:4fa1b683-fa30-44b0-a279-ea52a60e6a84",
+"company": "Copart",
+"title": "Software Engineering Intern",
+"rule": "season",
+"tag": "Spring 2026"
+},
+{
 "id": "ls:bbda7e7c-7de0-4db9-91d9-c5964f94704a",
 "company": "thyssenkrupp",
 "title": "Sustainability Systems Intern",
@@ -752,6 +759,13 @@
 "id": "ls:03ab4d41-5cba-45c5-8db8-f4a6b4ccb687",
 "company": "Techtronic Industries",
 "title": "Lab Power Platform Development Intern",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:66572abf-79bc-4959-81dc-2d51e16c64a4",
+"company": "Tencent",
+"title": "Hunyuan Multimodal Reinforcement Learning Research Intern",
 "rule": "season",
 "tag": "Summer 2026"
 },
@@ -7896,6 +7910,13 @@
 "tag": ""
 },
 {
+"id": "ls:50302205-471f-44ae-b50c-6d339917d72f",
+"company": "PNC Financial Services",
+"title": "Product Innovation Intern - Retail Product Innovation",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
 "id": "ls:3c052483-a306-453e-a3dc-ccfe99cf5624",
 "company": "The Boeing Company",
 "title": "Data Analytics Intern",
@@ -8996,6 +9017,13 @@
 },
 {
 "id": "ls:ea2731af-2fbc-4e8e-834a-a0db3c17ab9c",
+"company": "RTX",
+"title": "Systems Engineer 1 Intern - Intern Conversion",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:5e274ea4-55e9-4ee0-8e93-82d466c18810",
 "company": "RTX",
 "title": "Systems Engineer 1 Intern - Intern Conversion",
 "rule": "defense",
@@ -11179,6 +11207,13 @@
 "tag": ""
 },
 {
+"id": "ls:51b1f750-bdc8-4369-865b-5edb226a9d44",
+"company": "RTX",
+"title": "Software Engineer Intern",
+"rule": "defense",
+"tag": ""
+},
+{
 "id": "ls:44a036f1-8b46-4596-939b-e10b3f0e8761",
 "company": "RTX",
 "title": "Software Engineer Intern - Summer 2027",
@@ -11912,13 +11947,6 @@
 "title": "GIS and Data Analysis Assistant",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:6debbf93-aaea-4c7a-ad54-72c5345709a4",
-"company": "GE Vernova",
-"title": "GridOS Solution Integration Intern",
-"rule": "season",
-"tag": "Summer 2026"
 },
 {
 "id": "ls:edbfe6a0-64b5-4ceb-8e7f-1ba82a46bfa4",
@@ -137375,10 +137403,10 @@
 "tag": ""
 },
 {
-"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264537",
+"id": "wd:analogdevices:",
 "company": "Analog Devices",
-"title": "Technician Student Intern",
-"rule": "seniority",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -137788,10 +137816,10 @@
 "tag": ""
 },
 {
-"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264447",
+"id": "wd:analogdevices:",
 "company": "Analog Devices",
-"title": "Technician Student Intern",
-"rule": "seniority",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -137978,13 +138006,6 @@
 },
 {
 "id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R257862-1",
-"company": "Analog Devices",
-"title": "Technician Student Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R257863",
 "company": "Analog Devices",
 "title": "Technician Student Intern",
 "rule": "seniority",
