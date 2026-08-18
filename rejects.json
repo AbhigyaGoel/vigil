@@ -12299,6 +12299,34 @@
 "tag": ""
 },
 {
+"id": "ls:9cd5fed1-1b40-4f5d-8195-9234476880e5",
+"company": "North American Construction Group",
+"title": "Condition Based Monitoring Co-op",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:11983d91-6b4a-466a-af2e-2b3ff670b741",
+"company": "University of St. Thomas",
+"title": "Semiconductor Test AI Intern - Minnesota Semiconductor AI Hub",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:abf0d6f0-7133-4d2a-b51c-d7568ca1734a",
+"company": "University of St. Thomas",
+"title": "Digital Innovation & Learning Technology Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:8993ee30-7300-40e6-ba43-5432b097d3e9",
+"company": "University of St. Thomas",
+"title": "Academic Technology Solutions Student Assistant",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
 "company": "Rippling",
 "title": "Frontend Software Engineer Intern",
@@ -136108,13 +136136,6 @@
 "tag": ""
 },
 {
-"id": "wd:nvidia:/job/Israel-Yokneam/Software-and-DevOps-Student_JR2019733",
-"company": "NVIDIA",
-"title": "Software and DevOps Student",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:nvidia:/job/China-Shanghai/Software-Engineering-Intern--NCCL---2026_JR2022645",
 "company": "NVIDIA",
 "title": "Software Engineering Intern, NCCL - 2026",
@@ -138079,6 +138100,13 @@
 "company": "KLA",
 "title": "Associate Test Engineer Trainee",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Malaysia-Penang/Intern-Systems-Software-Development-Engineer_JR0286499",
+"company": "Intel",
+"title": "Intern Systems Software Development Engineer",
+"rule": "geo",
 "tag": ""
 },
 {
