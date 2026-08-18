@@ -350,13 +350,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:f27a5872-0669-4ba7-b0f2-a1a330f75855",
-"company": "TikTok",
-"title": "Data Science Project Intern - Advertising Team - 2026 Start",
-"rule": "season",
-"tag": "Winter 2026"
-},
-{
 "id": "ls:45e6cd12-c55d-47f0-b650-b2c4b472ce45",
 "company": "Grant Thornton",
 "title": "Tax Technology Intern - Summer 2027",
@@ -2294,13 +2287,6 @@
 "title": "Research Scientist Intern - Language & Multimodal Foundations",
 "rule": "season",
 "tag": "Winter 2026"
-},
-{
-"id": "ls:d700b10f-a687-49f6-bd90-94bd0783aeab",
-"company": "Magna",
-"title": "Junior Full Stack Developer Co-op",
-"rule": "season",
-"tag": "Summer 2026"
 },
 {
 "id": "ls:f67f6341-7b86-4397-a467-a0e0538e54ce",
@@ -4972,6 +4958,13 @@
 {
 "id": "ls:7d13d689-657d-404d-9463-284ccb89bd44",
 "company": "Beacon Software",
+"title": "Software Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:b8a3808e-1eee-4b31-a9ed-c8790b1c82b9",
+"company": "Copart",
 "title": "Software Engineer Intern",
 "rule": "season",
 "tag": "Fall 2026"
@@ -8302,13 +8295,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:f3263689-d515-4c9c-9631-2adeab1cf950",
-"company": "Zoox",
-"title": "Triage Student Worker - ASTE",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:1924d443-3b61-47d4-addf-d6db4308935b",
 "company": "The Federal Reserve System",
 "title": "Graduate Statistical Analysis Intern - Regional & Community Outreach",
@@ -11172,13 +11158,6 @@
 "tag": ""
 },
 {
-"id": "ls:d84d3dcb-5e6b-483f-9b73-0653b224ffcd",
-"company": "RTX",
-"title": "Software Engineer Intern",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:cec6b144-6a34-4f46-b66b-286ebe63fabd",
 "company": "Dallas College",
 "title": "SAS Intern",
@@ -11534,6 +11513,13 @@
 "title": "Firmware Engineer Co-op",
 "rule": "season",
 "tag": "Winter 2027"
+},
+{
+"id": "ls:b87e0cb1-c096-4944-b321-820a7452bc86",
+"company": "KeyBank",
+"title": "Technology Track Intern - Key Technology and Services",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "ls:7a67d2ed-65a2-43a2-8730-9626ac6e549a",
@@ -12162,13 +12148,6 @@
 "id": "ls:2a67cef3-5836-4452-832c-ec5b39cff69b",
 "company": "RTX",
 "title": "Software Engineer Intern - Intelligent Software & Systems",
-"rule": "defense",
-"tag": ""
-},
-{
-"id": "ls:c097ad9b-a7e4-469f-a21b-e51a324f6202",
-"company": "RTX",
-"title": "Modeling, Simulation & Analysis Intern - Summer 2027",
 "rule": "defense",
 "tag": ""
 },
@@ -135464,6 +135443,13 @@
 "tag": ""
 },
 {
+"id": "at:https://amcor.wd5.myworkdayjobs.com/amcor_external_career_site/job/ASC-Atlanta-HQ-GA/AI-Innovation-Engineer_REQ_93190",
+"company": "Amcor",
+"title": "Intern - AI Innovation Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "at:https://job-boards.greenhouse.io/xantium/jobs/4360768009",
 "company": "Xantium",
 "title": "Quantitative Developer Intern",
@@ -136000,13 +135986,6 @@
 "company": "CCC Intelligent Solutions",
 "title": "Data Science Engineer Internship",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255",
-"company": "Northrop Grumman",
-"title": "2027 Intern Software Engineer \ud83c\uddfa\ud83c\uddf8",
-"rule": "defense",
 "tag": ""
 },
 {
@@ -137613,38 +137592,10 @@
 "tag": ""
 },
 {
-"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264488",
+"id": "wd:analogdevices:",
 "company": "Analog Devices",
-"title": "Technician Student Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264487",
-"company": "Analog Devices",
-"title": "Technician Student Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264486",
-"company": "Analog Devices",
-"title": "Technician Student Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264485",
-"company": "Analog Devices",
-"title": "Technician Student Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264484",
-"company": "Analog Devices",
-"title": "Technician Student Intern",
-"rule": "seniority",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
