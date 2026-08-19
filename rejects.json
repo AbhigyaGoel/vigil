@@ -462,13 +462,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:c82946ef-cdc6-4316-90ee-083d296759f4",
-"company": "Ciena",
-"title": "THW Client Co-op",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:ba7781d0-c294-42f8-8255-596388700098",
 "company": "Infojini",
 "title": "GIS Intern Analyst",
@@ -1158,6 +1151,13 @@
 "id": "ls:262de8fa-292e-4d47-9bd2-bbf3befe8b30",
 "company": "TikTok",
 "title": "Data Analyst Project Intern",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:624a2b7b-51e9-4b7e-87d8-5e15ae69b867",
+"company": "Eulerity",
+"title": "Mobile iOS Developer Intern",
 "rule": "season",
 "tag": "Summer 2026"
 },
@@ -10731,13 +10731,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:b2b93c28-353f-458c-83fe-cd14c4471ac5",
-"company": "Microsoft",
-"title": "Optoelectronics Device Engineer Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:adeac3f1-1c24-456d-a09f-179101c39c2f",
 "company": "Generac",
 "title": "Firmware Engineering Intern",
@@ -11039,9 +11032,23 @@
 "tag": ""
 },
 {
+"id": "ls:a81b0d30-e122-4b3c-9290-3e85c9f02707",
+"company": "Goldman Sachs",
+"title": "Intern - Multiple Teams",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:629fac72-4880-42e9-b648-cdfa036a00ac",
 "company": "Goldman Sachs",
 "title": "Summer Associate Intern - Multiple Teams",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:bc2e9762-a592-48ef-9e42-21dfdec88ec4",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Associate Intern - Asset and Wealth Management",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -12318,13 +12325,6 @@
 "title": "Software Engineer Intern",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:9591653b-a693-4b79-853f-dcd9a85971fd",
-"company": "RTX",
-"title": "Manufacturing & Quality Analyst Intern",
-"rule": "defense",
-"tag": ""
 },
 {
 "id": "ls:06976030-2482-48d6-8234-5d6c7f88c587",
@@ -138422,6 +138422,13 @@
 "company": "Intel",
 "title": "Practical Engineering Student -  Kiryat Gat",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/AlzenauDEU/CAE-intern_R2626112-1",
+"company": "Applied Materials",
+"title": "CAE intern",
+"rule": "irrelevant",
 "tag": ""
 },
 {
