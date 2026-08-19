@@ -6811,13 +6811,6 @@
 "tag": ""
 },
 {
-"id": "ls:ccd36192-6d5e-4378-901a-27d267a0c497",
-"company": "Gumloop",
-"title": "Design Engineer Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:8620e8e9-d341-4dc4-b0ca-3507586cee66",
 "company": "Clyde Companies",
 "title": "Application Development Intern",
@@ -10437,13 +10430,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:ad5fd9f8-d08a-4e9a-b974-0d1f735dccc7",
-"company": "AARP",
-"title": "Data Analyst Intern - Advocacy Data and Technology",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:5f47f741-a34e-4699-b8f5-02b98d3f86fe",
 "company": "AARP",
 "title": "Data Science and Advanced Analytics Intern",
@@ -10820,13 +10806,6 @@
 "title": "Software Engineer Intern",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:d02658b8-38cb-4fc7-9841-62916abfefc2",
-"company": "Crowe",
-"title": "Machine Learning Intern",
-"rule": "season",
-"tag": "Summer 2026"
 },
 {
 "id": "ls:c8baf20f-0c80-4834-b6ee-95c9c1ddcb08",
@@ -12722,6 +12701,55 @@
 "id": "ls:56a21d95-83ac-422a-a120-c42135cb3748",
 "company": "Detroit Lions",
 "title": "Quantitative Research Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:a8814763-abf2-4ca5-ad40-518545962599",
+"company": "Centific",
+"title": "Technical Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:73598b4d-3993-4121-856f-56624bff87b9",
+"company": "Autodesk",
+"title": "AI Developer Intern - Creative Technology",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:fa9b8b4c-326b-46f7-8979-43e65256db21",
+"company": "TMEIC Corporation Americas",
+"title": "Engineer Intern - Spring 2027",
+"rule": "season",
+"tag": "Spring 2027"
+},
+{
+"id": "ls:1e070356-7637-458b-b016-143243ecf95e",
+"company": "Verition Fund Management",
+"title": "Technology Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:e2bbc42a-37ca-466b-9f74-1c82ab69ce30",
+"company": "Kensington",
+"title": "Data Analyst Intern - Revenue Optimization",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:6188320d-2d11-4940-b956-7c9dbc31f183",
+"company": "Allegheny County",
+"title": "Business Analytics Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:01f94977-fc40-414b-bd6d-f44693eacceb",
+"company": "Specialisterne",
+"title": "Software Engineer Intern - Neurodiversity Hiring Initiative",
 "rule": "season",
 "tag": "Fall 2026"
 },
@@ -135863,6 +135891,13 @@
 "tag": ""
 },
 {
+"id": "at:https://job-boards.greenhouse.io/generalmatter/jobs/5377118008",
+"company": "General Matter",
+"title": "Summer 2027 Internship - Software Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "at:https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Site-Reliability-Engineer-Intern_JR110631",
 "company": "Copart",
 "title": "Site Reliability Engineer Intern",
@@ -136540,13 +136575,6 @@
 "title": "R&D & Data Science Internship Fall 2026",
 "rule": "season",
 "tag": "title"
-},
-{
-"id": "at:https://jobs.lever.co/analyticpartners/485ae801-3fae-4dc1-950d-445ba990f6c9",
-"company": "Analytic Partners",
-"title": "Software Engineer Co-Op | University of Toronto",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "wd:nvidia:/job/Taiwan-Taipei/Artificial-Intelligence-Research-Intern---Deep-Learning_JR2023646",
@@ -139066,6 +139094,13 @@
 "company": "Marvell",
 "title": "Model Correlation & SI Intern - Ph. D Degree",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:cat:/job/Santa-Catarina-Nuevo-Len/Practicante-de-Recursos-Humanos_R0000389660",
+"company": "Caterpillar",
+"title": "Practicante de Recursos Humanos",
+"rule": "not-intern",
 "tag": ""
 },
 {
