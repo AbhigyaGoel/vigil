@@ -2828,13 +2828,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:438a49bd-1732-4815-b2b2-e048f205949f",
-"company": "Intel",
-"title": "AI Software Engineer Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:569c4576-dfc6-4dbd-abeb-c7b2fb7bbb3e",
 "company": "NRG Energy",
 "title": "Installation Technician",
@@ -6928,13 +6921,6 @@
 "title": "AI Engineer Intern",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:43929c26-d19b-4057-9543-bf087c4bbf62",
-"company": "Medtronic",
-"title": "Software Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:6782ff48-fa1d-47f8-bab9-bb94b0ab30f1",
@@ -12569,6 +12555,55 @@
 "company": "ByteDance",
 "title": "Machine Learning Engineer Intern - E-Commerce Risk Control - PhD",
 "rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:31523bd0-3228-448d-b0ce-f99812c17fca",
+"company": "NVIDIA",
+"title": "Generative AI Ph.D. Research Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:ea8c5ebd-a6c4-49ff-9dac-f3532c41737a",
+"company": "NVIDIA",
+"title": "Systems Software Engineering Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:bb48b7b8-29e9-4f8f-8817-54e325180735",
+"company": "NVIDIA",
+"title": "Deep Learning Intern - Deep Learning Applications and Algorithms - Deep Learning Frameworks and Libraries",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:156eeaae-e8ce-4c0c-a47f-6027e39a664c",
+"company": "NVIDIA",
+"title": "Large Language Models Intern - Research",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:79fa5677-0cf7-4393-b826-2aa0806bbcd9",
+"company": "NVIDIA",
+"title": "Ph.D. Research Graphics and Simulation Intern - Graphics and Simulation",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:be628885-fde3-4b73-bb0a-58e11856e97b",
+"company": "NVIDIA",
+"title": "Software Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:3affcaac-d7f9-45d1-8139-19defc762e13",
+"company": "NVIDIA",
+"title": "Deep Learning Computer Architecture Intern",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -136395,6 +136430,13 @@
 "tag": ""
 },
 {
+"id": "wd:nvidia:/job/Taiwan-Taipei/Artificial-Intelligence-Research-Intern---Deep-Learning_JR2023646",
+"company": "NVIDIA",
+"title": "Artificial Intelligence Research Intern - Deep Learning",
+"rule": "geo",
+"tag": ""
+},
+{
 "id": "wd:nvidia:/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Computer-Architecture_JR2023489",
 "company": "NVIDIA",
 "title": "NVIDIA 2027 Internships: Computer Architecture",
@@ -138208,6 +138250,13 @@
 "tag": ""
 },
 {
+"id": "wd:intel:/job/Israel-Haifa/Security-Software-development-student_JR0286007-1",
+"company": "Intel",
+"title": "Security Software development student",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "wd:intel:/job/Israel-Kiryat-Gat/Software-Applications-Engineering-Student_JR0286503",
 "company": "Intel",
 "title": "Software Applications Engineering Student",
@@ -138219,13 +138268,6 @@
 "company": "Intel",
 "title": "Solution Enabling Engineer (1 Year Internship)",
 "rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:intel:/job/Security-Software-development-student_JR0286007-1",
-"company": "Intel",
-"title": "",
-"rule": "not-intern",
 "tag": ""
 },
 {
