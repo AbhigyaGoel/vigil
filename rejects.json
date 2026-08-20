@@ -6692,13 +6692,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:a5424485-a1a0-4ab2-adaa-286ac3620977",
-"company": "Centerstone",
-"title": "Bachelor Level Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:e30befae-b497-48e1-a3a8-bd81c05547ed",
 "company": "Pennsylvania State University",
 "title": "Materials Science and Engineering",
@@ -139503,9 +139496,9 @@
 "tag": ""
 },
 {
-"id": "wd:kla:/job/Milpitas-CA/Associate-Test-Engineer-Trainee_2637886",
+"id": "wd:kla:",
 "company": "KLA",
-"title": "Associate Test Engineer Trainee",
+"title": "",
 "rule": "not-intern",
 "tag": ""
 },
@@ -140269,6 +140262,13 @@
 "id": "wd:cat:/job/Reynosa-Tamaulipas/Practicante-de-Manufactura_R0000389794",
 "company": "Caterpillar",
 "title": "Practicante de Manufactura",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:cat:/job/Acuna-Coahuila/Practicante-de-Importacin---Exportacin_R0000389785",
+"company": "Caterpillar",
+"title": "Practicante de Importaci\u00f3n / Exportaci\u00f3n",
 "rule": "not-intern",
 "tag": ""
 },
