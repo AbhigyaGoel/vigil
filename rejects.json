@@ -10752,13 +10752,6 @@
 "tag": ""
 },
 {
-"id": "ls:51b1f750-bdc8-4369-865b-5edb226a9d44",
-"company": "RTX",
-"title": "Software Engineer Intern",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:44a036f1-8b46-4596-939b-e10b3f0e8761",
 "company": "RTX",
 "title": "Software Engineer Intern - Summer 2027",
@@ -139524,6 +139517,27 @@
 "tag": ""
 },
 {
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Software-Engineer-Graduate-Intern_JR0286491",
+"company": "Intel",
+"title": "Software Engineer Graduate Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Mexico-Guadalajara/SoC-Functional-Validation-Intern_JR0286018",
+"company": "Intel",
+"title": "SoC Functional Validation Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Arizona-Phoenix/Software-Engineer-Graduate-Intern_JR0286489",
+"company": "Intel",
+"title": "Software Engineer Graduate Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "wd:intel:/job/Israel-Haifa/Security-Software-development-student_JR0286007-1",
 "company": "Intel",
 "title": "Security Software development student",
@@ -140235,6 +140249,13 @@
 "company": "Marvell",
 "title": "Model Correlation & SI Intern - Ph. D Degree",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:cat:/job/Reynosa-Tamaulipas/Practicante-de-Manufactura_R0000389794",
+"company": "Caterpillar",
+"title": "Practicante de Manufactura",
+"rule": "not-intern",
 "tag": ""
 },
 {
