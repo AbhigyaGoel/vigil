@@ -10584,13 +10584,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:a022cf03-5310-44a2-a95e-6ede66e9dba8",
-"company": "Valeo",
-"title": "Software Engineer Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:c8baf20f-0c80-4834-b6ee-95c9c1ddcb08",
 "company": "Crowe",
 "title": "Data Consultant Intern",
@@ -12215,13 +12208,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:7ec884ae-14d0-4b0a-ba73-3ccaaa8dab51",
-"company": "Dedalus",
-"title": "Software Development Apprentice - Digital Solutions",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:af0078da-4418-4e04-afb5-17ec87e8381a",
 "company": "TikTok",
 "title": "Machine Learning MLOps Intern - Global Site Reliability Engineering",
@@ -12836,6 +12822,20 @@
 "title": "Oracle Platform Intern",
 "rule": "season",
 "tag": "Fall 2026"
+},
+{
+"id": "ls:f8c3812a-4e5d-48e3-b329-54a28233db3a",
+"company": "Blue Shield of California",
+"title": "Data Full Stack Engineer Intern",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:d8608143-b6cd-4a6e-9563-519ce1b5d368",
+"company": "Zipline",
+"title": "Software Engineer Intern - Spring 2027",
+"rule": "season",
+"tag": "Spring 2027"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -138919,6 +138919,13 @@
 "company": "Micron",
 "title": "Wafer Fab Equipment Technician (Trainee)",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/US-MA-Wilmington/Mixed-Signal-Engineer-Intern_R265299",
+"company": "Analog Devices",
+"title": "Mixed Signal Engineer Intern",
+"rule": "irrelevant",
 "tag": ""
 },
 {
