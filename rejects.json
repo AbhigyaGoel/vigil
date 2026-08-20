@@ -2982,13 +2982,6 @@
 "tag": ""
 },
 {
-"id": "ls:987779ef-3c25-4288-b559-7f8a99d2b578",
-"company": "Flagright",
-"title": "Product Operations Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:8937b4a1-831c-441b-b889-821e11516a62",
 "company": "Viridien",
 "title": "Software Engineer Intern",
@@ -4527,6 +4520,13 @@
 "title": "Quantitative Trading Intern",
 "rule": "season",
 "tag": "Summer 2026"
+},
+{
+"id": "ls:78885859-7ae3-42cc-a2db-f5d8aff6bfc7",
+"company": "Citadel",
+"title": "Investment & Trading Intern",
+"rule": "season",
+"tag": "Fall 2026"
 },
 {
 "id": "ls:1ea0ca0e-e61d-4b8d-92fd-4a97c6ba9d82",
@@ -9163,6 +9163,13 @@
 "tag": ""
 },
 {
+"id": "ls:8b699e41-5c53-4b40-aaf9-57a6bd162427",
+"company": "McKesson",
+"title": "Technology Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:e5dfef91-5533-406d-a42a-fab2b837638b",
 "company": "Chamberlain Group",
 "title": "Community Product Management Intern - Summer 2027",
@@ -10780,30 +10787,9 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:8540d9e9-5a90-4ecb-a7f6-b854e696fb8e",
+"id": "ls:1c9f2e98-f998-4541-bd39-aec405d39f11",
 "company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:a81b0d30-e122-4b3c-9290-3e85c9f02707",
-"company": "Goldman Sachs",
-"title": "Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:629fac72-4880-42e9-b648-cdfa036a00ac",
-"company": "Goldman Sachs",
-"title": "Summer Associate Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:bc2e9762-a592-48ef-9e42-21dfdec88ec4",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - Asset and Wealth Management",
+"title": "Summer Analyst Intern - Wealth Management - Product Management and Design",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -10829,24 +10815,17 @@
 "tag": ""
 },
 {
-"id": "ls:ea185fae-1828-4e79-9bfa-34dc512cce8c",
+"id": "ls:1d850622-b67b-4965-a25c-f6872d8a1c79",
 "company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - The Core Quantitative Strats",
-"rule": "irrelevant",
+"title": "Summer Analyst Intern - FICC & Equities - Sales & Trading",
+"rule": "seniority",
 "tag": ""
 },
 {
-"id": "ls:443c0a68-63ca-4026-94b7-cf3e555f2d0f",
+"id": "ls:1560332f-3e4c-4d15-819d-df9bf4889deb",
 "company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - The Core Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:439c65c1-64f2-461c-8ca1-ca36969ef10a",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Multiple Teams",
-"rule": "irrelevant",
+"title": "Summer Analyst Intern - FICC and Equities - Sales and Trading",
+"rule": "seniority",
 "tag": ""
 },
 {
@@ -12460,13 +12439,6 @@
 "tag": "Winter 2027"
 },
 {
-"id": "ls:83fcabf7-15f4-4213-8f40-a3a037dc3288",
-"company": "Teledyne",
-"title": "AI & Automation Engineer Co-op",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:3cac9449-de39-427f-a7fd-9b22e0d04497",
 "company": "Humana",
 "title": "Technology Intern - Early ID Participants",
@@ -12717,6 +12689,41 @@
 "title": "Summer Intern - Innovations Team",
 "rule": "season",
 "tag": "Summer 2026"
+},
+{
+"id": "ls:013fdd20-3235-4aca-8bd4-f5eb44a09c32",
+"company": "RTX",
+"title": "Software Development Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:09e061cd-a5e8-4059-bb6d-a0672a475328",
+"company": "Fannie Mae",
+"title": "Data Science Intern - Analytics & Modeling Program",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:de048c9f-8cf0-45fe-b307-40b9a04a9416",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern - Americas - AWM Product Management",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:aea9cccf-4a27-4ca6-9c11-9664e8a1ac0a",
+"company": "Goldman Sachs",
+"title": "AWM Product Management Analyst Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:8569a45d-e504-4cc5-897a-de907ab8e0f7",
+"company": "AbbVie",
+"title": "Business Technology Solutions Intern - Data & Software Engineering - Undergraduate",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -136948,6 +136955,34 @@
 "tag": ""
 },
 {
+"id": "at:https://jobs.smartrecruiters.com/AbbVie/3743990014697918",
+"company": "AbbVie",
+"title": "2027 Business Technology Solutions Intern - Data & Software Engineering (Undergraduate)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://fifththird.wd5.myworkdayjobs.com/53careers/job/Cincinnati-OH/Information-Security-Co-op---Identity---Access-Management---Summer-2027_R71591",
+"company": "Fifth Third Bank",
+"title": "Information Security Co-op \u2013 Identity & Access Management \u2013 Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://fifththird.wd5.myworkdayjobs.com/53careers/job/Cincinnati-OH/Information-Security-Co-op---Cyber-Threat-Interdiction---Summer-2027_R71582",
+"company": "Fifth Third Bank",
+"title": "Information Security Co-op - Cyber Threat Interdiction - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://fifththird.wd5.myworkdayjobs.com/53careers/job/Cincinnati-OH/Software-Engineer-Co-Op---Enterprise-Finance-Applications---Summer-2027_R71588",
+"company": "Fifth Third Bank",
+"title": "Software Engineer Co-Op - Enterprise Finance Applications - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "at:https://apply.workable.com/western-magnetics/j/E366930F3F/",
 "company": "Western Magnetics",
 "title": "Software Engineering Intern",
@@ -137595,34 +137630,6 @@
 "id": "at:https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Dev-Internship_JR1005",
 "company": "American Fidelity",
 "title": "Software Dev Internship (OKC local only)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://cccis.wd1.myworkdayjobs.com/broadbean_external/job/Chicago-Green-St-IL/Data-Science-Engineer-Internship_0014843",
-"company": "CCC Intelligent Solutions",
-"title": "Data Science Engineer Internship",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://marmon.wd501.myworkdayjobs.com/Marmon_Careers/job/Chicago-IL/AI-Project-Management-Intern_JR0000045089-1",
-"company": "Marmon Holdings",
-"title": "AI Project Management Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/Spring-Texas-United-States-of-America/Enterprise-Operations-Software-Internship_3167271-1",
-"company": "Hewlett Packard (HP)",
-"title": "Enterprise Operations Software Internship \ud83d\udec2",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Data-Analytics-Engineer-Intern_JR110584",
-"company": "Copart",
-"title": "Data Analytics Engineer Intern",
 "rule": "irrelevant",
 "tag": ""
 },
