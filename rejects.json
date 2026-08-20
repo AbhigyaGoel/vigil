@@ -2128,13 +2128,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:bc20d842-e120-4ce2-8864-e9a16796b72c",
-"company": "Ohio State University",
-"title": "Student Assistant",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:61e3734b-7ee5-4569-a6d9-7a7c0ee36478",
 "company": "Marvell",
 "title": "Applied Machine Learning Scientist Intern",
@@ -2513,25 +2506,11 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:0606524d-078f-47d6-8447-f7842723a934",
-"company": "Tesla",
-"title": "Software Engineer Intern - Vehicle UI Development",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:92479793-1fc7-4426-8dea-7774d88b1d87",
 "company": "Tesla",
 "title": "Embedded Software Engineering Intern - Embedded Software Engineer - High Voltage Systems",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:eee826e6-97e1-40a7-91fd-be9d495e5e43",
-"company": "Tesla",
-"title": "AI Hardware Design Engineer Intern - AI Hardware Design Engineer - AI Hardware",
-"rule": "season",
-"tag": "Summer 2026"
 },
 {
 "id": "ls:630f6c80-efb2-4a6c-9c00-0dbd2f998d26",
@@ -5962,13 +5941,6 @@
 "title": "Drexel University Co-op: Software Engineering/Full stack development",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:a6c8a7bd-365e-48e9-89f6-f884a9809150",
-"company": "Axon",
-"title": "Firmware Engineering Internship",
-"rule": "defense",
-"tag": ""
 },
 {
 "id": "ls:498eccae-caa0-431f-8c04-ffd7922d92a6",
@@ -139597,6 +139569,13 @@
 "id": "wd:intel:/job/Israel-Kiryat-Gat/Practical-Engineering-Student----Kiryat-Gat_JR0281401",
 "company": "Intel",
 "title": "Practical Engineering Student -  Kiryat Gat",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Process-Engineer-III_R2615737",
+"company": "Applied Materials",
+"title": "Process Engineer III",
 "rule": "not-intern",
 "tag": ""
 },
