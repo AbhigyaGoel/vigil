@@ -700,13 +700,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:66572abf-79bc-4959-81dc-2d51e16c64a4",
-"company": "Tencent",
-"title": "Hunyuan Multimodal Reinforcement Learning Research Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:49ea6477-d2a6-4517-b1db-910fa56415d7",
 "company": "Tencent",
 "title": "Hunyuan Multimodal Reinforcement Learning Research Intern",
@@ -11389,6 +11382,13 @@
 "tag": "Winter 2027"
 },
 {
+"id": "ls:5539c267-ef6d-41c0-a68d-dcbd5c411ef5",
+"company": "General Motors",
+"title": "Battery and Sustainability Intern - Battery Research and Development",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
 "id": "ls:581f5af8-7fed-4e27-ae5c-5068ec83d4a6",
 "company": "University of Texas at Austin",
 "title": "Graduate Research Assistant - Quantitative and Systems Health Services",
@@ -11401,6 +11401,13 @@
 "title": "Developer Co-op - Multiple Teams",
 "rule": "irrelevant",
 "tag": ""
+},
+{
+"id": "ls:1d43fc21-2de6-411c-8141-ec33e8fa8fed",
+"company": "General Motors",
+"title": "Battery & Sustainability Intern - Battery Research and Development",
+"rule": "season",
+"tag": "Summer 2026"
 },
 {
 "id": "ls:974f7352-c917-461d-8c4d-f6ba7ae65d23",
@@ -12395,13 +12402,6 @@
 "title": "AI for Science Resident - Machine Learning",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:a168d40a-43c6-46f4-ac2d-f1d264740bc3",
-"company": "Dedalus",
-"title": "Software Development Apprentice - Digital Solutions Team",
-"rule": "seniority",
-"tag": ""
 },
 {
 "id": "ls:7ec884ae-14d0-4b0a-ba73-3ccaaa8dab51",
@@ -136584,7 +136584,7 @@
 "tag": ""
 },
 {
-"id": "at:https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Enterprise-Operations-Software-Internship_3167271-2",
+"id": "at:https://hp.wd5.myworkdayjobs.com/EXTEU-AC-CareerSite/job/Spring-Texas-United-States-of-America/Enterprise-Operations-Software-Internship_3167271-1",
 "company": "Hewlett Packard (HP)",
 "title": "Enterprise Operations Software Internship \ud83d\udec2",
 "rule": "irrelevant",
@@ -136610,6 +136610,55 @@
 "title": "R&D & Data Science Internship Fall 2026",
 "rule": "season",
 "tag": "title"
+},
+{
+"id": "wd:nvidia:/job/India-Bengaluru/Site-Reliability-Engineer_JR2023532-1",
+"company": "NVIDIA",
+"title": "Site Reliability Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/China-Shanghai/SWQA-Test-Development-Intern--GPU-Communications-Libraries---2027_JR2023690",
+"company": "NVIDIA",
+"title": "SWQA Test Development Intern, GPU Communications Libraries - 2027",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/China-Shanghai/Software-Engineering-Intern--CUDA-Test-Development---2027_JR2023645",
+"company": "NVIDIA",
+"title": "Software Engineering Intern, CUDA Test Development - 2027",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/China-Shanghai/Software-QA-Intern--Spark-Rapids----2027_JR2023655",
+"company": "NVIDIA",
+"title": "Software QA Intern, Spark Rapids  - 2027",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/China-Shanghai/Test-Development-Software-Engineering-Intern--Aerial---2027_JR2023852",
+"company": "NVIDIA",
+"title": "Test Development Software Engineering Intern, Aerial - 2027",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/China-Shanghai/Deep-Learning-Software-Engineering-Intern--Test-Development---2027_JR2023656",
+"company": "NVIDIA",
+"title": "Deep Learning Software Engineering Intern, Test Development - 2027",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/China-Shanghai/Software-QA-Developer-Intern---2027_JR2023654",
+"company": "NVIDIA",
+"title": "Software QA Developer Intern - 2027",
+"rule": "geo",
+"tag": ""
 },
 {
 "id": "wd:nvidia:/job/Taiwan-Taipei/Artificial-Intelligence-Research-Intern---Deep-Learning_JR2023646",
@@ -138589,6 +138638,13 @@
 "id": "wd:intel:/job/Israel-Kiryat-Gat/Practical-Engineering-Student----Kiryat-Gat_JR0281401",
 "company": "Intel",
 "title": "Practical Engineering Student -  Kiryat Gat",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/YokkaichiJPN/-_R2626658",
+"company": "Applied Materials",
+"title": "\u30ab\u30b9\u30bf\u30de\u30fc\u30a8\u30f3\u30b8\u30cb\u30a2\u3000",
 "rule": "not-intern",
 "tag": ""
 },
