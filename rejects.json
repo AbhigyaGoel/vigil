@@ -126,6 +126,13 @@
 "tag": "Spring 2026"
 },
 {
+"id": "ls:128e7ee0-9110-45e1-992d-270f1fa2be3d",
+"company": "Boston Consulting Group",
+"title": "Data Scientist Intern",
+"rule": "season",
+"tag": "Spring 2026"
+},
+{
 "id": "ls:c7c7dafc-ce0e-4ed2-92f7-ed3bc461bbb7",
 "company": "Black Box",
 "title": "AI Intern USA",
@@ -900,13 +907,6 @@
 "company": "DP World",
 "title": "Business Intelligence Apprentice",
 "rule": "seniority",
-"tag": ""
-},
-{
-"id": "ls:613121a0-b6ea-469c-bf10-9bb507ad6f4c",
-"company": "University of Arkansas",
-"title": "Cosmos Graduate Research Assistant - ML/AI",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -10563,13 +10563,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:8540d9e9-5a90-4ecb-a7f6-b854e696fb8e",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:a81b0d30-e122-4b3c-9290-3e85c9f02707",
 "company": "Goldman Sachs",
 "title": "Intern - Multiple Teams",
@@ -12262,6 +12255,13 @@
 "title": "Data Engineering Co-op - Open to Northeastern students only",
 "rule": "season",
 "tag": "Fall 2026"
+},
+{
+"id": "ls:179e11a1-a541-4256-a6c3-e36544663802",
+"company": "StudyFetch",
+"title": "AI Research Assistant - Machine Learning & AI",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "ls:f49f2253-11f4-4f56-bf6b-3ed2334cb2bc",
@@ -140364,10 +140364,10 @@
 "tag": ""
 },
 {
-"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264441",
+"id": "wd:analogdevices:",
 "company": "Analog Devices",
-"title": "Technician Student Intern",
-"rule": "seniority",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
