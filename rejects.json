@@ -126,13 +126,6 @@
 "tag": "Spring 2026"
 },
 {
-"id": "ls:128e7ee0-9110-45e1-992d-270f1fa2be3d",
-"company": "Boston Consulting Group",
-"title": "Data Scientist Intern",
-"rule": "season",
-"tag": "Spring 2026"
-},
-{
 "id": "ls:c7c7dafc-ce0e-4ed2-92f7-ed3bc461bbb7",
 "company": "Black Box",
 "title": "AI Intern USA",
@@ -8841,13 +8834,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:40dbbf5f-d4ad-493a-9644-4f4b0662556c",
-"company": "Cadence Design Systems",
-"title": "Software Engineer Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:ecf9f185-f2d1-4cc0-b34b-c49855781ce2",
 "company": "HNTB",
 "title": "Strategic Technology Intern - SED Division",
@@ -10388,13 +10374,6 @@
 "tag": ""
 },
 {
-"id": "ls:cf012f7c-ffe4-475e-ab48-18debac5047e",
-"company": "RTX",
-"title": "Software Engineer Intern - Summer 2027",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:39be2363-aaad-4bf0-9f3a-19906a6a8182",
 "company": "RTX",
 "title": "Electrical Computer-Aided Design Engineer Intern",
@@ -10594,13 +10573,6 @@
 "id": "ls:a81b0d30-e122-4b3c-9290-3e85c9f02707",
 "company": "Goldman Sachs",
 "title": "Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:629fac72-4880-42e9-b648-cdfa036a00ac",
-"company": "Goldman Sachs",
-"title": "Summer Associate Intern - Multiple Teams",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -12131,13 +12103,6 @@
 "tag": ""
 },
 {
-"id": "ls:3dc31c45-2bae-4f11-b283-deb7c9854dde",
-"company": "RTX",
-"title": "Software Engineer Intern",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:12e62286-e256-473b-94dc-c0264f8d5f73",
 "company": "Moog",
 "title": "Computer Science Intern - Information Technology",
@@ -12407,13 +12372,6 @@
 "id": "ls:65808ab5-729a-4821-a768-dcd4991bd9f6",
 "company": "Wells Fargo",
 "title": "Quantitative Analytics Intern - Risk Analytics and Decision Sciences",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:08532603-7472-48a9-a825-fef3a7108472",
-"company": "Boston Consulting Group",
-"title": "Forward Deployed AI Scientist",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -12932,6 +12890,34 @@
 "id": "ls:1a0df397-2083-456f-9ecb-137eec7603ef",
 "company": "Databricks",
 "title": "Software Engineer Intern",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:ae5500e9-bf44-4dd7-9a73-6b84de0fb777",
+"company": "Cubic",
+"title": "Field Services Apprentice",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:892947b6-4cac-464b-941a-7244615e4d0a",
+"company": "TikTok",
+"title": "Data Engineer Intern - E-commerce",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:563165c9-79ea-427e-a9f7-ac43878f12f6",
+"company": "Ontario Teachers' Pension Plan",
+"title": "Portfolio Engineer Intern - Capital Markets - CMIA",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:440a78fd-1099-4f5d-9384-4cda25b60ab3",
+"company": "Crowe",
+"title": "AI Functional Intern",
 "rule": "season",
 "tag": "Winter 2027"
 },
@@ -138005,6 +137991,20 @@
 "tag": ""
 },
 {
+"id": "at:https://apply.workable.com/fooji/j/6563DA99B5/",
+"company": "Fooji",
+"title": "Software Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://jobs.ashbyhq.com/phoebe-work/1ffe3e63-2163-447e-a8b0-1fff8b87e0ca",
+"company": "Phoebe",
+"title": "Software Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "at:https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Plymouth-Minnesota-United-States/Graduate-Level-Co-op---Data-Scientist---Plymouth--MN---Summer-2027_590567",
 "company": "Philips",
 "title": "Graduate Level Co-op \u2013 Data Scientist \u2013 Plymouth, MN \u2013 Summer 2027",
@@ -138666,20 +138666,6 @@
 "id": "at:https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193",
 "company": "Teledyne",
 "title": "NHRC Software Engineering Internship (Summer 2027) \ud83c\uddfa\ud83c\uddf8",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://amainc.wd12.myworkdayjobs.com/ama_careers/job/Remote---New-Jersey/Graduate-Research-Scientist-intern_R-100717-1",
-"company": "Analytical Mechanics Associates",
-"title": "Graduate Research Scientist intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://jobs.smartrecruiters.com/InfiniteQuant/744000143287594",
-"company": "InfiniteQuant",
-"title": "Quantitative Developer - Internship - Summer 2027",
 "rule": "irrelevant",
 "tag": ""
 },
