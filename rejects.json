@@ -4788,6 +4788,13 @@
 "tag": "Summer 2026"
 },
 {
+"id": "ls:b31743bd-7fcf-42a4-aca1-0e6146dfb105",
+"company": "Old Mission",
+"title": "Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:d939c49f-1d93-4ba9-aa2f-32e4e7398633",
 "company": "Cybernetic Labs",
 "title": "Forward Deployed Engineer Intern",
@@ -7889,6 +7896,13 @@
 "tag": ""
 },
 {
+"id": "ls:867db835-a4f8-43bf-85e3-5a7430b868f7",
+"company": "Magna",
+"title": "Warranty Co-op",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
 "id": "ls:14be19fd-d9b5-4218-9a72-21ca5a1b73da",
 "company": "American Express",
 "title": "Product Development Intern - US Consumer Services",
@@ -10528,13 +10542,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:8fea2128-ad21-47ad-b431-eb973db4321e",
-"company": "RTX",
-"title": "Software Engineer Intern - Summer 2027",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:6e3ed174-33a5-41fb-9927-ca07c12a6774",
 "company": "Freeform",
 "title": "Software Engineer Intern - Summer 2027",
@@ -10554,13 +10561,6 @@
 "title": "Software Engineer Intern",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:bc2e9762-a592-48ef-9e42-21dfdec88ec4",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - Asset and Wealth Management",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:8cfb1bdb-94da-41c0-be36-e516586909b0",
@@ -12390,13 +12390,6 @@
 "tag": ""
 },
 {
-"id": "ls:de048c9f-8cf0-45fe-b307-40b9a04a9416",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Americas - AWM Product Management",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:8569a45d-e504-4cc5-897a-de907ab8e0f7",
 "company": "AbbVie",
 "title": "Business Technology Solutions Intern - Data & Software Engineering - Undergraduate",
@@ -12899,6 +12892,13 @@
 "title": "Power Platform Business Solutions Intern - Consulting Practice",
 "rule": "season",
 "tag": "Fall 2026"
+},
+{
+"id": "ls:6eed2e3d-bae2-4bba-82dc-8be571a93b1b",
+"company": "RTX",
+"title": "Chemistry Materials Engineer Intern",
+"rule": "defense",
+"tag": ""
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -140340,13 +140340,6 @@
 "company": "Analog Devices",
 "title": "Technician Student Intern",
 "rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:analogdevices:",
-"company": "Analog Devices",
-"title": "",
-"rule": "not-intern",
 "tag": ""
 },
 {
