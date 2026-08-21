@@ -1715,13 +1715,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:60aab1d5-8134-4309-a8b5-e3819f70db56",
-"company": "Astranis",
-"title": "Software Engineer-Backend Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:d82bb13b-066a-4f6d-8f2f-ad3e7b394a3d",
 "company": "Astera",
 "title": "Software Engineer Intern - Distributed Simulation Systems",
@@ -9926,13 +9919,6 @@
 "tag": ""
 },
 {
-"id": "ls:dbd42a27-5b9c-4e33-981e-03b350eb0b21",
-"company": "BowerGroupAsia",
-"title": "Research Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:58719875-03a5-4934-aa9f-46c5b044cc97",
 "company": "Specter Aerospace",
 "title": "Image Processing Co-op",
@@ -10710,6 +10696,13 @@
 "tag": ""
 },
 {
+"id": "ls:1c9f2e98-f998-4541-bd39-aec405d39f11",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern - Wealth Management - Product Management and Design",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:bc2e9762-a592-48ef-9e42-21dfdec88ec4",
 "company": "Goldman Sachs",
 "title": "Quantitative Strategist Associate Intern - Asset and Wealth Management",
@@ -10738,10 +10731,38 @@
 "tag": ""
 },
 {
+"id": "ls:ea185fae-1828-4e79-9bfa-34dc512cce8c",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Associate Intern - The Core Quantitative Strats",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:443c0a68-63ca-4026-94b7-cf3e555f2d0f",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Associate Intern - The Core Quantitative Strats",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:439c65c1-64f2-461c-8ca1-ca36969ef10a",
 "company": "Goldman Sachs",
 "title": "Quantitative Strategist Intern - Multiple Teams",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:1d850622-b67b-4965-a25c-f6872d8a1c79",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern - FICC & Equities - Sales & Trading",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:1560332f-3e4c-4d15-819d-df9bf4889deb",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern - FICC and Equities - Sales and Trading",
+"rule": "seniority",
 "tag": ""
 },
 {
@@ -10981,13 +11002,6 @@
 "title": "Performance Data Co-op - Marketplace Intelligence",
 "rule": "season",
 "tag": "Summer 2026"
-},
-{
-"id": "ls:a3008ed4-1483-4ec4-9ccf-259ac6b6fd86",
-"company": "Vanguard",
-"title": "Data Analyst Intern - College to Corporate IT",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:530c60b3-3de0-4a8e-bb7c-5f32553939ac",
@@ -12582,6 +12596,20 @@
 "id": "ls:09e061cd-a5e8-4059-bb6d-a0672a475328",
 "company": "Fannie Mae",
 "title": "Data Science Intern - Analytics & Modeling Program",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:de048c9f-8cf0-45fe-b307-40b9a04a9416",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern - Americas - AWM Product Management",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:aea9cccf-4a27-4ca6-9c11-9664e8a1ac0a",
+"company": "Goldman Sachs",
+"title": "AWM Product Management Analyst Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -137830,6 +137858,13 @@
 "tag": ""
 },
 {
+"id": "wd:nvidia:/job/Taiwan-Taipei/Enterprise-Software-Test-Development-Engineer--RDSS-Intern-_JR2023913",
+"company": "NVIDIA",
+"title": "Enterprise Software Test Development Engineer (RDSS Intern)",
+"rule": "geo",
+"tag": ""
+},
+{
 "id": "wd:nvidia:/job/India-Bengaluru/Site-Reliability-Engineer_JR2023532-1",
 "company": "NVIDIA",
 "title": "Site Reliability Engineer",
@@ -138026,6 +138061,13 @@
 "tag": ""
 },
 {
+"id": "wd:nvidia:/job/US-MA-Westford/GPU-Verification-Engineer---New-College-Grad-2026_JR2023187",
+"company": "NVIDIA",
+"title": "GPU Verification Engineer - New College Grad 2026",
+"rule": "new-grad",
+"tag": ""
+},
+{
 "id": "wd:nvidia:/job/Israel-Yokneam/Chip-Design-Engineer_JR2020627",
 "company": "NVIDIA",
 "title": "Chip Design Engineer",
@@ -138155,13 +138197,6 @@
 "id": "wd:nvidia:/job/US-CA-Santa-Clara/Deep-Learning-Software-Engineer--TensorRT-Performance---New-College-Grad-2026_JR2015071",
 "company": "NVIDIA",
 "title": "Deep Learning Software Engineer, TensorRT Performance - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2021534",
-"company": "NVIDIA",
-"title": "ASIC Design Engineer - New College Grad 2026",
 "rule": "new-grad",
 "tag": ""
 },
@@ -138404,13 +138439,6 @@
 "tag": ""
 },
 {
-"id": "wd:nvidia:",
-"company": "NVIDIA",
-"title": "",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--Generative-AI-for-Physical-AI---PhD-New-College-Grad-2026_JR2016032",
 "company": "NVIDIA",
 "title": "Research Scientist, Generative AI for Physical AI - PhD New College Grad 2026",
@@ -138520,6 +138548,34 @@
 "company": "NVIDIA",
 "title": "Software Architect, Advanced Development",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---Digital-Automation---Solutions-Team_JR106474",
+"company": "Micron",
+"title": "Intern - Digital Automation & Solutions Team",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---Digital-Automation---Solutions-Team_JR106471",
+"company": "Micron",
+"title": "Intern - Digital Automation & Solutions Team",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---Digital-Automation---Solutions-Team_JR106470",
+"company": "Micron",
+"title": "Intern - Digital Automation & Solutions Team",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Yield-Technology-Equipment_JR109069",
+"company": "Micron",
+"title": "Intern - Yield Technology Equipment",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -138733,28 +138789,7 @@
 "tag": ""
 },
 {
-"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---Digital-Automation---Solutions-Team_JR106474",
-"company": "Micron",
-"title": "Intern - Digital Automation & Solutions Team",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---Digital-Automation---Solutions-Team_JR106470",
-"company": "Micron",
-"title": "Intern - Digital Automation & Solutions Team",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "wd:micron:/job/Fab-10NX-Singapore/Intern---Digital-Automation---Solutions-Team_JR106472",
-"company": "Micron",
-"title": "Intern - Digital Automation & Solutions Team",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---Digital-Automation---Solutions-Team_JR106471",
 "company": "Micron",
 "title": "Intern - Digital Automation & Solutions Team",
 "rule": "irrelevant",
@@ -139706,6 +139741,13 @@
 "tag": ""
 },
 {
+"id": "wd:intel:/job/Vietnam-Ho_Chi_Minh_City/Intern-Systems-Software-Development-Engineer_JR0286501",
+"company": "Intel",
+"title": "Intern Systems Software Development Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
 "id": "wd:intel:/job/Mexico-Guadalajara/SoC-Functional-Validation-Intern_JR0286018",
 "company": "Intel",
 "title": "SoC Functional Validation Intern",
@@ -139997,13 +140039,6 @@
 "company": "Applied Materials",
 "title": "2027 Engineer Development Rotation Program - Mechanical Engineer I New College Grad - BS or MS (Gloucester, MA)",
 "rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:amat:/job/XianCHN/Buyer-Xi-an_R2623997",
-"company": "Applied Materials",
-"title": "Buyer-Xi'an",
-"rule": "not-intern",
 "tag": ""
 },
 {
