@@ -70,13 +70,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:91c0873c-728c-4585-9b82-4d3dd3dd4253",
-"company": "Cadence Design Systems",
-"title": "Software Engineering Intern",
-"rule": "season",
-"tag": "Spring 2026"
-},
-{
 "id": "ls:9a900104-2a94-4f83-8db2-d908f008ed99",
 "company": "Citadel",
 "title": "Machine Learning Researcher \u2013 PhD Intern - US",
@@ -2492,13 +2485,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:6148bc47-e98c-4c1a-9255-16279e18a578",
-"company": "Tesla",
-"title": "Software Engineer Intern - Software Engineer - AI Hardware Infrastructure",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:4c400c0a-2206-461c-9b0e-098446c599a8",
 "company": "Tesla",
 "title": "Embedded Software Engineer Intern - Keys & Authentication",
@@ -3890,6 +3876,13 @@
 "title": "Utility Engineering Intern",
 "rule": "season",
 "tag": "Fall 2026"
+},
+{
+"id": "ls:136bc4e8-f085-4b75-989c-c73b7f7de779",
+"company": "Sezzle",
+"title": "Product Intern",
+"rule": "season",
+"tag": "Summer 2026"
 },
 {
 "id": "ls:8c8a1f21-e711-48d0-8cec-601018138920",
@@ -8687,6 +8680,13 @@
 "tag": ""
 },
 {
+"id": "ls:6eff9788-f38e-4357-8646-cd6f5984f3cb",
+"company": "Axon",
+"title": "Software Engineer Intern",
+"rule": "defense",
+"tag": ""
+},
+{
 "id": "ls:2751af83-9f4f-48b8-8aba-6f534e9681e7",
 "company": "Atoms",
 "title": "Software Engineer Intern - Summer 2027",
@@ -12607,13 +12607,6 @@
 "tag": ""
 },
 {
-"id": "ls:74d636b4-f64c-4e45-87b4-df75cb3d1fee",
-"company": "Freeform",
-"title": "Materials Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:bbda7e7c-7de0-4db9-91d9-c5964f94704a",
 "company": "thyssenkrupp",
 "title": "Sustainability Systems Intern",
@@ -12633,13 +12626,6 @@
 "title": "Internship - Fullstack Engineer - Applications Engineering - Winter/Spring 2027",
 "rule": "season",
 "tag": "Winter 2027"
-},
-{
-"id": "ls:2beb3742-f77d-4a70-b6cd-ed3c76034f75",
-"company": "Centific",
-"title": "Software Engineer",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:e780d84e-674d-477d-9d4c-829d501deca8",
@@ -12836,6 +12822,104 @@
 "title": "Software Engineer Intern - Spring 2027",
 "rule": "season",
 "tag": "Spring 2027"
+},
+{
+"id": "ls:01693d6f-5d51-4b77-a732-36500a8373e0",
+"company": "Navy Federal",
+"title": "Change Management Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:afa64b8c-e29c-4c0b-bc7d-fbca02771094",
+"company": "Micron Technology",
+"title": "SoC RTL Design Engineer Intern - HBM",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:1117caa7-3295-43c8-a83c-b44e449d40eb",
+"company": "Micron Technology",
+"title": "Physical Failure Analysis Engineer Intern - Yield Enhancement",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:e9cc1694-7911-45ac-988b-ff64e77ff9af",
+"company": "Mosaic",
+"title": "Artificial Intelligence Co-op Intern",
+"rule": "season",
+"tag": "Spring 2027"
+},
+{
+"id": "ls:74a4f228-ddb1-4953-9597-1c278c491082",
+"company": "Vanguard",
+"title": "Data Science Intern - College to Corporate IT",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:a8fce259-7cd2-44ea-a7ab-787260c1308e",
+"company": "Vanguard",
+"title": "Data Science Intern - Information Technology",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:52a1bad8-5a44-4bf7-a4ef-fe2683e423b5",
+"company": "Phoebe",
+"title": "Software Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:5de3980e-8b11-479f-b78e-cce6b70957b5",
+"company": "Vanguard",
+"title": "Data Analyst Intern - College to Corporate IT",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:52280fbc-05cd-4714-a6fa-72ff9c3d0f9f",
+"company": "Auto-Owners Insurance",
+"title": "Predictive Modeler Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:f432a8a9-9285-46de-a3f7-3cc4dc1c5e27",
+"company": "Analog Devices",
+"title": "Mixed Signal Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:1ee352d1-8fd4-4ca2-aae0-f1701f85df51",
+"company": "Pennsylvania State University",
+"title": "Graduate Assistant",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:cb46e6d8-d6c3-45c2-b159-57a52ab9cf10",
+"company": "IMEG",
+"title": "Innovation Services Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:bf2ef6a4-2b5f-4eed-8e5d-57612263f6b6",
+"company": "Lawrence Livermore National Laboratory (LLNL)",
+"title": "Computational Engineering Graduate Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:43d2af12-58ef-4a09-9b0c-eca848f6b3ee",
+"company": "Lawrence Livermore National Laboratory (LLNL)",
+"title": "Environment, Safety and Health Undergraduate Intern - Fall 2026",
+"rule": "defense",
+"tag": ""
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -138320,10 +138404,10 @@
 "tag": ""
 },
 {
-"id": "wd:nvidia:/job/US-TX-Austin/ASIC-Hardware-Design-Engineer---New-College-Grad-2026_JR2011787",
+"id": "wd:nvidia:",
 "company": "NVIDIA",
-"title": "ASIC Hardware Design Engineer - New College Grad 2026",
-"rule": "new-grad",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
