@@ -14,7 +14,12 @@
 
 import { makeFilters, curatedTitlePass, hardMismatch } from "./filters.mjs";
 
-const GROUPS = 4;
+// GROUPS=1: on Workers Paid (see wrangler.toml [limits] cpu_ms) every board is
+// polled every minute in one parallel pass, so posting-to-phone latency is ~1-2
+// min. Raise this only if you drop back to the Free plan (10ms CPU), where each
+// invocation must parse far fewer boards to fit the limit.
+const GROUPS = 1;
+const SUBREQUEST_CAP = 1000;   // Workers Paid per-invocation subrequest limit (Free = 50)
 const UA = { "User-Agent": "vigil/2.1 (github.com/AbhigyaGoel/vigil)" };
 let cfgCache = { at: 0, cfg: null };
 
@@ -101,45 +106,60 @@ export default {
     const seedKey = `seeded_v4:${bucket}`;
     const seeding = !(await env.SEEN.get(seedKey));
 
-    const found = [];
-    let dirty = false;
-    // Dynamic GH per-job fetch budget: whatever's left under the 50-subrequest cap
-    // after this bucket's board fetches, minus 5 headroom for ntfy sends.
-    let ghBudget = Math.max(0, 50 - boards.length - 5);
-    console.log(`boards/bucket=${boards.length} gh_detail_budget=${ghBudget}`);
-    if (boards.length > 40) console.log(`WARN boards/bucket=${boards.length} > 40 - raise GROUPS`);
-    for (const b of boards) {
-      try {
-        for (const job of await fetchBoard(b)) {
-          if (seen.has(job.id)) continue;
-          if (job.posted && Date.now() - job.posted > maxAgeMs) continue;
-          if (!curatedTitlePass(job, f)) continue;   // intern + excludes + season + US (cheap)
-          // grad/degree demotion: Lever/Ashby carry desc inline; Greenhouse needs a
-          // per-job fetch, but only for a role about to be pushed (0-2/run).
-          let desc = job.desc || "";
-          if (!desc && job.detail && ghBudget > 0) {
-            ghBudget--;
-            try { const jd = await gj(job.detail); desc = (jd.content || "").replace(/<[^>]+>/g, " "); } catch {}
-            if (ghBudget === 0) console.log("WARN gh_detail_budget spent; remaining GH roles push without grad/degree check");
-          }
-          // budget spent -> desc stays "" -> hardMismatch false -> push anyway (recall-first)
-          if (hardMismatch(desc)) continue;
-          seen.add(job.id);
-          dirty = true;
-          found.push(job);
+    // Fetch every board in this pass concurrently. Network is I/O (not CPU-billed),
+    // so the pass costs one slow board's wall-time instead of the sum, and one dead
+    // board can't sink the run - each rejection is isolated to an empty result.
+    const pulls = await Promise.all(
+      boards.map((b) =>
+        fetchBoard(b)
+          .then((jobs) => ({ b, jobs }))
+          .catch((e) => {
+            console.log(`WARN ${b.kind}:${b.slug} -> ${e.message}`);
+            return { b, jobs: [] };
+          })
+      )
+    );
+    console.log(`boards=${boards.length} ok=${pulls.filter((p) => p.jobs.length).length}`);
+
+    // GH grad-check detail fetches share the per-invocation subrequest budget with
+    // the board pulls (already spent) and the ntfy sends (cap + headroom).
+    let ghBudget = Math.max(0, SUBREQUEST_CAP - boards.length - cap - 5);
+    const candidates = [];
+    for (const { jobs } of pulls) {
+      for (const job of jobs) {
+        if (seen.has(job.id)) continue;
+        if (job.posted && Date.now() - job.posted > maxAgeMs) continue;
+        if (!curatedTitlePass(job, f)) continue;   // intern + excludes + season + US (cheap)
+        // grad/degree demotion: Lever/Ashby carry desc inline; Greenhouse needs a
+        // per-job fetch, but only for a role about to be pushed (0-2/run).
+        let desc = job.desc || "";
+        if (!desc && job.detail && ghBudget > 0) {
+          ghBudget--;
+          try { const jd = await gj(job.detail); desc = (jd.content || "").replace(/<[^>]+>/g, " "); } catch {}
+          if (ghBudget === 0) console.log("WARN gh_detail_budget spent; remaining GH roles push without grad/degree check");
         }
-      } catch (e) {
-        console.log(`WARN ${b.kind}:${b.slug} -> ${e.message}`);
+        // budget spent -> desc stays "" -> hardMismatch false -> push anyway (recall-first)
+        if (hardMismatch(desc)) continue;
+        candidates.push(job);
       }
     }
 
-    if (!seeding && found.length) {
-      for (const j of found.slice(0, cap)) await ntfy(env, j);
-      console.log(`PING x${Math.min(found.length, cap)}: ${found.slice(0, cap).map((j) => j.title).join(" | ")}`);
-    }
+    let dirty = false;
     if (seeding) {
+      // First run for this bucket: suppress everything currently open (no alert flood).
+      for (const j of candidates) seen.add(j.id);
+      dirty = candidates.length > 0;
       await env.SEEN.put(seedKey, new Date().toISOString());
       console.log(`SEEDED bucket ${bucket}: ${seen.size} tracked`);
+    } else if (candidates.length) {
+      // Push up to the per-run cap, and mark ONLY what we actually pushed as seen so
+      // any overflow re-surfaces next minute instead of being silently swallowed.
+      const push = candidates.slice(0, cap);
+      for (const j of push) { await ntfy(env, j); seen.add(j.id); }
+      dirty = push.length > 0;
+      if (candidates.length > cap)
+        console.log(`WARN ${candidates.length} new > cap ${cap}; ${candidates.length - cap} deferred to next run`);
+      console.log(`PING x${push.length}: ${push.map((j) => j.title).join(" | ")}`);
     }
     if (dirty) await env.SEEN.put("seen_v4", JSON.stringify([...seen]));
   },

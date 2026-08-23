@@ -6,10 +6,18 @@ compatibility_date = "2026-08-01"
 # Serves the status page at vigil.<your-subdomain>.workers.dev
 workers_dev = true
 
-# Poll every minute. Boards rotate across 2 buckets, so each board is checked
-# every 2 minutes - posting-to-phone latency is ~1-3 minutes.
+# Poll every minute. With GROUPS=1 in worker.js, ALL curated boards are pulled in
+# one parallel pass each run, so every board is checked every minute - posting-to-
+# phone latency is ~1-2 minutes.
 [triggers]
 crons = ["* * * * *"]
+
+# Workers Paid: lift the CPU ceiling off the per-minute pass (Free plan caps at
+# 10ms, which the full-board parse blows past -> scheduled runs get killed and
+# alerts arrive hours/days late). 30s is the max and far more than a pass needs;
+# actual CPU is tens of ms. Requires the account to be on the Workers Paid plan.
+[limits]
+cpu_ms = 30000
 
 [vars]
 # Point at YOUR fork so the worker follows your filters/slugs without redeploys.
