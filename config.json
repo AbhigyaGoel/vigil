@@ -27,7 +27,7 @@
     [-3, "\\bPhD\\b|\\bMBA\\b"]
   ],
   "desc_hw_keywords": ["\\bPCB\\b", "\\bSoC\\b", "\\bSLAM\\b", "lidar", "radar", "sensor fusion", "\\bROS ?2?\\b", "kinematics", "microcontroller", "\\bMCU\\b", "\\bDSP\\b", "\\bCUDA\\b", "\\bTPU\\b", "motor control", "actuator", "bring-?up", "\\bHIL\\b", "signal integrity", "photonics", "schematic", "verilog", "\\bVHDL\\b", "\\bI2C\\b", "\\bSPI\\b", "\\bUART\\b", "\\bPWM\\b", "\\bRTOS\\b", "\\bFPGA\\b"],
-  "desc_clearance": "security clearance|\\bTS/SCI\\b|\\bITAR\\b|\\bclearance\\b|polygraph|export control",
+  "desc_clearance": "security clearance|\\bTS/SCI\\b|secret clearance|\\bclearance\\b|polygraph",
   "digest_hour_utc": 13,
   "weekly_day": 0,
   "ats_require": [
@@ -124,7 +124,8 @@
     "skyryse",
     "neuralink",
     "nimblerobotics",
-    "purestorage"
+    "purestorage",
+    "spacex"
   ],
   "lever": [
     "zoox",
@@ -170,7 +171,10 @@
     "eyebot",
     "osmo",
     "periodic-labs",
-    "openai"
+    "openai",
+    "skydio",
+    "gecko-robotics",
+    "hadrian-automation"
   ],
   "workday": [
     { "name": "NVIDIA", "tenant": "nvidia", "host": "nvidia.wd5.myworkdayjobs.com", "site": "NVIDIAExternalCareerSite" },
@@ -190,7 +194,6 @@
   "_deliberately_omitted": {
     "note": "Verified-real slugs left out because the company's revenue is materially defense/DoD. Paste back in if you change your mind.",
     "greenhouse": [
-      "spacex",
       "andurilindustries",
       "trueanomalyinc",
       "aevexaerospace",
@@ -209,11 +212,8 @@
       "palantir"
     ],
     "ashby": [
-      "skydio",
-      "gecko-robotics",
       "windborne-systems",
       "turion-space",
-      "hadrian-automation",
       "mach",
       "odin-dynamics",
       "saronic"
@@ -403,10 +403,6 @@
     "aerospace corporation",
     "applied physical sciences",
     "morse corp",
-    "spacex",
-    "skydio",
-    "gecko robotics",
-    "hadrian",
     "windborne",
     "turion",
     "hermeus",
