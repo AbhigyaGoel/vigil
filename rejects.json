@@ -3164,13 +3164,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:7185eeaf-ca13-448b-9914-08c197b45f81",
-"company": "thyssenkrupp",
-"title": "Analytics Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:e367e6e4-6527-42b7-b13f-3c7f8acb1a20",
 "company": "Susquehanna International Group (SIG)",
 "title": "Quantitative Trader Intern",
@@ -10178,13 +10171,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:8a4adc2e-9c94-4aca-a96e-f08577bb106e",
-"company": "AltaGas",
-"title": "Data Science and Analytics Co-op",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:f271bfa3-e723-416b-aad4-0a6cf6f4f19e",
 "company": "ByteDance",
 "title": "Software Engineer Intern - Global Payment Infra and SRE",
@@ -10283,37 +10269,9 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:8540d9e9-5a90-4ecb-a7f6-b854e696fb8e",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:a81b0d30-e122-4b3c-9290-3e85c9f02707",
 "company": "Goldman Sachs",
 "title": "Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:629fac72-4880-42e9-b648-cdfa036a00ac",
-"company": "Goldman Sachs",
-"title": "Summer Associate Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:1c9f2e98-f998-4541-bd39-aec405d39f11",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Wealth Management - Product Management and Design",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:bc2e9762-a592-48ef-9e42-21dfdec88ec4",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - Asset and Wealth Management",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -10330,41 +10288,6 @@
 "title": "Design Engineer Intern",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:ea185fae-1828-4e79-9bfa-34dc512cce8c",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - The Core Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:443c0a68-63ca-4026-94b7-cf3e555f2d0f",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - The Core Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:439c65c1-64f2-461c-8ca1-ca36969ef10a",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:1d850622-b67b-4965-a25c-f6872d8a1c79",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - FICC & Equities - Sales & Trading",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "ls:1560332f-3e4c-4d15-819d-df9bf4889deb",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - FICC and Equities - Sales and Trading",
-"rule": "seniority",
-"tag": ""
 },
 {
 "id": "ls:7e21b76f-fae1-4564-9f64-456d019b46b2",
@@ -12110,13 +12033,6 @@
 "tag": ""
 },
 {
-"id": "ls:de048c9f-8cf0-45fe-b307-40b9a04a9416",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Americas - AWM Product Management",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:aea9cccf-4a27-4ca6-9c11-9664e8a1ac0a",
 "company": "Goldman Sachs",
 "title": "AWM Product Management Analyst Intern",
@@ -13136,13 +13052,6 @@
 "company": "Springs Window Fashions",
 "title": "Product Management Dashboard Analytics Intern",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:740d3c67-d925-48d7-995a-410073f010e8",
-"company": "RTX",
-"title": "Industrialization Intern - Industrialization Production Readiness",
-"rule": "defense",
 "tag": ""
 },
 {
@@ -139415,6 +139324,13 @@
 "id": "wd:nvidia:/job/Israel-Yokneam/PHY-System-Integration-Engineer_JR2024250",
 "company": "NVIDIA",
 "title": "PHY System Integration Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:nvidia:",
+"company": "NVIDIA",
+"title": "",
 "rule": "not-intern",
 "tag": ""
 },
