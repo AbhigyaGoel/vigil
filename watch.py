@@ -75,6 +75,22 @@ DROP_CO = rx("drop_countries")
 _eco = CFG.get("exclude_companies") or []
 EXCLUDE_CO = re.compile(r"\b(?:" + "|".join(_eco) + r")\b", re.I) if _eco else None
 
+# Curated priority: a hand-picked company's intern always DELIVERS, but only a
+# hardware/robotics-relevant title earns instant Tier A. A clearly off-target
+# function (IT, generic SWE, ML, biomedical) with no hardware signal routes to the
+# Tier B hourly batch instead. Mirrors filters.mjs curatedRelevant (parity 'relevance').
+CURATED_OFFTARGET = re.compile(
+    r"\b(?:software|swe|full ?stack|front ?end|back ?end|web developer|information technology|"
+    r"sys ?admin|systems? administrator|help ?desk|machine learning|ml|data scien|data analyst|"
+    r"biomedical|clinical|finance|financial|business)\b", re.I)
+
+
+def curated_relevant(title):
+    if INCLUDE and INCLUDE.search(title or ""):   # explicit hardware/robotics signal
+        return True
+    return not CURATED_OFFTARGET.search(title or "")
+
+
 CATS = [c.lower() for c in CFG.get("include_categories", [])]
 SOFT_CATS = [c.lower() for c in CFG.get("soft_categories", [])]
 DROP_SEASONS = set(CFG.get("season_drop_terms", []))
@@ -470,7 +486,9 @@ def classify(job, enrich, trace=None):
             note("TIER B (curated, non-US)"); return "B", score
         if sig.get("grad_bad") or sig.get("grad_only"):
             note("TIER B (curated, grad/degree mismatch)"); return "B", score
-        note("TIER A (curated bypass)"); return "A", max(score, 3)
+        if not curated_relevant(title):
+            note("TIER B (curated, off-target function)"); return "B", score
+        note("TIER A (curated, hardware-relevant)"); return "A", max(score, 3)
     if policy == "tagged":
         # SimplifyJobs carries explicit season terms -> trust them exactly.
         a_ok = season_a_eligible(job.get("terms"))

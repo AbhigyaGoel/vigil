@@ -41,7 +41,22 @@ export function makeFilters(cfg) {
     exclude: rx(cfg.exclude_keywords),
     excludeCo,
     intern: rx(cfg.ats_require),
+    include: rx(cfg.include_keywords),
   };
+}
+
+// Curated priority: a hand-picked company's intern still DELIVERS regardless of
+// relevance, but only hardware/robotics-relevant titles fire a high-priority
+// instant ping. Clearly off-target functions (IT, generic SWE, ML, biomedical)
+// that carry NO hardware signal deliver at low priority instead. A generic
+// "Engineering Intern" is kept high; "Software Engineer, Robotics" and "Embedded
+// SWE" are saved by their hardware/robotics keyword. Mirrors watch.py
+// curated_relevant() — asserted by the parity 'relevance' fixtures.
+const CURATED_OFFTARGET = /\b(?:software|swe|full ?stack|front ?end|back ?end|web developer|information technology|sys ?admin|systems? administrator|help ?desk|machine learning|ml|data scien|data analyst|biomedical|clinical|finance|financial|business)\b/i;
+export function curatedRelevant(job, f) {
+  const title = job.title || "";
+  if (f.include && f.include.test(title)) return true;   // explicit hardware/robotics signal
+  return !CURATED_OFFTARGET.test(title);
 }
 
 // Hard eligibility mismatch from a description (mirrors watch.py extract_signals):

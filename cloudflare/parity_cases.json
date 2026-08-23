@@ -47,5 +47,18 @@
     {"desc": "Pursuing a BS or MS in Electrical Engineering.", "expect": false},
     {"desc": "BSEE required, graduating 2028.", "expect": false},
     {"desc": "Pursuing a Bachelor's degree.", "expect": false}
+  ],
+  "relevance": [
+    {"title": "Engineering Intern", "expect": true},
+    {"title": "Firmware Engineer Intern, Robotics", "expect": true},
+    {"title": "Electrical Engineer Intern", "expect": true},
+    {"title": "Embedded Software Engineer Intern", "expect": true},
+    {"title": "Software Engineer Intern, Robotics", "expect": true},
+    {"title": "Mechanical Engineering Intern", "expect": true},
+    {"title": "Software Engineer Intern, Infrastructure", "expect": false},
+    {"title": "IT Systems Administrator Intern", "expect": false},
+    {"title": "Machine Learning Engineer Intern", "expect": false},
+    {"title": "Biomedical Engineer Intern", "expect": false},
+    {"title": "Data Analyst Intern", "expect": false}
   ]
 }

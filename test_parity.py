@@ -14,7 +14,8 @@ import watch
 
 ROOT = Path(__file__).parent
 cases = json.loads((ROOT / "cloudflare" / "parity_cases.json").read_text())
-fixture_total = len(cases["geo"]) + len(cases["season"]) + len(cases["curated"]) + len(cases["grad"])
+fixture_total = (len(cases["geo"]) + len(cases["season"]) + len(cases["curated"])
+                 + len(cases["grad"]) + len(cases["relevance"]))
 
 fail, ran = 0, 0
 for c in cases["geo"]:
@@ -40,6 +41,10 @@ for c in cases["grad"]:
     got = bool(sig.get("grad_bad") or sig.get("grad_only"))
     if got != c["expect"]:
         fail += 1; print(f"PY GRAD FAIL {c['desc']!r} -> {got} (want {c['expect']})")
+for c in cases["relevance"]:
+    ran += 1
+    if watch.curated_relevant(c["title"]) != c["expect"]:
+        fail += 1; print(f"PY RELEVANCE FAIL {c['title']!r} -> {watch.curated_relevant(c['title'])} (want {c['expect']})")
 
 if ran != fixture_total:
     fail += 1; print(f"PY DID NOT RUN ALL CASES: ran {ran} of {fixture_total}")

@@ -3,16 +3,18 @@
  *
  * Polls the CURATED company boards (Greenhouse / Lever / Ashby) every minute and
  * instant-pushes new intern roles to ntfy. Curated = hand-picked companies, so
- * there is NO include_keywords gate: a vague "Engineering Intern" there is wanted.
- * Filtering (intern gate, excludes, title-season drop, and geography) is shared
- * with watch.py via filters.mjs so the two can't drift - see parity tests.
+ * there is NO include_keywords GATE (a vague "Engineering Intern" is still wanted);
+ * relevance only sets PRIORITY - hardware/robotics titles push high, clearly
+ * off-target ones (IT/generic-SWE/ML/biomed w/ no hardware signal) push low.
+ * Filtering (intern gate, excludes, title-season drop, geography) + the relevance
+ * split are shared with watch.py via filters.mjs so the two can't drift - see parity.
  *
  * Aggregators, Workday, and Tier A/B scoring run in watch.py on GitHub Actions.
  * Config is read from the repo at runtime (cached 5 min); KV keys are versioned,
  * so bump the suffix to force a silent reseed after a filter-behavior change.
  */
 
-import { makeFilters, curatedTitlePass, hardMismatch } from "./filters.mjs";
+import { makeFilters, curatedTitlePass, hardMismatch, curatedRelevant } from "./filters.mjs";
 
 // GROUPS=1: on Workers Paid (see wrangler.toml [limits] cpu_ms) every board is
 // polled every minute in one parallel pass, so posting-to-phone latency is ~1-2
@@ -78,7 +80,7 @@ function ageStr(posted) {
   return secs < 86400 ? `${Math.floor(secs / 3600)}h` : `${Math.floor(secs / 86400)}d`;
 }
 
-async function ntfy(env, job) {
+async function ntfy(env, job, priority = "high") {
   if (!env.NTFY_TOPIC) return;
   const age = ageStr(job.posted);
   const body = (job.location || "location n/a") + (age ? `\nPosted ${age} ago` : "");
@@ -87,7 +89,7 @@ async function ntfy(env, job) {
     body,   // header (company - title) is NOT repeated here
     headers: {
       ...UA, Title: `${job.company} - ${job.title}`.slice(0, 140).replace(/[^\x20-\x7e]/g, ""),
-      Priority: "high", Click: job.url, Actions: `view, Apply, ${job.url}`,
+      Priority: priority, Click: job.url, Actions: `view, Apply, ${job.url}`,
     },
   });
 }
@@ -155,7 +157,10 @@ export default {
       // Push up to the per-run cap, and mark ONLY what we actually pushed as seen so
       // any overflow re-surfaces next minute instead of being silently swallowed.
       const push = candidates.slice(0, cap);
-      for (const j of push) { await ntfy(env, j); seen.add(j.id); }
+      // Hardware/robotics-relevant -> high-priority instant; clearly off-target
+      // (IT, generic SWE, ML, biomed with no hardware signal) -> low-priority so it
+      // still lands but doesn't buzz. Mirrors watch.py's curated Tier-A/B split.
+      for (const j of push) { await ntfy(env, j, curatedRelevant(j, f) ? "high" : "low"); seen.add(j.id); }
       dirty = push.length > 0;
       if (candidates.length > cap)
         console.log(`WARN ${candidates.length} new > cap ${cap}; ${candidates.length - cap} deferred to next run`);
