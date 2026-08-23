@@ -10171,6 +10171,13 @@
 "tag": "Summer 2026"
 },
 {
+"id": "ls:8a4adc2e-9c94-4aca-a96e-f08577bb106e",
+"company": "AltaGas",
+"title": "Data Science and Analytics Co-op",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
 "id": "ls:f271bfa3-e723-416b-aad4-0a6cf6f4f19e",
 "company": "ByteDance",
 "title": "Software Engineer Intern - Global Payment Infra and SRE",
@@ -10272,6 +10279,13 @@
 "id": "ls:a81b0d30-e122-4b3c-9290-3e85c9f02707",
 "company": "Goldman Sachs",
 "title": "Intern - Multiple Teams",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:bc2e9762-a592-48ef-9e42-21dfdec88ec4",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Associate Intern - Asset and Wealth Management",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -12029,6 +12043,13 @@
 "id": "ls:09e061cd-a5e8-4059-bb6d-a0672a475328",
 "company": "Fannie Mae",
 "title": "Data Science Intern - Analytics & Modeling Program",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:de048c9f-8cf0-45fe-b307-40b9a04a9416",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern - Americas - AWM Product Management",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -139324,13 +139345,6 @@
 "id": "wd:nvidia:/job/Israel-Yokneam/PHY-System-Integration-Engineer_JR2024250",
 "company": "NVIDIA",
 "title": "PHY System Integration Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:nvidia:",
-"company": "NVIDIA",
-"title": "",
 "rule": "not-intern",
 "tag": ""
 },
