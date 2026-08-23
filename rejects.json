@@ -2534,13 +2534,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:ecb57e2b-b9a6-4967-9d05-bd9596de3537",
-"company": "Copart",
-"title": "Software Engineer Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:a094bbba-b159-429f-905a-e52b9cadc157",
 "company": "Zoox",
 "title": "Student Worker Automation & Behavioral Science Engineer",
@@ -2873,6 +2866,13 @@
 "id": "ls:8edbe308-126f-4a6e-aaca-2f7af80c811e",
 "company": "Nelnet",
 "title": "AI Engineer Intern",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:7e13e0d3-bd62-458e-869e-bb070af80106",
+"company": "Copart",
+"title": "Software Engineer Intern",
 "rule": "season",
 "tag": "Summer 2026"
 },
@@ -8085,9 +8085,9 @@
 "tag": ""
 },
 {
-"id": "ls:b42d28f6-494f-4b0a-8e40-29dd669c4846",
+"id": "ls:40fce4fe-2ffc-4371-9b54-174b5b8f649b",
 "company": "Canva",
-"title": "PhD Research Scientist Intern - Generative AI",
+"title": "PhD Research Scientist Intern",
 "rule": "seniority",
 "tag": ""
 },
@@ -9681,6 +9681,13 @@
 "tag": ""
 },
 {
+"id": "ls:d15c2dd4-7288-4110-bf59-550c753167ab",
+"company": "InfiniteQuant",
+"title": "Quantitative Developer Intern - Summer 2027",
+"rule": "geo",
+"tag": ""
+},
+{
 "id": "ls:b90b1f48-7c8c-4d10-889d-59e14160b61a",
 "company": "Delta Dental",
 "title": "Knowledge Science Intern",
@@ -11116,13 +11123,6 @@
 "tag": ""
 },
 {
-"id": "ls:f5319b1a-b6a0-42cb-9d68-43dc3a0e2b14",
-"company": "RTX",
-"title": "Software Engineering Intern",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:f9344b8e-43cf-4dac-aef6-05e00717fd78",
 "company": "Illinois Tool Works",
 "title": "Software Engineer Intern",
@@ -11424,6 +11424,13 @@
 "tag": ""
 },
 {
+"id": "ls:f85f7117-84b9-438b-9f08-795e4061600a",
+"company": "Zuckerman Investment Group",
+"title": "Investment Analyst Intern - MBA",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
 "id": "ls:b5d64ce3-a598-47f7-8195-48153775de70",
 "company": "American Express",
 "title": "Software Engineer Intern - Enterprise Technology Services",
@@ -11648,13 +11655,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:480a3ec4-1b4b-4ee7-9901-ed9ea485c1c5",
-"company": "InfiniteQuant",
-"title": "Quantitative Developer Internship - Summer 2027",
-"rule": "geo",
-"tag": ""
-},
-{
 "id": "ls:b5555ab8-6ef3-4ef5-9be9-74a2dfd8311f",
 "company": "Flagright",
 "title": "Product Operations Intern",
@@ -11863,6 +11863,13 @@
 "title": "Data Science Intern",
 "rule": "season",
 "tag": "Winter 2027"
+},
+{
+"id": "ls:f6f17706-f32e-4624-8175-889945a160e5",
+"company": "Boston Consulting Group",
+"title": "Forward Deployed AI Engineer - Campus",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "ls:4fd996db-84f4-40ce-9d98-4134847d754f",
@@ -12848,13 +12855,6 @@
 "id": "ls:150b6524-0509-433a-9344-1826d854cb92",
 "company": "PricewaterhouseCoopers (PwC)",
 "title": "Data Enablement Co-op - Data Enablement",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:2e60bfbc-eba1-46bb-b68b-c273e8465412",
-"company": "Marsh",
-"title": "Government Health Consulting Informatics Intern - College Program",
 "rule": "irrelevant",
 "tag": ""
 },
