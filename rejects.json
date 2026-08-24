@@ -4732,13 +4732,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:287c1182-006f-487e-aa40-c2eef51435aa",
-"company": "GE Healthcare",
-"title": "Client Service Technician Apprentice",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:59c58f10-3239-45d4-9c44-cd1342e15ae8",
 "company": "Magna",
 "title": "Manufacturing Execution Systems Co-op - Manufacturing Execution Systems",
@@ -8064,9 +8057,9 @@
 "tag": ""
 },
 {
-"id": "ls:b42d28f6-494f-4b0a-8e40-29dd669c4846",
+"id": "ls:40fce4fe-2ffc-4371-9b54-174b5b8f649b",
 "company": "Canva",
-"title": "PhD Research Scientist Intern - Generative AI",
+"title": "PhD Research Scientist Intern",
 "rule": "seniority",
 "tag": ""
 },
@@ -9100,13 +9093,6 @@
 "tag": ""
 },
 {
-"id": "ls:7fcb2e8c-cda4-468f-b6ff-2d05f6b0b2c6",
-"company": "Foxconn Industrial Internet",
-"title": "Software Engineer Intern - Engineering and Operations",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:2d12bca6-cc8c-4e3f-877e-0219f82a069b",
 "company": "Blue Origin",
 "title": "Software Development Engineer 1 Intern - Corporate Functions",
@@ -10113,13 +10099,6 @@
 "title": "Engineering Intern",
 "rule": "season",
 "tag": "Summer 2026"
-},
-{
-"id": "ls:8a4adc2e-9c94-4aca-a96e-f08577bb106e",
-"company": "AltaGas",
-"title": "Data Science and Analytics Co-op",
-"rule": "season",
-"tag": "Fall 2026"
 },
 {
 "id": "ls:f271bfa3-e723-416b-aad4-0a6cf6f4f19e",
@@ -11620,13 +11599,6 @@
 "tag": ""
 },
 {
-"id": "ls:1b75680e-460c-4f8d-99bd-d64c248c45ba",
-"company": "RTX",
-"title": "Software Engineer Intern - Summer 2027",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:d6ccc1b0-bad2-4c51-af45-22ed47ddb4b5",
 "company": "RTX",
 "title": "Software Engineer Intern - Summer 2027",
@@ -12467,13 +12439,6 @@
 "tag": ""
 },
 {
-"id": "ls:7833a92d-102e-4ca4-9a8b-c14f36398bc0",
-"company": "JP Morgan Chase",
-"title": "Analytics Solutions Associate - Consumer and Community Banking - Focused Analytics Solutions Team",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:b1612c50-9965-434b-8701-1d3e4b12d86c",
 "company": "RTX",
 "title": "Business Systems and Transformation Intern - Analyst Business Systems and Transformation",
@@ -12591,13 +12556,6 @@
 "title": "Software Engineer Intern - Summer 2027",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:b85f0dff-7b07-42ee-af50-208fab628c1a",
-"company": "Frost",
-"title": "Computer Science Intern - Digital Services",
-"rule": "season",
-"tag": "Fall 2026"
 },
 {
 "id": "ls:e31170bc-ea00-45b7-bce9-7b1c8ecbe643",
@@ -13319,6 +13277,48 @@
 "title": "Commercial Charging Product Management Intern - Energy Engineering",
 "rule": "season",
 "tag": "Fall 2026"
+},
+{
+"id": "ls:47fb79bc-9f49-407b-bb0c-52352eba40be",
+"company": "Audax Group",
+"title": "Data Analyst Co-op - Business Solutions",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:7f70a436-4619-458c-818b-33252bb0a7c9",
+"company": "Audax Group",
+"title": "Data Engineer Co-op",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:451d266b-c459-492a-b5c3-df553f98d6d5",
+"company": "Audax Group",
+"title": "Data Engineer Co-op",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:2b1cb4ad-439e-499f-95a2-d30ea699fb24",
+"company": "Audax Group",
+"title": "AI Engineer Co-op",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:d55a832d-489f-468a-8688-f419fb8b1b38",
+"company": "InfiniteQuant",
+"title": "Quantitative Developer Internship - Summer 2027",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "ls:40a73eb1-1878-4203-a116-82e2ad5c39c2",
+"company": "Motorola",
+"title": "Android Application Developer Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -138915,6 +138915,13 @@
 "tag": "title"
 },
 {
+"id": "at:https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R67740",
+"company": "Motorola",
+"title": "Android Applications Developer Intern - Summer 2027 \ud83c\uddfa\ud83c\uddf8",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "at:https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81238",
 "company": "BNY",
 "title": "2027 BNY Summer Internship Program - Engineering (Data Science) - Jersey City, NJ",
@@ -139584,13 +139591,6 @@
 "company": "Freeform",
 "title": "Software Engineering Intern (Summer 2027)",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Software-Engineering-Intern--Summer-2027-_01867129",
-"company": "RTX",
-"title": "Software Engineering Intern (Summer 2027) \ud83d\udec2",
-"rule": "defense",
 "tag": ""
 },
 {
@@ -140385,6 +140385,20 @@
 "tag": ""
 },
 {
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-Photo_JR107312",
+"company": "Micron",
+"title": "Intern - Process Development Engineer, 3D DRAM Photo",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/XMLNAME-2027-Summer-Intern--Advanced-Spectroscopy-and-Nanoscale-Materials-Characterization_JR109071",
+"company": "Micron",
+"title": "2027 Summer Intern: Advanced Spectroscopy and Nanoscale Materials Characterization",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "wd:micron:/job/Boise-ID---Main-Site/Intern---EDE-Thin-Films-Equipment-Engineering_JR108977",
 "company": "Micron",
 "title": "Intern - EDE Thin Films Equipment Engineering",
@@ -140745,13 +140759,6 @@
 "id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Process-Development_JR107319",
 "company": "Micron",
 "title": "Intern - Process Development",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-Photo_JR107312",
-"company": "Micron",
-"title": "Intern - Process Development Engineer, 3D DRAM Photo",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -141739,13 +141746,6 @@
 "id": "wd:intel:/job/US-Arizona-Phoenix/AI-Software-Engineering-Intern_JR0282641",
 "company": "Intel",
 "title": "AI Software Engineering Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:intel:/job/Costa-Rica-San-Jose/Treasury-Analyst-Student_JR0285827",
-"company": "Intel",
-"title": "Treasury Analyst Intern",
 "rule": "irrelevant",
 "tag": ""
 },
