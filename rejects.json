@@ -1680,6 +1680,13 @@
 "tag": "Fall 2026"
 },
 {
+"id": "ls:3768c9a7-dcac-4244-a1e0-3eeb68042759",
+"company": "SOTI",
+"title": "Data Scientist Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
 "id": "ls:d82bb13b-066a-4f6d-8f2f-ad3e7b394a3d",
 "company": "Astera",
 "title": "Software Engineer Intern - Distributed Simulation Systems",
@@ -1951,13 +1958,6 @@
 "title": "Hardware Engineering Intern",
 "rule": "season",
 "tag": "Summer 2026"
-},
-{
-"id": "ls:6def9049-74e8-421a-8971-f231e638e844",
-"company": "Apple",
-"title": "Hardware PhD Intern",
-"rule": "seniority",
-"tag": ""
 },
 {
 "id": "ls:6a306828-3b85-47ed-89fe-3f0f61322ac7",
@@ -11646,6 +11646,13 @@
 "title": "Machine Learning MLOps Intern - Global Site Reliability Engineering",
 "rule": "irrelevant",
 "tag": ""
+},
+{
+"id": "ls:1e0b5f98-bf0a-433e-9dda-74853a116f53",
+"company": "Copart",
+"title": "Data Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
 },
 {
 "id": "ls:fec46c2b-cf8e-4226-8293-73d3380e239d",
@@ -138607,6 +138614,13 @@
 "tag": "title"
 },
 {
+"id": "at:https://jobs.smartrecruiters.com/InfiniteQuant/744000145205764",
+"company": "InfiniteQuant",
+"title": "Quantitative Developer - Internship - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "at:https://jobs.ashbyhq.com/ambrook/e458b046-aa7f-4022-bca5-63cdfd495456",
 "company": "Ambrook",
 "title": "Software Engineering Intern",
@@ -138814,13 +138828,6 @@
 "company": "RTX",
 "title": "Software Engineering Intern (Summer 2027)",
 "rule": "defense",
-"tag": ""
-},
-{
-"id": "at:https://jobs.smartrecruiters.com/InfiniteQuant/744000144281579",
-"company": "InfiniteQuant",
-"title": "Quantitative Developer - Internship - Summer 2027",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -140658,17 +140665,10 @@
 "tag": ""
 },
 {
-"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264505",
+"id": "wd:analogdevices:",
 "company": "Analog Devices",
-"title": "Technician Student Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264497",
-"company": "Analog Devices",
-"title": "Technician Student Intern",
-"rule": "seniority",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
