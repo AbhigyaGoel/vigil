@@ -7,13 +7,6 @@
 "tag": "Spring 2026"
 },
 {
-"id": "ls:57069425-c65a-4977-9aa7-31b6c6e7fa62",
-"company": "Pine Rest",
-"title": "Intern \u2013 Master's Level Social Worker - Inpatient and PHP",
-"rule": "season",
-"tag": "Spring 2026"
-},
-{
 "id": "ls:e7d90cdc-955f-4bb2-8a94-81ea48265d84",
 "company": "TikTok",
 "title": "Software Engineer Intern - Ads Infrastructure",
@@ -10024,13 +10017,6 @@
 "tag": "Spring 2027"
 },
 {
-"id": "ls:1efd9a41-d63b-4b5e-bd26-74ecbf7840bc",
-"company": "Cenovus Energy",
-"title": "Workforce Analytics & Strategic Planning",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:1192c27b-cd32-49d0-b4a3-98a8f23f46ae",
 "company": "WEC Energy Group",
 "title": "Renewables Data Analytics Intern",
@@ -10771,13 +10757,6 @@
 "title": "Developer Co-op - Multiple Teams",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:1d43fc21-2de6-411c-8141-ec33e8fa8fed",
-"company": "General Motors",
-"title": "Battery & Sustainability Intern - Battery Research and Development",
-"rule": "season",
-"tag": "Summer 2026"
 },
 {
 "id": "ls:974f7352-c917-461d-8c4d-f6ba7ae65d23",
@@ -139321,6 +139300,20 @@
 "tag": ""
 },
 {
+"id": "wd:nvidia:/job/Taiwan-Taipei/System-Software-Engineer---Embedded-Power-Management--RDSS-Intern-_JR2023967",
+"company": "NVIDIA",
+"title": "System Software Engineer \u2013 Embedded Power Management (RDSS Intern)",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/China-Beijing/AI-Developer-Technology-Engineer-Intern--AI---2027_JR2024002",
+"company": "NVIDIA",
+"title": "AI Developer Technology Engineer Intern, AI - 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "wd:nvidia:/job/China-Shanghai/Software-Engineering-Intern--Test-Development---2027_JR2023649-1",
 "company": "NVIDIA",
 "title": "Software Engineering Intern, Test Development - 2027",
@@ -139423,13 +139416,6 @@
 "company": "NVIDIA",
 "title": "Enterprise Software Test Development Engineer (RDSS Intern)",
 "rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/India-Bengaluru/Site-Reliability-Engineer_JR2023532-1",
-"company": "NVIDIA",
-"title": "Site Reliability Engineer",
-"rule": "not-intern",
 "tag": ""
 },
 {
@@ -141547,13 +141533,6 @@
 "tag": ""
 },
 {
-"id": "wd:amat:/job/Santa-ClaraCA/Mechanical-Engineer-New-College-Graduate_R2625917",
-"company": "Applied Materials",
-"title": "Mechanical Engineer New College Graduate- Bachelor's (Santa Clara, CA)",
-"rule": "new-grad",
-"tag": ""
-},
-{
 "id": "wd:amat:/job/AustinTX/Manufacturing-Quality-Engineer-III_R2624316",
 "company": "Applied Materials",
 "title": "Manufacturing Quality Engineer III",
@@ -141600,13 +141579,6 @@
 "company": "Applied Materials",
 "title": "Chemist 1 New College Grad (Bachelor's - Santa Clara, CA)",
 "rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:amat:",
-"company": "Applied Materials",
-"title": "",
-"rule": "not-intern",
 "tag": ""
 },
 {
@@ -141789,13 +141761,6 @@
 "company": "Applied Materials",
 "title": "Intern - Regional UPSkill Enablement",
 "rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:amat:/job/SingaporeSGP/Manufacturing-Engineer_R2517478",
-"company": "Applied Materials",
-"title": "Manufacturing Engineer",
-"rule": "not-intern",
 "tag": ""
 },
 {
@@ -142040,6 +142005,13 @@
 "id": "wd:marvell:/job/Ottawa-Canada/Model-Correlation---SI-Intern---Master-s-Degree_2502364",
 "company": "Marvell",
 "title": "Model Correlation & SI Intern - Ph. D Degree",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:cat:/job/Tianjin-Tianjin/Assembly-Intern------31_R0000390110",
+"company": "Caterpillar",
+"title": "Assembly Intern (\u88c5\u914d\u5b9e\u4e60\u751f) - 31",
 "rule": "irrelevant",
 "tag": ""
 },
