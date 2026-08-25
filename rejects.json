@@ -2534,13 +2534,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:951080fa-b448-4ec1-8e54-80b5a3176cca",
-"company": "Meshy",
-"title": "Fullstack Engineer Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:1e24ca64-daad-4e93-b51b-88f86f72518a",
 "company": "SHEIN",
 "title": "Data Analysis Intern",
@@ -3372,13 +3365,6 @@
 "title": "RL Engineer Intern - RL Engineer - Tesla AI",
 "rule": "season",
 "tag": "Summer 2026"
-},
-{
-"id": "ls:e2a8f8b3-cb1a-4411-871c-916776913b34",
-"company": "Citadel Securities",
-"title": "Machine Learning Researcher PhD Intern",
-"rule": "seniority",
-"tag": ""
 },
 {
 "id": "ls:8f8172aa-6806-412b-b161-9e3f526a849c",
@@ -4604,13 +4590,6 @@
 "title": "Linux Engineer",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:a869b3f7-71bd-4b08-9c7e-8c6706e98035",
-"company": "Citadel Securities",
-"title": "Quantitative Research Analyst Intern",
-"rule": "season",
-"tag": "Summer 2026"
 },
 {
 "id": "ls:b31743bd-7fcf-42a4-aca1-0e6146dfb105",
@@ -12649,13 +12628,6 @@
 "tag": ""
 },
 {
-"id": "ls:2e60bfbc-eba1-46bb-b68b-c273e8465412",
-"company": "Marsh",
-"title": "Government Health Consulting Informatics Intern - College Program",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:2533cf48-d1d8-4e5f-bed0-485c583da8a6",
 "company": "Eudia",
 "title": "Product Intern",
@@ -13543,13 +13515,6 @@
 "title": "Client Enablement Analyst Co-op Intern - Client Onboarding",
 "rule": "season",
 "tag": "Winter 2027"
-},
-{
-"id": "ls:6bfd05cd-2478-4f41-81ae-a4465639dfdc",
-"company": "Raymond James Financial",
-"title": "Marketing Associate - Marketing Data Insights",
-"rule": "seniority",
-"tag": ""
 },
 {
 "id": "ls:7ff20f5f-1e5b-4803-a75f-3292787e7e19",
@@ -18018,13 +17983,6 @@
 "tag": ""
 },
 {
-"id": "wd:nvidia:/job/China-Shanghai/ASIC-Engineering-Intern--Networking-Chip-Design---2027_JR2023920-1",
-"company": "NVIDIA",
-"title": "ASIC Engineering Intern, Networking Chip Design - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
 "id": "wd:nvidia:/job/Taiwan-Hsinchu/ASIC-Physical-Design-Intern---2027_JR2024050",
 "company": "NVIDIA",
 "title": "ASIC Physical Design Intern - 2027",
@@ -18830,6 +18788,20 @@
 "tag": ""
 },
 {
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Digital-IP-Design-Engineer--DRAM_JR108533",
+"company": "Micron",
+"title": "Intern - Digital IP Design Engineer, DRAM",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--Planar-DRAM-CMP_JR108060",
+"company": "Micron",
+"title": "Intern - Process Development Engineer, Planar DRAM CMP",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "wd:micron:/job/Boise-ID---Main-Site/XMLNAME-2027-Summer-Intern--Advanced-Spectroscopy-and-Nanoscale-Materials-Characterization_JR109071",
 "company": "Micron",
 "title": "2027 Summer Intern: Advanced Spectroscopy and Nanoscale Materials Characterization",
@@ -19092,13 +19064,6 @@
 "id": "wd:micron:/job/Boise-ID---Main-Site/Intern---DRAM-PI_JR107483",
 "company": "Micron",
 "title": "Intern - DRAM PI",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--Planar-DRAM-CMP_JR108060",
-"company": "Micron",
-"title": "Intern - Process Development Engineer, Planar DRAM CMP",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -20227,6 +20192,13 @@
 "company": "Intel",
 "title": "Practical Engineering Student -  Kiryat Gat",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Process-Engineer-Intern_R2626574",
+"company": "Applied Materials",
+"title": "Process Engineer Intern",
+"rule": "geo",
 "tag": ""
 },
 {
