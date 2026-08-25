@@ -33,6 +33,42 @@ async function getConfig(env) {
   return cfg;
 }
 
+// Keep the AGGREGATOR (watch.py on GitHub Actions) running on time. GitHub throttles
+// `schedule` workflows to every ~30-45 min instead of the configured 5, so aggregator
+// roles (Simplify/markdown/Workday - everything NOT on a curated board) arrive late.
+// This reliable 1-min worker cron fires a workflow_dispatch once per 5-min window,
+// which GitHub does NOT throttle. If GH_DISPATCH_TOKEN is unset it no-ops and the
+// (throttled) GitHub schedule remains as fallback - so this degrades gracefully.
+async function maybeDispatchActions(env) {
+  if (!env.GH_DISPATCH_TOKEN) return;
+  const repo = env.GH_REPO || "AbhigyaGoel/vigil";
+  const wf = env.GH_WORKFLOW || "watch.yml";
+  const ref = env.GH_REF || "master";
+  const bucket = String(Math.floor(Date.now() / 300_000));   // one dispatch per 5-min window
+  if ((await env.SEEN.get("dispatch_bucket")) === bucket) return;
+  try {
+    const r = await fetch(`https://api.github.com/repos/${repo}/actions/workflows/${wf}/dispatches`, {
+      method: "POST",
+      headers: {
+        ...UA, Authorization: `Bearer ${env.GH_DISPATCH_TOKEN}`,
+        Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28",
+      },
+      body: JSON.stringify({ ref }),
+    });
+    if (r.status === 204) {
+      await env.SEEN.put("dispatch_bucket", bucket);
+      console.log(`DISPATCH ${wf} ok (5-min window ${bucket})`);
+    } else {
+      // Mark the window spent on a definitive auth/config error so a bad token can't
+      // retry-storm every minute; transient 5xx/network falls through to retry.
+      if (r.status === 401 || r.status === 403 || r.status === 404) await env.SEEN.put("dispatch_bucket", bucket);
+      console.log(`WARN dispatch -> HTTP ${r.status} ${(await r.text()).slice(0, 80)}`);
+    }
+  } catch (e) {
+    console.log(`WARN dispatch -> ${e.message}`);
+  }
+}
+
 function boardsOf(cfg) {
   return [
     ...(cfg.greenhouse || []).map((s) => ({ kind: "gh", slug: s })),
@@ -96,6 +132,8 @@ async function ntfy(env, job, priority = "high") {
 
 export default {
   async scheduled(event, env, ctx) {
+    // Keep the aggregator on schedule first (independent of the curated board pass).
+    ctx.waitUntil(maybeDispatchActions(env));
     const cfg = await getConfig(env);
     const f = makeFilters(cfg);
     const maxAgeMs = (cfg.max_age_days || 21) * 86_400_000;

@@ -52,6 +52,16 @@
       "name": "LogiCode hardware",
       "url": "https://raw.githubusercontent.com/LogicodeHQ/hardware-jobs-internships-2026/main/README.md",
       "note": "Hardware-only but ~100% Simplify-derived. Low marginal value - drop if dedupe cost is not worth it."
+    },
+    {
+      "name": "zapplyjobs hardware",
+      "url": "https://raw.githubusercontent.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2027/main/README.md",
+      "note": "LOW LATENCY: bot regenerates ~35x/day (minutes-fresh), hardware/EE/embedded-focused, Apply links go direct to company ATS (not LinkedIn). Rows carry LOCATION so they reach Tier A. Posted column is relative age ('13m') not a date, so posted=0 (no age shown, stale filter skipped)."
+    },
+    {
+      "name": "zapplyjobs internships",
+      "url": "https://raw.githubusercontent.com/zapplyjobs/Internships-2027/main/README.md",
+      "note": "Same bot/cadence as zapplyjobs hardware, broader intern coverage; gated to hardware by include_keywords (untagged policy). Direct-ATS Apply links, carries location."
     }
   ],
   "atom_feeds": [

@@ -285,7 +285,8 @@ _URL = re.compile(r'https?://[^\s)\]"\'<>]+')
 
 def _strip_md(s):
     s = _MD_LINK.sub(r"\1", _MD_IMG.sub("", s))
-    return _HTML.sub("", s).replace("`", "").strip()
+    s = _HTML.sub("", s).replace("`", "")
+    return s.replace("**", "").replace("__", "").strip(" *_")  # drop bold/italic markers
 
 
 def markdown_source(src):
@@ -515,7 +516,9 @@ def _load(path, default):
     return default
 
 
-LOGIC_VERSION = "v2.5"  # bump when filter/scoring CODE changes -> forces a silent reseed
+LOGIC_VERSION = "v2.6"  # bump when filter/scoring CODE changes -> forces a silent reseed
+# v2.6: added zapplyjobs low-latency feeds + Tier-B prompt-push; reseed so the new
+# feeds' backlog seeds silently instead of flooding on first scan.
 
 
 def config_hash():
