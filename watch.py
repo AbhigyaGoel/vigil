@@ -758,9 +758,23 @@ def main():
                 print("WARN push", repr(e)[:70], file=sys.stderr)
         if len(tier_a) > cap:
             print(f"WARN capped Tier A at {cap} (had {len(tier_a)})", file=sys.stderr)
-        for r in tier_b:
+        # Tier B split: a target-grade role (score>=prompt_bar) is only in Tier B
+        # because geo/season is AMBIGUOUS (e.g. a scraped row with no location, like
+        # Warp's robotics intern) - it shouldn't sit behind the hourly batch. Push it
+        # NOW at low priority; the genuinely low-value remainder still batches.
+        prompt_bar = CFG.get("tierb_prompt_score", 3)
+        prompt_b = [r for r in tier_b if r.get("score", 0) >= prompt_bar]
+        rest_b = [r for r in tier_b if r.get("score", 0) < prompt_bar]
+        for r in sorted(prompt_b, key=lambda x: -x.get("score", 0))[:cap]:
+            try:
+                push_role(r, "low")
+                print("PING-B*", r["company"], "|", r["title"], f"(score {r.get('score')})")
+            except Exception as e:
+                print("WARN push", repr(e)[:70], file=sys.stderr)
+        for r in rest_b:
             pending[r["id"]] = r
-        print(f"{len(tier_a)} Tier A pushed, {len(tier_b)} added to Tier B queue ({len(pending)} pending).")
+        print(f"{len(tier_a)} Tier A pushed, {len(prompt_b)} high-score Tier B pushed now, "
+              f"{len(rest_b)} batched ({len(pending)} pending).")
 
     # Tier B: at most once per hour, and only when there's something new (never an
     # empty digest). 1-3 roles go out as individual low-priority notifications so each
