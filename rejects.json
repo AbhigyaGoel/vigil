@@ -8428,13 +8428,6 @@
 "tag": ""
 },
 {
-"id": "ls:9ac6ae38-9b5a-4373-934b-b04f5fbdc09c",
-"company": "InfiniteQuant",
-"title": "Quantitative Researcher Intern - Summer 2027",
-"rule": "geo",
-"tag": ""
-},
-{
 "id": "ls:0a45c012-edc2-4b79-bd41-d7c92f3689ba",
 "company": "Marshall Wace",
 "title": "AI Placement - Imperial 6 month placement",
@@ -10010,6 +10003,13 @@
 "tag": "Summer 2026"
 },
 {
+"id": "ls:cec6b144-6a34-4f46-b66b-286ebe63fabd",
+"company": "Dallas College",
+"title": "SAS Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
 "id": "ls:92c2bfc9-3493-46c6-8ec0-69f9b4225fd4",
 "company": "RTX",
 "title": "Software Engineer Intern - Summer 2027",
@@ -10832,13 +10832,6 @@
 "id": "ls:d2bf0b8d-c3b1-4c24-ac23-6623d221258a",
 "company": "Royal Bank of Canada",
 "title": "Machine Learning Software Engineer Co-op - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:97fb51eb-1ac2-4864-ae06-c8f8ac768c62",
-"company": "Royal Bank of Canada",
-"title": "Technology and Operations Developer Co-op - Software Developer",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -13926,6 +13919,34 @@
 "id": "ls:d4a99db8-8105-449e-a0e7-eb1fe7c6eb35",
 "company": "L3Harris Technologies",
 "title": "Software Engineer Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:925fd340-08ca-444f-ab27-237fdfe56b27",
+"company": "InfiniteQuant",
+"title": "Quantitative Researcher Intern - Summer 2027",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "ls:4338e55f-78ed-4a37-8c3d-482e13c4cff0",
+"company": "Bosch Home Comfort",
+"title": "AI Security Research Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:dbb6251b-a60a-494e-aa2b-3d680b0e0b47",
+"company": "RTX",
+"title": "Software Engineer Co-op - Avionics Platform Software",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:4ff921c1-6ccb-40f6-aff2-0f2ae665bc9d",
+"company": "Northrop Grumman",
+"title": "Software Engineer Intern - Strategic Deterrent Systems Division - Sentinel",
 "rule": "defense",
 "tag": ""
 },
@@ -18221,6 +18242,27 @@
 "tag": "title"
 },
 {
+"id": "at:https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39743",
+"company": "Nokia",
+"title": "Data Analytics & AI Co-op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://jobs.ashbyhq.com/voleon/57f1b666-2f4b-4bad-aac0-fa42a1c8fdf6",
+"company": "The Voleon Group",
+"title": "Software Engineer Intern - (Summer 2027)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Cybersecurity-Intern--Summer-2027-_JR-2604459",
+"company": "GlobalFoundries",
+"title": "Cybersecurity Intern (Summer 2027)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "at:https://jobs.smartrecruiters.com/BoschGroup/744000145507908",
 "company": "Bosch",
 "title": "AI Security Research Intern",
@@ -18875,27 +18917,6 @@
 "id": "at:https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012392",
 "company": "American Express",
 "title": "Campus Graduate Masters Summer Internship Program - 2027 AI Engineer, Enterprise Technology Services- Phoenix, AZ",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012460",
-"company": "American Express",
-"title": "Campus Undergraduate Summer Internship Program - 2027 Cybersecurity Analyst, Enterprise Technology Services- Phoenix, AZ",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012462",
-"company": "American Express",
-"title": "Campus Graduate Masters Summer Internship Program - 2027 Cybersecurity Analyst, Enterprise Technology Services- Phoenix, AZ",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Analyst--NC-_177677-1",
-"company": "Vanguard",
-"title": "College to Corporate IT Internship - Data Analyst (NC)",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -19733,6 +19754,13 @@
 "tag": ""
 },
 {
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-CMP_JR107848",
+"company": "Micron",
+"title": "Intern - Process Development Engineer, 3D DRAM CMP",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Metrology-Process-Development-Engineer_JR108851",
 "company": "Micron",
 "title": "Intern - Metrology Process Development Engineer",
@@ -19869,13 +19897,6 @@
 "id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Photomask-Wet-Process-Engineering_JR108464",
 "company": "Micron",
 "title": "Intern - Photomask Wet Process Engineering",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---YE-Physical-Failure-Analysis-Engineer_JR109154",
-"company": "Micron",
-"title": "Intern - YE Physical Failure Analysis Engineer",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -20058,13 +20079,6 @@
 "id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-Metals_JR107311",
 "company": "Micron",
 "title": "Intern - Process Development Engineer, 3D DRAM Metals",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-CMP_JR107848",
-"company": "Micron",
-"title": "Intern - Process Development Engineer, 3D DRAM CMP",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -20965,10 +20979,10 @@
 "tag": ""
 },
 {
-"id": "wd:intel:/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1",
+"id": "wd:intel:/job/Software-Development-Graduate-Intern_JR0285451-1",
 "company": "Intel",
-"title": "Software Development Graduate Intern",
-"rule": "irrelevant",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
