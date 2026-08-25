@@ -69,6 +69,24 @@
   ],
   "_slug_registry_source": "https://raw.githubusercontent.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/main/data/companies.json",
 
+  "discovery": {
+    "_docs": "Auto-discover NEW hardware/robotics company ATS boards from the zshah101 registry (4500+ cos -> ats+slug) instead of hand-maintaining slugs. Runs in watch.py (Actions), NOT the worker. Discovered boards are KEYWORD-GATED (policy=bulk: a title must hit include_keywords) because these companies aren't hand-vetted like the curated instant tier - so noise costs nothing and only hardware/robotics-titled US roles alert. Slugs already in the curated lists are skipped (no double-alert); defense names are dropped by name_exclude + exclude_companies. ~49 new boards match today.",
+    "enabled": true,
+    "registry_url": "https://raw.githubusercontent.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/main/data/companies.json",
+    "name_include": [
+      "robot", "dynamics", "aerospace", "\\bspace\\b", "avionic", "drone", "lidar",
+      "photonic", "semiconductor", "silicon", "mechatron", "autonom", "aviation",
+      "nuclear", "fusion", "quantum", "satellite", "propuls", "rocket", "launch",
+      "orbital", "wafer", "foundry", "actuator", "embedded", "prosthe", "telescope",
+      "antenna", "nanotech", "microelectron", "\\bchip\\b", "hardware"
+    ],
+    "name_exclude": [
+      "defen[cs]e", "military", "weapon", "missile", "munition", "warfare",
+      "tactical", "combat", "\\bdod\\b", "hypersonic", "armament", "ordnance"
+    ],
+    "max_boards": 120
+  },
+
   "greenhouse": [
     "waymo",
     "nuro",

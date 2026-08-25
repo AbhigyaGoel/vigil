@@ -407,6 +407,56 @@ def workday(entry):
             break
 
 
+_ATS_FN = {"greenhouse": greenhouse, "lever": lever, "ashby": ashby}
+
+
+def discovered_boards(cfg):
+    """Auto-discover NEW hardware/robotics company boards from the zshah101 registry
+    and yield their jobs KEYWORD-GATED (policy='bulk'). Unlike the hand-curated instant
+    tier, these companies aren't vetted, so a title must hit include_keywords to survive
+    - noise costs only a fetch, not an alert. Slugs already curated are skipped (no
+    double-alert with the worker); defense names are dropped by name_exclude/exclude_companies."""
+    disc = cfg.get("discovery") or {}
+    if not disc.get("enabled"):
+        return
+    inc = disc.get("name_include") or []
+    exc = disc.get("name_exclude") or []
+    name_inc = re.compile("|".join(inc), re.I) if inc else None
+    name_exc = re.compile("|".join(exc), re.I) if exc else None
+    if not name_inc or not disc.get("registry_url"):
+        return
+    have = (set(cfg.get("greenhouse", [])) | set(cfg.get("lever", []))
+            | set(cfg.get("ashby", [])))
+    try:
+        reg = get_json(disc["registry_url"], timeout=30)
+    except Exception as e:
+        print(f"WARN discovery registry -> {repr(e)[:80]}", file=sys.stderr)
+        return
+    picked = []
+    for d in reg:
+        ats, slug, name = d.get("ats"), d.get("slug"), d.get("name", "")
+        if ats not in _ATS_FN or not slug or slug in have:
+            continue
+        if not name_inc.search(name):
+            continue
+        if (name_exc and name_exc.search(name)) or (EXCLUDE_CO and EXCLUDE_CO.search(name)):
+            continue
+        picked.append((ats, slug, name))
+    cap = disc.get("max_boards", 120)
+    if len(picked) > cap:
+        print(f"WARN discovery capped at {cap} (matched {len(picked)})", file=sys.stderr)
+        picked = picked[:cap]
+    for ats, slug, name in picked:
+        try:
+            for job in _ATS_FN[ats](slug):
+                job["company"] = name     # real name (not slug) for the notification
+                job["policy"] = "bulk"    # discovered != vetted -> keyword-gated, still Tier-A-able
+                yield job
+        except Exception as e:
+            print(f"WARN discovery {ats}:{slug} -> {repr(e)[:60]}", file=sys.stderr)
+        time.sleep(0.15)
+
+
 def build_plan():
     plan = [(listings_feed, r) for r in CFG.get("listings_repos", [])]
     plan += [(markdown_source, s) for s in CFG.get("markdown_sources", [])]
@@ -416,6 +466,8 @@ def build_plan():
         plan += [(greenhouse, s) for s in CFG.get("greenhouse", [])]
         plan += [(lever, s) for s in CFG.get("lever", [])]
         plan += [(ashby, s) for s in CFG.get("ashby", [])]
+    if (CFG.get("discovery") or {}).get("enabled"):  # keyword-gated auto-discovery (always on)
+        plan += [(discovered_boards, CFG)]
     return plan
 
 
@@ -516,9 +568,10 @@ def _load(path, default):
     return default
 
 
-LOGIC_VERSION = "v2.6"  # bump when filter/scoring CODE changes -> forces a silent reseed
-# v2.6: added zapplyjobs low-latency feeds + Tier-B prompt-push; reseed so the new
-# feeds' backlog seeds silently instead of flooding on first scan.
+LOGIC_VERSION = "v2.7"  # bump when filter/scoring CODE changes -> forces a silent reseed
+# v2.6: added zapplyjobs low-latency feeds + Tier-B prompt-push.
+# v2.7: added registry-based auto-discovery of hardware/robotics boards; reseed so the
+# ~49 discovered boards' backlog seeds silently instead of flooding on first scan.
 
 
 def config_hash():
