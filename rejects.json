@@ -2464,13 +2464,6 @@
 "tag": ""
 },
 {
-"id": "ls:185813f4-0060-4a31-820e-efb3dc2ac8a8",
-"company": "Eurofins",
-"title": "Business Intelligence Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:86bafca9-f202-4817-8184-32aabc6ac975",
 "company": "Four Hands",
 "title": "Product Development Intern",
@@ -2495,6 +2488,13 @@
 "id": "ls:47768da2-8643-4881-8249-a78543064605",
 "company": "TikTok",
 "title": "AI Software Engineer Intern - Transaction Platform",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:0aa79267-f4f3-4104-9034-edd9903b03e5",
+"company": "Eurofins",
+"title": "Business Intelligence Intern",
 "rule": "season",
 "tag": "Summer 2026"
 },
@@ -12740,13 +12740,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:9d5887c5-a484-493a-a9cd-38e0b51c1ef6",
-"company": "Elevate Semiconductor",
-"title": "Product Engineering Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:9ad13c92-e5d2-4c4c-987a-f3263f2dd707",
 "company": "Micron Technology",
 "title": "Yield Enhancement Intern - Data Analysis",
@@ -17269,6 +17262,13 @@
 "tag": ""
 },
 {
+"id": "md:https://careers.msasafety.com/jobs/9993?icims=1&utm_source=Simplify&ref=Simplify",
+"company": "MSA Safety",
+"title": "Software Engineer Intern - Product Development - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://careers.garmin.com/jobs/19693?icims=1&utm_source=Simplify&ref=Simplify",
 "company": "Garmin",
 "title": "Software Engineer Intern",
@@ -17280,6 +17280,13 @@
 "company": "Apple",
 "title": "GPU Intern",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MD-ANNAPOLIS-JUNCTION-339--306-Sentinel-Dr--339-BLDG/Software-Engineering-Intern_01869058?utm_source=Simplify&ref=Simplify",
+"company": "RTX",
+"title": "Software Engineer Intern",
+"rule": "defense",
 "tag": ""
 },
 {
@@ -17311,9 +17318,9 @@
 "tag": ""
 },
 {
-"id": "md:https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-AZ-TUCSON-M02--1151-E-Hermans-Rd--BLDG-M02/EAP-Engineering-ECAD-Intern--Summer-2027-_01866716-1?utm_source=Simplify&ref=Simplify",
+"id": "md:https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Intern--Summer-2027-_01866136?utm_source=Simplify&ref=Simplify",
 "company": "RTX",
-"title": "Electrical Computer-Aided Design Engineer Intern",
+"title": "Software Engineer Intern - Summer 2027",
 "rule": "defense",
 "tag": ""
 },
@@ -17323,6 +17330,41 @@
 "title": "Engineer Intern - Spring 2027",
 "rule": "season",
 "tag": "title"
+},
+{
+"id": "at:https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967614003",
+"company": "Meridian Partners",
+"title": "Cloud Software Engineer Co-op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967886003",
+"company": "Meridian Partners",
+"title": "Data Scientist Graduate Co-op \ud83c\uddfa\ud83c\uddf8",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://job-boards.greenhouse.io/morsecorpcoop/jobs/7967400003",
+"company": "Meridian Partners",
+"title": "Flight Software Engineer Co-op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968076003",
+"company": "Meridian Partners",
+"title": "Front End Software Engineer Graduate Co-op \ud83c\uddfa\ud83c\uddf8",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://job-boards.greenhouse.io/morsecorpcoop/jobs/7968100003",
+"company": "Meridian Partners",
+"title": "Full Stack Software Engineer Graduate Co-op \ud83c\uddfa\ud83c\uddf8",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "at:https://jobs.ashbyhq.com/rivet/4e02461a-9f6c-4d3c-a511-6d54f31999bc",
@@ -17976,38 +18018,31 @@
 "tag": ""
 },
 {
-"id": "at:https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/IT-Intern-1_JR1016",
-"company": "American Fidelity",
-"title": "Agentic AI Internship (OKC Local Only)",
-"rule": "irrelevant",
+"id": "wd:nvidia:/job/China-Shanghai/ASIC-Engineering-Intern--Networking-Chip-Design---2027_JR2023920-1",
+"company": "NVIDIA",
+"title": "ASIC Engineering Intern, Networking Chip Design - 2027",
+"rule": "geo",
 "tag": ""
 },
 {
-"id": "at:https://americanfidelity.wd5.myworkdayjobs.com/External/job/Oklahoma-City-Oklahoma/Software-Test-Intern--OKC-Local-Only-_JR1020",
-"company": "American Fidelity",
-"title": "Software Test Intern (OKC Local Only)",
-"rule": "irrelevant",
+"id": "wd:nvidia:/job/Taiwan-Hsinchu/ASIC-Physical-Design-Intern---2027_JR2024050",
+"company": "NVIDIA",
+"title": "ASIC Physical Design Intern - 2027",
+"rule": "geo",
 "tag": ""
 },
 {
-"id": "at:https://globalhr.wd5.myworkdayjobs.com/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-192--1205-Continental-Place-NE--BLDG-192/Software-Engineering-Intern--Summer-2027-_01867324",
-"company": "RTX",
-"title": "Software Engineering Intern (Summer 2027) \ud83c\uddfa\ud83c\uddf8",
-"rule": "defense",
+"id": "wd:nvidia:/job/Taiwan-Hsinchu/ASIC-Physical-Design-Engineer--RDSS-Intern-_JR2024046",
+"company": "NVIDIA",
+"title": "ASIC Physical Design Engineer (RDSS Intern)",
+"rule": "geo",
 "tag": ""
 },
 {
-"id": "at:https://intel.wd1.myworkdayjobs.com/external/job/US-California-Folsom/Software-Development-Graduate-Intern_JR0285451-1",
-"company": "Intel",
-"title": "Software Development Graduate Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Charlotte-NC/College-to-Corporate-IT-Internship---Data-Science--NC-_177682-1",
-"company": "Vanguard",
-"title": "College to Corporate IT Internship - Data Science (NC)",
-"rule": "irrelevant",
+"id": "wd:nvidia:/job/China-Shanghai/Deep-Learning-Software-Engineering-Intern--Test-Development---2027_JR2023658",
+"company": "NVIDIA",
+"title": "Deep Learning Software Engineering Intern, Test Development - 2027",
+"rule": "geo",
 "tag": ""
 },
 {
