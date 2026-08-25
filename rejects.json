@@ -70,6 +70,13 @@
 "tag": "Spring 2026"
 },
 {
+"id": "ls:244b5d51-7fee-44da-9192-dd642b0387f9",
+"company": "Autodesk",
+"title": "PhD Intern - AI Researcher for CAD - B-Rep",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "ls:a0ac07b2-42d3-4e54-9325-aaa9caf4438a",
 "company": "PennState University",
 "title": "Undergraduate Cartographer",
@@ -8197,13 +8204,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:6eff9788-f38e-4357-8646-cd6f5984f3cb",
-"company": "Axon",
-"title": "Software Engineer Intern",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:8d32ce9d-b2f0-4126-8727-69bbd17e3c2e",
 "company": "Epic Games",
 "title": "Machine Learning Intern - Special Projects - Epic Research Group",
@@ -13928,6 +13928,34 @@
 "title": "Engineering Intern",
 "rule": "season",
 "tag": "Fall 2026"
+},
+{
+"id": "ls:bd5a92c9-7503-495c-a022-ad6970c624c8",
+"company": "GE Appliances",
+"title": "People & Workforce Analytics Intern - Culture",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:7998c30b-63f7-41de-9fc4-d0402adf18aa",
+"company": "Johnson & Johnson",
+"title": "Strategic Insights & Analytics Co-op",
+"rule": "season",
+"tag": "Spring 2027"
+},
+{
+"id": "ls:f2ca9508-2adb-4b58-8b67-30ca90534cb1",
+"company": "Royal Bank of Canada",
+"title": "Commercial Portfolio Risk & Credit Analytics Intern - Grm",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:d68b9bbb-6fb8-469c-b051-f90591e5c746",
+"company": "Royal Bank of Canada",
+"title": "Commercial Portfolio Risk & Credit Analytics Intern - Group Risk Management",
+"rule": "season",
+"tag": "Winter 2027"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -19733,6 +19761,27 @@
 "tag": ""
 },
 {
+"id": "wd:micron:/job/Vimercate-MB-Italy/Internship-on-Cybersecurity_JR101577",
+"company": "Micron",
+"title": "Internship on Cybersecurity",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Jalisco-Mexico/DRAM-IP-Development-Layout--Internship-_JR108219",
+"company": "Micron",
+"title": "DRAM IP Development Layout (Internship)",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Jalisco-Mexico/DRAM-Layout-engineer--Intern-_JR108252",
+"company": "Micron",
+"title": "DRAM Layout engineer (Intern)",
+"rule": "geo",
+"tag": ""
+},
+{
 "id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-CMP_JR107848",
 "company": "Micron",
 "title": "Intern - Process Development Engineer, 3D DRAM CMP",
@@ -20965,13 +21014,6 @@
 "tag": ""
 },
 {
-"id": "wd:intel:/job/Software-Engineer--Intern-_JR0286207-1",
-"company": "Intel",
-"title": "",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:intel:/job/Poland-Gdansk/Environmental-Health-and-Safety-Intern_JR0286293",
 "company": "Intel",
 "title": "Environmental Health and Safety Intern",
@@ -21011,13 +21053,6 @@
 "company": "Intel",
 "title": "Test Process and Equipment Engineer Intern",
 "rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:intel:/job/US-Oregon-Hillsboro/AI-Software-Engineering-Intern_JR0282639",
-"company": "Intel",
-"title": "AI Software Engineering Intern",
-"rule": "irrelevant",
 "tag": ""
 },
 {
