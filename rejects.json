@@ -1456,13 +1456,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:e18b5659-3658-49dd-a554-9ba2b49123a9",
-"company": "Intel",
-"title": "AI Software Engineering Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:382d947b-1e85-457c-a2a4-4bc3ea664b54",
 "company": "Schweitzer Engineering Laboratories",
 "title": "Data Analyst Intern",
@@ -1683,6 +1676,13 @@
 "id": "ls:d82bb13b-066a-4f6d-8f2f-ad3e7b394a3d",
 "company": "Astera",
 "title": "Software Engineer Intern - Distributed Simulation Systems",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:6fb305ca-d18b-41e6-9be0-8ac27a99adf2",
+"company": "CIBC",
+"title": "Software/Application Developer Co-op",
 "rule": "season",
 "tag": "Summer 2026"
 },
@@ -3062,13 +3062,6 @@
 "id": "ls:ff964e2a-c499-417f-931c-e7ef2cdf871b",
 "company": "Susquehanna International Group (SIG)",
 "title": "AI Co-op",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
-"id": "ls:06099fa3-77ff-4576-859d-299374395c99",
-"company": "Susquehanna International Group (SIG)",
-"title": "Financial Reporting AI Co-op",
 "rule": "season",
 "tag": "Summer 2026"
 },
@@ -7616,6 +7609,13 @@
 "tag": "Fall 2026"
 },
 {
+"id": "ls:41322ea3-9446-4196-ad23-37747898216b",
+"company": "Louisiana Blue",
+"title": "Healthcare Price and Transparency Data Analyst Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
 "id": "ls:d51738a7-c696-4490-8b3f-37c15f392347",
 "company": "Qualcomm",
 "title": "AI Integration & Interoperability Intern",
@@ -10024,41 +10024,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:8540d9e9-5a90-4ecb-a7f6-b854e696fb8e",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:a81b0d30-e122-4b3c-9290-3e85c9f02707",
-"company": "Goldman Sachs",
-"title": "Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:629fac72-4880-42e9-b648-cdfa036a00ac",
-"company": "Goldman Sachs",
-"title": "Summer Associate Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:1c9f2e98-f998-4541-bd39-aec405d39f11",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Wealth Management - Product Management and Design",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:bc2e9762-a592-48ef-9e42-21dfdec88ec4",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - Asset and Wealth Management",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:8cfb1bdb-94da-41c0-be36-e516586909b0",
 "company": "Dedalus Labs",
 "title": "Product Manager Intern",
@@ -10071,41 +10036,6 @@
 "title": "Design Engineer Intern",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:ea185fae-1828-4e79-9bfa-34dc512cce8c",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - The Core Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:443c0a68-63ca-4026-94b7-cf3e555f2d0f",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - The Core Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:439c65c1-64f2-461c-8ca1-ca36969ef10a",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:1d850622-b67b-4965-a25c-f6872d8a1c79",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - FICC & Equities - Sales & Trading",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "ls:1560332f-3e4c-4d15-819d-df9bf4889deb",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - FICC and Equities - Sales and Trading",
-"rule": "seniority",
-"tag": ""
 },
 {
 "id": "ls:e882005d-6926-4aae-9b36-8bf690f5c53d",
@@ -11459,6 +11389,13 @@
 "tag": ""
 },
 {
+"id": "ls:d6ccc1b0-bad2-4c51-af45-22ed47ddb4b5",
+"company": "RTX",
+"title": "Software Engineer Intern - Summer 2027",
+"rule": "defense",
+"tag": ""
+},
+{
 "id": "ls:cab045bf-39b2-4c18-9001-24ab75450b0c",
 "company": "Autodesk",
 "title": "AI Developer Intern",
@@ -11749,20 +11686,6 @@
 "id": "ls:09e061cd-a5e8-4059-bb6d-a0672a475328",
 "company": "Fannie Mae",
 "title": "Data Science Intern - Analytics & Modeling Program",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:de048c9f-8cf0-45fe-b307-40b9a04a9416",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Americas - AWM Product Management",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:aea9cccf-4a27-4ca6-9c11-9664e8a1ac0a",
-"company": "Goldman Sachs",
-"title": "AWM Product Management Analyst Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -13741,13 +13664,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:d3abbe01-5fad-408d-a9d1-083f5c0c09a2",
-"company": "Multnomah County",
-"title": "Immunization & Community Health Intern - Prevention and Health Promotion",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:90639373-d769-48b3-8ac2-94d63829c638",
 "company": "Wex",
 "title": "Artificial Intelligence Intern - AI/ML/NLP Engineer",
@@ -13942,6 +13858,111 @@
 "title": "Commercial Portfolio Risk & Credit Analytics Intern - Group Risk Management",
 "rule": "season",
 "tag": "Winter 2027"
+},
+{
+"id": "ls:bdf64a90-7dac-4a0b-acaf-b7fd5756ef83",
+"company": "GE Vernova",
+"title": "Controls Product Management Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:9de89282-33d7-4fbd-a3ab-45e63fd1c0e0",
+"company": "GE Vernova",
+"title": "Controls Product Management Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:92c17c27-5c49-4dde-bb76-5e664bf0a422",
+"company": "General Dynamics Mission Systems",
+"title": "Engineering Technician Co-op - Nanoready",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:47844f61-18ee-4be2-a378-45789bdee8d5",
+"company": "Autodesk",
+"title": "AI Research Intern - Multiple Teams",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:73a771a9-7474-4b74-bc86-89d4fb9a7421",
+"company": "Cigna Group",
+"title": "Legal Operations Financial Data & AI Analytics Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:bc58becc-d3a1-4182-ad0e-bde49ff7b212",
+"company": "Vertiv",
+"title": "DC Power Product Management Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:8b958c89-89d4-4a94-8e70-51e0d162eb51",
+"company": "RTX",
+"title": "Software Engineer Intern - Summer 2027",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:5dc175a4-02e4-4a5c-a8b7-054139db1ef9",
+"company": "Verkada",
+"title": "Mobile Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:20898b37-1e46-4759-b318-1a51ae4d1200",
+"company": "Verkada",
+"title": "Frontend Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:d16387c0-00df-452f-95bb-dd8aab25a372",
+"company": "Verkada",
+"title": "Security Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:27ec0955-4e9f-417f-b354-3581a4623c59",
+"company": "Verkada",
+"title": "Backend Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:a79f265c-746e-46d7-b61c-a46e35dde12a",
+"company": "RTX",
+"title": "Software Engineer Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:43726f05-d685-4bcb-bd0f-b3d05ccc91e1",
+"company": "Apex Fintech Solutions",
+"title": "Technology Fintern - Software Engineering - Product Management",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:5b23b4bf-a18e-40ed-b036-ccb603c87ef3",
+"company": "Johns Hopkins Applied Physics Laboratory",
+"title": "Data Scientist Intern - Data Science - System Performance Evaluation",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:bf07d431-8aa3-42a5-88b7-264480cd9752",
+"company": "Primetals Technologies",
+"title": "IT Data & Analytics Intern - Asset Demand & Procurement",
+"rule": "season",
+"tag": "Fall 2026"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -18235,9 +18256,37 @@
 "tag": "title"
 },
 {
-"id": "at:https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155522",
-"company": "Honeywell",
-"title": "Artificial Intelligence/Machine Learning - Summer 2027 Intern",
+"id": "at:https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine---Systems-Software-Engineering-Co-op_JR-051212",
+"company": "Brunswick",
+"title": "Mercury Marine - Systems/Software Engineering Co-op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://job-boards.greenhouse.io/verkada/jobs/5210813007",
+"company": "Verkada",
+"title": "Backend Software Engineering Intern 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://job-boards.greenhouse.io/verkada/jobs/5210942007",
+"company": "Verkada",
+"title": "Frontend Software Engineering Intern 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://job-boards.greenhouse.io/verkada/jobs/5219131007",
+"company": "Verkada",
+"title": "Mobile Software Engineering Intern 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://job-boards.greenhouse.io/verkada/jobs/5213881007",
+"company": "Verkada",
+"title": "Security Software Engineering Intern 2027",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -18245,6 +18294,13 @@
 "id": "at:https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39908",
 "company": "Nokia",
 "title": "Deepfield Software Engineer Co-op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155522",
+"company": "Honeywell",
+"title": "Artificial Intelligence/Machine Learning - Summer 2027 Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -18868,48 +18924,6 @@
 "id": "at:https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011878",
 "company": "American Express",
 "title": "Campus Undergraduate Summer Internship Program - 2027 Cybersecurity Analyst, Enterprise Technology Services- New York, NY",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011893",
-"company": "American Express",
-"title": "Campus Graduate Masters Summer Internship Program - 2027 Cybersecurity Analyst, Enterprise Technology Services- New York, NY",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011908",
-"company": "American Express",
-"title": "Campus Undergraduate Summer Internship Program - 2027 Cybersecurity Analyst, Enterprise Technology Services- Atlanta, GA",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011913",
-"company": "American Express",
-"title": "Campus Graduate Masters Summer Internship Program - 2027 Cybersecurity Analyst, Enterprise Technology Services- Atlanta, GA",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011914",
-"company": "American Express",
-"title": "Campus Undergraduate Summer Internship Program - 2027 Cybersecurity Analyst, Enterprise Technology Services- Sunrise, FL",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012000",
-"company": "American Express",
-"title": "Campus Graduate Masters Summer Internship Program - 2027 AI Engineer, Enterprise Technology Services- Atlanta, GA",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26012375",
-"company": "American Express",
-"title": "Campus Undergraduate Summer Internship Program - 2027 AI Engineer, Enterprise Technology Services- Phoenix, AZ",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -21087,6 +21101,13 @@
 "id": "wd:intel:/job/Israel-Kiryat-Gat/Practical-Engineering-Student----Kiryat-Gat_JR0281401",
 "company": "Intel",
 "title": "Practical Engineering Student -  Kiryat Gat",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Electrical-Engineer-II----E2-_R2625873",
+"company": "Applied Materials",
+"title": "Electrical Engineer I - (E1)",
 "rule": "not-intern",
 "tag": ""
 },
