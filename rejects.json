@@ -3724,13 +3724,6 @@
 "tag": ""
 },
 {
-"id": "ls:79ceb913-ca59-4a50-9fa9-18c378d86c3e",
-"company": "Citadel",
-"title": "Trader: Fixed Income & Macro Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:48327e8c-a8f7-4339-83a4-019ef774f663",
 "company": "Citadel",
 "title": "Quantitative Research Analyst Intern",
@@ -3888,13 +3881,6 @@
 "id": "ls:cce4a124-68d8-4941-9fff-ddbee5dfc0b3",
 "company": "1X",
 "title": "AI Residency Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
-"id": "ls:af41c8d1-6670-4cbb-9111-9204ac3a4da9",
-"company": "Citadel",
-"title": "Quantitative Trader: Equity Quantitative Research Intern",
 "rule": "season",
 "tag": "Fall 2026"
 },
@@ -5712,13 +5698,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:75ba4d37-69a8-4034-b556-d8837ef4a500",
-"company": "Magna",
-"title": "IoT Systems Engineer Co-op",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:3c6c8ca3-bef3-4605-9ebe-59909e2cc31f",
 "company": "Arlo Technologies",
 "title": "Hardware Engineer Co-op",
@@ -5983,13 +5962,6 @@
 "title": "Application Development Intern",
 "rule": "season",
 "tag": "Summer 2026"
-},
-{
-"id": "ls:71e539ff-f839-4f08-8c0f-0c7a934bbf05",
-"company": "Citadel",
-"title": "Sector Data Analyst Intern",
-"rule": "season",
-"tag": "Fall 2026"
 },
 {
 "id": "ls:ff0616b4-484e-4ce8-b74e-55a7e8cc0e9d",
@@ -7061,6 +7033,13 @@
 "title": "Data Analytics Intern",
 "rule": "irrelevant",
 "tag": ""
+},
+{
+"id": "ls:50302205-471f-44ae-b50c-6d339917d72f",
+"company": "PNC Financial Services",
+"title": "Product Innovation Intern - Retail Product Innovation",
+"rule": "season",
+"tag": "Summer 2026"
 },
 {
 "id": "ls:3c052483-a306-453e-a3dc-ccfe99cf5624",
@@ -8501,13 +8480,6 @@
 "id": "ls:7bbcfe14-7ce8-4103-b65b-a360fd4a2fa3",
 "company": "ByteDance",
 "title": "Software Engineer Intern - AML-Engine-Orchestration",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:de926b0a-99e7-4dbd-94cd-334ec565be9f",
-"company": "Citadel",
-"title": "Sector Data Scientist Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -11200,13 +11172,6 @@
 "tag": ""
 },
 {
-"id": "ls:79fa5677-0cf7-4393-b826-2aa0806bbcd9",
-"company": "NVIDIA",
-"title": "Ph.D. Research Graphics and Simulation Intern - Graphics and Simulation",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:be628885-fde3-4b73-bb0a-58e11856e97b",
 "company": "NVIDIA",
 "title": "Software Engineering Intern",
@@ -11399,6 +11364,13 @@
 "id": "ls:01f94977-fc40-414b-bd6d-f44693eacceb",
 "company": "Specialisterne",
 "title": "Software Engineer Intern - Neurodiversity Hiring Initiative",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:4fa1b683-fa30-44b0-a279-ea52a60e6a84",
+"company": "Copart",
+"title": "Software Engineer Intern",
 "rule": "season",
 "tag": "Fall 2026"
 },
@@ -12093,6 +12065,13 @@
 "company": "Blackstone",
 "title": "Data Science Summer Analyst",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:4c51462d-b2c3-4a43-8b72-30b1c98fdf33",
+"company": "RTX",
+"title": "Digital Support & Business Intelligence Intern - Computer Science",
+"rule": "defense",
 "tag": ""
 },
 {
@@ -26264,10 +26243,10 @@
 "tag": ""
 },
 {
-"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264466",
+"id": "wd:analogdevices:",
 "company": "Analog Devices",
-"title": "Technician Student Intern",
-"rule": "seniority",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -30681,14 +30660,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705254005",
+"id": "gh:inversionspace:4709691005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709691005",
+"id": "gh:inversionspace:4705254005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
@@ -31353,14 +31332,14 @@
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7767461003",
+"id": "gh:launchdarkly:7861151003",
 "company": "LaunchDarkly",
 "title": "Backend Engineer, Flag Delivery",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7861151003",
+"id": "gh:launchdarkly:7767461003",
 "company": "LaunchDarkly",
 "title": "Backend Engineer, Flag Delivery",
 "rule": "not-intern",
@@ -34825,14 +34804,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8463038002",
+"id": "gh:relativity:8687398002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8687398002",
+"id": "gh:relativity:8463038002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
@@ -35126,14 +35105,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8701334002",
+"id": "gh:relativity:8419277002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8419277002",
+"id": "gh:relativity:8701334002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -35385,14 +35364,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8633353002",
+"id": "gh:relativity:8606781002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8606781002",
+"id": "gh:relativity:8633353002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -35406,14 +35385,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8728512002",
+"id": "gh:relativity:8464747002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8464747002",
+"id": "gh:relativity:8728512002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
