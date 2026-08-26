@@ -21,13 +21,6 @@
 "tag": ""
 },
 {
-"id": "ls:21a2fc47-75fb-4613-8e44-d2b16c4bb504",
-"company": "Faire",
-"title": "Data Science Intern",
-"rule": "season",
-"tag": "Spring 2026"
-},
-{
 "id": "ls:2f581eb5-e5d9-4bc0-a9b6-54a4ea8ad53d",
 "company": "ByteDance",
 "title": "Research Scientist Intern - Security for AI - 2026 Start",
@@ -4732,13 +4725,6 @@
 "tag": ""
 },
 {
-"id": "ls:7e9c41e0-72f6-4e65-8150-4a44cf26d415",
-"company": "Odin Dynamics, Inc",
-"title": "Engineering Intern",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:6409dda3-9704-4933-a226-3ae46b43d171",
 "company": "Junior AI",
 "title": "Software Engineer Intern",
@@ -8841,6 +8827,13 @@
 "tag": ""
 },
 {
+"id": "ls:4928dfb2-7a20-4da6-8405-a591089e515c",
+"company": "Booz Allen",
+"title": "AI RAN Telecommunications Engineer Intern",
+"rule": "defense",
+"tag": ""
+},
+{
 "id": "ls:f683599d-0ac1-4900-8528-722d0bcfb4c4",
 "company": "UHY",
 "title": "Data Operations Intern",
@@ -11497,6 +11490,20 @@
 "id": "ls:09e061cd-a5e8-4059-bb6d-a0672a475328",
 "company": "Fannie Mae",
 "title": "Data Science Intern - Analytics & Modeling Program",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:de048c9f-8cf0-45fe-b307-40b9a04a9416",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern - Americas - AWM Product Management",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:aea9cccf-4a27-4ca6-9c11-9664e8a1ac0a",
+"company": "Goldman Sachs",
+"title": "AWM Product Management Analyst Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -14220,6 +14227,27 @@
 "id": "ls:19594723-95da-4b7d-99b1-df2dd9b151f3",
 "company": "MKS Instruments",
 "title": "Business Intelligence/Data Analytics Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:0421e841-beed-4315-83cf-cbc7ffc68617",
+"company": "WhiteWater Midstream",
+"title": "Data Science Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:0e885dce-37ca-4760-9073-ee759cf89860",
+"company": "WhiteWater Midstream",
+"title": "Trading Operations Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:6b6c9174-7b35-478a-be6c-09c442dc9586",
+"company": "Jain Global",
+"title": "Quantitative Research Extern - Rice University",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -34398,13 +34426,6 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8480160002",
-"company": "Relativity Space",
-"title": "Propulsion Engineer II, Engine Assembly Design",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:relativity:8362062002",
 "company": "Relativity Space",
 "title": "Propulsion Engineer II, Engine Base Heatshield",
@@ -34685,14 +34706,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8455890002",
+"id": "gh:relativity:8612945002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8612945002",
+"id": "gh:relativity:8455890002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
@@ -34741,14 +34762,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8687398002",
+"id": "gh:relativity:8463038002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8463038002",
+"id": "gh:relativity:8687398002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
@@ -35042,14 +35063,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8419277002",
+"id": "gh:relativity:8701334002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8701334002",
+"id": "gh:relativity:8419277002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -35171,13 +35192,6 @@
 "id": "gh:relativity:8610839002",
 "company": "Relativity Space",
 "title": "Senior Propulsion Components Test Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:relativity:8480163002",
-"company": "Relativity Space",
-"title": "Senior Propulsion Engineer, Engine Assembly Design",
 "rule": "not-intern",
 "tag": ""
 },
@@ -35322,14 +35336,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8464747002",
+"id": "gh:relativity:8728512002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8728512002",
+"id": "gh:relativity:8464747002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
@@ -35668,13 +35682,6 @@
 "id": "gh:relativity:8708195002",
 "company": "Relativity Space",
 "title": "Staff People Business Partner",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:relativity:8480168002",
-"company": "Relativity Space",
-"title": "Staff Propulsion Engineer, Engine Assembly Design ",
 "rule": "not-intern",
 "tag": ""
 },
