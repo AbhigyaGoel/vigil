@@ -26397,20 +26397,6 @@
 "tag": ""
 },
 {
-"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R257854-1",
-"company": "Analog Devices",
-"title": "Technician Student Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:analogdevices:",
-"company": "Analog Devices",
-"title": "",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:analogdevices:",
 "company": "Analog Devices",
 "title": "",
@@ -33386,6 +33372,13 @@
 "id": "lv:picklerobot:78403d71-9909-488b-a49f-ebfb09c41f77",
 "company": "Pickle Robot",
 "title": "Senior Mechanical Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "lv:picklerobot:2956bdb1-b9b0-4d62-86b8-92ce9f24791e",
+"company": "Pickle Robot",
+"title": "Senior Perception Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
