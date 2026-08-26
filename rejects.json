@@ -14056,6 +14056,69 @@
 "tag": "Winter 2027"
 },
 {
+"id": "ls:dd744ff9-f99d-42d9-8199-cfc24f358f59",
+"company": "RTX",
+"title": "Software Engineer Intern - Summer 2027",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:f940c913-da8e-4109-8de2-54cd5d65acfa",
+"company": "DTCC",
+"title": "Product Management Intern - 2027 Internship Program",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:a1eb1e2b-bd12-4ee2-b019-34e40010a803",
+"company": "DTCC",
+"title": "Application Developer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:262949d4-ed66-4934-b2fe-ba5b67318c50",
+"company": "DTCC",
+"title": "Data Solutions Intern - Internship Program",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:232c9773-c328-4d64-b2d0-eeaf1673e51d",
+"company": "University Health Network",
+"title": "Administrative Support - Research",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:5f5acc02-520f-43a0-ab78-35753db6131a",
+"company": "The Hartford",
+"title": "Software Engineer Intern - Technology & Data",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:88d4e38d-d6d5-4550-8ea8-651074023cd3",
+"company": "GE Appliances",
+"title": "Software Engineer Co-op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:5bb48378-660a-44d5-a1ac-f953c8cbb9e8",
+"company": "GE Appliances",
+"title": "Engineering Co-op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:9ab1c4b6-7573-49a7-80b3-d93982ec29dd",
+"company": "Zip",
+"title": "Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
 "company": "Rippling",
 "title": "Frontend Software Engineer Intern",
@@ -24255,6 +24318,13 @@
 "tag": ""
 },
 {
+"id": "wd:nvidia:/job/China-Shanghai/ASIC-Physical-Design-Intern---2027_JR2023914",
+"company": "NVIDIA",
+"title": "ASIC Physical Design Intern - 2027",
+"rule": "geo",
+"tag": ""
+},
+{
 "id": "wd:nvidia:/job/US-CA-Santa-Clara/Cell-Modelling-and-Verification-Engineer---New-College-Grad-2026_JR2011631",
 "company": "NVIDIA",
 "title": "Cell Modeling and Verification Engineer - New College Grad 2026",
@@ -24717,13 +24787,6 @@
 "tag": ""
 },
 {
-"id": "wd:nvidia:",
-"company": "NVIDIA",
-"title": "",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:nvidia:/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2021534",
 "company": "NVIDIA",
 "title": "ASIC Design Engineer - New College Grad 2026",
@@ -24853,13 +24916,6 @@
 "id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--Electronic-Design-Automation---New-College-Grad-2026_JR2012979",
 "company": "NVIDIA",
 "title": "Research Scientist, Electronic Design Automation - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/AI-Inference-Performance-Engineer---New-College-Grad-2026_JR2014441",
-"company": "NVIDIA",
-"title": "AI Inference Performance Engineer - New College Grad 2026",
 "rule": "new-grad",
 "tag": ""
 },
@@ -30436,14 +30492,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709691005",
+"id": "gh:inversionspace:4705254005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705254005",
+"id": "gh:inversionspace:4709691005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
@@ -31108,14 +31164,14 @@
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7861151003",
+"id": "gh:launchdarkly:7767461003",
 "company": "LaunchDarkly",
 "title": "Backend Engineer, Flag Delivery",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7767461003",
+"id": "gh:launchdarkly:7861151003",
 "company": "LaunchDarkly",
 "title": "Backend Engineer, Flag Delivery",
 "rule": "not-intern",
@@ -34566,14 +34622,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8687398002",
+"id": "gh:relativity:8463038002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8463038002",
+"id": "gh:relativity:8687398002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
@@ -34867,14 +34923,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8419277002",
+"id": "gh:relativity:8701334002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8701334002",
+"id": "gh:relativity:8419277002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -35126,14 +35182,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8606781002",
+"id": "gh:relativity:8633353002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8633353002",
+"id": "gh:relativity:8606781002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -35147,14 +35203,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8464747002",
+"id": "gh:relativity:8728512002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8728512002",
+"id": "gh:relativity:8464747002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
