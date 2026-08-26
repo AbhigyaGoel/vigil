@@ -25522,6 +25522,13 @@
 "tag": ""
 },
 {
+"id": "wd:micron:/job/San-Jose-CA/Intern---CDBU-Marketing_JR109697",
+"company": "Micron",
+"title": "Intern - CDBU Marketing",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "wd:micron:/job/San-Jose-CA/Corporate-Marketing-Storytelling-Intern_JR109493",
 "company": "Micron",
 "title": "Corporate Marketing Storytelling Intern",
@@ -26772,6 +26779,41 @@
 "company": "Intel",
 "title": "Practical Engineering Student -  Kiryat Gat",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/AustinTX/Summer-2027-Supply-Chain-Buyer-Intern--Bachelor-s--Austin--TX-_R2627046-1",
+"company": "Applied Materials",
+"title": "Summer 2027 Supply Chain Buyer Intern- Bachelor's (Austin, TX)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Global-Supply-Chain-Rotational-Program--New-College-Grad--Master-s--Santa-Clara--CA-_R2627027",
+"company": "Applied Materials",
+"title": "Global Supply Chain Rotational Program, New College Grad- Master's (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/AustinTX/Global-Supply-Chain-Rotational-Program--New-College-Grad--Master-s--Austin--TX-_R2627023",
+"company": "Applied Materials",
+"title": "Global Supply Chain Rotational Program, New College Grad- Master's (Austin, TX)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Global-Supply-Chain-Rotational-Program--Buyer-I--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627043-1",
+"company": "Applied Materials",
+"title": "Global Supply Chain Rotational Program, Buyer I, New College Grad- Bachelor's (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/GloucesterMA/Global-Supply-Chain-Rotational-Program--Volume-Buyer-I--New-College-Grad--Bachelor-s--Gloucester--MA-_R2626717",
+"company": "Applied Materials",
+"title": "Global Supply Chain Rotational Program, Volume Buyer I, New College Grad- Bachelor's (Gloucester, MA)",
+"rule": "new-grad",
 "tag": ""
 },
 {
@@ -30814,14 +30856,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709691005",
+"id": "gh:inversionspace:4705254005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705254005",
+"id": "gh:inversionspace:4709691005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
@@ -34916,6 +34958,13 @@
 "tag": ""
 },
 {
+"id": "gh:relativity:8672385002",
+"company": "Relativity Space",
+"title": "Senior Composites Technician, First Shift",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "gh:relativity:8567155002",
 "company": "Relativity Space",
 "title": "Senior COPV Engineer",
@@ -34937,14 +34986,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8687398002",
+"id": "gh:relativity:8463038002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8463038002",
+"id": "gh:relativity:8687398002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
@@ -35238,14 +35287,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8701334002",
+"id": "gh:relativity:8419277002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8419277002",
+"id": "gh:relativity:8701334002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -35647,13 +35696,6 @@
 "id": "gh:relativity:8607039002",
 "company": "Relativity Space",
 "title": "Sr CAD Administrator, Engineering Applications",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:relativity:8672385002",
-"company": "Relativity Space",
-"title": "Sr Composites Technician, First Shift",
 "rule": "not-intern",
 "tag": ""
 },
