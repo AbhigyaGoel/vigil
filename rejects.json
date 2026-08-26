@@ -2282,13 +2282,6 @@
 "tag": "Winter 2027"
 },
 {
-"id": "ls:8ee2c108-7c86-4c94-b7bb-5667b48e3d3a",
-"company": "Peraton",
-"title": "Generative AI Engineer Intern",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:10f26a2e-0806-4a95-ab5a-9937df1917fa",
 "company": "Scale AI",
 "title": "AI Builder Intern",
@@ -8610,13 +8603,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:56b68b11-760a-4224-ab26-17e3889e11d1",
-"company": "Q5",
-"title": "Research Analyst - Analytics Hub",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:95179997-e004-4aab-84b7-07ebc63d814a",
 "company": "ResponsiveAds",
 "title": "Full-Stack Developer Intern - ResponsiveAds - Studio 4",
@@ -14222,6 +14208,20 @@
 "title": "Data Operations Intern",
 "rule": "season",
 "tag": "Fall 2026"
+},
+{
+"id": "ls:d32abe7f-a579-49b8-9d71-10a16fdf5fc6",
+"company": "Sabre Systems",
+"title": "AI Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:19594723-95da-4b7d-99b1-df2dd9b151f3",
+"company": "MKS Instruments",
+"title": "Business Intelligence/Data Analytics Intern",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -26656,6 +26656,13 @@
 "tag": ""
 },
 {
+"id": "wd:amat:/job/Santa-ClaraCA/XMLNAME-2027-New-College-Grad---Process-Engineer-III---Doctorate_R2626561",
+"company": "Applied Materials",
+"title": "2027 New College Grad - Process Engineer III - Doctorate",
+"rule": "new-grad",
+"tag": ""
+},
+{
 "id": "wd:amat:/job/GloucesterMA/Physicist-Scientist--Adv-Degree--Gloucester--MA_R2611455",
 "company": "Applied Materials",
 "title": "Physicist/Scientist III, New College Grad - Adv Degree (Gloucester, MA)",
@@ -26751,20 +26758,6 @@
 "company": "Applied Materials",
 "title": "\u30ab\u30b9\u30bf\u30de\u30fc\u30a8\u30f3\u30b8\u30cb\u30a2\u3000",
 "rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:amat:/job/AustinTX/Manufacturing-Quality-Engineer-III_R2624316",
-"company": "Applied Materials",
-"title": "Manufacturing Quality Engineer III",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:amat:/job/Santa-ClaraCA/XMLNAME-2027-New-College-Grad---Process-Engineer-III---Doctorate_R2626561",
-"company": "Applied Materials",
-"title": "2027 New College Grad - Process Engineer III - Doctorate",
-"rule": "new-grad",
 "tag": ""
 },
 {
