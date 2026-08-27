@@ -3598,13 +3598,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:8c8a1f21-e711-48d0-8cec-601018138920",
-"company": "CTGT",
-"title": "Software Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:d423afb4-e4be-41f7-923e-d55ed5e3bddb",
 "company": "Droyd Robotics",
 "title": "Machine Learning Intern",
@@ -9800,6 +9793,20 @@
 "tag": ""
 },
 {
+"id": "ls:a81b0d30-e122-4b3c-9290-3e85c9f02707",
+"company": "Goldman Sachs",
+"title": "Intern - Multiple Teams",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:bc2e9762-a592-48ef-9e42-21dfdec88ec4",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Associate Intern - Asset and Wealth Management",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:8cfb1bdb-94da-41c0-be36-e516586909b0",
 "company": "Dedalus Labs",
 "title": "Product Manager Intern",
@@ -9999,6 +10006,13 @@
 "id": "ls:5f3d33fb-4b34-47a8-a127-86e779a876b6",
 "company": "GE Aerospace",
 "title": "Aerospace Engineering Engines Co-op - Computer or Software Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:530c60b3-3de0-4a8e-bb7c-5f32553939ac",
+"company": "KeyBank",
+"title": "Data Intern - Key Technology & Services - Data Track",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -11410,6 +11424,13 @@
 "tag": ""
 },
 {
+"id": "ls:aea9cccf-4a27-4ca6-9c11-9664e8a1ac0a",
+"company": "Goldman Sachs",
+"title": "AWM Product Management Analyst Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:8569a45d-e504-4cc5-897a-de907ab8e0f7",
 "company": "AbbVie",
 "title": "Business Technology Solutions Intern - Data & Software Engineering - Undergraduate",
@@ -11800,6 +11821,13 @@
 "title": "Data Engineer Intern - E-commerce",
 "rule": "season",
 "tag": "Summer 2026"
+},
+{
+"id": "ls:563165c9-79ea-427e-a9f7-ac43878f12f6",
+"company": "Ontario Teachers' Pension Plan",
+"title": "Portfolio Engineer Intern - Capital Markets - CMIA",
+"rule": "season",
+"tag": "Winter 2027"
 },
 {
 "id": "ls:6c0e9a46-463c-43dc-8bb1-7b4c40a5ab14",
@@ -12310,6 +12338,13 @@
 "company": "Springs Window Fashions",
 "title": "Product Management Dashboard Analytics Intern",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:740d3c67-d925-48d7-995a-410073f010e8",
+"company": "RTX",
+"title": "Industrialization Intern - Industrialization Production Readiness",
+"rule": "defense",
 "tag": ""
 },
 {
@@ -14585,6 +14620,27 @@
 "company": "L3Harris Technologies",
 "title": "Artificial Intelligence Intern",
 "rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:bec41fe0-ae4c-44d3-bddd-15ca4a245c18",
+"company": "Goldman Sachs",
+"title": "Summer Associate Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:49811d2d-c4c5-4b12-a63a-f0be4842a2d5",
+"company": "Capital One",
+"title": "Technology Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:873e0bb6-6311-4d44-9849-f81373ccdeeb",
+"company": "GE Healthcare",
+"title": "Surgery Field Engineer Apprentice",
+"rule": "seniority",
 "tag": ""
 },
 {
@@ -31234,14 +31290,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705254005",
+"id": "gh:inversionspace:4709691005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709691005",
+"id": "gh:inversionspace:4705254005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
@@ -35658,14 +35714,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8419277002",
+"id": "gh:relativity:8701334002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8701334002",
+"id": "gh:relativity:8419277002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -35931,14 +35987,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8464747002",
+"id": "gh:relativity:8728512002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8728512002",
+"id": "gh:relativity:8464747002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
@@ -37555,14 +37611,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:4948176008",
+"id": "gh:stratolaunch:4928724008",
 "company": "Stratolaunch",
 "title": "Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:4928724008",
+"id": "gh:stratolaunch:4948176008",
 "company": "Stratolaunch",
 "title": "Electrical Engineer",
 "rule": "not-intern",
