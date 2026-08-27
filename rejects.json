@@ -3871,6 +3871,13 @@
 "tag": "Fall 2026"
 },
 {
+"id": "ls:6fd5f184-953f-41e2-a220-0bc16b7bae48",
+"company": "GE Healthcare",
+"title": "Field Engineer Apprentice",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "ls:aede4467-5907-43aa-850b-9d6349575538",
 "company": "National Laboratory of the Rockies",
 "title": "Associate/Undergraduate Intern",
@@ -5040,6 +5047,13 @@
 "tag": ""
 },
 {
+"id": "ls:664a4064-bf27-4a2a-bbd6-939cd77b76ce",
+"company": "GE Healthcare",
+"title": "Field Engineer Apprentice",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "ls:3a62d215-ec82-415b-add2-2a71269558f5",
 "company": "Cadence Design Systems",
 "title": "Analog/Mixed-Signal IC Design Co-Op/Intern",
@@ -5073,13 +5087,6 @@
 "title": "Quantitative Trader Intern",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:b00bb3e9-1948-4552-b774-ff0117f8b02f",
-"company": "Magna",
-"title": "Student Intern",
-"rule": "season",
-"tag": "Summer 2026"
 },
 {
 "id": "ls:6e34bef0-a1a7-4cef-9837-41f96c2b9ab0",
@@ -5421,13 +5428,6 @@
 "id": "ls:d1b5909b-5773-4d89-92a7-604b04556e03",
 "company": "Magna",
 "title": "R&D-Computer Vision Engineer Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
-"id": "ls:cff6c5a6-5c4a-4f30-bb48-4543328cc059",
-"company": "Pennsylvania State University",
-"title": "Research Engineering Intern",
 "rule": "season",
 "tag": "Fall 2026"
 },
@@ -6865,13 +6865,6 @@
 "title": "Media Studio Technology Consultant",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:a8de70cc-4a6f-4f62-a560-4b7baef84d9b",
-"company": "Vitalant",
-"title": "Data Analytics Intern",
-"rule": "season",
-"tag": "Summer 2026"
 },
 {
 "id": "ls:f010c8ee-806d-4f1c-96a4-0ad83bd900a7",
@@ -9611,6 +9604,13 @@
 "tag": ""
 },
 {
+"id": "ls:39be2363-aaad-4bf0-9f3a-19906a6a8182",
+"company": "RTX",
+"title": "Electrical Computer-Aided Design Engineer Intern",
+"rule": "defense",
+"tag": ""
+},
+{
 "id": "ls:043a4279-be5b-4d83-b42a-52de482eb7c0",
 "company": "onsemi",
 "title": "Tax AI and Automation Intern",
@@ -11765,13 +11765,6 @@
 "title": "Business Insights and Analytics Intern - Member Services",
 "rule": "season",
 "tag": "Winter 2027"
-},
-{
-"id": "ls:c6d37325-22f7-46a7-ab78-d7c0f970628e",
-"company": "Ontario Teachers' Pension Plan",
-"title": "Capital Markets Intern - Quantitative Strategies and Research",
-"rule": "season",
-"tag": "Winter 2026"
 },
 {
 "id": "ls:2cdf6089-4c84-4731-8216-3c7ace960f00",
@@ -14598,6 +14591,20 @@
 "id": "ls:54158bff-7d6c-4b8e-a623-6abf438bbaa9",
 "company": "General Motors",
 "title": "Battery & Sustainability Intern - Physics-Based Battery Modeling",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:64c5aa15-2dd1-4d0d-be20-b9c30978e996",
+"company": "RTX",
+"title": "Product Integrity Tools and Process Improvement Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:e586d565-9a03-414c-881e-bb1e51ee22b7",
+"company": "Blue Origin",
+"title": "Electronics/Electrical Systems Engineer 1 Intern",
 "rule": "season",
 "tag": "Fall 2026"
 },
@@ -18942,13 +18949,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/SmithsGroup2/744000087978855",
-"company": "Smiths Group",
-"title": "Drafter/Design Engineer II",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://jobs.smartrecruiters.com/SmithsGroup2/744000121295282",
 "company": "Smiths Group",
 "title": "Product Engineer",
@@ -18963,9 +18963,9 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/solidigm/744000138365194",
-"company": "Solidigm",
-"title": "Design Automation / Standard Cell Cha...",
+"id": "md:https://jobs.smartrecruiters.com/SmithsGroup2/744000091674935",
+"company": "Smiths Group",
+"title": "Engineer III Materials",
 "rule": "not-intern",
 "tag": ""
 },
@@ -18980,6 +18980,13 @@
 "id": "md:https://jobs.smartrecruiters.com/solidigm/744000117363827",
 "company": "Solidigm",
 "title": "Process Development Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.smartrecruiters.com/solidigm/744000138365194",
+"company": "Solidigm",
+"title": "Design Automation / Standard Cell Cha...",
 "rule": "not-intern",
 "tag": ""
 },
@@ -19124,9 +19131,9 @@
 "tag": ""
 },
 {
-"id": "md:https://caci.wd1.myworkdayjobs.com/External/job/Danbury-CT-US/CAD-Designer_331160-1",
-"company": "CACI",
-"title": "CAD Designer",
+"id": "md:https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Corinth-Mississippi/Corinth-Reman-Engine-Test-Cell-Operator--2nd-shift-_R0000389060",
+"company": "Caterpillar",
+"title": "Corinth Reman Engine Test Cell Operat...",
 "rule": "not-intern",
 "tag": ""
 },
@@ -19156,13 +19163,6 @@
 "company": "Bosch Group",
 "title": "Electronics Engineering Intern",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Two-Sigma-Securities-Hardware-Engineer/13090",
-"company": "Two Sigma",
-"title": "Two Sigma Securities, Hardware Engineer",
-"rule": "not-intern",
 "tag": ""
 },
 {
@@ -19215,13 +19215,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/velo3d/48f02e24-fde8-4067-9b13-867cc5e10e32",
-"company": "Velo3D",
-"title": "Applications Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://jobs.lever.co/velo3d/629f99d2-0bcd-4ee1-86e4-817d785fe65c",
 "company": "Velo3D",
 "title": "Applications Engineer",
@@ -19232,6 +19225,13 @@
 "id": "md:https://jobs.lever.co/velo3d/c6bf76b4-76a4-4a74-b479-0eac2b27f784",
 "company": "Velo3D",
 "title": "Electrical Engineer II",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/velo3d/ecb957cb-cfdc-4dd1-8d38-8633005a9c97",
+"company": "Velo3D",
+"title": "Field Service Engineer - (Houston / K...",
 "rule": "not-intern",
 "tag": ""
 },
@@ -19250,13 +19250,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/solopulseco/9a9e29cb-41f3-4e39-ab69-27481422efff",
-"company": "SoloPulse",
-"title": "Digital Signal Processing (DSP) Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://jobs.lever.co/solopulseco/fede9a75-7e75-4066-9b89-291c327464a3",
 "company": "SoloPulse",
 "title": "Digital Signal Processing (DSP) Engineer",
@@ -19267,6 +19260,13 @@
 "id": "md:https://jobs.lever.co/solopulseco/663eecca-0951-4354-9a0f-14b52aa72ab9",
 "company": "SoloPulse",
 "title": "Radar Digital Signal Processing (DSP)...",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/solopulseco/9a9e29cb-41f3-4e39-ab69-27481422efff",
+"company": "SoloPulse",
+"title": "Digital Signal Processing (DSP) Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -19299,13 +19299,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/plus-2/9afb1a31-cdc8-496a-a891-24b9d1254391",
-"company": "PlusAI",
-"title": "Technician",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://jobs.lever.co/plus-2/2af29134-9fe8-45e5-80e4-a3fee19f2d7c",
 "company": "PlusAI",
 "title": "Field Service Engineer",
@@ -19320,9 +19313,9 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990012907764",
-"company": "AbbVie",
-"title": "Service Engineer, Analytical Instrume...",
+"id": "md:https://jobs.lever.co/plus-2/9afb1a31-cdc8-496a-a891-24b9d1254391",
+"company": "PlusAI",
+"title": "Technician",
 "rule": "not-intern",
 "tag": ""
 },
@@ -19341,9 +19334,9 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/pivotal/69119185-2d5b-4b54-8a87-8ea040c9e482",
-"company": "Pivotal Software",
-"title": "Autonomy Engineer II - Robotics",
+"id": "md:https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Two-Sigma-Securities-Hardware-Engineer/13090",
+"company": "Two Sigma",
+"title": "Two Sigma Securities, Hardware Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -19355,9 +19348,16 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990013481356",
-"company": "AbbVie",
-"title": "Manufacturing Software Controls Engineer",
+"id": "md:https://jobs.lever.co/pivotal/d1434d84-8a8a-43ec-91c4-18663f3fce99",
+"company": "Pivotal Software",
+"title": "Verification Engineer - Aeromechanica...",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/pivotal/69119185-2d5b-4b54-8a87-8ea040c9e482",
+"company": "Pivotal Software",
+"title": "Autonomy Engineer II - Robotics",
 "rule": "not-intern",
 "tag": ""
 },
@@ -19369,6 +19369,13 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.lever.co/palantir/211f99dc-269e-4f25-84d3-d73dea782080",
+"company": "Palantir",
+"title": "Site Reliability Engineer - US Govern...",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://jobs.lever.co/palantir/250f623c-9afb-4c91-b0c0-25d4e83005ec",
 "company": "Palantir",
 "title": "Product Reliability Engineer - Defense",
@@ -19376,16 +19383,65 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/palantir/57699414-b373-4a5e-9be8-6fb7de41ea72",
-"company": "Palantir",
-"title": "Product Reliability Engineer - Defense",
+"id": "md:https://jobs.lever.co/multiplylabs/c9fe817b-745a-4c68-a157-1b2afdc09f9a",
+"company": "Multiply Labs",
+"title": "Robotics Field Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/persona.ai/18e0d683-1666-4f4d-bef8-a62c175de17d",
-"company": "Persona AI",
-"title": "Robotics Simulation Engineer",
+"id": "md:https://jobs.lever.co/matchgroup/f5172470-df74-4291-94b1-8da411c0ec66",
+"company": "Match Group",
+"title": "Operations Engineer - Systems Enginee...",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990012907764",
+"company": "AbbVie",
+"title": "Service Engineer, Analytical Instrume...",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990013481356",
+"company": "AbbVie",
+"title": "Manufacturing Software Controls Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/layup/5952197a-c615-4606-8477-87a0aefd8469",
+"company": "Layup Parts",
+"title": "Mechanical Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/layup/226baa91-118d-4df3-bdca-2932f8d5cfee",
+"company": "Layup Parts",
+"title": "Robotics Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/lumafield/0bcd8cce-ce74-4f39-a0f7-182278d4844b",
+"company": "Lumafield",
+"title": "Application Engineer, CV/ML",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/lumafield/181866d7-ffa5-4e12-b25c-aa4f1fd0bb11",
+"company": "Lumafield",
+"title": "Applications Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/lumafield/7af170cc-41f3-4af5-b420-e3d8f2ada675",
+"company": "Lumafield",
+"title": "Field Service Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -19393,6 +19449,27 @@
 "id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990013738931",
 "company": "AbbVie",
 "title": "Calibration Technician II - Ops (Sund...",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/persona.ai/e5dd4a0a-e283-4bc4-9c19-70682c667a7b",
+"company": "Persona AI",
+"title": "Process Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/persona.ai/47a11a70-7cf1-4f51-96cc-b037677859c1",
+"company": "Persona AI",
+"title": "Robotics Data Pipeline Engineer \u2013 Mul...",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/persona.ai/b211bb98-0522-4d48-8f05-5df4b164dee2",
+"company": "Persona AI",
+"title": "Robotics Machine Learning Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -19414,6 +19491,13 @@
 "id": "md:https://jobs.ashbyhq.com/Vultr/d82021a2-23fb-4a03-9478-2b29fb588ddc",
 "company": "Vultr",
 "title": "Data Center Technician (Kansas City)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/MachinaLabs/6f93bd26-0c5e-4b3f-996c-d238c1db2139",
+"company": "Machina Labs",
+"title": "Robotic Process Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -19474,83 +19558,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/uncountable/c88f8550-635e-4bdd-9280-1cd40b7212c0",
-"company": "Uncountable",
-"title": "LLM Applications Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/rivianvw.tech/571a4382-755c-4f35-9142-f17b22821742",
-"company": "Rivian and Volkswagen Group Technologies",
-"title": "Manager, Electrical Design Technical ...",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/rivianvw.tech/1b5515ae-6970-40d7-aee0-9b6099319966",
-"company": "Rivian and Volkswagen Group Technologies",
-"title": "Functional Safety Engineer \u2013 Infotain...",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/saronic/16ee137d-f37a-4094-b921-8d08705e1d2d",
-"company": "Saronic Technologies",
-"title": "Electrical Drafter",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/saronic/abb1c82f-73b7-40e3-b822-906d699dbe3e",
-"company": "Saronic Technologies",
-"title": "Hardware Engineer - Forward Deployed",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/saronic/7232abe3-f5b9-4a2e-b41f-b4cabe43ea50",
-"company": "Saronic Technologies",
-"title": "Mechanical Design Drafter (Hardware)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/runpod/1d14340c-c9bd-4754-80f4-5c83980cd413",
-"company": "RunPod",
-"title": "Site Reliability Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/skydio/ce482813-99c2-4eaa-a165-2ed201249182",
-"company": "Skydio",
-"title": "Product Design Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/skydio/3f02ead1-8efe-4e3f-9c75-625e74ab57d1",
-"company": "Skydio",
-"title": "Product Design Engineer (All Levels)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/skydio/f72f1fa5-d3d6-459e-8722-a94ce92ad1c8",
-"company": "Skydio",
-"title": "RF Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/pulse/ecc58086-0b32-4686-86ab-c8e30d619bed",
-"company": "Pulse",
-"title": "Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://jobs.smartrecruiters.com/Eurofins/744000130889580",
 "company": "Eurofins",
 "title": "Associate Safety Engineer",
@@ -19568,13 +19575,6 @@
 "id": "md:https://jobs.smartrecruiters.com/BoschGroup/744000135766249",
 "company": "Bosch Group",
 "title": "Associate Process Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.smartrecruiters.com/BoschGroup/744000137754399",
-"company": "Bosch Group",
-"title": "Associate Facility Engineer- HVAC",
 "rule": "not-intern",
 "tag": ""
 },
@@ -19600,6 +19600,13 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.smartrecruiters.com/BoschGroup/744000137754399",
+"company": "Bosch Group",
+"title": "Associate Facility Engineer- HVAC",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://jobs.ashbyhq.com/antares/11da51b3-7969-4549-a32f-21d8b699e216",
 "company": "Antares",
 "title": "Firmware Engineer I-II",
@@ -19621,16 +19628,16 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/openai/2710d0c7-8f1c-4e1a-bf7a-4000fc5a8d68",
+"id": "md:https://jobs.ashbyhq.com/openai/3f99bfef-5b1a-48ea-aed0-2dbd57b12722",
 "company": "OpenAI",
-"title": "Firmware Engineer, RTOS, Consumer Dev...",
+"title": "Firmware Engineer, Robotics",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/openai/e4ef18a1-f2f7-4920-a53c-aeadd184d124",
+"id": "md:https://jobs.ashbyhq.com/openai/2710d0c7-8f1c-4e1a-bf7a-4000fc5a8d68",
 "company": "OpenAI",
-"title": "ASIC Firmware Engineer, Modeling",
+"title": "Firmware Engineer, RTOS, Consumer Dev...",
 "rule": "not-intern",
 "tag": ""
 },
@@ -19803,16 +19810,9 @@
 "tag": ""
 },
 {
-"id": "md:https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Mossville-Illinois/Associate-Engineer_R0000389067",
-"company": "Caterpillar",
-"title": "Associate Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Sunnyvale-California-United-States-of-America/ASIC-Design-Engineer-2_1211208-2",
-"company": "HPE (University)",
-"title": "ASIC Design Engineer 2",
+"id": "md:https://viavisolutions.wd1.myworkdayjobs.com/careers/job/Wichita-KS-USA/Associate-Test-Engineer_260005053-1",
+"company": "Viavi Solutions",
+"title": "Associate Test Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -19831,9 +19831,16 @@
 "tag": ""
 },
 {
-"id": "md:https://viavisolutions.wd1.myworkdayjobs.com/careers/job/Wichita-KS-USA/Associate-Test-Engineer_260005053-1",
-"company": "Viavi Solutions",
-"title": "Associate Test Engineer",
+"id": "md:https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Mossville-Illinois/Associate-Engineer_R0000389067",
+"company": "Caterpillar",
+"title": "Associate Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Sunnyvale-California-United-States-of-America/ASIC-Design-Engineer-2_1211208-2",
+"company": "HPE (University)",
+"title": "ASIC Design Engineer 2",
 "rule": "not-intern",
 "tag": ""
 },
@@ -19859,16 +19866,16 @@
 "tag": ""
 },
 {
-"id": "md:https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/SoC-Verification-Engineer_JR0285749",
-"company": "Intel",
-"title": "SoC Verification Engineer",
+"id": "md:https://analogdevices.wd1.myworkdayjobs.com/External/job/US-TX-Dallas-Tollway/Associate-Design-Verification-Engineer_R265415",
+"company": "Analog Devices",
+"title": "Associate Design Verification Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://analogdevices.wd1.myworkdayjobs.com/External/job/US-TX-Dallas-Tollway/Associate-Design-Verification-Engineer_R265415",
-"company": "Analog Devices",
-"title": "Associate Design Verification Engineer",
+"id": "md:https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/SoC-Verification-Engineer_JR0285749",
+"company": "Intel",
+"title": "SoC Verification Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -19943,6 +19950,13 @@
 "tag": ""
 },
 {
+"id": "md:https://allisontransmission.wd1.myworkdayjobs.com/ATI-External/job/Indianapolis-IN/Associate-Technician--VE-ET-Test-Engineering_R007980",
+"company": "Allison Transmission",
+"title": "Associate Technician, VE+ET Test Engi...",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/ASIC-Master-Production-Scheduler--Onsite-_2021047-1",
 "company": "Cisco",
 "title": "ASIC Master Production Scheduler (Ons...",
@@ -19960,13 +19974,6 @@
 "id": "md:https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Sunnyvale-California-United-States-of-America/ASIC-Verification-Engineer_1209328",
 "company": "HPE",
 "title": "ASIC Verification Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://allisontransmission.wd1.myworkdayjobs.com/ATI-External/job/Indianapolis-IN/Associate-Technician--VE-ET-Test-Engineering_R007980",
-"company": "Allison Transmission",
-"title": "Associate Technician, VE+ET Test Engi...",
 "rule": "not-intern",
 "tag": ""
 },
@@ -20013,6 +20020,13 @@
 "tag": ""
 },
 {
+"id": "md:https://blackrock.wd1.myworkdayjobs.com/blackrock_professional/job/San-Francisco-CA/Associate--Application-Engineer_R266144",
+"company": "BlackRock",
+"title": "Associate, Application Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://globusmedical.wd5.myworkdayjobs.com/GMED_Careers/job/Methuen-MA/Quality-Specialist_JR106408",
 "company": "Globus Medical",
 "title": "Associate Quality Engineer",
@@ -20041,13 +20055,6 @@
 "tag": ""
 },
 {
-"id": "md:https://blackrock.wd1.myworkdayjobs.com/blackrock_professional/job/San-Francisco-CA/Associate--Application-Engineer_R266144",
-"company": "BlackRock",
-"title": "Associate, Application Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Associate-Test-Engineer_2639696",
 "company": "KLA",
 "title": "Associate Test Engineer",
@@ -20062,16 +20069,16 @@
 "tag": ""
 },
 {
-"id": "md:https://avnet.wd1.myworkdayjobs.com/external/job/San-Jose-California-United-States-Of-America/Associate-Field-Application-Engineer_JR-022071",
-"company": "Avnet",
-"title": "Associate Field Application Engineer",
+"id": "md:https://amat.wd1.myworkdayjobs.com/External/job/RochesterNY/FPGA-Engineer-IV_R2625693",
+"company": "Applied Materials",
+"title": "FPGA Engineer IV",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://leidos.wd5.myworkdayjobs.com/External/job/Honolulu-HI/Associate-Distribution-Engineer_R-00190133",
-"company": "Leidos",
-"title": "Associate Distribution Engineer",
+"id": "md:https://avnet.wd1.myworkdayjobs.com/external/job/San-Jose-California-United-States-Of-America/Associate-Field-Application-Engineer_JR-022071",
+"company": "Avnet",
+"title": "Associate Field Application Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -20086,13 +20093,6 @@
 "id": "md:https://jobs.smartrecruiters.com/Sandisk/744000133420384",
 "company": "Sandisk",
 "title": "Product Security Engineer - Hardware/...",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/deepgram/0b7494b3-a91e-4540-9439-5b10a1e5b391",
-"company": "Deepgram",
-"title": "Embedded AI Engineer, On-Device Models",
 "rule": "not-intern",
 "tag": ""
 },
@@ -20121,6 +20121,13 @@
 "id": "md:https://jobs.lever.co/qrypt/c1ed6b7c-eadd-4476-9abc-b4b1e1272573",
 "company": "Qrypt",
 "title": "Embedded Software Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/deepgram/0b7494b3-a91e-4540-9439-5b10a1e5b391",
+"company": "Deepgram",
+"title": "Embedded AI Engineer, On-Device Models",
 "rule": "not-intern",
 "tag": ""
 },
@@ -20181,16 +20188,16 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/applied/1909abc7-df4f-4220-adaf-0549bd01f657",
+"id": "md:https://jobs.ashbyhq.com/applied/5e204245-3d33-4916-bfdd-991f0cc745eb",
 "company": "Applied Intuition",
-"title": "Embedded Security Engineer",
+"title": "Embedded AI Engineer \u2013 Android Automo...",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/applied/5e204245-3d33-4916-bfdd-991f0cc745eb",
+"id": "md:https://jobs.ashbyhq.com/applied/1909abc7-df4f-4220-adaf-0549bd01f657",
 "company": "Applied Intuition",
-"title": "Embedded AI Engineer \u2013 Android Automo...",
+"title": "Embedded Security Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -20342,20 +20349,6 @@
 "tag": ""
 },
 {
-"id": "md:https://boards.greenhouse.io/andurilindustries/jobs/5178470007?gh_jid=5178470007",
-"company": "Anduril",
-"title": "Embedded Haskell Engineer, EW",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://boards.greenhouse.io/andurilindustries/jobs/5172006007?gh_jid=5172006007",
-"company": "Anduril",
-"title": "Embedded Linux Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://job-boards.greenhouse.io/figureai/jobs/4691070006",
 "company": "Figure AI",
 "title": "Firmware Intern [Fall 2026]",
@@ -20380,13 +20373,6 @@
 "id": "md:https://careers-amd.icims.com/jobs/85759/login",
 "company": "AMD",
 "title": "Technical Marketing Engineer- Embedde...",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://boards.greenhouse.io/andurilindustries/jobs/5100784007?gh_jid=5100784007",
-"company": "Anduril",
-"title": "Embedded Linux Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -20531,6 +20517,13 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990014090096",
+"company": "AbbVie",
+"title": "Validation Engineer II",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://jobs.ashbyhq.com/radiant-industries/9e747724-d154-488d-93d6-067ee7d42cf2",
 "company": "Radiant Industries",
 "title": "Test Engineer, Mechanical/Fluids",
@@ -20538,9 +20531,23 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990014090096",
-"company": "AbbVie",
-"title": "Validation Engineer II",
+"id": "md:https://jobs.lever.co/hermeus/efab6659-7548-4dd7-93f0-a9c93dc83d42",
+"company": "Hermeus",
+"title": "Test Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/hermeus/31513d2a-8e08-424b-b125-4f972fcfc805",
+"company": "Hermeus",
+"title": "Propulsion Test Engineering Intern - ...",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/hermeus/55f58c50-4373-4ec0-9e9c-1abf3a96539d",
+"company": "Hermeus",
+"title": "Test Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -20643,24 +20650,10 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/hermeus/55f58c50-4373-4ec0-9e9c-1abf3a96539d",
-"company": "Hermeus",
-"title": "Test Engineer",
+"id": "md:https://jobs.lever.co/cfsenergy/27e3a498-9ab0-43a7-896f-75f791aee6bb",
+"company": "CFS Energy",
+"title": "R&D Test Engineer - Fluid Systems",
 "rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/hermeus/efab6659-7548-4dd7-93f0-a9c93dc83d42",
-"company": "Hermeus",
-"title": "Test Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/hermeus/31513d2a-8e08-424b-b125-4f972fcfc805",
-"company": "Hermeus",
-"title": "Propulsion Test Engineering Intern - ...",
-"rule": "defense",
 "tag": ""
 },
 {
@@ -20671,9 +20664,9 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/cfsenergy/27e3a498-9ab0-43a7-896f-75f791aee6bb",
-"company": "CFS Energy",
-"title": "R&D Test Engineer - Fluid Systems",
+"id": "md:https://jobs.ashbyhq.com/base-power/39073031-27b8-4105-ba3f-e5690ceca391",
+"company": "Base Power",
+"title": "Manufacturing Test Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -20681,13 +20674,6 @@
 "id": "md:https://jobs.ashbyhq.com/base-power/2c2e2c41-e1e5-4d68-ba39-5fd99056435f",
 "company": "Base Power",
 "title": "Hardware Test Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/base-power/39073031-27b8-4105-ba3f-e5690ceca391",
-"company": "Base Power",
-"title": "Manufacturing Test Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -20706,13 +20692,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/apex-technology-inc/3c7c5384-c6e9-4274-b090-90d2d51c30a8",
-"company": "Apex Technology",
-"title": "Avionics Test Engineer, Hardware",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://jobs.ashbyhq.com/apex-technology-inc/5066f10b-4bf1-4e6f-8db1-41efa436fa4b",
 "company": "Apex Technology",
 "title": "Power Electronics Engineer (Mid)",
@@ -20727,9 +20706,9 @@
 "tag": ""
 },
 {
-"id": "md:https://www.google.com/about/careers/applications/jobs/results/107932829387498182",
-"company": "Google",
-"title": "Hardware Validation Engineer, Data Ce...",
+"id": "md:https://jobs.ashbyhq.com/apex-technology-inc/6fb5d648-03ae-44be-a5d5-85d439f7246a",
+"company": "Apex Technology",
+"title": "Spacecraft Environmental Test Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -20748,9 +20727,9 @@
 "tag": ""
 },
 {
-"id": "md:https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Hanover/CNO-Test-Engineer_RQ219774",
-"company": "GDIT",
-"title": "CNO Test Engineer",
+"id": "md:https://www.google.com/about/careers/applications/jobs/results/87066834049606342",
+"company": "Google",
+"title": "Silicon Validation Engineer, Google C...",
 "rule": "not-intern",
 "tag": ""
 },
@@ -20811,23 +20790,16 @@
 "tag": ""
 },
 {
-"id": "md:https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/CPU-Validation-Engineer_JR0283495",
-"company": "Intel",
-"title": "CPU Validation Engineer",
+"id": "md:https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-DC-Washington/QA-Test-Engineer_RQ226894-1",
+"company": "GDIT",
+"title": "QA Test Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Automated-Test-Engineer_RQ222916-1",
-"company": "GDIT",
-"title": "Automated Test Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-NY-Albany/Test-Engineer_RQ224767-1",
-"company": "GDIT",
-"title": "Test Engineer",
+"id": "md:https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Beavercreek-Ohio/Flight-Test-Engineer_R2128585",
+"company": "KBR",
+"title": "Flight Test Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -20839,13 +20811,6 @@
 "tag": ""
 },
 {
-"id": "md:https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Performance-Test-Engineer_2023246",
-"company": "Cisco",
-"title": "Performance Test Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://caci.wd1.myworkdayjobs.com/External/job/Denver-CO-US/Mission-Test-Engineer_330412-1",
 "company": "CACI",
 "title": "Mission Test Engineer",
@@ -20853,9 +20818,23 @@
 "tag": ""
 },
 {
-"id": "md:https://kbr.wd5.myworkdayjobs.com/KBR_Careers/job/Beavercreek-Ohio/Flight-Test-Engineer_R2128585",
-"company": "KBR",
-"title": "Flight Test Engineer",
+"id": "md:https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Hanover/CNO-Test-Engineer_RQ219774",
+"company": "GDIT",
+"title": "CNO Test Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/CPU-Validation-Engineer_JR0283495",
+"company": "Intel",
+"title": "CPU Validation Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Performance-Test-Engineer_2023246",
+"company": "Cisco",
+"title": "Performance Test Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -20930,6 +20909,34 @@
 "tag": ""
 },
 {
+"id": "md:https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Pueblo-Colorado/Manufacturing-Engineer--2nd-shift_JR-11985-1",
+"company": "Trane Technologies",
+"title": "Manufacturing Electrical Test Enginee...",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://baxter.wd1.myworkdayjobs.com/baxter/job/Batesville-Indiana/Manufacturing-Test-Engineering-Technician_JR-208241-1",
+"company": "Baxter International",
+"title": "Manufacturing Test Engineering Techni...",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers/job/North-Haven-Connecticut-United-States-of-America/Test-Engineer-II_R69701-1",
+"company": "Medtronic",
+"title": "Test Engineer II",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://caci.wd1.myworkdayjobs.com/External/job/Melbourne-FL-US/Integration-and-Test-Engineer_331027",
+"company": "CACI",
+"title": "Integration and Test Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/Memory-Circuit-Design-Engineer_JR0284353",
 "company": "Intel",
 "title": "Memory Circuit Design Engineer",
@@ -20940,13 +20947,6 @@
 "id": "md:https://nwis.wd12.myworkdayjobs.com/NW/job/Sterling-VA/Test-Engineer_JR102002",
 "company": "Nightwing",
 "title": "Test Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers/job/North-Haven-Connecticut-United-States-of-America/Test-Engineer-II_R69701-1",
-"company": "Medtronic",
-"title": "Test Engineer II",
 "rule": "not-intern",
 "tag": ""
 },
@@ -20965,23 +20965,9 @@
 "tag": ""
 },
 {
-"id": "md:https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Pueblo-Colorado/Manufacturing-Engineer--2nd-shift_JR-11985-1",
-"company": "Trane Technologies",
-"title": "Manufacturing Electrical Test Enginee...",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://broadcom.wd1.myworkdayjobs.com/External_Career/job/USA-MN-Rochester/Memory-Circuit-Design-Engineer-MN-Rochester_R026881-1",
 "company": "Broadcom",
 "title": "Memory Circuit Design Engineer-MN Roc...",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://baxter.wd1.myworkdayjobs.com/baxter/job/Batesville-Indiana/Manufacturing-Test-Engineering-Technician_JR-208241-1",
-"company": "Baxter International",
-"title": "Manufacturing Test Engineering Techni...",
 "rule": "not-intern",
 "tag": ""
 },
@@ -20993,9 +20979,9 @@
 "tag": ""
 },
 {
-"id": "md:https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Rome-NY/Cyber-Test-Engineer--Mid_R0242670",
-"company": "Booz Allen Hamilton",
-"title": "Cyber Test Engineer, Mid",
+"id": "md:https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Clarksville-Tennessee/Regional-Supplier-Quality-Engineer_JR-5399-1",
+"company": "Trane Technologies",
+"title": "Regional Supplier Quality Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -21021,16 +21007,16 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/BoschGroup/744000139360559",
-"company": "Bosch Group",
-"title": "Customer Quality Engineer_Steering",
+"id": "md:https://jobs.lever.co/shieldai/8f00a36b-02b5-4800-b55b-2c9d29c6dd62",
+"company": "Shield AI",
+"title": "Technician 4, Quality Engineering (R4...",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/shieldai/8f00a36b-02b5-4800-b55b-2c9d29c6dd62",
-"company": "Shield AI",
-"title": "Technician 4, Quality Engineering (R4...",
+"id": "md:https://jobs.smartrecruiters.com/BoschGroup/744000139360559",
+"company": "Bosch Group",
+"title": "Customer Quality Engineer_Steering",
 "rule": "not-intern",
 "tag": ""
 },
@@ -21140,6 +21126,13 @@
 "tag": ""
 },
 {
+"id": "md:https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Quality-Engineering-Co-op_JR-051391",
+"company": "Brunswick",
+"title": "Mercury Marine: Quality Engineering C...",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://clarios.wd5.myworkdayjobs.com/clarioscareers/job/United-States-Arizona-Yuma/Quality-Engineer-II_WD49915",
 "company": "Clarios",
 "title": "Quality Engineer II",
@@ -21150,13 +21143,6 @@
 "id": "md:https://clarios.wd5.myworkdayjobs.com/clarioscareers/job/United-States-Arizona-Yuma/Quality-Engineer-I_WD49916",
 "company": "Clarios",
 "title": "Quality Engineer I",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Quality-Engineering-Co-op_JR-051391",
-"company": "Brunswick",
-"title": "Mercury Marine: Quality Engineering C...",
 "rule": "not-intern",
 "tag": ""
 },
@@ -21203,9 +21189,9 @@
 "tag": ""
 },
 {
-"id": "md:https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Post-Silicon-Validation-and-Methodology-Engineer_JR2018268",
-"company": "NVIDIA",
-"title": "Post-Silicon Validation and Methodolo...",
+"id": "md:https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Columbia-South-Carolina/Mission-Critical-Customer-Quality-Engineer_JR-13390-1",
+"company": "Trane Technologies",
+"title": "Mission Critical Customer Quality Eng...",
 "rule": "not-intern",
 "tag": ""
 },
@@ -21217,9 +21203,9 @@
 "tag": ""
 },
 {
-"id": "md:https://tranetechnologies.wd12.myworkdayjobs.com/Trane_Technologies_Careers/job/Columbia-South-Carolina/Mission-Critical-Customer-Quality-Engineer_JR-13390-1",
-"company": "Trane Technologies",
-"title": "Mission Critical Customer Quality Eng...",
+"id": "md:https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Post-Silicon-Validation-and-Methodology-Engineer_JR2018268",
+"company": "NVIDIA",
+"title": "Post-Silicon Validation and Methodolo...",
 "rule": "not-intern",
 "tag": ""
 },
@@ -21329,6 +21315,13 @@
 "tag": ""
 },
 {
+"id": "md:https://carrier.wd5.myworkdayjobs.com/jobs/job/TX22-1501-Distribution-Drive-Fort-Worth-TX-76052-USA/Quality-Engineer_30215906-1",
+"company": "Carrier Global",
+"title": "Quality Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://thermofisher.wd5.myworkdayjobs.com/ThermoFisherCareers/job/Greenville-North-Carolina-USA/Quality-Engineer--QA--Validation_R-01350019",
 "company": "Thermo Fisher Scientific",
 "title": "Quality Engineer, QA  Validation",
@@ -21338,13 +21331,6 @@
 {
 "id": "md:https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Lansing-Michigan-United-States-of-America/Quality-Engineer_JR-202617123",
 "company": "General Motors",
-"title": "Quality Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://carrier.wd5.myworkdayjobs.com/jobs/job/TX22-1501-Distribution-Drive-Fort-Worth-TX-76052-USA/Quality-Engineer_30215906-1",
-"company": "Carrier Global",
 "title": "Quality Engineer",
 "rule": "not-intern",
 "tag": ""
@@ -21378,6 +21364,20 @@
 "tag": ""
 },
 {
+"id": "md:https://amat.wd1.myworkdayjobs.com/External/job/KalispellMT/Operations-and-Customer-Quality-Engineer-III_R2626395",
+"company": "Applied Materials",
+"title": "Operations and Customer Quality Engin...",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Quality-Engineer_R2622282",
+"company": "Applied Materials",
+"title": "Quality Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Hagerstown-Maryland-United-States/Quality-Engineer_R46443",
 "company": "Oshkosh Corporation",
 "title": "Quality Engineer",
@@ -21394,20 +21394,6 @@
 {
 "id": "md:https://jci.wd5.myworkdayjobs.com/JCI/job/Marinette-Wisconsin-United-States-of-America/Quality-Engineer_WD30277095-1",
 "company": "Johnson Controls",
-"title": "Quality Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://amat.wd1.myworkdayjobs.com/External/job/KalispellMT/Operations-and-Customer-Quality-Engineer-III_R2626395",
-"company": "Applied Materials",
-"title": "Operations and Customer Quality Engin...",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Quality-Engineer_R2622282",
-"company": "Applied Materials",
 "title": "Quality Engineer",
 "rule": "not-intern",
 "tag": ""
@@ -21430,6 +21416,13 @@
 "id": "md:https://job-boards.greenhouse.io/divergent/jobs/5397121008",
 "company": "Divergent Technologies",
 "title": "Quality Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Dayton-OH/Program-Quality-Engineer-II_R0030200-1",
+"company": "Sierra Nevada Corporation",
+"title": "Program Quality Engineer II",
 "rule": "not-intern",
 "tag": ""
 },
@@ -21458,13 +21451,6 @@
 "id": "md:https://cranecompany.wd5.myworkdayjobs.com/Careers/job/Fort-Walton-Beach-Florida/Quality-Engineer--Electronics_JR102327",
 "company": "Crane Co.",
 "title": "Quality Engineer- Electronics",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://snc.wd1.myworkdayjobs.com/SNC_External_Career_Site/job/Dayton-OH/Program-Quality-Engineer-II_R0030200-1",
-"company": "Sierra Nevada Corporation",
-"title": "Program Quality Engineer II",
 "rule": "not-intern",
 "tag": ""
 },
@@ -21525,11 +21511,11 @@
 "tag": ""
 },
 {
-"id": "md:https://jj.wd5.myworkdayjobs.com/jj/job/Cornelia-Georgia-United-States-of-America/Spring-2027-Quality-Engineering-Co-op_R-094937",
-"company": "Johnson & Johnson",
-"title": "Spring 2027 Quality Engineering Co-op",
-"rule": "season",
-"tag": "title"
+"id": "md:https://ncr.wd1.myworkdayjobs.com/ext_us/job/ATLANTA-GA-USA/SW-Quality-Engineer-III_R0158021-1",
+"company": "NCR Voyix",
+"title": "SW Quality Engineer III",
+"rule": "not-intern",
+"tag": ""
 },
 {
 "id": "md:https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Lafayette-Indiana/Quality-Engineer_R0000387237",
@@ -21537,6 +21523,13 @@
 "title": "Quality Engineer  (Early Talent)",
 "rule": "not-intern",
 "tag": ""
+},
+{
+"id": "md:https://jj.wd5.myworkdayjobs.com/jj/job/Cornelia-Georgia-United-States-of-America/Spring-2027-Quality-Engineering-Co-op_R-094937",
+"company": "Johnson & Johnson",
+"title": "Spring 2027 Quality Engineering Co-op",
+"rule": "season",
+"tag": "title"
 },
 {
 "id": "md:https://jci.wd5.myworkdayjobs.com/JCI/job/Lubbock-Texas-United-States-of-America/Supplier-Quality-Engineer_WD30276374",
@@ -21553,30 +21546,9 @@
 "tag": ""
 },
 {
-"id": "md:https://ncr.wd1.myworkdayjobs.com/ext_us/job/ATLANTA-GA-USA/SW-Quality-Engineer-III_R0158021-1",
-"company": "NCR Voyix",
-"title": "SW Quality Engineer III",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://leidos.wd5.myworkdayjobs.com/External/job/Colorado-Springs-CO/Quality-Engineer_R-00189990-1",
-"company": "Leidos",
-"title": "Quality Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://jobs.smartrecruiters.com/WesternDigital/744000143171017",
 "company": "Western Digital",
 "title": "Summer 2027 Intern - Software Enginee...",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.smartrecruiters.com/RESPECInc/744000012676985",
-"company": "RE/SPEC Inc.",
-"title": "Student Software Engineering Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -21585,6 +21557,13 @@
 "company": "RTX",
 "title": "Software Engineering Intern (Summer 2...",
 "rule": "defense",
+"tag": ""
+},
+{
+"id": "md:https://jobs.smartrecruiters.com/RESPECInc/744000012676985",
+"company": "RE/SPEC Inc.",
+"title": "Student Software Engineering Intern",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -21602,13 +21581,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/BoschGroup/744000142898574",
-"company": "Bosch Group",
-"title": "Powertrain Controls Software Engineer...",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56",
 "company": "SoloPulse",
 "title": "Software Engineer Intern/Co-Op - Fall...",
@@ -21623,6 +21595,20 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333",
+"company": "Palantir",
+"title": "Year at Palantir - Forward Deployed S...",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329",
+"company": "Palantir",
+"title": "Year at Palantir - Software Engineer,...",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3",
 "company": "Palantir",
 "title": "Year at Palantir - Forward Deployed S...",
@@ -21630,16 +21616,23 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d",
-"company": "Palantir",
-"title": "Year at Palantir - Forward Deployed S...",
+"id": "md:https://jobs.smartrecruiters.com/BoschGroup/744000142898574",
+"company": "Bosch Group",
+"title": "Powertrain Controls Software Engineer...",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019",
-"company": "Palantir",
-"title": "Year at Palantir - Forward Deployed S...",
+"id": "md:https://jobs.lever.co/layup/0b42f7ad-ebdc-4b4a-8fe6-47640f6dba53",
+"company": "Layup Parts",
+"title": "Software Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/persona.ai/6078fafd-ba34-4c89-b260-7eb15be3cb9c",
+"company": "Persona AI",
+"title": "Teleoperation Software Engineering In...",
 "rule": "not-intern",
 "tag": ""
 },
@@ -21647,13 +21640,6 @@
 "id": "md:https://jobs.ashbyhq.com/gritt/46af6e69-40fc-4e53-940e-a99757137523",
 "company": "Gritt Robotics",
 "title": "ML & Cloud Infrastructure Engineer In...",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/persona.ai/6078fafd-ba34-4c89-b260-7eb15be3cb9c",
-"company": "Persona AI",
-"title": "Teleoperation Software Engineering In...",
 "rule": "not-intern",
 "tag": ""
 },
@@ -21669,6 +21655,27 @@
 "company": "Ramp",
 "title": "Software Engineer Internship, Android",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/hermeus/51378fa0-0327-45fd-9420-b6e7d8b56440",
+"company": "Hermeus",
+"title": "Flight Software Engineering Intern - ...",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/hermeus/31513d2a-8e08-424b-b125-4f972fcfc805",
+"company": "Hermeus",
+"title": "Propulsion Test Engineering Intern - ...",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67",
+"company": "Hermeus",
+"title": "Software Engineering Intern (Command ...",
+"rule": "defense",
 "tag": ""
 },
 {
@@ -21704,34 +21711,6 @@
 "company": "Etched",
 "title": "Chip Simulation Software Intern",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/layup/0b42f7ad-ebdc-4b4a-8fe6-47640f6dba53",
-"company": "Layup Parts",
-"title": "Software Engineering Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/hermeus/51378fa0-0327-45fd-9420-b6e7d8b56440",
-"company": "Hermeus",
-"title": "Flight Software Engineering Intern - ...",
-"rule": "defense",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/hermeus/31513d2a-8e08-424b-b125-4f972fcfc805",
-"company": "Hermeus",
-"title": "Propulsion Test Engineering Intern - ...",
-"rule": "defense",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67",
-"company": "Hermeus",
-"title": "Software Engineering Intern (Command ...",
-"rule": "defense",
 "tag": ""
 },
 {
@@ -21819,18 +21798,18 @@
 "tag": ""
 },
 {
-"id": "md:https://jj.wd5.myworkdayjobs.com/jj/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op--Spring-2027_R-095741",
-"company": "Johnson & Johnson",
-"title": "Software Engineering Co-Op, Spring 2027",
-"rule": "season",
-"tag": "title"
-},
-{
 "id": "md:https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Quality-Engineering-Co-op_JR-051391",
 "company": "Brunswick",
 "title": "Mercury Marine: Quality Engineering C...",
 "rule": "not-intern",
 "tag": ""
+},
+{
+"id": "md:https://jj.wd5.myworkdayjobs.com/jj/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op--Spring-2027_R-095741",
+"company": "Johnson & Johnson",
+"title": "Software Engineering Co-Op, Spring 2027",
+"rule": "season",
+"tag": "title"
 },
 {
 "id": "md:https://leidos.wd5.myworkdayjobs.com/External/job/Odenton-MD/Systems-Engineering-Intern_R-00190647",
@@ -22141,6 +22120,20 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.lever.co/ifm-us/5342e333-61b9-406d-bfea-61a687a94d1f",
+"company": "Institute for Foundation Models",
+"title": "AI Research Internship - LLM",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/ifm-us/3eec355c-6dde-4a3e-8cdf-b2a8930d5678",
+"company": "Institute for Foundation Models",
+"title": "AI Research Internship - WM",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://jobs.ashbyhq.com/modal/38888294-6bc7-4dab-b072-6d0f0c2ed79a",
 "company": "Modal",
 "title": "ML Research Intern",
@@ -22165,20 +22158,6 @@
 "id": "md:https://jobs.ashbyhq.com/eragon/0b90ea4a-8684-4ae1-a7cc-c998db6e862e",
 "company": "Eragon",
 "title": "Applied AI Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/ifm-us/5342e333-61b9-406d-bfea-61a687a94d1f",
-"company": "Institute for Foundation Models",
-"title": "AI Research Internship - LLM",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/ifm-us/3eec355c-6dde-4a3e-8cdf-b2a8930d5678",
-"company": "Institute for Foundation Models",
-"title": "AI Research Internship - WM",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -22435,6 +22414,13 @@
 "tag": ""
 },
 {
+"id": "md:https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Milwaukee-WI/Data-Engineering-Intern-OR-Student-Co-Op_JR0000037453",
+"company": "Marmon Holdings",
+"title": "Data Engineering Intern OR Student Co-Op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/New-York/Data-Scientist-Intern_JR1001434",
 "company": "Ardian",
 "title": "Data Scientist Intern",
@@ -22445,13 +22431,6 @@
 "id": "md:https://interdigital.wd5.myworkdayjobs.com/InterDigital_Intern/job/Conshohocken-PA/Generative-AI-Implementation-Intern_REQ26-1093",
 "company": "InterDigital",
 "title": "Generative AI Implementation Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Milwaukee-WI/Data-Engineering-Intern-OR-Student-Co-Op_JR0000037453",
-"company": "Marmon Holdings",
-"title": "Data Engineering Intern OR Student Co-Op",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -22568,13 +22547,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/BoschGroup/744000126066306",
-"company": "Bosch Group",
-"title": "Electronics Engineering Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://jobs.lever.co/xsolla/1c0e5375-2352-4a2c-a816-48ddebbdd3d6",
 "company": "Xsolla",
 "title": "AI-First Engineering Intern",
@@ -22585,6 +22557,13 @@
 "id": "md:https://jobs.lever.co/xsolla/5d5fd6b3-d82f-437a-b251-abf4674ac874",
 "company": "Xsolla",
 "title": "AI-First Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://jobs.smartrecruiters.com/BoschGroup/744000126066306",
+"company": "Bosch Group",
+"title": "Electronics Engineering Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -22610,27 +22589,6 @@
 "tag": "title"
 },
 {
-"id": "md:https://jobs.ashbyhq.com/odin-dynamics/db6fe6ed-3517-423d-a757-3b6edea4b51d",
-"company": "Odin Dynamics",
-"title": "Fall Engineering Intern",
-"rule": "defense",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/mach/021b2c1d-5257-4dea-b06d-0c445de44d28",
-"company": "Mach Industries",
-"title": "Fall 2026 Engineering Internship",
-"rule": "defense",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/hermeus/6afd9372-2a91-4935-b7a5-7a1cf4eb960b",
-"company": "Hermeus",
-"title": "Test and Operations Engineering Inter...",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://jobs.lever.co/hermeus/a1f3aa29-72ea-4843-b2ea-801f3bef73ae",
 "company": "Hermeus",
 "title": "Manufacturing Engineering Intern - Fa...",
@@ -22645,10 +22603,31 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.lever.co/hermeus/6afd9372-2a91-4935-b7a5-7a1cf4eb960b",
+"company": "Hermeus",
+"title": "Test and Operations Engineering Inter...",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/odin-dynamics/db6fe6ed-3517-423d-a757-3b6edea4b51d",
+"company": "Odin Dynamics",
+"title": "Fall Engineering Intern",
+"rule": "defense",
+"tag": ""
+},
+{
 "id": "md:https://jobs.lever.co/field-ai/88f05d6e-ee93-4fc5-80cd-efe6854e22bc",
 "company": "Field AI",
 "title": "Mechanical Engineer, Robotics Hardwar...",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/mach/021b2c1d-5257-4dea-b06d-0c445de44d28",
+"company": "Mach Industries",
+"title": "Fall 2026 Engineering Internship",
+"rule": "defense",
 "tag": ""
 },
 {
@@ -22701,16 +22680,16 @@
 "tag": ""
 },
 {
-"id": "md:https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Mechanical-Engineering-Intern_JR-051390",
-"company": "Brunswick",
-"title": "Mercury Marine: Mechanical Engineerin...",
+"id": "md:https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Chicago-IL/Engineering-Intern_JR0000045242-3",
+"company": "Marmon Holdings",
+"title": "Continuous Improvement Engineering In...",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Chicago-IL/Engineering-Intern_JR0000045242-3",
-"company": "Marmon Holdings",
-"title": "Continuous Improvement Engineering In...",
+"id": "md:https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Mechanical-Engineering-Intern_JR-051390",
+"company": "Brunswick",
+"title": "Mercury Marine: Mechanical Engineerin...",
 "rule": "not-intern",
 "tag": ""
 },
@@ -23072,13 +23051,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jj.wd5.myworkdayjobs.com/jj/job/Cincinnati-Ohio-United-States-of-America/Design-and-Development-Co-Op-Spring-2027_R-095696",
-"company": "Johnson & Johnson",
-"title": "Design and Development, Co-Op Spring ...",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Industrial-Design-Intern_JR-051217",
 "company": "Brunswick",
 "title": "Mercury Marine: Industrial Design Intern",
@@ -23089,6 +23061,13 @@
 "id": "md:https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--UX-UI-Design-Intern_JR-051163",
 "company": "Brunswick",
 "title": "Mercury Marine: UX/UI Design Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://jj.wd5.myworkdayjobs.com/jj/job/Cincinnati-Ohio-United-States-of-America/Design-and-Development-Co-Op-Spring-2027_R-095696",
+"company": "Johnson & Johnson",
+"title": "Design and Development, Co-Op Spring ...",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -23177,13 +23156,6 @@
 "tag": ""
 },
 {
-"id": "md:https://leidos.wd5.myworkdayjobs.com/External/job/McLean-VA/Transportation-Engineering-Lab-Intern_R-00189519",
-"company": "Leidos",
-"title": "Transportation Engineering Lab Intern",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "md:https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Digital-Circuit-Design_JR2023504",
 "company": "NVIDIA",
 "title": "NVIDIA 2027 Internships: Digital Circ...",
@@ -23195,6 +23167,13 @@
 "company": "NVIDIA",
 "title": "NVIDIA 2027 Internships: Mixed Signal...",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://leidos.wd5.myworkdayjobs.com/External/job/McLean-VA/Transportation-Engineering-Lab-Intern_R-00189519",
+"company": "Leidos",
+"title": "Transportation Engineering Lab Intern",
+"rule": "defense",
 "tag": ""
 },
 {
@@ -23422,6 +23401,13 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.lever.co/MBRDNA/a5501534-a21b-4e47-a249-37dac374210f",
+"company": "Mercedes-Benz R&D North America",
+"title": "\u200b\u200bAI Program Manager Intern\u200b",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "md:https://jobs.ashbyhq.com/matx/d74c72e7-49ec-4a04-9405-04ef0f0d87c6",
 "company": "MatX",
 "title": "Laboratory Operations Intern",
@@ -23436,20 +23422,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/MBRDNA/a5501534-a21b-4e47-a249-37dac374210f",
-"company": "Mercedes-Benz R&D North America",
-"title": "\u200b\u200bAI Program Manager Intern\u200b",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/crestoperations/0c3cb17a-06f9-43aa-a623-c3588544f606",
-"company": "Crest Industries",
-"title": "Accounting Internship",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://jobs.lever.co/crestoperations/a4e1fa07-80f5-4a7d-989e-b755a7ac7d7e",
 "company": "Crest Industries",
 "title": "Finance Internship",
@@ -23460,6 +23432,13 @@
 "id": "md:https://jobs.lever.co/crestoperations/b155c903-f65d-489b-8ea0-d959af22c481",
 "company": "Crest Industries",
 "title": "Mid-State Accounting Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/crestoperations/0c3cb17a-06f9-43aa-a623-c3588544f606",
+"company": "Crest Industries",
+"title": "Accounting Internship",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -23499,6 +23478,20 @@
 "tag": ""
 },
 {
+"id": "md:https://magna.wd3.myworkdayjobs.com/Magna/job/Muncie-Indiana-US/Finance-Intern_R00258645",
+"company": "Magna",
+"title": "Finance Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Logistics-Intern--Hybrid-co-op_JR-051345-1",
+"company": "Brunswick",
+"title": "Logistics Intern /Hybrid co-op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Summer-2027-Supply-Chain-Materials-Project-Manager-Intern--Master-s--Santa-Clara--CA-_R2627074",
 "company": "Applied Materials",
 "title": "Summer 2027 Supply Chain Materials Pr...",
@@ -23520,13 +23513,6 @@
 "tag": ""
 },
 {
-"id": "md:https://magna.wd3.myworkdayjobs.com/Magna/job/Muncie-Indiana-US/Finance-Intern_R00258645",
-"company": "Magna",
-"title": "Finance Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Supply-Chain-Analyst-Intern_R265511",
 "company": "Analog Devices",
 "title": "Supply Chain Analyst Intern",
@@ -23537,13 +23523,6 @@
 "id": "md:https://bbinsurance.wd1.myworkdayjobs.com/careers/job/Daytona-Beach-FL-USA/Corporate-Finance-Intern-Rotation_R26_0000002895",
 "company": "Brown & Brown Insurance",
 "title": "Corporate Finance Intern Rotation",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Logistics-Intern--Hybrid-co-op_JR-051345-1",
-"company": "Brunswick",
-"title": "Logistics Intern /Hybrid co-op",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -23884,6 +23863,20 @@
 "tag": ""
 },
 {
+"id": "md:https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Software-Platform-Intern--Summer-2027-_01870216",
+"company": "RTX",
+"title": "Software Platform Intern (Summer 2027)",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "md:https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C27--1727-Cityline-Dr--CITYLINE-C27/Software-Platform-Intern--Summer-2027-_01870211",
+"company": "RTX",
+"title": "Software Platform Intern (Summer 2027)",
+"rule": "defense",
+"tag": ""
+},
+{
 "id": "md:https://jobs.smartrecruiters.com/RedBull/744000117670568",
 "company": "Red Bull",
 "title": "2026 Internship, Summer - Creative Video",
@@ -23905,6 +23898,13 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.smartrecruiters.com/NorthwesternMutual/743999658679004",
+"company": "Northwestern Mutual",
+"title": "Actuarial Summer Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://jobs.smartrecruiters.com/NorthwesternMutual/85751711",
 "company": "Northwestern Mutual",
 "title": "Application Development Internship",
@@ -23916,27 +23916,6 @@
 "company": "Northwestern Mutual",
 "title": "Cyber-Security Internship",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.smartrecruiters.com/NorthwesternMutual/85751589",
-"company": "Northwestern Mutual",
-"title": "Systems Administration Internship",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Software-Platform-Intern--Summer-2027-_01870216",
-"company": "RTX",
-"title": "Software Platform Intern (Summer 2027)",
-"rule": "defense",
-"tag": ""
-},
-{
-"id": "md:https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C27--1727-Cityline-Dr--CITYLINE-C27/Software-Platform-Intern--Summer-2027-_01870211",
-"company": "RTX",
-"title": "Software Platform Intern (Summer 2027)",
-"rule": "defense",
 "tag": ""
 },
 {
@@ -23961,24 +23940,24 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/llnl/3743990013795232",
+"id": "md:https://jobs.smartrecruiters.com/llnl/3743990013801396",
 "company": "LLNL",
-"title": "Government Funded Student Intern (WDT...",
+"title": "Computing Graduate Student Intern - F...",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/llnl/3743990013626030",
+"id": "md:https://jobs.smartrecruiters.com/llnl/3743990013801386",
 "company": "LLNL",
-"title": "Materials Science Division Undergradu...",
+"title": "Computing Undergraduate Student Inter...",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/llnl/3743990013250937",
+"id": "md:https://jobs.smartrecruiters.com/llnl/3743990013795232",
 "company": "LLNL",
-"title": "Materials Science Division Graduate I...",
-"rule": "new-grad",
+"title": "Government Funded Student Intern (WDT...",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -23996,6 +23975,13 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.lever.co/xsolla/09a7b7ec-7c95-491e-9d1b-0da77f2f8873",
+"company": "Xsolla",
+"title": "Internship Opportunity",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://jobs.smartrecruiters.com/BoschGroup/744000129558629",
 "company": "Bosch Group",
 "title": "Purchasing Intern",
@@ -24007,13 +23993,6 @@
 "company": "Bosch Group",
 "title": "Training Technology Digital Solutions...",
 "rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/xsolla/09a7b7ec-7c95-491e-9d1b-0da77f2f8873",
-"company": "Xsolla",
-"title": "Internship Opportunity",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -24038,13 +24017,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990012915326",
-"company": "AbbVie",
-"title": "Veteran SkillBridge Program Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://jobs.lever.co/pivotal/370cafec-79df-4875-b6ea-317b5b0ed97a",
 "company": "Pivotal Software",
 "title": "Internship, Maintenance, Repair & Ove...",
@@ -24059,9 +24031,30 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990012915326",
+"company": "AbbVie",
+"title": "Veteran SkillBridge Program Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/MachinaLabs/95d39682-8861-4b82-bb18-c985f280f415",
+"company": "Machina Labs",
+"title": "Technical Project Manager, Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "md:https://jobs.ashbyhq.com/gritt/5c4737ce-f546-453b-b30d-791a121fb9fd",
 "company": "Gritt Robotics",
 "title": "Robot Learning Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/life/2282f1ca-c456-46a2-9ba3-05524e4ce91b",
+"company": "Life.Church (YouVersion)",
+"title": "Life.Church Campus Internship",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -24073,11 +24066,11 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/rilla/450c6d61-15d8-40b8-8f72-bfbe49935831",
-"company": "Rilla",
-"title": "Generalist Intern, Fall 2026",
-"rule": "season",
-"tag": "title"
+"id": "md:https://jobs.lever.co/ifm-us/1a09231e-44f2-4c82-a7a1-793bd159d68d",
+"company": "Institute for Foundation Models",
+"title": "Inference Optimization Intern \u2013 Perfo...",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "md:https://jobs.ashbyhq.com/skydio/3444dc8a-1b2a-4bb1-9bfb-15252d2a25e5",
@@ -24085,6 +24078,13 @@
 "title": "Operations Program Management Intern",
 "rule": "irrelevant",
 "tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/rilla/450c6d61-15d8-40b8-8f72-bfbe49935831",
+"company": "Rilla",
+"title": "Generalist Intern, Fall 2026",
+"rule": "season",
+"tag": "title"
 },
 {
 "id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990014191096",
@@ -24150,23 +24150,9 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/MachinaLabs/95d39682-8861-4b82-bb18-c985f280f415",
-"company": "Machina Labs",
-"title": "Technical Project Manager, Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/life/2282f1ca-c456-46a2-9ba3-05524e4ce91b",
-"company": "Life.Church (YouVersion)",
-"title": "Life.Church Campus Internship",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/ifm-us/1a09231e-44f2-4c82-a7a1-793bd159d68d",
-"company": "Institute for Foundation Models",
-"title": "Inference Optimization Intern \u2013 Perfo...",
+"id": "md:https://jobs.lever.co/crestoperations/9afdac38-29ca-40be-8bd3-314869633cad",
+"company": "Crest Industries",
+"title": "Internships - All Disciplines",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -24174,13 +24160,6 @@
 "id": "md:https://jobs.lever.co/crestoperations/234d5be4-a214-4568-a681-d60f15624488",
 "company": "Crest Industries",
 "title": "CIS/CS Internship",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/crestoperations/9afdac38-29ca-40be-8bd3-314869633cad",
-"company": "Crest Industries",
-"title": "Internships - All Disciplines",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -24318,6 +24297,48 @@
 "tag": ""
 },
 {
+"id": "md:https://marmon.wd501.myworkdayjobs.com/Marmon_MSIP_Internships/job/Chicago-IL/Engineering-Co-op_JR0000045243-3",
+"company": "Marmon Holdings",
+"title": "Continuous Improvement Engineering Co-op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://magna.wd3.myworkdayjobs.com/Magna/job/Milton-Ontario-CA/Finance-Co-op-Student_R00258630",
+"company": "Magna",
+"title": "Finance Co-op Student",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Materials-Engineering-Co-op_JR-051138",
+"company": "Brunswick",
+"title": "Mercury Marine: Materials Engineering...",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Manufacturing-Industrial-Engineering-Co-op_JR-051389",
+"company": "Brunswick",
+"title": "Mercury Marine: Manufacturing/Industr...",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/Pittsburgh-PA-15212-320-E-N-Ave/Pharmacy-Intern_J286699",
+"company": "Highmark Health",
+"title": "Pharmacy Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://curtisswright.wd1.myworkdayjobs.com/CW_External_Career_Site/job/US-NC-Charlotte-ST-170/Engineer-Intern_JR12661",
+"company": "Curtiss-Wright",
+"title": "Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://rb.wd5.myworkdayjobs.com/FRS/job/Richmond-VA/Federal-Reserve-Summer-2027-Technical-Internship_R-0000033194",
 "company": "The Federal Reserve System",
 "title": "Federal Reserve Summer 2027 Technical...",
@@ -24329,13 +24350,6 @@
 "company": "The Federal Reserve System",
 "title": "Federal Reserve Summer Business 2027 ...",
 "rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://magna.wd3.myworkdayjobs.com/Magna/job/Milton-Ontario-CA/Finance-Co-op-Student_R00258630",
-"company": "Magna",
-"title": "Finance Co-op Student",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -24363,27 +24377,6 @@
 "id": "md:https://tt.wd503.myworkdayjobs.com/thorntontomasetti/job/Newark-NJ-USA/Structural-Engineer-Intern_R7214",
 "company": "Thornton Tomasetti",
 "title": "Structural Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Materials-Engineering-Co-op_JR-051138",
-"company": "Brunswick",
-"title": "Mercury Marine: Materials Engineering...",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://brunswick.wd1.myworkdayjobs.com/search/job/Fond-du-Lac-WI/Mercury-Marine--Manufacturing-Industrial-Engineering-Co-op_JR-051389",
-"company": "Brunswick",
-"title": "Mercury Marine: Manufacturing/Industr...",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://curtisswright.wd1.myworkdayjobs.com/CW_External_Career_Site/job/US-NC-Charlotte-ST-170/Engineer-Intern_JR12661",
-"company": "Curtiss-Wright",
-"title": "Engineer Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -28098,13 +28091,6 @@
 "tag": ""
 },
 {
-"id": "wd:nxp:",
-"company": "NXP",
-"title": "",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:nxp:/job/Bucharest/DevOps-Intern_R-10066169",
 "company": "NXP",
 "title": "DevOps Intern",
@@ -28298,13 +28284,6 @@
 "company": "NXP",
 "title": "Web Application Developer Intern",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:nxp:/job/Shanghai-JingAn/XMLNAME-2026-Intern---Product-Marketing---DES_R-10058896-1",
-"company": "NXP",
-"title": "2026 Intern - Product Marketing - DES",
-"rule": "seniority",
 "tag": ""
 },
 {
