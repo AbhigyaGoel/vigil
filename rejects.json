@@ -27454,6 +27454,125 @@
 "tag": ""
 },
 {
+"id": "wd:amat:/job/Santa-ClaraCA/Process-Engineer-III_R2621447",
+"company": "Applied Materials",
+"title": "Process Engineer III",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/LeixlipIRL/Field-Service---Early-Career-Engineers_R2617457",
+"company": "Applied Materials",
+"title": "Field Service - Early Career Engineers",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/RehovotISR/Planner_R2519119",
+"company": "Applied Materials",
+"title": "Planner",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Quality---Reliability-Systems-Engineer----E3-_R2620088",
+"company": "Applied Materials",
+"title": "Quality & Reliability Systems Engineer - (E3)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/LinkouTWN/Software--Technical--Support-Engineer-II----E2-_R2619469",
+"company": "Applied Materials",
+"title": "Software (Technical) Support Engineer II - (E2)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/RehovotISR/System-Integration-Engineer_R2612347",
+"company": "Applied Materials",
+"title": "System Integration Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/HudsonMA/Process-Engineer-II--New-College-Grad---Adv-Degree--Cambridge--MA-_R2610394",
+"company": "Applied Materials",
+"title": "Process Engineer II, New College Grad - Adv Degree (Cambridge, MA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Buyer--B2-_R2611123",
+"company": "Applied Materials",
+"title": "Materials Project Management",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Industrial-Engineering-Intern_R2614287",
+"company": "Applied Materials",
+"title": "Industrial Engineering Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/XMLNAME-2026-Summer-Intern---Physics---AI-modeling-Engineering_R2616095",
+"company": "Applied Materials",
+"title": "2026 Summer Intern - Physics & AI modeling Engineering",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Account-Technologist--New-College-Graduate---Early-in-Career-_R2615686",
+"company": "Applied Materials",
+"title": "Account Technologist (New College Graduate / Early in Career)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/TrevisoITA/Supplier-Industrial-Engineer--Internship-_R2613391",
+"company": "Applied Materials",
+"title": "Supplier Industrial Engineer (Internship)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/XMLNAME-2026-NCG---Process-Technician---Undergrad--Santa-Clara--CA-_R2519923-1",
+"company": "Applied Materials",
+"title": "2026 NCG - Process Technician - Undergrad (Santa Clara, CA)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Technical-Program-Manager-New-College-Grad---MS-PHD-Degree--Santa-Clara--CA-_R2518866",
+"company": "Applied Materials",
+"title": "Technical Program Manager New College Grad - MS/PHD Degree (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/XMLNAME-2026-Summer-Mechanical-Engineer-Intern---Masters--Santa-Clara--CA-_R2519236",
+"company": "Applied Materials",
+"title": "2026 Summer Mechanical Engineer Intern - Masters (Santa Clara, CA)",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Global-Supply-Chain-New-College-Graduate_R2410708",
+"company": "Applied Materials",
+"title": "Global Supply Chain New College Graduate",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Chemist---New-College-Graduate_R2512395",
+"company": "Applied Materials",
+"title": "Chemist - New College Graduate",
+"rule": "new-grad",
+"tag": ""
+},
+{
 "id": "wd:marvell:/job/Cordoba-Argentina/Program-Management-Intern_2502670",
 "company": "Marvell",
 "title": "Program Management Intern",
@@ -31045,14 +31164,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705254005",
+"id": "gh:inversionspace:4709691005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709691005",
+"id": "gh:inversionspace:4705254005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
@@ -35476,14 +35595,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8419277002",
+"id": "gh:relativity:8701334002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8701334002",
+"id": "gh:relativity:8419277002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -35749,14 +35868,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8464747002",
+"id": "gh:relativity:8728512002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8728512002",
+"id": "gh:relativity:8464747002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
@@ -37373,14 +37492,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:4948176008",
+"id": "gh:stratolaunch:4928724008",
 "company": "Stratolaunch",
 "title": "Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:4928724008",
+"id": "gh:stratolaunch:4948176008",
 "company": "Stratolaunch",
 "title": "Electrical Engineer",
 "rule": "not-intern",
