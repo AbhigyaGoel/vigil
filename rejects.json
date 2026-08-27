@@ -4333,13 +4333,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:4e9240aa-a379-4464-a140-2114eff885a2",
-"company": "Navy Federal",
-"title": "Frontend Application Engineer Intern",
-"rule": "season",
-"tag": "Winter 2026"
-},
-{
 "id": "ls:913714da-b33d-46f8-89fa-c78911521433",
 "company": "GE Healthcare",
 "title": "Field Engineer Apprentice",
@@ -4758,13 +4751,6 @@
 "title": "Applied Scientist / Research Engineer Intern",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:47396485-020d-4723-a0eb-84364424bc72",
-"company": "Onware",
-"title": "Full Stack Developer-Intern Opportunity",
-"rule": "season",
-"tag": "Summer 2026"
 },
 {
 "id": "ls:0b289d87-b4b1-4056-8003-0a76181dcb52",
@@ -5394,13 +5380,6 @@
 "company": "Trillium",
 "title": "Equity Trader Intern",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:18762fe0-77c9-4c38-9e4c-d649c204e975",
-"company": "GE Healthcare",
-"title": "Surgery Field Engineer Apprentice",
-"rule": "seniority",
 "tag": ""
 },
 {
@@ -7353,13 +7332,6 @@
 "id": "ls:1f3a2e50-1559-4143-8c9e-f2a8d5462388",
 "company": "Diversified Automation",
 "title": "Software Engineering Co-op",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
-"id": "ls:1924d443-3b61-47d4-addf-d6db4308935b",
-"company": "The Federal Reserve System",
-"title": "Graduate Statistical Analysis Intern - Regional & Community Outreach",
 "rule": "season",
 "tag": "Fall 2026"
 },
@@ -9471,6 +9443,13 @@
 "tag": "Fall 2026"
 },
 {
+"id": "ls:093ca891-a330-4763-aeb5-b6195cb0df79",
+"company": "KeyBank",
+"title": "Analytics and Quantitative Modeling Intern - Analytics & Quantitative Modeling",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:b51925a9-5a99-4ef7-9294-2514bc956ac5",
 "company": "GSK",
 "title": "AI Commercial Strategy & Activation Co-op - AI Strike Team",
@@ -11340,6 +11319,13 @@
 "tag": "Fall 2026"
 },
 {
+"id": "ls:179e11a1-a541-4256-a6c3-e36544663802",
+"company": "StudyFetch",
+"title": "AI Research Assistant - Machine Learning & AI",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:f49f2253-11f4-4f56-bf6b-3ed2334cb2bc",
 "company": "Miami University",
 "title": "Undergraduate Research Assistant",
@@ -11753,13 +11739,6 @@
 "tag": ""
 },
 {
-"id": "ls:43d2af12-58ef-4a09-9b0c-eca848f6b3ee",
-"company": "Lawrence Livermore National Laboratory (LLNL)",
-"title": "Environment, Safety and Health Undergraduate Intern - Fall 2026",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:d56dfd5d-55e2-40d6-8702-5198fabd6208",
 "company": "AMD",
 "title": "Data Analyst Intern/Co-op",
@@ -11842,13 +11821,6 @@
 "title": "Machine Learning Intern/Co-op - Machine Learning - Artificial Intelligence",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:2019cb04-1f7e-44e2-b190-7cfbd53661c1",
-"company": "Texas Instruments",
-"title": "Layout Design Intern",
-"rule": "season",
-"tag": "Fall 2026"
 },
 {
 "id": "ls:646c1eeb-a6b8-40f6-95c7-581780504d2e",
@@ -12143,6 +12115,13 @@
 "title": "Embedded Controls Intern",
 "rule": "season",
 "tag": "Spring 2026"
+},
+{
+"id": "ls:16d31201-b650-445a-bd1c-acf6b02d80b7",
+"company": "Capacity",
+"title": "Speech Technology Intern",
+"rule": "season",
+"tag": "Fall 2026"
 },
 {
 "id": "ls:e1faa8ac-d3b5-4a76-acfb-818860446711",
@@ -14033,13 +14012,6 @@
 "title": "Business Technology Solutions Intern - Data & Software Engineering",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:0bb11c52-e4bf-4eb0-b1e8-68d76b7aefe1",
-"company": "Brunswick",
-"title": "Transducer Engineering Intern",
-"rule": "season",
-"tag": "Summer 2026"
 },
 {
 "id": "ls:27a6ad01-fe1e-43d5-b073-0910ba54f479",
@@ -25123,6 +25095,13 @@
 "tag": ""
 },
 {
+"id": "wd:nvidia:/job/Taiwan-Taipei/Diagnostic-Network-Software-Engineer--RDSS-Intern-_JR2024300",
+"company": "NVIDIA",
+"title": "Diagnostic Network Software Engineer (RDSS Intern)",
+"rule": "geo",
+"tag": ""
+},
+{
 "id": "wd:nvidia:/job/China-Shanghai/System-Software-Engineer---Autonomous-Vehicles_JR2022599",
 "company": "NVIDIA",
 "title": "System Software Engineer - Autonomous Vehicles",
@@ -31360,14 +31339,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705254005",
+"id": "gh:inversionspace:4709691005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709691005",
+"id": "gh:inversionspace:4705254005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
@@ -35791,14 +35770,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8419277002",
+"id": "gh:relativity:8701334002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8701334002",
+"id": "gh:relativity:8419277002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -36064,14 +36043,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8464747002",
+"id": "gh:relativity:8728512002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8728512002",
+"id": "gh:relativity:8464747002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
@@ -37688,14 +37667,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:4948176008",
+"id": "gh:stratolaunch:4928724008",
 "company": "Stratolaunch",
 "title": "Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:4928724008",
+"id": "gh:stratolaunch:4948176008",
 "company": "Stratolaunch",
 "title": "Electrical Engineer",
 "rule": "not-intern",
