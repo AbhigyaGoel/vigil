@@ -3108,13 +3108,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:42d36fe6-4ad6-4a59-ae82-a57bca2b40a4",
-"company": "Altom Transport",
-"title": "Software Development Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:33da215d-313a-45b7-8ad3-bde21b250ffe",
 "company": "Palantir",
 "title": "Software Engineer Intern - Production Infrastructure",
@@ -8463,13 +8456,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:c0bc8e2c-204a-461b-bd1b-7d720fbcbd77",
-"company": "Quantbot Technologies",
-"title": "Quantitative Developer Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:20ba2faa-8c06-4328-b38a-a1ff32e5b009",
 "company": "Quantbot Technologies",
 "title": "Quantitative Researcher Intern",
@@ -12264,13 +12250,6 @@
 "tag": "Winter 2027"
 },
 {
-"id": "ls:1a96028f-58d2-45a5-82b1-7ab93a23a719",
-"company": "The Walt Disney Company",
-"title": "Systems Software Engineer Intern",
-"rule": "season",
-"tag": "Winter 2027"
-},
-{
 "id": "ls:f5178797-4efa-456f-aa5f-fa10203f6b9d",
 "company": "The Walt Disney Company",
 "title": "Geographic Information Systems Intern - GIS",
@@ -12780,13 +12759,6 @@
 "title": "Capital Markets Intern - Summer 2027",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:b1eb0fff-6852-49b0-a60f-334931313442",
-"company": "Intuitive Surgical",
-"title": "Computer Vision Engineer Intern - Fall 2026",
-"rule": "season",
-"tag": "Fall 2026"
 },
 {
 "id": "ls:d1ce5eca-7313-4eee-b01a-088c01f2a85a",
@@ -15089,6 +15061,111 @@
 "company": "Mastercard",
 "title": "Data Scientist Intern - Summer 2027",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:4132a5dd-ff75-427d-90b2-c4ea6238574f",
+"company": "Tesla",
+"title": "Optimus Technician Intern - Tesla AI",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:f12db905-e4bc-477c-b339-4c9306913d42",
+"company": "Booz Allen",
+"title": "Data Scientist Intern - Summer Games",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:9388e6b1-f360-486e-b324-4bde10bf52a9",
+"company": "Booz Allen",
+"title": "Data Scientist Intern - Summer Games",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:7cef83de-ff10-493e-abfb-9def6ada06d0",
+"company": "Booz Allen",
+"title": "AI Software Developer Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:e56eca03-b173-46e6-8a0b-5f5eaa9df1f7",
+"company": "Vertiv",
+"title": "Service Technology Research Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:c36ab777-30bb-4843-9f8e-eb51269d6083",
+"company": "Booz Allen",
+"title": "Software Developer Intern - University - 2027 Summer Games",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:b12c41ea-1e48-4da2-94c5-dd6437b77911",
+"company": "The Walt Disney Company",
+"title": "Systems Application Development and Sustainment Intern",
+"rule": "season",
+"tag": "Spring 2027"
+},
+{
+"id": "ls:2988cc76-e6a5-4e83-83b9-4b0ea07da23a",
+"company": "The Walt Disney Company",
+"title": "Software Engineer Intern",
+"rule": "season",
+"tag": "Spring 2027"
+},
+{
+"id": "ls:7fd82049-4a30-48f9-ab6c-519e8c2b11fd",
+"company": "Brunswick",
+"title": "Software Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:1a7cd887-6c00-45f3-bf3d-87fa5aebe90f",
+"company": "Brunswick",
+"title": "Reinforcement Learning Intern - Boating Intelligence Design Lab",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:de4cd0c6-05b6-4e77-9479-486a018a8683",
+"company": "Booz Allen",
+"title": "Data Scientist Intern - University",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:c7d3b494-6183-4201-ae92-c7ddbae1ae27",
+"company": "Booz Allen",
+"title": "Software Developer Intern - Summer Games",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:ab6cb65d-01c3-421d-bc8b-48584e8d4cba",
+"company": "Booz Allen",
+"title": "Data Scientist Intern - University",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:1253e2b5-8a22-4c0e-bcd9-e44d32ecfc90",
+"company": "Booz Allen",
+"title": "Software Developer Intern - University",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:0b789ff7-5e0b-41ba-98b2-35370afdd223",
+"company": "Booz Allen",
+"title": "Software Developer Intern - University",
+"rule": "defense",
 "tag": ""
 },
 {
@@ -31759,14 +31836,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705193005",
+"id": "gh:inversionspace:4692769005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4692769005",
+"id": "gh:inversionspace:4705193005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
@@ -32312,14 +32389,14 @@
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7767461003",
+"id": "gh:launchdarkly:7861151003",
 "company": "LaunchDarkly",
 "title": "Backend Engineer, Flag Delivery",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7861151003",
+"id": "gh:launchdarkly:7767461003",
 "company": "LaunchDarkly",
 "title": "Backend Engineer, Flag Delivery",
 "rule": "not-intern",
@@ -35672,14 +35749,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8612945002",
+"id": "gh:relativity:8455890002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8455890002",
+"id": "gh:relativity:8612945002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
@@ -35735,14 +35812,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8463038002",
+"id": "gh:relativity:8687398002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8687398002",
+"id": "gh:relativity:8463038002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
@@ -36015,14 +36092,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8701334002",
+"id": "gh:relativity:8419277002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8419277002",
+"id": "gh:relativity:8701334002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -36267,14 +36344,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8606781002",
+"id": "gh:relativity:8633353002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8633353002",
+"id": "gh:relativity:8606781002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -36659,14 +36736,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8595007002",
+"id": "gh:relativity:8715897002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8715897002",
+"id": "gh:relativity:8595007002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -37128,14 +37205,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4382380009",
+"id": "gh:rocketems:4382385009",
 "company": "Rocket EMS",
 "title": "HR Director",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4382385009",
+"id": "gh:rocketems:4382380009",
 "company": "Rocket EMS",
 "title": "HR Director",
 "rule": "not-intern",
@@ -38150,14 +38227,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5398750008",
+"id": "gh:stratolaunch:5238458008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5238458008",
+"id": "gh:stratolaunch:5398750008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
@@ -38220,14 +38297,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5204815008",
+"id": "gh:stratolaunch:5159784008",
 "company": "Stratolaunch",
 "title": "Systems Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5159784008",
+"id": "gh:stratolaunch:5204815008",
 "company": "Stratolaunch",
 "title": "Systems Engineer",
 "rule": "not-intern",
