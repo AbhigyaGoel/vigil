@@ -336,13 +336,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:83c142e0-55fd-47b2-bbc2-e6813317112c",
-"company": "Hunt Oil Company",
-"title": "Software Engineer Intern - Summer 2026",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:f3ce0494-256c-4884-acf3-f8db79e4216d",
 "company": "Bio-Techne",
 "title": "Hardware Engineering Intern",
@@ -1540,11 +1533,25 @@
 "tag": "Summer 2026"
 },
 {
+"id": "ls:3cb45823-f475-44c7-aaca-4a1335faf6ff",
+"company": "Salesforce",
+"title": "Software Engineer Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "ls:c7f1c784-ada4-411c-85aa-060cd89e52c6",
 "company": "Squarepoint Capital",
 "title": "Software Developer Intern",
 "rule": "season",
 "tag": "Fall 2026"
+},
+{
+"id": "ls:452daa00-79b9-40ff-902b-6a5c3ddc4357",
+"company": "Salesforce",
+"title": "Software Engineer Intern",
+"rule": "seniority",
+"tag": ""
 },
 {
 "id": "ls:729f884e-638b-4dcb-aac8-3d44f316cac9",
@@ -1928,13 +1935,6 @@
 "id": "ls:8e36a779-899f-4b82-a1ef-0a881ba99667",
 "company": "American Enterprise Institute",
 "title": "Intern: Economic Policy",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
-"id": "ls:f878e10c-cdc3-43e4-ad04-ce59b74620e5",
-"company": "American Enterprise Institute",
-"title": "Housing Center Intern",
 "rule": "season",
 "tag": "Fall 2026"
 },
@@ -5015,6 +5015,13 @@
 "id": "ls:ce1d842e-89a6-4905-a608-3eca02ddd233",
 "company": "Virtu Financial",
 "title": "Quantitative Trading Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:800e06ea-4a8a-4db5-a93a-7aae82cfac49",
+"company": "Virtu Financial",
+"title": "Software Engineer Intern - Software Engineer",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -10976,13 +10983,6 @@
 "tag": "Spring 2027"
 },
 {
-"id": "ls:56a21d95-83ac-422a-a120-c42135cb3748",
-"company": "Detroit Lions",
-"title": "Quantitative Research Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:73598b4d-3993-4121-856f-56624bff87b9",
 "company": "Autodesk",
 "title": "AI Developer Intern - Creative Technology",
@@ -11856,13 +11856,6 @@
 "title": "Data Science Risk Analyst Co-op Intern",
 "rule": "season",
 "tag": "Winter 2027"
-},
-{
-"id": "ls:4542fdc9-ae91-4050-aa44-0ec742dd1dbe",
-"company": "Interdigital",
-"title": "Information Systems / Salesforce Intern",
-"rule": "seniority",
-"tag": ""
 },
 {
 "id": "ls:01d8233d-2aa0-4e40-9c48-0069512ee4ae",
@@ -14000,6 +13993,13 @@
 "tag": "Fall 2026"
 },
 {
+"id": "ls:39304d92-2b98-45ee-9a39-8f4f5ac43185",
+"company": "Ameren",
+"title": "Meteorology Intern - Crisis Management",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:0113b8ff-9c81-4a2c-9914-397567a8f13f",
 "company": "L3Harris Technologies",
 "title": "Software Engineer Intern",
@@ -15067,6 +15067,27 @@
 "id": "ls:c9c57cf7-62ec-4642-86c1-ff4f0656d937",
 "company": "CSX",
 "title": "Technology Intern - Paid",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:5fb362f5-5857-42ff-923b-348eb5582bc7",
+"company": "TIAA",
+"title": "Investment Infrastructure & Technology Intern - IIT",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:f72cae66-cd1d-43f5-899c-f4bf16fd4709",
+"company": "Mastercard",
+"title": "Data Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:466b932d-3cf0-4669-af9f-fa3d799a5a18",
+"company": "Mastercard",
+"title": "Data Scientist Intern - Summer 2027",
 "rule": "irrelevant",
 "tag": ""
 },
