@@ -238,6 +238,13 @@
 "tag": "Summer 2026"
 },
 {
+"id": "ls:35fa2d9c-f299-480e-9fe2-b35b1808c7aa",
+"company": "Exa Labs",
+"title": "Software Engineer Intern",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
 "id": "ls:45e6cd12-c55d-47f0-b650-b2c4b472ce45",
 "company": "Grant Thornton",
 "title": "Tax Technology Intern - Summer 2027",
@@ -6795,13 +6802,6 @@
 "title": "Media Studio Technology Consultant",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:a8de70cc-4a6f-4f62-a560-4b7baef84d9b",
-"company": "Vitalant",
-"title": "Data Analytics Intern",
-"rule": "season",
-"tag": "Summer 2026"
 },
 {
 "id": "ls:f010c8ee-806d-4f1c-96a4-0ad83bd900a7",
@@ -15006,6 +15006,34 @@
 "title": "Investment Solutions Intern - Undergraduate & Master's",
 "rule": "season",
 "tag": "Fall 2026"
+},
+{
+"id": "ls:07dba309-b9d0-493d-88e2-38957e2b4a65",
+"company": "Blockhouse",
+"title": "Applied AI Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:fe8d6250-c4c0-4fb3-b256-8ad1b487a711",
+"company": "Fab2",
+"title": "Embedded Software Engineer Intern - Winter",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:dd9872ea-6a55-4724-9b58-908b225567fd",
+"company": "Fab2",
+"title": "Automation Software Engineer Intern - Winter",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:0859ff2b-28b7-4854-90bb-9147bf5be674",
+"company": "Fab2",
+"title": "Rust Software Engineer Intern - Chip Design Tools - Winter",
+"rule": "season",
+"tag": "Winter 2026"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -31668,14 +31696,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705254005",
+"id": "gh:inversionspace:4709691005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709691005",
+"id": "gh:inversionspace:4705254005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
@@ -38171,14 +38199,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5238458008",
+"id": "gh:stratolaunch:5398750008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5398750008",
+"id": "gh:stratolaunch:5238458008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
@@ -38241,14 +38269,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5159784008",
+"id": "gh:stratolaunch:5204815008",
 "company": "Stratolaunch",
 "title": "Systems Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5204815008",
+"id": "gh:stratolaunch:5159784008",
 "company": "Stratolaunch",
 "title": "Systems Engineer",
 "rule": "not-intern",
