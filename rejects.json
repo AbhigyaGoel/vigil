@@ -4662,13 +4662,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:44d9733e-5e40-42b0-bed0-471fb6dfa64e",
-"company": "Egra",
-"title": "AI Researcher Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:6c0ab4e5-360b-4ac9-870b-63679e2b79d0",
 "company": "NeoCognition",
 "title": "Research Intern",
@@ -5311,13 +5304,6 @@
 "title": "Software Engineer Intern",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:d1b5909b-5773-4d89-92a7-604b04556e03",
-"company": "Magna",
-"title": "R&D-Computer Vision Engineer Intern",
-"rule": "season",
-"tag": "Fall 2026"
 },
 {
 "id": "ls:bb4315b8-bb8b-468f-932a-30ee22b6b85c",
@@ -9821,6 +9807,13 @@
 "tag": ""
 },
 {
+"id": "ls:b87e0cb1-c096-4944-b321-820a7452bc86",
+"company": "KeyBank",
+"title": "Technology Track Intern - Key Technology and Services",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:baf0289f-d552-40cc-956a-c2184364f85a",
 "company": "Xantium",
 "title": "Quantitative Developer Intern",
@@ -10832,6 +10825,13 @@
 "id": "ls:79fa5677-0cf7-4393-b826-2aa0806bbcd9",
 "company": "NVIDIA",
 "title": "Ph.D. Research Graphics and Simulation Intern - Graphics and Simulation",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:be628885-fde3-4b73-bb0a-58e11856e97b",
+"company": "NVIDIA",
+"title": "Software Engineering Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -14133,6 +14133,13 @@
 "tag": ""
 },
 {
+"id": "ls:c5d402c5-8735-4b94-86b9-a3a00c94c027",
+"company": "RTX",
+"title": "Engine Performance Intern",
+"rule": "defense",
+"tag": ""
+},
+{
 "id": "ls:6c4b58d2-9722-4496-844f-1f28eef54ff2",
 "company": "RTX",
 "title": "Customer Data Management and Analysis Intern",
@@ -14574,6 +14581,13 @@
 "tag": "Fall 2026"
 },
 {
+"id": "ls:bc8cef80-2478-4abe-8166-7f6a226c4edd",
+"company": "Medtronic",
+"title": "Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:572cd5db-77eb-4ca7-a201-14826e971f48",
 "company": "Ciena",
 "title": "Layout Design Intern - Fall 2026",
@@ -14663,13 +14677,6 @@
 "title": "Community Impact Intern",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:e11e5194-bb9a-4c4d-b11d-dc670a511c17",
-"company": "American University",
-"title": "Research Assistant - Student",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:615b2214-ffde-44ff-b1af-d08cea6fe865",
@@ -31682,14 +31689,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705254005",
+"id": "gh:inversionspace:4709691005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709691005",
+"id": "gh:inversionspace:4705254005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
@@ -38185,14 +38192,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5238458008",
+"id": "gh:stratolaunch:5398750008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5398750008",
+"id": "gh:stratolaunch:5238458008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
@@ -38255,14 +38262,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5159784008",
+"id": "gh:stratolaunch:5204815008",
 "company": "Stratolaunch",
 "title": "Systems Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5204815008",
+"id": "gh:stratolaunch:5159784008",
 "company": "Stratolaunch",
 "title": "Systems Engineer",
 "rule": "not-intern",
