@@ -7903,13 +7903,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:2751af83-9f4f-48b8-8aba-6f534e9681e7",
-"company": "Atoms",
-"title": "Software Engineer Intern - Summer 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:c89c7602-1daa-44bd-a2e1-6c6fa55deb73",
 "company": "Axon",
 "title": "Firmware Engineer Intern - Platform Firmware",
@@ -11317,13 +11310,6 @@
 "title": "Robot Operator Internship",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:74d636b4-f64c-4e45-87b4-df75cb3d1fee",
-"company": "Freeform",
-"title": "Materials Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:bbda7e7c-7de0-4db9-91d9-c5964f94704a",
@@ -14983,6 +14969,62 @@
 "id": "ls:47aa8cc5-ef85-4dfe-8a06-89c593ea541a",
 "company": "Hoffman Construction",
 "title": "Data Analyst Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:ec27d2f4-0e82-4c2b-b8c2-fc8a682baed1",
+"company": "Deloitte",
+"title": "AI Innovation Summer Scholar Intern - AI Innovation",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:bdbf71c5-d680-4923-90cf-5550fdf3679d",
+"company": "Bland AI",
+"title": "Machine Learning Research Intern - Audio",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:a6026254-bdf4-49e3-82e7-94a39fd78c7d",
+"company": "Emerson Electric",
+"title": "Application Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:9da7c688-402f-4666-9f23-7ab1a3ed0fc4",
+"company": "Repsol",
+"title": "Geology & Geophysics Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:1e8a10ee-4f7e-4a42-84fe-6fcdbcb739b9",
+"company": "Lennox International",
+"title": "MES & Industrial Automation Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:445f9e1d-29ba-4695-b3b0-60111cfbd03b",
+"company": "TELUS Digital",
+"title": "Software Engineer Intern - US - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:25fa3cf0-19e1-48c4-a10b-cd91ace49138",
+"company": "TELUS Digital",
+"title": "Product Analyst Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:275b40b6-35f1-4ef6-9c1b-741a35b72c1f",
+"company": "Tencent",
+"title": "Multimodal Algorithm Researcher Intern - Omni-Modal",
 "rule": "season",
 "tag": "Fall 2026"
 },
@@ -31675,14 +31717,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705254005",
+"id": "gh:inversionspace:4709691005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709691005",
+"id": "gh:inversionspace:4705254005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
@@ -38178,14 +38220,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5238458008",
+"id": "gh:stratolaunch:5398750008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5398750008",
+"id": "gh:stratolaunch:5238458008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
@@ -38248,14 +38290,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5159784008",
+"id": "gh:stratolaunch:5204815008",
 "company": "Stratolaunch",
 "title": "Systems Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5204815008",
+"id": "gh:stratolaunch:5159784008",
 "company": "Stratolaunch",
 "title": "Systems Engineer",
 "rule": "not-intern",
