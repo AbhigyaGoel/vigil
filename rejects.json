@@ -7889,13 +7889,6 @@
 "tag": "Spring 2027"
 },
 {
-"id": "ls:44950f93-2f35-41ce-9bbc-d82279022aa6",
-"company": "The Nuclear Company",
-"title": "AI Software Engineer Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:ca66c41c-e5ec-46c9-b384-86a95ed3dbc6",
 "company": "Autodesk",
 "title": "Cloud Developer Intern - Interactive Graphics, Media & Entertainment",
@@ -11760,6 +11753,13 @@
 "tag": ""
 },
 {
+"id": "ls:e31170bc-ea00-45b7-bce9-7b1c8ecbe643",
+"company": "General Motors",
+"title": "Lighting Software Development & Test Co-op",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
 "id": "ls:c4bfe952-8e9a-4599-966c-127295b128ad",
 "company": "Brunswick",
 "title": "Software Engineer Intern",
@@ -11821,6 +11821,13 @@
 "title": "Data Science Risk Analyst Co-op Intern",
 "rule": "season",
 "tag": "Winter 2027"
+},
+{
+"id": "ls:4542fdc9-ae91-4050-aa44-0ec742dd1dbe",
+"company": "Interdigital",
+"title": "Information Systems / Salesforce Intern",
+"rule": "seniority",
+"tag": ""
 },
 {
 "id": "ls:01d8233d-2aa0-4e40-9c48-0069512ee4ae",
@@ -14763,13 +14770,6 @@
 "tag": ""
 },
 {
-"id": "ls:bdbf71c5-d680-4923-90cf-5550fdf3679d",
-"company": "Bland AI",
-"title": "Machine Learning Research Intern - Audio",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:a6026254-bdf4-49e3-82e7-94a39fd78c7d",
 "company": "Emerson Electric",
 "title": "Application Engineer Intern",
@@ -15173,6 +15173,83 @@
 "company": "Leidos",
 "title": "Data Science Intern",
 "rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:b451dc51-db5e-45b8-a1f7-c5ba8d0e411a",
+"company": "Northwood Space",
+"title": "Site Engineer Intern - Sites",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:0cac198d-5b59-411b-8ddf-3138668da722",
+"company": "Clerkie",
+"title": "Software Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:f6b7f447-ad5a-434e-bf7f-b120f36843eb",
+"company": "Northwood Space",
+"title": "Supply Chain Data & Analytics Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:209c40be-ff27-480f-b6f4-d2ce152109bb",
+"company": "Northwood Space",
+"title": "Fleet Reliability Intern - Summer Internship",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:1795d6df-fcca-45dc-836d-41a82dc36894",
+"company": "Intuit",
+"title": "Software Engineer Intern - Full Stack",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:25daa740-61f1-4b2b-b16f-ef6798135d16",
+"company": "Bland AI",
+"title": "Machine Learning Research Intern - Audio",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:a61f9f72-9c0c-4aae-b389-6c806edc606a",
+"company": "Schweitzer Engineering Laboratories",
+"title": "Engineering Intern - Protection Systems Forensics",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:f9f97fdb-31b2-402a-8522-918cec708267",
+"company": "Epic Games",
+"title": "Web Engineer Intern - Tools & Portals",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:bcea96d4-d109-4a9e-84e7-1f444b1f2e7b",
+"company": "Philips",
+"title": "Data AI/ML Engineer Intern - Image Guided Therapy Devices - Software R&D",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:09239b96-d26a-4691-b9ab-9b8b442caa9f",
+"company": "Charles Schwab",
+"title": "Software Engineering Intern - Technology",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:93f4951e-c280-428f-8f6f-a0611c97b96e",
+"company": "Charles Schwab",
+"title": "Data Engineering Intern - Data Engineering",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -31885,14 +31962,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705255005",
+"id": "gh:inversionspace:4709690005",
 "company": "Inversion Space",
 "title": "Senior Harness Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709690005",
+"id": "gh:inversionspace:4705255005",
 "company": "Inversion Space",
 "title": "Senior Harness Engineer",
 "rule": "not-intern",
@@ -32417,14 +32494,14 @@
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7861151003",
+"id": "gh:launchdarkly:7767461003",
 "company": "LaunchDarkly",
 "title": "Backend Engineer, Flag Delivery",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7767461003",
+"id": "gh:launchdarkly:7861151003",
 "company": "LaunchDarkly",
 "title": "Backend Engineer, Flag Delivery",
 "rule": "not-intern",
@@ -35805,14 +35882,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8455890002",
+"id": "gh:relativity:8612945002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8612945002",
+"id": "gh:relativity:8455890002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
@@ -35868,14 +35945,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8463038002",
+"id": "gh:relativity:8687398002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8687398002",
+"id": "gh:relativity:8463038002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
@@ -36414,14 +36491,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8464747002",
+"id": "gh:relativity:8728512002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8728512002",
+"id": "gh:relativity:8464747002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
@@ -37177,14 +37254,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4373147009",
+"id": "gh:rocketems:4381810009",
 "company": "Rocket EMS",
 "title": "2D X-Ray Operator (Second Shift)",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4381810009",
+"id": "gh:rocketems:4373147009",
 "company": "Rocket EMS",
 "title": "2D X-Ray Operator (Second Shift)",
 "rule": "not-intern",
@@ -38269,14 +38346,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5238458008",
+"id": "gh:stratolaunch:5398750008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5398750008",
+"id": "gh:stratolaunch:5238458008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
@@ -38339,14 +38416,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5159784008",
+"id": "gh:stratolaunch:5204815008",
 "company": "Stratolaunch",
 "title": "Systems Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5204815008",
+"id": "gh:stratolaunch:5159784008",
 "company": "Stratolaunch",
 "title": "Systems Engineer",
 "rule": "not-intern",
