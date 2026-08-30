@@ -11375,13 +11375,6 @@
 "tag": ""
 },
 {
-"id": "ls:deafc16b-b9d8-4b84-b748-2dafcb25b2c7",
-"company": "Ontario Teachers' Pension Plan",
-"title": "Business Insights and Analytics Intern - Member Services",
-"rule": "season",
-"tag": "Winter 2027"
-},
-{
 "id": "ls:2cdf6089-4c84-4731-8216-3c7ace960f00",
 "company": "Ontario Teachers' Pension Plan",
 "title": "Capital Markets Intern - Quantitative Strategies and Research",
@@ -11443,6 +11436,13 @@
 "title": "Investments Intern - Total Fund Management - Global Trading",
 "rule": "season",
 "tag": "Winter 2027"
+},
+{
+"id": "ls:ad17e33e-a964-417b-b1e2-d91d4c0f6146",
+"company": "Ontario Teachers' Pension Plan",
+"title": "Investments Intern",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "ls:590cbdfc-ce9f-4a0b-96e5-ec715e077d97",
@@ -14306,13 +14306,6 @@
 "title": "Geology Co-op",
 "rule": "season",
 "tag": "Winter 2027"
-},
-{
-"id": "ls:d51eb451-9f91-449d-8c96-b84c35fbfb16",
-"company": "Marsh",
-"title": "Summer Analyst - Data and Analytics",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:30f88aa1-c8c9-4587-808f-a3954162cf45",
@@ -23408,51 +23401,23 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3",
+"id": "md:https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
 "company": "Palantir",
-"title": "Year at Palantir - Forward Deployed S...",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d",
-"company": "Palantir",
-"title": "Year at Palantir - Forward Deployed S...",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019",
-"company": "Palantir",
-"title": "Year at Palantir - Forward Deployed S...",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/layup/0b42f7ad-ebdc-4b4a-8fe6-47640f6dba53",
-"company": "Layup Parts",
-"title": "Software Engineering Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67",
-"company": "Hermeus",
-"title": "Software Engineering Intern (Command ...",
+"title": "Software Engineer, Internship",
 "rule": "defense",
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/hermeus/51378fa0-0327-45fd-9420-b6e7d8b56440",
-"company": "Hermeus",
-"title": "Flight Software Engineering Intern - ...",
+"id": "md:https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
+"company": "Palantir",
+"title": "Software Engineer, Internship",
 "rule": "defense",
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/hermeus/31513d2a-8e08-424b-b125-4f972fcfc805",
-"company": "Hermeus",
-"title": "Propulsion Test Engineering Intern - ...",
+"id": "md:https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
+"company": "Palantir",
+"title": "Software Engineer, Internship",
 "rule": "defense",
 "tag": ""
 },
@@ -23461,6 +23426,13 @@
 "company": "Bosch Group",
 "title": "Powertrain Controls Software Engineer...",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/layup/0b42f7ad-ebdc-4b4a-8fe6-47640f6dba53",
+"company": "Layup Parts",
+"title": "Software Engineering Intern",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -23513,6 +23485,27 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.lever.co/hermeus/a3a1f0ea-6a4f-42e5-81c8-3b34dac22a67",
+"company": "Hermeus",
+"title": "Software Engineering Intern (Command ...",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/hermeus/31513d2a-8e08-424b-b125-4f972fcfc805",
+"company": "Hermeus",
+"title": "Propulsion Test Engineering Intern - ...",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/hermeus/51378fa0-0327-45fd-9420-b6e7d8b56440",
+"company": "Hermeus",
+"title": "Flight Software Engineering Intern - ...",
+"rule": "defense",
+"tag": ""
+},
+{
 "id": "md:https://jobs.ashbyhq.com/kos.ai/efab6ffb-9658-47f7-8b5f-a295c55957d3",
 "company": "kos.ai",
 "title": "Software Engineer Intern",
@@ -23541,6 +23534,13 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.ashbyhq.com/beaconsoftware/2452d342-a069-4eda-adbe-9df296808ca1",
+"company": "Beacon Software",
+"title": "Software Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://jobs.ashbyhq.com/centerfield/1d7eacc1-37f7-478c-9b0a-fa7974f1a9e4",
 "company": "Centerfield",
 "title": "Frontend Engineer Intern (6 month int...",
@@ -23550,13 +23550,6 @@
 {
 "id": "md:https://jobs.ashbyhq.com/base-power/5353ea33-57d4-46fa-9a96-e392a3f841bc",
 "company": "Base Power",
-"title": "Software Engineering Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/beaconsoftware/2452d342-a069-4eda-adbe-9df296808ca1",
-"company": "Beacon Software",
 "title": "Software Engineering Intern",
 "rule": "irrelevant",
 "tag": ""
@@ -24269,6 +24262,13 @@
 "tag": "title"
 },
 {
+"id": "md:https://interdigital.wd5.myworkdayjobs.com/InterDigital_Intern/job/Conshohocken-PA/Generative-AI-Implementation-Intern_REQ26-1093",
+"company": "InterDigital",
+"title": "Generative AI Implementation Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/New-York/Data-Scientist-Intern_JR1001434",
 "company": "Ardian",
 "title": "Data Scientist Intern",
@@ -24287,13 +24287,6 @@
 "company": "Nelnet",
 "title": "Agentic AI Intern- Marketing and Comm...",
 "rule": "seniority",
-"tag": ""
-},
-{
-"id": "md:https://interdigital.wd5.myworkdayjobs.com/InterDigital_Intern/job/Conshohocken-PA/Generative-AI-Implementation-Intern_REQ26-1093",
-"company": "InterDigital",
-"title": "Generative AI Implementation Intern",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -24367,34 +24360,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/hermeus/6afd9372-2a91-4935-b7a5-7a1cf4eb960b",
-"company": "Hermeus",
-"title": "Test and Operations Engineering Inter...",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/hermeus/a1f3aa29-72ea-4843-b2ea-801f3bef73ae",
-"company": "Hermeus",
-"title": "Manufacturing Engineering Intern - Fa...",
-"rule": "defense",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/hermeus/6b6afa4a-b37d-4033-ac3b-e6501a951b98",
-"company": "Hermeus",
-"title": "Mechanical Engineering Intern  - Fall...",
-"rule": "defense",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/field-ai/88f05d6e-ee93-4fc5-80cd-efe6854e22bc",
-"company": "Field AI",
-"title": "Mechanical Engineer, Robotics Hardwar...",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://jobs.ashbyhq.com/unify/6a5b351f-8893-435f-951f-2458b24b6d3c",
 "company": "Unify",
 "title": "GTM Engineering Intern",
@@ -24416,10 +24381,38 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.lever.co/hermeus/6afd9372-2a91-4935-b7a5-7a1cf4eb960b",
+"company": "Hermeus",
+"title": "Test and Operations Engineering Inter...",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/hermeus/a1f3aa29-72ea-4843-b2ea-801f3bef73ae",
+"company": "Hermeus",
+"title": "Manufacturing Engineering Intern - Fa...",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/hermeus/6b6afa4a-b37d-4033-ac3b-e6501a951b98",
+"company": "Hermeus",
+"title": "Mechanical Engineering Intern  - Fall...",
+"rule": "defense",
+"tag": ""
+},
+{
 "id": "md:https://jobs.ashbyhq.com/mach/021b2c1d-5257-4dea-b06d-0c445de44d28",
 "company": "Mach Industries",
 "title": "Fall 2026 Engineering Internship",
 "rule": "defense",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/field-ai/88f05d6e-ee93-4fc5-80cd-efe6854e22bc",
+"company": "Field AI",
+"title": "Mechanical Engineer, Robotics Hardwar...",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -25158,20 +25151,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/crestoperations/0c3cb17a-06f9-43aa-a623-c3588544f606",
-"company": "Crest Industries",
-"title": "Accounting Internship",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/crestoperations/a4e1fa07-80f5-4a7d-989e-b755a7ac7d7e",
-"company": "Crest Industries",
-"title": "Finance Internship",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://jobs.ashbyhq.com/matx/d74c72e7-49ec-4a04-9405-04ef0f0d87c6",
 "company": "MatX",
 "title": "Laboratory Operations Intern",
@@ -25182,6 +25161,20 @@
 "id": "md:https://jobs.ashbyhq.com/etched/a0a1671e-15d4-474c-8227-97fe16ade553",
 "company": "Etched",
 "title": "Finance Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/crestoperations/0c3cb17a-06f9-43aa-a623-c3588544f606",
+"company": "Crest Industries",
+"title": "Accounting Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/crestoperations/a4e1fa07-80f5-4a7d-989e-b755a7ac7d7e",
+"company": "Crest Industries",
+"title": "Finance Internship",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -25767,6 +25760,13 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.lever.co/life/2282f1ca-c456-46a2-9ba3-05524e4ce91b",
+"company": "Life.Church (YouVersion)",
+"title": "Life.Church Campus Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://jobs.lever.co/MachinaLabs/95d39682-8861-4b82-bb18-c985f280f415",
 "company": "Machina Labs",
 "title": "Technical Project Manager, Intern",
@@ -25774,9 +25774,9 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/life/2282f1ca-c456-46a2-9ba3-05524e4ce91b",
-"company": "Life.Church (YouVersion)",
-"title": "Life.Church Campus Internship",
+"id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990012915326",
+"company": "AbbVie",
+"title": "Veteran SkillBridge Program Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -25788,23 +25788,9 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/crestoperations/9afdac38-29ca-40be-8bd3-314869633cad",
-"company": "Crest Industries",
-"title": "Internships - All Disciplines",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/crestoperations/234d5be4-a214-4568-a681-d60f15624488",
-"company": "Crest Industries",
-"title": "CIS/CS Internship",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990012915326",
-"company": "AbbVie",
-"title": "Veteran SkillBridge Program Intern",
+"id": "md:https://jobs.ashbyhq.com/vendelux/ec44a794-9622-444e-a789-491fa12726dd",
+"company": "Vendelux",
+"title": "Fall Data Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -25816,16 +25802,23 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/vendelux/ec44a794-9622-444e-a789-491fa12726dd",
-"company": "Vendelux",
-"title": "Fall Data Intern",
+"id": "md:https://jobs.ashbyhq.com/uncountable/b9495eab-c04c-4333-b338-7dabdbddcaae",
+"company": "Uncountable",
+"title": "Full-Stack Intern",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/uncountable/b9495eab-c04c-4333-b338-7dabdbddcaae",
-"company": "Uncountable",
-"title": "Full-Stack Intern",
+"id": "md:https://jobs.ashbyhq.com/rilla/450c6d61-15d8-40b8-8f72-bfbe49935831",
+"company": "Rilla",
+"title": "Generalist Intern, Fall 2026",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "md:https://jobs.ashbyhq.com/skydio/3444dc8a-1b2a-4bb1-9bfb-15252d2a25e5",
+"company": "Skydio",
+"title": "Operations Program Management Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -25842,20 +25835,6 @@
 "title": "2027 Packaging Co-Op (Jan - June)",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/skydio/3444dc8a-1b2a-4bb1-9bfb-15252d2a25e5",
-"company": "Skydio",
-"title": "Operations Program Management Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/rilla/450c6d61-15d8-40b8-8f72-bfbe49935831",
-"company": "Rilla",
-"title": "Generalist Intern, Fall 2026",
-"rule": "season",
-"tag": "title"
 },
 {
 "id": "md:https://jobs.ashbyhq.com/leland/94347c0b-273b-4c17-9987-563912629633",
@@ -25893,23 +25872,37 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/etched/904ddf46-55fc-4a8f-8b49-f32cfe88116a",
+"id": "md:https://jobs.ashbyhq.com/etched/0321523b-f0c3-44cd-9c46-cf318a1cad9e",
 "company": "Etched",
-"title": "Electrical Platform Intern",
+"title": "GTM Intern",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/etched/ce683632-421a-4ef9-8664-b253356969a3",
+"id": "md:https://jobs.ashbyhq.com/etched/639fe410-56a4-44aa-ac93-8ee7c10c7d75",
 "company": "Etched",
-"title": "SI/PI Intern",
+"title": "Growth Ops Intern",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/etched/5f1f5739-3b58-467c-b351-ff183c94d96d",
+"id": "md:https://jobs.ashbyhq.com/etched/6f23713f-5409-45b7-aae8-adb8710cdbc3",
 "company": "Etched",
-"title": "DFT Intern",
+"title": "Inference Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/crestoperations/234d5be4-a214-4568-a681-d60f15624488",
+"company": "Crest Industries",
+"title": "CIS/CS Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/crestoperations/9afdac38-29ca-40be-8bd3-314869633cad",
+"company": "Crest Industries",
+"title": "Internships - All Disciplines",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -26072,13 +26065,6 @@
 "company": "HP Inc",
 "title": "Imaging and Print Business Internship",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://rb.wd5.myworkdayjobs.com/frs/job/Richmond-VA/Federal-Reserve-Summer-2027-Technical-Internship_R-0000033194",
-"company": "Federal Reserve System",
-"title": "Federal Reserve Summer Technical 2027...",
-"rule": "not-intern",
 "tag": ""
 },
 {
