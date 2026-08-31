@@ -77,6 +77,13 @@
 "tag": "Spring 2026"
 },
 {
+"id": "ls:128e7ee0-9110-45e1-992d-270f1fa2be3d",
+"company": "Boston Consulting Group",
+"title": "Data Scientist Intern",
+"rule": "season",
+"tag": "Spring 2026"
+},
+{
 "id": "ls:c7c7dafc-ce0e-4ed2-92f7-ed3bc461bbb7",
 "company": "Black Box",
 "title": "AI Intern USA",
@@ -1393,13 +1400,6 @@
 "tag": ""
 },
 {
-"id": "ls:358237a9-7866-40f8-98fc-affcbbc15651",
-"company": "Astranis",
-"title": "Flight Software Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:607b4415-ebae-4f35-9ca9-6d14d2ce86ce",
 "company": "Apptronik",
 "title": "Robotics Software Intern - Real-Time Controls",
@@ -2140,6 +2140,13 @@
 "title": "Content Management Automation Student Technician",
 "rule": "seniority",
 "tag": ""
+},
+{
+"id": "ls:0271dfee-afcf-4a95-ad39-156710edc8ce",
+"company": "Rippling",
+"title": "Machine Learning Software Engineer Intern",
+"rule": "season",
+"tag": "Winter 2027"
 },
 {
 "id": "ls:80d17130-e8af-42ec-9d13-451a3db46199",
@@ -4431,6 +4438,13 @@
 "tag": "Fall 2026"
 },
 {
+"id": "ls:0b289d87-b4b1-4056-8003-0a76181dcb52",
+"company": "SpreeAI ",
+"title": "Software Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
 "id": "ls:b307b311-8a8c-4096-bd3b-0d244f3423f0",
 "company": "SpreeAI ",
 "title": "Machine Learning Engineer Intern - Computer Vision/Multimodal/Generative AI",
@@ -4471,6 +4485,13 @@
 "title": "Software Engineer Intern",
 "rule": "irrelevant",
 "tag": ""
+},
+{
+"id": "ls:045f6eba-6e94-4fbc-85c8-1ba3affc21d4",
+"company": "LightGuide, Inc.",
+"title": "Product Innovation Co-op",
+"rule": "season",
+"tag": "Fall 2026"
 },
 {
 "id": "ls:5c68573e-df1f-407a-99e4-7a870ec61813",
@@ -5512,6 +5533,13 @@
 "id": "ls:ca4a90fa-f101-407e-a127-80abe844feab",
 "company": "Zello",
 "title": "Analytics Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:18f9ec09-a50a-4e02-bb0b-47cdeb648ccc",
+"company": "Brio Water Technology",
+"title": "AI Automation & Business Analytics Intern - Rotational Program",
 "rule": "season",
 "tag": "Fall 2026"
 },
@@ -9084,13 +9112,6 @@
 "title": "Firmware Engineering Intern",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:ab4dacc0-3b0f-4a64-8351-f7ee4198e2ab",
-"company": "Motorola",
-"title": "Android Platform Software Engineer Intern - Summer 2027",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:65197f8f-da14-4232-bf6e-d1107a25b6b7",
@@ -14021,13 +14042,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:e11e5194-bb9a-4c4d-b11d-dc670a511c17",
-"company": "American University",
-"title": "Research Assistant - Student",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:615b2214-ffde-44ff-b1af-d08cea6fe865",
 "company": "Tesla",
 "title": "Software Engineer Intern - Information Security - Spring 2027",
@@ -15061,13 +15075,6 @@
 "company": "TikTok",
 "title": "Product Manager Intern - Business Integrity",
 "rule": "seniority",
-"tag": ""
-},
-{
-"id": "ls:983f63dc-0908-47bb-85eb-e4bcb5c17386",
-"company": "BP",
-"title": "Finance & Risk Intern - Supply, Trading, & Shipping - Finance & Risk",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -35077,14 +35084,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705255005",
+"id": "gh:inversionspace:4709690005",
 "company": "Inversion Space",
 "title": "Senior Harness Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709690005",
+"id": "gh:inversionspace:4705255005",
 "company": "Inversion Space",
 "title": "Senior Harness Engineer",
 "rule": "not-intern",
@@ -35609,14 +35616,14 @@
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7861151003",
+"id": "gh:launchdarkly:7767461003",
 "company": "LaunchDarkly",
 "title": "Backend Engineer, Flag Delivery",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7767461003",
+"id": "gh:launchdarkly:7861151003",
 "company": "LaunchDarkly",
 "title": "Backend Engineer, Flag Delivery",
 "rule": "not-intern",
@@ -38374,6 +38381,13 @@
 "tag": ""
 },
 {
+"id": "gh:relativity:8766875002",
+"company": "Relativity Space",
+"title": "Manufacturing Engineer II, Mechanical Assembly",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "gh:relativity:8694713002",
 "company": "Relativity Space",
 "title": "Manufacturing Engineer II, Primary Structures",
@@ -38913,14 +38927,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8612945002",
+"id": "gh:relativity:8455890002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8455890002",
+"id": "gh:relativity:8612945002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
@@ -39508,14 +39522,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8633353002",
+"id": "gh:relativity:8606781002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8606781002",
+"id": "gh:relativity:8633353002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -39900,14 +39914,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8595007002",
+"id": "gh:relativity:8715897002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8715897002",
+"id": "gh:relativity:8595007002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -40404,14 +40418,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4381807009",
+"id": "gh:rocketems:4385481009",
 "company": "Rocket EMS",
 "title": "Production Expeditor",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4385481009",
+"id": "gh:rocketems:4381807009",
 "company": "Rocket EMS",
 "title": "Production Expeditor",
 "rule": "not-intern",
@@ -40460,14 +40474,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4378265009",
+"id": "gh:rocketems:4385303009",
 "company": "Rocket EMS",
 "title": "Rework Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4385303009",
+"id": "gh:rocketems:4378265009",
 "company": "Rocket EMS",
 "title": "Rework Technician",
 "rule": "not-intern",
