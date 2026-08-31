@@ -29,6 +29,7 @@ import time
 import urllib.request
 import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from hashlib import sha256
 from pathlib import Path
@@ -89,6 +90,81 @@ def curated_relevant(title):
     if INCLUDE and INCLUDE.search(title or ""):   # explicit hardware/robotics signal
         return True
     return not CURATED_OFFTARGET.search(title or "")
+
+
+# ---------------- dedup keys ----------------
+# Two repeat shapes to kill:
+#  (A) cross-feed: the SAME role arrives via different feeds/URLs (e.g. a greenhouse
+#      role once as ?gh_jid=NNN&utm_source=Simplify and once as a clean board URL).
+#      Raw-id dedup misses it because each feed mints its own id. canon_key() pins the
+#      stable ATS job-id (or a tracking-stripped URL) so both collapse to one.
+#  (B) cross-system: a curated company (worker-owned when SKIP_ATS=1) also surfaces in
+#      an aggregator feed here, so the user gets it once from the worker and once from
+#      watch.py under a different display name. worker_owned() drops our copy.
+_CURATED = {"gh": {s.lower() for s in CFG.get("greenhouse", [])},
+            "lv": {s.lower() for s in CFG.get("lever", [])},
+            "ab": {s.lower() for s in CFG.get("ashby", [])}}
+
+
+def _norm_name(s):
+    return re.sub(r"[^a-z0-9]", "", (s or "").lower())
+
+
+_CURATED_NAMES = {_norm_name(s) for slugs in _CURATED.values() for s in slugs}
+_CURATED_NAMES |= {_norm_name(a) for a in CFG.get("curated_aliases", [])}
+_CURATED_NAMES.discard("")
+
+_ATS_URL = [
+    ("gh", re.compile(r"(?:job-)?boards(?:-api)?\.greenhouse\.io/(?:v1/boards/)?([^/?#]+)", re.I)),
+    ("lv", re.compile(r"(?:jobs|api)\.lever\.co/(?:v0/postings/)?([^/?#]+)", re.I)),
+    ("ab", re.compile(r"(?:jobs|api)\.ashbyhq\.com/(?:posting-api/job-board/)?([^/?#]+)", re.I)),
+]
+
+
+def _ats_slug(url):
+    for plat, rx_ in _ATS_URL:
+        m = rx_.search(url or "")
+        if m:
+            return plat, m.group(1).lower()
+    return None
+
+
+def worker_owned(job):
+    """True when the Cloudflare worker already delivers this company (curated tier).
+    Matches either an ATS slug embedded in the URL or the normalized company name."""
+    hit = _ats_slug(job.get("url", ""))
+    if hit and hit[1] in _CURATED.get(hit[0], ()):
+        return True
+    return _norm_name(job.get("company", "")) in _CURATED_NAMES
+
+
+_GH_ID = re.compile(r"(?:gh_jid=|greenhouse\.io/(?:[^/]+/)*jobs/)(\d+)", re.I)
+_UUID = re.compile(
+    r"(?:lever\.co|ashbyhq\.com)/[^?#]*?"
+    r"([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})", re.I)
+_TRACK = re.compile(r"^(?:utm_|gh_src|ref$|ref=|source=|src=)", re.I)
+
+
+def canon_key(url):
+    """A stable identity for a posting, independent of which feed surfaced it.
+    Prefers the ATS job-id; falls back to a tracking-param-stripped URL."""
+    if not url:
+        return ""
+    m = _GH_ID.search(url)
+    if m:
+        return "k:gh:" + m.group(1)
+    m = _UUID.search(url)
+    if m:
+        return "k:uuid:" + m.group(1).lower()
+    u = re.sub(r"^https?://(?:www\.)?", "", url.strip(), flags=re.I)
+    base, _, q = u.split("#")[0].lower().partition("?")
+    base = base.rstrip("/")
+    if q:
+        keep = [p for p in q.split("&") if p and not _TRACK.match(p)]
+        u = base + ("?" + "&".join(keep) if keep else "")
+    else:
+        u = base
+    return "k:u:" + u
 
 
 CATS = [c.lower() for c in CFG.get("include_categories", [])]
@@ -446,15 +522,28 @@ def discovered_boards(cfg):
     if len(picked) > cap:
         print(f"WARN discovery capped at {cap} (matched {len(picked)})", file=sys.stderr)
         picked = picked[:cap]
-    for ats, slug, name in picked:
+
+    # Fetch the boards concurrently: these are independent read-only GETs to different
+    # hosts, so serial fetching (the old ~0.15s-spaced loop) was the run's biggest time
+    # sink. Materialize each board in a worker thread; ex.map preserves plan order so the
+    # downstream classify/enrich/dedup pass stays deterministic. Network only - no shared
+    # mutable state is touched in here (enrichment/seen run single-threaded in scan()).
+    def fetch_board(item):
+        ats, slug, name = item
+        out = []
         try:
             for job in _ATS_FN[ats](slug):
                 job["company"] = name     # real name (not slug) for the notification
                 job["policy"] = "bulk"    # discovered != vetted -> keyword-gated, still Tier-A-able
-                yield job
+                out.append(job)
         except Exception as e:
             print(f"WARN discovery {ats}:{slug} -> {repr(e)[:60]}", file=sys.stderr)
-        time.sleep(0.15)
+        return out
+
+    workers = max(1, min(disc.get("fetch_workers", 8), len(picked)))
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        for board_jobs in ex.map(fetch_board, picked):
+            yield from board_jobs
 
 
 def build_plan():
@@ -568,10 +657,12 @@ def _load(path, default):
     return default
 
 
-LOGIC_VERSION = "v2.7"  # bump when filter/scoring CODE changes -> forces a silent reseed
+LOGIC_VERSION = "v2.8"  # bump when filter/scoring CODE changes -> forces a silent reseed
 # v2.6: added zapplyjobs low-latency feeds + Tier-B prompt-push.
 # v2.7: added registry-based auto-discovery of hardware/robotics boards; reseed so the
 # ~49 discovered boards' backlog seeds silently instead of flooding on first scan.
+# v2.8: cross-feed canon_key + worker_owned dedup (kills repeat alerts); reseed so the
+# canon-keys backfill into seen silently instead of re-alerting already-delivered roles.
 
 
 def config_hash():
@@ -674,6 +765,7 @@ def scan(seen, enrich, collect_rejects=False):
     """Full pass. Returns (tier_a, tier_b, rejects, stats). Adds matched ids to seen."""
     tier_a, tier_b, rejects = [], [], []
     stats = defaultdict(lambda: {"scanned": 0, "A": 0, "B": 0, "drop": Counter()})
+    skip_ats = bool(os.environ.get("SKIP_ATS"))  # worker owns the curated tier
     for fn, arg in build_plan():
         name = f"{fn.__name__}:{label(arg)}"
         # Workday is broken out per tenant so thin tenants are visible in the table.
@@ -681,7 +773,17 @@ def scan(seen, enrich, collect_rejects=False):
         try:
             for job in fn(arg):
                 src_stat["scanned"] += 1
-                if not job.get("url") or job["id"] in seen:
+                url = job.get("url")
+                if not url or job["id"] in seen:
+                    continue
+                ck = canon_key(url)
+                if ck and ck in seen:      # FIX A: same role via a different feed/URL
+                    continue
+                if skip_ats and worker_owned(job):  # FIX B: worker already delivers this
+                    src_stat["drop"]["curated_worker"] += 1
+                    if collect_rejects:
+                        rejects.append({"id": job["id"], "company": job["company"],
+                                        "title": job["title"], "rule": "curated_worker", "tag": ""})
                     continue
                 decision, val = classify(job, enrich)
                 if decision == "drop":
@@ -695,6 +797,8 @@ def scan(seen, enrich, collect_rejects=False):
                                         "title": job["title"], "rule": val, "tag": tag})
                     continue
                 seen.add(job["id"])
+                if ck:
+                    seen.add(ck)           # so the same role via another feed won't re-alert
                 rec = {"id": job["id"], "company": job["company"], "title": job["title"],
                        "location": job["location"], "url": job["url"], "score": val,
                        "posted": job.get("posted", 0), "terms": job.get("terms")}

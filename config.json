@@ -204,6 +204,9 @@
     "gecko-robotics",
     "hadrian-automation"
   ],
+  "curated_aliases": [
+    "zipline"
+  ],
   "workday": [
     { "name": "NVIDIA", "tenant": "nvidia", "host": "nvidia.wd5.myworkdayjobs.com", "site": "NVIDIAExternalCareerSite" },
     { "name": "Micron", "tenant": "micron", "host": "micron.wd1.myworkdayjobs.com", "site": "External" },
