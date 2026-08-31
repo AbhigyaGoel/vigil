@@ -29533,6 +29533,13 @@
 "tag": ""
 },
 {
+"id": "wd:amat:/job/RehovotISR/Planner--Maternity-leave_R2621116",
+"company": "Applied Materials",
+"title": "Planner- Maternity leave replacement",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "wd:amat:/job/SingaporeSGP/College-Intern_R2627321",
 "company": "Applied Materials",
 "title": "College Intern",
@@ -29666,13 +29673,6 @@
 "tag": ""
 },
 {
-"id": "wd:amat:/job/SingaporeSGP/Intern_R2626579",
-"company": "Applied Materials",
-"title": "Intern",
-"rule": "geo",
-"tag": ""
-},
-{
 "id": "wd:amat:/job/SingaporeSGP/College-Intern---Process-Integration_R2626676",
 "company": "Applied Materials",
 "title": "College Intern - Process Integration",
@@ -29795,6 +29795,13 @@
 "id": "wd:amat:/job/Santa-ClaraCA/Global-Supply-Chain-Rotational-Program--Buyer-I--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627043-1",
 "company": "Applied Materials",
 "title": "Global Supply Chain Rotational Program, Buyer I, New College Grad- Bachelor's (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/GloucesterMA/Global-Supply-Chain-Rotational-Program--Volume-Buyer-I--New-College-Grad--Bachelor-s--Gloucester--MA-_R2626717",
+"company": "Applied Materials",
+"title": "Global Supply Chain Rotational Program, Volume Buyer I, New College Grad- Bachelor's (Gloucester, MA)",
 "rule": "new-grad",
 "tag": ""
 },
@@ -34006,14 +34013,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705255005",
+"id": "gh:inversionspace:4709690005",
 "company": "Inversion Space",
 "title": "Senior Harness Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709690005",
+"id": "gh:inversionspace:4705255005",
 "company": "Inversion Space",
 "title": "Senior Harness Engineer",
 "rule": "not-intern",
@@ -34538,14 +34545,14 @@
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7861151003",
+"id": "gh:launchdarkly:7767461003",
 "company": "LaunchDarkly",
 "title": "Backend Engineer, Flag Delivery",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7767461003",
+"id": "gh:launchdarkly:7861151003",
 "company": "LaunchDarkly",
 "title": "Backend Engineer, Flag Delivery",
 "rule": "not-intern",
@@ -37919,14 +37926,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8455890002",
+"id": "gh:relativity:8612945002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8612945002",
+"id": "gh:relativity:8455890002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
@@ -38514,14 +38521,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8606781002",
+"id": "gh:relativity:8633353002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8633353002",
+"id": "gh:relativity:8606781002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -39431,14 +39438,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4385481009",
+"id": "gh:rocketems:4381807009",
 "company": "Rocket EMS",
 "title": "Production Expeditor",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4381807009",
+"id": "gh:rocketems:4385481009",
 "company": "Rocket EMS",
 "title": "Production Expeditor",
 "rule": "not-intern",
@@ -39480,14 +39487,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4385303009",
+"id": "gh:rocketems:4378265009",
 "company": "Rocket EMS",
 "title": "Rework Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4378265009",
+"id": "gh:rocketems:4385303009",
 "company": "Rocket EMS",
 "title": "Rework Technician",
 "rule": "not-intern",
@@ -40383,14 +40390,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5238458008",
+"id": "gh:stratolaunch:5398750008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5398750008",
+"id": "gh:stratolaunch:5238458008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
@@ -40453,14 +40460,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5159784008",
+"id": "gh:stratolaunch:5204815008",
 "company": "Stratolaunch",
 "title": "Systems Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5204815008",
+"id": "gh:stratolaunch:5159784008",
 "company": "Stratolaunch",
 "title": "Systems Engineer",
 "rule": "not-intern",
