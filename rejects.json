@@ -5859,13 +5859,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:f3a572bd-6402-4a23-9a65-ff29f1dd08cb",
-"company": "Trend Micro",
-"title": "Malware Research Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:e142c984-ca46-4624-af2c-e5061b8b60f2",
 "company": "HPR (Hyannis Port Research)",
 "title": "Software Engineer Intern",
@@ -9446,6 +9439,13 @@
 "id": "ls:1d850622-b67b-4965-a25c-f6872d8a1c79",
 "company": "Goldman Sachs",
 "title": "Summer Analyst Intern - FICC & Equities - Sales & Trading",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:1560332f-3e4c-4d15-819d-df9bf4889deb",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern - FICC and Equities - Sales and Trading",
 "rule": "seniority",
 "tag": ""
 },
@@ -13853,13 +13853,6 @@
 "tag": ""
 },
 {
-"id": "ls:992a2117-4cf1-47d8-bb15-9770955da023",
-"company": "RTX",
-"title": "Software Engineer Intern - Summer 2027",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:96a2bb42-3d8d-415b-ad67-993931ebeac4",
 "company": "RTX",
 "title": "Software Engineer Intern - Summer 2027",
@@ -15314,6 +15307,34 @@
 "title": "Software Engineering Intern - Multiple Teams",
 "rule": "irrelevant",
 "tag": ""
+},
+{
+"id": "ls:ffbfdb0a-160a-44a5-90b1-76d8bdfccee7",
+"company": "Qorvo",
+"title": "IC Layout Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:a35e806c-4423-4046-bc8f-f81f8e6782c1",
+"company": "Royal Bank of Canada",
+"title": "Data Analyst Intern - Group Risk Management",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:8c53032c-d29b-4077-82e5-835b75a70990",
+"company": "Qorvo",
+"title": "Test Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:58886ea6-6ba4-42a2-9521-ca7677660b8d",
+"company": "Qorvo",
+"title": "Product Engineer Intern - Design and Applications",
+"rule": "season",
+"tag": "Fall 2026"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -34090,14 +34111,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705255005",
+"id": "gh:inversionspace:4709690005",
 "company": "Inversion Space",
 "title": "Senior Harness Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709690005",
+"id": "gh:inversionspace:4705255005",
 "company": "Inversion Space",
 "title": "Senior Harness Engineer",
 "rule": "not-intern",
@@ -34622,14 +34643,14 @@
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7861151003",
+"id": "gh:launchdarkly:7767461003",
 "company": "LaunchDarkly",
 "title": "Backend Engineer, Flag Delivery",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7767461003",
+"id": "gh:launchdarkly:7861151003",
 "company": "LaunchDarkly",
 "title": "Backend Engineer, Flag Delivery",
 "rule": "not-intern",
@@ -37933,14 +37954,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8455890002",
+"id": "gh:relativity:8612945002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8612945002",
+"id": "gh:relativity:8455890002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
@@ -38528,14 +38549,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8606781002",
+"id": "gh:relativity:8633353002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8633353002",
+"id": "gh:relativity:8606781002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -39445,14 +39466,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4385481009",
+"id": "gh:rocketems:4381807009",
 "company": "Rocket EMS",
 "title": "Production Expeditor",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4381807009",
+"id": "gh:rocketems:4385481009",
 "company": "Rocket EMS",
 "title": "Production Expeditor",
 "rule": "not-intern",
@@ -39494,14 +39515,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4385303009",
+"id": "gh:rocketems:4378265009",
 "company": "Rocket EMS",
 "title": "Rework Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4378265009",
+"id": "gh:rocketems:4385303009",
 "company": "Rocket EMS",
 "title": "Rework Technician",
 "rule": "not-intern",
@@ -40460,14 +40481,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5204815008",
+"id": "gh:stratolaunch:5159784008",
 "company": "Stratolaunch",
 "title": "Systems Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5159784008",
+"id": "gh:stratolaunch:5204815008",
 "company": "Stratolaunch",
 "title": "Systems Engineer",
 "rule": "not-intern",
