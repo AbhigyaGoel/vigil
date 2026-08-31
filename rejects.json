@@ -2485,13 +2485,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:4d40b569-cf87-4b1f-a4ef-eae54c1efc94",
-"company": "BP",
-"title": "Finance & Risk Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:7d40282a-e5d1-4104-ba34-426064c6790a",
 "company": "Meta",
 "title": "Research Scientist Intern - Photorealistic Telepresence",
@@ -2733,6 +2726,13 @@
 "id": "ls:5b9e82eb-e170-450f-9dfe-62e7281dc8ae",
 "company": "Astera Labs",
 "title": "Platform Applications Engineer Intern Co-op",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:26ca5f88-4aa3-47dd-b7c2-3d192287ce69",
+"company": "Copart",
+"title": "Software Engineer Intern",
 "rule": "season",
 "tag": "Summer 2026"
 },
@@ -4144,6 +4144,13 @@
 "tag": ""
 },
 {
+"id": "ls:27bc7565-972b-4dff-a2b6-d86296a62c88",
+"company": "Copart",
+"title": "Software Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
 "id": "ls:7d13d689-657d-404d-9463-284ccb89bd44",
 "company": "Beacon Software",
 "title": "Software Engineer Intern",
@@ -4338,6 +4345,13 @@
 "title": "Data Science Intern",
 "rule": "irrelevant",
 "tag": ""
+},
+{
+"id": "ls:2852d53d-1e2d-4026-9f6f-90758dc79f0a",
+"company": "Copart",
+"title": "Software Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
 },
 {
 "id": "ls:6109bd0c-7437-4f90-899d-80846b776bc2",
@@ -9373,6 +9387,13 @@
 "tag": "Fall 2026"
 },
 {
+"id": "ls:629fac72-4880-42e9-b648-cdfa036a00ac",
+"company": "Goldman Sachs",
+"title": "Summer Associate Intern - Multiple Teams",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:1c9f2e98-f998-4541-bd39-aec405d39f11",
 "company": "Goldman Sachs",
 "title": "Summer Analyst Intern - Wealth Management - Product Management and Design",
@@ -12740,13 +12761,6 @@
 "tag": ""
 },
 {
-"id": "ls:6a6f09cf-a286-49e6-bce0-4e4dd947034d",
-"company": "L3Harris Technologies",
-"title": "Software Engineer Intern",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:aacc4ee3-09a8-40e8-99a0-5bc47790fe52",
 "company": "Cadence Design Systems",
 "title": "Product Engineering Intern - Electronics Hardware Design",
@@ -14021,13 +14035,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:49e6ace2-42ca-46a7-81f9-59a39844f75f",
-"company": "Leidos",
-"title": "Computer Engineering Co-op",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:083cfc54-1c27-4fc6-ab89-6606e06aca1f",
 "company": "Leidos",
 "title": "Software Developer Co-op",
@@ -14369,6 +14376,13 @@
 "title": "Product Analyst Intern",
 "rule": "irrelevant",
 "tag": ""
+},
+{
+"id": "ls:275b40b6-35f1-4ef6-9c1b-741a35b72c1f",
+"company": "Tencent",
+"title": "Multimodal Algorithm Researcher Intern - Omni-Modal",
+"rule": "season",
+"tag": "Fall 2026"
 },
 {
 "id": "ls:2dd7e557-6d6f-4e8e-881c-5fa5d8be48d2",
@@ -14754,13 +14768,6 @@
 "title": "Fleet Reliability Intern - Summer Internship",
 "rule": "season",
 "tag": "Summer 2026"
-},
-{
-"id": "ls:1795d6df-fcca-45dc-836d-41a82dc36894",
-"company": "Intuit",
-"title": "Software Engineer Intern - Full Stack",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:25daa740-61f1-4b2b-b16f-ef6798135d16",
@@ -28917,13 +28924,6 @@
 "tag": ""
 },
 {
-"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---Technician-FOUP-Data-Analysis_JR102465",
-"company": "Micron",
-"title": "Intern \u2013 Technician FOUP Data Analysis",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "wd:micron:/job/Muar-Malaysia/Intern---Operation-Improvement_JR97674",
 "company": "Micron",
 "title": "Intern - Operation Improvement",
@@ -29673,6 +29673,13 @@
 "tag": ""
 },
 {
+"id": "wd:amat:/job/SingaporeSGP/Intern_R2626579",
+"company": "Applied Materials",
+"title": "Intern",
+"rule": "geo",
+"tag": ""
+},
+{
 "id": "wd:amat:/job/SingaporeSGP/College-Intern---Process-Integration_R2626676",
 "company": "Applied Materials",
 "title": "College Intern - Process Integration",
@@ -29795,13 +29802,6 @@
 "id": "wd:amat:/job/Santa-ClaraCA/Global-Supply-Chain-Rotational-Program--Buyer-I--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627043-1",
 "company": "Applied Materials",
 "title": "Global Supply Chain Rotational Program, Buyer I, New College Grad- Bachelor's (Santa Clara, CA)",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:amat:/job/GloucesterMA/Global-Supply-Chain-Rotational-Program--Volume-Buyer-I--New-College-Grad--Bachelor-s--Gloucester--MA-_R2626717",
-"company": "Applied Materials",
-"title": "Global Supply Chain Rotational Program, Volume Buyer I, New College Grad- Bachelor's (Gloucester, MA)",
 "rule": "new-grad",
 "tag": ""
 },
@@ -30629,6 +30629,13 @@
 "company": "Boston Dynamics",
 "title": "Technical Support Engineer",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:nxp:/job/Bangkok/HR-Internship-Student_R-10066535",
+"company": "NXP",
+"title": "HR Internship Student",
+"rule": "irrelevant",
 "tag": ""
 },
 {
