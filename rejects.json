@@ -1379,13 +1379,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:ebb7f560-b3e3-4f57-b812-b0097eeb39bf",
-"company": "Integra FEC",
-"title": "Data Scientist Intern - PhD",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:b9a99f84-c011-4f16-806a-8ad02e98b530",
 "company": "Integra FEC",
 "title": "Data Scientist Intern",
@@ -1888,13 +1881,6 @@
 "title": "Intern: Economic Policy",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:e2e3917f-309a-4c40-9db2-2b8beedf29be",
-"company": "Base Power",
-"title": "Software Engineer Intern",
-"rule": "curated_worker",
-"tag": ""
 },
 {
 "id": "ls:ee5e38e3-bc10-4546-b6de-d39065ac25f1",
@@ -3468,6 +3454,13 @@
 "id": "ls:767f1b1b-9676-407d-99db-e3582821b87a",
 "company": "Jane Street",
 "title": "Quantitative Researcher Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:626bb7ad-7fc6-4fd0-99cd-31a7fb23cef3",
+"company": "Jane Street",
+"title": "Software Engineering Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -6496,18 +6489,18 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:3f75b98c-3c6a-4192-8268-3e946dae7519",
-"company": "QuEra Computing",
-"title": "Photonics Data Engineer Intern - Data Management",
-"rule": "curated_worker",
-"tag": ""
-},
-{
 "id": "ls:001da316-b96f-440e-9c1e-3a726afb7959",
 "company": "University of Virginia",
 "title": "Media Studio Technology Consultant",
 "rule": "irrelevant",
 "tag": ""
+},
+{
+"id": "ls:f010c8ee-806d-4f1c-96a4-0ad83bd900a7",
+"company": "StudyFetch",
+"title": "Product Intern",
+"rule": "season",
+"tag": "Fall 2026"
 },
 {
 "id": "ls:40fdd912-45b2-44ba-8a04-89566decd578",
@@ -9268,41 +9261,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:8540d9e9-5a90-4ecb-a7f6-b854e696fb8e",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:a81b0d30-e122-4b3c-9290-3e85c9f02707",
-"company": "Goldman Sachs",
-"title": "Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:629fac72-4880-42e9-b648-cdfa036a00ac",
-"company": "Goldman Sachs",
-"title": "Summer Associate Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:1c9f2e98-f998-4541-bd39-aec405d39f11",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Wealth Management - Product Management and Design",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:bc2e9762-a592-48ef-9e42-21dfdec88ec4",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - Asset and Wealth Management",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:8cfb1bdb-94da-41c0-be36-e516586909b0",
 "company": "Dedalus Labs",
 "title": "Product Manager Intern",
@@ -9315,41 +9273,6 @@
 "title": "Design Engineer Intern",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:ea185fae-1828-4e79-9bfa-34dc512cce8c",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - The Core Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:443c0a68-63ca-4026-94b7-cf3e555f2d0f",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - The Core Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:439c65c1-64f2-461c-8ca1-ca36969ef10a",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:1d850622-b67b-4965-a25c-f6872d8a1c79",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - FICC & Equities - Sales & Trading",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "ls:1560332f-3e4c-4d15-819d-df9bf4889deb",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - FICC and Equities - Sales and Trading",
-"rule": "seniority",
-"tag": ""
 },
 {
 "id": "ls:e882005d-6926-4aae-9b36-8bf690f5c53d",
@@ -10871,13 +10794,6 @@
 "tag": ""
 },
 {
-"id": "ls:1bd50634-5114-480f-8a35-3a592f0fe763",
-"company": "E-Space",
-"title": "Embedded Software Engineer Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:1c385c6d-d388-465d-9ccb-4051032c9a09",
 "company": "Sysco",
 "title": "Software Engineer Intern",
@@ -10916,20 +10832,6 @@
 "id": "ls:09e061cd-a5e8-4059-bb6d-a0672a475328",
 "company": "Fannie Mae",
 "title": "Data Science Intern - Analytics & Modeling Program",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:de048c9f-8cf0-45fe-b307-40b9a04a9416",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Americas - AWM Product Management",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:aea9cccf-4a27-4ca6-9c11-9664e8a1ac0a",
-"company": "Goldman Sachs",
-"title": "AWM Product Management Analyst Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -11002,13 +10904,6 @@
 "title": "Portfolio Risk Data & AI Analyst Intern - Group Risk Management",
 "rule": "season",
 "tag": "Winter 2027"
-},
-{
-"id": "ls:15d3a6ce-277c-4231-b321-686c45849a85",
-"company": "RTX",
-"title": "Software Engineer Intern - Summer 2027",
-"rule": "defense",
-"tag": ""
 },
 {
 "id": "ls:6a4501ab-5b1a-44c6-87d4-9c4e68e6f5f8",
@@ -11135,6 +11030,13 @@
 "title": "Artificial Intelligence Co-op Intern",
 "rule": "season",
 "tag": "Spring 2027"
+},
+{
+"id": "ls:74a4f228-ddb1-4953-9597-1c278c491082",
+"company": "Vanguard",
+"title": "Data Science Intern - College to Corporate IT",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "ls:a8fce259-7cd2-44ea-a7ab-787260c1308e",
@@ -13727,13 +13629,6 @@
 "tag": ""
 },
 {
-"id": "ls:bec41fe0-ae4c-44d3-bddd-15ca4a245c18",
-"company": "Goldman Sachs",
-"title": "Summer Associate Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:49811d2d-c4c5-4b12-a63a-f0be4842a2d5",
 "company": "Capital One",
 "title": "Technology Intern",
@@ -13795,13 +13690,6 @@
 "title": "Investment Engineering Intern - Undergraduate & Master's",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:3197c0fa-efa1-4efc-9c3a-37fd84829e4a",
-"company": "Goldman Sachs",
-"title": "Associate Intern - The Core Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:d2b4f1bc-fe0e-40b8-b25f-29fb235024d2",
@@ -14250,6 +14138,13 @@
 "title": "Data Analyst Intern",
 "rule": "season",
 "tag": "Fall 2026"
+},
+{
+"id": "ls:ec27d2f4-0e82-4c2b-b8c2-fc8a682baed1",
+"company": "Deloitte",
+"title": "AI Innovation Summer Scholar Intern - AI Innovation",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "ls:a6026254-bdf4-49e3-82e7-94a39fd78c7d",
@@ -15881,6 +15776,181 @@
 "title": "Human Resources Data and Analytics Intern",
 "rule": "irrelevant",
 "tag": ""
+},
+{
+"id": "ls:c2915142-c10f-4cf7-8de6-cfd5d54e9026",
+"company": "Draper",
+"title": "Optics-Physics Sensor Engineering Co-op - Spring 2027",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:26b43fcb-cddd-4373-8bf4-87f591f866ee",
+"company": "United Parcel Service",
+"title": "Information Technology Intern - Multiple Teams",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:5cd6ee01-b5b8-4b44-9502-4862d2799c5e",
+"company": "United Parcel Service",
+"title": "Information Technology Intern - Multiple Teams",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:c1ffdb1d-0434-4753-afe0-ba4de1249538",
+"company": "Panasonic Holdings",
+"title": "Back-End Cloud Developer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:2f832a49-a1f2-418c-b4ec-5a640c599665",
+"company": "Resonetics",
+"title": "AI Automation Engineer Intern Co-op",
+"rule": "season",
+"tag": "Spring 2026"
+},
+{
+"id": "ls:a764d92d-fd26-4801-a3c6-2e97790cc8c4",
+"company": "Intact",
+"title": "Investment Analyst Intern Co-op",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:53255d15-0d2f-4eb9-ac70-8e5ca175c8ab",
+"company": "Delta Dental",
+"title": "Application Development Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:956086a7-d67a-4072-93ae-47bf3687b548",
+"company": "Google",
+"title": "Software Engineer Intern - Multiple Teams",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:c9bf8e11-07ee-42db-b773-dd7f4ce360fc",
+"company": "Google",
+"title": "Software Engineer Intern - Multiple Teams",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:04b39002-c856-4b61-96ef-f8e8d00c0001",
+"company": "IGS Energy",
+"title": "Software Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:b376a3bd-1dcf-47ea-8417-7d3be2e79c8b",
+"company": "PricewaterhouseCoopers (PwC)",
+"title": "Geographic Information Systems Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:86019545-ba70-4a88-8b37-e6c969f81ce0",
+"company": "PricewaterhouseCoopers (PwC)",
+"title": "Contracts Intern - Deals - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:4b6066cd-8c05-4586-80d1-c1500ceb094b",
+"company": "PricewaterhouseCoopers (PwC)",
+"title": "Diligence Analytics Intern - Deals",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:bee35b4a-8dfd-4d26-b25f-6258446fd54f",
+"company": "PricewaterhouseCoopers (PwC)",
+"title": "Digital Assurance & Transparency Intern - Multiple Teams",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:0db4db4a-cd56-42f2-aa9f-4de76e4fc79c",
+"company": "PricewaterhouseCoopers (PwC)",
+"title": "Tax Innovation Delivery Experience Intern - Multiple Teams",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:483a6e7d-49d9-4b1b-823b-1c0e3be6b318",
+"company": "Arch Capital Group",
+"title": "Data and Analytics Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:2f2aadeb-1b18-46b7-8798-5eaf3007f689",
+"company": "PricewaterhouseCoopers (PwC)",
+"title": "Connected Physical Products Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:05012f1b-58b2-4a9c-835f-a5d58cde96ca",
+"company": "PricewaterhouseCoopers (PwC)",
+"title": "Deals Analytics Intern - DTDS",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:bd98d166-a67a-4867-9ce3-6a9f1385e4c9",
+"company": "The Walt Disney Company",
+"title": "Revenue Planning & Analytics Intern - Spring 2027",
+"rule": "season",
+"tag": "Spring 2027"
+},
+{
+"id": "ls:69f7c575-654b-4e3a-a2f3-f82953d2da51",
+"company": "PricewaterhouseCoopers (PwC)",
+"title": "Financial Crimes Unit Data & Analytics Tech Consulting Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:3230c951-623b-444c-b001-114c9819cad7",
+"company": "PricewaterhouseCoopers (PwC)",
+"title": "Market Information and Data Analytics Intern - Multiple Teams",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:c2ec6a4a-824b-4ec8-886d-3d47b4993e24",
+"company": "PricewaterhouseCoopers (PwC)",
+"title": "Business Analytics Intern - Mida",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:2dbb09e5-02ec-468a-89ab-272b35232335",
+"company": "PricewaterhouseCoopers (PwC)",
+"title": "Tax Innovation Delivery Experience Intern - Product Management",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:17b08516-bf59-4f17-a281-20aec2f0cd84",
+"company": "Sony",
+"title": "Account Management & Business Analytics Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:4c156969-fd34-489d-ad5b-48960e322f49",
+"company": "The Walt Disney Company",
+"title": "Revenue Planning & Analytics Intern - Spring 2027",
+"rule": "season",
+"tag": "Spring 2027"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -35455,13 +35525,6 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4689835005",
-"company": "Inversion Space",
-"title": "Director of Mission Products & Payload Integration",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:inversionspace:4705503005",
 "company": "Inversion Space",
 "title": "Engineering Manager, Arc Vehicle Software",
@@ -35672,14 +35735,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705193005",
+"id": "gh:inversionspace:4692769005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4692769005",
+"id": "gh:inversionspace:4705193005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
@@ -35780,13 +35843,6 @@
 "id": "gh:inversionspace:4720210005",
 "company": "Inversion Space",
 "title": "Senior Propulsion R&D Technician",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:inversionspace:4693992005",
-"company": "Inversion Space",
-"title": "Senior Regulatory Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -36124,6 +36180,13 @@
 "company": "Katalyst Space Technologies",
 "title": "Quality Engineer",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:katalyst:6176600004",
+"company": "Katalyst Space Technologies",
+"title": "Recent Graduate - Guidance, Navigation, and Control Engineer ",
+"rule": "new-grad",
 "tag": ""
 },
 {
@@ -39613,14 +39676,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8687398002",
+"id": "gh:relativity:8463038002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8463038002",
+"id": "gh:relativity:8687398002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
@@ -40145,14 +40208,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8606781002",
+"id": "gh:relativity:8633353002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8633353002",
+"id": "gh:relativity:8606781002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -40197,13 +40260,6 @@
 "id": "gh:relativity:8393444002",
 "company": "Relativity Space",
 "title": "Senior Supplier Industrialization Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:relativity:8542002002",
-"company": "Relativity Space",
-"title": "Senior Systems Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -40537,14 +40593,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8715897002",
+"id": "gh:relativity:8595007002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8595007002",
+"id": "gh:relativity:8715897002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
