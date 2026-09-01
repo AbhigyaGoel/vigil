@@ -4389,13 +4389,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:4c54516c-986b-40c6-be23-fc11b0404861",
-"company": "SpreeAI ",
-"title": "Mobile Software Engineer Intern - Flagship Apps - iOS / Android / Web",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:6c0ab4e5-360b-4ac9-870b-63679e2b79d0",
 "company": "NeoCognition",
 "title": "Research Intern",
@@ -4408,13 +4401,6 @@
 "title": "Product Intern",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:c8b23aef-956a-4e8f-bf36-9f747b2a67ef",
-"company": "Gitar, Inc.",
-"title": "Software Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:53fcaec4-0e49-4a63-94d1-c52a5741cef0",
@@ -11865,13 +11851,6 @@
 "tag": ""
 },
 {
-"id": "ls:3761b187-d0d2-438d-9b56-f3853671880e",
-"company": "L3Harris Technologies",
-"title": "Software Engineer Intern",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:5a24ffd7-21dd-4446-9322-8b43eab99a97",
 "company": "Freddie Mac",
 "title": "Software Developer Intern - Single-Family",
@@ -13298,13 +13277,6 @@
 "title": "Software Engineer Intern",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:19732e66-5a0d-4db2-a039-33e752197e70",
-"company": "GlossGenius",
-"title": "Engineering Intern",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:bbe17ffe-5f99-4420-9206-e1671d6b0c3f",
@@ -16394,13 +16366,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:ea13638b-ec59-42b9-8392-35986da2c5ac",
-"company": "ISN Software",
-"title": "Software Developer Intern - Fall 2026",
-"rule": "season",
-"tag": "Summer 2027"
-},
-{
 "id": "ls:0d13979f-34e6-4863-983f-b931e8619e05",
 "company": "Momentive",
 "title": "Service Quality Intern",
@@ -17679,6 +17644,20 @@
 "company": "Clearwater Analytics",
 "title": "Salesforce Developer Intern",
 "rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:7123e8fe-c2d7-4fff-b9c9-5e8f94b9c12b",
+"company": "John Deere",
+"title": "Data & Analytics Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:79bdac78-fd53-48d8-a72e-ed29d100a963",
+"company": "AIG",
+"title": "Summer Intern - Data Office",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -37380,14 +37359,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4692769005",
+"id": "gh:inversionspace:4705193005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705193005",
+"id": "gh:inversionspace:4692769005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
@@ -38115,13 +38094,6 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5284325008",
-"company": "K2 Space",
-"title": "Principal ASIC Design Verification Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:k2spacecorporation:5287999008",
 "company": "K2 Space",
 "title": "Principal ASIC Design Verification Engineer",
@@ -38129,14 +38101,21 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288635008",
+"id": "gh:k2spacecorporation:5284325008",
+"company": "K2 Space",
+"title": "Principal ASIC Design Verification Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:k2spacecorporation:5288008008",
 "company": "K2 Space",
 "title": "Principal ASIC Physical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288008008",
+"id": "gh:k2spacecorporation:5288635008",
 "company": "K2 Space",
 "title": "Principal ASIC Physical Design Engineer",
 "rule": "not-intern",
@@ -38192,14 +38171,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5026916008",
+"id": "gh:k2spacecorporation:5287992008",
 "company": "K2 Space",
 "title": "Principal Flight Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5287992008",
+"id": "gh:k2spacecorporation:5026916008",
 "company": "K2 Space",
 "title": "Principal Flight Software Engineer",
 "rule": "not-intern",
@@ -38437,13 +38416,6 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5277848008",
-"company": "K2 Space",
-"title": "Senior ASIC Design Verification Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:k2spacecorporation:5287990008",
 "company": "K2 Space",
 "title": "Senior ASIC Design Verification Engineer",
@@ -38451,9 +38423,9 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5378185008",
+"id": "gh:k2spacecorporation:5277848008",
 "company": "K2 Space",
-"title": "Senior ASIC Emulation Engineer",
+"title": "Senior ASIC Design Verification Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -38465,14 +38437,21 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288010008",
+"id": "gh:k2spacecorporation:5378185008",
+"company": "K2 Space",
+"title": "Senior ASIC Emulation Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:k2spacecorporation:5288643008",
 "company": "K2 Space",
 "title": "Senior ASIC Physical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288643008",
+"id": "gh:k2spacecorporation:5288010008",
 "company": "K2 Space",
 "title": "Senior ASIC Physical Design Engineer",
 "rule": "not-intern",
@@ -38640,14 +38619,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288027008",
+"id": "gh:k2spacecorporation:5165720008",
 "company": "K2 Space",
 "title": "Senior Flight Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5165720008",
+"id": "gh:k2spacecorporation:5288027008",
 "company": "K2 Space",
 "title": "Senior Flight Software Engineer",
 "rule": "not-intern",
@@ -38661,14 +38640,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5165716008",
+"id": "gh:k2spacecorporation:5288020008",
 "company": "K2 Space",
 "title": "Senior FPGA Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288020008",
+"id": "gh:k2spacecorporation:5165716008",
 "company": "K2 Space",
 "title": "Senior FPGA Engineer",
 "rule": "not-intern",
@@ -38696,14 +38675,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288028008",
+"id": "gh:k2spacecorporation:5205347008",
 "company": "K2 Space",
 "title": "Senior Ground Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5205347008",
+"id": "gh:k2spacecorporation:5288028008",
 "company": "K2 Space",
 "title": "Senior Ground Software Engineer",
 "rule": "not-intern",
@@ -42805,14 +42784,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8687398002",
+"id": "gh:relativity:8463038002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8463038002",
+"id": "gh:relativity:8687398002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
@@ -43092,14 +43071,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8419277002",
+"id": "gh:relativity:8701334002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8701334002",
+"id": "gh:relativity:8419277002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -43323,14 +43302,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8606781002",
+"id": "gh:relativity:8633353002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8633353002",
+"id": "gh:relativity:8606781002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -43701,14 +43680,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8595007002",
+"id": "gh:relativity:8715897002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8715897002",
+"id": "gh:relativity:8595007002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -44072,14 +44051,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4373147009",
+"id": "gh:rocketems:4381810009",
 "company": "Rocket EMS",
 "title": "2D X-Ray Operator (Second Shift)",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4381810009",
+"id": "gh:rocketems:4373147009",
 "company": "Rocket EMS",
 "title": "2D X-Ray Operator (Second Shift)",
 "rule": "not-intern",
@@ -45164,14 +45143,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5398750008",
+"id": "gh:stratolaunch:5238458008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5238458008",
+"id": "gh:stratolaunch:5398750008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
