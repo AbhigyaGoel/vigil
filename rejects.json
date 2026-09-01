@@ -8918,13 +8918,6 @@
 "tag": ""
 },
 {
-"id": "ls:b51925a9-5a99-4ef7-9294-2514bc956ac5",
-"company": "GSK",
-"title": "AI Commercial Strategy & Activation Co-op - AI Strike Team",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:a0ec26fd-db0f-4eb4-9bed-73b9409cabc5",
 "company": "TikTok",
 "title": "Product Manager Intern - Content and Services",
@@ -11450,6 +11443,13 @@
 "title": "Software Engineer Intern - Summer 2027",
 "rule": "curated_worker",
 "tag": ""
+},
+{
+"id": "ls:e31170bc-ea00-45b7-bce9-7b1c8ecbe643",
+"company": "General Motors",
+"title": "Lighting Software Development & Test Co-op",
+"rule": "season",
+"tag": "Winter 2027"
 },
 {
 "id": "ls:c4bfe952-8e9a-4599-966c-127295b128ad",
@@ -13986,6 +13986,20 @@
 "tag": "Winter 2027"
 },
 {
+"id": "ls:d51eb451-9f91-449d-8c96-b84c35fbfb16",
+"company": "Marsh",
+"title": "Summer Analyst - Data and Analytics",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:30f88aa1-c8c9-4587-808f-a3954162cf45",
+"company": "Marsh",
+"title": "Summer Analyst Intern - Data and Analytics",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:dd7b3d30-baf7-40f6-b0f5-46fc35981d6d",
 "company": "Air Products",
 "title": "Information Technology/Digital Technology Intern - Infrastructure Services",
@@ -15687,6 +15701,13 @@
 "tag": "Winter 2027"
 },
 {
+"id": "ls:c21aecd2-5cf3-49c9-9346-f5295e67281a",
+"company": "General Motors",
+"title": "Data Engineering Software Developer Co-op",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
 "id": "ls:fe7f1e7d-e361-4660-92ac-f496c022b980",
 "company": "Nike",
 "title": "Machine Learning Engineering Undergraduate Intern - Artificial Intelligence - Data",
@@ -16090,6 +16111,62 @@
 "company": "Merchants Bank of Indiana",
 "title": "Capital Markets Intern - Single-Family",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:d9f6a9f1-69b3-4c58-8c99-8136dc95ba30",
+"company": "Johns Hopkins Applied Physics Laboratory",
+"title": "Signal Processing Intern - Multiple Teams",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:b63be71e-321c-42cc-8f85-2bbddab74b5e",
+"company": "onsemi",
+"title": "Image Sensor Development Intern",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:3a849f7d-571e-4e94-a2ad-832eded82ab6",
+"company": "Philips",
+"title": "Cybersecurity & Data Analytics Co-op - Ultrasound Regulatory Affairs",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:c7b1d381-c5d1-4080-8d2b-531342e2c8a8",
+"company": "Adobe",
+"title": "Machine Learning Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:f74fb3ef-bca3-4691-a613-461eb1434a82",
+"company": "Verdantas",
+"title": "Data Analytics Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:c176703b-2d82-4f94-bdd2-b0c7f1f30680",
+"company": "Verdantas",
+"title": "Environmental Data Analytics Intern - Geographic Information Systems",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:b6296fe8-f9f1-44dd-94f1-590c275ba224",
+"company": "RTX",
+"title": "Software Engineer Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:8d941b39-68a9-40d7-9ff0-fa89b2fe8b34",
+"company": "RTX",
+"title": "Software Engineer Intern",
+"rule": "defense",
 "tag": ""
 },
 {
@@ -35826,14 +35903,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4692769005",
+"id": "gh:inversionspace:4705193005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705193005",
+"id": "gh:inversionspace:4692769005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
@@ -39795,14 +39872,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8687398002",
+"id": "gh:relativity:8463038002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8463038002",
+"id": "gh:relativity:8687398002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
@@ -40082,14 +40159,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8419277002",
+"id": "gh:relativity:8701334002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8701334002",
+"id": "gh:relativity:8419277002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -40313,14 +40390,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8606781002",
+"id": "gh:relativity:8633353002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8633353002",
+"id": "gh:relativity:8606781002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -40691,14 +40768,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8595007002",
+"id": "gh:relativity:8715897002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8715897002",
+"id": "gh:relativity:8595007002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -41244,14 +41321,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4385303009",
+"id": "gh:rocketems:4378265009",
 "company": "Rocket EMS",
 "title": "Rework Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4378265009",
+"id": "gh:rocketems:4385303009",
 "company": "Rocket EMS",
 "title": "Rework Technician",
 "rule": "not-intern",
@@ -42154,14 +42231,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5398750008",
+"id": "gh:stratolaunch:5238458008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5238458008",
+"id": "gh:stratolaunch:5398750008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
