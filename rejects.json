@@ -672,6 +672,13 @@
 "tag": ""
 },
 {
+"id": "ls:e9569c77-dc0a-48e3-a280-aab0544afe8e",
+"company": "Nightwing Intelligence Solutions",
+"title": "Radio Frequency Engineering Intern",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
 "id": "ls:751867f3-533e-4690-8897-2b77e95e20b3",
 "company": "Smiths Detection",
 "title": "Software Engineering Intern (Cyber focus)",
@@ -4263,6 +4270,13 @@
 "tag": ""
 },
 {
+"id": "ls:f09f0a56-4999-4d19-afb4-894ea819d401",
+"company": "GE Healthcare",
+"title": "Engineering Development Program Intern - Software",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:2852d53d-1e2d-4026-9f6f-90758dc79f0a",
 "company": "Copart",
 "title": "Software Engineer Intern",
@@ -7280,9 +7294,9 @@
 "tag": ""
 },
 {
-"id": "ls:40fce4fe-2ffc-4371-9b54-174b5b8f649b",
+"id": "ls:b42d28f6-494f-4b0a-8e40-29dd669c4846",
 "company": "Canva",
-"title": "PhD Research Scientist Intern",
+"title": "PhD Research Scientist Intern - Generative AI",
 "rule": "seniority",
 "tag": ""
 },
@@ -16740,6 +16754,76 @@
 "id": "ls:c0eb39b4-91b2-4cd4-bcf0-5306f695667a",
 "company": "The Federal Reserve System",
 "title": "Graduate Intern - Markets Group",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:442074fa-7e29-43d4-b703-167255fa995d",
+"company": "Woodward Governor",
+"title": "SAP S/4HANA Analyst Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:5eec1982-b0e8-4ec2-b9c3-ee8ed6051a4b",
+"company": "RTX",
+"title": "Numerical Methods Intern - Advanced Software Development",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:0ab3de69-35a5-4ba9-b025-ae19ea039751",
+"company": "RTX",
+"title": "Software Engineer Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:f4db16dc-9fd7-499a-b809-554855fcb08f",
+"company": "IAT Insurance Group",
+"title": "Data & Integration Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:6bf9017f-b3da-451e-b506-46820adb72e0",
+"company": "Nationwide",
+"title": "Technology Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:aff605d9-9409-4af3-8a8e-5135c61ed924",
+"company": "PIMCO",
+"title": "Quantitative Research Analyst Intern - Client Solutions & Analytics",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:cfcaab3a-1ece-4f3d-80ca-21da950ffc74",
+"company": "PIMCO",
+"title": "Quant Research Analyst Intern - Client Solutions & Analytics",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:efcafcd9-df8e-481e-9264-d67a0345bf68",
+"company": "PIMCO",
+"title": "Quantitative Portfolio Management Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:b0e0dc49-a912-453a-adaa-9778ac12d391",
+"company": "PIMCO",
+"title": "Quant Research Analyst Intern - Client Solutions & Analytics",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:454c1ddc-1d9a-49e8-b815-e2d47db571e8",
+"company": "PIMCO",
+"title": "Quantitative Research Analyst Intern - Portfolio Management",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -36610,14 +36694,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705193005",
+"id": "gh:inversionspace:4692769005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4692769005",
+"id": "gh:inversionspace:4705193005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
@@ -37191,14 +37275,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5247348008",
+"id": "gh:k2spacecorporation:5373554008",
 "company": "K2 Space",
 "title": "Ground Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5373554008",
+"id": "gh:k2spacecorporation:5247348008",
 "company": "K2 Space",
 "title": "Ground Software Engineer",
 "rule": "not-intern",
@@ -37688,14 +37772,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288643008",
+"id": "gh:k2spacecorporation:5288010008",
 "company": "K2 Space",
 "title": "Senior ASIC Physical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288010008",
+"id": "gh:k2spacecorporation:5288643008",
 "company": "K2 Space",
 "title": "Senior ASIC Physical Design Engineer",
 "rule": "not-intern",
@@ -37849,14 +37933,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5197513008",
+"id": "gh:k2spacecorporation:5288002008",
 "company": "K2 Space",
 "title": "Senior Firmware Engineer, Vehicle",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288002008",
+"id": "gh:k2spacecorporation:5197513008",
 "company": "K2 Space",
 "title": "Senior Firmware Engineer, Vehicle",
 "rule": "not-intern",
@@ -37884,14 +37968,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288020008",
+"id": "gh:k2spacecorporation:5165716008",
 "company": "K2 Space",
 "title": "Senior FPGA Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5165716008",
+"id": "gh:k2spacecorporation:5288020008",
 "company": "K2 Space",
 "title": "Senior FPGA Engineer",
 "rule": "not-intern",
@@ -37919,14 +38003,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288028008",
+"id": "gh:k2spacecorporation:5205347008",
 "company": "K2 Space",
 "title": "Senior Ground Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5205347008",
+"id": "gh:k2spacecorporation:5288028008",
 "company": "K2 Space",
 "title": "Senior Ground Software Engineer",
 "rule": "not-intern",
@@ -42021,14 +42105,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8463038002",
+"id": "gh:relativity:8687398002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8687398002",
+"id": "gh:relativity:8463038002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
@@ -42539,14 +42623,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8633353002",
+"id": "gh:relativity:8606781002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8606781002",
+"id": "gh:relativity:8633353002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -42560,14 +42644,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8464747002",
+"id": "gh:relativity:8728512002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8728512002",
+"id": "gh:relativity:8464747002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
@@ -42917,14 +43001,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8595007002",
+"id": "gh:relativity:8715897002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8715897002",
+"id": "gh:relativity:8595007002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -43470,14 +43554,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4378265009",
+"id": "gh:rocketems:4385303009",
 "company": "Rocket EMS",
 "title": "Rework Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4385303009",
+"id": "gh:rocketems:4378265009",
 "company": "Rocket EMS",
 "title": "Rework Technician",
 "rule": "not-intern",
@@ -44380,14 +44464,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5238458008",
+"id": "gh:stratolaunch:5398750008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5398750008",
+"id": "gh:stratolaunch:5238458008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
