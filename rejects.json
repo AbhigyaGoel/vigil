@@ -1428,13 +1428,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:a5ea04af-7e0c-4b40-92d4-ed0f73096c6c",
-"company": "Geisinger",
-"title": "GME Analytics & Dashboard Development Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:6a053db8-23fb-4075-8cbb-7ed2328d5f43",
 "company": "Cohere",
 "title": "Software Engineer Intern",
@@ -2308,6 +2301,13 @@
 "title": "Data Engineer Co-op",
 "rule": "season",
 "tag": "Summer 2026"
+},
+{
+"id": "ls:0de94479-9581-45a1-9e9b-1d63a3842ebb",
+"company": "Synchrony Financial",
+"title": "Emerging Technology Intern",
+"rule": "season",
+"tag": "Fall 2026"
 },
 {
 "id": "ls:6568ed59-ff3f-4485-97a2-64f6d218c8a0",
@@ -7357,13 +7357,6 @@
 "tag": ""
 },
 {
-"id": "ls:d521d54d-6211-43d4-9d48-c874c592067d",
-"company": "Schweitzer Engineering Laboratories",
-"title": "Application Engineering Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:1200d9c3-8c18-4a2b-a55a-19887da19374",
 "company": "Centerfield",
 "title": "Frontend Engineer Intern",
@@ -7663,13 +7656,6 @@
 "title": "Trading and Research Intern",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:c6c209fe-1929-49b7-bc1b-acc754aa5793",
-"company": "HyperLight",
-"title": "Integrated Photonics Intern",
-"rule": "season",
-"tag": "Summer 2026"
 },
 {
 "id": "ls:e658540c-4e9e-4242-ae48-0e3059df35a4",
@@ -11417,6 +11403,13 @@
 "tag": ""
 },
 {
+"id": "ls:2e60bfbc-eba1-46bb-b68b-c273e8465412",
+"company": "Marsh",
+"title": "Government Health Consulting Informatics Intern - College Program",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:2533cf48-d1d8-4e5f-bed0-485c583da8a6",
 "company": "Eudia",
 "title": "Product Intern",
@@ -13762,6 +13755,20 @@
 "tag": "Winter 2027"
 },
 {
+"id": "ls:d51eb451-9f91-449d-8c96-b84c35fbfb16",
+"company": "Marsh",
+"title": "Summer Analyst - Data and Analytics",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:30f88aa1-c8c9-4587-808f-a3954162cf45",
+"company": "Marsh",
+"title": "Summer Analyst Intern - Data and Analytics",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:dd7b3d30-baf7-40f6-b0f5-46fc35981d6d",
 "company": "Air Products",
 "title": "Information Technology/Digital Technology Intern - Infrastructure Services",
@@ -14987,13 +14994,6 @@
 "tag": "Winter 2027"
 },
 {
-"id": "ls:bd9d0095-41b0-4c24-80b4-bd9e878f2e43",
-"company": "Synchrony Financial",
-"title": "Emerging Technology Intern - Fall 2026",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:26d705e5-7d3a-4bba-8fd7-081343f446b0",
 "company": "Royal Bank of Canada",
 "title": "Strategic Delivery Intern - MCCR",
@@ -15005,6 +15005,13 @@
 "company": "Medline",
 "title": "Business Intelligence Development/Analytics Intern",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:c213b582-3232-47e0-9de1-aec552f605c1",
+"company": "Centific",
+"title": "Technical Intern - Masters or PhD",
+"rule": "seniority",
 "tag": ""
 },
 {
@@ -16926,13 +16933,6 @@
 "tag": "Winter 2026"
 },
 {
-"id": "ls:20010a10-012c-43d3-ad8a-06a00c259822",
-"company": "L3Harris Technologies",
-"title": "Integration and Test Engineering Intern - Test Engineering Support",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:ba86fe7a-6db5-4b56-a169-0c868bd5b58d",
 "company": "American Express",
 "title": "Software Engineering Apprentice - Technology Software Engineering",
@@ -17455,6 +17455,153 @@
 "company": "Stryker",
 "title": "Real-World Evidence Data Scientist Intern",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:c82530ca-dbef-4fab-9d6f-c3146e43aeb8",
+"company": "Johnson & Johnson",
+"title": "Data Science Co-op - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:635bf0d1-e3cb-4d15-98d1-86f3a5f11691",
+"company": "Johnson & Johnson",
+"title": "Software Engineer Co-op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:ffd397b2-8311-43d4-b913-acf01647f231",
+"company": "RTX",
+"title": "Technical Publications Technical Developer Intern - Artificial Intelligence/Machine Learning",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:e959e730-a359-41c5-86c2-438b58644550",
+"company": "Johns Hopkins Applied Physics Laboratory",
+"title": "Systems Exploitation Intern - Reverse Engineer - Systems Exploitation",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:1fa0cf6c-b41d-4a3e-bd89-e3efc8a41a1f",
+"company": "Google",
+"title": "Data Analytics Apprentice - February 2027 Start",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:1920c9e2-0339-4167-aa3a-3a0e8dd29095",
+"company": "Verisk",
+"title": "Technology Intern - Summer Internship Program",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:58e0fc45-0a62-48e7-b095-d62d3cfbca39",
+"company": "Intelcom | Dragonfly",
+"title": "Software Developer Intern - Address Intelligence Platform",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:2ae8fb51-3da1-4159-8ea7-1458e29aedc6",
+"company": "General Dynamics Information Technology",
+"title": "Data & Analytics Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:aecf9a61-0e55-4e17-873b-d56a92f353a8",
+"company": "Post Holdings",
+"title": "Data Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:cd370010-ba2c-4a69-901c-5d7c5cb882d7",
+"company": "Riverside Natural Foods",
+"title": "Junior Data Analyst Intern/Co-op",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:b366c04d-a45d-4b79-a577-682f0b05ade0",
+"company": "Post Holdings",
+"title": "Business Intelligence Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:7a7db20b-8452-490d-9750-51cb663773d6",
+"company": "Post Holdings",
+"title": "Product R&D Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:6de536a3-1aec-4953-91d2-43e21e6062ef",
+"company": "Post Holdings",
+"title": "Data Science Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:2d992297-70f1-4f62-852b-75acf2b9ef3b",
+"company": "Perpay",
+"title": "Analytics Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:a7a21277-7af0-4b06-894f-af2ce1530e21",
+"company": "L3Harris Technologies",
+"title": "Software Engineer Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:70637f48-372f-47ac-9ea0-d8cc4f9c42b0",
+"company": "L3Harris Technologies",
+"title": "Software Engineer Intern - Digital Signal Processing",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:cbe43bb3-21d6-4108-aab0-ab1d06246c86",
+"company": "L3Harris Technologies",
+"title": "IT Business Analyst Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:ff540679-724e-400d-914e-3be5549b0166",
+"company": "US Foods",
+"title": "Data Advisory Analyst Intern",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:6058a81f-b551-4b1c-af0f-255daffabc0f",
+"company": "US Foods",
+"title": "AI Automation Intern",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:df045001-6540-4f6a-989a-92d2042973dd",
+"company": "Newrez",
+"title": "Software Developer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:404baf49-0fa6-44f4-927d-2bbe7d993a06",
+"company": "Figure",
+"title": "Robot Service Technician Apprentice",
+"rule": "curated_worker",
 "tag": ""
 },
 {
