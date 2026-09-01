@@ -4459,6 +4459,13 @@
 "tag": ""
 },
 {
+"id": "ls:53fcaec4-0e49-4a63-94d1-c52a5741cef0",
+"company": "Gitar, Inc.",
+"title": "Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:045f6eba-6e94-4fbc-85c8-1ba3affc21d4",
 "company": "LightGuide, Inc.",
 "title": "Product Innovation Co-op",
@@ -5339,6 +5346,13 @@
 "title": "Video and Analytics Intern - Baseball",
 "rule": "season",
 "tag": "Summer 2026"
+},
+{
+"id": "ls:cdaa541b-91c1-4d8e-9532-02dc579cfa22",
+"company": "LightGuide, Inc.",
+"title": "Application Engineering Co-op",
+"rule": "season",
+"tag": "Fall 2026"
 },
 {
 "id": "ls:288b98cb-c28a-4749-b863-533bf90afd67",
@@ -11438,13 +11452,6 @@
 "tag": ""
 },
 {
-"id": "ls:e31170bc-ea00-45b7-bce9-7b1c8ecbe643",
-"company": "General Motors",
-"title": "Lighting Software Development & Test Co-op",
-"rule": "season",
-"tag": "Winter 2027"
-},
-{
 "id": "ls:c4bfe952-8e9a-4599-966c-127295b128ad",
 "company": "Brunswick",
 "title": "Software Engineer Intern",
@@ -13979,20 +13986,6 @@
 "tag": "Winter 2027"
 },
 {
-"id": "ls:d51eb451-9f91-449d-8c96-b84c35fbfb16",
-"company": "Marsh",
-"title": "Summer Analyst - Data and Analytics",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:30f88aa1-c8c9-4587-808f-a3954162cf45",
-"company": "Marsh",
-"title": "Summer Analyst Intern - Data and Analytics",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:dd7b3d30-baf7-40f6-b0f5-46fc35981d6d",
 "company": "Air Products",
 "title": "Information Technology/Digital Technology Intern - Infrastructure Services",
@@ -15694,13 +15687,6 @@
 "tag": "Winter 2027"
 },
 {
-"id": "ls:c21aecd2-5cf3-49c9-9346-f5295e67281a",
-"company": "General Motors",
-"title": "Data Engineering Software Developer Co-op",
-"rule": "season",
-"tag": "Winter 2027"
-},
-{
 "id": "ls:fe7f1e7d-e361-4660-92ac-f496c022b980",
 "company": "Nike",
 "title": "Machine Learning Engineering Undergraduate Intern - Artificial Intelligence - Data",
@@ -16086,9 +16072,23 @@
 "tag": ""
 },
 {
-"id": "ls:884fdee5-74bb-41f7-8545-d3e1a6908112",
-"company": "Stryten",
-"title": "Procurement Intern",
+"id": "ls:7e772e12-bb40-45ce-b4c8-b8905b2dada8",
+"company": "Merchants Bank of Indiana",
+"title": "Business Technology Intern - Application Development",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:bb8b4646-6a3f-4b4b-97c1-3237979069fd",
+"company": "Merchants Bank of Indiana",
+"title": "Business Technology Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:53291848-1f39-4145-bc6b-12b874b0be73",
+"company": "Merchants Bank of Indiana",
+"title": "Capital Markets Intern - Single-Family",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -35798,14 +35798,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4692769005",
+"id": "gh:inversionspace:4705193005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705193005",
+"id": "gh:inversionspace:4692769005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
@@ -39767,14 +39767,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8687398002",
+"id": "gh:relativity:8463038002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8463038002",
+"id": "gh:relativity:8687398002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
@@ -40054,14 +40054,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8419277002",
+"id": "gh:relativity:8701334002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8701334002",
+"id": "gh:relativity:8419277002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -40285,14 +40285,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8606781002",
+"id": "gh:relativity:8633353002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8633353002",
+"id": "gh:relativity:8606781002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -40663,14 +40663,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8595007002",
+"id": "gh:relativity:8715897002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8715897002",
+"id": "gh:relativity:8595007002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -41216,14 +41216,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4385303009",
+"id": "gh:rocketems:4378265009",
 "company": "Rocket EMS",
 "title": "Rework Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4378265009",
+"id": "gh:rocketems:4385303009",
 "company": "Rocket EMS",
 "title": "Rework Technician",
 "rule": "not-intern",
@@ -42126,14 +42126,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5398750008",
+"id": "gh:stratolaunch:5238458008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5238458008",
+"id": "gh:stratolaunch:5398750008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
