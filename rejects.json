@@ -2240,13 +2240,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:a4780b03-762a-4790-bd5e-2d0cc0c66f12",
-"company": "Mach Industries",
-"title": "Engineering Co-op",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:1e24ca64-daad-4e93-b51b-88f86f72518a",
 "company": "SHEIN",
 "title": "Data Analysis Intern",
@@ -3274,6 +3267,13 @@
 "title": "Product Intern",
 "rule": "season",
 "tag": "Summer 2026"
+},
+{
+"id": "ls:8c8a1f21-e711-48d0-8cec-601018138920",
+"company": "CTGT",
+"title": "Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "ls:d423afb4-e4be-41f7-923e-d55ed5e3bddb",
@@ -10115,20 +10115,6 @@
 "tag": "Winter 2027"
 },
 {
-"id": "ls:f19cac09-be15-4c34-8da9-93a79ae5b710",
-"company": "L3Harris Technologies",
-"title": "Software Engineer Intern",
-"rule": "defense",
-"tag": ""
-},
-{
-"id": "ls:8bff08a6-1934-4635-b59a-b1deb676d479",
-"company": "L3Harris Technologies",
-"title": "Software Engineer Intern 3",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:99547ce9-5e06-4524-9de3-0bbd63ed6dd0",
 "company": "L3Harris Technologies",
 "title": "Software Engineer Intern",
@@ -11366,6 +11352,13 @@
 "title": "Software Engineer Intern - Summer 2027",
 "rule": "curated_worker",
 "tag": ""
+},
+{
+"id": "ls:e31170bc-ea00-45b7-bce9-7b1c8ecbe643",
+"company": "General Motors",
+"title": "Lighting Software Development & Test Co-op",
+"rule": "season",
+"tag": "Winter 2027"
 },
 {
 "id": "ls:c4bfe952-8e9a-4599-966c-127295b128ad",
@@ -15547,6 +15540,13 @@
 "tag": "Winter 2027"
 },
 {
+"id": "ls:c21aecd2-5cf3-49c9-9346-f5295e67281a",
+"company": "General Motors",
+"title": "Data Engineering Software Developer Co-op",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
 "id": "ls:fe7f1e7d-e361-4660-92ac-f496c022b980",
 "company": "Nike",
 "title": "Machine Learning Engineering Undergraduate Intern - Artificial Intelligence - Data",
@@ -17204,6 +17204,41 @@
 "title": "Quantitative Research and Development Labs Sales and Trading Intern - Quantitative Research and Development Labs",
 "rule": "seniority",
 "tag": ""
+},
+{
+"id": "ls:616f31e5-f760-4f12-ab94-7cfe7c256b54",
+"company": "United Airlines",
+"title": "Meteorology Support Intern - Summer 2027",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:98ba4abf-1726-45e5-a03c-c711dfb81c84",
+"company": "ByteDance",
+"title": "Software Engineer Intern - Relational Database",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:019b7cbc-d688-40c6-9cfb-a31a7dbfa872",
+"company": "HNTB",
+"title": "Strategic Technology Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:1d07b89c-c4c6-4af6-8986-c31a4a7d36c7",
+"company": "TRUMPF",
+"title": "Application Engineer Intern/Co-op",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:3c4d2405-fb79-4cb1-9bfa-63018d8026b3",
+"company": "General Motors",
+"title": "Mechatronic Infrastructure Diagnostic Systems Co-op",
+"rule": "season",
+"tag": "Winter 2027"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
