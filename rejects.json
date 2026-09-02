@@ -33880,9 +33880,9 @@
 "tag": ""
 },
 {
-"id": "wd:amat:/job/San-JoseCA/RF---Systems-Engineer_R2627548",
+"id": "wd:amat:",
 "company": "Applied Materials",
-"title": "RF & Systems Engineer",
+"title": "",
 "rule": "not-intern",
 "tag": ""
 },
@@ -33905,13 +33905,6 @@
 "company": "Applied Materials",
 "title": "2026 Fall Materials Engineering Co-op (TCAD Modeling) - Doctorate (Gloucester, MA)",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:amat:/job/SingaporeSGP/Intern_R2623166",
-"company": "Applied Materials",
-"title": "Intern",
-"rule": "geo",
 "tag": ""
 },
 {
@@ -34044,6 +34037,13 @@
 "id": "wd:amat:/job/Santa-ClaraCA/Mechanical-Engineer-New-College-Grad---BS-MS-Degree--Santa-Clara--CA-_R2627688",
 "company": "Applied Materials",
 "title": "Mechanical Engineer New College Grad - BS/MS Degree (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Process-Engineer-New-College-Grad---BS-MS-Degree--Santa-Clara--CA-_R2627687-1",
+"company": "Applied Materials",
+"title": "Process Engineer New College Grad - BS/MS Degree (Santa Clara, CA)",
 "rule": "new-grad",
 "tag": ""
 },
@@ -34317,13 +34317,6 @@
 "id": "wd:amat:/job/Santa-ClaraCA/Global-Supply-Chain-Rotational-Program--New-College-Grad--Master-s--Santa-Clara--CA-_R2627027",
 "company": "Applied Materials",
 "title": "Global Supply Chain Rotational Program, New College Grad- Master's (Santa Clara, CA)",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:amat:/job/AustinTX/Global-Supply-Chain-Rotational-Program--New-College-Grad--Master-s--Austin--TX-_R2627023",
-"company": "Applied Materials",
-"title": "Global Supply Chain Rotational Program, New College Grad- Master's (Austin, TX)",
 "rule": "new-grad",
 "tag": ""
 },
