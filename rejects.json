@@ -10360,13 +10360,6 @@
 "tag": ""
 },
 {
-"id": "ls:4ecdff57-6188-48f4-9540-4521c485bc53",
-"company": "TikTok",
-"title": "Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:c2b2c451-d750-4afe-a76b-18cec45fff86",
 "company": "TikTok",
 "title": "Software Engineer Intern - TikTok Search Architecture",
@@ -18399,6 +18392,34 @@
 "id": "ls:3f3e20ab-b767-41af-925d-e652f7bd1e26",
 "company": "Genuine Parts Company",
 "title": "Software Engineer Intern - Quality Assurance Analyst",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:fbfa277c-e07d-4122-a980-c9364dbe899d",
+"company": "Qorvo",
+"title": "Database Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:b7652228-e21c-4bcf-a939-6caec413ef71",
+"company": "Qorvo",
+"title": "Product Engineering Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:5e1acef5-f1b5-4245-be98-c3d3b83e9de3",
+"company": "Qorvo",
+"title": "MMIC Design Intern - Defense & Aerospace Products",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:98621c93-f516-46e0-8eda-22230c879010",
+"company": "Qorvo",
+"title": "Product Engineer Intern",
 "rule": "season",
 "tag": "Winter 2026"
 },
@@ -38451,14 +38472,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4692769005",
+"id": "gh:inversionspace:4705193005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705193005",
+"id": "gh:inversionspace:4692769005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
@@ -39032,14 +39053,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5247348008",
+"id": "gh:k2spacecorporation:5373554008",
 "company": "K2 Space",
 "title": "Ground Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5373554008",
+"id": "gh:k2spacecorporation:5247348008",
 "company": "K2 Space",
 "title": "Ground Software Engineer",
 "rule": "not-intern",
@@ -39207,14 +39228,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288635008",
+"id": "gh:k2spacecorporation:5288008008",
 "company": "K2 Space",
 "title": "Principal ASIC Physical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288008008",
+"id": "gh:k2spacecorporation:5288635008",
 "company": "K2 Space",
 "title": "Principal ASIC Physical Design Engineer",
 "rule": "not-intern",
@@ -39543,14 +39564,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288643008",
+"id": "gh:k2spacecorporation:5288010008",
 "company": "K2 Space",
 "title": "Senior ASIC Physical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288010008",
+"id": "gh:k2spacecorporation:5288643008",
 "company": "K2 Space",
 "title": "Senior ASIC Physical Design Engineer",
 "rule": "not-intern",
@@ -39704,13 +39725,6 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5197513008",
-"company": "K2 Space",
-"title": "Senior Firmware Engineer, Vehicle",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:k2spacecorporation:5288002008",
 "company": "K2 Space",
 "title": "Senior Firmware Engineer, Vehicle",
@@ -39718,14 +39732,21 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5165720008",
+"id": "gh:k2spacecorporation:5197513008",
+"company": "K2 Space",
+"title": "Senior Firmware Engineer, Vehicle",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:k2spacecorporation:5288027008",
 "company": "K2 Space",
 "title": "Senior Flight Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288027008",
+"id": "gh:k2spacecorporation:5165720008",
 "company": "K2 Space",
 "title": "Senior Flight Software Engineer",
 "rule": "not-intern",
@@ -39760,13 +39781,6 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5386721008",
-"company": "K2 Space",
-"title": "Senior FPGA Prototyping Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:k2spacecorporation:5386732008",
 "company": "K2 Space",
 "title": "Senior FPGA Prototyping Engineer",
@@ -39774,14 +39788,21 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288028008",
+"id": "gh:k2spacecorporation:5386721008",
+"company": "K2 Space",
+"title": "Senior FPGA Prototyping Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:k2spacecorporation:5205347008",
 "company": "K2 Space",
 "title": "Senior Ground Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5205347008",
+"id": "gh:k2spacecorporation:5288028008",
 "company": "K2 Space",
 "title": "Senior Ground Software Engineer",
 "rule": "not-intern",
@@ -43771,14 +43792,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8455890002",
+"id": "gh:relativity:8612945002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8612945002",
+"id": "gh:relativity:8455890002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
@@ -44359,14 +44380,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8633353002",
+"id": "gh:relativity:8606781002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8606781002",
+"id": "gh:relativity:8633353002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -44380,14 +44401,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8464747002",
+"id": "gh:relativity:8728512002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8728512002",
+"id": "gh:relativity:8464747002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
@@ -44730,14 +44751,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8715897002",
+"id": "gh:relativity:8595007002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8595007002",
+"id": "gh:relativity:8715897002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -46032,14 +46053,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5226893008",
+"id": "gh:stratolaunch:4606174008",
 "company": "Stratolaunch",
 "title": "Flight Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:4606174008",
+"id": "gh:stratolaunch:5226893008",
 "company": "Stratolaunch",
 "title": "Flight Software Engineer",
 "rule": "not-intern",
@@ -46165,14 +46186,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5398750008",
+"id": "gh:stratolaunch:5238458008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5238458008",
+"id": "gh:stratolaunch:5398750008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
