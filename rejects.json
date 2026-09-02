@@ -11984,6 +11984,13 @@
 "tag": "Spring 2026"
 },
 {
+"id": "ls:7e7de539-7591-41e7-bf48-6e4aa966fed4",
+"company": "RTX",
+"title": "Data Science and Advanced Analytics Intern - Data Science and Advanced Analytics",
+"rule": "defense",
+"tag": ""
+},
+{
 "id": "ls:156e5e79-8f49-4e7b-bea1-7c52e9b98f85",
 "company": "RTX",
 "title": "Customer First Centre Intern - Customer First Centre - Technical Helpdesk",
@@ -12080,6 +12087,13 @@
 "title": "Field Service Engineer Co-op",
 "rule": "seniority",
 "tag": ""
+},
+{
+"id": "ls:7d27dfe1-c616-4155-8112-ca1cce62b768",
+"company": "BP",
+"title": "Corporate Asset Development Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
 },
 {
 "id": "ls:bdf86aea-50d0-4dc0-a171-8784bc37c4bb",
@@ -12444,13 +12458,6 @@
 "title": "AI Co-op - Drexel University",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:a2ab2232-0294-4321-8831-a52bd5488178",
-"company": "RTX",
-"title": "Business Intelligence and Governance Analyst Intern",
-"rule": "defense",
-"tag": ""
 },
 {
 "id": "ls:2a0b4fae-5de5-4ba8-b55d-c4bba930145b",
@@ -13361,13 +13368,6 @@
 "title": "Computer Vision Scientist Intern - Geometry and 3D Vision",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:49e6ace2-42ca-46a7-81f9-59a39844f75f",
-"company": "Leidos",
-"title": "Computer Engineering Co-op",
-"rule": "defense",
-"tag": ""
 },
 {
 "id": "ls:083cfc54-1c27-4fc6-ab89-6606e06aca1f",
@@ -17101,13 +17101,6 @@
 "tag": ""
 },
 {
-"id": "ls:de610830-2f60-4805-baf7-ae776ebdaeb4",
-"company": "Tencent",
-"title": "Communications Platform as a Service Product Management Intern",
-"rule": "season",
-"tag": "Winter 2026"
-},
-{
 "id": "ls:571dc222-d134-45dd-8547-ba1ce9e2c5a4",
 "company": "Tencent",
 "title": "CPaaS Product Management Intern - Cloud & Smart Industries Group",
@@ -18323,6 +18316,13 @@
 "company": "Geotab",
 "title": "Data Analyst Intern",
 "rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "ls:afb93f48-440f-40ac-ad4c-0c537578cbff",
+"company": "Steel Dynamics",
+"title": "Software Development Intern",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -45115,7 +45115,7 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4367479009",
+"id": "gh:rocketems:4392383009",
 "company": "Rocket EMS",
 "title": "3rd OPS Operator (Second Shift)",
 "rule": "not-intern",
@@ -45164,13 +45164,6 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4382385009",
-"company": "Rocket EMS",
-"title": "HR Director",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:rocketems:4382380009",
 "company": "Rocket EMS",
 "title": "HR Director",
@@ -45178,7 +45171,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4356921009",
+"id": "gh:rocketems:4382385009",
+"company": "Rocket EMS",
+"title": "HR Director",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:rocketems:4392380009",
 "company": "Rocket EMS",
 "title": "Inventory Clerk",
 "rule": "not-intern",
@@ -45220,7 +45220,7 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4367535009",
+"id": "gh:rocketems:4392384009",
 "company": "Rocket EMS",
 "title": "Process Technician",
 "rule": "not-intern",
@@ -45283,14 +45283,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4378265009",
+"id": "gh:rocketems:4385303009",
 "company": "Rocket EMS",
 "title": "Rework Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4385303009",
+"id": "gh:rocketems:4378265009",
 "company": "Rocket EMS",
 "title": "Rework Technician",
 "rule": "not-intern",
