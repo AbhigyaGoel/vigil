@@ -13685,13 +13685,6 @@
 "tag": ""
 },
 {
-"id": "ls:302e7185-9863-49b6-a674-0842c67a4158",
-"company": "Fab2",
-"title": "Software Engineering Intern - Winter",
-"rule": "curated_worker",
-"tag": ""
-},
-{
 "id": "ls:596095d8-4722-4847-8780-041d4934008f",
 "company": "Brunswick",
 "title": "Engineering Validation Intern",
@@ -14539,46 +14532,11 @@
 "tag": ""
 },
 {
-"id": "ls:83abba36-a030-45ec-a7aa-04f3db7b101e",
-"company": "State Farm",
-"title": "Financial Operations Data Analytics Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:2ff6ff81-d003-4d95-bc6e-de5332c793ad",
 "company": "Protiviti",
 "title": "Technology Consulting Intern - 2027",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:7336c347-16d8-4603-a160-0add32151f56",
-"company": "Grant Thornton",
-"title": "AI, Data & Technology Intern - Summer 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:728d9a53-61ee-49cc-a0c7-0afef0b1ddf7",
-"company": "Grant Thornton",
-"title": "AI, Data & Technology Intern - Summer 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:d9328bb8-63e9-4ce9-b202-0adae1459fe2",
-"company": "Integra FEC",
-"title": "Research Analyst Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
-"id": "ls:718ae9ad-bbb0-4c52-9cba-e71f8421fa8b",
-"company": "Integra FEC",
-"title": "Research Analyst Intern",
-"rule": "season",
-"tag": "Spring 2026"
 },
 {
 "id": "ls:db526278-271d-4453-82d7-b11c7af64876",
@@ -14684,13 +14642,6 @@
 "title": "Human Factors Engineer Intern - SE&I",
 "rule": "season",
 "tag": "Spring 2027"
-},
-{
-"id": "ls:fddd1298-503a-4d99-ae93-c080d17df82b",
-"company": "TD Bank",
-"title": "Quantitative Associate - Quantitative Rotation Program",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:4c6a393d-581a-4bc1-abf5-6b41bf2f2340",
@@ -15123,13 +15074,6 @@
 "id": "ls:4b6066cd-8c05-4586-80d1-c1500ceb094b",
 "company": "PricewaterhouseCoopers (PwC)",
 "title": "Diligence Analytics Intern - Deals",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:bee35b4a-8dfd-4d26-b25f-6258446fd54f",
-"company": "PricewaterhouseCoopers (PwC)",
-"title": "Digital Assurance & Transparency Intern - Multiple Teams",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -17640,32 +17584,18 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:24be1234-8b24-44df-96ce-0a4c523f0edc",
-"company": "Genuine Parts Company",
-"title": "Software Engineer QA Analyst Intern",
-"rule": "season",
-"tag": "Winter 2026"
-},
-{
-"id": "ls:3f3e20ab-b767-41af-925d-e652f7bd1e26",
-"company": "Genuine Parts Company",
-"title": "Software Engineer Intern - Quality Assurance Analyst",
-"rule": "season",
-"tag": "Winter 2026"
-},
-{
-"id": "ls:fbfa277c-e07d-4122-a980-c9364dbe899d",
-"company": "Qorvo",
-"title": "Database Intern",
-"rule": "season",
-"tag": "Winter 2026"
-},
-{
 "id": "ls:b7652228-e21c-4bcf-a939-6caec413ef71",
 "company": "Qorvo",
 "title": "Product Engineering Intern",
 "rule": "season",
 "tag": "Winter 2026"
+},
+{
+"id": "ls:5e1acef5-f1b5-4245-be98-c3d3b83e9de3",
+"company": "Qorvo",
+"title": "MMIC Design Intern - Defense & Aerospace Products",
+"rule": "seniority",
+"tag": ""
 },
 {
 "id": "ls:98621c93-f516-46e0-8eda-22230c879010",
@@ -18009,6 +17939,335 @@
 "title": "ALM Risk Data & Automation Analyst Intern - Group Risk Management - Balance Sheet and Liquidity Risk",
 "rule": "season",
 "tag": "Winter 2027"
+},
+{
+"id": "ls:72dee251-66c4-4635-bc10-acd70891dd4c",
+"company": "Lawrence Livermore National Laboratory (LLNL)",
+"title": "Protocol and Special Events AI and Digital Solutions Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:eb02dd97-b6c6-4dbc-94d3-d7db278bf381",
+"company": "Shure",
+"title": "Artificial Intelligence Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:bf11bfa2-ab78-4f48-b07e-f8db96d866a9",
+"company": "Cadence Design Systems",
+"title": "Software Engineering Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:278d3954-0ea8-40bb-8e67-e70da625aec4",
+"company": "Cadence Design Systems",
+"title": "Software Engineering Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:c3266d6e-c488-4eef-899d-7b513296dd3b",
+"company": "Stryker",
+"title": "Commercial Operations Software Engineer Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:042166fa-4bd3-4f32-9bf6-42ef5943b1b9",
+"company": "Cadence Design Systems",
+"title": "Software Engineering Graduate Student Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:d4527485-0c3e-4654-9950-156fc723ce93",
+"company": "RSM",
+"title": "Enterprise Data Integration and Migration Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:3eae4ee9-4f81-4e22-acf9-eb51f6155f3a",
+"company": "Cadence Design Systems",
+"title": "Software Engineering Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:2ae2562b-373d-4c8c-b1c7-c933eea13d35",
+"company": "CACI",
+"title": "Software Engineer Co-op - Fall 2026",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:d6adfc0f-f025-42f9-9f5b-0a52306e7501",
+"company": "RTX",
+"title": "Software Engineering Co-op",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:549cf0cc-9150-4b08-9120-b87fc4510590",
+"company": "Microsoft",
+"title": "Applied Science Intern - PhD",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:fb70a4df-1f1d-4ce6-b56c-5d6e38d9d2ed",
+"company": "Cigna Group",
+"title": "Artificial Intelligence Innovation Development Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:d27129fa-610c-48de-b7ac-24e975bfcd62",
+"company": "Cigna Group",
+"title": "Analytics Leadership Development Intern - ALDP",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:86109c63-191c-484b-838b-4448f2812c98",
+"company": "RTX",
+"title": "Software Engineer Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:18d75f00-9331-484a-9190-8ad5d165f054",
+"company": "Wonder",
+"title": "Supply Chain Analytics Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:ea5becea-3693-41da-935d-6465ec44c576",
+"company": "Wonder",
+"title": "Growth & Marketing Analytics Intern - Growth Analytics",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:feb14d7c-0983-4d3c-84e7-6384ed0ae783",
+"company": "Shure",
+"title": "Web Analytics Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:fa0384db-18b6-4394-a8d1-afd89c2d9fc4",
+"company": "Shure",
+"title": "Application Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:d677575f-4784-434b-855b-91bd6c615a7c",
+"company": "Shure",
+"title": "Applied Research Science Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:b3addff6-36c0-4149-b127-cf3eba40aee2",
+"company": "RTX",
+"title": "Electrical Engineer Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:6d54d38d-e5ea-4b4e-8d05-dbea32923015",
+"company": "Shure",
+"title": "Application Systems Development Intern - Motive Mix",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:62b070f3-36f8-45af-8694-3c1417f363aa",
+"company": "Shure",
+"title": "Data Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:1d106df7-acfd-4514-9ccd-c00e9d70d3d9",
+"company": "Shure",
+"title": "Quality Data Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:ff0f5d2c-a6b2-48b7-8fbf-76e568641b0b",
+"company": "Shure",
+"title": "Data-Driven Sustainability Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:ef6c3555-153d-485f-87cb-c2c72dcd51f1",
+"company": "Shure",
+"title": "Artificial Intelligence Specialist Intern - Operations",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:d9dfbdc8-c094-4676-99ce-4f1cb9346b62",
+"company": "Shure",
+"title": "Cloud Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:d8973231-aa83-4db4-8ff2-34fe4b8cac2e",
+"company": "Shure",
+"title": "Mobile Applications Intern - Android",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:d137be2c-8b95-45e3-8643-b051bb55469f",
+"company": "Shure",
+"title": "Cloud Applications Development Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:9a6bfc62-3b30-4eb9-ae60-710c5f62d722",
+"company": "Shure",
+"title": "Application Software Development Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:80bc2f39-e660-4691-aa38-68acbd7b9e84",
+"company": "Shure",
+"title": "Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:79fa7912-460d-4ed0-8f17-686a0a47afbe",
+"company": "Shure",
+"title": "Mobile Applications Intern - iOS",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:7442c66e-fba5-4b94-bb79-4a94282768f2",
+"company": "Atlassian",
+"title": "Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:31a9d3a5-6abe-49c9-95e9-6a7fc79eb810",
+"company": "Shure",
+"title": "Audio Applied Research Science Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:30c22ab2-c292-4f03-b2d9-800af01e875b",
+"company": "Shure",
+"title": "Global Product Management Intern - Conferencing",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:052aae75-1cb8-41e7-9062-f49eac2a2fd6",
+"company": "Shure",
+"title": "Automated Test Software Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:645b61ea-3bc4-432f-86af-7f6909ed5656",
+"company": "Shure",
+"title": "Global Product Management Data Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:ee4b10f5-1464-463a-b28a-9020824aa805",
+"company": "McKesson",
+"title": "Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:44f6dccc-a71b-4d91-a0ad-e30134365802",
+"company": "McKesson",
+"title": "Software Development Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:2fb8aa8a-8920-42b2-9a24-167f54d6cc81",
+"company": "McKesson",
+"title": "Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:1b291a0b-6e3f-4955-b189-033ff5aac0f4",
+"company": "McKesson",
+"title": "Data Analyst Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:08445ede-7741-4ed7-b8db-6b8a9334c0e4",
+"company": "McKesson",
+"title": "Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:02c345c2-b292-434b-ac59-b96cfe54a8ca",
+"company": "Xcel Energy",
+"title": "Gas & Electric Design Analytics and Process Improvement Intern - MN",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:4e0b2f0b-7f11-43bb-97e6-dc33f22b1799",
+"company": "Xcel Energy",
+"title": "Damage Prevention Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:3ae9bc6e-d495-495e-8e13-65d584c347f6",
+"company": "Xcel Energy",
+"title": "Geospatial Data Validation Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:dc1477e7-ee9a-4e9b-b8d7-9299d95745e8",
+"company": "The Walt Disney Company",
+"title": "Figure Programming Intern",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:f5cf3346-173a-44e6-847a-d9334db5775c",
+"company": "Qorvo",
+"title": "Test Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:a01fdcfc-3f7a-4fab-ac71-9e4f40be0e4d",
+"company": "Qorvo",
+"title": "Test Characterization Engineer Intern - RF Characterization Engineering",
+"rule": "season",
+"tag": "Fall 2026"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -33023,6 +33282,13 @@
 "company": "KLA",
 "title": "Ausbildung zum Elektroniker f\u00fcr Ger\u00e4te und Systeme (w/m/d)",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Mexico-Guadalajara/AI-Algorithm-Research-Intern---Neuromorphic-Computing_JR0286774",
+"company": "Intel",
+"title": "AI Algorithm Research Intern \u2013 Neuromorphic Computing",
+"rule": "geo",
 "tag": ""
 },
 {
