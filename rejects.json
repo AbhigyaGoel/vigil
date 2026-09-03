@@ -8575,13 +8575,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:3cef95cf-9ef2-4c94-9300-e032d2b20baa",
-"company": "MPR Associates",
-"title": "Engineer Co-op - Multiple Teams",
-"rule": "season",
-"tag": "Spring 2026"
-},
-{
 "id": "ls:bde0a523-c49d-4b1f-a46c-f2ff167b4f02",
 "company": "Urban Science",
 "title": "Data Driven Analysis Intern - Fall 2026",
@@ -12530,20 +12523,6 @@
 "tag": ""
 },
 {
-"id": "ls:d51eb451-9f91-449d-8c96-b84c35fbfb16",
-"company": "Marsh",
-"title": "Summer Analyst - Data and Analytics",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:30f88aa1-c8c9-4587-808f-a3954162cf45",
-"company": "Marsh",
-"title": "Summer Analyst Intern - Data and Analytics",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:55b1bcd7-ce91-4f80-ab43-68598ccff174",
 "company": "Finastra",
 "title": "AI Engineer Intern - Summer 2027",
@@ -13881,13 +13860,6 @@
 "tag": "Winter 2027"
 },
 {
-"id": "ls:c21aecd2-5cf3-49c9-9346-f5295e67281a",
-"company": "General Motors",
-"title": "Data Engineering Software Developer Co-op",
-"rule": "season",
-"tag": "Winter 2027"
-},
-{
 "id": "ls:fe7f1e7d-e361-4660-92ac-f496c022b980",
 "company": "Nike",
 "title": "Machine Learning Engineering Undergraduate Intern - Artificial Intelligence - Data",
@@ -14893,13 +14865,6 @@
 "company": "Textron",
 "title": "Firmware Engineer Intern - Weapons",
 "rule": "seniority",
-"tag": ""
-},
-{
-"id": "ls:8b07563a-a076-4b83-b485-3f36db4ae47a",
-"company": "Maven Securities",
-"title": "Software Developer Intern",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -17178,13 +17143,6 @@
 "tag": ""
 },
 {
-"id": "ls:02c345c2-b292-434b-ac59-b96cfe54a8ca",
-"company": "Xcel Energy",
-"title": "Gas & Electric Design Analytics and Process Improvement Intern - MN",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:4e0b2f0b-7f11-43bb-97e6-dc33f22b1799",
 "company": "Xcel Energy",
 "title": "Damage Prevention Intern",
@@ -18312,13 +18270,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:fc21ef62-86d7-463d-a70b-080d39fb84c2",
-"company": "Strattec",
-"title": "Engineering Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:8fa032f8-d51f-4223-a529-d347b0267fab",
 "company": "MSA Safety",
 "title": "Electrochemistry Intern",
@@ -19073,6 +19024,34 @@
 "title": "Product Solutions and Operations Project Intern - Scaled Growth",
 "rule": "season",
 "tag": "Summer 2026"
+},
+{
+"id": "ls:bb78f0cb-d806-4ae3-8996-ed333399cb6b",
+"company": "American Express",
+"title": "Data Science Intern - Global Decision Science - Credit & Fraud Risk",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:34a00f8f-132d-47cf-959b-4c8051106160",
+"company": "M.C. Dean",
+"title": "Engineering Intern - CIM",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:39637140-eedf-4bd5-91c2-6f46c8287bd6",
+"company": "M.C. Dean",
+"title": "Engineering Intern - I2Cs",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:2aabd5c0-f81b-4d9c-9139-941364641e32",
+"company": "Composio",
+"title": "Forward Deployed Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -34066,6 +34045,27 @@
 "company": "KLA",
 "title": "Ausbildung zum Elektroniker f\u00fcr Ger\u00e4te und Systeme (w/m/d)",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-California-Santa-Clara/Technical-Sales---Intern--Bachelor-s_JR0286835",
+"company": "Intel",
+"title": "Technical Sales - Intern, Bachelor\u2019s",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-California-Santa-Clara/Technical-Sales---Intern--Graduate_JR0286831",
+"company": "Intel",
+"title": "Technical Sales - Intern, Graduate",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-California-Santa-Clara/Sales-and-Marketing---Intern--Bachelor-s_JR0286838",
+"company": "Intel",
+"title": "Sales and Marketing - Intern, Bachelor\u2019s",
+"rule": "seniority",
 "tag": ""
 },
 {
