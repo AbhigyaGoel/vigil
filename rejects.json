@@ -3850,13 +3850,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:8975659b-0873-4463-9888-45451e2e150b",
-"company": "NewsBreak",
-"title": "Growth Engineer Intern - Growth Engineering",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:d7042ff9-73e7-4c5a-bc41-551e7b2533b7",
 "company": "Ignite Digital Services",
 "title": "Engineer/Scientist Intern",
@@ -4112,13 +4105,6 @@
 "id": "ls:2852d53d-1e2d-4026-9f6f-90758dc79f0a",
 "company": "Copart",
 "title": "Software Engineer Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
-"id": "ls:25a61501-a552-4f3c-b147-5d1ba74548f5",
-"company": "Chevron Corporation",
-"title": "Intern",
 "rule": "season",
 "tag": "Fall 2026"
 },
@@ -4816,6 +4802,13 @@
 "tag": "Summer 2026"
 },
 {
+"id": "ls:fbc2121f-6452-434e-a732-904dabe11cd7",
+"company": "Formlabs",
+"title": "Hardware R&D Engineer Intern",
+"rule": "curated_worker",
+"tag": ""
+},
+{
 "id": "ls:cdaa541b-91c1-4d8e-9532-02dc579cfa22",
 "company": "LightGuide, Inc.",
 "title": "Application Engineering Co-op",
@@ -4893,25 +4886,11 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:8e984444-bc04-494b-b26d-4f4a8cd5d1e7",
-"company": "Genworth Financial",
-"title": "IT Development Program Intern - IT Development Program",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:c798be75-f002-4735-ae90-3a77727b897e",
 "company": "PSECU",
 "title": "Data Analyst Intern",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:f8b9e37f-3c7e-4e07-b7ca-ac75b69f8c7d",
-"company": "Lawrence Livermore National Laboratory (LLNL)",
-"title": "Solid State Magnetic Resonance Spectroscopist - Postdoctoral Researcher",
-"rule": "defense",
-"tag": ""
 },
 {
 "id": "ls:72df9597-3b28-4b97-b878-5cef9737aa8e",
@@ -9600,13 +9579,6 @@
 "id": "ls:d5e5a702-bb67-4401-a6b9-bb2f4cf29ce6",
 "company": "Framatome",
 "title": "Computer Science Engineer Intern Co-op - Univ/Co-op Technical",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
-"id": "ls:1a4140d0-87ba-4fbf-817d-274fb62e70a7",
-"company": "Catalist",
-"title": "Data Services Intern",
 "rule": "season",
 "tag": "Fall 2026"
 },
@@ -17633,13 +17605,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:fdd21bf1-b2d0-489c-8f36-595c3ef90875",
-"company": "Cummins",
-"title": "Apprenticeship - Engineering Design Level 3",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:37b97258-63a4-45f5-adf3-0a84d16998bf",
 "company": "Quantinuum",
 "title": "Quantum Error Correction Intern - Quantum Error Correction",
@@ -18770,6 +18735,27 @@
 "id": "ls:52b170ce-7bb1-4b1d-a3a4-522f883dff61",
 "company": "TechInsights",
 "title": "Teardown Lab Co-op",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:3278eb15-e3f1-4dee-960d-7e1481d6b4a5",
+"company": "University of Rochester",
+"title": "Student Researcher Co-op",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:6c1b495d-c993-4a1e-80fc-bb8b295e7c8b",
+"company": "Red Bull",
+"title": "Academy Scouting Intern - Academy Scout",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:cc58fac9-b0fa-47d6-8d76-5a9b5e373147",
+"company": "Marquee Brands",
+"title": "Consumer Insights Intern",
 "rule": "season",
 "tag": "Fall 2026"
 },
@@ -34846,10 +34832,10 @@
 "tag": ""
 },
 {
-"id": "wd:amat:/job/Santa-ClaraCA/Knowledge-Management-Technical-Project-Manager-New-College-Graduate--Bachelor-s--Santa-Clara--CA-_R2622644",
+"id": "wd:amat:",
 "company": "Applied Materials",
-"title": "Knowledge Management Technical Project Manager New College Graduate- Bachelor's (Santa Clara, CA)",
-"rule": "new-grad",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -38885,14 +38871,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709691005",
+"id": "gh:inversionspace:4705254005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705254005",
+"id": "gh:inversionspace:4709691005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
@@ -38997,14 +38983,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4692769005",
+"id": "gh:inversionspace:4705193005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705193005",
+"id": "gh:inversionspace:4692769005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
@@ -39571,14 +39557,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5373554008",
+"id": "gh:k2spacecorporation:5247348008",
 "company": "K2 Space",
 "title": "Ground Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5247348008",
+"id": "gh:k2spacecorporation:5373554008",
 "company": "K2 Space",
 "title": "Ground Software Engineer",
 "rule": "not-intern",
@@ -39746,14 +39732,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288008008",
+"id": "gh:k2spacecorporation:5288635008",
 "company": "K2 Space",
 "title": "Principal ASIC Physical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288635008",
+"id": "gh:k2spacecorporation:5288008008",
 "company": "K2 Space",
 "title": "Principal ASIC Physical Design Engineer",
 "rule": "not-intern",
@@ -40082,14 +40068,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288010008",
+"id": "gh:k2spacecorporation:5288643008",
 "company": "K2 Space",
 "title": "Senior ASIC Physical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288643008",
+"id": "gh:k2spacecorporation:5288010008",
 "company": "K2 Space",
 "title": "Senior ASIC Physical Design Engineer",
 "rule": "not-intern",
@@ -40243,13 +40229,6 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288002008",
-"company": "K2 Space",
-"title": "Senior Firmware Engineer, Vehicle",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:k2spacecorporation:5197513008",
 "company": "K2 Space",
 "title": "Senior Firmware Engineer, Vehicle",
@@ -40257,14 +40236,21 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288027008",
+"id": "gh:k2spacecorporation:5288002008",
+"company": "K2 Space",
+"title": "Senior Firmware Engineer, Vehicle",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:k2spacecorporation:5165720008",
 "company": "K2 Space",
 "title": "Senior Flight Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5165720008",
+"id": "gh:k2spacecorporation:5288027008",
 "company": "K2 Space",
 "title": "Senior Flight Software Engineer",
 "rule": "not-intern",
@@ -40299,13 +40285,6 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5386732008",
-"company": "K2 Space",
-"title": "Senior FPGA Prototyping Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:k2spacecorporation:5386721008",
 "company": "K2 Space",
 "title": "Senior FPGA Prototyping Engineer",
@@ -40313,14 +40292,21 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5205347008",
+"id": "gh:k2spacecorporation:5386732008",
+"company": "K2 Space",
+"title": "Senior FPGA Prototyping Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:k2spacecorporation:5288028008",
 "company": "K2 Space",
 "title": "Senior Ground Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288028008",
+"id": "gh:k2spacecorporation:5205347008",
 "company": "K2 Space",
 "title": "Senior Ground Software Engineer",
 "rule": "not-intern",
@@ -44450,14 +44436,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8780048002",
+"id": "gh:relativity:8463038002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8463038002",
+"id": "gh:relativity:8780048002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
@@ -45731,14 +45717,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4394496009",
+"id": "gh:rocketems:4381810009",
 "company": "Rocket EMS",
 "title": "2D X-Ray Operator (Second Shift)",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4381810009",
+"id": "gh:rocketems:4394496009",
 "company": "Rocket EMS",
 "title": "2D X-Ray Operator (Second Shift)",
 "rule": "not-intern",
@@ -45815,14 +45801,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4382385009",
+"id": "gh:rocketems:4382380009",
 "company": "Rocket EMS",
 "title": "HR Director",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4382380009",
+"id": "gh:rocketems:4382385009",
 "company": "Rocket EMS",
 "title": "HR Director",
 "rule": "not-intern",
@@ -45927,14 +45913,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4378265009",
+"id": "gh:rocketems:4385303009",
 "company": "Rocket EMS",
 "title": "Rework Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4385303009",
+"id": "gh:rocketems:4378265009",
 "company": "Rocket EMS",
 "title": "Rework Technician",
 "rule": "not-intern",
