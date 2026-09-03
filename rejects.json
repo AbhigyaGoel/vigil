@@ -13076,13 +13076,6 @@
 "tag": ""
 },
 {
-"id": "ls:49811d2d-c4c5-4b12-a63a-f0be4842a2d5",
-"company": "Capital One",
-"title": "Technology Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:873e0bb6-6311-4d44-9849-f81373ccdeeb",
 "company": "GE Healthcare",
 "title": "Surgery Field Engineer Apprentice",
@@ -13108,13 +13101,6 @@
 "company": "Procter & Gamble",
 "title": "Research & Development Scientist/Engineer Intern - Freshmen, Sophomores, And Juniors",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:992a2117-4cf1-47d8-bb15-9770955da023",
-"company": "RTX",
-"title": "Software Engineer Intern - Summer 2027",
-"rule": "defense",
 "tag": ""
 },
 {
@@ -13200,13 +13186,6 @@
 "title": "Innovation Lab Engineering Intern 2",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:52f4413c-7f26-4030-a9c3-cff2b3c6b9dc",
-"company": "Vertiv",
-"title": "Services Product Management Intern - Summer 2027",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:356b198c-0ed6-4dda-a900-d413165fc712",
@@ -13300,13 +13279,6 @@
 "tag": ""
 },
 {
-"id": "ls:74de6522-955b-42bb-908b-e3dfcb52ae94",
-"company": "Microchip Technology",
-"title": "Engineering Intern - Applications",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:bc8cef80-2478-4abe-8166-7f6a226c4edd",
 "company": "Medtronic",
 "title": "Engineering Intern",
@@ -13342,25 +13314,11 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:26b60de2-2d8a-4010-84bc-eae455aebcdd",
-"company": "Grant Thornton",
-"title": "AI, Data & Technology Intern - Summer 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:9117ab3a-74f6-45f4-b9df-400221691e60",
 "company": "Johns Manville",
 "title": "Product Management Intern",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:98b31f4b-c135-4092-b381-c0172e58fe60",
-"company": "Elk Valley Resources",
-"title": "Geology Co-op",
-"rule": "season",
-"tag": "Winter 2027"
 },
 {
 "id": "ls:d51eb451-9f91-449d-8c96-b84c35fbfb16",
@@ -13377,13 +13335,6 @@
 "tag": ""
 },
 {
-"id": "ls:dd7b3d30-baf7-40f6-b0f5-46fc35981d6d",
-"company": "Air Products",
-"title": "Information Technology/Digital Technology Intern - Infrastructure Services",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:55b1bcd7-ce91-4f80-ab43-68598ccff174",
 "company": "Finastra",
 "title": "AI Engineer Intern - Summer 2027",
@@ -13394,13 +13345,6 @@
 "id": "ls:5a5be475-2555-4da5-a59d-60e578b87650",
 "company": "Excellus BCBS",
 "title": "Telecommunications Intern - Telecommunications Team",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
-"id": "ls:36211e47-09aa-432d-acf8-e9a218f96652",
-"company": "Excellus BCBS",
-"title": "Community Impact Intern",
 "rule": "season",
 "tag": "Fall 2026"
 },
@@ -13522,13 +13466,6 @@
 "title": "Artificial Intelligence Software Modernization Intern",
 "rule": "season",
 "tag": "Summer 2026"
-},
-{
-"id": "ls:73fe59bd-6ea1-4126-b2c2-83f766ca2520",
-"company": "Fab2",
-"title": "Packaging Engineer Intern - Winter",
-"rule": "curated_worker",
-"tag": ""
 },
 {
 "id": "ls:d50e0c94-1355-4bbe-a720-1a1937f238f7",
@@ -13690,13 +13627,6 @@
 "title": "Engineering and Capital Projects Summer Scholar Intern - Government & Public Services",
 "rule": "season",
 "tag": "Summer 2026"
-},
-{
-"id": "ls:d01ac00f-25b3-4da7-8e07-a66bfcc42e85",
-"company": "Anheuser-Busch",
-"title": "Technology Intern",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:8e4b4b17-9c3e-4b70-8a49-902c7956a66b",
@@ -18582,6 +18512,160 @@
 "company": "Micron Technology",
 "title": "Marketing Analytics Intern - Global Communications & Marketing",
 "rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:8b395263-c215-4129-b6bc-05ce51b926f7",
+"company": "AltaML",
+"title": "Associate Software Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:6e3c0adb-d5a0-4338-84f4-8952eff0c717",
+"company": "Tesla",
+"title": "Embedded Software Engineer Intern - High Voltage Systems",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:65f48070-31d5-408c-b8db-994cf05d1846",
+"company": "Clorox",
+"title": "Sales Analyst Intern - Customer Analytics",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:f03e18cd-43a7-42fb-95e7-609dd0d670d8",
+"company": "Micron Technology",
+"title": "Advanced DRAM Cell & Device Technology Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:6318ab90-8bcd-4d0c-af9b-00719bb66676",
+"company": "Frost",
+"title": "Model Risk Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:426b172d-0484-4838-80d6-08e3d84a357e",
+"company": "Tesla",
+"title": "Software Integration Engineer Intern - Battery Management Systems",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:e4814955-4e90-400b-9335-a3ab04843a7b",
+"company": "Tesla",
+"title": "Software Engineer Intern - Vehicle UI Development",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:4866cbcf-d67b-4afa-b4df-3d028fbae980",
+"company": "Tesla",
+"title": "Embedded Software Engineer Intern - Steering - Chassis Systems",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:05be0761-5116-4191-b48d-0c98f2f2c7c0",
+"company": "Marshall Wace",
+"title": "Quantitative Research Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:c416ad28-d7e6-4fca-98ee-f4a2119e49e5",
+"company": "CAE",
+"title": "Software Engineering Intern - AI, Automation and Business Intelligence",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:43841eec-e864-4974-9040-b082631ecd4c",
+"company": "Tesla",
+"title": "Software Engineer Intern - AI Tooling",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:cee7024e-305b-4327-b730-0cf293d44668",
+"company": "Hewlett Packard",
+"title": "Quality Engineer Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:b207c0f1-7cb3-4dc3-a5dd-7917c737106b",
+"company": "V2X",
+"title": "Software Engineer Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:2e2b9880-d6c9-4502-b647-d93be679e9a2",
+"company": "Cisco",
+"title": "Machine Learning Engineer 2 Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:e5be58b3-8e57-426f-843b-f92609fdc6d5",
+"company": "Kinder Morgan",
+"title": "Intern - IT",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:ce1d2fc4-9efe-4f1c-8d00-8c6c23b607f0",
+"company": "Mirego",
+"title": "Software Developer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:3975a833-570a-4c3b-bbe6-af2ed466f0f7",
+"company": "Copart",
+"title": "Software Engineer Intern - JavaScript/Frontend Developer",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:048f86af-a1b6-4685-8cfc-9845dc599e4e",
+"company": "Nokia",
+"title": "DSP Firmware Engineer Co-op/Intern",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:8a718c8c-b26b-49bc-9e9d-ee9da1db4be8",
+"company": "Tesla",
+"title": "Electrical Engineer Intern - Energy Service Tooling",
+"rule": "season",
+"tag": "Spring 2027"
+},
+{
+"id": "ls:813ce4a3-f0d2-4422-8bc6-baa8f9cf613a",
+"company": "Fab2",
+"title": "Electrical Engineer Intern - Winter",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "ls:668b5949-6f06-46a6-a6d9-7f76518de4c0",
+"company": "Vertiv",
+"title": "Innovation Lab Engineer Intern 1",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:428cbf35-14f8-4bc9-a4bd-b044dbc7ddc2",
+"company": "Vertiv",
+"title": "Business Analytics Intern - Summer 2027",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -31696,874 +31780,6 @@
 "tag": ""
 },
 {
-"id": "wd:nvidia:/job/China-Shanghai/TPC-Arch-Intern--GPU-SM---2027_JR2024486",
-"company": "NVIDIA",
-"title": "TPC Arch Intern, GPU SM - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Israel-Yokneam/Software-Architect--Advanced-Development_JR2007439",
-"company": "NVIDIA",
-"title": "Software Architect, Advanced Development",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Applied-Systems-Engineering-Rotation-Engineer---New-College-Graduate-2026_JR2024713",
-"company": "NVIDIA",
-"title": "Applied Systems Engineering Rotation Engineer - New College Graduate 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/Physical-Design--VLSI---New-College-Grad-2027_JR2024940",
-"company": "NVIDIA",
-"title": "Physical Design, VLSI - New College Grad 2027",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Taipei/Developer-Technology-Engineering-Intern--HPC-and-AI---2027_JR2024509",
-"company": "NVIDIA",
-"title": "Developer Technology Engineering Intern, HPC and AI - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Hsinchu/ASIC-Design-Engineer--RDSS-Intern-_JR2024822",
-"company": "NVIDIA",
-"title": "ASIC Design Engineer (RDSS Intern)",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Hsinchu/Design-Verification-Engineer--RDSS-Intern-_JR2024681",
-"company": "NVIDIA",
-"title": "Design Verification Engineer (RDSS Intern)",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Developer-Technology-Engineer--AI---New-College-Graduate-2026_JR2024557",
-"company": "NVIDIA",
-"title": "Developer Technology Engineer, AI - New College Graduate 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/ASIC-Floorplan-Design-Engineer---New-College-Grad-2026_JR2024651",
-"company": "NVIDIA",
-"title": "ASIC Floorplan Design Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Beijing/AI-Developer-Technology-Engineer-Intern--AI---2027_JR2024002",
-"company": "NVIDIA",
-"title": "AI Developer Technology Engineer Intern, AI - 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/India-Bengaluru/PhD-Intern--AI-ML-in-Wireless-L1-L2---Fall-2026_JR2024423",
-"company": "NVIDIA",
-"title": "PhD Intern, AI ML in Wireless L1/L2 - Fall 2026",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/Software-Engineering-Intern--Test-Development---2027_JR2023648",
-"company": "NVIDIA",
-"title": "Software Engineering Intern, Test Development - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/Software-Engineering-Intern--Test-Development---2027_JR2023652",
-"company": "NVIDIA",
-"title": "Software Engineering Intern, Test Development - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Taipei/System-Software-Engineer--RDSS-Intern-_JR2024500",
-"company": "NVIDIA",
-"title": "System Software Engineer (RDSS Intern)",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/GPU-PCIe-and-Boot-Architect---New-College-Grad-2026_JR2021768",
-"company": "NVIDIA",
-"title": "GPU PCIe and Boot Architect - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Taipei/Android-Software-Engineer--RDSS-Intern-_JR2024408",
-"company": "NVIDIA",
-"title": "Android Software Engineer (RDSS Intern)",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Beijing/Developer-Technology-Engineering-Intern---2027_JR2024122",
-"company": "NVIDIA",
-"title": "Developer Technology Engineering Intern - 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Taipei/Diagnostic-Network-Software-Engineer--RDSS-Intern-_JR2024300",
-"company": "NVIDIA",
-"title": "Diagnostic Network Software Engineer (RDSS Intern)",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/System-Software-Engineer---Autonomous-Vehicles_JR2022599",
-"company": "NVIDIA",
-"title": "System Software Engineer - Autonomous Vehicles",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Taipei/System-Software-Engineer--SOC--New-College-Graduate_JR2020781",
-"company": "NVIDIA",
-"title": "System Software Engineer, SOC - New College Graduate",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Taipei/System-Design-Validation-Engineer--RDSS-Intern-_JR2023644",
-"company": "NVIDIA",
-"title": "System Design Validation Engineer (RDSS Intern)",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Taipei/Enterprise-Software-Test-Development-Engineer--RDSS-Intern-_JR2023995",
-"company": "NVIDIA",
-"title": "Enterprise Software Test Development Engineer (RDSS Intern)",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Taipei/Enterprise-Software-Test-Development-Engineer--RDSS-Intern-_JR2024001",
-"company": "NVIDIA",
-"title": "Enterprise Software Test Development Engineer (RDSS Intern)",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Beijing/Developer-Technology-Engineering-Intern--AI---2027_JR2024258",
-"company": "NVIDIA",
-"title": "Developer Technology Engineering Intern, AI - 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/ASIC-Physical-Design-Intern---2027_JR2023914",
-"company": "NVIDIA",
-"title": "ASIC Physical Design Intern - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Cell-Modelling-and-Verification-Engineer---New-College-Grad-2026_JR2011631",
-"company": "NVIDIA",
-"title": "Cell Modeling and Verification Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Vietnam-Hanoi/AI-Research-Intern--TAO-Multi-Modal-Model-Development---2026_JR2021301",
-"company": "NVIDIA",
-"title": "AI Research Intern, TAO Multi-Modal Model Development - 2026",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/ASIC-Engineering-Intern--Networking-Chip-Design---2027_JR2023920-1",
-"company": "NVIDIA",
-"title": "ASIC Engineering Intern, Networking Chip Design - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Hsinchu/ASIC-Physical-Design-Intern---2027_JR2024050",
-"company": "NVIDIA",
-"title": "ASIC Physical Design Intern - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Hsinchu/ASIC-Physical-Design-Engineer--RDSS-Intern-_JR2024046",
-"company": "NVIDIA",
-"title": "ASIC Physical Design Engineer (RDSS Intern)",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/Deep-Learning-Software-Engineering-Intern--Test-Development---2027_JR2023658",
-"company": "NVIDIA",
-"title": "Deep Learning Software Engineering Intern, Test Development - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Taipei/System-Software-Engineer---Embedded-Power-Management--RDSS-Intern-_JR2023967",
-"company": "NVIDIA",
-"title": "System Software Engineer \u2013 Embedded Power Management (RDSS Intern)",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/Software-Engineering-Intern--Test-Development---2027_JR2023649-1",
-"company": "NVIDIA",
-"title": "Software Engineering Intern, Test Development - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Architecture-Energy-Modeling-Engineer---New-College-Grad-2026_JR2023398",
-"company": "NVIDIA",
-"title": "Architecture Energy Modeling Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/Deep-Learning-Software-Engineering-Intern--Test-Development---2027_JR2023639",
-"company": "NVIDIA",
-"title": "Deep Learning Software Engineering Intern, Test Development - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/Deep-Learning-Software-Engineering-Intern--Test-Development---2027_JR2023641",
-"company": "NVIDIA",
-"title": "Deep Learning Software Engineering Intern, Test Development - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/CUDA-Full-Stack---AI-Test-Dev-Intern---2027_JR2023666-1",
-"company": "NVIDIA",
-"title": "CUDA Full Stack & AI Test Dev Intern - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/NVIDIA-2027-New-College-Graduate--Deep-Learning-and-High-Performance-Computing-Engineering---China_JR2024107",
-"company": "NVIDIA",
-"title": "NVIDIA 2027 New College Graduate: Deep Learning and High-Performance Computing Engineering - China",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/NVIDIA-2027-New-College-Graduate--Software-Engineering---China_JR2024111",
-"company": "NVIDIA",
-"title": "NVIDIA 2027 New College Graduate: Software Engineering - China",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/NVIDIA-2027-New-College-Graduate--GPU-Architecture-Engineering---China_JR2024108",
-"company": "NVIDIA",
-"title": "NVIDIA 2027 New College Graduate: GPU Architecture Engineering - China",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/NVIDIA-2027-New-College-Graduate--Autonomous-Vehicles-and-Robotics---China_JR2024109",
-"company": "NVIDIA",
-"title": "NVIDIA 2027 New College Graduate: Autonomous Vehicles and Robotics - China",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/NVIDIA-2027-New-College-Graduate--Hardware-ASIC-Engineering---China_JR2024110",
-"company": "NVIDIA",
-"title": "NVIDIA 2027 New College Graduate: Hardware ASIC Engineering - China",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/Test-Development-Software-Engineering-Intern---2027_JR2023632",
-"company": "NVIDIA",
-"title": "Test Development Software Engineering Intern - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Taipei/Enterprise-Software-Test-Development-Engineer--RDSS-Intern-_JR2023913",
-"company": "NVIDIA",
-"title": "Enterprise Software Test Development Engineer (RDSS Intern)",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Taipei/Enterprise-Software-Test-Development-Engineer--RDSS-Intern-_JR2023905",
-"company": "NVIDIA",
-"title": "Enterprise Software Test Development Engineer (RDSS Intern)",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/SWQA-Test-Development-Intern--GPU-Communications-Libraries---2027_JR2023690",
-"company": "NVIDIA",
-"title": "SWQA Test Development Intern, GPU Communications Libraries - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/Software-Engineering-Intern--CUDA-Test-Development---2027_JR2023645",
-"company": "NVIDIA",
-"title": "Software Engineering Intern, CUDA Test Development - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/Software-QA-Intern--Spark-Rapids----2027_JR2023655",
-"company": "NVIDIA",
-"title": "Software QA Intern, Spark Rapids  - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/Test-Development-Software-Engineering-Intern--Aerial---2027_JR2023852",
-"company": "NVIDIA",
-"title": "Test Development Software Engineering Intern, Aerial - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/Deep-Learning-Software-Engineering-Intern--Test-Development---2027_JR2023656",
-"company": "NVIDIA",
-"title": "Deep Learning Software Engineering Intern, Test Development - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/Software-QA-Developer-Intern---2027_JR2023654",
-"company": "NVIDIA",
-"title": "Software QA Developer Intern - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Taipei/Artificial-Intelligence-Research-Intern---Deep-Learning_JR2023646",
-"company": "NVIDIA",
-"title": "Artificial Intelligence Research Intern - Deep Learning",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Computer-Architecture_JR2023489",
-"company": "NVIDIA",
-"title": "NVIDIA 2027 Internships: Computer Architecture",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491",
-"company": "NVIDIA",
-"title": "NVIDIA 2027 Internships: Deep Learning Computer Architecture",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning_JR2023497-1",
-"company": "NVIDIA",
-"title": "NVIDIA 2027 Internships: Deep Learning",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Generative-AI_JR2023475",
-"company": "NVIDIA",
-"title": "NVIDIA 2027 Internships: Ph.D. Research Generative AI",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Graphics-and-Simulation_JR2023835",
-"company": "NVIDIA",
-"title": "NVIDIA 2027 Internships: Ph.D. Research Graphics and Simulation",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Large-Language-Models_JR2023837",
-"company": "NVIDIA",
-"title": "NVIDIA 2027 Internships: Ph.D. Research Large Language Models",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
-"company": "NVIDIA",
-"title": "NVIDIA 2027 Internships: Software Engineering",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
-"company": "NVIDIA",
-"title": "NVIDIA 2027 Internships: Systems Software Engineering",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Taipei/System-Software-Engineer---GPU-and-SOC--2027-RDSS-Intern-_JR2023628",
-"company": "NVIDIA",
-"title": "System Software Engineer \u2013 GPU and SOC (2027 RDSS Intern)",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/China-Shanghai/Software-Engineering-Intern--NCCL---2026_JR2022645",
-"company": "NVIDIA",
-"title": "Software Engineering Intern, NCCL - 2026",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Taipei/PCB-Design-EDA-and-AI-Engineer---New-College-Graduate-2027_JR2023370",
-"company": "NVIDIA",
-"title": "PCB Design EDA and AI Engineer - New College Graduate 2027",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Israel-Beer-Sheva/Firmware-Engineer_JR2022198",
-"company": "NVIDIA",
-"title": "Firmware Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/ASIC-Physical-Design-Engineer--Netlisting---New-College-Grad-2026_JR2017681",
-"company": "NVIDIA",
-"title": "ASIC Physical Design Engineer, Netlisting - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-MA-Westford/GPU-Verification-Engineer---New-College-Grad-2026_JR2023187",
-"company": "NVIDIA",
-"title": "GPU Verification Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Israel-Yokneam/Interposer-Design-Engineer_JR2022962",
-"company": "NVIDIA",
-"title": "Interposer Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
-"company": "NVIDIA",
-"title": "Software Engineering Intern, Dynamo - Fall 2026",
-"rule": "season",
-"tag": "title"
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Taipei/System-Design-Engineer---LDE--RDSS-Intern-_JR2021878",
-"company": "NVIDIA",
-"title": "System Design Engineer - LDE (RDSS Intern)",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Finland-Helsinki/Solutions-Architect--Graduate-Program_JR2022442-1",
-"company": "NVIDIA",
-"title": "Solutions Architect, Graduate Program",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Poland-Warsaw/Solutions-Architect--Graduate-Program_JR2022444",
-"company": "NVIDIA",
-"title": "Solutions Architect, Graduate Program",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Israel-Tel-Aviv/Physical-Design-Engineer_JR2022207",
-"company": "NVIDIA",
-"title": "Physical Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-MA-Westford/GPU-Verification-Engineer---New-College-Grad-2026_JR2022102",
-"company": "NVIDIA",
-"title": "GPU Verification Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Taipei/System-Design-Intern--LDE---2027_JR2021952",
-"company": "NVIDIA",
-"title": "System Design Intern, LDE - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-WA-Seattle/Research-Scientist--Robotics-Research----PhD-New-College-Grad-2026_JR2011473",
-"company": "NVIDIA",
-"title": "Research Scientist, Robotics Research -  PhD New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Taipei/System-Design-Validation-Intern---2027_JR2021783",
-"company": "NVIDIA",
-"title": "System Design Validation Intern - 2027",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/ASIC-Timing-Engineer---New-College-Grad-2026_JR2013177",
-"company": "NVIDIA",
-"title": "ASIC Physical Design and Timing Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-TX-Austin/Software-R-D-Engineer--VLSI-Physical-Design---New-College-Grad-2026_JR2019330",
-"company": "NVIDIA",
-"title": "Software R&D Engineer, VLSI Physical Design - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/RTL-Power-Optimization-Engineer---New-College-Grad-2026_JR2021841",
-"company": "NVIDIA",
-"title": "RTL Power Optimization Engineer \u2013 New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/GPU-Architecture-Engineer---New-College-Grad-2026_JR2021615",
-"company": "NVIDIA",
-"title": "GPU Architecture Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2021534",
-"company": "NVIDIA",
-"title": "ASIC Design Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Backend-Compiler-Engineer---New-College-Grad-2026_JR2021242",
-"company": "NVIDIA",
-"title": "Backend Compiler Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Formal-Verification-Engineer---New-College-Grad-2026_JR2020837",
-"company": "NVIDIA",
-"title": "Formal Verification Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2020309",
-"company": "NVIDIA",
-"title": "ASIC Design Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/ASIC-Verification-Engineer---New-College-Grad-2026_JR2020640",
-"company": "NVIDIA",
-"title": "ASIC Verification Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Israel-Tel-Aviv/Chip-Design-Engineer_JR2019549",
-"company": "NVIDIA",
-"title": "Chip Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Applied-Research-Intern--NLP---Fall-2026_JR2010488",
-"company": "NVIDIA",
-"title": "Applied Research Intern, NLP - Fall 2026",
-"rule": "season",
-"tag": "title"
-},
-{
-"id": "wd:nvidia:/job/Israel-Tel-Aviv/Firmware-Architect_JR2020228",
-"company": "NVIDIA",
-"title": "Firmware Architect",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/DFT-Engineer---New-College-Grad_JR2016865",
-"company": "NVIDIA",
-"title": "DFT Engineer - New College Grad",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Software-Quality-Assurance-Engineer---2026-New-College-Grad_JR2019924-1",
-"company": "NVIDIA",
-"title": "Software Quality Assurance Engineer - 2026 New College Grad",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Taipei/Research-Scientist--Deep-Learning-and-Computer-Vision---New-College-Graduate_JR2018685",
-"company": "NVIDIA",
-"title": "Research Scientist, Deep Learning and Computer Vision - New College Graduate",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--Efficient-Deep-Learning---New-College-Grad-2026_JR2019729-1",
-"company": "NVIDIA",
-"title": "Research Scientist, Efficient Deep Learning - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Circuit-Design-Engineer---New-College-Grad-2026_JR2019567",
-"company": "NVIDIA",
-"title": "Circuit Design Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-TX-Austin/ASIC-Verification-Engineer---New-College-Grad-2026_JR2012573",
-"company": "NVIDIA",
-"title": "ASIC Verification Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659",
-"company": "NVIDIA",
-"title": "Software Engineer, Hardware Tools and Methodology - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--Electronic-Design-Automation---New-College-Grad-2026_JR2012979",
-"company": "NVIDIA",
-"title": "Research Scientist, Electronic Design Automation - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Low-Power-ASIC-Engineer---New-College-Grad-2026_JR2017005",
-"company": "NVIDIA",
-"title": "Low Power ASIC Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/PhD-Research-Intern--Generative-AI---2026_JR2016035",
-"company": "NVIDIA",
-"title": "PhD Research Intern, Generative AI - 2026",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Circuit-Design-Engineer---New-College-Grad-2026_JR2018635",
-"company": "NVIDIA",
-"title": "Circuit Design Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522",
-"company": "NVIDIA",
-"title": "PhD Software Engineering Intern, Decision Intelligence - Fall 2026",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Applied-Deep-Learning-PhD-Research-Intern--Reinforcement-Learning-for-LLMs---Fall-2026_JR2012398",
-"company": "NVIDIA",
-"title": "Applied Deep Learning PhD Research Intern, Reinforcement Learning for LLMs - Fall 2026",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-TX-Austin/Power-Methodology-and-Modeling-Engineer---New-College-Grad-2026_JR2017486-1",
-"company": "NVIDIA",
-"title": "Power Methodology and Modeling Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Israel-Tel-Aviv/Physical-Design-Backend-Engineer_JR2016363",
-"company": "NVIDIA",
-"title": "Physical Design Backend Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/GPU-Power-Architect---New-College-Grad-2026_JR2017169",
-"company": "NVIDIA",
-"title": "GPU Power Architect - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/ASIC-Clocks-Verification-Engineer---New-College-Grad-2026_JR2013336",
-"company": "NVIDIA",
-"title": "ASIC Clocks Verification Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Applied-Machine-Learning-Engineer--Circuit-Design---New-College-Grad-2026_JR2011517",
-"company": "NVIDIA",
-"title": "Applied Machine Learning Engineer, Circuit Design - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Taipei/Board-Design-Engineer--LDE---New-College-Graduate_JR2016978-1",
-"company": "NVIDIA",
-"title": "Board Design Engineer, LDE - New College Graduate",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Armenia-Yerevan/Research-Scientist---New-College-Grad-2025_JR1998091-1",
-"company": "NVIDIA",
-"title": "Research Scientist - New College Grad 2025",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--Circuits---New-College-Grad-2026_JR2010010",
-"company": "NVIDIA",
-"title": "Research Scientist, Circuits - PhD New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--Generative-AI-for-Physical-AI---PhD-New-College-Grad-2026_JR2016032",
-"company": "NVIDIA",
-"title": "Research Scientist, Generative AI for Physical AI - PhD New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/SoC-ASIC-Verification-Engineer---New-College-Grad-2026_JR2015202-1",
-"company": "NVIDIA",
-"title": "SoC ASIC Verification Engineer \u2013 New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-TX-Austin/Signal-and-Power-Integrity-Engineer---New-College-Grad-2026_JR2015067",
-"company": "NVIDIA",
-"title": "Signal and Power Integrity Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Circuit-Design-Engineer---New-College-Grad-2026_JR2014331",
-"company": "NVIDIA",
-"title": "Circuit Design Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Israel-Tel-Aviv/Physical-Design-Backend-Engineer_JR2013310",
-"company": "NVIDIA",
-"title": "Physical Design Backend Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Hungary-Budapest/Formal-Verification-Engineer---New-College-Graduate_JR2008771",
-"company": "NVIDIA",
-"title": "Formal Verification Engineer - New College Graduate",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--AI-Accelerator-SW-HW-Co-Design---New-College-Grad-2026_JR2011644",
-"company": "NVIDIA",
-"title": "Research Scientist, AI Accelerator Design and VLSI - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2012698",
-"company": "NVIDIA",
-"title": "Research Scientist, Fundamental Generative AI - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--AI-for-Graphics-and-Gaming---New-College-Grad-2026_JR2011267",
-"company": "NVIDIA",
-"title": "Research Scientist, AI for Graphics and Gaming - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--Human-AI-Perception-and-Interaction-Research---PhD-New-College-Grad-2026_JR2011804-1",
-"company": "NVIDIA",
-"title": "Research Scientist, Human\u2011AI Perception and Interaction Research - PhD New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Israel-Tel-Aviv/Physical-Design-Backend-Engineer_JR2009044",
-"company": "NVIDIA",
-"title": "Physical Design Backend Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-TX-Austin/ASIC-Design-Verification-Engineer---New-College-Grad-2026_JR2010391",
-"company": "NVIDIA",
-"title": "ASIC Design Verification Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--ML-Systems---New-College-Grad-2026_JR2010161",
-"company": "NVIDIA",
-"title": "Research Scientist, ML Systems - PhD New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--Generalist-Embodied-Agent-Research---New-College-Grad-2026_JR2009294",
-"company": "NVIDIA",
-"title": "Research Scientist, Generalist Embodied Agent Research - PhD New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Israel-Yokneam/Software-Architect--Advanced-Development_JR1999296",
-"company": "NVIDIA",
-"title": "Software Architect, Advanced Development",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Advanced-DRAM-Cell---Device-Technology_JR110172",
 "company": "Micron",
 "title": "Intern - Advanced DRAM Cell & Device Technology",
@@ -33618,6 +32834,13 @@
 "company": "KLA",
 "title": "Ausbildung zum Elektroniker f\u00fcr Ger\u00e4te und Systeme (w/m/d)",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/India-Bangalore/Intern_JR0279777",
+"company": "Intel",
+"title": "Attraction Req : Intern",
+"rule": "geo",
 "tag": ""
 },
 {
@@ -35039,286 +34262,6 @@
 "company": "Marvell",
 "title": "Design/DSP/Verification Intern - PhD Degree",
 "rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Tianjin-Tianjin/Quality-Intern_R0000390103",
-"company": "Caterpillar",
-"title": "Quality Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Peoria-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Accounting_R0000379993",
-"company": "Caterpillar",
-"title": "2027 Summer Corporate Intern - Accounting",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Peoria-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Pricing_R0000380150",
-"company": "Caterpillar",
-"title": "2027 Summer Corporate Intern - Pricing",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Tianjin-Tianjin/Engineering-Intern_R0000385248",
-"company": "Caterpillar",
-"title": "Engineering Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Lima-Lima/Financial-Intern_R0000389824",
-"company": "Caterpillar",
-"title": "Financial Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Peoria-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Human-Resources_R0000380177",
-"company": "Caterpillar",
-"title": "2027 Summer Corporate Internship - Human Resources",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Wuxi-Jiangsu/Admin-Intern_R0000376690-1",
-"company": "Caterpillar",
-"title": "Admin Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Suzhou-Jiangsu/Procurement-Intern_R0000389688",
-"company": "Caterpillar",
-"title": "Procurement Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Tianjin-Tianjin/Engineering-Intern_R0000387986",
-"company": "Caterpillar",
-"title": "Engineering Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Peoria-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Communications_R0000380423",
-"company": "Caterpillar",
-"title": "2027 Summer Corporate Intern - Communications",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Selangor-Selangor/Intern--Accounting---Finance-_R0000380757",
-"company": "Caterpillar",
-"title": "Financial Intern (Accounting / Finance)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Peoria-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Product-Support-Engineering_R0000391403",
-"company": "Caterpillar",
-"title": "2027 Summer Corporate Intern \u2013 Product Support Engineering",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Peoria-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Marketing_R0000391407",
-"company": "Caterpillar",
-"title": "2027 Summer Corporate Intern - Marketing",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Peoria-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Business-Operations_R0000391405-1",
-"company": "Caterpillar",
-"title": "2027 Summer Corporate Intern - Business Operations",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Monterrey-Nuevo-Len/Practicante-de-Desarrollo-Digital_R0000391049",
-"company": "Caterpillar",
-"title": "Practicante de Desarrollo Digital",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Santa-Catarina-Nuevo-Len/Practicante-de-Trfico-y-Logstica_R0000391047",
-"company": "Caterpillar",
-"title": "Practicante de Tr\u00e1fico y Log\u00edstica",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Santa-Catarina-Nuevo-Len/Practicante-de-Comunicacin_R0000391044",
-"company": "Caterpillar",
-"title": "Practicante de Comunicaci\u00f3n",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Acuna-Coahuila/Practicante-de-Recursos-Humanos_R0000390601",
-"company": "Caterpillar",
-"title": "Practicante de Recursos Humanos",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Acuna-Coahuila/Practicante-de-Ingeniera_R0000390594",
-"company": "Caterpillar",
-"title": "Practicante de Ingenier\u00eda",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Reynosa-Tamaulipas/Practicante-de-Logstica_R0000389870",
-"company": "Caterpillar",
-"title": "Practicante de Log\u00edstica",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Ramos-Arizpe-Coahuila/Practicante-de-Calidad_R0000389867",
-"company": "Caterpillar",
-"title": "Practicante de Calidad",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Ramos-Arizpe-Coahuila/Practicante-de-Mantenimiento_R0000389807",
-"company": "Caterpillar",
-"title": "Practicante de Mantenimiento",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Ramos-Arizpe-Coahuila/Practicante-de-Operaciones_R0000389804",
-"company": "Caterpillar",
-"title": "Practicante de Operaciones",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Ramos-Arizpe-Coahuila/Practicante-de-Recursos-Humanos_R0000389800",
-"company": "Caterpillar",
-"title": "Practicante de Recursos Humanos",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Reynosa-Tamaulipas/Practicante-de-Manufactura_R0000389794",
-"company": "Caterpillar",
-"title": "Practicante de Manufactura",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Acuna-Coahuila/Practicante-de-Importacin---Exportacin_R0000389785",
-"company": "Caterpillar",
-"title": "Practicante de Importaci\u00f3n / Exportaci\u00f3n",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Monterrey-Nuevo-Len/Practicante-de-Transportacin_R0000389773",
-"company": "Caterpillar",
-"title": "Practicante de Transportaci\u00f3n",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Santa-Catarina-Nuevo-Len/Practicante-de-Recursos-Humanos_R0000389660",
-"company": "Caterpillar",
-"title": "Practicante de Recursos Humanos",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Santa-Catarina-Nuevo-Len/Practicante-de-Finanzas-y-Contabilidad_R0000389653",
-"company": "Caterpillar",
-"title": "Practicante de Finanzas y Contabilidad",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Santa-Catarina-Nuevo-Len/Practicante-de-Cadena-de-Suministro_R0000389647",
-"company": "Caterpillar",
-"title": "Practicante de Cadena de Suministro",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Santa-Catarina-Nuevo-Len/Practicante-de-Ingeniera_R0000389638",
-"company": "Caterpillar",
-"title": "Practicante de Ingenier\u00eda",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Mossville-Illinois/XMLNAME-2027-Corporate-Intern---Engineering_R0000384650",
-"company": "Caterpillar",
-"title": "2027 Summer Corporate Intern - Engineering",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Mossville-Illinois/XMLNAME-2027-Engineering-Corporate-Internship-Program-Materials_R0000380501",
-"company": "Caterpillar",
-"title": "2027 Engineering Corporate Internship Program Materials",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Mossville-Illinois/XMLNAME-2027-Engineering-Corporate-Internship-Program-Welding_R0000380506",
-"company": "Caterpillar",
-"title": "2027 Engineering Corporate Internship Program Welding",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Mossville-Illinois/XMLNAME-2027-Corporate-Parallel-Co-op-Program_R0000380509",
-"company": "Caterpillar",
-"title": "2027 Engineering Corporate Parallel Co-op Program",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Nashville-Tennessee/XMLNAME-2027-Summer-Intern---Information-Technology_R0000387802",
-"company": "Caterpillar",
-"title": "2027 Summer Intern - Information Technology",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Decatur-Illinois/XMLNAME-2027-Summer-Corporate-Intern--Manufacturing_R0000380454",
-"company": "Caterpillar",
-"title": "2027 Summer Corporate Intern- Manufacturing",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Peoria-Illinois/XMLNAME-2027-Summer-Corporate-Intern--Supply-Chain_R0000380457",
-"company": "Caterpillar",
-"title": "2027 Summer Corporate Intern- Supply Chain",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Peoria-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Environmental--Health-and-Safety_R0000380458",
-"company": "Caterpillar",
-"title": "2027 Summer Corporate Intern - Environmental, Health and Safety",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Peoria-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Procurement_R0000380151",
-"company": "Caterpillar",
-"title": "2027 Summer Corporate Intern - Procurement",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -38640,14 +37583,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705254005",
+"id": "gh:inversionspace:4709691005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709691005",
+"id": "gh:inversionspace:4705254005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
@@ -38752,14 +37695,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705193005",
+"id": "gh:inversionspace:4692769005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4692769005",
+"id": "gh:inversionspace:4705193005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
@@ -39326,14 +38269,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5247348008",
+"id": "gh:k2spacecorporation:5373554008",
 "company": "K2 Space",
 "title": "Ground Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5373554008",
+"id": "gh:k2spacecorporation:5247348008",
 "company": "K2 Space",
 "title": "Ground Software Engineer",
 "rule": "not-intern",
@@ -39501,14 +38444,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288635008",
+"id": "gh:k2spacecorporation:5288008008",
 "company": "K2 Space",
 "title": "Principal ASIC Physical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288008008",
+"id": "gh:k2spacecorporation:5288635008",
 "company": "K2 Space",
 "title": "Principal ASIC Physical Design Engineer",
 "rule": "not-intern",
@@ -39837,14 +38780,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288643008",
+"id": "gh:k2spacecorporation:5288010008",
 "company": "K2 Space",
 "title": "Senior ASIC Physical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288010008",
+"id": "gh:k2spacecorporation:5288643008",
 "company": "K2 Space",
 "title": "Senior ASIC Physical Design Engineer",
 "rule": "not-intern",
@@ -39998,13 +38941,6 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5197513008",
-"company": "K2 Space",
-"title": "Senior Firmware Engineer, Vehicle",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:k2spacecorporation:5288002008",
 "company": "K2 Space",
 "title": "Senior Firmware Engineer, Vehicle",
@@ -40012,14 +38948,21 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5165720008",
+"id": "gh:k2spacecorporation:5197513008",
+"company": "K2 Space",
+"title": "Senior Firmware Engineer, Vehicle",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:k2spacecorporation:5288027008",
 "company": "K2 Space",
 "title": "Senior Flight Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288027008",
+"id": "gh:k2spacecorporation:5165720008",
 "company": "K2 Space",
 "title": "Senior Flight Software Engineer",
 "rule": "not-intern",
@@ -40054,13 +38997,6 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5386721008",
-"company": "K2 Space",
-"title": "Senior FPGA Prototyping Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:k2spacecorporation:5386732008",
 "company": "K2 Space",
 "title": "Senior FPGA Prototyping Engineer",
@@ -40068,14 +39004,21 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288028008",
+"id": "gh:k2spacecorporation:5386721008",
+"company": "K2 Space",
+"title": "Senior FPGA Prototyping Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:k2spacecorporation:5205347008",
 "company": "K2 Space",
 "title": "Senior Ground Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5205347008",
+"id": "gh:k2spacecorporation:5288028008",
 "company": "K2 Space",
 "title": "Senior Ground Software Engineer",
 "rule": "not-intern",
@@ -44415,14 +43358,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8419277002",
+"id": "gh:relativity:8701334002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8701334002",
+"id": "gh:relativity:8419277002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -44674,14 +43617,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8464747002",
+"id": "gh:relativity:8728512002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8728512002",
+"id": "gh:relativity:8464747002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
@@ -45031,14 +43974,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8595007002",
+"id": "gh:relativity:8715897002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8715897002",
+"id": "gh:relativity:8595007002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -46382,14 +45325,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5226893008",
+"id": "gh:stratolaunch:4606174008",
 "company": "Stratolaunch",
 "title": "Flight Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:4606174008",
+"id": "gh:stratolaunch:5226893008",
 "company": "Stratolaunch",
 "title": "Flight Software Engineer",
 "rule": "not-intern",
@@ -46515,14 +45458,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5398750008",
+"id": "gh:stratolaunch:5238458008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5238458008",
+"id": "gh:stratolaunch:5398750008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
