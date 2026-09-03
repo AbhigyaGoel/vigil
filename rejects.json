@@ -4998,39 +4998,11 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:b670d0f6-a015-4f70-82cd-a7fb212cc98b",
-"company": "Axis Capital",
-"title": "Renewable Energy Engineer Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
-"id": "ls:aff149ec-8435-4f94-9798-ea3716d37883",
-"company": "Texas Instruments",
-"title": "Product Operations Analyst Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:f1381efc-bd99-480d-b226-47a4c8e911f0",
 "company": "Apple",
 "title": "Applied Data Solutions Program Intern",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:b71d71f5-3279-48fe-9484-0e2755e9f21b",
-"company": "Savannah River National Laboratory",
-"title": "Software Developer Undergraduate Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
-"id": "ls:6ffe9360-2d1b-4612-90b5-2b30153fe38c",
-"company": "General Dynamics Mission Systems",
-"title": "Embedded Software Engineer - HOH Fellows - Spouseworks Fellows",
-"rule": "defense",
-"tag": ""
 },
 {
 "id": "ls:4f326166-61c0-478c-810c-4b3743e7d440",
@@ -8400,13 +8372,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:6aeabe90-0f4e-41a7-98a2-cdb7fee43531",
-"company": "Crowe",
-"title": "AI Functional Intern - Consulting Practice",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:d05b18bf-6196-4443-8b9a-4bd3ee417cae",
 "company": "Interco",
 "title": "Software Development Intern - React",
@@ -8449,13 +8414,6 @@
 "tag": ""
 },
 {
-"id": "ls:ad0c51d0-09a4-4e54-b922-7cccc8b69e6e",
-"company": "Micron Technology",
-"title": "Digital IP Design Engineer Intern - DRAM",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:8876789e-be2c-4a8f-9478-572e3f0085cb",
 "company": "Crowe",
 "title": "AI Engineering Intern",
@@ -8477,13 +8435,6 @@
 "tag": ""
 },
 {
-"id": "ls:3df96193-66ef-4f46-b6f1-709ae775a391",
-"company": "KPMG",
-"title": "Technical Consultant Intern Co-op - Global Compliance and Transformation",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:b3254ba9-4ac8-4f93-8a5a-67c31517f742",
 "company": "Teledyne",
 "title": "Software Engineer Intern - NHRC",
@@ -8495,13 +8446,6 @@
 "company": "Teledyne",
 "title": "Software Engineer Intern - NHRC",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:8b347fb9-e0fc-41eb-9c15-657806d1607f",
-"company": "True Anomaly",
-"title": "GSE Engineering Intern",
-"rule": "defense",
 "tag": ""
 },
 {
@@ -8533,13 +8477,6 @@
 "tag": "Spring 2027"
 },
 {
-"id": "ls:9dceacf0-6d35-489a-95b3-0b2244d0c8d2",
-"company": "Bank of China USA",
-"title": "Data Analytics Audit Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:fd2f0640-b221-4c71-bf6f-c57f8f5bc712",
 "company": "Bank of China USA",
 "title": "Enterprise Risk Management Risk Data Aggregation Intern",
@@ -8552,13 +8489,6 @@
 "title": "Risk Data Aggregation Intern - Enterprise Risk Management Department",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:e098b71d-fcf5-40ab-b926-e4360d6d93a5",
-"company": "Analysis Group",
-"title": "Research Professional Intern - Generalist",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:5f47f741-a34e-4699-b8f5-02b98d3f86fe",
@@ -9082,6 +9012,13 @@
 "id": "ls:9a19ddc0-978b-4f92-832f-f0b96df5af93",
 "company": "Suncor",
 "title": "Automation Intern - Software or Computer Engineering Student",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:e11d6b76-ac03-48af-b34e-a9c1933babfc",
+"company": "Suncor",
+"title": "Data Science Student",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -12523,6 +12460,20 @@
 "tag": ""
 },
 {
+"id": "ls:d51eb451-9f91-449d-8c96-b84c35fbfb16",
+"company": "Marsh",
+"title": "Summer Analyst - Data and Analytics",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:30f88aa1-c8c9-4587-808f-a3954162cf45",
+"company": "Marsh",
+"title": "Summer Analyst Intern - Data and Analytics",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:55b1bcd7-ce91-4f80-ab43-68598ccff174",
 "company": "Finastra",
 "title": "AI Engineer Intern - Summer 2027",
@@ -13860,6 +13811,13 @@
 "tag": "Winter 2027"
 },
 {
+"id": "ls:c21aecd2-5cf3-49c9-9346-f5295e67281a",
+"company": "General Motors",
+"title": "Data Engineering Software Developer Co-op",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
 "id": "ls:fe7f1e7d-e361-4660-92ac-f496c022b980",
 "company": "Nike",
 "title": "Machine Learning Engineering Undergraduate Intern - Artificial Intelligence - Data",
@@ -14865,6 +14823,13 @@
 "company": "Textron",
 "title": "Firmware Engineer Intern - Weapons",
 "rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:8b07563a-a076-4b83-b485-3f36db4ae47a",
+"company": "Maven Securities",
+"title": "Software Developer Intern",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -18270,58 +18235,9 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:8fa032f8-d51f-4223-a529-d347b0267fab",
-"company": "MSA Safety",
-"title": "Electrochemistry Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:4fe22344-e640-43e0-8fcb-53e78dcc3439",
 "company": "MSA Safety",
 "title": "Electrical Engineering Co-op",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
-"id": "ls:5c730749-cac9-405d-9fb2-b54a4807bec4",
-"company": "EquipmentShare",
-"title": "Electrical Engineering Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
-"id": "ls:811fd391-0382-4948-b242-0c36e2c2e380",
-"company": "Interstates",
-"title": "Engineering Intern - Design Services",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
-"id": "ls:f506e41d-18b7-4240-9d37-3556cd8bcfa4",
-"company": "Interstates",
-"title": "Electrical Engineering Intern - Design Services",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
-"id": "ls:ddaf28c2-4f03-46d7-afa0-f21b2a2f2276",
-"company": "Interstates",
-"title": "Engineering Intern - Design Services",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
-"id": "ls:6a458733-cf4b-4877-8ccb-0a7736ea7a50",
-"company": "Mill",
-"title": "Electrical Engineer Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
-"id": "ls:804746ce-4b8d-48cb-bcfc-2d8b058f2d97",
-"company": "Mind Robotics",
-"title": "Mechanical Design Intern - Wiring Harness",
 "rule": "season",
 "tag": "Summer 2026"
 },
@@ -19052,6 +18968,76 @@
 "title": "Forward Deployed Engineer Intern",
 "rule": "season",
 "tag": "Fall 2026"
+},
+{
+"id": "ls:ecc69c92-2354-4bcc-8af5-c5e605953496",
+"company": "Transcard Payments",
+"title": "Artificial Intelligence Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:c24f60d3-1c88-4df0-a32c-3fa1c4f5b546",
+"company": "Intel",
+"title": "System Technology PhD Intern - Research Engineer",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:f39ef049-309c-48e5-9169-f9eb0d44b087",
+"company": "Transcard Payments",
+"title": "Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:ed4c7a61-aeb6-4056-938e-0c9648a0164a",
+"company": "Varian",
+"title": "Software Developer Co-op",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:4920ac37-e5f4-49cc-894d-2b302bf15619",
+"company": "Arconic",
+"title": "ServiceNow Developer Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:245c76fc-baf1-4d95-b184-148545bd81d4",
+"company": "Rockefeller Capital Management",
+"title": "Private Advisor Team Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:dd63c77c-56ea-44eb-8b72-9472b02fef9e",
+"company": "Bank of China USA",
+"title": "Risk Analytics Model Intern - Credit Risk Management Department",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:13a4f2b2-c8c5-4e25-9170-1df411728796",
+"company": "Bank of China USA",
+"title": "Risk Analytics Model Intern - Credit Risk Management Department",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:e86990d0-34e6-4b54-9e62-2d3e40a4e368",
+"company": "Perry Homes",
+"title": "Estimating Analyst - Student Work",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:62159d15-bab7-4d5c-87ff-dbfd99f3c357",
+"company": "TikTok",
+"title": "Product Solutions and Operations Intern - Ads Interface and Platform Product",
+"rule": "season",
+"tag": "Summer 2026"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
