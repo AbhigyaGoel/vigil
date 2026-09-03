@@ -13272,13 +13272,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:49e6ace2-42ca-46a7-81f9-59a39844f75f",
-"company": "Leidos",
-"title": "Computer Engineering Co-op",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:ae6480dc-19f7-41c1-93ec-fd10763825b1",
 "company": "Amazon",
 "title": "Software Development Engineer Intern - Annapurna Labs",
@@ -13468,13 +13461,6 @@
 "tag": ""
 },
 {
-"id": "ls:148e3318-5e31-4e70-a0a0-6b779ec4accf",
-"company": "Jane Street",
-"title": "Windows Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:4b8c7b90-0ec1-4d3d-a40a-57abf102af72",
 "company": "Royal Bank of Canada",
 "title": "Global AML Metrics Reporting Analyst Co-op - Group Risk Management",
@@ -13580,13 +13566,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:9da7c688-402f-4666-9f23-7ab1a3ed0fc4",
-"company": "Repsol",
-"title": "Geology & Geophysics Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:1e8a10ee-4f7e-4a42-84fe-6fcdbcb739b9",
 "company": "Lennox International",
 "title": "MES & Industrial Automation Intern",
@@ -13657,13 +13636,6 @@
 "tag": "Summer 2027"
 },
 {
-"id": "ls:e4a8c172-1382-48cd-b069-f093740284d7",
-"company": "The Walt Disney Company",
-"title": "Park Yield Optimization Intern - Spring 2027",
-"rule": "season",
-"tag": "Spring 2027"
-},
-{
 "id": "ls:86d6bcf1-09b8-4ac2-af55-2b1ed17cee48",
 "company": "The Walt Disney Company",
 "title": "Pricing & Product Development Intern",
@@ -13676,13 +13648,6 @@
 "title": "Park Yield Optimization Intern - Spring 2027",
 "rule": "season",
 "tag": "Spring 2027"
-},
-{
-"id": "ls:b4b176c2-3de6-42d7-9ce9-7b3be3f49398",
-"company": "Iberdrola Group",
-"title": "Technology \u2013 Cyber & Data Intern",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:302e7185-9863-49b6-a674-0842c67a4158",
@@ -13725,13 +13690,6 @@
 "title": "Engineering and Capital Projects Summer Scholar Intern - Government & Public Services",
 "rule": "season",
 "tag": "Summer 2026"
-},
-{
-"id": "ls:f62aa9c5-1fb9-4d0e-b1b4-f58818fbf4e1",
-"company": "RTX",
-"title": "PLM Business Analyst Intern - PLM Transformation and Governance",
-"rule": "defense",
-"tag": ""
 },
 {
 "id": "ls:d01ac00f-25b3-4da7-8e07-a66bfcc42e85",
@@ -13787,13 +13745,6 @@
 "company": "Mastercard",
 "title": "Data Scientist Intern - Summer 2027",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:4132a5dd-ff75-427d-90b2-c4ea6238574f",
-"company": "Tesla",
-"title": "Optimus Technician Intern - Tesla AI",
-"rule": "seniority",
 "tag": ""
 },
 {
@@ -14787,6 +14738,13 @@
 "id": "ls:65097872-fc5a-464c-a9ca-5d4d382c4765",
 "company": "Tesla",
 "title": "Mobile App Intern - Mobile Applications - Automated Diagnostics",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:c21aecd2-5cf3-49c9-9346-f5295e67281a",
+"company": "General Motors",
+"title": "Data Engineering Software Developer Co-op",
 "rule": "season",
 "tag": "Winter 2027"
 },
@@ -16159,6 +16117,13 @@
 "id": "ls:1d07b89c-c4c6-4af6-8986-c31a4a7d36c7",
 "company": "TRUMPF",
 "title": "Application Engineer Intern/Co-op",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:3c4d2405-fb79-4cb1-9bfa-63018d8026b3",
+"company": "General Motors",
+"title": "Mechatronic Infrastructure Diagnostic Systems Co-op",
 "rule": "season",
 "tag": "Winter 2027"
 },
@@ -18569,6 +18534,55 @@
 "title": "Portfolio Analytics Intern",
 "rule": "season",
 "tag": "Summer 2026"
+},
+{
+"id": "ls:185284ab-d314-416c-8a28-44c6b1938920",
+"company": "Hewlett Packard",
+"title": "Quality Engineer Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:01120085-8f92-416b-9a1d-d797219a2165",
+"company": "Hewlett Packard",
+"title": "Personal Systems Product Management Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:aaa4dbfe-e609-475c-a90f-8f7f5e42a589",
+"company": "Microsoft",
+"title": "Optical Communications Resident",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:a0690963-ad5c-4710-92b1-ce2cab817542",
+"company": "Alberta Investment Management Corporation",
+"title": "Fixed Income Co-op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:357af7eb-b58a-4328-a47c-e28bb93ccd43",
+"company": "ABB",
+"title": "AI Robotics UI/UX Intern",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
+"id": "ls:8e55e1d9-a6ba-4cf3-b2bd-186d0907c738",
+"company": "ABB",
+"title": "Physical AI Robotics Simulation Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:8a987894-dc4b-4761-8202-798f94b57890",
+"company": "Micron Technology",
+"title": "Marketing Analytics Intern - Global Communications & Marketing",
+"rule": "seniority",
+"tag": ""
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
