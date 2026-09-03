@@ -33964,10 +33964,10 @@
 "tag": ""
 },
 {
-"id": "wd:intel:/job/Mexico-Guadalajara/Software-Development-Intern--Automation-and-AI-Enablement-_JR0285207",
+"id": "wd:intel:/job/Software-Development-Intern--Automation-and-AI-Enablement-_JR0285207",
 "company": "Intel",
-"title": "Software Development Intern (Automation and AI Enablement)",
-"rule": "geo",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -35263,13 +35263,6 @@
 "company": "Marvell",
 "title": "Design/DSP/Verification Intern - PhD Degree",
 "rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:cat:",
-"company": "Caterpillar",
-"title": "",
-"rule": "not-intern",
 "tag": ""
 },
 {
