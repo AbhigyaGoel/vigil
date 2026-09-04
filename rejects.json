@@ -1386,6 +1386,13 @@
 "tag": "Fall 2026"
 },
 {
+"id": "ls:452daa00-79b9-40ff-902b-6a5c3ddc4357",
+"company": "Salesforce",
+"title": "Software Engineer Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "ls:621d8a9b-9609-45e9-b8be-2a06366dcd4d",
 "company": "KLA",
 "title": "Software Engineering Intern",
@@ -2443,13 +2450,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:ea053f2a-38d8-4cc1-af0b-e280de37935e",
-"company": "Liberty University",
-"title": "Business Analyst Apprentice",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:83cb8151-53dc-4c90-9b6a-cf6be66d0457",
 "company": "Applied Intuition",
 "title": "Research Intern - 3D Vision and Generation - Self-Driving",
@@ -2571,13 +2571,6 @@
 {
 "id": "ls:bf81e231-61f0-481a-9930-6a924fda265a",
 "company": "pony.ai",
-"title": "Software Engineer Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
-"id": "ls:b5e81d8d-839a-4ffb-b147-0a513ffea0a8",
-"company": "Copart",
 "title": "Software Engineer Intern",
 "rule": "season",
 "tag": "Summer 2026"
@@ -3349,6 +3342,13 @@
 "id": "ls:95a232c5-f611-4960-ab8f-79fcd25db5f2",
 "company": "Flow Traders",
 "title": "Quantitative Trading Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:f0aadc2c-2a47-404c-bc18-f3863ab3e456",
+"company": "Pylon",
+"title": "Software Engineer Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -6349,6 +6349,13 @@
 "tag": "Fall 2026"
 },
 {
+"id": "ls:ea2731af-2fbc-4e8e-834a-a0db3c17ab9c",
+"company": "RTX",
+"title": "Systems Engineer 1 Intern - Intern Conversion",
+"rule": "defense",
+"tag": ""
+},
+{
 "id": "ls:c2163298-bd36-4efb-8554-64b9997a0b1b",
 "company": "Belvedere Trading",
 "title": "Quantitative Trading Intern - Summer 2027",
@@ -8435,13 +8442,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:eb14174f-2e4d-4c27-90c6-67df2ddef557",
-"company": "Tencent",
-"title": "Multimodal Algorithm Researcher Intern - Omni-Modal",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:efcdcda1-4aa4-492b-a092-21d30c45cee1",
 "company": "Continental Resources",
 "title": "Data Analyst Intern",
@@ -8544,20 +8544,6 @@
 "company": "Kepler Communications",
 "title": "Embedded Software Engineer Intern - January 2027 - 4 months",
 "rule": "curated_worker",
-"tag": ""
-},
-{
-"id": "ls:167546b1-fd92-4bc9-94d0-a427ade3104e",
-"company": "GE Vernova",
-"title": "Application Engineer Co-op/Intern - PCS",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:fe95284a-7253-48e2-b44d-65a7a77a7068",
-"company": "GE Vernova",
-"title": "Application Engineer Co-op/Intern - PCS",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -8743,6 +8729,20 @@
 "tag": ""
 },
 {
+"id": "ls:a908b011-3049-4c5c-831e-b0a4e17ddebf",
+"company": "TikTok",
+"title": "Machine Learning Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:79ddabd2-cd14-4fd6-8aec-f82858b2190e",
+"company": "TikTok",
+"title": "Machine Learning Engineer Intern - E-Commerce Supply Chain & Logistics-LLM/Agent - PhD",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "ls:09e061cd-a5e8-4059-bb6d-a0672a475328",
 "company": "Fannie Mae",
 "title": "Data Science Intern - Analytics & Modeling Program",
@@ -8904,6 +8904,13 @@
 "tag": "Fall 2026"
 },
 {
+"id": "ls:5de3980e-8b11-479f-b78e-cce6b70957b5",
+"company": "Vanguard",
+"title": "Data Analyst Intern - College to Corporate IT",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:f432a8a9-9285-46de-a3f7-3cc4dc1c5e27",
 "company": "Analog Devices",
 "title": "Mixed Signal Engineer Intern",
@@ -9051,6 +9058,13 @@
 "tag": "Winter 2027"
 },
 {
+"id": "ls:cc92e86c-fbd6-4ac9-9dd6-416843dc0e27",
+"company": "University of Texas at Austin",
+"title": "Graduate Assistant - AI-Powered Career Success Systems",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:024af855-b60d-44e5-8ca0-8446b24f70e7",
 "company": "Cigna Group",
 "title": "Technology Apprentice - Multiple Teams",
@@ -9100,16 +9114,16 @@
 "tag": ""
 },
 {
-"id": "ls:e2e530e2-ab90-45f9-976f-41287cf6edcc",
-"company": "GE Vernova",
-"title": "Energy Optimization Software Engineer Intern - Summer 2027",
+"id": "ls:867add8a-591f-4f9c-a4b8-a548a8e7ce89",
+"company": "Blackstone",
+"title": "Data Engineer Summer Analyst - Blackstone Technology & Innovations",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "ls:867add8a-591f-4f9c-a4b8-a548a8e7ce89",
+"id": "ls:230b8412-ca73-4abf-b01d-2013cfc1309b",
 "company": "Blackstone",
-"title": "Data Engineer Summer Analyst - Blackstone Technology & Innovations",
+"title": "Software Engineer Summer Analyst - Blackstone Technology & Innovations",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -9268,13 +9282,6 @@
 "tag": ""
 },
 {
-"id": "ls:214fc73f-c4d9-4c6d-8455-16b74d79ce68",
-"company": "Solid Power",
-"title": "Product Engineer Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:733e27ec-57f0-4e26-8f45-410e4fd4aed5",
 "company": "SimIS",
 "title": "Artificial Intelligence Developer Intern - Aerospace/Aviation",
@@ -9366,13 +9373,6 @@
 "tag": ""
 },
 {
-"id": "ls:cbb3ab08-f178-4e8a-b8f7-95efd3b9dd22",
-"company": "Springs Window Fashions",
-"title": "Application Engineering Intern - Summer 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:b59dc602-a7f2-4fe8-b95c-1d885aaf533c",
 "company": "Springs Window Fashions",
 "title": "Data Analyst Intern - Consumer Business Unit",
@@ -9450,13 +9450,6 @@
 "tag": ""
 },
 {
-"id": "ls:69059e28-4445-4999-a45b-c4ede19786ad",
-"company": "Cigna Group",
-"title": "Healthcare Policy & Regulated Markets Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:78c03ab4-f50a-445d-9802-fb785330b50f",
 "company": "Mastercard",
 "title": "Software Engineer Intern",
@@ -9469,13 +9462,6 @@
 "title": "Product Engineer Intern - Product Development",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:ee239b53-fb7d-46b7-b98b-900f2b504f38",
-"company": "The Walt Disney Company",
-"title": "Transportation Logistics & Analytics Intern - Spring 2027",
-"rule": "season",
-"tag": "Spring 2027"
 },
 {
 "id": "ls:a8fc18f9-4b29-4232-9524-f741f63e4e17",
@@ -9870,13 +9856,6 @@
 "tag": ""
 },
 {
-"id": "ls:7fa1f183-aa5d-4f13-8b60-c011f60fd70f",
-"company": "Royal Bank of Canada",
-"title": "Product Management Intern - Global Asset Management",
-"rule": "season",
-"tag": "Winter 2027"
-},
-{
 "id": "ls:e11ccff1-b1a1-4f6c-9f29-cab7a87af101",
 "company": "Johnson & Johnson",
 "title": "Data Operations & Analytics Co-op",
@@ -9905,25 +9884,11 @@
 "tag": "Winter 2027"
 },
 {
-"id": "ls:6e033bec-d296-4dc7-b7f0-fd5bef33ccdf",
-"company": "Freddie Mac",
-"title": "Capital Markets Intern - Summer 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:d1ce5eca-7313-4eee-b01a-088c01f2a85a",
 "company": "BTI360",
 "title": "Software Engineer Intern",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:882ef4cb-37c9-458e-9950-f0db0c8490fa",
-"company": "Mackenzie Investments",
-"title": "Data Engineering Intern",
-"rule": "season",
-"tag": "Winter 2027"
 },
 {
 "id": "ls:c24fa0b2-9b8e-494c-880d-d33c97076848",
@@ -10157,20 +10122,6 @@
 "tag": "Spring 2027"
 },
 {
-"id": "ls:f2ca9508-2adb-4b58-8b67-30ca90534cb1",
-"company": "Royal Bank of Canada",
-"title": "Commercial Portfolio Risk & Credit Analytics Intern - Grm",
-"rule": "season",
-"tag": "Winter 2027"
-},
-{
-"id": "ls:d68b9bbb-6fb8-469c-b051-f90591e5c746",
-"company": "Royal Bank of Canada",
-"title": "Commercial Portfolio Risk & Credit Analytics Intern - Group Risk Management",
-"rule": "season",
-"tag": "Winter 2027"
-},
-{
 "id": "ls:bdf64a90-7dac-4a0b-acaf-b7fd5756ef83",
 "company": "GE Vernova",
 "title": "Controls Product Management Intern - Summer 2027",
@@ -10255,13 +10206,6 @@
 "tag": ""
 },
 {
-"id": "ls:9f7c7e8c-1d6a-4fa5-8877-36b26f0b630a",
-"company": "Brunswick",
-"title": "Product Management Intern - Parts & Accessories",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:45a90628-8af8-4195-9f94-89cb5bbfe029",
 "company": "Brunswick",
 "title": "Advanced Manufacturing/Operations Analytics Engineering Co-op - Global Operations Excellence",
@@ -10325,20 +10269,6 @@
 "tag": ""
 },
 {
-"id": "ls:f68967a4-f885-4449-89e6-b22c60cedbf9",
-"company": "Honeywell",
-"title": "Information Systems Intern - IT - Cyber Engineer & Data Science",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:a273009c-e12a-4932-b782-474b6b498898",
-"company": "Honeywell",
-"title": "Information Systems Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:8cf244f2-f67a-4786-b968-74bd6c7aec38",
 "company": "Xpansiv",
 "title": "Product Management Intern - AI Products",
@@ -10367,13 +10297,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:f940c913-da8e-4109-8de2-54cd5d65acfa",
-"company": "DTCC",
-"title": "Product Management Intern - 2027 Internship Program",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:a1eb1e2b-bd12-4ee2-b019-34e40010a803",
 "company": "DTCC",
 "title": "Application Developer Intern",
@@ -10398,13 +10321,6 @@
 "id": "ls:5f5acc02-520f-43a0-ab78-35753db6131a",
 "company": "The Hartford",
 "title": "Software Engineer Intern - Technology & Data",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:88d4e38d-d6d5-4550-8ea8-651074023cd3",
-"company": "GE Appliances",
-"title": "Software Engineer Co-op",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -10713,20 +10629,6 @@
 "id": "ls:22da6961-acb7-4c21-b55b-05a5a8ee6bde",
 "company": "Mackenzie Investments",
 "title": "Platform Developer Intern - Platform Developer",
-"rule": "season",
-"tag": "Winter 2027"
-},
-{
-"id": "ls:4d16d787-6247-429c-a18b-998836771f49",
-"company": "Royal Bank of Canada",
-"title": "Portfolio Risk & Credit Analytics Intern",
-"rule": "season",
-"tag": "Winter 2027"
-},
-{
-"id": "ls:5e7b0344-f66a-4289-ab6b-bd84b5253fd3",
-"company": "Royal Bank of Canada",
-"title": "Portfolio Risk & Credit Analytics Intern - Grm",
 "rule": "season",
 "tag": "Winter 2027"
 },
@@ -16618,13 +16520,6 @@
 "tag": ""
 },
 {
-"id": "ls:39ee0bcc-4e04-40ad-9a3e-6968c55911ea",
-"company": "University of Virginia",
-"title": "Digital Accessibility Assistant Intern - Federal Work-Study - Student Wage",
-"rule": "season",
-"tag": "Winter 2026"
-},
-{
 "id": "ls:1c09445e-a943-4258-9c49-7bf34a1087dd",
 "company": "Ontario Teachers' Pension Plan",
 "title": "Risk Intern - Models and Asset Liability",
@@ -17022,13 +16917,6 @@
 "title": "Software Development Intern",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:70e97aa1-1967-4add-9a5a-8a9208c8db26",
-"company": "JD.com",
-"title": "Product Management Intern",
-"rule": "season",
-"tag": "Winter 2026"
 },
 {
 "id": "ls:68c629c0-ad5e-461a-a2fb-fecaf1808854",
@@ -18819,6 +18707,55 @@
 "id": "ls:db7ca646-e2f6-4a10-bc6b-1d67f5ffcddf",
 "company": "Barclays",
 "title": "Quantitative Finance Associate Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:0d11ca14-e855-45a7-adc5-2936dba95091",
+"company": "United Airlines",
+"title": "Pricing & Revenue Management Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:9e2ec060-ced5-4de9-8b37-e6606f616233",
+"company": "Metropolitan Transportation Authority",
+"title": "EAM Analyst Intern - Emerging Talent",
+"rule": "season",
+"tag": "Spring 2027"
+},
+{
+"id": "ls:6605fc56-e2f1-411d-aee7-a7b19e4f51a1",
+"company": "AQR Capital Management",
+"title": "Arbitrage Research Summer Analyst Intern - AQR Arbitrage",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:355a0760-208b-425c-9769-6bd234775cfa",
+"company": "Procter & Gamble",
+"title": "IT Engineering Internship - Software, Platform, Network",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:3688df39-97f0-4d58-9056-670579590679",
+"company": "The Walt Disney Company",
+"title": "Industrial Engineer Intern - Workforce Management",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:75a2a7c4-e5d9-4544-bf24-a2a705653433",
+"company": "Epic Games",
+"title": "Technical Art Intern - Rocket League",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:2440120c-cae1-4ca3-8e9b-73e8ca4bfac9",
+"company": "Deloitte",
+"title": "Data & AI Solutions Engineering Summer Scholar Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -39186,14 +39123,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709691005",
+"id": "gh:inversionspace:4705254005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705254005",
+"id": "gh:inversionspace:4709691005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
@@ -39298,14 +39235,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4692769005",
+"id": "gh:inversionspace:4705193005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705193005",
+"id": "gh:inversionspace:4692769005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
@@ -40117,14 +40054,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5287992008",
+"id": "gh:k2spacecorporation:5026916008",
 "company": "K2 Space",
 "title": "Principal Flight Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5026916008",
+"id": "gh:k2spacecorporation:5287992008",
 "company": "K2 Space",
 "title": "Principal Flight Software Engineer",
 "rule": "not-intern",
@@ -40390,14 +40327,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288643008",
+"id": "gh:k2spacecorporation:5288010008",
 "company": "K2 Space",
 "title": "Senior ASIC Physical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288010008",
+"id": "gh:k2spacecorporation:5288643008",
 "company": "K2 Space",
 "title": "Senior ASIC Physical Design Engineer",
 "rule": "not-intern",
@@ -40551,14 +40488,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5197513008",
+"id": "gh:k2spacecorporation:5288002008",
 "company": "K2 Space",
 "title": "Senior Firmware Engineer, Vehicle",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288002008",
+"id": "gh:k2spacecorporation:5197513008",
 "company": "K2 Space",
 "title": "Senior Firmware Engineer, Vehicle",
 "rule": "not-intern",
@@ -40607,13 +40544,6 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5386732008",
-"company": "K2 Space",
-"title": "Senior FPGA Prototyping Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:k2spacecorporation:5386721008",
 "company": "K2 Space",
 "title": "Senior FPGA Prototyping Engineer",
@@ -40621,14 +40551,21 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5205347008",
+"id": "gh:k2spacecorporation:5386732008",
+"company": "K2 Space",
+"title": "Senior FPGA Prototyping Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:k2spacecorporation:5288028008",
 "company": "K2 Space",
 "title": "Senior Ground Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288028008",
+"id": "gh:k2spacecorporation:5205347008",
 "company": "K2 Space",
 "title": "Senior Ground Software Engineer",
 "rule": "not-intern",
@@ -43820,13 +43757,6 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8783350002",
-"company": "Relativity Space",
-"title": "Global Supply Manager, Indirect",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:relativity:8783355002",
 "company": "Relativity Space",
 "title": "Global Supply Manager, Indirect",
@@ -43835,6 +43765,13 @@
 },
 {
 "id": "gh:relativity:8782930002",
+"company": "Relativity Space",
+"title": "Global Supply Manager, Indirect",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:relativity:8783350002",
 "company": "Relativity Space",
 "title": "Global Supply Manager, Indirect",
 "rule": "not-intern",
@@ -44765,14 +44702,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8455890002",
+"id": "gh:relativity:8612945002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8612945002",
+"id": "gh:relativity:8455890002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
@@ -46109,14 +46046,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4394496009",
+"id": "gh:rocketems:4381810009",
 "company": "Rocket EMS",
 "title": "2D X-Ray Operator (Second Shift)",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4381810009",
+"id": "gh:rocketems:4394496009",
 "company": "Rocket EMS",
 "title": "2D X-Ray Operator (Second Shift)",
 "rule": "not-intern",
@@ -46193,14 +46130,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4382385009",
+"id": "gh:rocketems:4382380009",
 "company": "Rocket EMS",
 "title": "HR Director",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4382380009",
+"id": "gh:rocketems:4382385009",
 "company": "Rocket EMS",
 "title": "HR Director",
 "rule": "not-intern",
@@ -46305,14 +46242,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4378265009",
+"id": "gh:rocketems:4385303009",
 "company": "Rocket EMS",
 "title": "Rework Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4385303009",
+"id": "gh:rocketems:4378265009",
 "company": "Rocket EMS",
 "title": "Rework Technician",
 "rule": "not-intern",
@@ -47068,14 +47005,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:4606174008",
+"id": "gh:stratolaunch:5226893008",
 "company": "Stratolaunch",
 "title": "Flight Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5226893008",
+"id": "gh:stratolaunch:4606174008",
 "company": "Stratolaunch",
 "title": "Flight Software Engineer",
 "rule": "not-intern",
