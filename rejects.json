@@ -34699,13 +34699,6 @@
 "tag": ""
 },
 {
-"id": "wd:amat:/job/SingaporeSGP/College-Intern_R2626457",
-"company": "Applied Materials",
-"title": "College Intern",
-"rule": "geo",
-"tag": ""
-},
-{
 "id": "wd:amat:/job/SingaporeSGP/Technology-Development-Engineer---Hybrid-Bonding---Advanced-Packaging--Internship-_R2626901",
 "company": "Applied Materials",
 "title": "Technology Development Engineer \u2013 Hybrid Bonding & Advanced Packaging (Internship)",
@@ -35035,13 +35028,6 @@
 "tag": ""
 },
 {
-"id": "wd:amat:",
-"company": "Applied Materials",
-"title": "",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:amat:/job/TainanTWN/XMLNAME--2026-New-College-Graduate--Mechanical-Engineer-_R2625607",
 "company": "Applied Materials",
 "title": "\u30102026 New College Graduate \u65b0\u9bae\u4eba\u5c08\u5340\u3011Mechanical Engineer \u6a5f\u68b0\u958b\u767c\u5de5\u7a0b\u5e2b",
@@ -35108,6 +35094,20 @@
 "id": "wd:amat:/job/SingaporeSGP/Industrial-Engineer--Fresh-Grads-Welcome-_R2622918",
 "company": "Applied Materials",
 "title": "Industrial Engineer (Fresh Grads Welcome)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/ShanghaiCHN/Global-Installation-Engineer-Semi-Shanghai-Beijing-Wuxi-Chengdu-New-Graduate_R2624660",
+"company": "Applied Materials",
+"title": "Global Installation Engineer-Semi-Shanghai/Beijing/Wuxi/Chengdu-New Graduate",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/ShanghaiCHN/Customer-Engineer---NCG--_R2624472",
+"company": "Applied Materials",
+"title": "Customer Engineer ( NCG )",
 "rule": "not-intern",
 "tag": ""
 },
