@@ -13475,13 +13475,6 @@
 "tag": ""
 },
 {
-"id": "ls:b8511dba-1f6c-40d2-b3b7-e50e87163026",
-"company": "Booz Allen",
-"title": "Systems Engineer Intern - University",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:94b01cac-fcb0-4724-8377-0f5ba298e9b8",
 "company": "First National Bank",
 "title": "Corporate Analytics Intern",
@@ -18485,13 +18478,6 @@
 "title": "Digital and Information Technology Intern - Analyst",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:9f1a3d4b-e719-4a8d-8675-c400a470b458",
-"company": "Rockefeller Capital Management",
-"title": "Summer Analyst Intern - Distribution",
-"rule": "season",
-"tag": "Summer 2026"
 },
 {
 "id": "ls:5e16fdb9-dd97-429a-9b2a-9c7ebfd49735",
@@ -46217,6 +46203,13 @@
 "id": "gh:rendezvousrobotics:4396472009",
 "company": "Rendezvous Robotics",
 "title": "Spacecraft Mechanisms Engineer (Docking, Capture, and Mating Systems)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:rendezvousrobotics:4396507009",
+"company": "Rendezvous Robotics",
+"title": "Spacecraft Mechanisms Engineer (Launch Restraint and Release Systems)",
 "rule": "not-intern",
 "tag": ""
 },
