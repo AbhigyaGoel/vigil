@@ -34601,10 +34601,10 @@
 "tag": ""
 },
 {
-"id": "wd:amat:/job/Santa-ClaraCA/Algorithm-Developer-I-New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2626605",
+"id": "wd:amat:",
 "company": "Applied Materials",
-"title": "Algorithm Developer I New College Grad- Bachelor's (Santa Clara, CA)",
-"rule": "new-grad",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -35361,6 +35361,13 @@
 "company": "Applied Materials",
 "title": "Chemist - New College Graduate",
 "rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:marvell:/job/Morrisville-NC/Design-for-Test-Intern--BS---Summer-2027_2604511",
+"company": "Marvell",
+"title": "Design for Test Intern, BS - Summer 2027",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -39312,14 +39319,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705254005",
+"id": "gh:inversionspace:4709691005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709691005",
+"id": "gh:inversionspace:4705254005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
@@ -39424,14 +39431,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705193005",
+"id": "gh:inversionspace:4692769005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4692769005",
+"id": "gh:inversionspace:4705193005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
@@ -39879,6 +39886,13 @@
 "tag": ""
 },
 {
+"id": "gh:k2spacecorporation:5417082008",
+"company": "K2 Space",
+"title": "Counsel",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "gh:k2spacecorporation:5370957008",
 "company": "K2 Space",
 "title": "Cybersecurity Architect, (TS/SCI), CI Poly ",
@@ -40180,14 +40194,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288008008",
+"id": "gh:k2spacecorporation:5288635008",
 "company": "K2 Space",
 "title": "Principal ASIC Physical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288635008",
+"id": "gh:k2spacecorporation:5288008008",
 "company": "K2 Space",
 "title": "Principal ASIC Physical Design Engineer",
 "rule": "not-intern",
@@ -40243,14 +40257,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5026916008",
+"id": "gh:k2spacecorporation:5287992008",
 "company": "K2 Space",
 "title": "Principal Flight Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5287992008",
+"id": "gh:k2spacecorporation:5026916008",
 "company": "K2 Space",
 "title": "Principal Flight Software Engineer",
 "rule": "not-intern",
@@ -40488,14 +40502,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5277848008",
+"id": "gh:k2spacecorporation:5287990008",
 "company": "K2 Space",
 "title": "Senior ASIC Design Verification Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5287990008",
+"id": "gh:k2spacecorporation:5277848008",
 "company": "K2 Space",
 "title": "Senior ASIC Design Verification Engineer",
 "rule": "not-intern",
@@ -40733,14 +40747,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5386721008",
+"id": "gh:k2spacecorporation:5386732008",
 "company": "K2 Space",
 "title": "Senior FPGA Prototyping Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5386732008",
+"id": "gh:k2spacecorporation:5386721008",
 "company": "K2 Space",
 "title": "Senior FPGA Prototyping Engineer",
 "rule": "not-intern",
@@ -41545,14 +41559,14 @@
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7985794003",
+"id": "gh:launchdarkly:7750105003",
 "company": "LaunchDarkly",
 "title": "Full Stack Engineer, Observability",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7750105003",
+"id": "gh:launchdarkly:7985794003",
 "company": "LaunchDarkly",
 "title": "Full Stack Engineer, Observability",
 "rule": "not-intern",
@@ -43925,6 +43939,13 @@
 "tag": ""
 },
 {
+"id": "gh:relativity:8782930002",
+"company": "Relativity Space",
+"title": "Global Supply Manager, Indirect",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "gh:relativity:8783355002",
 "company": "Relativity Space",
 "title": "Global Supply Manager, Indirect",
@@ -43933,13 +43954,6 @@
 },
 {
 "id": "gh:relativity:8783350002",
-"company": "Relativity Space",
-"title": "Global Supply Manager, Indirect",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:relativity:8782930002",
 "company": "Relativity Space",
 "title": "Global Supply Manager, Indirect",
 "rule": "not-intern",
@@ -44940,14 +44954,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8780048002",
+"id": "gh:relativity:8463038002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8463038002",
+"id": "gh:relativity:8780048002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
@@ -45227,14 +45241,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8419277002",
+"id": "gh:relativity:8701334002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8701334002",
+"id": "gh:relativity:8419277002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -45850,14 +45864,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8715897002",
+"id": "gh:relativity:8595007002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8595007002",
+"id": "gh:relativity:8715897002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -46228,14 +46242,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4381810009",
+"id": "gh:rocketems:4394496009",
 "company": "Rocket EMS",
 "title": "2D X-Ray Operator (Second Shift)",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4394496009",
+"id": "gh:rocketems:4381810009",
 "company": "Rocket EMS",
 "title": "2D X-Ray Operator (Second Shift)",
 "rule": "not-intern",
@@ -46319,14 +46333,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4382385009",
+"id": "gh:rocketems:4382380009",
 "company": "Rocket EMS",
 "title": "HR Director",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4382380009",
+"id": "gh:rocketems:4382385009",
 "company": "Rocket EMS",
 "title": "HR Director",
 "rule": "not-intern",
