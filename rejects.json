@@ -8988,13 +8988,6 @@
 "tag": "Winter 2027"
 },
 {
-"id": "ls:76075e31-0449-4ccd-80a7-1613d0ed6bcb",
-"company": "Eversource Energy",
-"title": "Asset Management Technology Engineer Intern - Fall 2026",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:d5e5a702-bb67-4401-a6b9-bb2f4cf29ce6",
 "company": "Framatome",
 "title": "Computer Science Engineer Intern Co-op - Univ/Co-op Technical",
@@ -18842,6 +18835,13 @@
 "title": "Reliability Engineer Co-op",
 "rule": "season",
 "tag": "Winter 2026"
+},
+{
+"id": "ls:a5f886cf-d5b6-41ac-9bfc-98833aff9bb6",
+"company": "Primer",
+"title": "Software Engineer Intern - Full Stack",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
@@ -34601,13 +34601,6 @@
 "tag": ""
 },
 {
-"id": "wd:amat:/job/Santa-ClaraCA/New-College-Graduate--NCG----Laboratory-Operations-Analyst_R2626731",
-"company": "Applied Materials",
-"title": "New College Graduate (NCG) \u2013 Laboratory Operations Analyst",
-"rule": "new-grad",
-"tag": ""
-},
-{
 "id": "wd:amat:/job/AustinTX/Global-Supply-Chain-Rotational-Program--Business-Intelligence-Analyst-I--New-College-Grad--Bachelor-s--Austin-TX-_R2627400",
 "company": "Applied Materials",
 "title": "Global Supply Chain Rotational Program, Business Intelligence Analyst I, New College Grad- Bachelor's (Austin TX)",
@@ -34693,6 +34686,13 @@
 },
 {
 "id": "wd:amat:/job/SingaporeSGP/College-Intern_R2626455",
+"company": "Applied Materials",
+"title": "College Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern_R2626457",
 "company": "Applied Materials",
 "title": "College Intern",
 "rule": "geo",
@@ -35035,10 +35035,10 @@
 "tag": ""
 },
 {
-"id": "wd:amat:/job/Santa-ClaraCA/Chemist---Co-Op---Santa-Clara-_R2625243",
+"id": "wd:amat:",
 "company": "Applied Materials",
-"title": "Chemist  (Co-Op - Santa Clara)",
-"rule": "irrelevant",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -35108,20 +35108,6 @@
 "id": "wd:amat:/job/SingaporeSGP/Industrial-Engineer--Fresh-Grads-Welcome-_R2622918",
 "company": "Applied Materials",
 "title": "Industrial Engineer (Fresh Grads Welcome)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:amat:/job/ShanghaiCHN/Global-Installation-Engineer-Semi-Shanghai-Beijing-Wuxi-Chengdu-New-Graduate_R2624660",
-"company": "Applied Materials",
-"title": "Global Installation Engineer-Semi-Shanghai/Beijing/Wuxi/Chengdu-New Graduate",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:amat:/job/ShanghaiCHN/Customer-Engineer---NCG--_R2624472",
-"company": "Applied Materials",
-"title": "Customer Engineer ( NCG )",
 "rule": "not-intern",
 "tag": ""
 },
