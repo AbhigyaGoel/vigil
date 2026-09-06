@@ -2,82 +2,82 @@
 "yield_since": "2026-09-03",
 "yield": {
 "listings_feed": {
-"scanned": 2191013,
+"scanned": 2194373,
 "A": 59,
 "B": 129
 },
 "markdown_source": {
-"scanned": 1145831,
+"scanned": 1147791,
 "A": 132,
-"B": 164
+"B": 165
 },
 "atom_feed": {
-"scanned": 66500,
+"scanned": 66600,
 "A": 0,
 "B": 2
 },
 "workday:NVIDIA": {
-"scanned": 92960,
+"scanned": 93108,
 "A": 0,
 "B": 2
 },
 "workday:Micron": {
-"scanned": 71742,
+"scanned": 71853,
 "A": 0,
 "B": 6
 },
 "workday:Analog Devices": {
-"scanned": 33560,
+"scanned": 33612,
 "A": 0,
 "B": 5
 },
 "workday:KLA": {
-"scanned": 3950,
+"scanned": 3956,
 "A": 0,
 "B": 0
 },
 "workday:Intel": {
-"scanned": 23272,
+"scanned": 23308,
 "A": 0,
 "B": 5
 },
 "workday:Applied Materials": {
-"scanned": 106781,
+"scanned": 106949,
 "A": 0,
 "B": 3
 },
 "workday:Marvell": {
-"scanned": 19905,
+"scanned": 19944,
 "A": 0,
 "B": 21
 },
 "workday:Caterpillar": {
-"scanned": 29460,
+"scanned": 29506,
 "A": 0,
 "B": 1
 },
 "workday:Boston Dynamics": {
-"scanned": 1938,
+"scanned": 1941,
 "A": 0,
 "B": 0
 },
 "workday:NXP": {
-"scanned": 34878,
+"scanned": 34933,
 "A": 0,
 "B": 11
 },
 "workday:Zebra": {
-"scanned": 7956,
+"scanned": 7968,
 "A": 0,
 "B": 0
 },
 "workday:Trimble": {
-"scanned": 3876,
+"scanned": 3882,
 "A": 0,
 "B": 0
 },
 "discovered_boards": {
-"scanned": 1147068,
+"scanned": 1148797,
 "A": 0,
 "B": 14
 }
@@ -85,7 +85,6 @@
 "config_hash": "b7bade3f18f1fc35",
 "last_weekly": "2026-W35",
 "season_rates": [
-1.0,
 1.0,
 1.0,
 1.0,
@@ -132,7 +131,8 @@
 1.0,
 1.0,
 1.0,
-1.0
+1.0,
+0.9993
 ],
-"last_digest": 1788649313.4780135
+"last_digest": 1788656503.723261
 }
