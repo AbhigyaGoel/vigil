@@ -28252,23 +28252,23 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.smartrecruiters.com/RESPECInc/744000143189989",
+"company": "RE/SPEC Inc.",
+"title": "Fire Protection EIT",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.smartrecruiters.com/RESPECInc/744000140989119",
+"company": "RE/SPEC Inc.",
+"title": "Structural Engineer in Training (EIT)",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://jobs.smartrecruiters.com/RESPECInc/744000129829907",
 "company": "RE/SPEC Inc.",
 "title": "Civil CAD Designer - Land Development",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.smartrecruiters.com/RESPECInc/744000088317535",
-"company": "RE/SPEC Inc.",
-"title": "Mechanical Engineer / Project Manager",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.smartrecruiters.com/RESPECInc/743999967602892",
-"company": "RE/SPEC Inc.",
-"title": "Civil Project Engineer/Project Manager - Land Development",
 "rule": "not-intern",
 "tag": ""
 },
@@ -28294,6 +28294,13 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.smartrecruiters.com/llnl/3743990013144232",
+"company": "LLNL",
+"title": "Laser Postdoctoral Researcher - Advanced Photon Technologies",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://jobs.smartrecruiters.com/llnl/3743990013043946",
 "company": "LLNL",
 "title": "Electrical Engineer \u2013 Unmanned Systems & Ground Penetrating Radar",
@@ -28308,9 +28315,9 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/llnl/3743990012778996",
-"company": "LLNL",
-"title": "Microwave/RF Engineer",
+"id": "md:https://jobs.smartrecruiters.com/Intuitive/744000132922164",
+"company": "Intuitive",
+"title": "Robotic Algorithms and Controls Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -28325,13 +28332,6 @@
 "id": "md:https://jobs.smartrecruiters.com/Intuitive/744000136521809",
 "company": "Intuitive",
 "title": "Manufacturing Equipment Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.smartrecruiters.com/Intuitive/744000132922164",
-"company": "Intuitive",
-"title": "Robotic Algorithms and Controls Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -28364,10 +28364,10 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/BoschGroup/744000125913658",
+"id": "md:https://jobs.smartrecruiters.com/BoschGroup/744000126066306",
 "company": "Bosch Group",
-"title": "Simulation and System Engineer (Multiple Positions) (REF285823I)",
-"rule": "not-intern",
+"title": "Electronics Engineering Intern",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -28381,6 +28381,13 @@
 "id": "md:https://jobs.lever.co/diversified-automation/3cea02c8-9a43-4542-96bb-df69a874f146",
 "company": "Diversified Automation",
 "title": "Hardware Engineering Co-Op",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/zoox/341859c7-6449-482b-a6ef-1717bd97ea78",
+"company": "Zoox",
+"title": "Chassis Controls Engineer, Brakes & Steering",
 "rule": "curated_worker",
 "tag": ""
 },
@@ -28399,13 +28406,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/zoox/341859c7-6449-482b-a6ef-1717bd97ea78",
-"company": "Zoox",
-"title": "Chassis Controls Engineer, Brakes & Steering",
-"rule": "curated_worker",
-"tag": ""
-},
-{
 "id": "md:https://jobs.lever.co/waabi/548a93ba-52cb-4b21-a68a-70d812187e5b",
 "company": "Waabi",
 "title": "Mechanical Engineer",
@@ -28416,13 +28416,6 @@
 "id": "md:https://jobs.lever.co/waabi/4889104b-bb12-4fd7-a332-843fbb45f0a4",
 "company": "Waabi",
 "title": "Vehicle Reliability Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/velo3d/c6bf76b4-76a4-4a74-b479-0eac2b27f784",
-"company": "Velo3D",
-"title": "Electrical Engineer II",
 "rule": "not-intern",
 "tag": ""
 },
@@ -28441,6 +28434,13 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.lever.co/velo3d/c6bf76b4-76a4-4a74-b479-0eac2b27f784",
+"company": "Velo3D",
+"title": "Electrical Engineer II",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://jobs.lever.co/teleo/17daf52d-f8ee-44b7-9f10-33fe980a512e",
 "company": "Teleo",
 "title": "Electrical Integration Engineer",
@@ -28448,16 +28448,128 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990012907764",
-"company": "AbbVie",
-"title": "Service Engineer, Analytical Instrumentation",
+"id": "md:https://jobs.lever.co/synergyecp/4eb1b803-2c3c-46cc-92e4-cd80848351b4",
+"company": "Synergy ECP",
+"title": "OCONUS Hardware Engineer (Pipeline)",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/synergyecp/4eb1b803-2c3c-46cc-92e4-cd80848351b4",
-"company": "Synergy ECP",
-"title": "OCONUS Hardware Engineer (Pipeline)",
+"id": "md:https://jobs.lever.co/shieldai/cf0f2076-a481-4b1a-8a37-39979abb98e6",
+"company": "Shield AI",
+"title": "Supplier Development Engineer - Electronics (R5480)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/shieldai/9f1c3c6f-6807-4cd4-bbb1-d9914841c23e",
+"company": "Shield AI",
+"title": "Supplier Development Engineer - Mechanical (R4561)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/shieldai/0af53b2b-e1ba-4e73-9e94-a4a689cabab9",
+"company": "Shield AI",
+"title": "Power Electronics - Electrical Engineer I",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/solopulseco/9a9e29cb-41f3-4e39-ab69-27481422efff",
+"company": "SoloPulse",
+"title": "Digital Signal Processing (DSP) Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/solopulseco/fede9a75-7e75-4066-9b89-291c327464a3",
+"company": "SoloPulse",
+"title": "Digital Signal Processing (DSP) Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/make-rain/6b8ee727-b788-4f02-8157-db343181089d",
+"company": "Rainmaker",
+"title": "Rainmaker Fellow, Atmospheric Instrumentation",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/rigetti/ec492be6-ff22-419b-9b4c-592f36c0556d",
+"company": "Rigetti",
+"title": "Quality Control Technician",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/pivotal/69119185-2d5b-4b54-8a87-8ea040c9e482",
+"company": "Pivotal Software",
+"title": "Autonomy Engineer II - Robotics",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/pivotal/9e6fe3e9-7668-483e-9273-85deb97eaff0",
+"company": "Pivotal Software",
+"title": "Motor Controls Engineer II - R&D",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/pingwind/ae9670d0-4068-4796-9e62-c11cc5794ed8",
+"company": "PingWind",
+"title": "Unmanned Systems (UxS) Technician II",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/plus-2/2af29134-9fe8-45e5-80e4-a3fee19f2d7c",
+"company": "PlusAI",
+"title": "Field Service Engineer",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/plus-2/6844904b-ccbf-41ba-924c-6a5d8ba572d5",
+"company": "PlusAI",
+"title": "Functional Safety Manager",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/plus-2/9afb1a31-cdc8-496a-a891-24b9d1254391",
+"company": "PlusAI",
+"title": "Technician",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/palantir/a3eaa0ef-3378-495f-8308-edbd9a93d26c",
+"company": "Palantir",
+"title": "Web Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/palantir/250f623c-9afb-4c91-b0c0-25d4e83005ec",
+"company": "Palantir",
+"title": "Product Reliability Engineer - Defense",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/palantir/57699414-b373-4a5e-9be8-6fb7de41ea72",
+"company": "Palantir",
+"title": "Product Reliability Engineer - Defense",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990012907764",
+"company": "AbbVie",
+"title": "Service Engineer, Analytical Instrumentation",
 "rule": "not-intern",
 "tag": ""
 },
@@ -28469,16 +28581,30 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/persona.ai/18e0d683-1666-4f4d-bef8-a62c175de17d",
-"company": "Persona AI",
-"title": "Robotics Simulation Engineer",
+"id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990013738931",
+"company": "AbbVie",
+"title": "Calibration Technician II - Ops (Sunday to Wednesday, 6:00am - 4:30pm)",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/persona.ai/e5dd4a0a-e283-4bc4-9c19-70682c667a7b",
-"company": "Persona AI",
-"title": "Process Engineer",
+"id": "md:https://jobs.ashbyhq.com/antares/2a95dbc6-27f7-4bec-8d2a-523fab8e1318",
+"company": "Antares",
+"title": "Mechanical Design Engineer I/II - Space",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/antares/6379f7b9-c761-416e-a0cb-3c29c63aa143",
+"company": "Antares",
+"title": "Mechanical Design Engineer II - Electrical Systems",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/antares/7e72843c-fb39-434c-98b2-869e3c4ccdaa",
+"company": "Antares",
+"title": "Thermo-Mechanical Engineer II",
 "rule": "not-intern",
 "tag": ""
 },
@@ -28504,48 +28630,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/antares/52785c9b-299d-4886-aa47-b14dc0094ba1",
-"company": "Antares",
-"title": "Thermo - Mechanical Design Engineer - Heat Pipes",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/antares/f530ad09-21b2-49a5-a133-bd24fb97cede",
-"company": "Antares",
-"title": "Nuclear Engineer I/II",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/antares/8affea36-17e0-40f2-aa9c-9fe73017539c",
-"company": "Antares",
-"title": "Electrical Engineer I/II",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/gritt/99aeb34d-6eec-4bc1-8acb-203657ce5998",
-"company": "Gritt Robotics",
-"title": "Hardware Procurement Specialist",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/gritt/575c403d-3f47-4fe1-91f9-2478887e549d",
-"company": "Gritt Robotics",
-"title": "Electronics Technician",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990013738931",
-"company": "AbbVie",
-"title": "Calibration Technician II - Ops (Sunday to Wednesday, 6:00am - 4:30pm)",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://jobs.ashbyhq.com/warp/34541a68-50a9-44c2-9651-eb3ca4a39be4",
 "company": "Warp",
 "title": "Design Engineer",
@@ -28553,23 +28637,30 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/shieldai/cf0f2076-a481-4b1a-8a37-39979abb98e6",
-"company": "Shield AI",
-"title": "Supplier Development Engineer - Electronics (R5480)",
+"id": "md:https://jobs.ashbyhq.com/persona.ai/18e0d683-1666-4f4d-bef8-a62c175de17d",
+"company": "Persona AI",
+"title": "Robotics Simulation Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/shieldai/9f1c3c6f-6807-4cd4-bbb1-d9914841c23e",
-"company": "Shield AI",
-"title": "Supplier Development Engineer - Mechanical (R4561)",
+"id": "md:https://jobs.ashbyhq.com/persona.ai/e5dd4a0a-e283-4bc4-9c19-70682c667a7b",
+"company": "Persona AI",
+"title": "Process Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/shieldai/6658e802-cab9-48bb-a039-c13732079d9c",
-"company": "Shield AI",
-"title": "Propulsion Engineer, Fleet Support (R5005)",
+"id": "md:https://jobs.ashbyhq.com/gritt/ed459ec7-84ba-415c-9c44-5be778a7c6b0",
+"company": "Gritt Robotics",
+"title": "Mechanical Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/gritt/99aeb34d-6eec-4bc1-8acb-203657ce5998",
+"company": "Gritt Robotics",
+"title": "Hardware Procurement Specialist",
 "rule": "not-intern",
 "tag": ""
 },
@@ -28595,16 +28686,16 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/solopulseco/9a9e29cb-41f3-4e39-ab69-27481422efff",
-"company": "SoloPulse",
-"title": "Digital Signal Processing (DSP) Engineer",
+"id": "md:https://jobs.ashbyhq.com/saronic/7232abe3-f5b9-4a2e-b41f-b4cabe43ea50",
+"company": "Saronic Technologies",
+"title": "Mechanical Design Drafter (Hardware)",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/solopulseco/fede9a75-7e75-4066-9b89-291c327464a3",
-"company": "SoloPulse",
-"title": "Digital Signal Processing (DSP) Engineer",
+"id": "md:https://jobs.ashbyhq.com/saronic/e3539993-a4c5-43f6-8235-ffee0b2e14c0",
+"company": "Saronic Technologies",
+"title": "Shipyard Production Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -28613,34 +28704,6 @@
 "company": "Saronic Technologies",
 "title": "Mission Operations Engineer (Product)",
 "rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/saronic/5f588e46-5bd6-428a-8f3b-a045262bbe14",
-"company": "Saronic Technologies",
-"title": "Mechanical Design Build Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/saronic/8e6399b9-2a1b-42f4-90f9-fcfabc51ac2f",
-"company": "Saronic Technologies",
-"title": "Mechanical Engineer - Special Programs",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/rivianvw.tech/1b5515ae-6970-40d7-aee0-9b6099319966",
-"company": "Rivian and Volkswagen Group Technologies",
-"title": "Functional Safety Engineer \u2013 Infotainment Systems",
-"rule": "curated_worker",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/skydio/85e92e26-b1a7-40ce-bedb-d929fbec5faa",
-"company": "Skydio",
-"title": "IT Operations Engineer",
-"rule": "curated_worker",
 "tag": ""
 },
 {
@@ -28658,10 +28721,10 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/make-rain/6b8ee727-b788-4f02-8157-db343181089d",
-"company": "Rainmaker",
-"title": "Rainmaker Fellow, Atmospheric Instrumentation",
-"rule": "not-intern",
+"id": "md:https://jobs.ashbyhq.com/skydio/f72f1fa5-d3d6-459e-8722-a94ce92ad1c8",
+"company": "Skydio",
+"title": "RF Design Engineer",
+"rule": "curated_worker",
 "tag": ""
 },
 {
@@ -28672,23 +28735,16 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/rigetti/ec492be6-ff22-419b-9b4c-592f36c0556d",
-"company": "Rigetti",
-"title": "Quality Control Technician",
+"id": "md:https://jobs.ashbyhq.com/rivianvw.tech/1b5515ae-6970-40d7-aee0-9b6099319966",
+"company": "Rivian and Volkswagen Group Technologies",
+"title": "Functional Safety Engineer \u2013 Infotainment Systems",
 "rule": "curated_worker",
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/replit/2f1de5f1-48c2-4104-a697-a51fe1620508",
-"company": "Replit",
+"id": "md:https://jobs.ashbyhq.com/pulse/ecc58086-0b32-4686-86ab-c8e30d619bed",
+"company": "Pulse",
 "title": "Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/replit/2c1463ab-05a4-482a-a605-013403a41e80",
-"company": "Replit",
-"title": "Field Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -28714,27 +28770,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/ramp/b68aca53-16c0-4ced-ab1d-e8beb2940b4f",
-"company": "Ramp",
-"title": "Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/pulse/ecc58086-0b32-4686-86ab-c8e30d619bed",
-"company": "Pulse",
-"title": "Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/pingwind/ae9670d0-4068-4796-9e62-c11cc5794ed8",
-"company": "PingWind",
-"title": "Unmanned Systems (UxS) Technician II",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://jobs.ashbyhq.com/reframesystems/3a5f78cc-463d-4afe-b473-9bec22508ee9",
 "company": "Reframe Systems",
 "title": "Structural Engineer - Building Systems / DFMA",
@@ -28749,58 +28784,16 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/openai/e961c9df-caa0-4b29-b37c-a3e02c564615",
-"company": "OpenAI",
-"title": "Software Engineer, Silicon Design Methodology",
-"rule": "curated_worker",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/openai/66edf931-b48d-4912-a16d-e7e8e1799d66",
-"company": "OpenAI",
-"title": "Actuator Electromagnetic Design Engineer",
-"rule": "curated_worker",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/openai/4560b828-7624-414b-9670-6cc9bf0008ad",
-"company": "OpenAI",
-"title": "Actuator Gear Design Engineer",
-"rule": "curated_worker",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/plus-2/9afb1a31-cdc8-496a-a891-24b9d1254391",
-"company": "PlusAI",
-"title": "Technician",
-"rule": "curated_worker",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/plus-2/2af29134-9fe8-45e5-80e4-a3fee19f2d7c",
-"company": "PlusAI",
-"title": "Field Service Engineer",
-"rule": "curated_worker",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/plus-2/6844904b-ccbf-41ba-924c-6a5d8ba572d5",
-"company": "PlusAI",
-"title": "Functional Safety Manager",
-"rule": "curated_worker",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/pivotal/d1434d84-8a8a-43ec-91c4-18663f3fce99",
-"company": "Pivotal Software",
-"title": "Verification Engineer - Aeromechanical (Design & Test)",
+"id": "md:https://jobs.ashbyhq.com/ramp/b68aca53-16c0-4ced-ab1d-e8beb2940b4f",
+"company": "Ramp",
+"title": "Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/pivotal/69119185-2d5b-4b54-8a87-8ea040c9e482",
-"company": "Pivotal Software",
-"title": "Autonomy Engineer II - Robotics",
+"id": "md:https://jobs.ashbyhq.com/replit/2f1de5f1-48c2-4104-a697-a51fe1620508",
+"company": "Replit",
+"title": "Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -28882,9 +28875,9 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/openai/f6b9903c-9034-436b-a4ec-4c8643a6d0dd",
+"id": "md:https://jobs.ashbyhq.com/openai/e4ef18a1-f2f7-4920-a53c-aeadd184d124",
 "company": "OpenAI",
-"title": "Networking Operating System Firmware Engineer",
+"title": "ASIC Firmware Engineer, Modeling",
 "rule": "curated_worker",
 "tag": ""
 },
@@ -28924,10 +28917,10 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/etched/c3ca158a-015d-413d-bd14-5470e546ed15",
-"company": "Etched",
-"title": "RTL Design Engineer",
-"rule": "curated_worker",
+"id": "md:https://jobs.lever.co/belvederetrading/67c39285-40b4-436f-9e12-5644f070f46f",
+"company": "Belvedere Trading",
+"title": "FPGA Engineer",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -28945,17 +28938,17 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/cerebras/3f85f614-264f-4987-9fb5-320ee2798e97",
-"company": "Cerebras Systems",
-"title": "FPGA Engineer",
+"id": "md:https://jobs.ashbyhq.com/etched/c3ca158a-015d-413d-bd14-5470e546ed15",
+"company": "Etched",
+"title": "RTL Design Engineer",
 "rule": "curated_worker",
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/belvederetrading/67c39285-40b4-436f-9e12-5644f070f46f",
-"company": "Belvedere Trading",
+"id": "md:https://jobs.ashbyhq.com/cerebras/3f85f614-264f-4987-9fb5-320ee2798e97",
+"company": "Cerebras Systems",
 "title": "FPGA Engineer",
-"rule": "not-intern",
+"rule": "curated_worker",
 "tag": ""
 },
 {
@@ -29407,13 +29400,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/applied/5e204245-3d33-4916-bfdd-991f0cc745eb",
-"company": "Applied Intuition",
-"title": "Embedded AI Engineer \u2013 Android Automotive (On-Device Intelligence)",
-"rule": "curated_worker",
-"tag": ""
-},
-{
 "id": "md:https://jobs.ashbyhq.com/applied/01dba94d-34b9-4d30-a7d3-82344bab609c",
 "company": "Applied Intuition",
 "title": "Embedded Firmware Validation Engineer",
@@ -29424,6 +29410,13 @@
 "id": "md:https://jobs.ashbyhq.com/applied/0695a5b7-6823-4da5-b918-3b580d49662c",
 "company": "Applied Intuition",
 "title": "Embedded Test Engineer - New Grad (December 2026)",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/applied/1909abc7-df4f-4220-adaf-0549bd01f657",
+"company": "Applied Intuition",
+"title": "Embedded Security Engineer",
 "rule": "curated_worker",
 "tag": ""
 },
@@ -29729,9 +29722,9 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/zoox/c794f77e-c39d-44f2-9309-8bc904e0f868",
+"id": "md:https://jobs.lever.co/zoox/e0d46302-6fa2-45a7-927d-cd11ccf1843e",
 "company": "Zoox",
-"title": "Contract Student Worker System Test Engineer (Full-time)",
+"title": "Manufacturing Test Engineer",
 "rule": "curated_worker",
 "tag": ""
 },
@@ -29757,23 +29750,9 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/BoschGroup/744000144814189",
-"company": "Bosch Group",
-"title": "System Engineer - Power Electronics",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/gritt/33d60056-6258-4749-b514-e4b99e15c74b",
-"company": "Gritt Robotics",
-"title": "Hardware Test Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/gritt/5a834deb-09aa-406c-8c8d-c5d7cc6818ad",
-"company": "Gritt Robotics",
-"title": "Robotics System Test Engineer",
+"id": "md:https://jobs.lever.co/shieldai/f6bbec19-f1c6-44ce-9af5-132b25b6e83a",
+"company": "Shield AI",
+"title": "Power Electronics - Thermal Engineer I (R4842)",
 "rule": "not-intern",
 "tag": ""
 },
@@ -29785,13 +29764,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/shieldai/f6bbec19-f1c6-44ce-9af5-132b25b6e83a",
-"company": "Shield AI",
-"title": "Power Electronics - Thermal Engineer I (R4842)",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://jobs.lever.co/shieldai/c71d4278-e8af-4d66-ba49-80670cccfc3c",
 "company": "Shield AI",
 "title": "Flight Test Engineer (R5006)",
@@ -29799,9 +29771,16 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/uncountable/a8390152-8709-4a36-93b9-eb2bc6242342",
-"company": "Uncountable",
-"title": "Validation Engineer",
+"id": "md:https://jobs.lever.co/plus-2/0c342721-601c-4466-b503-5b18438064c2",
+"company": "PlusAI",
+"title": "Perception Validation Engineer",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "md:https://jobs.smartrecruiters.com/BoschGroup/744000144814189",
+"company": "Bosch Group",
+"title": "System Engineer - Power Electronics",
 "rule": "not-intern",
 "tag": ""
 },
@@ -29809,6 +29788,27 @@
 "id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990014090096",
 "company": "AbbVie",
 "title": "Validation Engineer II",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/gritt/5a834deb-09aa-406c-8c8d-c5d7cc6818ad",
+"company": "Gritt Robotics",
+"title": "Robotics System Test Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/gritt/33d60056-6258-4749-b514-e4b99e15c74b",
+"company": "Gritt Robotics",
+"title": "Hardware Test Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/uncountable/a8390152-8709-4a36-93b9-eb2bc6242342",
+"company": "Uncountable",
+"title": "Validation Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -29855,13 +29855,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/plus-2/0c342721-601c-4466-b503-5b18438064c2",
-"company": "PlusAI",
-"title": "Perception Validation Engineer",
-"rule": "curated_worker",
-"tag": ""
-},
-{
 "id": "md:https://jobs.ashbyhq.com/physicalintelligence/81d1eb25-ada9-40fd-8708-e1e42ecb2b7e",
 "company": "Physical Intelligence",
 "title": "Production Test Engineer",
@@ -29890,6 +29883,13 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.lever.co/cfsenergy/27e3a498-9ab0-43a7-896f-75f791aee6bb",
+"company": "CFS Energy",
+"title": "R&D Test Engineer - Fluid Systems",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://jobs.ashbyhq.com/matx/1e718369-79bf-4118-a4df-2a1ee6dd1534",
 "company": "MatX",
 "title": "Power Engineer",
@@ -29911,13 +29911,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/etched/ccf2ae62-5490-4a59-87e8-8761f573b22a",
-"company": "Etched",
-"title": "Hardware Validation Engineer",
-"rule": "curated_worker",
-"tag": ""
-},
-{
 "id": "md:https://jobs.ashbyhq.com/etched/9a3eed83-b5b2-4ac4-a2d4-9dc9dd734869",
 "company": "Etched",
 "title": "Post-Silicon Validation Engineer",
@@ -29932,10 +29925,10 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/cfsenergy/27e3a498-9ab0-43a7-896f-75f791aee6bb",
-"company": "CFS Energy",
-"title": "R&D Test Engineer - Fluid Systems",
-"rule": "not-intern",
+"id": "md:https://jobs.ashbyhq.com/etched/40365c15-37d2-4266-a042-5a21bfb9212b",
+"company": "Etched",
+"title": "Power Validation Engineer",
+"rule": "curated_worker",
 "tag": ""
 },
 {
@@ -29953,16 +29946,9 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/applied/567062a4-578e-4d05-a175-4fff84dd07b5",
-"company": "Applied Intuition",
-"title": "OTA Validation Engineer",
-"rule": "curated_worker",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/applied/d8b7286e-bd47-407b-859d-f2b7f5822a8c",
-"company": "Applied Intuition",
-"title": "Hardware Test Engineer",
+"id": "md:https://jobs.ashbyhq.com/apex-technology-inc/3c7c5384-c6e9-4274-b090-90d2d51c30a8",
+"company": "Apex Technology",
+"title": "Avionics Test Engineer, Hardware",
 "rule": "curated_worker",
 "tag": ""
 },
@@ -29981,9 +29967,16 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/apex-technology-inc/3c7c5384-c6e9-4274-b090-90d2d51c30a8",
-"company": "Apex Technology",
-"title": "Avionics Test Engineer, Hardware",
+"id": "md:https://jobs.ashbyhq.com/applied/567062a4-578e-4d05-a175-4fff84dd07b5",
+"company": "Applied Intuition",
+"title": "OTA Validation Engineer",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/applied/d8b7286e-bd47-407b-859d-f2b7f5822a8c",
+"company": "Applied Intuition",
+"title": "Hardware Test Engineer",
 "rule": "curated_worker",
 "tag": ""
 },
@@ -30065,20 +30058,6 @@
 "tag": ""
 },
 {
-"id": "md:https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Test-Engineer--Mid-Level-_RQ227911-1",
-"company": "GDIT",
-"title": "Test Engineer (Mid-Level)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Automated-Test-Engineer--w--Telework-_RQ227872-1",
-"company": "GDIT",
-"title": "Automated Test Engineer (w/ Telework)",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Sunnyvale/Systems-Test-Engineer-Level-2--3_R10238750",
 "company": "Northrop Grumman",
 "title": "Systems Test Engineer Level 2 /3",
@@ -30145,6 +30124,20 @@
 "id": "md:https://jobs.apple.com/en-us/details/200681514/circuit-design-engineer",
 "company": "Apple",
 "title": "Circuit Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-VA-Springfield/Test-Engineer--Mid-Level-_RQ227911-1",
+"company": "GDIT",
+"title": "Test Engineer (Mid-Level)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://gdit.wd5.myworkdayjobs.com/external_career_site/job/USA-MD-Annapolis-Junction/Automated-Test-Engineer--w--Telework-_RQ227872-1",
+"company": "GDIT",
+"title": "Automated Test Engineer (w/ Telework)",
 "rule": "not-intern",
 "tag": ""
 },
@@ -30345,16 +30338,16 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/persona.ai/de83c3eb-e6e4-4ba2-a675-db4e8ef7918a",
-"company": "Persona AI",
-"title": "Quality Engineer",
+"id": "md:https://jobs.lever.co/shieldai/8f00a36b-02b5-4800-b55b-2c9d29c6dd62",
+"company": "Shield AI",
+"title": "Technician 4, Quality Engineering (R4959)",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/shieldai/8f00a36b-02b5-4800-b55b-2c9d29c6dd62",
-"company": "Shield AI",
-"title": "Technician 4, Quality Engineering (R4959)",
+"id": "md:https://jobs.ashbyhq.com/persona.ai/de83c3eb-e6e4-4ba2-a675-db4e8ef7918a",
+"company": "Persona AI",
+"title": "Quality Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -30380,10 +30373,10 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/openai/fff7b15d-a1a0-441f-90f1-5efcae7f0051",
-"company": "OpenAI",
-"title": "Quality Engineer - Rack Infrastructure & Site Operations - Stargate",
-"rule": "curated_worker",
+"id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990014382406",
+"company": "AbbVie",
+"title": "Engineer, Validation Commissioning",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -30394,10 +30387,10 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990014382406",
-"company": "AbbVie",
-"title": "Engineer, Validation Commissioning",
-"rule": "not-intern",
+"id": "md:https://jobs.ashbyhq.com/openai/fff7b15d-a1a0-441f-90f1-5efcae7f0051",
+"company": "OpenAI",
+"title": "Quality Engineer - Rack Infrastructure & Site Operations - Stargate",
+"rule": "curated_worker",
 "tag": ""
 },
 {
@@ -30947,13 +30940,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/gritt/46af6e69-40fc-4e53-940e-a99757137523",
-"company": "Gritt Robotics",
-"title": "ML & Cloud Infrastructure Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://jobs.lever.co/solopulseco/00fbde18-a387-4c9f-97d4-77059aec7b56",
 "company": "SoloPulse",
 "title": "Software Engineer Intern/Co-Op - Fall 2026",
@@ -30961,44 +30947,37 @@
 "tag": "title"
 },
 {
-"id": "md:https://jobs.ashbyhq.com/rilla/123a6a38-c7f9-4378-b00d-c6ae54688bd5",
-"company": "Rilla",
-"title": "Software Engineering Intern - 2027 Graduates",
+"id": "md:https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
+"company": "Palantir",
+"title": "Software Engineer, Internship",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
+"company": "Palantir",
+"title": "Software Engineer, Internship",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
+"company": "Palantir",
+"title": "Software Engineer, Internship",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/gritt/46af6e69-40fc-4e53-940e-a99757137523",
+"company": "Gritt Robotics",
+"title": "ML & Cloud Infrastructure Engineer Intern",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3",
-"company": "Palantir",
-"title": "Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial",
-"rule": "defense",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d",
-"company": "Palantir",
-"title": "Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial",
-"rule": "defense",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019",
-"company": "Palantir",
-"title": "Year at Palantir - Forward Deployed Software Engineer, Internship - USG",
-"rule": "defense",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8",
-"company": "Notion",
-"title": "Software Engineer Intern (Winter 2027)",
-"rule": "season",
-"tag": "title"
-},
-{
-"id": "md:https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c",
-"company": "Notion",
-"title": "Software Engineer Intern (Summer 2027)",
+"id": "md:https://jobs.ashbyhq.com/rilla/123a6a38-c7f9-4378-b00d-c6ae54688bd5",
+"company": "Rilla",
+"title": "Software Engineering Intern - 2027 Graduates",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -31017,6 +30996,20 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8",
+"company": "Notion",
+"title": "Software Engineer Intern (Winter 2027)",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "md:https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c",
+"company": "Notion",
+"title": "Software Engineer Intern (Summer 2027)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://jobs.ashbyhq.com/mechanize/d148d54f-6db7-4c28-9699-0304596f554e",
 "company": "Mechanize",
 "title": "Software Engineering Intern",
@@ -31031,16 +31024,16 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/hermeus/51378fa0-0327-45fd-9420-b6e7d8b56440",
+"id": "md:https://jobs.lever.co/hermeus/31513d2a-8e08-424b-b125-4f972fcfc805",
 "company": "Hermeus",
-"title": "Flight Software Engineering Intern - Fall 2026",
+"title": "Propulsion Test Engineering Intern - Fall 2026",
 "rule": "defense",
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/hermeus/31513d2a-8e08-424b-b125-4f972fcfc805",
+"id": "md:https://jobs.lever.co/hermeus/51378fa0-0327-45fd-9420-b6e7d8b56440",
 "company": "Hermeus",
-"title": "Propulsion Test Engineering Intern - Fall 2026",
+"title": "Flight Software Engineering Intern - Fall 2026",
 "rule": "defense",
 "tag": ""
 },
@@ -31055,6 +31048,13 @@
 "id": "md:https://jobs.ashbyhq.com/kos.ai/efab6ffb-9658-47f7-8b5f-a295c55957d3",
 "company": "kos.ai",
 "title": "Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0",
+"company": "Belvedere Trading",
+"title": "Software Engineer Intern - Summer 2027",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -31076,13 +31076,6 @@
 "id": "md:https://jobs.ashbyhq.com/circleback/2bb6be67-d1a8-42f7-bb1b-64ee36bf613f",
 "company": "Circleback",
 "title": "Software Engineering Intern (Summer 2027)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/belvederetrading/10746b3d-1760-4573-9b63-b93f5a5e4fc0",
-"company": "Belvedere Trading",
-"title": "Software Engineer Intern - Summer 2027",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -31325,16 +31318,16 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/NorthwesternMutual/85751677",
+"id": "md:https://jobs.smartrecruiters.com/NorthwesternMutual/85751624",
 "company": "Northwestern Mutual",
-"title": "Analytics Internship",
+"title": "IT Business Analyst Internship",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/NorthwesternMutual/85751624",
+"id": "md:https://jobs.smartrecruiters.com/NorthwesternMutual/85751677",
 "company": "Northwestern Mutual",
-"title": "IT Business Analyst Internship",
+"title": "Analytics Internship",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -31521,13 +31514,6 @@
 "tag": ""
 },
 {
-"id": "md:https://archgroup.wd1.myworkdayjobs.com/careers/job/Farmington-CT-United-States-of-America/Data-and-Analytics-Intern_R26_845",
-"company": "Arch Capital Group",
-"title": "Data and Analytics Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://jj.wd5.myworkdayjobs.com/jj/job/Cincinnati-Ohio-United-States-of-America/Quality-Data-Science-Co-op--Spring-2027_R-095792",
 "company": "Johnson & Johnson",
 "title": "Quality Data Science Co-op- Spring 2027",
@@ -31598,18 +31584,18 @@
 "tag": ""
 },
 {
+"id": "md:https://archgroup.wd1.myworkdayjobs.com/careers/job/Farmington-CT-United-States-of-America/Data-and-Analytics-Intern_R26_845",
+"company": "Arch Capital Group",
+"title": "Data and Analytics Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://fa-esbv-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1025724",
 "company": "First Solar",
 "title": "Data Scientist Intern (Fall 2026)",
 "rule": "season",
 "tag": "title"
-},
-{
-"id": "md:https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/AI-ML-Engineer-Intern_R265579",
-"company": "Analog Devices",
-"title": "AI/ML Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "md:https://jobs.ashbyhq.com/northwoodspace/69f99cd7-3ce7-413a-8cfe-29b7ccbc1490",
@@ -31629,6 +31615,13 @@
 "id": "md:https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Supply-Chain-Data-Analyst-Intern_J2462080",
 "company": "Jabil",
 "title": "Supply Chain Data Analyst Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/AI-ML-Engineer-Intern_R265579",
+"company": "Analog Devices",
+"title": "AI/ML Engineer Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -32088,27 +32081,6 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/yotta/09821a51-fbe6-42a7-a566-0d2b5d40fae3",
-"company": "Yotta Labs",
-"title": "Research Engineer Intern - AI Systems",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/tessera-labs/3b2d45b8-9881-41fe-b103-7bbc400e1544",
-"company": "Tessera Labs",
-"title": "Product Manager, Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "md:https://jobs.ashbyhq.com/rilla/c15fc0ad-6da3-4bab-9c64-f8288453b2ae",
-"company": "Rilla",
-"title": "Product Designer, Internship",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://jobs.lever.co/palantir/1a935143-e857-480c-bc5a-ad625d754eb6",
 "company": "Palantir",
 "title": "Product Designer, Internship",
@@ -32127,6 +32099,27 @@
 "company": "Palantir",
 "title": "Product Designer, Internship - US Government",
 "rule": "defense",
+"tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/yotta/09821a51-fbe6-42a7-a566-0d2b5d40fae3",
+"company": "Yotta Labs",
+"title": "Research Engineer Intern - AI Systems",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/tessera-labs/3b2d45b8-9881-41fe-b103-7bbc400e1544",
+"company": "Tessera Labs",
+"title": "Product Manager, Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/rilla/c15fc0ad-6da3-4bab-9c64-f8288453b2ae",
+"company": "Rilla",
+"title": "Product Designer, Internship",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -32501,9 +32494,9 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/matx/d74c72e7-49ec-4a04-9405-04ef0f0d87c6",
-"company": "MatX",
-"title": "Laboratory Operations Intern",
+"id": "md:https://jobs.lever.co/crestoperations/a4e1fa07-80f5-4a7d-989e-b755a7ac7d7e",
+"company": "Crest Industries",
+"title": "Finance Internship",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -32515,17 +32508,17 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/crestoperations/a4e1fa07-80f5-4a7d-989e-b755a7ac7d7e",
-"company": "Crest Industries",
-"title": "Finance Internship",
+"id": "md:https://jobs.ashbyhq.com/matx/d74c72e7-49ec-4a04-9405-04ef0f0d87c6",
+"company": "MatX",
+"title": "Laboratory Operations Intern",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/etched/a0a1671e-15d4-474c-8227-97fe16ade553",
-"company": "Etched",
-"title": "Finance Intern",
-"rule": "curated_worker",
+"id": "md:https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab",
+"company": "Belvedere Trading",
+"title": "Quantitative Trading Intern - Summer 2027",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -32536,10 +32529,10 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab",
-"company": "Belvedere Trading",
-"title": "Quantitative Trading Intern - Summer 2027",
-"rule": "irrelevant",
+"id": "md:https://jobs.ashbyhq.com/etched/a0a1671e-15d4-474c-8227-97fe16ade553",
+"company": "Etched",
+"title": "Finance Intern",
+"rule": "curated_worker",
 "tag": ""
 },
 {
@@ -32921,30 +32914,16 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/RedBull/744000140967576",
+"id": "md:https://jobs.smartrecruiters.com/RedBull/744000139170699",
 "company": "Red Bull",
-"title": "2026 Internship, Fall - Communications and Community",
+"title": "2026 Internship, Fall - Academy Administration & Operations",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/RedBull/744000140784792",
+"id": "md:https://jobs.smartrecruiters.com/RedBull/744000139170440",
 "company": "Red Bull",
-"title": "2026 Internship, Fall - Academy Scout",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.smartrecruiters.com/NorthwesternMutual/743999658679004",
-"company": "Northwestern Mutual",
-"title": "Actuarial Summer Internship",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.smartrecruiters.com/NorthwesternMutual/85751711",
-"company": "Northwestern Mutual",
-"title": "Application Development Internship",
+"title": "2026 Internship, Fall - Control Room Operations",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -32952,6 +32931,20 @@
 "id": "md:https://jobs.smartrecruiters.com/NorthwesternMutual/85751642",
 "company": "Northwestern Mutual",
 "title": "Cyber-Security Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://jobs.smartrecruiters.com/NorthwesternMutual/85751589",
+"company": "Northwestern Mutual",
+"title": "Systems Administration Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://jobs.smartrecruiters.com/NorthwesternMutual/85751519",
+"company": "Northwestern Mutual",
+"title": "Information Risk Management Internship",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -33054,6 +33047,20 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.lever.co/pivotal/370cafec-79df-4875-b6ea-317b5b0ed97a",
+"company": "Pivotal Software",
+"title": "Internship, Maintenance, Repair & Overhaul Engineering (Fall 2026)",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "md:https://jobs.lever.co/palantir/a49d4181-a289-435a-b581-7f5af0497c8e",
+"company": "Palantir",
+"title": "Deployment Strategist, Internship - US Government",
+"rule": "defense",
+"tag": ""
+},
+{
 "id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990012915326",
 "company": "AbbVie",
 "title": "Veteran SkillBridge Program Intern",
@@ -33061,9 +33068,16 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/gritt/5c4737ce-f546-453b-b30d-791a121fb9fd",
-"company": "Gritt Robotics",
-"title": "Robot Learning Engineer Intern",
+"id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990014191506",
+"company": "AbbVie",
+"title": "2027 Packaging Co-Op (July - Dec)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990014191096",
+"company": "AbbVie",
+"title": "2027 Packaging Co-Op (Jan - June)",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -33071,6 +33085,13 @@
 "id": "md:https://jobs.ashbyhq.com/vendelux/ec44a794-9622-444e-a789-491fa12726dd",
 "company": "Vendelux",
 "title": "Fall Data Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://jobs.ashbyhq.com/gritt/5c4737ce-f546-453b-b30d-791a121fb9fd",
+"company": "Gritt Robotics",
+"title": "Robot Learning Engineer Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -33103,45 +33124,10 @@
 "tag": "title"
 },
 {
-"id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990014191506",
-"company": "AbbVie",
-"title": "2027 Packaging Co-Op (July - Dec)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.smartrecruiters.com/AbbVie/3743990014191096",
-"company": "AbbVie",
-"title": "2027 Packaging Co-Op (Jan - June)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/pivotal/370cafec-79df-4875-b6ea-317b5b0ed97a",
-"company": "Pivotal Software",
-"title": "Internship, Maintenance, Repair & Overhaul Engineering (Fall 2026)",
-"rule": "season",
-"tag": "title"
-},
-{
-"id": "md:https://jobs.lever.co/palantir/a49d4181-a289-435a-b581-7f5af0497c8e",
-"company": "Palantir",
-"title": "Deployment Strategist, Internship - US Government",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "md:https://jobs.lever.co/life/2282f1ca-c456-46a2-9ba3-05524e4ce91b",
 "company": "Life.Church (YouVersion)",
 "title": "Life.Church Campus Internship",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/MachinaLabs/95d39682-8861-4b82-bb18-c985f280f415",
-"company": "Machina Labs",
-"title": "Technical Project Manager, Intern",
-"rule": "curated_worker",
 "tag": ""
 },
 {
@@ -33153,6 +33139,13 @@
 },
 {
 "id": "md:https://jobs.lever.co/MachinaLabs/40bf906a-0078-444d-a4a6-95719c8634ed",
+"company": "Machina Labs",
+"title": "Robotic Process Engineer, Intern",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/MachinaLabs/da8632d8-5a1d-4d1b-8270-b8e6209f0cc1",
 "company": "Machina Labs",
 "title": "Robotic Process Engineer, Intern",
 "rule": "curated_worker",
@@ -33173,6 +33166,13 @@
 "tag": ""
 },
 {
+"id": "md:https://jobs.lever.co/crestoperations/234d5be4-a214-4568-a681-d60f15624488",
+"company": "Crest Industries",
+"title": "CIS/CS Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://jobs.ashbyhq.com/leland/23c6dd75-cc1e-457b-a666-2fbf944540e1",
 "company": "Leland",
 "title": "Growth & Ops Intern: Courses & Events",
@@ -33185,6 +33185,13 @@
 "title": "Legal Intern - Fall 2026",
 "rule": "season",
 "tag": "title"
+},
+{
+"id": "md:https://jobs.ashbyhq.com/kognitos/a4bc3ebf-b619-4c1b-9c9e-784d16c8b148",
+"company": "Kognitos",
+"title": "Forward Deployed Engineer Intern (Mountain View)",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "md:https://jobs.ashbyhq.com/human-computer-lab/6f3e8185-eb3a-42c3-b8c4-1c2837d5e9e1",
@@ -33201,16 +33208,23 @@
 "tag": ""
 },
 {
-"id": "md:https://jobs.ashbyhq.com/kognitos/a4bc3ebf-b619-4c1b-9c9e-784d16c8b148",
-"company": "Kognitos",
-"title": "Forward Deployed Engineer Intern (Mountain View)",
+"id": "md:https://jobs.lever.co/certik/1f446b66-1fae-4c31-9352-cde86e254754",
+"company": "CertiK",
+"title": "Blockchain Security Expert Intern - AI Track",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://jobs.lever.co/crestoperations/234d5be4-a214-4568-a681-d60f15624488",
-"company": "Crest Industries",
-"title": "CIS/CS Internship",
+"id": "md:https://jobs.lever.co/certik/241dde9b-95d6-4eda-a207-a149934b16e1",
+"company": "CertiK",
+"title": "Business Development Intern / CertiK Ambassador",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://jobs.lever.co/certik/8dcfb59e-f70f-4543-acec-97850a522a61",
+"company": "CertiK",
+"title": "Business Development Intern / CertiK Ambassador",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -33240,27 +33254,6 @@
 "company": "Etched",
 "title": "Firmware Intern",
 "rule": "curated_worker",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/certik/1f446b66-1fae-4c31-9352-cde86e254754",
-"company": "CertiK",
-"title": "Blockchain Security Expert Intern - AI Track",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/certik/241dde9b-95d6-4eda-a207-a149934b16e1",
-"company": "CertiK",
-"title": "Business Development Intern / CertiK Ambassador",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://jobs.lever.co/certik/8dcfb59e-f70f-4543-acec-97850a522a61",
-"company": "CertiK",
-"title": "Business Development Intern / CertiK Ambassador",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -41664,1504 +41657,6 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5020127008",
-"company": "K2 Space",
-"title": "All Future Mission Assignments - Avionics ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020170008",
-"company": "K2 Space",
-"title": "All Future Mission Assignments - Business Operations",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020173008",
-"company": "K2 Space",
-"title": "All Future Mission Assignments - Finance & Accounting",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020130008",
-"company": "K2 Space",
-"title": "All Future Mission Assignments - GNC",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020176008",
-"company": "K2 Space",
-"title": "All Future Mission Assignments - Legal",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020133008",
-"company": "K2 Space",
-"title": "All Future Mission Assignments - Mechanical",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020177008",
-"company": "K2 Space",
-"title": "All Future Mission Assignments - National Security Programs",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020141008",
-"company": "K2 Space",
-"title": "All Future Mission Assignments - Product Engineering ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020142008",
-"company": "K2 Space",
-"title": "All Future Mission Assignments - Production",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020145008",
-"company": "K2 Space",
-"title": "All Future Mission Assignments - Propulsion",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020149008",
-"company": "K2 Space",
-"title": "All Future Mission Assignments - Software ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020158008",
-"company": "K2 Space",
-"title": "All Future Mission Assignments - Thermal",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020159008",
-"company": "K2 Space",
-"title": "All Future Mission Assignments - Vehicle Operations",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5153344008",
-"company": "K2 Space",
-"title": "Application Software Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5209923008",
-"company": "K2 Space",
-"title": "Automation & Controls Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:4993843008",
-"company": "K2 Space",
-"title": "Avionics HITL & Test Technician ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020124008",
-"company": "K2 Space",
-"title": "Avionics Systems Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020161008",
-"company": "K2 Space",
-"title": "Avionics Test Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5224259008",
-"company": "K2 Space",
-"title": "Avionics Test Engineer, Optical",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5213960008",
-"company": "K2 Space",
-"title": "Build & Integration Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5109538008",
-"company": "K2 Space",
-"title": "Bus Vehicle Lead",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5230365008",
-"company": "K2 Space",
-"title": "CNC Machinist",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5406748008",
-"company": "K2 Space",
-"title": "Communications and Government Relations Specialist ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5194654008",
-"company": "K2 Space",
-"title": "COMSEC Manager (CRO) (TS//SCI)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5253308008",
-"company": "K2 Space",
-"title": "Cost Accounting Manager",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5417082008",
-"company": "K2 Space",
-"title": "Counsel",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5370957008",
-"company": "K2 Space",
-"title": "Cybersecurity Architect, (TS/SCI), CI Poly ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5406372008",
-"company": "K2 Space",
-"title": "Director of Congressional Affairs ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5406371008",
-"company": "K2 Space",
-"title": "Director of State and Local Government Affairs ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5406078008",
-"company": "K2 Space",
-"title": "Dynamics Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5411916008",
-"company": "K2 Space",
-"title": "Dynamics Engineering Intern \u2013 Summer 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020085008",
-"company": "K2 Space",
-"title": "Electrical Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020179008",
-"company": "K2 Space",
-"title": "Electrical Engineering Supply Chain Lead",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:4666469008",
-"company": "K2 Space",
-"title": "Electro-Mechanical Manufacturing Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5314146008",
-"company": "K2 Space",
-"title": "Environmental Test Technician ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5416115008",
-"company": "K2 Space",
-"title": "Expeditor",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5373556008",
-"company": "K2 Space",
-"title": "Flight Software Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5165724008",
-"company": "K2 Space",
-"title": "Flight Software Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5396372008",
-"company": "K2 Space",
-"title": "Fluids Manufacturing Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:4931755008",
-"company": "K2 Space",
-"title": "Future Engineering Mission Assignments - Keep Me In The Loop",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:4933365008",
-"company": "K2 Space",
-"title": "Future Operations Mission Assignments - Keep Me In The Loop",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5135856008",
-"company": "K2 Space",
-"title": "Global Supply Manager, Avionics ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5372273008",
-"company": "K2 Space",
-"title": "Global Supply Manager, Mechanical",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5362327008",
-"company": "K2 Space",
-"title": "Ground Integration Lead, Top Secret Clearance",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5247348008",
-"company": "K2 Space",
-"title": "Ground Software Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5373554008",
-"company": "K2 Space",
-"title": "Ground Software Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5216323008",
-"company": "K2 Space",
-"title": "Guidance Navigation & Control (GNC) Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5389922008",
-"company": "K2 Space",
-"title": "Harness Design Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5362323008",
-"company": "K2 Space",
-"title": "Head of Ground Integration, Top Secret Clearance",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5213174008",
-"company": "K2 Space",
-"title": "Head of Solar",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5370721008",
-"company": "K2 Space",
-"title": "HITL Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5283065008",
-"company": "K2 Space",
-"title": "Lead, Supplier Development Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5239791008",
-"company": "K2 Space",
-"title": "Manager, Build Reliability",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:4824223008",
-"company": "K2 Space",
-"title": "Materials Handler & Inventory Specialist",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5130012008",
-"company": "K2 Space",
-"title": "Mechanical Buyer/Planner ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5400313008",
-"company": "K2 Space",
-"title": "Mechanical Design Engineer (Propulsion)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5411915008",
-"company": "K2 Space",
-"title": "Mechanical  Engineering Intern \u2013 Summer 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:4676909008",
-"company": "K2 Space",
-"title": "Mechanical Engineering Supply Chain Lead",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5412828008",
-"company": "K2 Space",
-"title": "Mission Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5304465008",
-"company": "K2 Space",
-"title": "Mission Payload Engineer (Commercial)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020131008",
-"company": "K2 Space",
-"title": "Mission Payload Engineer (TS//SCI)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5205443008",
-"company": "K2 Space",
-"title": "Optical Systems Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5408707008",
-"company": "K2 Space",
-"title": "Optomechanical Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5216836008",
-"company": "K2 Space",
-"title": "OS Platform Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5413413008",
-"company": "K2 Space",
-"title": "Platform Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020099008",
-"company": "K2 Space",
-"title": "Power Electronics Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5165694008",
-"company": "K2 Space",
-"title": "Principal Application Software Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5284325008",
-"company": "K2 Space",
-"title": "Principal ASIC Design Verification Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5287999008",
-"company": "K2 Space",
-"title": "Principal ASIC Design Verification Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5288635008",
-"company": "K2 Space",
-"title": "Principal ASIC Physical Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5288008008",
-"company": "K2 Space",
-"title": "Principal ASIC Physical Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5032784008",
-"company": "K2 Space",
-"title": "Principal Avionics Systems Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5228691008",
-"company": "K2 Space",
-"title": "Principal Build & Integration Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5288570008",
-"company": "K2 Space",
-"title": "Principal Crypto Engineer (TS/SCI) ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:4944039008",
-"company": "K2 Space",
-"title": "Principal Development Test Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5406797008",
-"company": "K2 Space",
-"title": "Principal Dynamics Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5032789008",
-"company": "K2 Space",
-"title": "Principal Electrical Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5228104008",
-"company": "K2 Space",
-"title": "Principal Electro-Mechanical Manufacturing Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5287992008",
-"company": "K2 Space",
-"title": "Principal Flight Software Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5026916008",
-"company": "K2 Space",
-"title": "Principal Flight Software Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5164657008",
-"company": "K2 Space",
-"title": "Principal Guidance, Navigation, & Control (GNC) Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5406805008",
-"company": "K2 Space",
-"title": "Principal Hardware Reliability Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5228684008",
-"company": "K2 Space",
-"title": "Principal Integration & Test Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5286452008",
-"company": "K2 Space",
-"title": "Principal Launch Mission Manager",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:4988305008",
-"company": "K2 Space",
-"title": "Principal Mechanical Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5204279008",
-"company": "K2 Space",
-"title": "Principal Mechanisms Engineer, Optical",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5409787008",
-"company": "K2 Space",
-"title": "Principal Mission Payload Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5215167008",
-"company": "K2 Space",
-"title": "Principal Network Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5032791008",
-"company": "K2 Space",
-"title": "Principal RF Antenna Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5389540008",
-"company": "K2 Space",
-"title": "Principal RF Antenna Engineer, Top Secret Clearance ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5173691008",
-"company": "K2 Space",
-"title": "Principal Satellite Design Reliability Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5115123008",
-"company": "K2 Space",
-"title": "Principal Satellite Platform Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5209875008",
-"company": "K2 Space",
-"title": "Principal Solar Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5204356008",
-"company": "K2 Space",
-"title": "Principal Solar Manufacturing Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5209940008",
-"company": "K2 Space",
-"title": "Principal Solar Process Engineer  ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5368025008",
-"company": "K2 Space",
-"title": "Principal Thermal Design Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5141929008",
-"company": "K2 Space",
-"title": "Principal Vehicle & Mission Operations Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5325477008",
-"company": "K2 Space",
-"title": "Production Coordinator ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:4931654008",
-"company": "K2 Space",
-"title": "Program Manager, Commercial",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:4899472008",
-"company": "K2 Space",
-"title": "Program  Scheduler",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5386564008",
-"company": "K2 Space",
-"title": "Propulsion Electrical Test Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020121008",
-"company": "K2 Space",
-"title": "Propulsion Mechanical Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5405804008",
-"company": "K2 Space",
-"title": "Radiation Effects Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5038702008",
-"company": "K2 Space",
-"title": "Recruiting Coordinator",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5218339008",
-"company": "K2 Space",
-"title": "RF Hardware Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5122198008",
-"company": "K2 Space",
-"title": "RF Payload Program Manager (TS//SCI)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5303516008",
-"company": "K2 Space",
-"title": "RF Test Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5155651008",
-"company": "K2 Space",
-"title": "Satellite Manufacturing Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020126008",
-"company": "K2 Space",
-"title": "Satellite Mechanical Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5289056008",
-"company": "K2 Space",
-"title": "Seattle - Don't See Your Ideal Role? Apply Here.",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5319810008",
-"company": "K2 Space",
-"title": "Senior Accountant",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5317996008",
-"company": "K2 Space",
-"title": "Senior Application Data Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5165713008",
-"company": "K2 Space",
-"title": "Senior Application Software Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5287990008",
-"company": "K2 Space",
-"title": "Senior ASIC Design Verification Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5277848008",
-"company": "K2 Space",
-"title": "Senior ASIC Design Verification Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5378175008",
-"company": "K2 Space",
-"title": "Senior ASIC Emulation Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5378185008",
-"company": "K2 Space",
-"title": "Senior ASIC Emulation Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5288010008",
-"company": "K2 Space",
-"title": "Senior ASIC Physical Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5288643008",
-"company": "K2 Space",
-"title": "Senior ASIC Physical Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5209932008",
-"company": "K2 Space",
-"title": "Senior Automation & Controls Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5032783008",
-"company": "K2 Space",
-"title": "Senior Avionics Systems Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5365034008",
-"company": "K2 Space",
-"title": "Senior Avionics Test Engineer, Optical",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5213958008",
-"company": "K2 Space",
-"title": "Senior Build & Integration Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5368116008",
-"company": "K2 Space",
-"title": "Senior Build Reliability Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5407387008",
-"company": "K2 Space",
-"title": "Senior Compensation & Equity Analyst ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5219197008",
-"company": "K2 Space",
-"title": "Senior Cost Accounting Manager",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5278791008",
-"company": "K2 Space",
-"title": "Senior Data Analyst",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5039713008",
-"company": "K2 Space",
-"title": "Senior Development Test Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5367379008",
-"company": "K2 Space",
-"title": "Senior Development Test Technician",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5288011008",
-"company": "K2 Space",
-"title": "Senior DFT Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5277855008",
-"company": "K2 Space",
-"title": "Senior DFT Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5406108008",
-"company": "K2 Space",
-"title": "Senior Dynamics Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5032787008",
-"company": "K2 Space",
-"title": "Senior Electrical Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5141993008",
-"company": "K2 Space",
-"title": "Senior Electro-Mechanical Engineering Technician",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5383609008",
-"company": "K2 Space",
-"title": "Senior Electro-Mechanical Engineering Technician (Optical) ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5122226008",
-"company": "K2 Space",
-"title": "Senior Electro-Mechanical Manufacturing Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5211211008",
-"company": "K2 Space",
-"title": "Senior Electro-Mechanical Test Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5181781008",
-"company": "K2 Space",
-"title": "Senior EMI/EMC Test Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5123607008",
-"company": "K2 Space",
-"title": "Senior Finance Manager \u2013 Operations",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5406362008",
-"company": "K2 Space",
-"title": "Senior Financial Analyst - Programs ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5197513008",
-"company": "K2 Space",
-"title": "Senior Firmware Engineer, Vehicle",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5288002008",
-"company": "K2 Space",
-"title": "Senior Firmware Engineer, Vehicle",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5165720008",
-"company": "K2 Space",
-"title": "Senior Flight Software Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5288027008",
-"company": "K2 Space",
-"title": "Senior Flight Software Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5381571008",
-"company": "K2 Space",
-"title": "Senior Fluids Manufacturing Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5165716008",
-"company": "K2 Space",
-"title": "Senior FPGA Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5288020008",
-"company": "K2 Space",
-"title": "Senior FPGA Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5385617008",
-"company": "K2 Space",
-"title": "Senior FPGA Engineer (TS/SCI)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5386732008",
-"company": "K2 Space",
-"title": "Senior FPGA Prototyping Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5386721008",
-"company": "K2 Space",
-"title": "Senior FPGA Prototyping Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5288028008",
-"company": "K2 Space",
-"title": "Senior Ground Software Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5205347008",
-"company": "K2 Space",
-"title": "Senior Ground Software Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5283074008",
-"company": "K2 Space",
-"title": "Senior Hardware Reliability Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5389930008",
-"company": "K2 Space",
-"title": "Senior Harness Design Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5152925008",
-"company": "K2 Space",
-"title": "Senior HR Business Partner",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5213959008",
-"company": "K2 Space",
-"title": "Senior Integration & Test Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5215155008",
-"company": "K2 Space",
-"title": "Senior IT Systems Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5216914008",
-"company": "K2 Space",
-"title": "Senior Launch Mission Manager",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5400312008",
-"company": "K2 Space",
-"title": "Senior Mechanical Engineer (Propulsion)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020148008",
-"company": "K2 Space",
-"title": "Senior Mechanisms Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5289736008",
-"company": "K2 Space",
-"title": "Senior Mechanisms Engineer \u2013 Fluids & Pumps ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5217879008",
-"company": "K2 Space",
-"title": "Senior Mechanisms Engineer, Optical  ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5289740008",
-"company": "K2 Space",
-"title": "Senior Mechanisms Engineer \u2013 Turbomachinery ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5122196008",
-"company": "K2 Space",
-"title": "Senior Mission Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5304502008",
-"company": "K2 Space",
-"title": "Senior Mission Payload Engineer (Commercial)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5296101008",
-"company": "K2 Space",
-"title": "Senior Mission Payload Engineer (TS//SCI)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5380840008",
-"company": "K2 Space",
-"title": "Senior Modeling & Simulation Engineer: National Security Missions",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5205658008",
-"company": "K2 Space",
-"title": "Senior Navigation & Guidance Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5215166008",
-"company": "K2 Space",
-"title": "Senior Network Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5365161008",
-"company": "K2 Space",
-"title": "Senior Optomechanical Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5141978008",
-"company": "K2 Space",
-"title": "Senior PCBA Rework Technician\u202f\u202f  ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5407432008",
-"company": "K2 Space",
-"title": "Senior Platform Engineer (DevX) ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5108012008",
-"company": "K2 Space",
-"title": "Senior Power Electronics Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5386566008",
-"company": "K2 Space",
-"title": "Senior Propulsion Mechanical Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5032790008",
-"company": "K2 Space",
-"title": "Senior RF Digital Signal Processing Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5173687008",
-"company": "K2 Space",
-"title": "Senior Satellite Design Reliability Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5395857008",
-"company": "K2 Space",
-"title": "Senior Satellite Mechanical Engineer, Optical Structures ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:4602891008",
-"company": "K2 Space",
-"title": "Senior Satellite Mechanical Engineer (Structures)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5136892008",
-"company": "K2 Space",
-"title": "Senior Satellite Platform Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5395955008",
-"company": "K2 Space",
-"title": "Senior Security Engineer, Identity and Access Management (IAM)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5395910008",
-"company": "K2 Space",
-"title": "Senior Security Engineer, Operations",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5369166008",
-"company": "K2 Space",
-"title": "Senior Site Reliability Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5204342008",
-"company": "K2 Space",
-"title": "Senior Solar Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5204355008",
-"company": "K2 Space",
-"title": "Senior Solar Manufacturing Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5209942008",
-"company": "K2 Space",
-"title": "Senior Solar Process Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5416131008",
-"company": "K2 Space",
-"title": "Senior Supplier Development Engineer, Avionics",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5396459008",
-"company": "K2 Space",
-"title": "Senior Supplier Development Engineer, Mechanical ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020088008",
-"company": "K2 Space",
-"title": "Senior Technical Recruiter",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5369378008",
-"company": "K2 Space",
-"title": "Senior Thermal Analyst",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5368029008",
-"company": "K2 Space",
-"title": "Senior Thermal Control System (TCS) Design Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5368030008",
-"company": "K2 Space",
-"title": "Senior Thermal Design Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5031529008",
-"company": "K2 Space",
-"title": "Senior Tooling Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5031527008",
-"company": "K2 Space",
-"title": "Senior Vehicle & Mission Operations Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5210461008",
-"company": "K2 Space",
-"title": "Software Development Engineer, Test Platform",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5411920008",
-"company": "K2 Space",
-"title": "Software Engineering Intern \u2013 Summer 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5204344008",
-"company": "K2 Space",
-"title": "Solar Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5204351008",
-"company": "K2 Space",
-"title": "Solar Manufacturing Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5141997008",
-"company": "K2 Space",
-"title": "Solar Production Technician",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5141951008",
-"company": "K2 Space",
-"title": "Spacecraft Avionics Harness Technician",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5141975008",
-"company": "K2 Space",
-"title": "Spacecraft Integration Engineering Technician",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5020128008",
-"company": "K2 Space",
-"title": "Spacecraft Program Manager (TS//SCI)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5282996008",
-"company": "K2 Space",
-"title": "Supplier Development Engineer, Avionics ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5282972008",
-"company": "K2 Space",
-"title": "Supplier Development Engineer, Mechanical ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5052500008",
-"company": "K2 Space",
-"title": "Supply Chain Planner",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5158492008",
-"company": "K2 Space",
-"title": "Technical Program Manager",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5221602008",
-"company": "K2 Space",
-"title": "Technical Recruiter",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5291081008",
-"company": "K2 Space",
-"title": "Technical Writer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5368101008",
-"company": "K2 Space",
-"title": "Thermal Analyst",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5368031008",
-"company": "K2 Space",
-"title": "Thermal Control System (TCS) Design Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5031528008",
-"company": "K2 Space",
-"title": "Tooling Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5390157008",
-"company": "K2 Space",
-"title": "University Recruiting Lead",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5031524008",
-"company": "K2 Space",
-"title": "Vehicle & Mission Operations Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5411914008",
-"company": "K2 Space",
-"title": "Vehicle Operations Engineering Intern \u2013 Summer 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "gh:k2spacecorporation:5316368008",
-"company": "K2 Space",
-"title": "Welder and Fabrication Technician ",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:katalyst:6102778004",
 "company": "Katalyst Space Technologies",
 "title": "Avionics Manager, Spacecraft",
@@ -49584,566 +48079,6 @@
 "id": "ab:sunday:7baaf3f3-cd11-4e68-b158-7ff287cba5f1",
 "company": "Sunday Robotics",
 "title": "Industrial Designer (Contractor)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5409532008",
-"company": "The Nuclear Company",
-"title": "Accounts Payable Manager",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5409546008",
-"company": "The Nuclear Company",
-"title": "Accounts Receivable Manager",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5286179008",
-"company": "The Nuclear Company",
-"title": "AI Engineer 1 - Compliance, Quality & Testing ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5285585008",
-"company": "The Nuclear Company",
-"title": "AI Engineer 1 - Platform Integration & AI/Data ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5386722008",
-"company": "The Nuclear Company",
-"title": "Assistant Controller",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5397663008",
-"company": "The Nuclear Company",
-"title": "Business Development Representative \u2014 Professional Services ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5372506008",
-"company": "The Nuclear Company",
-"title": "Construction Manager",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5361733008",
-"company": "The Nuclear Company",
-"title": "Cost Control Specialist",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5361755008",
-"company": "The Nuclear Company",
-"title": "Cost Estimator",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5236483008",
-"company": "The Nuclear Company",
-"title": "Deputy General Counsel",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5309792008",
-"company": "The Nuclear Company",
-"title": "Director, Development Finance",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5301431008",
-"company": "The Nuclear Company",
-"title": "Director, Energy Sales",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5373357008",
-"company": "The Nuclear Company",
-"title": "Director, Nuclear Workforce Pipeline Development",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5410396008",
-"company": "The Nuclear Company",
-"title": "Director of Accounting, Deployment",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5395293008",
-"company": "The Nuclear Company",
-"title": "Director of Accounting, Services",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5407334008",
-"company": "The Nuclear Company",
-"title": "Director of Health, Safety & Environmental (HSE)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5365389008",
-"company": "The Nuclear Company",
-"title": "Director, Tax",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5303172008",
-"company": "The Nuclear Company",
-"title": "Electrical Sales Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5383163008",
-"company": "The Nuclear Company",
-"title": "Fall 2026 AI/ML Engineering Intern",
-"rule": "season",
-"tag": "title"
-},
-{
-"id": "gh:thenuclearcompany:5367664008",
-"company": "The Nuclear Company",
-"title": "Financial Analyst, FP&A Systems & Automation",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:4252603008",
-"company": "The Nuclear Company",
-"title": "General Application",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5289017008",
-"company": "The Nuclear Company",
-"title": "IT Support Specialist",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5376935008",
-"company": "The Nuclear Company",
-"title": "Land Specialist",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:4778254008",
-"company": "The Nuclear Company",
-"title": "Licensing Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5303417008",
-"company": "The Nuclear Company",
-"title": "Manager, Electrical Services (Nuclear)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5365390008",
-"company": "The Nuclear Company",
-"title": "Manager, Financial Systems & ERP\u00a0",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5309313008",
-"company": "The Nuclear Company",
-"title": "Manager, Mechanical Services (Nuclear)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5365397008",
-"company": "The Nuclear Company",
-"title": "Manager, Technical Accounting",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5142831008",
-"company": "The Nuclear Company",
-"title": "Manual Machinist - Full-Time On Site",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5383487008",
-"company": "The Nuclear Company",
-"title": "Mechanical Manager - FieldWorks",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5389718008",
-"company": "The Nuclear Company",
-"title": "Member of Nuclear Staff",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5249179008",
-"company": "The Nuclear Company",
-"title": "Nuclear Bolt Technician - Seasonal Fall Outage",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5389735008",
-"company": "The Nuclear Company",
-"title": "Nuclear Engineer I",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5389079008",
-"company": "The Nuclear Company",
-"title": "Organizational Effectiveness & Performance Improvement Analyst ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5361741008",
-"company": "The Nuclear Company",
-"title": "Project Controls, Database Administrator (DBA)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5404769008",
-"company": "The Nuclear Company",
-"title": "Project Procurement Manager (Greenfield Projects)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5274724008",
-"company": "The Nuclear Company",
-"title": "Pump Mechanic (Lark/ Mount Holly, NC)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5398246008",
-"company": "The Nuclear Company",
-"title": "PWR Long Handle Tool Technician - Oconee Nuclear Outage",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5389021008",
-"company": "The Nuclear Company",
-"title": "Quality Assurance Engineer- Program & Project Delivery",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5274665008",
-"company": "The Nuclear Company",
-"title": "Research Scientist",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:4951124008",
-"company": "The Nuclear Company",
-"title": "Senior Associate, Project Finance",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:4668800008",
-"company": "The Nuclear Company",
-"title": "Senior Licensing Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5415189008",
-"company": "The Nuclear Company",
-"title": "Senior Manager, Data Engineering ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5348424008",
-"company": "The Nuclear Company",
-"title": "Senior Manager, Licensing",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5309303008",
-"company": "The Nuclear Company",
-"title": "Senior Manager, Reactor Services",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5287157008",
-"company": "The Nuclear Company",
-"title": "Senior Platform Engineer ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5136570008",
-"company": "The Nuclear Company",
-"title": "Senior Scheduler",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5287083008",
-"company": "The Nuclear Company",
-"title": "Senior Software Quality Development Engineer (SDET)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5412265008",
-"company": "The Nuclear Company",
-"title": "Senior Systems Administrator",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5383122008",
-"company": "The Nuclear Company",
-"title": "Senior Vice President, Deployment",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5383116008",
-"company": "The Nuclear Company",
-"title": "Senior Vice President, Operations",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5391888008",
-"company": "The Nuclear Company",
-"title": "Spring 2027 AI Applied Research Internship",
-"rule": "season",
-"tag": "title"
-},
-{
-"id": "gh:thenuclearcompany:5383212008",
-"company": "The Nuclear Company",
-"title": "Spring 2027 AI/ML Engineering Intern",
-"rule": "season",
-"tag": "title"
-},
-{
-"id": "gh:thenuclearcompany:5383218008",
-"company": "The Nuclear Company",
-"title": "Spring 2027 Data Science Intern",
-"rule": "season",
-"tag": "title"
-},
-{
-"id": "gh:thenuclearcompany:5383171008",
-"company": "The Nuclear Company",
-"title": "Spring 2027 Software Engineering Intern",
-"rule": "season",
-"tag": "title"
-},
-{
-"id": "gh:thenuclearcompany:5256806008",
-"company": "The Nuclear Company",
-"title": "Staff Application Security Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5412229008",
-"company": "The Nuclear Company",
-"title": "Staff Civil-Structural Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5412206008",
-"company": "The Nuclear Company",
-"title": "Staff Electrical Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5412249008",
-"company": "The Nuclear Company",
-"title": "Staff Mechanical Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5270631008",
-"company": "The Nuclear Company",
-"title": "Staff Software Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5286396008",
-"company": "The Nuclear Company",
-"title": "Staff Software Engineer - NOS",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5391923008",
-"company": "The Nuclear Company",
-"title": "Summer 2027 AI Applied Research Internship",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5383231008",
-"company": "The Nuclear Company",
-"title": "Summer 2027 AI/ML Engineering Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5383244008",
-"company": "The Nuclear Company",
-"title": "Summer 2027 Data Science Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5383236008",
-"company": "The Nuclear Company",
-"title": "Summer 2027 Software Engineering Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5389008008",
-"company": "The Nuclear Company",
-"title": "Supplier & Partner Quality Lead",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5174564008",
-"company": "The Nuclear Company",
-"title": "Traveling Apprentice / Early Career \u2013 Electrical & Mechanical ",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5167370008",
-"company": "The Nuclear Company",
-"title": "Traveling Electricians / I&E - I&C / Instrument Fitters",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5168649008",
-"company": "The Nuclear Company",
-"title": "Traveling Entry-Level Helper Pool ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5168607008",
-"company": "The Nuclear Company",
-"title": "Traveling Heavy Equipment & Crane Operators",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5174545008",
-"company": "The Nuclear Company",
-"title": "Traveling Industrial Construction Support",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5168639008",
-"company": "The Nuclear Company",
-"title": "Traveling Machinists (CNC, Manual & Precision Fabrication)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5167348008",
-"company": "The Nuclear Company",
-"title": "Traveling Mechanical / Rotating Equipment / Millwright (Pumps, Valves, Turbines)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5167384008",
-"company": "The Nuclear Company",
-"title": "Traveling NDE / NDT & QA/QC Inspectors",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5168603008",
-"company": "The Nuclear Company",
-"title": "Traveling Reactor Services / Refuel Technicians",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5374488008",
-"company": "The Nuclear Company",
-"title": "Traveling Renewable Energy Field Technician",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5289773008",
-"company": "The Nuclear Company",
-"title": "Turbine Diaphragm Welder",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5400115008",
-"company": "The Nuclear Company",
-"title": "Vice President, Corporate FP&A",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5409568008",
-"company": "The Nuclear Company",
-"title": "Vice President, Engineering",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:thenuclearcompany:5386309008",
-"company": "The Nuclear Company",
-"title": "Vice President, Procurement and Supply Chain",
 "rule": "not-intern",
 "tag": ""
 },
