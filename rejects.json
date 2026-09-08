@@ -40180,6 +40180,13 @@
 "tag": ""
 },
 {
+"id": "wd:amat:/job/SingaporeSGP/College-Intern_R2626457",
+"company": "Applied Materials",
+"title": "College Intern",
+"rule": "geo",
+"tag": ""
+},
+{
 "id": "wd:amat:/job/SingaporeSGP/Technology-Development-Engineer---Hybrid-Bonding---Advanced-Packaging--Internship-_R2626901",
 "company": "Applied Materials",
 "title": "Technology Development Engineer \u2013 Hybrid Bonding & Advanced Packaging (Internship)",
@@ -40443,13 +40450,6 @@
 "company": "Applied Materials",
 "title": "Global Installation Engineer-Semi-ETCH-New Graduate",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:amat:/job/GloucesterMA/XMLNAME-2027-Engineer-Development-Rotation-Program---Systems-Engineer-I-New-College-Grad---BS-or-MS--Gloucester--MA-_R2625758-1",
-"company": "Applied Materials",
-"title": "2027 Engineer Development Rotation Program - Systems Engineer I New College Grad - BS or MS (Gloucester, MA)",
-"rule": "new-grad",
 "tag": ""
 },
 {
@@ -42402,6 +42402,13 @@
 "id": "ab:antares:95f14b2f-46ae-42e7-b7dc-e9990e78579e",
 "company": "Antares Nuclear",
 "title": "General Counsel",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:antares:f24dfce6-edc9-4154-a5c1-094156fde9a9",
+"company": "Antares Nuclear",
+"title": "Tooling Design Engineer II-Senior",
 "rule": "not-intern",
 "tag": ""
 },
@@ -51800,14 +51807,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4382380009",
+"id": "gh:rocketems:4382385009",
 "company": "Rocket EMS",
 "title": "HR Director",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4382385009",
+"id": "gh:rocketems:4382380009",
 "company": "Rocket EMS",
 "title": "HR Director",
 "rule": "not-intern",
@@ -51824,13 +51831,6 @@
 "id": "gh:rocketems:4381723009",
 "company": "Rocket EMS",
 "title": "IT Desktop Admin (Manufacturing IT & End User Support) ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:rocketems:4394497009",
-"company": "Rocket EMS",
-"title": "Janitor (Second Shift)",
 "rule": "not-intern",
 "tag": ""
 },
