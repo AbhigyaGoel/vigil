@@ -1,142 +1,86 @@
 {
-"yield_since": "2026-09-03",
+"yield_since": "2026-09-08",
 "yield": {
 "listings_feed": {
-"scanned": 4869935,
+"scanned": 3522,
 "A": 59,
-"B": 147
+"B": 134
 },
 "markdown_source": {
-"scanned": 2814621,
-"A": 154,
-"B": 202
+"scanned": 2216,
+"A": 146,
+"B": 179
 },
 "atom_feed": {
-"scanned": 144900,
+"scanned": 100,
 "A": 0,
 "B": 2
 },
 "workday:NVIDIA": {
-"scanned": 208874,
-"A": 0,
-"B": 2
+"scanned": 145,
+"A": 1,
+"B": 1
 },
 "workday:Micron": {
-"scanned": 161941,
+"scanned": 123,
 "A": 0,
 "B": 6
 },
 "workday:Analog Devices": {
-"scanned": 74965,
+"scanned": 51,
 "A": 0,
-"B": 5
+"B": 4
 },
 "workday:KLA": {
-"scanned": 8654,
+"scanned": 6,
 "A": 0,
 "B": 0
 },
 "workday:Intel": {
-"scanned": 49587,
-"A": 0,
-"B": 5
-},
-"workday:Applied Materials": {
-"scanned": 242426,
+"scanned": 33,
 "A": 0,
 "B": 4
 },
-"workday:Marvell": {
-"scanned": 50844,
+"workday:Applied Materials": {
+"scanned": 178,
 "A": 0,
-"B": 22
+"B": 3
+},
+"workday:Marvell": {
+"scanned": 39,
+"A": 0,
+"B": 13
 },
 "workday:Caterpillar": {
-"scanned": 65003,
+"scanned": 48,
 "A": 0,
-"B": 1
+"B": 0
 },
 "workday:Boston Dynamics": {
-"scanned": 4290,
+"scanned": 3,
 "A": 0,
 "B": 0
 },
 "workday:NXP": {
-"scanned": 90682,
+"scanned": 85,
 "A": 0,
-"B": 22
+"B": 20
 },
 "workday:Zebra": {
-"scanned": 16609,
+"scanned": 10,
 "A": 0,
 "B": 0
 },
 "workday:Trimble": {
-"scanned": 8557,
+"scanned": 11,
 "A": 0,
 "B": 1
 },
 "discovered_boards": {
-<<<<<<< Updated upstream
-"scanned": 2493320,
-=======
-"scanned": 2493321,
->>>>>>> Stashed changes
+"scanned": 1713,
 "A": 0,
-"B": 14
+"B": 13
 }
 },
-"config_hash": "b7bade3f18f1fc35",
-"last_weekly": "2026-W36",
-"season_rates": [
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-0.9993,
-1.0,
-0.9993,
-1.0,
-1.0,
-1.0,
-0.9979,
-0.9993,
-1.0,
-1.0,
-1.0,
-1.0,
-0.9993,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-0.9986,
-1.0,
-1.0,
-1.0,
-0.9986,
-1.0
-],
-"last_digest": 1788886613.7011404
+"config_hash": "b7bade3f18f1fc35"
 }
