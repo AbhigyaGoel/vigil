@@ -3108,13 +3108,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:3f040704-5c6c-4d37-b7d2-019837f8b910",
-"company": "Orennia",
-"title": "Analytics Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:5b7bded6-d742-4cff-9d9e-5b4c88e6b56d",
 "company": "Marshall Wace",
 "title": "Technology Intern",
@@ -14294,13 +14287,6 @@
 "tag": ""
 },
 {
-"id": "ls:afb93f48-440f-40ac-ad4c-0c537578cbff",
-"company": "Steel Dynamics",
-"title": "Software Development Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:0d05245d-d165-4d42-a9fa-9d27e9fcaaed",
 "company": "Nokia",
 "title": "Software Developer Co-op Intern",
@@ -17111,13 +17097,6 @@
 "id": "ls:1dc349f9-4dd5-46ad-b0d9-57845ebd6d0e",
 "company": "Corteva",
 "title": "R&D Intern - Computer & Data Science",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
-"id": "ls:04fa737d-39fc-4d4c-a941-98752f72b8ec",
-"company": "Corteva",
-"title": "Research and Development Intern - Computer and Data Science",
 "rule": "season",
 "tag": "Summer 2026"
 },
@@ -41202,10 +41181,10 @@
 "tag": ""
 },
 {
-"id": "wd:intel:/job/Mexico-Guadalajara/SoC-Functional-Validation-Intern_JR0286018",
+"id": "wd:intel:/job/SoC-Functional-Validation-Intern_JR0286018",
 "company": "Intel",
-"title": "SoC Functional Validation Intern",
-"rule": "geo",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
