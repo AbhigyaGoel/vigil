@@ -8862,13 +8862,6 @@
 "tag": ""
 },
 {
-"id": "ls:4c51462d-b2c3-4a43-8b72-30b1c98fdf33",
-"company": "RTX",
-"title": "Digital Support & Business Intelligence Intern - Computer Science",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:867add8a-591f-4f9c-a4b8-a548a8e7ce89",
 "company": "Blackstone",
 "title": "Data Engineer Summer Analyst - Blackstone Technology & Innovations",
@@ -13328,13 +13321,6 @@
 "tag": ""
 },
 {
-"id": "ls:b218bf15-2003-4ac5-96ea-f112ba777c56",
-"company": "University of Arkansas",
-"title": "Razorback Analytic Fellow",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:c000d17c-b16e-450d-839c-842ffd8be4b3",
 "company": "Geotab",
 "title": "Embedded Developer Intern - Multiple Teams",
@@ -14633,13 +14619,6 @@
 "id": "ls:fa083f38-3f1d-4915-aca9-9bce73ca69b4",
 "company": "NiSource",
 "title": "People Analytics Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:4f3e401c-7208-4d5f-9349-638b02652ffa",
-"company": "Manulife Financial",
-"title": "Reporting Analyst Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -21054,13 +21033,6 @@
 "title": "Software Engineer Intern",
 "rule": "season",
 "tag": "Winter 2026"
-},
-{
-"id": "ls:a7affbd0-b700-4e3d-9af7-9bfcd32733a3",
-"company": "Interstates",
-"title": "Data Analyst Intern",
-"rule": "season",
-"tag": "Spring 2027"
 },
 {
 "id": "ls:52c6c00b-0538-4eae-ba83-7a32198496a7",
@@ -43550,6 +43522,13 @@
 "id": "lv:acronaviation:68948129-e73e-4f26-b05b-5d8abbc09dcf",
 "company": "Acron Aviation",
 "title": "Embedded Software Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "lv:acronaviation:faf6f127-9995-4a85-b577-f655fbcb133f",
+"company": "Acron Aviation",
+"title": "Firmware Engineer (Electrical)",
 "rule": "not-intern",
 "tag": ""
 },
