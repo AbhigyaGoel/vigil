@@ -17892,13 +17892,6 @@
 "tag": ""
 },
 {
-"id": "ls:ded31667-1c68-4b4a-b251-dc42367c84a8",
-"company": "Vanguard",
-"title": "IT Intern - Application Development",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:93d115bb-b27e-478d-9f6e-d757992a8ffe",
 "company": "Vanguard",
 "title": "IT Intern - Investment Systems",
@@ -39032,6 +39025,20 @@
 "tag": ""
 },
 {
+"id": "wd:nvidia:/job/Israel-Yokneam/QA-Engineer--NIC-Firmware_JR2024855",
+"company": "NVIDIA",
+"title": "QA Engineer, NIC Firmware",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/Israel-Yokneam/Software-QA-Engineer--Bluefield-DPU_JR2024883-1",
+"company": "NVIDIA",
+"title": "Software QA Engineer, Bluefield DPU",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "wd:nvidia:/job/Israel-Yokneam/Software-Verification-Engineer_JR2017219",
 "company": "NVIDIA",
 "title": "Software Verification Engineer",
@@ -41115,6 +41122,13 @@
 "company": "KLA",
 "title": "Ausbildung zum Elektroniker f\u00fcr Ger\u00e4te und Systeme (w/m/d)",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Software-Research-Engineering----PhD-Intern-_JR0287019",
+"company": "Intel",
+"title": "Software Research Engineering - (PhD Intern)",
+"rule": "seniority",
 "tag": ""
 },
 {
@@ -53812,13 +53826,6 @@
 "id": "gh:rendezvousrobotics:4294300009",
 "company": "Rendezvous Robotics",
 "title": "GNC Engineer, ADCS (Vehicle)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:rendezvousrobotics:4294301009",
-"company": "Rendezvous Robotics",
-"title": "GNC Engineer, Simulation (Swarm/Vehicle)",
 "rule": "not-intern",
 "tag": ""
 },
