@@ -6391,13 +6391,6 @@
 "tag": "Spring 2027"
 },
 {
-"id": "ls:89c1ce2d-139c-480e-a662-32a660975dc4",
-"company": "Saint Leo University",
-"title": "Student Worker - Institutional Research",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:765f9438-c57a-4035-9229-8b41b835beeb",
 "company": "Sun Life",
 "title": "Digital Analytics Student",
@@ -12523,6 +12516,13 @@
 "tag": "Winter 2026"
 },
 {
+"id": "ls:528416aa-09e4-4f9c-a145-9747f978fe5d",
+"company": "Emerson Electric",
+"title": "Data Science Engineering Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
 "id": "ls:d00b3611-6ef4-4084-8f7e-0bcd89e90261",
 "company": "Emerson Electric",
 "title": "Software Engineering Co-op",
@@ -14320,13 +14320,6 @@
 "title": "Research Technical Assistant - AI and Multimodal Foundation Models",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:5a875ca9-f702-430e-95ef-602f35afa359",
-"company": "Acumatica",
-"title": "AI & Automation Intern - Office of the CFO",
-"rule": "season",
-"tag": "Fall 2026"
 },
 {
 "id": "ls:1334781b-b931-4148-9da0-2ac010e63209",
@@ -52640,13 +52633,6 @@
 "tag": ""
 },
 {
-"id": "ab:northwoodspace:222776fe-9549-4699-80bd-f55edee3fd53",
-"company": "Northwood Space",
-"title": "Tooling Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "ab:northwoodspace:c94c0dcc-85ba-4b97-a911-f54359b3346e",
 "company": "Northwood Space",
 "title": "Accounting Manager",
@@ -52685,13 +52671,6 @@
 "id": "ab:northwoodspace:5d5833d9-6d3e-4e49-8264-f0322b66f684",
 "company": "Northwood Space",
 "title": "Lead Hardware Development Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "ab:northwoodspace:e118fd88-9cc2-4f15-bfd6-d1f6cfe4aff6",
-"company": "Northwood Space",
-"title": "Senior Tooling Engineer ",
 "rule": "not-intern",
 "tag": ""
 },
@@ -54236,7 +54215,7 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8782930002",
+"id": "gh:relativity:8783355002",
 "company": "Relativity Space",
 "title": "Global Supply Manager, Indirect",
 "rule": "not-intern",
@@ -54250,7 +54229,7 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8783355002",
+"id": "gh:relativity:8782930002",
 "company": "Relativity Space",
 "title": "Global Supply Manager, Indirect",
 "rule": "not-intern",
@@ -54694,6 +54673,13 @@
 "id": "gh:relativity:8588815002",
 "company": "Relativity Space",
 "title": "Manufacturing Test Engineer II, Pneumatic Mechanisms & Fluid Assemblies",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:relativity:8770685002",
+"company": "Relativity Space",
+"title": "Manufacturing Test Engineer II, Vehicle Integration",
 "rule": "not-intern",
 "tag": ""
 },
@@ -55160,14 +55146,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8612945002",
+"id": "gh:relativity:8455890002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8455890002",
+"id": "gh:relativity:8612945002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
@@ -55503,14 +55489,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8419277002",
+"id": "gh:relativity:8701334002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8701334002",
+"id": "gh:relativity:8419277002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -56126,14 +56112,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8715897002",
+"id": "gh:relativity:8595007002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8595007002",
+"id": "gh:relativity:8715897002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
