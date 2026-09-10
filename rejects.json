@@ -6664,13 +6664,6 @@
 "tag": "Winter 2027"
 },
 {
-"id": "ls:48f757b7-e402-4cf2-bbc5-0ab0560d8436",
-"company": "L\u00e9ger",
-"title": "Research Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:cd27aaf0-33b6-4d6a-950e-8acff7bbe6ce",
 "company": "Tesla",
 "title": "Software Engineer Intern - AI Inference Co Design",
@@ -7033,13 +7026,6 @@
 "title": "Software Engineer Co-op - Product Development",
 "rule": "season",
 "tag": "Spring 2027"
-},
-{
-"id": "ls:fd2f0640-b221-4c71-bf6f-c57f8f5bc712",
-"company": "Bank of China USA",
-"title": "Enterprise Risk Management Risk Data Aggregation Intern",
-"rule": "season",
-"tag": "Fall 2026"
 },
 {
 "id": "ls:67073e06-6a56-423e-8829-d36ad479d2fe",
@@ -12537,13 +12523,6 @@
 "tag": "Winter 2026"
 },
 {
-"id": "ls:528416aa-09e4-4f9c-a145-9747f978fe5d",
-"company": "Emerson Electric",
-"title": "Data Science Engineering Intern",
-"rule": "season",
-"tag": "Winter 2026"
-},
-{
 "id": "ls:d00b3611-6ef4-4084-8f7e-0bcd89e90261",
 "company": "Emerson Electric",
 "title": "Software Engineering Co-op",
@@ -13615,13 +13594,6 @@
 "tag": "Winter 2027"
 },
 {
-"id": "ls:0b928614-7843-4af3-b8fa-36d9e03eb6d7",
-"company": "Syngenta Group",
-"title": "Data Entry Intern - Product Safety",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:128a31c3-d894-45ac-91aa-5e9c19b785ef",
 "company": "General Dynamics UK",
 "title": "Software Engineering Co-op - 8 Months",
@@ -14194,13 +14166,6 @@
 "title": "Frontend Engineer Intern - Product & UX/UI",
 "rule": "season",
 "tag": "Winter 2026"
-},
-{
-"id": "ls:78b93d81-ddbc-4b9f-847f-f352c09c5308",
-"company": "TikTok",
-"title": "Data Analyst and Business Projects Intern",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:b9a67e9c-0015-4a4a-9f99-25b266976b64",
@@ -16168,13 +16133,6 @@
 "title": "Graduate Assistant",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:7b97c3c1-8a37-4885-9340-6466cd4b0416",
-"company": "Royal Bank of Canada",
-"title": "Financial Crimes Quality Assurance Intern - Grm",
-"rule": "season",
-"tag": "Winter 2027"
 },
 {
 "id": "ls:84cd06d1-bc65-40e9-8d18-19df425f903a",
@@ -44058,6 +44016,13 @@
 "tag": ""
 },
 {
+"id": "wd:amat:/job/Santa-ClaraCA/Customer-Business-Operations-Specialist-I_R2625704",
+"company": "Applied Materials",
+"title": "Customer Business Operations Specialist I",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "wd:amat:/job/Santa-ClaraCA/Process-Engineer-III-New-College-Grad---Doctorate-Degree--Santa-Clara--CA-_R2628366",
 "company": "Applied Materials",
 "title": "Process Engineer III New College Grad - Doctorate Degree (Santa Clara, CA)",
@@ -44076,13 +44041,6 @@
 "company": "Applied Materials",
 "title": "Customer & Commercial Operations Specialist (NCG / Fresh Graduates Welcome)",
 "rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:amat:/job/LeixlipIRL/Logistics-Operation-Coordinator--Early-Careers-_R2627600",
-"company": "Applied Materials",
-"title": "Logistics Operation Coordinator (Early Careers)",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -44608,6 +44566,13 @@
 "company": "Applied Materials",
 "title": "Data Analyst, Global Forward Network",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Summer-2027-Supply-Chain-Materials-Project-Manager-Intern--Master-s--Santa-Clara--CA-_R2627074",
+"company": "Applied Materials",
+"title": "Summer 2027 Supply Chain Materials Project Manager Intern- Master's (Santa Clara, CA)",
+"rule": "seniority",
 "tag": ""
 },
 {
@@ -54103,6 +54068,13 @@
 "tag": ""
 },
 {
+"id": "gh:relativity:8792161002",
+"company": "Relativity Space",
+"title": "Accounts Payable Specialist I",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "gh:relativity:8615771002",
 "company": "Relativity Space",
 "title": "Additive Manufacturing Engineer II, PBF",
@@ -54327,14 +54299,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8783355002",
+"id": "gh:relativity:8782930002",
 "company": "Relativity Space",
 "title": "Global Supply Manager, Indirect",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8782930002",
+"id": "gh:relativity:8783355002",
 "company": "Relativity Space",
 "title": "Global Supply Manager, Indirect",
 "rule": "not-intern",
@@ -55244,14 +55216,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8455890002",
+"id": "gh:relativity:8612945002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8612945002",
+"id": "gh:relativity:8455890002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
@@ -55587,14 +55559,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8701334002",
+"id": "gh:relativity:8419277002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8419277002",
+"id": "gh:relativity:8701334002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -55832,14 +55804,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8728512002",
+"id": "gh:relativity:8464747002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8464747002",
+"id": "gh:relativity:8728512002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
