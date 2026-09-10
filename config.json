@@ -4,10 +4,15 @@
   "_docs_3": "listings_repos roll over yearly (Summer2027 -> Summer2028). If one starts 404ing, check github.com/SimplifyJobs for the new repo name. Append :branch to override the default 'dev' branch.",
   "_docs_4": "exclude_keywords ships with defense contractors filtered out. Not your politics? Delete those lines in your fork.",
   "_docs_5": "IMPLEMENTED in watch.py + worker.js: include_terms (season filter on listing.terms; rows lacking a terms field are kept), require_active, exclude_companies (company-level blocklist), markdown_sources, atom_feeds, and a Workday adapter. keep() already falls back to keyword-only for sources with no category (e.g. vanshb03), so that source was never contributing zero.",
+  "_docs_6": "PAY GATE (watch.py extract_pay / cloudflare/filters.mjs extractPay): only fires when an hourly $ figure is actually stated in the description (GH/Lever/Ashby inline, or a fetched Workday/Simplify desc) - no pay stated is ambiguous and never drops, per the rails. pay_floor_hourly: hard drop below this (positive evidence of low pay). pay_preferred_hourly: at/above this, no penalty. Between floor and preferred, the role only reaches Tier A / high-priority if it's a strong hardware/robotics fit (score >= pay_midband_min_score in watch.py; an explicit include_keywords title hit as the closest JS-side proxy, since the worker has no ported scoring table) - otherwise it still delivers, just demoted to Tier B / low-priority.",
 
   "ntfy_topic": "CHANGE-ME-set-the-NTFY_TOPIC-secret",
   "max_alerts_per_run": 25,
   "max_age_days": 21,
+
+  "pay_floor_hourly": 25,
+  "pay_preferred_hourly": 34,
+  "pay_midband_min_score": 4,
 
   "require_active": true,
   "season_drop_terms": ["Fall 2026", "Summer 2026", "Spring 2026", "Winter 2026", "Spring 2027", "Winter 2027"],

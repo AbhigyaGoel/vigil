@@ -56,6 +56,12 @@ so your topic and filters stay out of the repo):
 - `season_drop_terms` / `season_a_terms`: what counts as off-season vs Tier-A-eligible.
 - `include_keywords`, `exclude_keywords`, `exclude_companies`: regex filters.
 - `tagged_subregex`: pulls robotics-software out of the AI/ML and Software buckets.
+- `pay_floor_hourly` / `pay_preferred_hourly` / `pay_midband_min_score`: pay gate.
+  Only fires when a posting states an hourly $ figure (pay-transparency states put
+  this on most Greenhouse/Lever/Ashby listings) - no pay stated never drops a role.
+  Below the floor is a hard drop; between the floor and the preferred rate, only a
+  strong hardware/robotics fit (title/desc score >= the mid-band bar) still reaches
+  Tier A / high priority, otherwise it's demoted to Tier B / low priority.
 
 Tools: `python watch.py --dry` (per-source/per-tier table, sends nothing) and
 `python watch.py --explain <job-id>` (full decision trace for one role). Changing

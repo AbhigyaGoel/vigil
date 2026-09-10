@@ -286,6 +286,34 @@ _ELIGIBLE_TAIL = re.compile(r"or later|and beyond|onwards?|or after|or above|and
 # Bachelor's, however postings actually write it: BS, B.S., BS/MS, BSc, BSEE, BSCS...
 _HAS_BACH = re.compile(r"\bbachelor|\bundergrad|\bB\.?S\.?\b|\bBSc\b|\bBS[A-Z]{2,3}\b", re.I)
 
+# Hourly pay: pay-transparency laws (CA/CO/NY/WA) put an explicit $/hour band on
+# most Greenhouse/Lever/Ashby intern postings. Suffix form ("$28 - $34/hour",
+# "$28/hr", "$28 per hour", "$28 hourly") and a prefix form ("hourly rate: $28 -
+# $34") are both matched; anything else (annual salary, stipends with no "hour"
+# word) is deliberately left alone rather than guess-converted.
+_PAY_SUFFIX = re.compile(
+    r"\$\s?(\d{1,3}(?:\.\d{1,2})?)"
+    r"(?:\s*(?:-|–|—|to)\s*\$?\s?(\d{1,3}(?:\.\d{1,2})?))?"
+    r"\s*(?:/\s*(?:hr|hour)\b|per\s+hour\b|(?:an|/)\s*hour\b|hourly\b)", re.I)
+_PAY_PREFIX = re.compile(
+    r"(?:hourly\s*(?:rate|pay|wage)|pay\s*rate)\D{0,40}\$\s?(\d{1,3}(?:\.\d{1,2})?)"
+    r"(?:\s*(?:-|–|—|to)\s*\$?\s?(\d{1,3}(?:\.\d{1,2})?))?", re.I)
+
+
+def extract_pay(desc):
+    """Midpoint hourly $ from a stated range/single value, or None when no
+    hourly figure is found - ambiguous, never a drop reason on its own."""
+    m = _PAY_SUFFIX.search(desc) or _PAY_PREFIX.search(desc)
+    if not m:
+        return None
+    lo = float(m.group(1))
+    hi = float(m.group(2)) if m.group(2) else lo
+    if hi < lo:
+        lo, hi = hi, lo
+    if lo < 5 or lo > 250:  # sanity bounds - reject a non-hourly $ figure that slipped through
+        return None
+    return (lo + hi) / 2
+
 
 def extract_signals(desc):
     if not desc:
@@ -301,6 +329,7 @@ def extract_signals(desc):
         "grad_bad": grad_bad,
         "grad_only": bool(re.search(r"\b(ph\.?d|doctoral|master)", desc, re.I)
                           and not _HAS_BACH.search(desc)),
+        "pay": extract_pay(desc),
     }
 
 
@@ -547,16 +576,27 @@ def discovered_boards(cfg):
 
 
 def build_plan():
-    plan = [(listings_feed, r) for r in CFG.get("listings_repos", [])]
-    plan += [(markdown_source, s) for s in CFG.get("markdown_sources", [])]
-    plan += [(atom_feed, s) for s in CFG.get("atom_feeds", [])]
-    plan += [(workday, w) for w in CFG.get("workday", [])]  # bulk, needs enrichment -> stays here
+    # ORDER MATTERS: canon_key() dedup is first-writer-wins (scan() skips a job
+    # whose canon_key is already in `seen`, regardless of source). A physical role
+    # often surfaces through MULTIPLE sources - e.g. a company on both the Simplify
+    # listings feed (retitled, no score boost, policy=tagged) AND auto-discovery's
+    # direct ATS pull (original title, correctly scored, policy=bulk). Direct-ATS
+    # sources carry the real title/score, so they must run BEFORE the
+    # retitled/aggregated ones or the weaker copy wins the race and the stronger
+    # one gets silently deduped away. Curated (hand-picked, when not SKIP_ATS) is
+    # the most trusted; discovery/Workday hit the ATS directly; listings/markdown/
+    # atom are aggregated copies, weakest first title fidelity, so they run last.
+    plan = []
     if not os.environ.get("SKIP_ATS"):  # curated boards; the worker owns these when SKIP_ATS=1
         plan += [(greenhouse, s) for s in CFG.get("greenhouse", [])]
         plan += [(lever, s) for s in CFG.get("lever", [])]
         plan += [(ashby, s) for s in CFG.get("ashby", [])]
     if (CFG.get("discovery") or {}).get("enabled"):  # keyword-gated auto-discovery (always on)
         plan += [(discovered_boards, CFG)]
+    plan += [(workday, w) for w in CFG.get("workday", [])]
+    plan += [(listings_feed, r) for r in CFG.get("listings_repos", [])]
+    plan += [(markdown_source, s) for s in CFG.get("markdown_sources", [])]
+    plan += [(atom_feed, s) for s in CFG.get("atom_feeds", [])]
     return plan
 
 
@@ -616,11 +656,27 @@ def classify(job, enrich, trace=None):
     sig = fetch_description(job, enrich)
     if sig.get("clearance"):
         note("DROP defense (clearance in description)"); return "drop", "defense-desc"
+    pay = sig.get("pay")
+    pay_floor = CFG.get("pay_floor_hourly") or 0
+    if pay is not None and pay_floor and pay < pay_floor:
+        note(f"DROP low-pay (${pay:.0f}/hr < ${pay_floor:.0f}/hr floor)"); return "drop", "low-pay"
 
     # --- score & tier ---
     bs, ds = base_score(title), desc_score(sig)
     score = bs + ds
     note(f"score={score} (title {bs}, desc {ds})")
+
+    pay_preferred = CFG.get("pay_preferred_hourly") or 0
+    pay_midband_bar = CFG.get("pay_midband_min_score", 0)
+
+    def pay_ok(sc):
+        """Below-floor pay was already dropped above. Between floor and preferred,
+        only a strong hardware/robotics fit (not just barely-qualifying) still
+        earns Tier A; unknown/no pay or pay >= preferred is never gated."""
+        if pay is None or not pay_preferred or pay >= pay_preferred:
+            return True
+        return sc >= pay_midband_bar
+
     if policy == "curated":
         # hand-picked company: a vague US intern title is instant-worthy. But a hard
         # eligibility mismatch from the description still demotes (I graduate 2028).
@@ -630,6 +686,9 @@ def classify(job, enrich, trace=None):
             note("TIER B (curated, grad/degree mismatch)"); return "B", score
         if not curated_relevant(title):
             note("TIER B (curated, off-target function)"); return "B", score
+        if not pay_ok(score):
+            note(f"TIER B (curated, pay ${pay:.0f}/hr mid-band, fit score {score} < {pay_midband_bar})")
+            return "B", score
         note("TIER A (curated, hardware-relevant)"); return "A", max(score, 3)
     if policy == "tagged":
         # SimplifyJobs carries explicit season terms -> trust them exactly.
@@ -640,9 +699,9 @@ def classify(job, enrich, trace=None):
         # was already dropped above; promote unless the description shows a hard
         # eligibility mismatch (I graduate 2028).
         a_ok = not (sig.get("grad_bad") or sig.get("grad_only"))
-    if score >= 3 and geo == "us" and a_ok:
+    if score >= 3 and geo == "us" and a_ok and pay_ok(score):
         note("TIER A"); return "A", score
-    note(f"TIER B (score>=3:{score>=3} us:{geo=='us'} season_a:{a_ok})")
+    note(f"TIER B (score>=3:{score>=3} us:{geo=='us'} season_a:{a_ok} pay_ok:{pay_ok(score)})")
     return "B", score
 
 
@@ -657,19 +716,24 @@ def _load(path, default):
     return default
 
 
-LOGIC_VERSION = "v2.8"  # bump when filter/scoring CODE changes -> forces a silent reseed
+LOGIC_VERSION = "v2.9"  # bump when filter/scoring CODE changes -> forces a silent reseed
 # v2.6: added zapplyjobs low-latency feeds + Tier-B prompt-push.
 # v2.7: added registry-based auto-discovery of hardware/robotics boards; reseed so the
 # ~49 discovered boards' backlog seeds silently instead of flooding on first scan.
 # v2.8: cross-feed canon_key + worker_owned dedup (kills repeat alerts); reseed so the
 # canon-keys backfill into seen silently instead of re-alerting already-delivered roles.
-
+# v2.9: pay gate (drop below pay_floor_hourly; mid-band pay needs a strong-fit score to
+# reach Tier A) + build_plan() reordered so direct-ATS sources (curated/discovery/Workday)
+# claim a role's canon_key before the weaker retitled aggregator copies (Simplify listings/
+# markdown/atom) can - fixes roles like Bedrock Robotics landing as a low-score Tier-B dupe
+# of a correctly-scored Tier-A role. Reseed so the new pay rule doesn't retroactively flood.
 
 def config_hash():
     keys = ["include_keywords", "exclude_keywords", "exclude_companies", "include_categories",
             "soft_categories", "tagged_subregex", "season_drop_terms", "season_a_terms",
             "season_title_drop", "scoring", "tier_b_countries", "drop_countries",
-            "desc_hw_keywords", "desc_clearance", "ats_require", "max_age_days"]
+            "desc_hw_keywords", "desc_clearance", "ats_require", "max_age_days",
+            "pay_floor_hourly", "pay_preferred_hourly", "pay_midband_min_score"]
     blob = json.dumps({"_v": LOGIC_VERSION, **{k: CFG.get(k) for k in keys}}, sort_keys=True)
     return sha256(blob.encode()).hexdigest()[:16]
 

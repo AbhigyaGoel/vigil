@@ -1,6 +1,6 @@
 // JS side of the parity test. `node cloudflare/parity.mjs` (also run by test_parity.py).
 import { readFileSync } from "node:fs";
-import { makeFilters, curatedInstant, hardMismatch, curatedRelevant } from "./filters.mjs";
+import { makeFilters, curatedInstant, hardMismatch, curatedRelevant, extractPay } from "./filters.mjs";
 
 const cfg = JSON.parse(readFileSync(new URL("../config.json", import.meta.url)));
 const cases = JSON.parse(readFileSync(new URL("./parity_cases.json", import.meta.url)));
@@ -16,8 +16,12 @@ for (const c of cases.season) {
   if (got !== c.expect) { fail++; console.log(`SEASON FAIL ${c.title} -> ${got} (want ${c.expect})`); }
 }
 for (const c of cases.curated) {
-  const got = curatedInstant(c.job, f);
+  const got = curatedInstant(c.job, f, cfg);
   if (got !== c.expect) { fail++; console.log(`CURATED FAIL ${c.job.title} @ ${c.job.location} -> ${got} (want ${c.expect})`); }
+}
+for (const c of cases.pay) {
+  const got = extractPay(c.desc);
+  if (got !== c.expect) { fail++; console.log(`PAY FAIL ${JSON.stringify(c.desc)} -> ${got} (want ${c.expect})`); }
 }
 for (const c of cases.grad) {
   const got = hardMismatch(c.desc);
@@ -27,7 +31,7 @@ for (const c of cases.relevance) {
   const got = curatedRelevant({ title: c.title }, f);
   if (got !== c.expect) { fail++; console.log(`RELEVANCE FAIL ${c.title} -> ${got} (want ${c.expect})`); }
 }
-const n = cases.geo.length + cases.season.length + cases.curated.length + cases.grad.length + cases.relevance.length;
-console.log(`COUNT geo=${cases.geo.length} season=${cases.season.length} curated=${cases.curated.length} grad=${cases.grad.length} relevance=${cases.relevance.length} total=${n}`);
+const n = cases.geo.length + cases.season.length + cases.curated.length + cases.grad.length + cases.relevance.length + cases.pay.length;
+console.log(`COUNT geo=${cases.geo.length} season=${cases.season.length} curated=${cases.curated.length} grad=${cases.grad.length} relevance=${cases.relevance.length} pay=${cases.pay.length} total=${n}`);
 console.log(fail ? `JS parity: ${fail}/${n} FAIL` : `JS parity: all ${n} pass`);
 process.exit(fail ? 1 : 0);

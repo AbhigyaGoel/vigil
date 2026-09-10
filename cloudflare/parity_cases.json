@@ -33,7 +33,17 @@
     {"job": {"title": "Firmware Intern - Fall 2026", "company": "Zoox", "location": "Foster City, CA", "url": "x"}, "expect": false},
     {"job": {"title": "Robotics Intern", "company": "Anduril", "location": "Costa Mesa, CA", "url": "x"}, "expect": false},
     {"job": {"title": "Staff Firmware Engineer", "company": "Waymo", "location": "Mountain View, CA", "url": "x"}, "expect": false},
-    {"job": {"title": "Marketing Intern", "company": "Waymo", "location": "Mountain View, CA", "url": "x"}, "expect": false}
+    {"job": {"title": "Marketing Intern", "company": "Waymo", "location": "Mountain View, CA", "url": "x"}, "expect": false},
+    {"job": {"title": "Hardware Test Intern", "company": "Waymo", "location": "Mountain View, CA", "url": "x", "desc": "This internship pays $20.00 - $24.00 per hour."}, "expect": false},
+    {"job": {"title": "Hardware Test Intern", "company": "Waymo", "location": "Mountain View, CA", "url": "x", "desc": "This internship pays $36.00 per hour."}, "expect": true}
+  ],
+  "pay": [
+    {"desc": "Compensation: $34.00 - $38.00 per hour.", "expect": 36.0},
+    {"desc": "This is a paid internship with an hourly rate of $22.00.", "expect": 22.0},
+    {"desc": "This role offers $28/hr.", "expect": 28.0},
+    {"desc": "We offer $45,000 - $55,000 annually.", "expect": null},
+    {"desc": "$20 - $24 per hour is the pay band for this internship.", "expect": 22.0},
+    {"desc": "Interns receive a generous stipend.", "expect": null}
   ],
   "grad": [
     {"desc": "Graduating in 2027 or later.", "expect": false},

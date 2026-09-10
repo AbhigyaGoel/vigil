@@ -59,6 +59,39 @@ export function curatedRelevant(job, f) {
   return !CURATED_OFFTARGET.test(title);
 }
 
+// Hourly pay (mirrors watch.py extract_pay): a suffix form ("$28 - $34/hour",
+// "$28/hr", "$28 per hour", "$28 hourly") and a prefix form ("hourly rate: $28 -
+// $34"). No match -> null, never a drop reason on its own.
+const PAY_SUFFIX = /\$\s?(\d{1,3}(?:\.\d{1,2})?)(?:\s*(?:-|–|—|to)\s*\$?\s?(\d{1,3}(?:\.\d{1,2})?))?\s*(?:\/\s*(?:hr|hour)\b|per\s+hour\b|(?:an|\/)\s*hour\b|hourly\b)/i;
+const PAY_PREFIX = /(?:hourly\s*(?:rate|pay|wage)|pay\s*rate)\D{0,40}\$\s?(\d{1,3}(?:\.\d{1,2})?)(?:\s*(?:-|–|—|to)\s*\$?\s?(\d{1,3}(?:\.\d{1,2})?))?/i;
+export function extractPay(desc) {
+  if (!desc) return null;
+  const m = desc.match(PAY_SUFFIX) || desc.match(PAY_PREFIX);
+  if (!m) return null;
+  let lo = parseFloat(m[1]);
+  let hi = m[2] ? parseFloat(m[2]) : lo;
+  if (hi < lo) [lo, hi] = [hi, lo];
+  if (lo < 5 || lo > 250) return null;  // sanity bounds - reject a non-hourly $ figure
+  return (lo + hi) / 2;
+}
+// Hard drop: pay stated below the floor. Mirrors watch.py's pay_floor_hourly rule.
+export function payDrop(desc, cfg) {
+  const floor = cfg.pay_floor_hourly;
+  if (!floor) return false;
+  const pay = extractPay(desc);
+  return pay !== null && pay < floor;
+}
+// Mid-band pay (floor <= pay < preferred) only stays high-priority on a strong
+// fit. The worker has no ported scoring table, so an explicit include_keywords
+// title hit is the closest available proxy for watch.py's score >= pay_midband_min_score.
+export function payMidbandWeak(job, desc, cfg, f) {
+  const preferred = cfg.pay_preferred_hourly;
+  if (!preferred) return false;
+  const pay = extractPay(desc);
+  if (pay === null || pay >= preferred) return false;
+  return !(f.include && f.include.test(job.title || ""));
+}
+
 // Hard eligibility mismatch from a description (mirrors watch.py extract_signals):
 // an explicit 2025-27 graduation requirement without 2028, or a Master's/PhD-only
 // requirement. Only applied when a description is available for free (Lever/Ashby).
@@ -89,8 +122,9 @@ export function curatedTitlePass(job, f) {
   return true;
 }
 
-// Full instant-push decision (title checks + description hard-mismatch). Used by
-// the parity test; the worker inlines the two halves so it can fetch the GH desc.
-export function curatedInstant(job, f) {
-  return curatedTitlePass(job, f) && !hardMismatch(job.desc);
+// Full instant-push decision (title checks + description hard-mismatch + pay
+// floor). Used by the parity test; the worker inlines the pieces so it can fetch
+// the GH desc and apply the pay mid-band priority split separately.
+export function curatedInstant(job, f, cfg) {
+  return curatedTitlePass(job, f) && !hardMismatch(job.desc) && !payDrop(job.desc, cfg || {});
 }

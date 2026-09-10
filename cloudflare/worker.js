@@ -14,7 +14,7 @@
  * so bump the suffix to force a silent reseed after a filter-behavior change.
  */
 
-import { makeFilters, curatedTitlePass, hardMismatch, curatedRelevant } from "./filters.mjs";
+import { makeFilters, curatedTitlePass, hardMismatch, curatedRelevant, payDrop, payMidbandWeak } from "./filters.mjs";
 
 // GROUPS=1: on Workers Paid (see wrangler.toml [limits] cpu_ms) every board is
 // polled every minute in one parallel pass, so posting-to-phone latency is ~1-2
@@ -178,8 +178,10 @@ export default {
           try { const jd = await gj(job.detail); desc = (jd.content || "").replace(/<[^>]+>/g, " "); } catch {}
           if (ghBudget === 0) console.log("WARN gh_detail_budget spent; remaining GH roles push without grad/degree check");
         }
-        // budget spent -> desc stays "" -> hardMismatch false -> push anyway (recall-first)
+        job.desc = desc;   // retain for the pay mid-band priority check at push time
+        // budget spent -> desc stays "" -> hardMismatch/payDrop false -> push anyway (recall-first)
         if (hardMismatch(desc)) continue;
+        if (payDrop(desc, cfg)) continue;   // stated pay below pay_floor_hourly
         candidates.push(job);
       }
     }
@@ -198,7 +200,12 @@ export default {
       // Hardware/robotics-relevant -> high-priority instant; clearly off-target
       // (IT, generic SWE, ML, biomed with no hardware signal) -> low-priority so it
       // still lands but doesn't buzz. Mirrors watch.py's curated Tier-A/B split.
-      for (const j of push) { await ntfy(env, j, curatedRelevant(j, f) ? "high" : "low"); seen.add(j.id); }
+      // Mid-band pay with no explicit hardware keyword hit also caps at low-priority.
+      for (const j of push) {
+        const relevant = curatedRelevant(j, f) && !payMidbandWeak(j, j.desc, cfg, f);
+        await ntfy(env, j, relevant ? "high" : "low");
+        seen.add(j.id);
+      }
       dirty = push.length > 0;
       if (candidates.length > cap)
         console.log(`WARN ${candidates.length} new > cap ${cap}; ${candidates.length - cap} deferred to next run`);
