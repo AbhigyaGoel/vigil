@@ -5411,14 +5411,14 @@
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7750105003",
+"id": "gh:launchdarkly:7985794003",
 "company": "LaunchDarkly",
 "title": "Full Stack Engineer, Observability",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7985794003",
+"id": "gh:launchdarkly:7750105003",
 "company": "LaunchDarkly",
 "title": "Full Stack Engineer, Observability",
 "rule": "not-intern",
@@ -5467,14 +5467,14 @@
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7989193003",
+"id": "gh:launchdarkly:7989185003",
 "company": "LaunchDarkly",
 "title": "Order Management Analyst, OTC",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7989185003",
+"id": "gh:launchdarkly:7989193003",
 "company": "LaunchDarkly",
 "title": "Order Management Analyst, OTC",
 "rule": "not-intern",
@@ -5554,6 +5554,13 @@
 "id": "gh:launchdarkly:7887684003",
 "company": "LaunchDarkly",
 "title": "Senior Full Stack Engineer, Enterprise, Feature Management",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:launchdarkly:7992914003",
+"company": "LaunchDarkly",
+"title": "Senior Growth Marketing Analyst",
 "rule": "not-intern",
 "tag": ""
 },
@@ -12264,6 +12271,13 @@
 "tag": ""
 },
 {
+"id": "wd:nvidia:/job/US-CA-Santa-Clara/Solutions-Architecture-Intern---Summer-2027_JR2025245",
+"company": "NVIDIA",
+"title": "Solutions Architecture Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "wd:nvidia:/job/Taiwan-Taipei/System-Application-Engineer--RDSS-Intern-_JR2025314",
 "company": "NVIDIA",
 "title": "System Application Engineer (RDSS Intern)",
@@ -14284,6 +14298,13 @@
 "company": "KLA",
 "title": "Ausbildung zum Elektroniker f\u00fcr Ger\u00e4te und Systeme (w/m/d)",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Module-Engineering-PhD-Intern-New-2027_JR0287021",
+"company": "Intel",
+"title": "Module Engineering PhD Intern New 2027",
+"rule": "seniority",
 "tag": ""
 },
 {
@@ -54481,30 +54502,16 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-selinc-sel-2026-23103?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Schweitzer Engineering Laboratories",
-"title": "Process Engineer",
+"id": "md:https://zapply.jobs/l/d/workday-modernatx-m-tx-R19688?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Moderna",
+"title": "Robotics Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-hitachi-hitachi-R0139305?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Hitachi",
-"title": "Applications Engineer III",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-pfizer-pfizercareers-4963125?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Pfizer",
-"title": "Manager, PX, GWE, Automation and Maintenance",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01867239?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "RTX",
-"title": "NCR NASAMS  - Field Service Representative (FSR) -DC",
+"id": "md:https://zapply.jobs/l/d/workday-globalfoundries-external-JR-2605426?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "GlobalFoundries",
+"title": "Quantum NCG 3DHI Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -54530,13 +54537,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-tranetechnologies-trane-technologies-car-JR-14397?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Trane Technologies",
-"title": "Chillers Electrical Designer II",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/sr-WesternDigital-744000140947335?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Western Digital",
 "title": "Hardware Engineer",
@@ -54558,10 +54558,38 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-magna-magna-R00261469?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Magna",
-"title": "Assembly Process Engineer",
+"id": "md:https://zapply.jobs/l/d/workday-jci-jci-WD30279427?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Johnson Controls",
+"title": "Equipment Systems Application Engineer",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-jci-jci-WD30274477?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Johnson Controls",
+"title": "Field Services Technician Level 2",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-jci-jci-WD30278665?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Johnson Controls",
+"title": "Electrical Engineer (onsite)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14426?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Entegris",
+"title": "NPI Engineering Co-Op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14428?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Entegris",
+"title": "Designer/Drafter Co-Op",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -54572,23 +54600,9 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-oshkoshcorporation-oshkosh-R48796?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Oshkosh Corporation",
-"title": "Engineer - Mechanical Design",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-kbr-kbr-careers-R2129763?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "KBR",
-"title": "Junior, Mid-Level, and Senior Level Radar Signals Processing Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-kbr-kbr-careers-R2125753?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "KBR",
-"title": "Junior, Mid-Level, and Senior Level Radar Signals Processing Engineer",
+"id": "md:https://zapply.jobs/l/d/sr-SmithsGroup2-744000121295282?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Smiths Group",
+"title": "Product Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -54603,48 +54617,6 @@
 "id": "md:https://zapply.jobs/l/d/sr-SmithsGroup2-744000091674935?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Smiths Group",
 "title": "Engineer III Materials",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/sr-SmithsGroup2-744000087978855?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Smiths Group",
-"title": "Drafter/Design Engineer II",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-intel-external-JR0287217?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Intel",
-"title": "Module Development Engineer - LTD Dry Etch",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-intel-external-JR0284896?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Intel",
-"title": "Mid-level Physical Design Engineer CPU",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-intel-external-JR0286860?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Intel",
-"title": "Design Verification Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-motorolasolutions-careers-R67748?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Motorola Solutions",
-"title": "Manufacturing Automation Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-motorolasolutions-careers-R67883?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Motorola Solutions",
-"title": "Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -54684,51 +54656,9 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-jci-jci-WD30279157?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Johnson Controls",
-"title": "Energy Solutions Development Engineer & Inflation Reduction Act Program Manager",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-jci-jci-WD30274882?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Johnson Controls",
-"title": "Field Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-jci-jci-WD30276055?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Johnson Controls",
-"title": "R&D Mechanical Engineer (onsite)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-jj-jj-R-085695?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Johnson & Johnson",
-"title": "Process Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-jj-jj-R-098397?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Johnson & Johnson",
-"title": "2027 R&D LCM Co-Op",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/sr-Sandisk-744000143398394?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Sandisk",
 "title": "Technologist,  System Product Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/sr-RESPECInc-743999967602892?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "RE/SPEC Inc.",
-"title": "Civil Project Engineer/Project Manager - Land Development",
 "rule": "not-intern",
 "tag": ""
 },
@@ -54747,37 +54677,16 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-msd-searchjobs-R416079?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Merck & Co.",
-"title": "Specialist, DDT\u2013Lab Automation, Lab Automation / Controls Engineer (SCADA/Ignition) (Onsite)",
+"id": "md:https://zapply.jobs/l/d/sr-RESPECInc-744000129829907?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "RE/SPEC Inc.",
+"title": "Civil CAD Designer - Land Development",
 "rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10250495?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Northrop Grumman",
-"title": "2027 Fall Mechanical Engineering Co-op - Chandler AZ",
-"rule": "defense",
 "tag": ""
 },
 {
 "id": "md:https://zapply.jobs/l/d/workday-geaerospace-ge-externalsite-R5039594?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "GE Aerospace",
 "title": "Field Service Representative",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-gehc-gehc-externalsite-R4046245?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "GE Healthcare",
-"title": "Manufacturing Specialist (Manufacturing Engineer / Process Engineer)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-rb-frs-R-0000032235?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Federal Reserve System",
-"title": "Cloud AWS Support Reliability Engineer (SRE)",
 "rule": "not-intern",
 "tag": ""
 },
@@ -54793,20 +54702,6 @@
 "company": "NBCUniversal",
 "title": "Project Controls Engineer II - Project",
 "rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-insulet-insuletcareers-REQ-2026-18209?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Insulet Corporation",
-"title": "Co-op, Supplier Development Engineering - Mechanical: January-June 2027 (Onsite)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-insulet-insuletcareers-REQ-2026-18213?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Insulet Corporation",
-"title": "Co-op, Supplier Engineering - Global Technical Excellence: January - June 2027 (Onsite)",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -54859,30 +54754,9 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-carrier-jobs-30204656?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Carrier Global",
-"title": "Field Engineer - Automated Logic (Waco, TX)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-bdx-external-career-site-usa-R-553480?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Becton Dickinson",
-"title": "Mechanical Engineer/Durham, North Carolina",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-bdx-external-career-site-usa-R-549702?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Becton Dickinson",
-"title": "Process & Equipment Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/sr-Eurofins-744000107799455?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Eurofins",
-"title": "Product Safety Engineer",
+"id": "md:https://zapply.jobs/l/d/workday-boeing-external-careers-JR2026520232?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Boeing",
+"title": "Experienced Mechanical Systems Design & Analysis Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -54908,20 +54782,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/sr-Eurofins-744000124177229?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Eurofins",
-"title": "EMC/Wireless Engineer - 2nd Shift",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/sr-Eurofins-744000124162679?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Eurofins",
-"title": "EMC/Wireless Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/workday-blueorigin-blueorigin-R70925?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Blue Origin",
 "title": "Insulation Design Engineer II, New Glenn Stage 2",
@@ -54936,10 +54796,38 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/sr-Eurofins-744000107799455?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Eurofins",
+"title": "Product Safety Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/sr-Eurofins-744000124177229?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Eurofins",
+"title": "EMC/Wireless Engineer - 2nd Shift",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/sr-Eurofins-744000124162679?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Eurofins",
+"title": "EMC/Wireless Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/workday-allegion-careers-JR37634?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Allegion",
 "title": "Frame Laser Loader",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-cranecompany-careers-JR102499?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Crane Co.",
+"title": "Engineering Co-Op Summer 2027",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -54957,24 +54845,38 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-altera-altera-R02668?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Altera",
-"title": "DSP Specialist FAE (Field Applications Engineer) \u2013 West Region",
+"id": "md:https://zapply.jobs/l/d/workday-pae-amentum-careers-R0170565?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Amentum",
+"title": "C-UxS Field Service Representative (Test Specialist)",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/sr-BoschGroup-744000123481879?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Bosch Group",
-"title": "Mechanical Design Engineering Intern",
+"id": "md:https://zapply.jobs/l/d/workday-curtisswright-cw-external-career-site-JR7609?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Curtiss-Wright",
+"title": "Supervisor, Mechanical Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-aes-aes-us-R1064841?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "AES Corporation",
+"title": "T&D Performance and Reliability Engineering Intern (Summer 2027)",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/sr-BoschGroup-744000125913658?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Bosch Group",
-"title": "Simulation and System Engineer (Multiple Positions) (REF285823I)",
-"rule": "not-intern",
+"id": "md:https://zapply.jobs/l/d/workday-aes-aes-us-R1064736?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "AES Corporation",
+"title": "Co-Op - Transmission Engineering Services - (Fall 2027)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-aes-aes-us-R1064745?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "AES Corporation",
+"title": "Co-op - T&D standards Power Systems - (Fall 2027)",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -54999,16 +54901,30 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/lever-zoox-341859c7-6449-482b-a6ef-1717bd97ea78?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Zoox",
-"title": "Chassis Controls Engineer, Brakes & Steering",
-"rule": "curated_worker",
+"id": "md:https://zapply.jobs/l/d/sr-BoschGroup-744000123481879?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Bosch Group",
+"title": "Mechanical Design Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/sr-BoschGroup-744000125913658?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Bosch Group",
+"title": "Simulation and System Engineer (Multiple Positions) (REF285823I)",
+"rule": "not-intern",
 "tag": ""
 },
 {
 "id": "md:https://zapply.jobs/l/d/lever-zoox-f7f84c5c-acda-4c2c-8da6-6d59bce8da25?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Zoox",
 "title": "Manager, Sensor Integration & Cleaning Hardware",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/lever-zoox-341859c7-6449-482b-a6ef-1717bd97ea78?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Zoox",
+"title": "Chassis Controls Engineer, Brakes & Steering",
 "rule": "curated_worker",
 "tag": ""
 },
@@ -55024,20 +54940,6 @@
 "company": "WeRide",
 "title": "Application Engineer",
 "rule": "curated_worker",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/lever-waabi-4889104b-bb12-4fd7-a332-843fbb45f0a4?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Waabi",
-"title": "Vehicle Reliability Engineer - Day Shift",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/lever-waabi-548a93ba-52cb-4b21-a68a-70d812187e5b?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Waabi",
-"title": "Mechanical Engineer",
-"rule": "not-intern",
 "tag": ""
 },
 {
@@ -55058,6 +54960,20 @@
 "id": "md:https://zapply.jobs/l/d/lever-velo3d-c6bf76b4-76a4-4a74-b479-0eac2b27f784?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Velo3D",
 "title": "Electrical Engineer II",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/lever-waabi-548a93ba-52cb-4b21-a68a-70d812187e5b?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Waabi",
+"title": "Mechanical Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/lever-waabi-4889104b-bb12-4fd7-a332-843fbb45f0a4?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Waabi",
+"title": "Vehicle Reliability Engineer - Day Shift",
 "rule": "not-intern",
 "tag": ""
 },
@@ -55083,34 +54999,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/ashby-Vultr-d358d72e-0a0a-4832-9a2c-4dfe8747ed4f?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Vultr",
-"title": "Network Operations Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/ashby-Vultr-423024d2-2f9a-475c-adeb-ddfd55b93c35?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Vultr",
-"title": "Storage Operations Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/ashby-Vultr-80c68f1c-f4f1-4bbd-a96f-81cd5f592d20?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Vultr",
-"title": "Infrastructure Production Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/ashby-warp-34541a68-50a9-44c2-9651-eb3ca4a39be4?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Warp",
-"title": "Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/ashby-persona.ai-18e0d683-1666-4f4d-bef8-a62c175de17d?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Persona AI",
 "title": "Robotics Simulation Engineer",
@@ -55125,10 +55013,115 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/ashby-Vultr-d82021a2-23fb-4a03-9478-2b29fb588ddc?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Vultr",
+"title": "Data Center Technician (Kansas City)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-Vultr-d358d72e-0a0a-4832-9a2c-4dfe8747ed4f?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Vultr",
+"title": "Network Operations Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-Vultr-423024d2-2f9a-475c-adeb-ddfd55b93c35?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Vultr",
+"title": "Storage Operations Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-warp-34541a68-50a9-44c2-9651-eb3ca4a39be4?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Warp",
+"title": "Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/ashby-gritt-ed459ec7-84ba-415c-9c44-5be778a7c6b0?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Gritt Robotics",
 "title": "Mechanical Engineer",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-taaraconnect-a5c08ecf-8142-4e27-a7f7-29cde627c8d5?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Taara",
+"title": "Board Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-taaraconnect-4c2a3ce9-4661-4509-9655-ce09d919c4fb?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Taara",
+"title": "Mechanical Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-uncountable-c88f8550-635e-4bdd-9280-1cd40b7212c0?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Uncountable",
+"title": "LLM Applications Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-saronic-5353e481-3810-4a68-a09c-28235a17e086?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Saronic Technologies",
+"title": "Electrical Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-saronic-2201604e-606b-45c2-a4e6-9fd9088813f5?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Saronic Technologies",
+"title": "Electrical Engineer \u2013 Radio Frequency (RF) Systems",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-saronic-abb1c82f-73b7-40e3-b822-906d699dbe3e?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Saronic Technologies",
+"title": "Hardware Engineer - Forward Deployed",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-rivianvw.tech-1b5515ae-6970-40d7-aee0-9b6099319966?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Rivian and Volkswagen Group Technologies",
+"title": "Functional Safety Engineer \u2013 Infotainment Systems",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-rivianvw.tech-058166ca-bd65-42d6-9971-8da85de578bc?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Rivian and Volkswagen Group Technologies",
+"title": "Reliability Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-skydio-3f02ead1-8efe-4e3f-9c75-625e74ab57d1?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Skydio",
+"title": "Product Design Engineer (All Levels)",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-skydio-f72f1fa5-d3d6-459e-8722-a94ce92ad1c8?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Skydio",
+"title": "RF Design Engineer",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-skydio-8e50c7da-2868-4383-af1f-920584d537fc?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Skydio",
+"title": "Electrical Engineer (Sustaining/Validation)",
+"rule": "curated_worker",
 "tag": ""
 },
 {
@@ -55139,9 +55132,30 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-jj-jj-R-096043?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Johnson & Johnson",
-"title": "Associate Performance Engineer, R&D - MedTech",
+"id": "md:https://zapply.jobs/l/d/workday-globusmedical-gmed-careers-JR107577?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Globus Medical",
+"title": "Associate Service / Repair Technician",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-boeing-external-careers-JR2026523733?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Boeing",
+"title": "Associate or Experienced Fatigue & Fracture Analysis Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-boeing-external-careers-JR2026524443?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Boeing",
+"title": "Associate Product Review Engineer (Liaison Engineering)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-boeing-external-careers-JR2026498321?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Boeing",
+"title": "Associate Industrial Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -55293,6 +55307,13 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/lever-belvederetrading-67c39285-40b4-436f-9e12-5644f070f46f?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Belvedere Trading",
+"title": "FPGA Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/ashby-etched-c3ca158a-015d-413d-bd14-5470e546ed15?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Etched",
 "title": "RTL Design Engineer",
@@ -55311,13 +55332,6 @@
 "company": "Etched",
 "title": "Design Verification Engineer - SoC",
 "rule": "curated_worker",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/lever-belvederetrading-67c39285-40b4-436f-9e12-5644f070f46f?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Belvedere Trading",
-"title": "FPGA Engineer",
-"rule": "not-intern",
 "tag": ""
 },
 {
@@ -55342,6 +55356,13 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/google-87833761126720198?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Google",
+"title": "ASIC Power Manager, ML Accelerators",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/google-98412087872496326?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Google",
 "title": "TPU SoC Design Engineer, Cloud",
@@ -55356,23 +55377,9 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/google-99835095900136134?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Google",
-"title": "TPU SoC Design Engineer, Google Cloud",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-boeing-external-careers-JR2026524443?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Boeing",
-"title": "Associate Product Review Engineer (Liaison Engineering)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-boeing-external-careers-JR2026498321?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Boeing",
-"title": "Associate Industrial Engineer",
+"id": "md:https://zapply.jobs/l/d/workday-jj-jj-R-096043?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Johnson & Johnson",
+"title": "Associate Performance Engineer, R&D - MedTech",
 "rule": "not-intern",
 "tag": ""
 },
@@ -55387,13 +55394,6 @@
 "id": "md:https://zapply.jobs/l/d/workday-athenahealth-external-R15477?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "athenahealth",
 "title": "Denials Process Automation Associate",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-globusmedical-gmed-careers-JR107577?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Globus Medical",
-"title": "Associate Service / Repair Technician",
 "rule": "not-intern",
 "tag": ""
 },
@@ -55426,6 +55426,20 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/workday-eversource-externalsite-R-028807?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Eversource Energy",
+"title": "Associate Utility Designer (Hybrid Schedule)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-blackrock-blackrock-professional-R264816?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "BlackRock",
+"title": "Veterans Transition Program Associate, Cyber Operations Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/workday-carrier-jobs-30217379?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Carrier Global",
 "title": "Mission Critical Associate Field Engineer - PLC - Automated Logic - Sullivan, IN",
@@ -55440,13 +55454,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-blackrock-blackrock-professional-R264816?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "BlackRock",
-"title": "Veterans Transition Program Associate, Cyber Operations Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/workday-altera-altera-R03061?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Altera",
 "title": "FPGA & Embedded SW Engineer \u2013 Aerospace & Defense",
@@ -55457,20 +55464,6 @@
 "id": "md:https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01866668?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "RTX",
 "title": "Firmware Engineer II- Active Secret (Onsite)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-eversource-externalsite-R-028807?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Eversource Energy",
-"title": "Associate Utility Designer (Hybrid Schedule)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-boeing-external-careers-JR2026524336?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Boeing",
-"title": "Associate Flight Controls Mechanical Hydraulics Design & Analysis Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -55860,16 +55853,16 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/ashby-applied-01dba94d-34b9-4d30-a7d3-82344bab609c?s=gh-new-grad-hardware-engineering-jobs-2027",
+"id": "md:https://zapply.jobs/l/d/ashby-applied-5e204245-3d33-4916-bfdd-991f0cc745eb?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Applied Intuition",
-"title": "Embedded Firmware Validation Engineer",
+"title": "Embedded AI Engineer \u2013 Android Automotive (On-Device Intelligence)",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/ashby-applied-5e204245-3d33-4916-bfdd-991f0cc745eb?s=gh-new-grad-hardware-engineering-jobs-2027",
+"id": "md:https://zapply.jobs/l/d/ashby-applied-01dba94d-34b9-4d30-a7d3-82344bab609c?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Applied Intuition",
-"title": "Embedded AI Engineer \u2013 Android Automotive (On-Device Intelligence)",
+"title": "Embedded Firmware Validation Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -56189,20 +56182,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-medtronic-medtroniccareers-R76974?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Medtronic",
-"title": "Test Engineer II - ENT - Jacksonville, FL (Onsite)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-motorolasolutions-careers-R68465?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Motorola Solutions",
-"title": "Electronics Test Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/sr-Sandisk-744000141261679?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Sandisk",
 "title": "Adversarial Security Test Engineer",
@@ -56210,15 +56189,15 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10250138?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Northrop Grumman",
-"title": "Antenna Test Engineer 2nd Shift",
+"id": "md:https://zapply.jobs/l/d/sr-NorthwesternMutual-743999658678908?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Northwestern Mutual",
+"title": "Test Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/sr-NorthwesternMutual-743999658678908?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Northwestern Mutual",
+"id": "md:https://zapply.jobs/l/d/workday-carrier-jobs-30206727?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Carrier Global",
 "title": "Test Engineer",
 "rule": "not-intern",
 "tag": ""
@@ -56231,13 +56210,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-carrier-jobs-30206727?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Carrier Global",
-"title": "Test Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/workday-cat-caterpillarcareers-R0000391469?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Caterpillar",
 "title": "Power Electronics Core Component Development Engineer",
@@ -56245,16 +56217,16 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-cat-caterpillarcareers-R0000377827?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Caterpillar",
-"title": "Autonomy Validation Engineer",
+"id": "md:https://zapply.jobs/l/d/sr-Eurofins-744000137486889?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Eurofins",
+"title": "Test Engineer, Environmental Simulation Laboratory (ESL)",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/sr-Eurofins-744000137486889?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Eurofins",
-"title": "Test Engineer, Environmental Simulation Laboratory (ESL)",
+"id": "md:https://zapply.jobs/l/d/workday-pae-amentum-careers-R0170569?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Amentum",
+"title": "Test Engineer II",
 "rule": "not-intern",
 "tag": ""
 },
@@ -56277,13 +56249,6 @@
 "company": "Zoox",
 "title": "Manufacturing Test Engineer",
 "rule": "curated_worker",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/sr-BoschGroup-744000144814189?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Bosch Group",
-"title": "System Engineer - Power Electronics",
-"rule": "not-intern",
 "tag": ""
 },
 {
@@ -56343,13 +56308,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/lever-synergyecp-da23f594-a1cf-4978-8770-3f8f31e7b00e?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Synergy ECP",
-"title": "Test Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/ashby-skydio-9a2ea1b1-b3cc-4dfa-995b-b9da074247d5?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Skydio",
 "title": "Flight Test Engineer - Wireless",
@@ -56360,6 +56318,13 @@
 "id": "md:https://zapply.jobs/l/d/ashby-radiant-industries-9e747724-d154-488d-93d6-067ee7d42cf2?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Radiant Industries",
 "title": "Test Engineer, Mechanical/Fluids",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/lever-synergyecp-da23f594-a1cf-4978-8770-3f8f31e7b00e?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Synergy ECP",
+"title": "Test Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -56413,17 +56378,10 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/lever-hermeus-efab6659-7548-4dd7-93f0-a9c93dc83d42?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Hermeus",
-"title": "Test Engineer",
+"id": "md:https://zapply.jobs/l/d/sr-BoschGroup-744000144814189?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Bosch Group",
+"title": "System Engineer - Power Electronics",
 "rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/lever-hermeus-31513d2a-8e08-424b-b125-4f972fcfc805?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Hermeus",
-"title": "Propulsion Test Engineering Intern - Fall 2026",
-"rule": "defense",
 "tag": ""
 },
 {
@@ -56441,10 +56399,17 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/ashby-hinge-health-e4ed90f9-06ad-425b-b974-e3ee990816dd?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Hinge Health",
-"title": "Test Engineer II",
+"id": "md:https://zapply.jobs/l/d/lever-hermeus-efab6659-7548-4dd7-93f0-a9c93dc83d42?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Hermeus",
+"title": "Test Engineer",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/lever-hermeus-31513d2a-8e08-424b-b125-4f972fcfc805?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Hermeus",
+"title": "Propulsion Test Engineering Intern - Fall 2026",
+"rule": "defense",
 "tag": ""
 },
 {
@@ -56458,6 +56423,13 @@
 "id": "md:https://zapply.jobs/l/d/lever-cfsenergy-27e3a498-9ab0-43a7-896f-75f791aee6bb?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "CFS Energy",
 "title": "R&D Test Engineer - Fluid Systems",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-hinge-health-e4ed90f9-06ad-425b-b974-e3ee990816dd?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Hinge Health",
+"title": "Test Engineer II",
 "rule": "not-intern",
 "tag": ""
 },
@@ -56497,6 +56469,13 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/ashby-apex-technology-inc-3c7c5384-c6e9-4274-b090-90d2d51c30a8?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Apex Technology",
+"title": "Avionics Test Engineer, Hardware",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/ashby-apex-technology-inc-5066f10b-4bf1-4e6f-8db1-41efa436fa4b?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Apex Technology",
 "title": "Power Electronics Engineer (Mid)",
@@ -56511,9 +56490,9 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/ashby-apex-technology-inc-3c7c5384-c6e9-4274-b090-90d2d51c30a8?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Apex Technology",
-"title": "Avionics Test Engineer, Hardware",
+"id": "md:https://zapply.jobs/l/d/google-107932829387498182?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Google",
+"title": "Hardware Validation Engineer, Data Center Engineering Labs",
 "rule": "not-intern",
 "tag": ""
 },
@@ -56532,9 +56511,30 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/google-121101450372620998?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Google",
-"title": "EMC Test Engineer, Platforms Infrastructure Engineering",
+"id": "md:https://zapply.jobs/l/d/workday-medtronic-medtroniccareers-R76974?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Medtronic",
+"title": "Test Engineer II - ENT - Jacksonville, FL (Onsite)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-motorolasolutions-careers-R68465?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Motorola Solutions",
+"title": "Electronics Test Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10250138?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Northrop Grumman",
+"title": "Antenna Test Engineer 2nd Shift",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-cat-caterpillarcareers-R0000377827?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Caterpillar",
+"title": "Autonomy Validation Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -56574,13 +56574,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-blueorigin-blueorigin-R72159?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Blue Origin",
-"title": "Radiation Effects Test Engineer III",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/workday-blueorigin-blueorigin-R72158?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Blue Origin",
 "title": "Radiation Effects Test Engineer II",
@@ -56605,13 +56598,6 @@
 "id": "md:https://zapply.jobs/l/d/workday-leidos-external-R-00192091?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Leidos",
 "title": "Production Test Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-pae-amentum-careers-R0170569?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Amentum",
-"title": "Test Engineer II",
 "rule": "not-intern",
 "tag": ""
 },
@@ -56840,9 +56826,9 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-medtronic-medtroniccareers-R75580?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Medtronic",
-"title": "Quality Engineer II",
+"id": "md:https://zapply.jobs/l/d/workday-microchiphr-external-R2537-26?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Microchip Technology",
+"title": "Manager-Quality Engineering",
 "rule": "not-intern",
 "tag": ""
 },
@@ -56851,13 +56837,6 @@
 "company": "Smiths Group",
 "title": "Quality Engineer",
 "rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-motorolasolutions-careers-R68669?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Motorola Solutions",
-"title": "Product Quality Engineering Intern",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -56875,13 +56854,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-cat-caterpillarcareers-R0000361745?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Caterpillar",
-"title": "Autonomy Validation Specialist",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/workday-blueorigin-blueorigin-R67643?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Blue Origin",
 "title": "Engines Quality Engineer III - B-Shift",
@@ -56892,6 +56864,13 @@
 "id": "md:https://zapply.jobs/l/d/workday-cranecompany-careers-JR102247?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Crane Co.",
 "title": "Supplier Quality Engineer II/III",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-curtisswright-cw-external-career-site-JR12641?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Curtiss-Wright",
+"title": "Quality Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -56945,16 +56924,16 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/sr-BoschGroup-744000145999299?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Bosch Group",
-"title": "Quality Engineer",
+"id": "md:https://zapply.jobs/l/d/lever-shieldai-8f00a36b-02b5-4800-b55b-2c9d29c6dd62?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Shield AI",
+"title": "Technician 4, Quality Engineering (R4959)",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/lever-shieldai-8f00a36b-02b5-4800-b55b-2c9d29c6dd62?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Shield AI",
-"title": "Technician 4, Quality Engineering (R4959)",
+"id": "md:https://zapply.jobs/l/d/sr-BoschGroup-744000145999299?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Bosch Group",
+"title": "Quality Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -56987,6 +56966,13 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/lever-arrivelogistics-79065612-bc7e-4c74-afd9-8ed5c4bf02ba?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Arrive Logistics",
+"title": "Quality Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/ashby-base-power-9064eea9-ed34-47f9-bf01-f5795ae9b2a6?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Base Power",
 "title": "Quality Engineer",
@@ -57001,13 +56987,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/lever-arrivelogistics-79065612-bc7e-4c74-afd9-8ed5c4bf02ba?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Arrive Logistics",
-"title": "Quality Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/google-80242930417050310?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Google",
 "title": "Technical Program Manager III, Quality Engineering, Consumer Shopping",
@@ -57015,9 +56994,23 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-microchiphr-external-R2537-26?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Microchip Technology",
-"title": "Manager-Quality Engineering",
+"id": "md:https://zapply.jobs/l/d/workday-medtronic-medtroniccareers-R75580?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Medtronic",
+"title": "Quality Engineer II",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-motorolasolutions-careers-R68669?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Motorola Solutions",
+"title": "Product Quality Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-cat-caterpillarcareers-R0000361745?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Caterpillar",
+"title": "Autonomy Validation Specialist",
 "rule": "not-intern",
 "tag": ""
 },
@@ -57071,13 +57064,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-curtisswright-cw-external-career-site-JR12641?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Curtiss-Wright",
-"title": "Quality Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/workday-caci-external-331907?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "CACI",
 "title": "Quality Engineer (U.S. Army Program Office)",
@@ -57096,6 +57082,34 @@
 "company": "Apex Technology",
 "title": "Spacecraft Quality Engineer",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14469?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Entegris",
+"title": "Material Quality Engineering Co-Op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14474?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Entegris",
+"title": "Quality Engineering Co-Op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14468?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Entegris",
+"title": "Quality Engineering Co-Op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-allegion-careers-JR37402?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Allegion",
+"title": "Summer Intern - Quality Engineer",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -57124,13 +57138,6 @@
 "company": "Baker Hughes",
 "title": "Supplier Quality Engineer",
 "rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-allegion-careers-JR37402?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Allegion",
-"title": "Summer Intern - Quality Engineer",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -57225,27 +57232,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14469?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Entegris",
-"title": "Material Quality Engineering Co-Op",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14474?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Entegris",
-"title": "Quality Engineering Co-Op",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14468?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Entegris",
-"title": "Quality Engineering Co-Op",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10250349?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "Northrop Grumman",
 "title": "Mission and Quality Assurance Engineer (Quality Engineer)",
@@ -57274,6 +57260,13 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/workday-cranecompany-careers-JR102424?s=gh-new-grad-hardware-engineering-jobs-2027",
+"company": "Crane Co.",
+"title": "Quality Engineering Co-op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873447?s=gh-new-grad-hardware-engineering-jobs-2027",
 "company": "RTX",
 "title": "APU/TF33 Supplier Quality Engineer (Onsite)",
@@ -57292,13 +57285,6 @@
 "company": "RTX",
 "title": "Supplier Quality Engineer (Onsite)",
 "rule": "not-intern",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-cranecompany-careers-JR102424?s=gh-new-grad-hardware-engineering-jobs-2027",
-"company": "Crane Co.",
-"title": "Quality Engineering Co-op",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -57540,13 +57526,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-amgen-careers-R-255719?s=gh-internships-2027",
-"company": "Amgen",
-"title": "Undergrad Intern \u2013 Software Engineer \u2013 Amgen\u2019s Technology & Medical Organizations (Summer 2027)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/sr-WesternDigital-744000143171017?s=gh-internships-2027",
 "company": "Western Digital",
 "title": "Summer 2027 Intern - Software Engineering",
@@ -57554,30 +57533,9 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-motorolasolutions-careers-R68125?s=gh-internships-2027",
-"company": "Motorola Solutions",
-"title": "2027 Software Engineering Summer Internship",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-motorolasolutions-careers-R68669?s=gh-internships-2027",
-"company": "Motorola Solutions",
-"title": "Product Quality Engineering Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/sr-RESPECInc-744000012676985?s=gh-internships-2027",
 "company": "RE/SPEC Inc.",
 "title": "Student Software Engineering Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-gehc-gehc-externalsite-R4046263?s=gh-internships-2027",
-"company": "GE Healthcare",
-"title": "LSS Software Engineering Co-op - Madison, WI",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -57610,13 +57568,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/sr-BoschGroup-744000142898574?s=gh-internships-2027",
-"company": "Bosch Group",
-"title": "Powertrain Controls Software Engineering Intern (6-Months, Full-Time)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/ashby-zip-249837b3-106f-4751-a4f2-03a2c5df5faf?s=gh-internships-2027",
 "company": "Zip",
 "title": "Software Engineer Intern (Summer 2027)",
@@ -57638,9 +57589,9 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/sr-BoschGroup-744000145785190?s=gh-internships-2027",
+"id": "md:https://zapply.jobs/l/d/sr-BoschGroup-744000142898574?s=gh-internships-2027",
 "company": "Bosch Group",
-"title": "Phone as a Key Software Engineering - Intern",
+"title": "Powertrain Controls Software Engineering Intern (6-Months, Full-Time)",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -57652,23 +57603,23 @@
 "tag": "title"
 },
 {
-"id": "md:https://zapply.jobs/l/d/lever-palantir-7d69cf8a-06fd-4f05-bd84-27149db29c4d?s=gh-internships-2027",
+"id": "md:https://zapply.jobs/l/d/lever-palantir-75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3?s=gh-internships-2027",
 "company": "Palantir",
-"title": "Software Engineer, Internship",
+"title": "Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial",
 "rule": "defense",
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/lever-palantir-bdcfb29f-4f27-42de-933f-7f83a359b9f0?s=gh-internships-2027",
+"id": "md:https://zapply.jobs/l/d/lever-palantir-e6789b17-62fb-4226-a079-f8c17ff19e2d?s=gh-internships-2027",
 "company": "Palantir",
-"title": "Software Engineer, Internship",
+"title": "Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial",
 "rule": "defense",
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/lever-palantir-e27af7ab-41fc-40c9-b31d-02c6cb1c505c?s=gh-internships-2027",
+"id": "md:https://zapply.jobs/l/d/lever-palantir-5c4c65c5-77da-4d36-856c-4ade87631019?s=gh-internships-2027",
 "company": "Palantir",
-"title": "Software Engineer, Internship",
+"title": "Year at Palantir - Forward Deployed Software Engineer, Internship - USG",
 "rule": "defense",
 "tag": ""
 },
@@ -57701,13 +57652,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/lever-layup-0b42f7ad-ebdc-4b4a-8fe6-47640f6dba53?s=gh-internships-2027",
-"company": "Layup Parts",
-"title": "Software Engineering Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/ashby-mechanize-d148d54f-6db7-4c28-9699-0304596f554e?s=gh-internships-2027",
 "company": "Mechanize",
 "title": "Software Engineering Intern",
@@ -57715,10 +57659,24 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/sr-AbbVie-3743990014697918?s=gh-internships-2027",
-"company": "AbbVie",
-"title": "2027 Business Technology Solutions Intern - Data & Software Engineering (Undergraduate)",
+"id": "md:https://zapply.jobs/l/d/sr-BoschGroup-744000145785190?s=gh-internships-2027",
+"company": "Bosch Group",
+"title": "Phone as a Key Software Engineering - Intern",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/lever-layup-0b42f7ad-ebdc-4b4a-8fe6-47640f6dba53?s=gh-internships-2027",
+"company": "Layup Parts",
+"title": "Software Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/lever-hermeus-51378fa0-0327-45fd-9420-b6e7d8b56440?s=gh-internships-2027",
+"company": "Hermeus",
+"title": "Flight Software Engineering Intern - Fall 2026",
+"rule": "defense",
 "tag": ""
 },
 {
@@ -57729,10 +57687,10 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/lever-hermeus-51378fa0-0327-45fd-9420-b6e7d8b56440?s=gh-internships-2027",
-"company": "Hermeus",
-"title": "Flight Software Engineering Intern - Fall 2026",
-"rule": "defense",
+"id": "md:https://zapply.jobs/l/d/sr-AbbVie-3743990014697918?s=gh-internships-2027",
+"company": "AbbVie",
+"title": "2027 Business Technology Solutions Intern - Data & Software Engineering (Undergraduate)",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -57764,6 +57722,13 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/lever-belvederetrading-10746b3d-1760-4573-9b63-b93f5a5e4fc0?s=gh-internships-2027",
+"company": "Belvedere Trading",
+"title": "Software Engineer Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/ashby-etched-27e5bd6b-9357-45f0-9e79-cfa2bf4eeba8?s=gh-internships-2027",
 "company": "Etched",
 "title": "Chip Simulation Software Intern",
@@ -57774,13 +57739,6 @@
 "id": "md:https://zapply.jobs/l/d/ashby-ellipsislabs-02136b22-35b1-4b3d-8bef-567c3380a849?s=gh-internships-2027",
 "company": "Ellipsis Labs",
 "title": "Software Engineer - 2027 Interns",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/lever-belvederetrading-10746b3d-1760-4573-9b63-b93f5a5e4fc0?s=gh-internships-2027",
-"company": "Belvedere Trading",
-"title": "Software Engineer Intern - Summer 2027",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -57852,6 +57810,34 @@
 "company": "Google",
 "title": "Software Engineering Intern, PhD, Summer 2027",
 "rule": "seniority",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-amgen-careers-R-255719?s=gh-internships-2027",
+"company": "Amgen",
+"title": "Undergrad Intern \u2013 Software Engineer \u2013 Amgen\u2019s Technology & Medical Organizations (Summer 2027)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-motorolasolutions-careers-R68125?s=gh-internships-2027",
+"company": "Motorola Solutions",
+"title": "2027 Software Engineering Summer Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-motorolasolutions-careers-R68669?s=gh-internships-2027",
+"company": "Motorola Solutions",
+"title": "Product Quality Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-gehc-gehc-externalsite-R4046263?s=gh-internships-2027",
+"company": "GE Healthcare",
+"title": "LSS Software Engineering Co-op - Madison, WI",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -58009,10 +57995,17 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-intel-external-JR0286730?s=gh-internships-2027",
-"company": "Intel",
-"title": "AI Software Engineering PhD Intern",
-"rule": "seniority",
+"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14469?s=gh-internships-2027",
+"company": "Entegris",
+"title": "Material Quality Engineering Co-Op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14474?s=gh-internships-2027",
+"company": "Entegris",
+"title": "Quality Engineering Co-Op",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -58023,17 +58016,10 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01872977?s=gh-internships-2027",
-"company": "RTX",
-"title": "Software Engineering Intern (Summer 2027)",
-"rule": "defense",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873293?s=gh-internships-2027",
-"company": "RTX",
-"title": "Software Engineering Co-op (Summer/ Fall 2027)",
-"rule": "defense",
+"id": "md:https://zapply.jobs/l/d/workday-cox-cox-external-career-site-1-R202682288?s=gh-internships-2027",
+"company": "Cox",
+"title": "Cybersecurity Intern - Summer 2027",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -58051,10 +58037,24 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-cox-cox-external-career-site-1-R202682288?s=gh-internships-2027",
-"company": "Cox",
-"title": "Cybersecurity Intern - Summer 2027",
-"rule": "irrelevant",
+"id": "md:https://zapply.jobs/l/d/workday-intel-external-JR0286730?s=gh-internships-2027",
+"company": "Intel",
+"title": "AI Software Engineering PhD Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01872977?s=gh-internships-2027",
+"company": "RTX",
+"title": "Software Engineering Intern (Summer 2027)",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01873293?s=gh-internships-2027",
+"company": "RTX",
+"title": "Software Engineering Co-op (Summer/ Fall 2027)",
+"rule": "defense",
 "tag": ""
 },
 {
@@ -58114,44 +58114,30 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/greenhouse-rocketlab-7987159003?s=gh-internships-2027",
-"company": "Rocket Lab",
-"title": "Test Engineering Intern - Avionics Summer 2027",
-"rule": "curated_worker",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-caci-external-331543?s=gh-internships-2027",
-"company": "CACI",
-"title": "Software Engineering Intern - Summer 2027",
-"rule": "defense",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/greenhouse-tanium-8181017?s=gh-internships-2027",
-"company": "Tanium",
-"title": "Software Engineering Intern \u2013\u00a0Summer 2027",
+"id": "md:https://zapply.jobs/l/d/workday-nrel-nlr-R14510?s=gh-internships-2027",
+"company": "NREL",
+"title": "Graduate (Year-Round) Intern: Geospatial Data Science Modeling and Analysis",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-amgen-careers-R-255709?s=gh-internships-2027",
+"id": "md:https://zapply.jobs/l/d/workday-amgen-careers-R-255743?s=gh-internships-2027",
 "company": "Amgen",
-"title": "Undergrad Intern \u2013 Machine Learning Engineer \u2013 Amgen\u2019s Technology & Medical Organizations...",
+"title": "Grad Intern \u2013 Machine Learning Engineer \u2013 Amgen\u2019s Technology & Medical Organizations (Summer 2027)",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-amgen-careers-R-255708?s=gh-internships-2027",
+"id": "md:https://zapply.jobs/l/d/workday-amgen-careers-R-255742?s=gh-internships-2027",
 "company": "Amgen",
-"title": "Undergrad Intern \u2013 Data Engineer \u2013 Amgen\u2019s Technology & Medical Organizations (Summer 2027)",
+"title": "Grad Intern \u2013 Data Engineer \u2013 Amgen\u2019s Technology & Medical Organizations (Summer 2027)",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-amgen-careers-R-255704?s=gh-internships-2027",
+"id": "md:https://zapply.jobs/l/d/workday-amgen-careers-R-255725?s=gh-internships-2027",
 "company": "Amgen",
-"title": "Undergrad Intern \u2013 Data Scientist \u2013 Amgen\u2019s Technology & Medical Organizations (Summer 2027)",
+"title": "Grad Intern \u2013 Data Engineer \u2013 Amgen\u2019s Technology & Medical Organizations (Summer 2027)",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -58163,30 +58149,9 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-oshkoshcorporation-oshkosh-R49868?s=gh-internships-2027",
-"company": "Oshkosh Corporation",
-"title": "Data Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/sr-RESPECInc-744000107100902?s=gh-internships-2027",
 "company": "RE/SPEC Inc.",
 "title": "Student Engineering Intern - Data Science",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-msd-searchjobs-R413657?s=gh-internships-2027",
-"company": "Merck & Co.",
-"title": "2027 Future Talent Program - Data Analytics and Insights - Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-msd-searchjobs-R414840?s=gh-internships-2027",
-"company": "Merck & Co.",
-"title": "2027 Future Talent Program - QA Research Clinical Quality, Analytics & AI - Co-Op",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -58205,30 +58170,9 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-bmo-external-R260026562?s=gh-internships-2027",
-"company": "BMO",
-"title": "AI Intern, Winter 2027 (Internship) - 4 months",
-"rule": "season",
-"tag": "title"
-},
-{
 "id": "md:https://zapply.jobs/l/d/sr-Eurofins-744000131132249?s=gh-internships-2027",
 "company": "Eurofins",
 "title": "Business Intelligence Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/lever-ifm-us-5342e333-61b9-406d-bfea-61a687a94d1f?s=gh-internships-2027",
-"company": "Institute for Foundation Models",
-"title": "AI Research Internship - LLM",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/lever-ifm-us-3eec355c-6dde-4a3e-8cdf-b2a8930d5678?s=gh-internships-2027",
-"company": "Institute for Foundation Models",
-"title": "AI Research Internship - WM",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -58247,6 +58191,20 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/lever-ifm-us-5342e333-61b9-406d-bfea-61a687a94d1f?s=gh-internships-2027",
+"company": "Institute for Foundation Models",
+"title": "AI Research Internship - LLM",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/lever-ifm-us-3eec355c-6dde-4a3e-8cdf-b2a8930d5678?s=gh-internships-2027",
+"company": "Institute for Foundation Models",
+"title": "AI Research Internship - WM",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/ashby-human-computer-lab-7d13ae27-1f02-4d9b-8d39-e3d9d67df705?s=gh-internships-2027",
 "company": "Human Computer Lab",
 "title": "Intern - Software/ML Engineer",
@@ -58254,16 +58212,16 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/ashby-eragon-0b90ea4a-8684-4ae1-a7cc-c998db6e862e?s=gh-internships-2027",
-"company": "Eragon",
-"title": "Applied AI Intern",
+"id": "md:https://zapply.jobs/l/d/ashby-eightsleep-b6c2e6f6-eadd-4d67-93e9-1426be4f2035?s=gh-internships-2027",
+"company": "Eight Sleep",
+"title": "AI/ML Research Internship",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/ashby-eightsleep-b6c2e6f6-eadd-4d67-93e9-1426be4f2035?s=gh-internships-2027",
-"company": "Eight Sleep",
-"title": "AI/ML Research Internship",
+"id": "md:https://zapply.jobs/l/d/ashby-eragon-0b90ea4a-8684-4ae1-a7cc-c998db6e862e?s=gh-internships-2027",
+"company": "Eragon",
+"title": "Applied AI Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -58287,6 +58245,34 @@
 "title": "Machine Learning Engineer Intern (AML-Engine-Orchestration) - 2027 Start",
 "rule": "irrelevant",
 "tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-oshkoshcorporation-oshkosh-R49868?s=gh-internships-2027",
+"company": "Oshkosh Corporation",
+"title": "Data Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-msd-searchjobs-R413657?s=gh-internships-2027",
+"company": "Merck & Co.",
+"title": "2027 Future Talent Program - Data Analytics and Insights - Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-msd-searchjobs-R414840?s=gh-internships-2027",
+"company": "Merck & Co.",
+"title": "2027 Future Talent Program - QA Research Clinical Quality, Analytics & AI - Co-Op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-bmo-external-R260026562?s=gh-internships-2027",
+"company": "BMO",
+"title": "AI Intern, Winter 2027 (Internship) - 4 months",
+"rule": "season",
+"tag": "title"
 },
 {
 "id": "md:https://zapply.jobs/l/d/workday-td-td-bank-careers-R_1510111?s=gh-internships-2027",
@@ -58321,13 +58307,6 @@
 "company": "Leidos",
 "title": "AI/ML Intern",
 "rule": "defense",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-nrel-nlr-R14510?s=gh-internships-2027",
-"company": "NREL",
-"title": "Graduate (Year-Round) Intern: Geospatial Data Science Modeling and Analysis",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -58373,6 +58352,34 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/workday-mksinst-mkscareersuniversity-R20657?s=gh-internships-2027",
+"company": "MKS Instruments",
+"title": "2027 Summer BI/Data Analytics IT Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14499?s=gh-internships-2027",
+"company": "Entegris",
+"title": "Portfolio Analytics Analyst Co-Op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14498?s=gh-internships-2027",
+"company": "Entegris",
+"title": "Lab Automation & AI Engineering Co-Op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-ameriprise-ameriprise-R26_3595?s=gh-internships-2027",
+"company": "Ameriprise Financial",
+"title": "Data Analytics & AI Intern - RiverSource",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/workday-labcorp-external-2630590?s=gh-internships-2027",
 "company": "LabCorp",
 "title": "Intern - Data Science - Oncology",
@@ -58401,34 +58408,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-ameriprise-ameriprise-R26_3595?s=gh-internships-2027",
-"company": "Ameriprise Financial",
-"title": "Data Analytics & AI Intern - RiverSource",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-mksinst-mkscareersuniversity-R20657?s=gh-internships-2027",
-"company": "MKS Instruments",
-"title": "2027 Summer BI/Data Analytics IT Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14499?s=gh-internships-2027",
-"company": "Entegris",
-"title": "Portfolio Analytics Analyst Co-Op",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14498?s=gh-internships-2027",
-"company": "Entegris",
-"title": "Lab Automation & AI Engineering Co-Op",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/greenhouse-flyzipline-7990420003?s=gh-internships-2027",
 "company": "Zipline",
 "title": "Data Analytics Intern (Spring 2027)",
@@ -58446,6 +58425,20 @@
 "id": "md:https://zapply.jobs/l/d/sr-solidigm-744000148621589?s=gh-internships-2027",
 "company": "Solidigm",
 "title": "Talent Acquisition Data Engineering & Analytics Graduate Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-spgi-spgi-careers-331714?s=gh-internships-2027",
+"company": "S&P Global",
+"title": "Machine Learning Engineer - Summer Intern 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14511?s=gh-internships-2027",
+"company": "Entegris",
+"title": "Pricing & Commercial Analytics Co-op",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -58478,13 +58471,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-spgi-spgi-careers-331714?s=gh-internships-2027",
-"company": "S&P Global",
-"title": "Machine Learning Engineer - Summer Intern 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/workday-aero-external-R016432?s=gh-internships-2027",
 "company": "Aerospace Corporation",
 "title": "2027 Machine Learning Engineering Graduate Intern",
@@ -58510,13 +58496,6 @@
 "company": "Wells Fargo",
 "title": "2027 Quantitative Analytics Summer Internship Applied Computational Intelligence (ACI PhD) \u2013...",
 "rule": "seniority",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14511?s=gh-internships-2027",
-"company": "Entegris",
-"title": "Pricing & Commercial Analytics Co-op",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -58551,6 +58530,34 @@
 "id": "md:https://zapply.jobs/l/d/greenhouse-coinbase-8175471?s=gh-internships-2027",
 "company": "Coinbase",
 "title": "Analytics Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-gilead-gileadcareers-R0054693?s=gh-internships-2027",
+"company": "Gilead Sciences",
+"title": "Intern - Development - Portfolio Strategy and Analytics",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-gilead-gileadcareers-R0054572?s=gh-internships-2027",
+"company": "Gilead Sciences",
+"title": "Intern -\u00a0Research\u00a0- Data Sciences",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-gilead-gileadcareers-R0054744?s=gh-internships-2027",
+"company": "Gilead Sciences",
+"title": "Intern - CFO - IT (AI Engineer)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-cox-cox-external-career-site-1-R202682164?s=gh-internships-2027",
+"company": "Cox",
+"title": "Data Scientist Intern - Summer 2027 (Atlanta, GA)",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -58593,34 +58600,6 @@
 "id": "md:https://zapply.jobs/l/d/workday-thehartford-careers-external-R2626424?s=gh-internships-2027",
 "company": "The Hartford",
 "title": "Intern, Product Analytics Leadership Development Program",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-gilead-gileadcareers-R0054693?s=gh-internships-2027",
-"company": "Gilead Sciences",
-"title": "Intern - Development - Portfolio Strategy and Analytics",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-gilead-gileadcareers-R0054572?s=gh-internships-2027",
-"company": "Gilead Sciences",
-"title": "Intern -\u00a0Research\u00a0- Data Sciences",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-gilead-gileadcareers-R0054744?s=gh-internships-2027",
-"company": "Gilead Sciences",
-"title": "Intern - CFO - IT (AI Engineer)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-cox-cox-external-career-site-1-R202682164?s=gh-internships-2027",
-"company": "Cox",
-"title": "Data Scientist Intern - Summer 2027 (Atlanta, GA)",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -58744,16 +58723,16 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-premierinc-external-professional-R0008481?s=gh-internships-2027",
-"company": "Premier",
-"title": "Data Science Intern",
+"id": "md:https://zapply.jobs/l/d/workday-cat-caterpillarcareers-R0000392335?s=gh-internships-2027",
+"company": "Caterpillar",
+"title": "2027 Summer Corporate Intern \u2013 Digital and Analytics",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-cat-caterpillarcareers-R0000392335?s=gh-internships-2027",
-"company": "Caterpillar",
-"title": "2027 Summer Corporate Intern \u2013 Digital and Analytics",
+"id": "md:https://zapply.jobs/l/d/workday-premierinc-external-professional-R0008481?s=gh-internships-2027",
+"company": "Premier",
+"title": "Data Science Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -58786,6 +58765,13 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/workday-jj-jj-R-096746?s=gh-internships-2027",
+"company": "Johnson & Johnson",
+"title": "Data Science Co-Op, Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/workday-clarios-clarioscareers-WD49910?s=gh-internships-2027",
 "company": "Clarios",
 "title": "IT Digital/AI Intern (Summer 2027)",
@@ -58807,20 +58793,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-avav-avav-8389?s=gh-internships-2027",
-"company": "AeroVironment",
-"title": "Summer 2027 Machine Learning Intern",
-"rule": "defense",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-parsons-search-R185152?s=gh-internships-2027",
-"company": "Parsons",
-"title": "Roadway Engineering Intern - Summer 2027",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/sr-RESPECInc-744000113805397?s=gh-internships-2027",
 "company": "RE/SPEC Inc.",
 "title": "Student Engineering Intern - Civil",
@@ -58835,17 +58807,17 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10250495?s=gh-internships-2027",
-"company": "Northrop Grumman",
-"title": "2027 Fall Mechanical Engineering Co-op - Chandler AZ",
-"rule": "defense",
+"id": "md:https://zapply.jobs/l/d/workday-aes-aes-us-R1064841?s=gh-internships-2027",
+"company": "AES Corporation",
+"title": "T&D Performance and Reliability Engineering Intern (Summer 2027)",
+"rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-elanco-external-career-R0027172?s=gh-internships-2027",
-"company": "Elanco",
-"title": "Engineering Intern \u2013 Fort Dodge, Iowa (Summer 2027)",
-"rule": "irrelevant",
+"id": "md:https://zapply.jobs/l/d/lever-diversified-automation-3cea02c8-9a43-4542-96bb-df69a874f146?s=gh-internships-2027",
+"company": "Diversified Automation",
+"title": "Hardware Engineering Co-Op",
+"rule": "curated_worker",
 "tag": ""
 },
 {
@@ -58860,13 +58832,6 @@
 "company": "Bosch Group",
 "title": "Electronics Engineering Intern",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/lever-diversified-automation-3cea02c8-9a43-4542-96bb-df69a874f146?s=gh-internships-2027",
-"company": "Diversified Automation",
-"title": "Hardware Engineering Co-Op",
-"rule": "curated_worker",
 "tag": ""
 },
 {
@@ -58912,6 +58877,13 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/lever-hermeus-6afd9372-2a91-4935-b7a5-7a1cf4eb960b?s=gh-internships-2027",
+"company": "Hermeus",
+"title": "Test and Operations Engineering Intern - Fall 2026",
+"rule": "defense",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/lever-hermeus-a1f3aa29-72ea-4843-b2ea-801f3bef73ae?s=gh-internships-2027",
 "company": "Hermeus",
 "title": "Manufacturing Engineering Intern - Fall 2026",
@@ -58922,13 +58894,6 @@
 "id": "md:https://zapply.jobs/l/d/lever-hermeus-6b6afa4a-b37d-4033-ac3b-e6501a951b98?s=gh-internships-2027",
 "company": "Hermeus",
 "title": "Mechanical Engineering Intern  - Fall 2026",
-"rule": "defense",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/lever-hermeus-943f51e4-5b26-432c-ae85-de5f43cadb86?s=gh-internships-2027",
-"company": "Hermeus",
-"title": "Propulsion Engineering Intern - Spring/Summer/Fall 2027",
 "rule": "defense",
 "tag": ""
 },
@@ -58947,6 +58912,13 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/ashby-base-power-a92c9d93-eac0-4da5-b3f2-edf1eeef146b?s=gh-internships-2027",
+"company": "Base Power",
+"title": "Manufacturing Engineering Intern",
+"rule": "curated_worker",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/ashby-base-power-6c56e236-888e-423d-9f68-764bd9a4742d?s=gh-internships-2027",
 "company": "Base Power",
 "title": "Manufacturing Controls Engineering Intern",
@@ -58961,16 +58933,30 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/ashby-base-power-a92c9d93-eac0-4da5-b3f2-edf1eeef146b?s=gh-internships-2027",
-"company": "Base Power",
-"title": "Manufacturing Engineering Intern",
-"rule": "curated_worker",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/ashby-allium-5d697ce5-b820-45c0-a101-86a05e1fb15e?s=gh-internships-2027",
 "company": "Allium",
 "title": "Engineering Intern - General / AI",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-parsons-search-R185152?s=gh-internships-2027",
+"company": "Parsons",
+"title": "Roadway Engineering Intern - Summer 2027",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10250495?s=gh-internships-2027",
+"company": "Northrop Grumman",
+"title": "2027 Fall Mechanical Engineering Co-op - Chandler AZ",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-elanco-external-career-R0027172?s=gh-internships-2027",
+"company": "Elanco",
+"title": "Engineering Intern \u2013 Fort Dodge, Iowa (Summer 2027)",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -58987,13 +58973,6 @@
 "title": "GE Vernova Gas Power Engineering Internship - Spring 2027",
 "rule": "season",
 "tag": "title"
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-aes-aes-us-R1064841?s=gh-internships-2027",
-"company": "AES Corporation",
-"title": "T&D Performance and Reliability Engineering Intern (Summer 2027)",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "md:https://zapply.jobs/l/d/amd-92354?s=gh-internships-2027",
@@ -59038,6 +59017,41 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/workday-globusmedical-gmed-careers-JR107803?s=gh-internships-2027",
+"company": "Globus Medical",
+"title": "Engineering Intern - Spring 2027",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-curtisswright-cw-external-career-site-JR13583?s=gh-internships-2027",
+"company": "Curtiss-Wright",
+"title": "Design Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-cox-cox-external-career-site-1-R202682358?s=gh-internships-2027",
+"company": "Cox",
+"title": "Application Support Engineering Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-cox-cox-external-career-site-1-R202682348?s=gh-internships-2027",
+"company": "Cox",
+"title": "Test Automation Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-cox-cox-external-career-site-1-R202682342?s=gh-internships-2027",
+"company": "Cox",
+"title": "AI/Automation Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01871548?s=gh-internships-2027",
 "company": "RTX",
 "title": "Mechanical Engineering Intern (Summer 2027)",
@@ -59062,27 +59076,6 @@
 "id": "md:https://zapply.jobs/l/d/workday-gevernova-vernova-externalsite-R5051434?s=gh-internships-2027",
 "company": "GE Vernova",
 "title": "GE Vernova Gas Power Engineering Internship - Summer 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-cox-cox-external-career-site-1-R202682358?s=gh-internships-2027",
-"company": "Cox",
-"title": "Application Support Engineering Intern - Summer 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-cox-cox-external-career-site-1-R202682348?s=gh-internships-2027",
-"company": "Cox",
-"title": "Test Automation Intern - Summer 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-cox-cox-external-career-site-1-R202682342?s=gh-internships-2027",
-"company": "Cox",
-"title": "AI/Automation Intern - Summer 2027",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -59122,24 +59115,10 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-globusmedical-gmed-careers-JR107803?s=gh-internships-2027",
-"company": "Globus Medical",
-"title": "Engineering Intern - Spring 2027",
-"rule": "season",
-"tag": "title"
-},
-{
 "id": "md:https://zapply.jobs/l/d/greenhouse-rocketlab-7990683003?s=gh-internships-2027",
 "company": "Rocket Lab",
 "title": "Electrical Engineering Intern Summer 2027",
 "rule": "curated_worker",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-curtisswright-cw-external-career-site-JR13583?s=gh-internships-2027",
-"company": "Curtiss-Wright",
-"title": "Design Engineering Intern",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -59248,10 +59227,10 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/ashby-saronic-c7779462-3c4c-44d9-8314-1be93a0e478a?s=gh-internships-2027",
-"company": "Saronic Technologies",
-"title": "Electrical Engineer Intern (Summer 2027)",
-"rule": "defense",
+"id": "md:https://zapply.jobs/l/d/workday-oshkoshcorporation-oshkosh-R49703?s=gh-internships-2027",
+"company": "Oshkosh Corporation",
+"title": "Industrial Design Intern",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -59262,9 +59241,9 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-labcorp-external-2631589?s=gh-internships-2027",
-"company": "LabCorp",
-"title": "Intern- Immunology Lab Research Assistant",
+"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14428?s=gh-internships-2027",
+"company": "Entegris",
+"title": "Designer/Drafter Co-Op",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -59325,6 +59304,13 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/lever-certik-148afcf8-106b-42fa-a516-6bb8f1184e33?s=gh-internships-2027",
+"company": "CertiK",
+"title": "Security Research Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/ashby-human-computer-lab-9aa0a361-9807-404b-a87e-1460699a296d?s=gh-internships-2027",
 "company": "Human Computer Lab",
 "title": "Intern - Industrial Designer",
@@ -59332,9 +59318,9 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/lever-certik-148afcf8-106b-42fa-a516-6bb8f1184e33?s=gh-internships-2027",
-"company": "CertiK",
-"title": "Security Research Internship",
+"id": "md:https://zapply.jobs/l/d/ashby-applied-ce58d9fd-f22b-4336-80b5-ba1e8d764526?s=gh-internships-2027",
+"company": "Applied Intuition",
+"title": "Research Intern - Reinforcement Learning, Self-Driving",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -59374,6 +59360,13 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/workday-labcorp-external-2631589?s=gh-internships-2027",
+"company": "LabCorp",
+"title": "Intern- Immunology Lab Research Assistant",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/workday-tel-tel-careers-R26-01506?s=gh-internships-2027",
 "company": "TEL",
 "title": "Research Scientist, Simulation Summer 2027 Intern",
@@ -59384,13 +59377,6 @@
 "id": "md:https://zapply.jobs/l/d/workday-philips-jobs-and-careers-591948?s=gh-internships-2027",
 "company": "Philips",
 "title": "Intern\u2013 Design Assurance Engineer \u2013 Colorado Springs, CO \u2013 Summer 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14428?s=gh-internships-2027",
-"company": "Entegris",
-"title": "Designer/Drafter Co-Op",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -59427,6 +59413,13 @@
 "company": "Rocket Lab",
 "title": "Propulsion Design Intern Spring 2027",
 "rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14435?s=gh-internships-2027",
+"company": "Entegris",
+"title": "Product Design Co-Op",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -59472,13 +59465,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14435?s=gh-internships-2027",
-"company": "Entegris",
-"title": "Product Design Co-Op",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/workday-abb-external-career-page-JR00042028?s=gh-internships-2027",
 "company": "ABB",
 "title": "Instructional Design- Fall 2026",
@@ -59510,6 +59496,13 @@
 "id": "md:https://zapply.jobs/l/d/workday-workiva-careers-R12318?s=gh-internships-2027",
 "company": "Workiva",
 "title": "Spring & Summer 2027 Intern - Brand Graphic Design",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14491?s=gh-internships-2027",
+"company": "Entegris",
+"title": "Design and Process Engineering Co-Op",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -59563,13 +59556,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14491?s=gh-internships-2027",
-"company": "Entegris",
-"title": "Design and Process Engineering Co-Op",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/workday-target-targetcareers-R0000451077?s=gh-internships-2027",
 "company": "Target",
 "title": "UX Design Internship - Minneapolis, MN (Starting Summer, 2027)",
@@ -59605,6 +59591,13 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/workday-allegion-careers-JR37493?s=gh-internships-2027",
+"company": "Allegion",
+"title": "Summer Intern - Product Manager for Allegion Home",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01864899?s=gh-internships-2027",
 "company": "RTX",
 "title": "Mechanical Design Intern (Summer 2027) (Onsite)",
@@ -59622,13 +59615,6 @@
 "id": "md:https://zapply.jobs/l/d/workday-redhat-jobs-R-059060?s=gh-internships-2027",
 "company": "Red Hat",
 "title": "Product Manager Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-allegion-careers-JR37493?s=gh-internships-2027",
-"company": "Allegion",
-"title": "Summer Intern - Product Manager for Allegion Home",
 "rule": "seniority",
 "tag": ""
 },
@@ -59822,6 +59808,13 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01872007?s=gh-internships-2027",
+"company": "RTX",
+"title": "Antenna Design Engineer Intern (Summer 2027)(Onsite)",
+"rule": "defense",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/workday-cmu-sei-2025068?s=gh-internships-2027",
 "company": "Carnegie Mellon SEI",
 "title": "AI Security Research Intern  (Sept 2026 - May 2027)",
@@ -59833,13 +59826,6 @@
 "company": "HARMAN International",
 "title": "Intern - Product Design",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01872007?s=gh-internships-2027",
-"company": "RTX",
-"title": "Antenna Design Engineer Intern (Summer 2027)(Onsite)",
-"rule": "defense",
 "tag": ""
 },
 {
@@ -59878,16 +59864,9 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-menasha-menashacorp-R13995?s=gh-internships-2027",
-"company": "Menasha Corporation",
-"title": "Application & Design Integration Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-snapchat-snap-H226RI?s=gh-internships-2027",
-"company": "Snap",
-"title": "Research Intern, User Modeling and Personalization",
+"id": "md:https://zapply.jobs/l/d/workday-jj-jj-R-096727?s=gh-internships-2027",
+"company": "Johnson & Johnson",
+"title": "Design and Development Co-Op, Summer 2027",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -59899,17 +59878,10 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-oshkoshcorporation-oshkosh-R50271?s=gh-internships-2027",
-"company": "Oshkosh Corporation",
-"title": "Finance & Accounting Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-motorolasolutions-careers-R68739?s=gh-internships-2027",
-"company": "Motorola Solutions",
-"title": "VS&A Supply Chain Intern",
-"rule": "irrelevant",
+"id": "md:https://zapply.jobs/l/d/workday-hpe-jobsathpe-1213486?s=gh-internships-2027",
+"company": "HPE (University)",
+"title": "Program Manager Intern",
+"rule": "seniority",
 "tag": ""
 },
 {
@@ -59948,16 +59920,16 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/sr-AbbVie-3743990014410925?s=gh-internships-2027",
-"company": "AbbVie",
-"title": "2027 Human Resources Leadership Development Program Intern (Master's)",
+"id": "md:https://zapply.jobs/l/d/ashby-matx-d74c72e7-49ec-4a04-9405-04ef0f0d87c6?s=gh-internships-2027",
+"company": "MatX",
+"title": "Laboratory Operations Intern",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/lever-crestoperations-0c3cb17a-06f9-43aa-a623-c3588544f606?s=gh-internships-2027",
-"company": "Crest Industries",
-"title": "Accounting Internship",
+"id": "md:https://zapply.jobs/l/d/sr-AbbVie-3743990014410925?s=gh-internships-2027",
+"company": "AbbVie",
+"title": "2027 Human Resources Leadership Development Program Intern (Master's)",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -59969,17 +59941,10 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/ashby-matx-d74c72e7-49ec-4a04-9405-04ef0f0d87c6?s=gh-internships-2027",
-"company": "MatX",
-"title": "Laboratory Operations Intern",
+"id": "md:https://zapply.jobs/l/d/lever-crestoperations-0c3cb17a-06f9-43aa-a623-c3588544f606?s=gh-internships-2027",
+"company": "Crest Industries",
+"title": "Accounting Internship",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/ashby-etched-a0a1671e-15d4-474c-8227-97fe16ade553?s=gh-internships-2027",
-"company": "Etched",
-"title": "Finance Intern",
-"rule": "curated_worker",
 "tag": ""
 },
 {
@@ -59997,6 +59962,13 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/ashby-etched-a0a1671e-15d4-474c-8227-97fe16ade553?s=gh-internships-2027",
+"company": "Etched",
+"title": "Finance Intern",
+"rule": "curated_worker",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/bytedance-7673715653065525509?s=gh-internships-2027",
 "company": "ByteDance",
 "title": "AI Creator Operations Intern (CapCut) - 2027 Start",
@@ -60004,16 +59976,23 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-generalmotors-careers-gm-JR-202619666?s=gh-internships-2027",
-"company": "General Motors",
-"title": "2027 Summer Intern - Field Sales Operations Internship \u2013 District Manager, Parts & Service",
-"rule": "seniority",
+"id": "md:https://zapply.jobs/l/d/workday-oshkoshcorporation-oshkosh-R50271?s=gh-internships-2027",
+"company": "Oshkosh Corporation",
+"title": "Finance & Accounting Intern",
+"rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-hpe-jobsathpe-1213486?s=gh-internships-2027",
-"company": "HPE (University)",
-"title": "Program Manager Intern",
+"id": "md:https://zapply.jobs/l/d/workday-motorolasolutions-careers-R68739?s=gh-internships-2027",
+"company": "Motorola Solutions",
+"title": "VS&A Supply Chain Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-generalmotors-careers-gm-JR-202619666?s=gh-internships-2027",
+"company": "General Motors",
+"title": "2027 Summer Intern - Field Sales Operations Internship \u2013 District Manager, Parts & Service",
 "rule": "seniority",
 "tag": ""
 },
@@ -60123,9 +60102,16 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-msd-searchjobs-R414013?s=gh-internships-2027",
-"company": "Merck & Co.",
-"title": "2027 Future Talent Program - Supply Chain Management Summer Intern - US Based",
+"id": "md:https://zapply.jobs/l/d/workday-usaa-usaajobswd-R0120825?s=gh-internships-2027",
+"company": "USAA",
+"title": "Future Leaders Program - Finance Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14450?s=gh-internships-2027",
+"company": "Entegris",
+"title": "Supply Chain Planning Co-Op",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -60133,6 +60119,34 @@
 "id": "md:https://zapply.jobs/l/d/workday-allegion-careers-JR37468?s=gh-internships-2027",
 "company": "Allegion",
 "title": "Summer Intern - Supply Chain",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-ameriprise-ameriprise-R26_3596?s=gh-internships-2027",
+"company": "Ameriprise Financial",
+"title": "Marketing & Sales Strategy Intern - Wealth Management Solutions",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-cox-cox-external-career-site-1-R202682357?s=gh-internships-2027",
+"company": "Cox",
+"title": "Infrastructure Operations Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-cox-cox-external-career-site-1-R202682324?s=gh-internships-2027",
+"company": "Cox",
+"title": "Marketing Intern - Summer 2027",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-msd-searchjobs-R414013?s=gh-internships-2027",
+"company": "Merck & Co.",
+"title": "2027 Future Talent Program - Supply Chain Management Summer Intern - US Based",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -60158,30 +60172,9 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-cox-cox-external-career-site-1-R202682357?s=gh-internships-2027",
-"company": "Cox",
-"title": "Infrastructure Operations Intern - Summer 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-cox-cox-external-career-site-1-R202682324?s=gh-internships-2027",
-"company": "Cox",
-"title": "Marketing Intern - Summer 2027",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/workday-radiancetech-radiance-external-HR102401?s=gh-internships-2027",
 "company": "Radiance Technologies",
 "title": "Administrative Operations Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-usaa-usaajobswd-R0120825?s=gh-internships-2027",
-"company": "USAA",
-"title": "Future Leaders Program - Finance Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -60242,13 +60235,6 @@
 "tag": "title"
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-ameriprise-ameriprise-R26_3596?s=gh-internships-2027",
-"company": "Ameriprise Financial",
-"title": "Marketing & Sales Strategy Intern - Wealth Management Solutions",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/greenhouse-genevatrading-5232641007?s=gh-internships-2027",
 "company": "Geneva Trading",
 "title": "Quantitative Trading Internship \u2013 Summer 2027",
@@ -60270,13 +60256,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14450?s=gh-internships-2027",
-"company": "Entegris",
-"title": "Supply Chain Planning Co-Op",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01868794?s=gh-internships-2027",
 "company": "RTX",
 "title": "Global Supply Chain Intern (Summer 2027)",
@@ -60294,6 +60273,13 @@
 "id": "md:https://zapply.jobs/l/d/oracle-vertiv-20279280?s=gh-internships-2027",
 "company": "Vertiv",
 "title": "Finance Intern -  SEC Reporting (Summer 2027)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14413?s=gh-internships-2027",
+"company": "Entegris",
+"title": "IT Digital Ops & Supply Chain Data Co-Op",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -60336,13 +60322,6 @@
 "id": "md:https://zapply.jobs/l/d/lever-crestoperations-79751f7f-fd05-4b5a-8154-f8f2819cf900?s=gh-internships-2027",
 "company": "Crest Industries",
 "title": "Enterprise Technology Operations Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14413?s=gh-internships-2027",
-"company": "Entegris",
-"title": "IT Digital Ops & Supply Chain Data Co-Op",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -60473,6 +60452,27 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/workday-gilead-gileadcareers-R0054770?s=gh-internships-2027",
+"company": "Gilead Sciences",
+"title": "Intern - PDM - Supply Chain (ERP Center of Excellence)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-gilead-gileadcareers-R0054674?s=gh-internships-2027",
+"company": "Gilead Sciences",
+"title": "Intern - CFO - Corporate Development (Transactions Team)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-gilead-gileadcareers-R0054519?s=gh-internships-2027",
+"company": "Gilead Sciences",
+"title": "Intern - Human Resources - Employee Growth & Learning Enablement",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/workday-redhat-jobs-R-059065?s=gh-internships-2027",
 "company": "Red Hat",
 "title": "NA Field Marketing - Ecosystem Marketing Intern",
@@ -60536,27 +60536,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-gilead-gileadcareers-R0054674?s=gh-internships-2027",
-"company": "Gilead Sciences",
-"title": "Intern - CFO - Corporate Development (Transactions Team)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-gilead-gileadcareers-R0054519?s=gh-internships-2027",
-"company": "Gilead Sciences",
-"title": "Intern - Human Resources - Employee Growth & Learning Enablement",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-gilead-gileadcareers-R0054530?s=gh-internships-2027",
-"company": "Gilead Sciences",
-"title": "Intern - Human Resources - Employer Branding & Talent Attraction",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/workday-gevernova-vernova-externalsite-R5049384?s=gh-internships-2027",
 "company": "GE Vernova",
 "title": "GE Vernova Gas Power Communications Intern",
@@ -60592,16 +60571,51 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-amgen-careers-R-255711?s=gh-internships-2027",
+"id": "md:https://zapply.jobs/l/d/workday-amgen-careers-R-255744?s=gh-internships-2027",
 "company": "Amgen",
-"title": "Undergrad Intern \u2013 Digital Product \u2013 Amgen\u2019s Technology & Medical Organizations (Summer 2027)",
+"title": "Grad Intern \u2013 Digital Product \u2013 Amgen\u2019s Technology & Medical Organizations (Summer 2027)",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-amgen-careers-R-255744?s=gh-internships-2027",
-"company": "Amgen",
-"title": "Grad Intern \u2013 Digital Product \u2013 Amgen\u2019s Technology & Medical Organizations (Summer 2027)",
+"id": "md:https://zapply.jobs/l/d/workday-salesforce-external-career-site-JR359638?s=gh-internships-2027",
+"company": "Salesforce",
+"title": "Summer 2027 Intern - Finance Operations Associate",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-oshkoshcorporation-oshkosh-R50176?s=gh-internships-2027",
+"company": "Oshkosh Corporation",
+"title": "Purchasing Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-usaa-usaajobswd-R0120923?s=gh-internships-2027",
+"company": "USAA",
+"title": "Decision Science Analyst Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-crowe-external-careers-R-71039?s=gh-internships-2027",
+"company": "Crowe",
+"title": "MSFT AI Business Solutions Technical Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-crowe-external-careers-R-71038?s=gh-internships-2027",
+"company": "Crowe",
+"title": "MSFT AI Business Solutions Project Coordinator Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-crowe-external-careers-R-71037?s=gh-internships-2027",
+"company": "Crowe",
+"title": "MSFT AI Business Solutions Implementation Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -60613,10 +60627,10 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-brunswick-search-JR-051585?s=gh-internships-2027",
-"company": "Brunswick",
-"title": "Mercury Marine: Operations Management Intern",
-"rule": "irrelevant",
+"id": "md:https://zapply.jobs/l/d/workday-agilent-agilent-student-careers-4039701?s=gh-internships-2027",
+"company": "Agilent Technologies",
+"title": "Intern \u2013 Predictive Sales Prospecting",
+"rule": "seniority",
 "tag": ""
 },
 {
@@ -60627,23 +60641,30 @@
 "tag": "title"
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-keybank-external-career-site-R-41393?s=gh-internships-2027",
-"company": "KeyBank",
-"title": "2027 Summer Commercial Bank Internship - Cleveland",
+"id": "md:https://zapply.jobs/l/d/workday-gilead-gileadcareers-R0054506?s=gh-internships-2027",
+"company": "Gilead Sciences",
+"title": "Intern -\u00a0Kite Commercial -\u00a0Early Pipeline Strategy & Franchise Operations",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-oshkoshcorporation-oshkosh-R50176?s=gh-internships-2027",
-"company": "Oshkosh Corporation",
-"title": "Purchasing Intern",
+"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14463?s=gh-internships-2027",
+"company": "Entegris",
+"title": "IT Program Management Co-Op",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-oshkoshcorporation-oshkosh-R50267?s=gh-internships-2027",
-"company": "Oshkosh Corporation",
-"title": "Cyber Security Intern",
+"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14426?s=gh-internships-2027",
+"company": "Entegris",
+"title": "NPI Engineering Co-Op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-entegris-entegriscareers-REQ-14459?s=gh-internships-2027",
+"company": "Entegris",
+"title": "Technical Training Co-Op",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -60655,100 +60676,9 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-jj-jj-R-098417?s=gh-internships-2027",
-"company": "Johnson & Johnson",
-"title": "PMO Summer Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-jj-jj-R-098397?s=gh-internships-2027",
-"company": "Johnson & Johnson",
-"title": "2027 R&D LCM Co-Op",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-msd-searchjobs-R416226?s=gh-internships-2027",
-"company": "Merck & Co.",
-"title": "2027 Future Talent Program \u2013 Discovery Immunology \u2013 Co-op (Cambridge, MA)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-msd-searchjobs-R392762?s=gh-internships-2027",
-"company": "Merck & Co.",
-"title": "2027 Future Talent Program - Process/Project Engineer - Global Engineering Solutions Co-op,...",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-msd-searchjobs-R417753?s=gh-internships-2027",
-"company": "Merck & Co.",
-"title": "2027 Future Talent Program \u2013 Manufacturing Science and Technology Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/sr-RedBull-744000117670568?s=gh-internships-2027",
 "company": "Red Bull",
 "title": "2026 Internship, Summer - Creative Video",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-labcorp-external-2630998?s=gh-internships-2027",
-"company": "LabCorp",
-"title": "Intern - Research & Development - Molecular Assay Development",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-labcorp-external-2630921?s=gh-internships-2027",
-"company": "LabCorp",
-"title": "Intern - Research and Development - Oncology",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-geaerospace-ge-externalsite-R5039588?s=gh-internships-2027",
-"company": "GE Aerospace",
-"title": "Structures Intern/Co-op \u2013 ACSC \u2013 Cincinnati, OH \u2013 Spring 2027",
-"rule": "season",
-"tag": "title"
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-geaerospace-ge-externalsite-R5036325?s=gh-internships-2027",
-"company": "GE Aerospace",
-"title": "Technical Coop \u2013 2 Year Technical Associates Degree programs \u2013 Spring 2027",
-"rule": "season",
-"tag": "title"
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-gehc-gehc-externalsite-R4045971?s=gh-internships-2027",
-"company": "GE Healthcare",
-"title": "GEHC Ventures Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-gehc-gehc-externalsite-R4046271?s=gh-internships-2027",
-"company": "GE Healthcare",
-"title": "LSS Project Leader Co-op",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-gehc-gehc-externalsite-R4046309?s=gh-internships-2027",
-"company": "GE Healthcare",
-"title": "LSS V&V Engineering Co-op",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/sr-RedBull-744000140967576?s=gh-internships-2027",
-"company": "Red Bull",
-"title": "2026 Internship, Fall - Communications and Community",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -60760,44 +60690,37 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/sr-RedBull-744000139169859?s=gh-internships-2027",
+"company": "Red Bull",
+"title": "2026 Internship, Fall - Digital Growth & Content",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-geaerospace-ge-externalsite-R5036325?s=gh-internships-2027",
+"company": "GE Aerospace",
+"title": "Technical Coop \u2013 2 Year Technical Associates Degree programs \u2013 Spring 2027",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "md:https://zapply.jobs/l/d/sr-NorthwesternMutual-743999658679004?s=gh-internships-2027",
+"company": "Northwestern Mutual",
+"title": "Actuarial Summer Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/sr-NorthwesternMutual-85751711?s=gh-internships-2027",
+"company": "Northwestern Mutual",
+"title": "Application Development Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/sr-NorthwesternMutual-85751642?s=gh-internships-2027",
 "company": "Northwestern Mutual",
 "title": "Cyber-Security Internship",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/sr-NorthwesternMutual-85751589?s=gh-internships-2027",
-"company": "Northwestern Mutual",
-"title": "Systems Administration Internship",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/sr-NorthwesternMutual-85751519?s=gh-internships-2027",
-"company": "Northwestern Mutual",
-"title": "Information Risk Management Internship",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-insulet-insuletcareers-REQ-2026-18209?s=gh-internships-2027",
-"company": "Insulet Corporation",
-"title": "Co-op, Supplier Development Engineering - Mechanical: January-June 2027 (Onsite)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-insulet-insuletcareers-REQ-2026-18213?s=gh-internships-2027",
-"company": "Insulet Corporation",
-"title": "Co-op, Supplier Engineering - Global Technical Excellence: January - June 2027 (Onsite)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-insulet-insuletcareers-REQ-2026-18043?s=gh-internships-2027",
-"company": "Insulet Corporation",
-"title": "Co-op, Life Cycle Engineering - Electrical: January - June 2027 (Hybrid)",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -60844,41 +60767,6 @@
 "tag": "title"
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-cibc-search-2618397?s=gh-internships-2027",
-"company": "CIBC",
-"title": "Summer Intern 2027- Private Wealth Management",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-bristolmyerssquibb-bms-R1606247?s=gh-internships-2027",
-"company": "Bristol Myers Squibb",
-"title": "2027 Summer Intern, 1Y MBA Finance Associates Program",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-bdx-external-career-site-usa-R-554134?s=gh-internships-2027",
-"company": "Becton Dickinson",
-"title": "Global Marketing Co-Op, Vial & Central Solutions",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-elanco-external-career-R0027171?s=gh-internships-2027",
-"company": "Elanco",
-"title": "Operational Excellence Intern \u2013 Fort Dodge, Iowa (Summer 2027)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-allegion-careers-JR37509?s=gh-internships-2027",
-"company": "Allegion",
-"title": "Summer 2027 Intern - Field Sales",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/workday-allegion-careers-JR37424?s=gh-internships-2027",
 "company": "Allegion",
 "title": "Summer Intern - Global Supply Strategy",
@@ -60893,6 +60781,13 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/workday-allegion-careers-JR37509?s=gh-internships-2027",
+"company": "Allegion",
+"title": "Summer 2027 Intern - Field Sales",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/workday-cranecompany-careers-JR102499?s=gh-internships-2027",
 "company": "Crane Co.",
 "title": "Engineering Co-Op Summer 2027",
@@ -60900,9 +60795,37 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/workday-ameriprise-ameriprise-R26_3592?s=gh-internships-2027",
+"company": "Ameriprise Financial",
+"title": "Marketing Innovation Intern - RiverSource",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/sr-EVERSANA1-744000146017939?s=gh-internships-2027",
 "company": "EVERSANA",
 "title": "Intern, EVERSANA Management Consulting (June 2027 Start, 10-week Program)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-aes-aes-us-R1064284?s=gh-internships-2027",
+"company": "AES Corporation",
+"title": "Co-op - PMO - T&D Investments Group - Fall 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-aes-aes-us-R1064840?s=gh-internships-2027",
+"company": "AES Corporation",
+"title": "Distribution Planning Engineer Intern (Summer 2027)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-aes-aes-us-R1064736?s=gh-internships-2027",
+"company": "AES Corporation",
+"title": "Co-Op - Transmission Engineering Services - (Fall 2027)",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -60914,16 +60837,9 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/workday-comcast-comcast-careers-R443787?s=gh-internships-2027",
-"company": "Comcast",
-"title": "Retail Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/workday-clarios-clarioscareers-WD49905?s=gh-internships-2027",
-"company": "Clarios",
-"title": "Product Engineering: Lithium-Ion Cells Intern (Summer 2027)",
+"id": "md:https://zapply.jobs/l/d/workday-cibc-search-2618397?s=gh-internships-2027",
+"company": "CIBC",
+"title": "Summer Intern 2027- Private Wealth Management",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -60932,13 +60848,6 @@
 "company": "Bosch Group",
 "title": "MFG Test Technician Intern",
 "rule": "seniority",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/sr-BoschGroup-744000129558629?s=gh-internships-2027",
-"company": "Bosch Group",
-"title": "Purchasing Intern",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -60953,6 +60862,13 @@
 "company": "Diversified Automation",
 "title": "Controls Engineering Co-op",
 "rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/sr-BoschGroup-744000129558629?s=gh-internships-2027",
+"company": "Bosch Group",
+"title": "Purchasing Intern",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -60977,13 +60893,6 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/ashby-vendelux-ec44a794-9622-444e-a789-491fa12726dd?s=gh-internships-2027",
-"company": "Vendelux",
-"title": "Fall Data Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/ashby-gritt-5c4737ce-f546-453b-b30d-791a121fb9fd?s=gh-internships-2027",
 "company": "Gritt Robotics",
 "title": "Robot Learning Engineer Intern",
@@ -60991,9 +60900,9 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/lever-tri-63d61db3-ac43-4c0d-8b9b-5006e3b92149?s=gh-internships-2027",
-"company": "Toyota Research Institute",
-"title": "Human Interactive Driving Intern \u2013 World Models",
+"id": "md:https://zapply.jobs/l/d/ashby-vendelux-ec44a794-9622-444e-a789-491fa12726dd?s=gh-internships-2027",
+"company": "Vendelux",
+"title": "Fall Data Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -61026,9 +60935,9 @@
 "tag": "title"
 },
 {
-"id": "md:https://zapply.jobs/l/d/sr-AbbVie-3743990012915326?s=gh-internships-2027",
-"company": "AbbVie",
-"title": "Veteran SkillBridge Program Intern",
+"id": "md:https://zapply.jobs/l/d/lever-tri-63d61db3-ac43-4c0d-8b9b-5006e3b92149?s=gh-internships-2027",
+"company": "Toyota Research Institute",
+"title": "Human Interactive Driving Intern \u2013 World Models",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -61047,31 +60956,10 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/sr-AbbVie-3743990014191506?s=gh-internships-2027",
-"company": "AbbVie",
-"title": "2027 Packaging Co-Op (July - Dec)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/sr-AbbVie-3743990014191096?s=gh-internships-2027",
-"company": "AbbVie",
-"title": "2027 Packaging Co-Op (Jan - June)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/lever-life-2282f1ca-c456-46a2-9ba3-05524e4ce91b?s=gh-internships-2027",
 "company": "Life.Church (YouVersion)",
 "title": "Life.Church Campus Internship",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/lever-MachinaLabs-95d39682-8861-4b82-bb18-c985f280f415?s=gh-internships-2027",
-"company": "Machina Labs",
-"title": "Technical Project Manager, Intern",
-"rule": "curated_worker",
 "tag": ""
 },
 {
@@ -61089,9 +60977,44 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/lever-MachinaLabs-da8632d8-5a1d-4d1b-8270-b8e6209f0cc1?s=gh-internships-2027",
+"company": "Machina Labs",
+"title": "Robotic Process Engineer, Intern",
+"rule": "curated_worker",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/lever-ifm-us-1a09231e-44f2-4c82-a7a1-793bd159d68d?s=gh-internships-2027",
 "company": "Institute for Foundation Models",
 "title": "Inference Optimization Intern \u2013 Performance Modeling",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-leland-23c6dd75-cc1e-457b-a666-2fbf944540e1?s=gh-internships-2027",
+"company": "Leland",
+"title": "Growth & Ops Intern: Courses & Events",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/sr-AbbVie-3743990012915326?s=gh-internships-2027",
+"company": "AbbVie",
+"title": "Veteran SkillBridge Program Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/sr-AbbVie-3743990014191506?s=gh-internships-2027",
+"company": "AbbVie",
+"title": "2027 Packaging Co-Op (July - Dec)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/sr-AbbVie-3743990014191096?s=gh-internships-2027",
+"company": "AbbVie",
+"title": "2027 Packaging Co-Op (Jan - June)",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -61103,67 +61026,11 @@
 "tag": ""
 },
 {
-"id": "md:https://zapply.jobs/l/d/ashby-leland-23c6dd75-cc1e-457b-a666-2fbf944540e1?s=gh-internships-2027",
-"company": "Leland",
-"title": "Growth & Ops Intern: Courses & Events",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "md:https://zapply.jobs/l/d/ashby-lambda-28fe6ae2-c6f7-4097-bded-b0fa291d783a?s=gh-internships-2027",
 "company": "Lambda",
 "title": "Legal Intern - Fall 2026",
 "rule": "season",
 "tag": "title"
-},
-{
-"id": "md:https://zapply.jobs/l/d/ashby-human-computer-lab-6f3e8185-eb3a-42c3-b8c4-1c2837d5e9e1?s=gh-internships-2027",
-"company": "Human Computer Lab",
-"title": "Intern - Animator and Rigging Artist",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/ashby-human-computer-lab-d00556eb-3be0-4b51-be43-4a4084e505a1?s=gh-internships-2027",
-"company": "Human Computer Lab",
-"title": "Intern - Growth",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/ashby-kognitos-a4bc3ebf-b619-4c1b-9c9e-784d16c8b148?s=gh-internships-2027",
-"company": "Kognitos",
-"title": "Forward Deployed Engineer Intern (Mountain View)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/ashby-fundwell-2d91136d-b54d-4ed0-93de-22c7839a3982?s=gh-internships-2027",
-"company": "Fundwell",
-"title": "AI Innovation Internship",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/ashby-etched-f02e8035-7dc9-4b0c-aab7-75bbb4e975b8?s=gh-internships-2027",
-"company": "Etched",
-"title": "Performance Tools Intern",
-"rule": "curated_worker",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/ashby-etched-639fe410-56a4-44aa-ac93-8ee7c10c7d75?s=gh-internships-2027",
-"company": "Etched",
-"title": "Growth Ops Intern",
-"rule": "curated_worker",
-"tag": ""
-},
-{
-"id": "md:https://zapply.jobs/l/d/ashby-etched-6f23713f-5409-45b7-aae8-adb8710cdbc3?s=gh-internships-2027",
-"company": "Etched",
-"title": "Inference Intern",
-"rule": "curated_worker",
-"tag": ""
 },
 {
 "id": "md:https://zapply.jobs/l/d/lever-certik-1f446b66-1fae-4c31-9352-cde86e254754?s=gh-internships-2027",
@@ -61187,6 +61054,55 @@
 "tag": ""
 },
 {
+"id": "md:https://zapply.jobs/l/d/ashby-kognitos-a4bc3ebf-b619-4c1b-9c9e-784d16c8b148?s=gh-internships-2027",
+"company": "Kognitos",
+"title": "Forward Deployed Engineer Intern (Mountain View)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-human-computer-lab-6f3e8185-eb3a-42c3-b8c4-1c2837d5e9e1?s=gh-internships-2027",
+"company": "Human Computer Lab",
+"title": "Intern - Animator and Rigging Artist",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-human-computer-lab-d00556eb-3be0-4b51-be43-4a4084e505a1?s=gh-internships-2027",
+"company": "Human Computer Lab",
+"title": "Intern - Growth",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-fundwell-2d91136d-b54d-4ed0-93de-22c7839a3982?s=gh-internships-2027",
+"company": "Fundwell",
+"title": "AI Innovation Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-etched-639fe410-56a4-44aa-ac93-8ee7c10c7d75?s=gh-internships-2027",
+"company": "Etched",
+"title": "Growth Ops Intern",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-etched-6f23713f-5409-45b7-aae8-adb8710cdbc3?s=gh-internships-2027",
+"company": "Etched",
+"title": "Inference Intern",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/ashby-etched-699f3ab2-07e4-466c-9d76-3d4a3abb4ebc?s=gh-internships-2027",
+"company": "Etched",
+"title": "Firmware Intern",
+"rule": "curated_worker",
+"tag": ""
+},
+{
 "id": "md:https://zapply.jobs/l/d/ashby-base-power-fe71e011-a23a-4651-8f8a-9c0fcb5f1f22?s=gh-internships-2027",
 "company": "Base Power",
 "title": "Growth Intern",
@@ -61205,6 +61121,13 @@
 "company": "Base Power",
 "title": "Hardware Technical Program Management Intern",
 "rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/greenhouse-qualtrics-8193457?s=gh-internships-2027",
+"company": "Qualtrics",
+"title": "Professional Sales Skillbridge Intern",
+"rule": "seniority",
 "tag": ""
 },
 {
@@ -61233,6 +61156,62 @@
 "company": "Google",
 "title": "Student Researcher, PhD, Fall 2026",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/google-132362676918461126?s=gh-internships-2027",
+"company": "Google",
+"title": "Student Researcher, BS/MS, Fall 2026",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-amgen-careers-R-255711?s=gh-internships-2027",
+"company": "Amgen",
+"title": "Undergrad Intern \u2013 Digital Product \u2013 Amgen\u2019s Technology & Medical Organizations (Summer 2027)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-brunswick-search-JR-051585?s=gh-internships-2027",
+"company": "Brunswick",
+"title": "Mercury Marine: Operations Management Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-keybank-external-career-site-R-41393?s=gh-internships-2027",
+"company": "KeyBank",
+"title": "2027 Summer Commercial Bank Internship - Cleveland",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-oshkoshcorporation-oshkosh-R50267?s=gh-internships-2027",
+"company": "Oshkosh Corporation",
+"title": "Cyber Security Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-jj-jj-R-098417?s=gh-internships-2027",
+"company": "Johnson & Johnson",
+"title": "PMO Summer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-jj-jj-R-098397?s=gh-internships-2027",
+"company": "Johnson & Johnson",
+"title": "2027 R&D LCM Co-Op",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "md:https://zapply.jobs/l/d/workday-msd-searchjobs-R416226?s=gh-internships-2027",
+"company": "Merck & Co.",
+"title": "2027 Future Talent Program \u2013 Discovery Immunology \u2013 Co-op (Cambridge, MA)",
+"rule": "irrelevant",
 "tag": ""
 },
 {
