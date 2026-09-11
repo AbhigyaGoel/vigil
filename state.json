@@ -1,142 +1,86 @@
 {
-"yield_since": "2026-09-10",
+"yield_since": "2026-09-11",
 "yield": {
-"listings_feed": {
-"scanned": 303989,
-"A": 132,
-"B": 282
-},
-"markdown_source": {
-"scanned": 208437,
-"A": 376,
-"B": 457
-},
-"atom_feed": {
-"scanned": 7800,
-"A": 0,
-"B": 7
+"discovered_boards": {
+"scanned": 1786,
+"A": 6,
+"B": 21
 },
 "workday:NVIDIA": {
-"scanned": 11295,
-"A": 5,
-"B": 13
+"scanned": 146,
+"A": 4,
+"B": 10
 },
 "workday:Micron": {
-"scanned": 9459,
+"scanned": 121,
 "A": 0,
-"B": 11
+"B": 5
 },
 "workday:Analog Devices": {
-"scanned": 3978,
+"scanned": 51,
 "A": 0,
-"B": 12
+"B": 6
 },
 "workday:KLA": {
-"scanned": 468,
+"scanned": 6,
 "A": 0,
 "B": 0
 },
 "workday:Intel": {
-"scanned": 3227,
+"scanned": 42,
 "A": 0,
-"B": 8
+"B": 4
 },
 "workday:Applied Materials": {
-"scanned": 14491,
+"scanned": 186,
 "A": 1,
-"B": 9
+"B": 5
 },
 "workday:Marvell": {
-"scanned": 3770,
+"scanned": 49,
 "A": 0,
-"B": 42
+"B": 25
 },
 "workday:Caterpillar": {
-"scanned": 4212,
+"scanned": 54,
 "A": 0,
 "B": 1
 },
 "workday:Boston Dynamics": {
-"scanned": 156,
+"scanned": 2,
 "A": 0,
 "B": 0
 },
 "workday:NXP": {
-"scanned": 7020,
+"scanned": 90,
 "A": 0,
-"B": 42
+"B": 21
 },
 "workday:Zebra": {
-"scanned": 780,
+"scanned": 10,
 "A": 0,
 "B": 0
 },
 "workday:Trimble": {
-"scanned": 858,
+"scanned": 11,
 "A": 0,
-"B": 2
+"B": 1
 },
-"discovered_boards": {
-<<<<<<< Updated upstream
-"scanned": 139248,
-=======
-"scanned": 139247,
->>>>>>> Stashed changes
-"A": 8,
-"B": 38
+"listings_feed": {
+"scanned": 3954,
+"A": 62,
+"B": 133
+},
+"markdown_source": {
+"scanned": 2673,
+"A": 186,
+"B": 217
+},
+"atom_feed": {
+"scanned": 100,
+"A": 0,
+"B": 3
 }
 },
-"config_hash": "c464f55e6383ed1b",
-"last_weekly": "2026-W36",
-"season_rates": [
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-0.9994,
-1.0,
-1.0,
-1.0,
-0.9987,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-0.9968,
-1.0,
-1.0,
-1.0,
-0.9987,
-1.0,
-1.0,
-0.9981,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0
-],
-"last_digest": 1789079814.059358
+"config_hash": "c464f55e6383ed1b"
 }
