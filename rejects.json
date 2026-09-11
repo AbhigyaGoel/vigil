@@ -12705,6 +12705,20 @@
 "tag": ""
 },
 {
+"id": "wd:nvidia:",
+"company": "NVIDIA",
+"title": "",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:nvidia:",
+"company": "NVIDIA",
+"title": "",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "wd:nvidia:/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Generative-AI_JR2023475",
 "company": "NVIDIA",
 "title": "NVIDIA 2027 Internships: Ph.D. Research Generative AI",
@@ -12712,17 +12726,17 @@
 "tag": ""
 },
 {
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Graphics-and-Simulation_JR2023835",
+"id": "wd:nvidia:",
 "company": "NVIDIA",
-"title": "NVIDIA 2027 Internships: Ph.D. Research Graphics and Simulation",
-"rule": "irrelevant",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Large-Language-Models_JR2023837",
+"id": "wd:nvidia:",
 "company": "NVIDIA",
-"title": "NVIDIA 2027 Internships: Ph.D. Research Large Language Models",
-"rule": "irrelevant",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -13108,55 +13122,6 @@
 "company": "NVIDIA",
 "title": "Research Scientist, Fundamental Generative AI - New College Grad 2026",
 "rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--AI-for-Graphics-and-Gaming---New-College-Grad-2026_JR2011267",
-"company": "NVIDIA",
-"title": "Research Scientist, AI for Graphics and Gaming - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--Human-AI-Perception-and-Interaction-Research---PhD-New-College-Grad-2026_JR2011804-1",
-"company": "NVIDIA",
-"title": "Research Scientist, Human\u2011AI Perception and Interaction Research - PhD New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Israel-Tel-Aviv/Physical-Design-Backend-Engineer_JR2009044",
-"company": "NVIDIA",
-"title": "Physical Design Backend Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-TX-Austin/ASIC-Design-Verification-Engineer---New-College-Grad-2026_JR2010391",
-"company": "NVIDIA",
-"title": "ASIC Design Verification Engineer - New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--ML-Systems---New-College-Grad-2026_JR2010161",
-"company": "NVIDIA",
-"title": "Research Scientist, ML Systems - PhD New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--Generalist-Embodied-Agent-Research---New-College-Grad-2026_JR2009294",
-"company": "NVIDIA",
-"title": "Research Scientist, Generalist Embodied Agent Research - PhD New College Grad 2026",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Israel-Yokneam/Software-Architect--Advanced-Development_JR1999296",
-"company": "NVIDIA",
-"title": "Software Architect, Advanced Development",
-"rule": "not-intern",
 "tag": ""
 },
 {
@@ -26050,13 +26015,6 @@
 "id": "ls:29c84ce4-14a0-44ab-b782-3253d453dc1a",
 "company": "The Walt Disney Company",
 "title": "Pricing & Revenue Management Intern",
-"rule": "season",
-"tag": "Winter 2027"
-},
-{
-"id": "ls:c0d7d74a-1903-435e-b895-11e9f9f46ac8",
-"company": "The Walt Disney Company",
-"title": "Labor Systems Data Analytics & Integration Intern - Spring 2027",
 "rule": "season",
 "tag": "Winter 2027"
 },
