@@ -1918,13 +1918,6 @@
 "tag": ""
 },
 {
-"id": "lv:espace:0ea0b907-71c5-4743-9ef8-2b3bf491c603",
-"company": "E-Space",
-"title": "Full Stack Developer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "lv:espace:0b2570c5-8cf7-478b-a67a-7d4147d6c81b",
 "company": "E-Space",
 "title": "Government Contracts Attorney",
@@ -2173,13 +2166,6 @@
 "id": "lv:espace:e31773a7-b91a-4c05-9a66-57ac7d4fc109",
 "company": "E-Space",
 "title": "Senior Accountant",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "lv:espace:b810bea1-8d03-45ce-966a-db59b270d4a7",
-"company": "E-Space",
-"title": "Senior AIT Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -3353,14 +3339,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4692769005",
+"id": "gh:inversionspace:4705193005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705193005",
+"id": "gh:inversionspace:4692769005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
@@ -3934,14 +3920,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5247348008",
+"id": "gh:k2spacecorporation:5373554008",
 "company": "K2 Space",
 "title": "Ground Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5373554008",
+"id": "gh:k2spacecorporation:5247348008",
 "company": "K2 Space",
 "title": "Ground Software Engineer",
 "rule": "not-intern",
@@ -4438,14 +4424,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288643008",
+"id": "gh:k2spacecorporation:5288010008",
 "company": "K2 Space",
 "title": "Senior ASIC Physical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288010008",
+"id": "gh:k2spacecorporation:5288643008",
 "company": "K2 Space",
 "title": "Senior ASIC Physical Design Engineer",
 "rule": "not-intern",
@@ -4522,14 +4508,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5277855008",
+"id": "gh:k2spacecorporation:5288011008",
 "company": "K2 Space",
 "title": "Senior DFT Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288011008",
+"id": "gh:k2spacecorporation:5277855008",
 "company": "K2 Space",
 "title": "Senior DFT Engineer",
 "rule": "not-intern",
@@ -4599,13 +4585,6 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5197513008",
-"company": "K2 Space",
-"title": "Senior Firmware Engineer, Vehicle",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:k2spacecorporation:5288002008",
 "company": "K2 Space",
 "title": "Senior Firmware Engineer, Vehicle",
@@ -4613,14 +4592,21 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288027008",
+"id": "gh:k2spacecorporation:5197513008",
+"company": "K2 Space",
+"title": "Senior Firmware Engineer, Vehicle",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:k2spacecorporation:5165720008",
 "company": "K2 Space",
 "title": "Senior Flight Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5165720008",
+"id": "gh:k2spacecorporation:5288027008",
 "company": "K2 Space",
 "title": "Senior Flight Software Engineer",
 "rule": "not-intern",
@@ -4634,14 +4620,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5165716008",
+"id": "gh:k2spacecorporation:5288020008",
 "company": "K2 Space",
 "title": "Senior FPGA Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288020008",
+"id": "gh:k2spacecorporation:5165716008",
 "company": "K2 Space",
 "title": "Senior FPGA Engineer",
 "rule": "not-intern",
@@ -5418,14 +5404,14 @@
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7767461003",
+"id": "gh:launchdarkly:7861151003",
 "company": "LaunchDarkly",
 "title": "Backend Engineer, Flag Delivery",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7861151003",
+"id": "gh:launchdarkly:7767461003",
 "company": "LaunchDarkly",
 "title": "Backend Engineer, Flag Delivery",
 "rule": "not-intern",
@@ -5481,14 +5467,14 @@
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7985794003",
+"id": "gh:launchdarkly:7750105003",
 "company": "LaunchDarkly",
 "title": "Full Stack Engineer, Observability",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7750105003",
+"id": "gh:launchdarkly:7985794003",
 "company": "LaunchDarkly",
 "title": "Full Stack Engineer, Observability",
 "rule": "not-intern",
@@ -6958,6 +6944,13 @@
 "tag": ""
 },
 {
+"id": "ab:observable-space:d363a222-837c-435e-81b0-6db62b1bf55d",
+"company": "Observable Space",
+"title": "Director, Electrical Engineering",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "ab:observable-space:2fe06c78-be8f-4ec9-81a7-a99e8f92bef5",
 "company": "Observable Space",
 "title": "Optical Precision Manufacturing Manager",
@@ -7371,14 +7364,14 @@
 "tag": ""
 },
 {
-"id": "gh:pacificfusion:4385906009",
+"id": "gh:pacificfusion:4051088009",
 "company": "Pacific Fusion",
 "title": "Mechanical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:pacificfusion:4051088009",
+"id": "gh:pacificfusion:4385906009",
 "company": "Pacific Fusion",
 "title": "Mechanical Design Engineer",
 "rule": "not-intern",
@@ -7511,14 +7504,14 @@
 "tag": ""
 },
 {
-"id": "gh:pacificfusion:4259183009",
+"id": "gh:pacificfusion:4051086009",
 "company": "Pacific Fusion",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:pacificfusion:4051086009",
+"id": "gh:pacificfusion:4259183009",
 "company": "Pacific Fusion",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
@@ -8078,14 +8071,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8782930002",
+"id": "gh:relativity:8783355002",
 "company": "Relativity Space",
 "title": "Global Supply Manager, Indirect",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8783355002",
+"id": "gh:relativity:8782930002",
 "company": "Relativity Space",
 "title": "Global Supply Manager, Indirect",
 "rule": "not-intern",
@@ -9975,14 +9968,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8595007002",
+"id": "gh:relativity:8715897002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8715897002",
+"id": "gh:relativity:8595007002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -11270,14 +11263,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:4606174008",
+"id": "gh:stratolaunch:5226893008",
 "company": "Stratolaunch",
 "title": "Flight Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5226893008",
+"id": "gh:stratolaunch:4606174008",
 "company": "Stratolaunch",
 "title": "Flight Software Engineer",
 "rule": "not-intern",
@@ -11431,14 +11424,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5238458008",
+"id": "gh:stratolaunch:5398750008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5398750008",
+"id": "gh:stratolaunch:5238458008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
@@ -27608,6 +27601,20 @@
 "tag": ""
 },
 {
+"id": "ls:d51eb451-9f91-449d-8c96-b84c35fbfb16",
+"company": "Marsh",
+"title": "Summer Analyst - Data and Analytics",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:30f88aa1-c8c9-4587-808f-a3954162cf45",
+"company": "Marsh",
+"title": "Summer Analyst Intern - Data and Analytics",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:55b1bcd7-ce91-4f80-ab43-68598ccff174",
 "company": "Finastra",
 "title": "AI Engineer Intern - Summer 2027",
@@ -36015,6 +36022,13 @@
 "tag": ""
 },
 {
+"id": "ls:bf10b85e-3c76-4d76-b8d1-e2e1ed813b56",
+"company": "Marsh",
+"title": "Data & Analytics Industrial Placement",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:ed68772a-4ef4-445f-ae7d-35a26fa9cf11",
 "company": "incident.io",
 "title": "Product Engineer Placement - 6 Months",
@@ -40463,6 +40477,27 @@
 "id": "ls:e0a4c475-6f3c-4f3e-a7ad-2e4046a608dd",
 "company": "Geotab",
 "title": "Embedded Developer Intern - Engine Data Reliability",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "ls:3286eb4f-5511-4560-ae4e-9d241dca2cda",
+"company": "Lightmatter",
+"title": "Photonics Characterization Intern New Grad - New Grad",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "ls:9cd21651-921e-42a7-a95f-01b1f4bea964",
+"company": "Tanium",
+"title": "Software Engineer Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:2dd387a0-88c3-4ee1-b40f-4821aa4a3e31",
+"company": "Waymo",
+"title": "Summer Intern - Multiple Teams",
 "rule": "curated_worker",
 "tag": ""
 },
