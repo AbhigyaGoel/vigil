@@ -83,7 +83,10 @@ EXCLUDE_CO = re.compile(r"\b(?:" + "|".join(_eco) + r")\b", re.I) if _eco else N
 CURATED_OFFTARGET = re.compile(
     r"\b(?:software|swe|full ?stack|front ?end|back ?end|web developer|information technology|"
     r"sys ?admin|systems? administrator|help ?desk|machine learning|ml|data scien|data analyst|"
-    r"biomedical|clinical|finance|financial|business)\b", re.I)
+    r"biomedical|clinical|finance|financial|business|product manag\w*|program manag\w*|"
+    r"\bTPM\b|technical program manag\w*|supply chain|human resources|\bHR\b|recruiting|legal|"
+    r"communications?|public relations|technical writ\w*|customer (?:success|support|experience)|"
+    r"account manag\w*)\b", re.I)
 
 
 def curated_relevant(title):
@@ -93,7 +96,7 @@ def curated_relevant(title):
 
 
 # ---------------- dedup keys ----------------
-# Two repeat shapes to kill:
+# Three repeat shapes to kill:
 #  (A) cross-feed: the SAME role arrives via different feeds/URLs (e.g. a greenhouse
 #      role once as ?gh_jid=NNN&utm_source=Simplify and once as a clean board URL).
 #      Raw-id dedup misses it because each feed mints its own id. canon_key() pins the
@@ -101,6 +104,11 @@ def curated_relevant(title):
 #  (B) cross-system: a curated company (worker-owned when SKIP_ATS=1) also surfaces in
 #      an aggregator feed here, so the user gets it once from the worker and once from
 #      watch.py under a different display name. worker_owned() drops our copy.
+#  (C) cross-domain: the SAME role reaches vigil via a scraped mirror (IEEE markdown's
+#      LinkedIn/Indeed links) AND a direct-ATS source (Workday/discovery/listings),
+#      with URLs on entirely different domains - canon_key's URL matching can't unify
+#      those. content_key() falls back to company+title+city, specific enough that two
+#      genuinely different reqs rarely collide.
 _CURATED = {"gh": {s.lower() for s in CFG.get("greenhouse", [])},
             "lv": {s.lower() for s in CFG.get("lever", [])},
             "ab": {s.lower() for s in CFG.get("ashby", [])}}
@@ -165,6 +173,18 @@ def canon_key(url):
     else:
         u = base
     return "k:u:" + u
+
+
+def _norm_text(s):
+    return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
+
+
+def content_key(company, title, location):
+    """Fallback identity for shape (C) - see dedup keys note above."""
+    if not (company and title):
+        return ""
+    city = re.split(r"[,/;]", location or "")[0]
+    return "k:ct:" + "|".join(_norm_text(x) for x in (company, title, city))
 
 
 CATS = [c.lower() for c in CFG.get("include_categories", [])]
@@ -716,7 +736,7 @@ def _load(path, default):
     return default
 
 
-LOGIC_VERSION = "v2.9"  # bump when filter/scoring CODE changes -> forces a silent reseed
+LOGIC_VERSION = "v2.10"  # bump when filter/scoring CODE changes -> forces a silent reseed
 # v2.6: added zapplyjobs low-latency feeds + Tier-B prompt-push.
 # v2.7: added registry-based auto-discovery of hardware/robotics boards; reseed so the
 # ~49 discovered boards' backlog seeds silently instead of flooding on first scan.
@@ -727,6 +747,19 @@ LOGIC_VERSION = "v2.9"  # bump when filter/scoring CODE changes -> forces a sile
 # claim a role's canon_key before the weaker retitled aggregator copies (Simplify listings/
 # markdown/atom) can - fixes roles like Bedrock Robotics landing as a low-score Tier-B dupe
 # of a correctly-scored Tier-A role. Reseed so the new pay rule doesn't retroactively flood.
+# v2.10: (1) dropped zapplyjobs markdown_sources - Apply links resolve through a
+# zapply.jobs/l/d/... redirector (a job-directory site), not a direct ATS link, and its
+# two overlapping feeds' un-stripped "?s=" tracking param was defeating canon_key dedup
+# (same physical role, two different canon_keys -> double ntfy push). (2) added
+# content_key() as dedup shape (C) - catches the same role reaching vigil via a scraped
+# mirror (IEEE markdown's LinkedIn/Indeed links) AND a direct-ATS source, which canon_key's
+# URL matching can't unify since the domains share nothing. (3) removed "co-?op" from
+# ats_require - not a fit for a full-time enrolled semester student. (4) widened
+# CURATED_OFFTARGET (watch.py + filters.mjs) to catch product/program management, TPM,
+# supply chain, HR, legal, comms, customer success/support, technical writing - these were
+# reaching Tier A at curated companies undetected (the old list only caught software/IT/
+# ML/biomedical/finance/business, not the rest of the non-engineering functions a large
+# curated company like Neuralink/SpaceX/Samsara posts under). Reseed for all of the above.
 
 def config_hash():
     keys = ["include_keywords", "exclude_keywords", "exclude_companies", "include_categories",
@@ -843,6 +876,9 @@ def scan(seen, enrich, collect_rejects=False):
                 ck = canon_key(url)
                 if ck and ck in seen:      # FIX A: same role via a different feed/URL
                     continue
+                ck2 = content_key(job.get("company"), job.get("title"), job.get("location"))
+                if ck2 and ck2 in seen:    # FIX C: same role via a cross-domain mirror (e.g. LinkedIn)
+                    continue
                 if skip_ats and worker_owned(job):  # FIX B: worker already delivers this
                     src_stat["drop"]["curated_worker"] += 1
                     if collect_rejects:
@@ -863,6 +899,8 @@ def scan(seen, enrich, collect_rejects=False):
                 seen.add(job["id"])
                 if ck:
                     seen.add(ck)           # so the same role via another feed won't re-alert
+                if ck2:
+                    seen.add(ck2)          # so a cross-domain mirror of this role won't re-alert
                 rec = {"id": job["id"], "company": job["company"], "title": job["title"],
                        "location": job["location"], "url": job["url"], "score": val,
                        "posted": job.get("posted", 0), "terms": job.get("terms")}

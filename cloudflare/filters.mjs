@@ -52,7 +52,7 @@ export function makeFilters(cfg) {
 // "Engineering Intern" is kept high; "Software Engineer, Robotics" and "Embedded
 // SWE" are saved by their hardware/robotics keyword. Mirrors watch.py
 // curated_relevant() — asserted by the parity 'relevance' fixtures.
-const CURATED_OFFTARGET = /\b(?:software|swe|full ?stack|front ?end|back ?end|web developer|information technology|sys ?admin|systems? administrator|help ?desk|machine learning|ml|data scien|data analyst|biomedical|clinical|finance|financial|business)\b/i;
+const CURATED_OFFTARGET = /\b(?:software|swe|full ?stack|front ?end|back ?end|web developer|information technology|sys ?admin|systems? administrator|help ?desk|machine learning|ml|data scien|data analyst|biomedical|clinical|finance|financial|business|product manag\w*|program manag\w*|\bTPM\b|technical program manag\w*|supply chain|human resources|\bHR\b|recruiting|legal|communications?|public relations|technical writ\w*|customer (?:success|support|experience)|account manag\w*)\b/i;
 export function curatedRelevant(job, f) {
   const title = job.title || "";
   if (f.include && f.include.test(title)) return true;   // explicit hardware/robotics signal
