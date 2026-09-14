@@ -13293,9 +13293,9 @@
 "tag": ""
 },
 {
-"id": "wd:nvidia:/job/Israel-Yokneam/Software-Architect--Advanced-Development_JR1999296",
+"id": "wd:nvidia:",
 "company": "NVIDIA",
-"title": "Software Architect, Advanced Development",
+"title": "",
 "rule": "not-intern",
 "tag": ""
 },
@@ -27790,6 +27790,13 @@
 "tag": ""
 },
 {
+"id": "ls:7fd82049-4a30-48f9-ab6c-519e8c2b11fd",
+"company": "Brunswick",
+"title": "Software Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
 "id": "ls:de4cd0c6-05b6-4e77-9479-486a018a8683",
 "company": "Booz Allen",
 "title": "Data Scientist Intern - University",
@@ -33054,13 +33061,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:beacf34f-a20f-4c68-b975-4d59ef73cdb6",
-"company": "TikTok",
-"title": "Applied Scientist Intern - Monetization GenAI - Global Frontier Tech Recruitment Program - 2027 Start - PhD",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:959910b0-58e2-40fa-be1a-bb91cbb1a2e9",
 "company": "TikTok",
 "title": "Applied Scientist Intern - Multiple Teams",
@@ -34342,6 +34342,13 @@
 "tag": ""
 },
 {
+"id": "ls:81abb668-54a5-4399-998b-383a36dba872",
+"company": "RTX",
+"title": "Aerospace Engineering Intern - APU Programs Support",
+"rule": "defense",
+"tag": ""
+},
+{
 "id": "ls:27ef919b-f4a9-4f27-b484-e742c76fc774",
 "company": "John Deere",
 "title": "Information Technology Intern - Technology",
@@ -34739,13 +34746,6 @@
 "title": "Photomask Yield Enhancement Intern",
 "rule": "season",
 "tag": "Winter 2026"
-},
-{
-"id": "ls:d5e526d4-218c-453d-99d1-8fc6b59a6f06",
-"company": "Kinaxis",
-"title": "Software Developer Co-op/Intern - Core Algorithms",
-"rule": "season",
-"tag": "Winter 2027"
 },
 {
 "id": "ls:16a27c2f-e977-4813-bb03-f6736d8f1f5f",
@@ -37947,13 +37947,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:aefb70e4-21a0-4269-b8c0-5a30ccdfa355",
-"company": "Ovintiv",
-"title": "Technology Intern - Data & Digital",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:9f3cbb1e-b4a0-4f15-b1fc-ea0c6a200973",
 "company": "Xcel Energy",
 "title": "Residential Energy Product Strategy Intern",
@@ -40834,6 +40827,13 @@
 "id": "ls:9eef895c-2727-4ebb-92bc-fda2b10c3d34",
 "company": "Amgen",
 "title": "Data Scientist Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:811210da-553e-4d37-b262-9897450dc43d",
+"company": "Amgen",
+"title": "Data Scientist Intern - Amgen\u2019s Technology & Medical Organizations",
 "rule": "irrelevant",
 "tag": ""
 },
