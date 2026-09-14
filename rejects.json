@@ -15260,13 +15260,6 @@
 "tag": ""
 },
 {
-"id": "wd:amat:",
-"company": "Applied Materials",
-"title": "",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:amat:/job/KalispellMT/Manufacturing-Engineer_R2627299",
 "company": "Applied Materials",
 "title": "Manufacturing Engineer",
@@ -16020,6 +16013,13 @@
 "company": "Applied Materials",
 "title": "Chemist - New College Graduate",
 "rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:marvell:/job/Santa-Clara-CA/Technical-Writer-Intern--BS-BA---Summer-2027_2604149",
+"company": "Marvell",
+"title": "Technical Writer Intern, BS/BA - Summer 2027",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -19292,6 +19292,13 @@
 "tag": ""
 },
 {
+"id": "ls:cf783ed0-c7de-4051-813a-018e1ba6e7fc",
+"company": "Core & Main",
+"title": "Data Engineering Intern",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
 "id": "ls:045a974d-d808-45c9-b371-91f10e35e4bd",
 "company": "Tesla",
 "title": "Data Analytics Intern - People Analytics",
@@ -20694,6 +20701,13 @@
 {
 "id": "ls:7d13d689-657d-404d-9463-284ccb89bd44",
 "company": "Beacon Software",
+"title": "Software Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
+"id": "ls:b8a3808e-1eee-4b31-a9ed-c8790b1c82b9",
+"company": "Copart",
 "title": "Software Engineer Intern",
 "rule": "season",
 "tag": "Fall 2026"
@@ -24311,27 +24325,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:8540d9e9-5a90-4ecb-a7f6-b854e696fb8e",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:629fac72-4880-42e9-b648-cdfa036a00ac",
-"company": "Goldman Sachs",
-"title": "Summer Associate Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:bc2e9762-a592-48ef-9e42-21dfdec88ec4",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - Asset and Wealth Management",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:8cfb1bdb-94da-41c0-be36-e516586909b0",
 "company": "Dedalus Labs",
 "title": "Product Manager Intern",
@@ -24344,34 +24337,6 @@
 "title": "Design Engineer Intern",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:ea185fae-1828-4e79-9bfa-34dc512cce8c",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - The Core Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:443c0a68-63ca-4026-94b7-cf3e555f2d0f",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - The Core Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:439c65c1-64f2-461c-8ca1-ca36969ef10a",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:1560332f-3e4c-4d15-819d-df9bf4889deb",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - FICC and Equities - Sales and Trading",
-"rule": "seniority",
-"tag": ""
 },
 {
 "id": "ls:9c12dcc7-3cb4-42ae-9f92-b25cd4e324c3",
@@ -25424,9 +25389,9 @@
 "tag": ""
 },
 {
-"id": "ls:de048c9f-8cf0-45fe-b307-40b9a04a9416",
+"id": "ls:aea9cccf-4a27-4ca6-9c11-9664e8a1ac0a",
 "company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Americas - AWM Product Management",
+"title": "AWM Product Management Analyst Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -27363,25 +27328,11 @@
 "tag": ""
 },
 {
-"id": "ls:bec41fe0-ae4c-44d3-bddd-15ca4a245c18",
-"company": "Goldman Sachs",
-"title": "Summer Associate Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:ca0cc910-e9e7-48a4-ac62-3536b3421ae2",
 "company": "Dimensional Fund Advisors",
 "title": "Investment Engineering Intern - Undergraduate & Master's",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:3197c0fa-efa1-4efc-9c3a-37fd84829e4a",
-"company": "Goldman Sachs",
-"title": "Associate Intern - The Core Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:d2b4f1bc-fe0e-40b8-b25f-29fb235024d2",
@@ -33782,139 +33733,6 @@
 "tag": "Spring 2027"
 },
 {
-"id": "ls:f3cb1e27-85ef-4529-9ba5-6fb9462c60e9",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Asset and Wealth Management - Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:f3fffaac-34e8-4f3e-aa74-fb1928331995",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:b6a6b28f-c858-4ef8-b6b4-aeda2206e9ad",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:f6b73d49-ad99-40ba-844a-4f885a901a91",
-"company": "Goldman Sachs",
-"title": "Quantitative Strats Analyst Intern - Americas - Investment Banking",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:59064871-3c04-41bf-8676-945ce2cc7648",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Wealth Management - Quantitative Finance",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:60f69f38-4cc3-4dbd-a041-e8208a00725c",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - The Core Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:5a49d74c-fa9f-4dd4-a66b-24fc3d9c1def",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Americas - Engineering",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:9d3e4916-4e1e-4317-83a1-92d2664ed59b",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Americas",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:a815c1a3-823d-405a-99ea-e82fbbb247cd",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:8f346a45-4490-4243-933e-264e3916e701",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Americas - Engineering",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:814b873c-2c4e-4173-85d1-c90cf9ccc964",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Investment Banking",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:765bb91e-34d7-4746-8e11-8598e700e845",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:5bdec003-2a02-42a4-a602-467541840552",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Americas - Engineering",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:260ebea6-b3a6-4e5e-8824-71490c13d10f",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Americas - Investment Banking Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:0f4448c3-2086-46c1-b64b-2ecdf04a0881",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Asset and Wealth Management - Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:06098497-6840-4802-8838-81e0dbdec164",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Engineering",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:1949c912-65b2-42ac-9836-c110baed0ef6",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Engineering",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:b2b3a7df-bea1-4290-b988-4c3e567814b8",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Engineering",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:792220f4-3ba1-4cf8-843e-e23208ba8d24",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Engineering",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:d3f54d58-9f89-4689-b91d-f9e03013c3ca",
 "company": "Skydio",
 "title": "Autonomy Engineer Intern - Computer Vision / Deep Learning - Summer 2027",
@@ -36879,13 +36697,6 @@
 "id": "ls:fffa4bdc-f97d-4cc9-9912-6015b38cfd10",
 "company": "RTX",
 "title": "Platform System Engineering Co-op",
-"rule": "defense",
-"tag": ""
-},
-{
-"id": "ls:f28ae9aa-51ea-4eed-9d3d-587981e3c6b3",
-"company": "RTX",
-"title": "Software Engineer Intern - Summer/Fall 2027 - Mission Engineering / Operational Analysis",
 "rule": "defense",
 "tag": ""
 },
@@ -41940,6 +41751,34 @@
 "id": "ls:ef6779b9-6706-4217-8b3a-09ef98f4faf4",
 "company": "FNBO",
 "title": "Technology Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:a95a5a5f-cc5c-44fe-9046-aeebb25d6f3c",
+"company": "Oshkosh",
+"title": "Product Management Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:14f47481-e076-4f40-8d28-deaccaa6542d",
+"company": "Wells Fargo",
+"title": "Software Engineering Intern - Early Careers - Software Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:ae4d1646-e040-43a9-939a-18ab81955f9a",
+"company": "Ulta Beauty",
+"title": "Supply Chain Data & Analytics Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:15390674-0071-4415-afa1-aefebeb40531",
+"company": "Ulta Beauty",
+"title": "Digital Product Management Intern",
 "rule": "irrelevant",
 "tag": ""
 },
