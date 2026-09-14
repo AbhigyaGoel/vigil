@@ -14427,6 +14427,13 @@
 "tag": ""
 },
 {
+"id": "wd:intel:/job/US-California-Santa-Clara/System-Technology-Research-Engineer_JR0286792",
+"company": "Intel",
+"title": "System Technology Research Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "wd:intel:/job/US-Oregon-Hillsboro/System-Technology-Research-Engineer----PhD-Intern-_JR0287000",
 "company": "Intel",
 "title": "System Technology Research Engineer - (PhD Intern)",
@@ -25067,13 +25074,6 @@
 "tag": ""
 },
 {
-"id": "ls:9402b8bf-beb0-4608-8f7a-2ffde99dd0b2",
-"company": "Space Dynamics Laboratory",
-"title": "Web Developer Assistant - Enterprise Application Support",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:4787855b-e024-4938-a00f-7829fac9f8db",
 "company": "ByteDance",
 "title": "Immigration Data Analyst Intern - Hrops",
@@ -25826,13 +25826,6 @@
 "id": "ls:dc42c118-273e-4eda-b0ee-e5b47a65e974",
 "company": "PricewaterhouseCoopers (PwC)",
 "title": "Data Enablement Co-op - Data Enablement",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:73b10260-156f-459b-b9f2-25385571ae99",
-"company": "PricewaterhouseCoopers (PwC)",
-"title": "Data Enablement Co-op",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -38346,6 +38339,13 @@
 "tag": ""
 },
 {
+"id": "ls:e3d70ac5-dc1d-4c06-b733-8c76af99ef70",
+"company": "Barclays",
+"title": "Technology Developer Apprentice",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "ls:e324dbfe-55ba-4099-a9f0-2268a787100e",
 "company": "Immuta",
 "title": "Product Engineering Intern",
@@ -41858,6 +41858,41 @@
 "title": "Software Engineer Intern",
 "rule": "irrelevant",
 "tag": ""
+},
+{
+"id": "ls:85d55295-0c76-4133-880c-055ce402b526",
+"company": "CoStar Group",
+"title": "Technology Intern - Multiple Teams",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:7489238c-eadd-441d-adff-be9ecbdbd927",
+"company": "Ciena",
+"title": "Software Engineering Intern - Optical Transport and IP Networking",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:5e63a9e0-387b-437d-983c-017171f32eea",
+"company": "CoStar Group",
+"title": "Technology Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:54109f9e-2999-4211-9273-b6d34bc06e25",
+"company": "CoStar Group",
+"title": "Technology Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:cdc90c92-a2b4-4524-be49-4c6676c48819",
+"company": "Ameriprise Financial",
+"title": "Quantitative Investment Research Co-op - Equities",
+"rule": "season",
+"tag": "Winter 2026"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
