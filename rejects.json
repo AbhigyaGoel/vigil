@@ -3969,14 +3969,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5373554008",
+"id": "gh:k2spacecorporation:5247348008",
 "company": "K2 Space",
 "title": "Ground Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5247348008",
+"id": "gh:k2spacecorporation:5373554008",
 "company": "K2 Space",
 "title": "Ground Software Engineer",
 "rule": "not-intern",
@@ -4144,13 +4144,6 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5287999008",
-"company": "K2 Space",
-"title": "Principal ASIC Design Verification Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:k2spacecorporation:5284325008",
 "company": "K2 Space",
 "title": "Principal ASIC Design Verification Engineer",
@@ -4158,14 +4151,21 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288008008",
+"id": "gh:k2spacecorporation:5287999008",
+"company": "K2 Space",
+"title": "Principal ASIC Design Verification Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:k2spacecorporation:5288635008",
 "company": "K2 Space",
 "title": "Principal ASIC Physical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288635008",
+"id": "gh:k2spacecorporation:5288008008",
 "company": "K2 Space",
 "title": "Principal ASIC Physical Design Engineer",
 "rule": "not-intern",
@@ -4273,6 +4273,13 @@
 "id": "gh:k2spacecorporation:5204279008",
 "company": "K2 Space",
 "title": "Principal Mechanisms Engineer, Optical",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:k2spacecorporation:5424248008",
+"company": "K2 Space",
+"title": "Principal Mechanisms Manufacturing Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -4571,14 +4578,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5277855008",
+"id": "gh:k2spacecorporation:5288011008",
 "company": "K2 Space",
 "title": "Senior DFT Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288011008",
+"id": "gh:k2spacecorporation:5277855008",
 "company": "K2 Space",
 "title": "Senior DFT Engineer",
 "rule": "not-intern",
@@ -4683,14 +4690,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5165716008",
+"id": "gh:k2spacecorporation:5288020008",
 "company": "K2 Space",
 "title": "Senior FPGA Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288020008",
+"id": "gh:k2spacecorporation:5165716008",
 "company": "K2 Space",
 "title": "Senior FPGA Engineer",
 "rule": "not-intern",
@@ -4805,6 +4812,13 @@
 "id": "gh:k2spacecorporation:5289740008",
 "company": "K2 Space",
 "title": "Senior Mechanisms Engineer \u2013 Turbomachinery ",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:k2spacecorporation:5424247008",
+"company": "K2 Space",
+"title": "Senior Mechanisms Manufacturing Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -26271,6 +26285,13 @@
 "tag": ""
 },
 {
+"id": "ls:78c03ab4-f50a-445d-9802-fb785330b50f",
+"company": "Mastercard",
+"title": "Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:13cc39f8-a256-4d21-866f-4cf8cb77d4ef",
 "company": "Analog Devices",
 "title": "Product Engineer Intern - Product Development",
@@ -34937,13 +34958,6 @@
 "tag": ""
 },
 {
-"id": "ls:8ebc1329-c1bb-4661-bf69-583206379800",
-"company": "Baker Hughes",
-"title": "Digitisation Intern",
-"rule": "season",
-"tag": "Winter 2026"
-},
-{
 "id": "ls:e83278e0-c4fd-42f9-a773-171b6b1e16c1",
 "company": "Perry Homes",
 "title": "Options Analyst Intern",
@@ -38833,13 +38847,6 @@
 "company": "Intact",
 "title": "Data Engineering Developer Intern Co-op - Winter 2027",
 "rule": "seniority",
-"tag": ""
-},
-{
-"id": "ls:3dcaee02-3f62-48f4-a9a3-20eb7b2a97bb",
-"company": "RTX",
-"title": "Software Engineer Intern - Summer 2027",
-"rule": "defense",
 "tag": ""
 },
 {
@@ -43057,13 +43064,6 @@
 "tag": ""
 },
 {
-"id": "ls:0909b15c-bc6e-4fd4-b989-2e6a3911615e",
-"company": "MVP Health Care",
-"title": "Analytics Intern",
-"rule": "season",
-"tag": "Winter 2026"
-},
-{
 "id": "ls:c4c61ff1-609c-4a15-b2a8-ff6d38100e57",
 "company": "CIBC",
 "title": "Global Markets Analyst or Associate - Months",
@@ -43321,6 +43321,146 @@
 "title": "Business Intelligence Intern",
 "rule": "irrelevant",
 "tag": ""
+},
+{
+"id": "ls:c3f5e2ad-b12d-4ea0-bcce-3fc9a30ae812",
+"company": "Etched",
+"title": "Lab Operations Intern",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "ls:9f24eba1-f1d2-4c28-953b-412af51abd49",
+"company": "3M",
+"title": "Business Analyst Intern - Consumer Business Group",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:8e2ae72c-1197-4234-9ceb-9e8f692add91",
+"company": "RTX",
+"title": "Software Engineering Co-op",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:1bd223c7-4d3d-4d64-8dcc-3c5d3d7095dc",
+"company": "RTX",
+"title": "Software Engineer Co-op - Summer/Fall 2027",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:593f743d-dbf9-4e74-97a9-3e11236aaddd",
+"company": "CAI",
+"title": "Software Developer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:52dfae23-fc44-4e68-87db-19547b37d684",
+"company": "BlackRock",
+"title": "Quantitative Master\u2019s Intern - Investments - Portfolio Management",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:38a9bfa8-336d-4c6f-8f7d-cce0d1dfee77",
+"company": "CAI",
+"title": "Data Analyst Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:11e0f3d7-616e-436c-898f-57bf2b115db5",
+"company": "CAI",
+"title": "Software Developer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:e7067c38-ffd5-4e91-b625-6732557cb064",
+"company": "BlackRock",
+"title": "Quantitative Master\u2019s Intern - Investments - Quantitative Investing",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:013e195a-bff8-4c04-b4dc-7fc663b9a8c1",
+"company": "BlackRock",
+"title": "Quantitative Master\u2019s Intern - Investments - Global Capital Markets",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:9f717eea-aa90-43b0-b625-5d82064e049e",
+"company": "BlackRock",
+"title": "Quantitative Master\u2019s Intern - Investments - Quantitative Investing",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:5ffffd18-94d5-468e-b6dd-6a45307801fe",
+"company": "BlackRock",
+"title": "Quantitative Master's Intern - Investments - Global Capital Markets",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:23dfcee2-d1cc-40dd-bd06-b7a474a437cd",
+"company": "BlackRock",
+"title": "Quantitative Masters Intern - Investments - Portfolio Management",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:20614976-ea25-4a78-9e7b-dd56262a74ca",
+"company": "BlackRock",
+"title": "Quantitative Master\u2019s Intern - Investments - Portfolio Management",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:87b11fea-2c1b-4427-b741-a7acd9fd822b",
+"company": "BlackRock",
+"title": "Quantitative Masters Intern - Technology - Analytics & Modeling",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:b4c7e3c7-8f68-4c61-80da-98ab3347b7b6",
+"company": "BlackRock",
+"title": "Quantitative Master\u2019s Internship - Technology - Analytics & Modeling",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:91dc2cea-fc02-4261-b19d-3c2c94d12a0d",
+"company": "Rigetti",
+"title": "Research Intern",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "ls:ebbe3e8b-62a0-49ff-9ee8-7c72fc088c36",
+"company": "Tighe & Bond",
+"title": "GIS Intern - Geographic Information Systems",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:b2720777-ec3e-4cab-a61d-8437236e8363",
+"company": "LabCorp",
+"title": "IT Product Manager Intern - Payer Team",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:3d546d2e-953a-4016-b5a8-5d705ce6358f",
+"company": "IonQ",
+"title": "Research and Development Characterization Intern",
+"rule": "season",
+"tag": "Winter 2026"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
