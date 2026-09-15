@@ -1470,13 +1470,6 @@
 "tag": ""
 },
 {
-"id": "ab:brinc:1aded6d5-6978-46b9-877c-b3c524ca7d39",
-"company": "BRINC Drones",
-"title": "Senior DevOps Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "ab:brinc:5cfbeefd-aa2d-4269-8366-855f3d4d3270",
 "company": "BRINC Drones",
 "title": "Lead Production Technician",
@@ -12656,10 +12649,10 @@
 "tag": ""
 },
 {
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2026_JR2017581",
+"id": "wd:nvidia:",
 "company": "NVIDIA",
-"title": "ASIC Design Engineer - New College Grad 2026",
-"rule": "new-grad",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -17098,6 +17091,13 @@
 "company": "NXP",
 "title": "Device/Yield Engineer Intern - Summer 2027",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:nxp:",
+"company": "NXP",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
