@@ -179,12 +179,28 @@ def _norm_text(s):
     return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
 
 
+# Boilerplate that varies between two postings of the SAME req (a listing site's own
+# mirror, or a big employer like Google re-listing one role per qualifying-degree/team
+# combo) without making them different roles - stripped before the title is compared.
+_TITLE_BOILERPLATE = re.compile(
+    r"[\(\[][^)\]]*[\)\]]|"  # any parenthetical/bracketed aside, e.g. "(BS/MS, Multiple Teams)"
+    r"\b(?:bs/ms|bs or ms|b\.?s\.?/m\.?s\.?|multiple teams|various teams|various locations|"
+    r"undergraduate|graduate|new grad|early career|"
+    r"(?:summer|fall|spring|winter)\s*20\d{2}|20\d{2})\b", re.I)
+
+
+def _norm_title(title):
+    return _norm_text(_TITLE_BOILERPLATE.sub(" ", title or ""))
+
+
 def content_key(company, title, location):
-    """Fallback identity for shape (C) - see dedup keys note above."""
+    """Fallback identity for shape (C) - see dedup keys note above. Title boilerplate
+    (degree quals, "Multiple Teams", season/year) is stripped first so the SAME req
+    re-listed with a different qualifier suffix still collapses to one key."""
     if not (company and title):
         return ""
     city = re.split(r"[,/;]", location or "")[0]
-    return "k:ct:" + "|".join(_norm_text(x) for x in (company, title, city))
+    return "k:ct:" + "|".join([_norm_text(company), _norm_title(title), _norm_text(city)])
 
 
 CATS = [c.lower() for c in CFG.get("include_categories", [])]
@@ -736,7 +752,7 @@ def _load(path, default):
     return default
 
 
-LOGIC_VERSION = "v2.10"  # bump when filter/scoring CODE changes -> forces a silent reseed
+LOGIC_VERSION = "v2.11"  # bump when filter/scoring CODE changes -> forces a silent reseed
 # v2.6: added zapplyjobs low-latency feeds + Tier-B prompt-push.
 # v2.7: added registry-based auto-discovery of hardware/robotics boards; reseed so the
 # ~49 discovered boards' backlog seeds silently instead of flooding on first scan.
@@ -760,6 +776,16 @@ LOGIC_VERSION = "v2.10"  # bump when filter/scoring CODE changes -> forces a sil
 # reaching Tier A at curated companies undetected (the old list only caught software/IT/
 # ML/biomedical/finance/business, not the rest of the non-engineering functions a large
 # curated company like Neuralink/SpaceX/Samsara posts under). Reseed for all of the above.
+# v2.11: (1) moved the co-op exclusion from ats_require to exclude_keywords (hard drop,
+# ALL policies) - "tagged" policy (Simplify/vanshb03) never even checks ats_require, so
+# a co-op with Simplify category=Hardware was STILL sailing through after v2.10; traced a
+# real pre-fix Trane Technologies "Mechanical Engineering Co-op" digest dupe back to the
+# (now-removed) zapply "?s=" bug, but this tagged-policy gap was a separate live issue.
+# (2) content_key() title normalization now strips boilerplate (parentheticals, BS/MS,
+# "Multiple Teams", season/year) before comparing - traced a live post-v2.10 duplicate
+# (Google "Silicon Engineering Intern" pushed once instant + once in a Tier B digest) to
+# Google listing the same req twice with a qualifier-suffix title difference that the old
+# exact-match content_key missed. Reseed for both.
 
 def config_hash():
     keys = ["include_keywords", "exclude_keywords", "exclude_companies", "include_categories",
