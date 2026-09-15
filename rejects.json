@@ -3388,14 +3388,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709690005",
+"id": "gh:inversionspace:4705255005",
 "company": "Inversion Space",
 "title": "Senior Harness Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705255005",
+"id": "gh:inversionspace:4709690005",
 "company": "Inversion Space",
 "title": "Senior Harness Engineer",
 "rule": "not-intern",
@@ -3976,14 +3976,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5373554008",
+"id": "gh:k2spacecorporation:5247348008",
 "company": "K2 Space",
 "title": "Ground Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5247348008",
+"id": "gh:k2spacecorporation:5373554008",
 "company": "K2 Space",
 "title": "Ground Software Engineer",
 "rule": "not-intern",
@@ -4165,14 +4165,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288635008",
+"id": "gh:k2spacecorporation:5288008008",
 "company": "K2 Space",
 "title": "Principal ASIC Physical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288008008",
+"id": "gh:k2spacecorporation:5288635008",
 "company": "K2 Space",
 "title": "Principal ASIC Physical Design Engineer",
 "rule": "not-intern",
@@ -4585,14 +4585,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5277855008",
+"id": "gh:k2spacecorporation:5288011008",
 "company": "K2 Space",
 "title": "Senior DFT Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288011008",
+"id": "gh:k2spacecorporation:5277855008",
 "company": "K2 Space",
 "title": "Senior DFT Engineer",
 "rule": "not-intern",
@@ -4683,14 +4683,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5165720008",
+"id": "gh:k2spacecorporation:5288027008",
 "company": "K2 Space",
 "title": "Senior Flight Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288027008",
+"id": "gh:k2spacecorporation:5165720008",
 "company": "K2 Space",
 "title": "Senior Flight Software Engineer",
 "rule": "not-intern",
@@ -4704,14 +4704,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288020008",
+"id": "gh:k2spacecorporation:5165716008",
 "company": "K2 Space",
 "title": "Senior FPGA Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5165716008",
+"id": "gh:k2spacecorporation:5288020008",
 "company": "K2 Space",
 "title": "Senior FPGA Engineer",
 "rule": "not-intern",
@@ -4725,14 +4725,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5386732008",
+"id": "gh:k2spacecorporation:5386721008",
 "company": "K2 Space",
 "title": "Senior FPGA Prototyping Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5386721008",
+"id": "gh:k2spacecorporation:5386732008",
 "company": "K2 Space",
 "title": "Senior FPGA Prototyping Engineer",
 "rule": "not-intern",
@@ -7210,6 +7210,76 @@
 "tag": ""
 },
 {
+"id": "ab:odys-aviation:20ff1631-6e30-4415-aa81-a3c50cdefb22",
+"company": "Odys Aviation",
+"title": "Lead Aircraft Maintenance Technician (eVTOL)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:odys-aviation:8cc20742-0838-43c5-9fc4-ede08e51d508",
+"company": "Odys Aviation",
+"title": "Mechanical Technician - Airframe",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:odys-aviation:b966c0db-8539-4f43-89a8-b0e154dba8f7",
+"company": "Odys Aviation",
+"title": "Mission Systems Integration Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:odys-aviation:75c060db-54fc-4c0f-acaf-8113c173a8a9",
+"company": "Odys Aviation",
+"title": "Staff Propulsion Controls & Software Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:odys-aviation:fa26970b-319d-4eb4-a8bd-5cf59ca41ea9",
+"company": "Odys Aviation",
+"title": "Sr. Power Electronics Hardware Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:odys-aviation:b47a1705-aa03-42fe-93bd-2435ac3fae32",
+"company": "Odys Aviation",
+"title": "Mission Operations Specialist (UAS Pilot)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:odys-aviation:4ff50872-33d3-44f0-b999-bcb2906f87f6",
+"company": "Odys Aviation",
+"title": "Mechanical Technician - Powerplant",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:odys-aviation:8f5e460a-98a4-4fd8-b880-d22071faa29f",
+"company": "Odys Aviation",
+"title": "Mechanical Engineering Intern/Co-Op [Propulsion]",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ab:odys-aviation:235a2d1e-5925-436c-9044-3e94e4dabb3d",
+"company": "Odys Aviation",
+"title": "Senior Mechanical Design Engineer [Propulsion]",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:odys-aviation:b522ef73-2c90-4fca-b0ec-18484a3c4358",
+"company": "Odys Aviation",
+"title": "Composite Technician - Airframe",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "ab:oligo:9a3c8905-73c3-483f-bd60-3fbb28473f7d",
 "company": "Oligo Space",
 "title": "Senior Generative Spacecraft Engineer - all fields ",
@@ -7413,14 +7483,14 @@
 "tag": ""
 },
 {
-"id": "gh:pacificfusion:4385906009",
+"id": "gh:pacificfusion:4051088009",
 "company": "Pacific Fusion",
 "title": "Mechanical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:pacificfusion:4051088009",
+"id": "gh:pacificfusion:4385906009",
 "company": "Pacific Fusion",
 "title": "Mechanical Design Engineer",
 "rule": "not-intern",
@@ -7483,14 +7553,14 @@
 "tag": ""
 },
 {
-"id": "gh:pacificfusion:4164353009",
+"id": "gh:pacificfusion:4051080009",
 "company": "Pacific Fusion",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:pacificfusion:4051080009",
+"id": "gh:pacificfusion:4164353009",
 "company": "Pacific Fusion",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -7546,14 +7616,14 @@
 "tag": ""
 },
 {
-"id": "gh:pacificfusion:4259183009",
+"id": "gh:pacificfusion:4051086009",
 "company": "Pacific Fusion",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:pacificfusion:4051086009",
+"id": "gh:pacificfusion:4259183009",
 "company": "Pacific Fusion",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
@@ -9065,14 +9135,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8612945002",
+"id": "gh:relativity:8455890002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8455890002",
+"id": "gh:relativity:8612945002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
@@ -9135,14 +9205,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8463038002",
+"id": "gh:relativity:8780048002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8780048002",
+"id": "gh:relativity:8463038002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
@@ -9660,14 +9730,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8728512002",
+"id": "gh:relativity:8464747002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8464747002",
+"id": "gh:relativity:8728512002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
@@ -11438,14 +11508,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:4928724008",
+"id": "gh:stratolaunch:4948176008",
 "company": "Stratolaunch",
 "title": "Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:4948176008",
+"id": "gh:stratolaunch:4928724008",
 "company": "Stratolaunch",
 "title": "Electrical Engineer",
 "rule": "not-intern",
@@ -11627,14 +11697,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5398750008",
+"id": "gh:stratolaunch:5238458008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5238458008",
+"id": "gh:stratolaunch:5398750008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
@@ -11875,6 +11945,573 @@
 "id": "ab:sunday:a81292e2-bb63-4b53-bb4e-47e6d2193fa2",
 "company": "Sunday Robotics",
 "title": "Fulfillment Associate",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5409532008",
+"company": "The Nuclear Company",
+"title": "Accounts Payable Manager",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5409546008",
+"company": "The Nuclear Company",
+"title": "Accounts Receivable Manager",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5286179008",
+"company": "The Nuclear Company",
+"title": "AI Engineer 1 - Compliance, Quality & Testing ",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5285585008",
+"company": "The Nuclear Company",
+"title": "AI Engineer 1 - Platform Integration & AI/Data ",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5386722008",
+"company": "The Nuclear Company",
+"title": "Assistant Controller",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5397663008",
+"company": "The Nuclear Company",
+"title": "Business Development Representative \u2014 Professional Services ",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5372506008",
+"company": "The Nuclear Company",
+"title": "Construction Manager",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5361733008",
+"company": "The Nuclear Company",
+"title": "Cost Control Specialist",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5361755008",
+"company": "The Nuclear Company",
+"title": "Cost Estimator",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5236483008",
+"company": "The Nuclear Company",
+"title": "Deputy General Counsel",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5301431008",
+"company": "The Nuclear Company",
+"title": "Director, Energy Sales",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5373357008",
+"company": "The Nuclear Company",
+"title": "Director, Nuclear Workforce Pipeline Development",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5410396008",
+"company": "The Nuclear Company",
+"title": "Director of Accounting, Deployment",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5395293008",
+"company": "The Nuclear Company",
+"title": "Director of Accounting, Services",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5407334008",
+"company": "The Nuclear Company",
+"title": "Director of Health, Safety & Environmental (HSE)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5365389008",
+"company": "The Nuclear Company",
+"title": "Director, Tax",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5419781008",
+"company": "The Nuclear Company",
+"title": "Document Controller",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5303172008",
+"company": "The Nuclear Company",
+"title": "Electrical Sales Engineer ",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:4252603008",
+"company": "The Nuclear Company",
+"title": "General Application",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5421799008",
+"company": "The Nuclear Company",
+"title": "Interconnection Specialist",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5289017008",
+"company": "The Nuclear Company",
+"title": "IT Support Specialist",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5376935008",
+"company": "The Nuclear Company",
+"title": "Land Specialist",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:4778254008",
+"company": "The Nuclear Company",
+"title": "Licensing Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5365390008",
+"company": "The Nuclear Company",
+"title": "Manager, Financial Systems & ERP\u00a0",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5309313008",
+"company": "The Nuclear Company",
+"title": "Manager, Mechanical Services (Nuclear)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5419379008",
+"company": "The Nuclear Company",
+"title": "Manager, Project Controls",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5419392008",
+"company": "The Nuclear Company",
+"title": "Manager, Project Risk Management",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5365397008",
+"company": "The Nuclear Company",
+"title": "Manager, Technical Accounting",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5142831008",
+"company": "The Nuclear Company",
+"title": "Manual Machinist - Full-Time On Site",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5383487008",
+"company": "The Nuclear Company",
+"title": "Mechanical Manager - FieldWorks",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5249179008",
+"company": "The Nuclear Company",
+"title": "Nuclear Bolt Technician - Seasonal Fall Outage",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5389735008",
+"company": "The Nuclear Company",
+"title": "Nuclear Engineer I",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5389079008",
+"company": "The Nuclear Company",
+"title": "Organizational Effectiveness & Performance Improvement Analyst ",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5421792008",
+"company": "The Nuclear Company",
+"title": "Permitting Specialist",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5361741008",
+"company": "The Nuclear Company",
+"title": "Project Controls, Database Administrator (DBA)/NOS",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5404769008",
+"company": "The Nuclear Company",
+"title": "Project Procurement Manager (Greenfield Projects)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5274724008",
+"company": "The Nuclear Company",
+"title": "Pump Mechanic (Lark/ Mount Holly, NC)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5398246008",
+"company": "The Nuclear Company",
+"title": "PWR Long Handle Tool Technician - Oconee Nuclear Outage",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5389021008",
+"company": "The Nuclear Company",
+"title": "Quality Assurance Engineer- Program & Project Delivery",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5274665008",
+"company": "The Nuclear Company",
+"title": "Research Scientist",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:4951124008",
+"company": "The Nuclear Company",
+"title": "Senior Associate, Project Finance",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:4668800008",
+"company": "The Nuclear Company",
+"title": "Senior Licensing Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5348424008",
+"company": "The Nuclear Company",
+"title": "Senior Manager, Licensing",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5309303008",
+"company": "The Nuclear Company",
+"title": "Senior Manager, Reactor Services",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5287157008",
+"company": "The Nuclear Company",
+"title": "Senior Platform Engineer ",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5136570008",
+"company": "The Nuclear Company",
+"title": "Senior Scheduler",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5287083008",
+"company": "The Nuclear Company",
+"title": "Senior Software Quality Development Engineer (SDET)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5412265008",
+"company": "The Nuclear Company",
+"title": "Senior Systems Administrator",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5383122008",
+"company": "The Nuclear Company",
+"title": "Senior Vice President, Deployment",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5383116008",
+"company": "The Nuclear Company",
+"title": "Senior Vice President, Operations",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5421798008",
+"company": "The Nuclear Company",
+"title": "Siting Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5391888008",
+"company": "The Nuclear Company",
+"title": "Spring 2027 AI Applied Research Internship",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "gh:thenuclearcompany:5383212008",
+"company": "The Nuclear Company",
+"title": "Spring 2027 AI/ML Engineering Intern",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "gh:thenuclearcompany:5383218008",
+"company": "The Nuclear Company",
+"title": "Spring 2027 Data Science Intern",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "gh:thenuclearcompany:5383171008",
+"company": "The Nuclear Company",
+"title": "Spring 2027 Software Engineering Intern",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "gh:thenuclearcompany:5256806008",
+"company": "The Nuclear Company",
+"title": "Staff Application Security Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5412229008",
+"company": "The Nuclear Company",
+"title": "Staff Civil-Structural Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5412206008",
+"company": "The Nuclear Company",
+"title": "Staff Electrical Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5412249008",
+"company": "The Nuclear Company",
+"title": "Staff Mechanical Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5270631008",
+"company": "The Nuclear Company",
+"title": "Staff Software Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5286396008",
+"company": "The Nuclear Company",
+"title": "Staff Software Engineer - NOS",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5391923008",
+"company": "The Nuclear Company",
+"title": "Summer 2027 AI Applied Research Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5383231008",
+"company": "The Nuclear Company",
+"title": "Summer 2027 AI/ML Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5383244008",
+"company": "The Nuclear Company",
+"title": "Summer 2027 Data Science Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5383236008",
+"company": "The Nuclear Company",
+"title": "Summer 2027 Software Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5389008008",
+"company": "The Nuclear Company",
+"title": "Supplier & Partner Quality Lead",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5418204008",
+"company": "The Nuclear Company",
+"title": "TNC Nuclear Interns 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5174564008",
+"company": "The Nuclear Company",
+"title": "Traveling Apprentice / Early Career \u2013 Electrical & Mechanical ",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5167370008",
+"company": "The Nuclear Company",
+"title": "Traveling Electricians / I&E - I&C / Instrument Fitters",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5168649008",
+"company": "The Nuclear Company",
+"title": "Traveling Entry-Level Helper Pool ",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5168607008",
+"company": "The Nuclear Company",
+"title": "Traveling Heavy Equipment & Crane Operators",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5174545008",
+"company": "The Nuclear Company",
+"title": "Traveling Industrial Construction Support",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5168639008",
+"company": "The Nuclear Company",
+"title": "Traveling Machinists (CNC, Manual & Precision Fabrication)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5167348008",
+"company": "The Nuclear Company",
+"title": "Traveling Mechanical / Rotating Equipment / Millwright (Pumps, Valves, Turbines)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5167384008",
+"company": "The Nuclear Company",
+"title": "Traveling NDE / NDT & QA/QC Inspectors",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5168603008",
+"company": "The Nuclear Company",
+"title": "Traveling Reactor Services / Refuel Technicians",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5374488008",
+"company": "The Nuclear Company",
+"title": "Traveling Renewable Energy Field Technician",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5289773008",
+"company": "The Nuclear Company",
+"title": "Turbine Diaphragm Welder",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5400115008",
+"company": "The Nuclear Company",
+"title": "Vice President, Corporate FP&A",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5409568008",
+"company": "The Nuclear Company",
+"title": "Vice President, Engineering",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5386309008",
+"company": "The Nuclear Company",
+"title": "Vice President, Procurement and Supply Chain",
 "rule": "not-intern",
 "tag": ""
 },
@@ -12859,6 +13496,867 @@
 "tag": ""
 },
 {
+"id": "wd:micron:/job/Penang-Malaysia---Grande/Intern---NAND-Intrinsic-Reliability---Data-Analytics_JR111279",
+"company": "Micron",
+"title": "Intern \u2013 NAND Intrinsic Reliability & Data Analytics",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10A-Singapore/Intern--Solutions-Engineer_JR109820",
+"company": "Micron",
+"title": "Intern- Solutions Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---MFG-WET_JR110419",
+"company": "Micron",
+"title": "Intern - MFG WET",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/MSB-Singapore/Intern---SSD-Assembly-Process---Equipment-Engineering_JR110226",
+"company": "Micron",
+"title": "Intern - SSD Assembly Process & Equipment Engineering",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---NAND-Device-Engineering-AI_JR112107",
+"company": "Micron",
+"title": "Intern - NAND Device Engineering AI",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---F10-Process---Equipment-Engineer_JR110949",
+"company": "Micron",
+"title": "Intern - F10 Process & Equipment Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Richardson-TX/Intern---HBM-Design-Architect---MS-or-PhD-Student_JR111452",
+"company": "Micron",
+"title": "Intern - HBM Design Architect | MS or PhD Student",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---IT-Software-Engineer_JR111582",
+"company": "Micron",
+"title": "Intern - IT Software Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/NAND-Probe-Product-Engineering-Intern_JR110823",
+"company": "Micron",
+"title": "Intern- NAND Probe Product Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---ID1/Intern--Technician--Process_JR112005",
+"company": "Micron",
+"title": "Intern- Technician, Process",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Vimercate-MB-Italy/INTERNSHIP---NAND-Cell-Characterization---AI-Tools_JR111212",
+"company": "Micron",
+"title": "INTERNSHIP - NAND Cell Characterization & AI Tools",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/INTERN--MFG-ENGINEER_JR110956",
+"company": "Micron",
+"title": "Intern- F10 Manufacuring Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10A-Singapore/Intern---Industrial-Engineer_JR111008",
+"company": "Micron",
+"title": "Intern - Industrial Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---Manufacturing-Equipment-Engineer_JR111245",
+"company": "Micron",
+"title": "Intern - Manufacturing Equipment Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---STPG-PE-NAND-Reliability_JR111498",
+"company": "Micron",
+"title": "Intern - STPG PE NAND Reliability",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/MSB-Singapore/Intern--MSB-Test-Engineer_JR110515",
+"company": "Micron",
+"title": "Intern- MSB Test Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/MTI---WASHINGTON--DC---25-Mass---Office/Intern---Global-Communications-Policy-Comms_JR109462",
+"company": "Micron",
+"title": "Intern - Global Communications/Policy Comms",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/MSB-Singapore/Intern---SSD-Manufacturing_JR111162",
+"company": "Micron",
+"title": "Intern - SSD Manufacturing",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---ID1/Intern---Automation--Operations-Improvement_JR110774",
+"company": "Micron",
+"title": "Intern - Automation, Operations Improvement",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---NAND-Product-Development-Engineer_JR111283",
+"company": "Micron",
+"title": "Intern - NAND Product Development Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---DRAM-Customer-Enablement-Engineering_JR106521",
+"company": "Micron",
+"title": "Intern - DRAM Customer Enablement Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---DRAM-Customer-Enablement-Engineering_JR107740",
+"company": "Micron",
+"title": "Intern - DRAM Customer Enablement Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Photomask-Sustaining-Engineering_JR108456",
+"company": "Micron",
+"title": "Intern - Photomask Sustaining Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/MSB-Singapore/Intern---STPG-PE-FIrmware_JR111318",
+"company": "Micron",
+"title": "Intern - STPG PE Firmware",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---RDA--Real-Time-Defect-Analysis-_JR110962",
+"company": "Micron",
+"title": "Intern - RDA (Real-Time Defect Analysis)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---F10-Process-and-Equipment-Engineer_JR111255",
+"company": "Micron",
+"title": "Intern - F10 Process and Equipment Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---PLN--Planning--Strategic-Layout_JR111175",
+"company": "Micron",
+"title": "Intern - PLN (Planning) Strategic Layout",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/MSB-Singapore/Intern---Test-Equipment-Engineer_JR111161",
+"company": "Micron",
+"title": "Intern - Test Equipment Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/MSB-Singapore/Intern---MSB-Process---Equipment-Engineer_JR110012",
+"company": "Micron",
+"title": "Intern - MSB Process & Equipment Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Taichung---Fab-16-Taiwan/XMLNAME-2027-Semester-Internship_JR110924",
+"company": "Micron",
+"title": "2027 Semester Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---NAND-Product-Engineering---Probe-AI-ML_JR110821",
+"company": "Micron",
+"title": "Intern - NAND Product Engineering - Probe AI/ML",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/MSB-Singapore/Intern---Real-Time-Particle-Monitoring_JR110846",
+"company": "Micron",
+"title": "Intern - Real Time Particle Monitoring",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Photomask-Yield-Enhancement_JR110636",
+"company": "Micron",
+"title": "Intern - Photomask Yield Enhancement",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/XMLNAME-2027-Summer-Intern--Advanced-Spectroscopy-and-Nanoscale-Materials-Characterization_JR109071",
+"company": "Micron",
+"title": "Intern - Advanced Spectroscopy and Nanoscale Materials Characterization",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Folsom-CA/Intern---Memory---System-Architecture-Research_JR110475",
+"company": "Micron",
+"title": "Intern - Memory & System Architecture Research",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---DRAM-Design-Rules_JR110670",
+"company": "Micron",
+"title": "Intern - DRAM Design Rules",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---ID1/Intern--Equipment-Technician_JR111002",
+"company": "Micron",
+"title": "Intern - Technician, Fab Equipment",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---F10-QEM-Product-Quality-Engineering-Yield-Data-Analaytics_JR109828",
+"company": "Micron",
+"title": "Intern - F10 QEM Product Quality Engineering Yield Data Analytics",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---Process---Equipment-Engineering_JR110407",
+"company": "Micron",
+"title": "Intern - Process & Equipment Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Advanced-DRAM-Cell---Device-Technology_JR110172",
+"company": "Micron",
+"title": "Intern - Advanced DRAM Cell & Device Technology",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---ADTS-PIE-RDA_JR110074",
+"company": "Micron",
+"title": "Intern-  ADTS PIE RDA",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern--Process-and-Equipment-Engineer--Photo-_JR110100",
+"company": "Micron",
+"title": "Intern- Process and Equipment Engineer (Photo)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---ADTS-PEE-Dry-Etch_JR109895",
+"company": "Micron",
+"title": "Intern - ADTS PEE Dry Etch",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---DRAM-Technology-DTCO---PPA-Assessment-Engineer_JR109582",
+"company": "Micron",
+"title": "Intern - DRAM Technology DTCO & PPA Assessment Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Longmont-MAX--Office-CO/Intern---Systems-Performance-Engineer_JR109583",
+"company": "Micron",
+"title": "Intern - Systems Performance Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---EUV-Lithography_JR107843",
+"company": "Micron",
+"title": "Intern - EUV Lithography",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/MSB-Singapore/Intern---Test-Solutions-Engineering_JR109954",
+"company": "Micron",
+"title": "Intern - Test Solutions Engineering",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---DRAM-Process-Integration_JR110655",
+"company": "Micron",
+"title": "Intern - DRAM Process Integration",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Austin-TX/Intern---AI-Systems-and-Infrastructure-Engineering_JR109990",
+"company": "Micron",
+"title": "Intern - AI Systems and Infrastructure Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---EDE-Thin-Films-Equipment-Engineering_JR108977",
+"company": "Micron",
+"title": "Intern - EDE Thin Films Equipment Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Dry-Etch-Equipment-Development-Engineering_JR109987",
+"company": "Micron",
+"title": "Intern - Dry Etch Equipment Development Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Mask-Technology_JR110035",
+"company": "Micron",
+"title": "Intern - Mask Technology",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---Engineer-HVM-PEE-PHOTO_JR99361",
+"company": "Micron",
+"title": "Intern - Engineer HVM PEE PHOTO",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---Chemical-Mechanical-Planarization-Process-Engineering_JR109884",
+"company": "Micron",
+"title": "Intern - Chemical Mechanical Planarization Process Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---Process---Equipment-Engineer--Diffusion-_JR109803",
+"company": "Micron",
+"title": "Intern - Process & Equipment Engineer (Diffusion)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10A-Singapore/Intern---FE-Materials-Procurement-Operations_JR109625",
+"company": "Micron",
+"title": "Intern - FE Materials Procurement Operations",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10A-Singapore/Intern---Front-End-Materials-Procurement-Operations_JR108593",
+"company": "Micron",
+"title": "Intern - Front-End Materials Procurement Operations",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---CDM_JR109768",
+"company": "Micron",
+"title": "Intern - CDM",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Taipei---MTT-office-Taiwan/Intern-2026---Sales-Operation-Analyst_JR109801",
+"company": "Micron",
+"title": "Intern 2026 - Sales Operation Analyst",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10A-Singapore/Intern--PDE-PCS_JR108742",
+"company": "Micron",
+"title": "Intern, PDE PCS",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/MSB-Singapore/Intern--Test-Solutions-Engineer_JR106290",
+"company": "Micron",
+"title": "Intern- Test Solutions Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/San-Jose-CA/Corporate-Marketing-Storytelling-Intern_JR109493",
+"company": "Micron",
+"title": "Intern - Corporate Marketing Storytelling",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Meridian-ID/Intern---Marketing-Analytics_JR109458",
+"company": "Micron",
+"title": "Intern - Marketing Analytics",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Longmont-MAX--Office-CO/Intern---Technical-Customer-Management--AI_JR109454",
+"company": "Micron",
+"title": "Intern - Technical Customer Management, AI",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Meridian-ID/Intern---Marketing-Research_JR109460",
+"company": "Micron",
+"title": "Intern - Marketing Research",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/San-Jose-CA/Intern---CDBU-Marketing_JR109697",
+"company": "Micron",
+"title": "Intern - CDBU Marketing",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/MSB-Singapore/Intern---Product-Development-Engineer_JR108915",
+"company": "Micron",
+"title": "Intern - Product Development Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/MSB-Singapore/Intern--MSB-Process-Integration-Engineer_JR109767",
+"company": "Micron",
+"title": "Intern- MSB Process Integration Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/MSB-Singapore/Intern--MSB-Process-Integration-Engineer_JR109764",
+"company": "Micron",
+"title": "Intern- MSB Process Integration Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/MSB-Singapore/Intern---Assembly-Post-Electrical_JR109872",
+"company": "Micron",
+"title": "Intern - Assembly Post Electrical",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Jalisco-Mexico/DRAM-IP-Development-Layout--Internship-_JR108219",
+"company": "Micron",
+"title": "DRAM IP Development Layout (Internship)",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Jalisco-Mexico/DRAM-Layout-engineer--Intern-_JR108252",
+"company": "Micron",
+"title": "DRAM Layout engineer (Intern)",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-CMP_JR107848",
+"company": "Micron",
+"title": "Intern - Process Development Engineer, 3D DRAM CMP",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Metrology-Process-Development-Engineer_JR108851",
+"company": "Micron",
+"title": "Intern - Metrology Process Development Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10A-Singapore/Intern---FE-Materials-Procurement-Operations_JR108446",
+"company": "Micron",
+"title": "Intern - FE Materials Procurement Operations",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Digital-IP-Design-Engineer--DRAM_JR108533",
+"company": "Micron",
+"title": "Intern - Digital IP Design Engineer, DRAM",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--Planar-DRAM-CMP_JR108060",
+"company": "Micron",
+"title": "Intern - Process Development Engineer, Planar DRAM CMP",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-Photo_JR107312",
+"company": "Micron",
+"title": "Intern - Process Development Engineer, 3D DRAM Photo",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Realtime-Defect-Analysis--RDA--Yield-Technology_JR109054",
+"company": "Micron",
+"title": "Intern - Realtime Defect Analysis (RDA) Yield Technology",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Hiroshima---Fab-15-Japan/UPWARDS-_JR108170",
+"company": "Micron",
+"title": "UPWARDS \u30b5\u30de\u30fc\u30a4\u30f3\u30bf\u30fc\u30f3\u30b7\u30c3\u30d7\u30d7\u30ed\u30b0\u30e9\u30e0\u624b\u7d9a\u304d\u7528",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---TD-Site-Industrial-Engineer_JR108729",
+"company": "Micron",
+"title": "Intern - TD Site Industrial Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Product-Yield-Enhancement-Eng_JR108605",
+"company": "Micron",
+"title": "Intern - Product Yield Enhancement Eng",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Yield-Enhancement--Data-Analysis_JR109076",
+"company": "Micron",
+"title": "Intern - Yield Enhancement, Data Analysis",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Yield-Technology-Equipment_JR109069",
+"company": "Micron",
+"title": "Intern - Yield Technology Equipment",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Wet-Process-Fab-4-EDE_JR108959",
+"company": "Micron",
+"title": "Intern - Wet Process Fab 4 EDE",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Photomask-Wet-Process-Engineering_JR108464",
+"company": "Micron",
+"title": "Intern - Photomask Wet Process Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Munich-MDC-Germany/DRAM-Product-Engineer-Intern_JR82680",
+"company": "Micron",
+"title": "Working Student in Software Quality Assurance (m/f/d)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Advanced-DRAM-Process-Integration_JR107205",
+"company": "Micron",
+"title": "Intern - Advanced DRAM Process Integration",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Jalisco-Mexico/DRAM-Design-Engineer--Intern-_JR108061",
+"company": "Micron",
+"title": "DRAM Design Engineer (Intern)",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Jalisco-Mexico/Design-Verification-Engineer-Intern_JR107487",
+"company": "Micron",
+"title": "Design Verification Engineer Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Jalisco-Mexico/DRAM-Design-Engineer--Intern-_JR108395",
+"company": "Micron",
+"title": "DRAM Design Engineer (Intern)",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---DRAM-Design-Engineer_JR108458",
+"company": "Micron",
+"title": "Intern - DRAM Design Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---EUV---Materials-Lithography_JR108053",
+"company": "Micron",
+"title": "Intern - EUV & Materials Lithography",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--Thin-Films_JR107323",
+"company": "Micron",
+"title": "Intern - Process Development Engineer, Thin Films",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Wet-Etch-Process-Development-Engineer_JR108050",
+"company": "Micron",
+"title": "Intern - Wet Etch Process Development Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Taichung---Fab-16-Taiwan/Intern-2027---DRAM-Customer-Enablement-Engineering_JR107783",
+"company": "Micron",
+"title": "Intern 2027 - DRAM Customer Enablement Engineering",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---DRAM-PI_JR107483",
+"company": "Micron",
+"title": "Intern - DRAM PI",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---DRAM-Process-Integration_JR108075",
+"company": "Micron",
+"title": "Intern - DRAM Process Integration",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Wafer-Bonding-Process-Development_JR108074",
+"company": "Micron",
+"title": "Intern - Wafer Bonding Process Development",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Process-Pathfinding--DRAM-Dry-Etch_JR107347",
+"company": "Micron",
+"title": "Intern - Process Pathfinding, DRAM Dry Etch",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---TEM-Engineer_JR105483",
+"company": "Micron",
+"title": "Intern - TEM Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-Metals_JR107311",
+"company": "Micron",
+"title": "Intern - Process Development Engineer, 3D DRAM Metals",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---DRAM-Design-Engineer_JR108448",
+"company": "Micron",
+"title": "Intern - DRAM Design Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---DRAM-Design-Engineer_JR108468",
+"company": "Micron",
+"title": "Intern - DRAM Design Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---NAND-Cell-Reliability_JR101066",
+"company": "Micron",
+"title": "Intern - NAND Cell Reliability",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--Dry-Etch_JR107326",
+"company": "Micron",
+"title": "Intern - Process Development Engineer, Dry Etch",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Process-Development_JR107319",
+"company": "Micron",
+"title": "Intern - Process Development",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Process-Development-Engineer--3D-DRAM-Dry-Etch_JR107330",
+"company": "Micron",
+"title": "Intern - Process Development Engineer, 3D DRAM Dry Etch",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Photolithography-Process_JR107508",
+"company": "Micron",
+"title": "Intern - Photolithography Process",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---ML-AI-Engineer--Product-Engineering--STPG-_JR93102",
+"company": "Micron",
+"title": "Intern \u2013 ML/AI Engineer (Product Engineering, STPG)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---F10-CVD-PEE_JR97726",
+"company": "Micron",
+"title": "Intern - F10 CVD PEE",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Munich-MDC-Germany/DRAM-Design-Working-Student-in-Munich--m-f-d-_JR107309",
+"company": "Micron",
+"title": "DRAM Design Working Student in Munich (m/f/d)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---Dry-Etch-Process-and-Equipment_JR97668",
+"company": "Micron",
+"title": "Intern \u2013 Dry Etch Process and Equipment",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Technology-Development--Research---Innovation-Internship--Singapore-_JR106777",
+"company": "Micron",
+"title": "Technology Development, Research & Innovation Internship (Singapore)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/AI--Data---Digital-Solutions-Internship--Singapore-_JR106776",
+"company": "Micron",
+"title": "AI, Data & Digital Solutions Internship (Singapore)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Advanced-Engineering---Manufacturing-Internship_JR106775",
+"company": "Micron",
+"title": "Advanced Engineering & Manufacturing Internship (Singapore)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---PEE-DIFFUSION_JR98476",
+"company": "Micron",
+"title": "Intern - PEE DIFFUSION",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Muar-Malaysia/Intern---Operation-Improvement_JR97674",
+"company": "Micron",
+"title": "Intern - Operation Improvement",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Penang-Malaysia---Grande/Intern---MMP-pFA-Lab_JR100162-1",
+"company": "Micron",
+"title": "Intern - MMP pFA Lab",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---QEM-Contamination-Control--CC---Polytechnic-Students-_JR100035",
+"company": "Micron",
+"title": "Intern - QEM Contamination Control (CC) (Polytechnic Students)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Penang-Malaysia---Grande/Intern---Support-on-Host-Automation-Enablement-for-Enclosure-Attach_JR96495",
+"company": "Micron",
+"title": "Intern - Support on Host Automation Enablement for Enclosure Attach",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Penang-Malaysia---Mini-Grande/Intern---SSD-Process-Engineer_JR96471",
+"company": "Micron",
+"title": "Intern - SSD Process Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Fab-10NX-Singapore/Intern---NTI-Process-Integration---AI-Track_JR96179",
+"company": "Micron",
+"title": "Intern - NTI Process Integration - AI Track",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "wd:analogdevices:/job/US-OR-Beaverton/Equipment-Engineering-Intern_R266095",
 "company": "Analog Devices",
 "title": "Equipment Engineering Intern",
@@ -12961,6 +14459,195 @@
 "company": "Analog Devices",
 "title": "Technician Student Intern",
 "rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264525",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264524",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264519",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264517",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264516",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264515",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264513",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264512",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264511",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264509",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264504",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264503",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264502",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264501",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264499",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264498",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264496",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264494",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264493",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264492",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264298",
+"company": "Analog Devices",
+"title": "Technician Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Engineer-Student-Intern_R256445",
+"company": "Analog Devices",
+"title": "Engineer Student Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Thailand-Chon-Buri/Intern---Engineering_R256839",
+"company": "Analog Devices",
+"title": "Intern - Engineering",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Thailand-Chon-Buri/Intern---Engineering_R256838",
+"company": "Analog Devices",
+"title": "Intern - Engineering",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Engineer-Student-Intern_R256450",
+"company": "Analog Devices",
+"title": "Engineer Student Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Engineer-Student-Intern_R254110",
+"company": "Analog Devices",
+"title": "Engineer Student Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:analogdevices:/job/Thailand-Chon-Buri/Analog-Devices-Thailand-s-Internship-Program_R258682",
+"company": "Analog Devices",
+"title": "Analog Devices Thailand\u2019s Internship Program",
+"rule": "geo",
 "tag": ""
 },
 {
@@ -13461,6 +15148,1119 @@
 "tag": ""
 },
 {
+"id": "wd:amat:/job/ShanghaiCHN/Customer-Engineer---C1_R2627658",
+"company": "Applied Materials",
+"title": "Customer Engineer - C1",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/ShanghaiCHN/Customer-Engineer---C1_R2627659",
+"company": "Applied Materials",
+"title": "Customer Engineer - C1",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/ShenzhenCHN/Customer-Engineer---C1_R2627660",
+"company": "Applied Materials",
+"title": "Customer Engineer - C1",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/ShenzhenCHN/Customer-Engineer---C1_R2627661",
+"company": "Applied Materials",
+"title": "Customer Engineer - C1",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/ChengduCHN/Customer-Engineer---C1_R2627663",
+"company": "Applied Materials",
+"title": "Customer Engineer - C1",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/ChengduCHN/Customer-Engineer---C1_R2627664",
+"company": "Applied Materials",
+"title": "Customer Engineer - C1",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/ChengduCHN/Customer-Engineer---C1_R2627666",
+"company": "Applied Materials",
+"title": "Customer Engineer - C1",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/ChengduCHN/Customer-Engineer---C1_R2627667",
+"company": "Applied Materials",
+"title": "Customer Engineer - C1",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/New-College-Grad---Algorithm-Developer-III---PhD--Winter-2026-Start-_R2628587",
+"company": "Applied Materials",
+"title": "New College Grad - Algorithm Developer III - PhD (Winter 2026 Start)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Logistics-Automation-New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627714",
+"company": "Applied Materials",
+"title": "Logistics Automation New College Grad- Bachelor's (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Packaging-Engineer-II--New-College-Grad--Master-s--Santa-Clara--CA-_R2627547",
+"company": "Applied Materials",
+"title": "Packaging Engineer II, New College Grad- Master's (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Product-Line-Management-II-New-College-Grad--Master-s--Santa-Clara--CA-_R2627412",
+"company": "Applied Materials",
+"title": "Product Line Management II New College Grad- Master's (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Business-Intelligence-Analyst-I--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2626650",
+"company": "Applied Materials",
+"title": "Business Intelligence Analyst I, New College Grad- Bachelor's (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/AustinTX/Industrial-Engineer-I--New-College-Grad--Bachelor-s--Austin--TX-_R2626688",
+"company": "Applied Materials",
+"title": "Industrial Engineer I, New College Grad- Bachelor's (Austin, TX)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Algorithm-Developer-II_R2627187",
+"company": "Applied Materials",
+"title": "Algorithm Developer II New College Grad- Master's (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/GloucesterMA/XMLNAME-2027-Spring-Electrical-Engineer-Co-op-BS-or-MS--Gloucester--MA-_R2628288-1",
+"company": "Applied Materials",
+"title": "2027 Spring Electrical Engineer (Controls, PCB) Co-op BS or MS (Gloucester, MA)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Transportation-Analyst_R2628591",
+"company": "Applied Materials",
+"title": "Transportation Analyst",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/GloucesterMA/Product-Marketing-II-New-College-Grad--Gloucester--MA-_R2626597",
+"company": "Applied Materials",
+"title": "Product Marketing II New College Grad (Gloucester, MA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/HefeiCHN/Customer-Engineer-Intern_R2628378",
+"company": "Applied Materials",
+"title": "Customer Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/PhoenixAZ/Logistics-Operation-New-College-Grad--Bachelor-s--Phoenix--AZ-_R2627423",
+"company": "Applied Materials",
+"title": "Logistics Operation New College Grad, Bachelor's (Phoenix, AZ)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Financial-Analyst-I--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627553-1",
+"company": "Applied Materials",
+"title": "Financial Analyst I, New College Grad- Bachelor's (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/AlzenauDEU/Intern---Working-Student--m-f-d--for-PVD-Display-Engineering-in-Alzenau_R2627143",
+"company": "Applied Materials",
+"title": "Intern / Working Student (m/f/d) for PVD Display Engineering in Alzenau",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Manufacturing-Engineer--Entry-level-_R2628209",
+"company": "Applied Materials",
+"title": "Manufacturing Engineer (Entry-level)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Engineering-Intern_R2627218",
+"company": "Applied Materials",
+"title": "Engineering Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Process-Engineer-IV_R2624055",
+"company": "Applied Materials",
+"title": "New College Grad - Process Engineer - Doctorate (Fall 2026 Start)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Customer-Business-Operations-Specialist-I_R2625704",
+"company": "Applied Materials",
+"title": "Customer Business Operations Specialist I",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/GloucesterMA/XMLNAME-2027-Spring-Product-Quality-Engineer-Co-op----Bachelor-s--Gloucester--MA-_R2628291",
+"company": "Applied Materials",
+"title": "2027 Spring Product Quality Engineer Co-op  - Bachelor's (Gloucester, MA)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/GloucesterMA/XMLNAME-2027-Spring-Mechanical-Engineer-Co-op--Gloucester-MA-_R2628290",
+"company": "Applied Materials",
+"title": "2027 Spring Mechanical Engineer Co-op (Gloucester. MA)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Customer-and-Commercial-Operations-Specialist_R2627416-1",
+"company": "Applied Materials",
+"title": "Customer & Commercial Operations Specialist (NCG / Fresh Graduates Welcome)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/LeixlipIRL/Logistics-Operation-Coordinator--Early-Careers-_R2627600",
+"company": "Applied Materials",
+"title": "Logistics Operation Coordinator (Early Careers)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Systems-Engineer_R2628267",
+"company": "Applied Materials",
+"title": "Systems Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/ShanghaiCHN/Customer-Engineer-I-Senior_R2628279",
+"company": "Applied Materials",
+"title": "Customer Engineer I Senior",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Product-Line-Management-I--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2622280",
+"company": "Applied Materials",
+"title": "Product Line Management I- New College Grad- Bachelor's (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/RehovotISR/Planner_R2519119",
+"company": "Applied Materials",
+"title": "Planner",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/WuxiCHN/Global-Installation-Engineer-Semi-CMP_R2624604",
+"company": "Applied Materials",
+"title": "Global Installation Engineer-Semi-CMP",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/ShanghaiCHN/Global-Installation-Engineer-Semi-PDC_R2624607",
+"company": "Applied Materials",
+"title": "Global Installation Engineer-Semi-PDC",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern---GT-Indigo-Inter-Die-Gapfill-Process-and-Integration-for-3DIC_R2626651",
+"company": "Applied Materials",
+"title": "College Intern - GT Indigo Inter-Die Gapfill Process and Integration for 3DIC",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern---Process---hardware-development-in-PVD-Al-chambers-for-N3-N5-and-more-advanced-nodes_R2626935",
+"company": "Applied Materials",
+"title": "College Intern - Process & hardware development in PVD Al chambers for N3,N5 and more advanced nodes.",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern---Process---hardware-development-in-PVD-chambers-for-emerging-films-in-micro-OLED-and-Integrated-voltage-regulator-for-AI-chips_R2626937",
+"company": "Applied Materials",
+"title": "College Intern - Process & hardware development in PVD chambers for emerging films in micro-OLED and Integrated voltage regulator for AI chips",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern---Process---hardware-development-in-PVD-chambers-for-new-films--AlN-as-thermal-interface-material--TIM---SiN-as-photonic-waveguide-_R2626934",
+"company": "Applied Materials",
+"title": "College Intern - Process & hardware development in PVD chambers for new films: AlN as thermal interface material (TIM), SiN as photonic waveguide .",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern---Process---product-development-in-PVD-chambers-in-Hybrid-bonding-for-SOIC--advanced-packaging-_R2626936",
+"company": "Applied Materials",
+"title": "College Intern - Process & product development in PVD chambers in Hybrid bonding for SOIC (advanced packaging)",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/ShanghaiCHN/Customer-Engineer-Intern_R2628009",
+"company": "Applied Materials",
+"title": "Customer Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Summer-2027-Industrial-Engineering-Intern--Bachelor-s--Santa-Clara--CA-_R2626710",
+"company": "Applied Materials",
+"title": "Summer 2027 Industrial Engineering Intern- Bachelor's (Santa Clara, CA)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Summer-2027-Business-Operations---Management-Intern--Bachelor-s--Santa-Clara--CA-_R2626218",
+"company": "Applied Materials",
+"title": "Summer 2027 Business Operations & Management Intern- Bachelor's (Santa Clara, CA)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/AlbanyNY/Summer-2027-Global-Technical-Learning-Center-Data-Analyst-Intern--Bachelor-s-Master-s--Albany--NY-_R2627551",
+"company": "Applied Materials",
+"title": "Summer 2027 Global Technical Learning Center Data Analyst Intern- Bachelor's/Master's (Albany, NY)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Electrical-Radio-Frequency-Engineer-II--New-College-Grad--Master-s--Santa-Clara--CA-_R2628089",
+"company": "Applied Materials",
+"title": "Electrical/Radio Frequency Engineer II, New College Grad- Master's (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Summer-2027-Business-Operations-Technical-Porject-Manger-Intern--Bachelor-s--Santa-Clara--CA-_R2628088",
+"company": "Applied Materials",
+"title": "Summer 2027 Business Operations Technical Project Manger Intern- Bachelor's (Santa Clara, CA)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/AustinTX/Manufacturing-Engineer-I--New-College-Grad--Bachelor-s--Austin--TX-_R2628090",
+"company": "Applied Materials",
+"title": "Manufacturing Engineer I, New College Grad- Bachelor's (Austin, TX)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/AustinTX/Non-Technical-Project-Program-Management-I--New-College-Grad--Bachelor-s--Boise--ID--Austin--TX-_R2628091",
+"company": "Applied Materials",
+"title": "Non-Technical Project/Program Management I, New College Grad- Bachelor's (Boise, ID, Austin, TX)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/AustinTX/Manufacturing-Engineer-I----E1-_R2626695",
+"company": "Applied Materials",
+"title": "Manufacturing Engineer I - (E1)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/AustinTX/Materials-Project-Manager-New-College-Grad--Bachelor-s--Austin--TX-_R2627788",
+"company": "Applied Materials",
+"title": "Materials Project Manager New College Grad- Bachelor's (Austin, TX)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Optimization-Planner--New-College-Graduate-_R2627347-1",
+"company": "Applied Materials",
+"title": "Optimization Planner (New College Graduate)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern_R2624343",
+"company": "Applied Materials",
+"title": "College Intern -  Job Description Metrology, Defect Inspection, and Data Analytics for Die-to-Wafer Hybrid Bonding",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/KalispellMT/Manufacturing-Engineer_R2627299",
+"company": "Applied Materials",
+"title": "Manufacturing Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/ChandlerAZ/Software-Engineer--New-College-Grad--Master-s--Chandler--AZ-_R2627911",
+"company": "Applied Materials",
+"title": "Software Engineer, New College Grad- Master's (Chandler, AZ)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/XianCHN/Process-Engineer_R2614950-1",
+"company": "Applied Materials",
+"title": "Process Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/R-D-Process-Engineer--Entry-level-_R2627816",
+"company": "Applied Materials",
+"title": "R&D Process Engineer (Entry-level)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/AlbanyNY/Process-Integration-Engineer-III---Early-in-Career--Doctorate--Albany--NY-_R2618084",
+"company": "Applied Materials",
+"title": "Process Integration Engineer III - Early in Career, Doctorate (Albany, NY)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/GloucesterMA/XMLNAME-2026-Fall-Materials-Engineering-Co-op---Doctorate--Gloucester--MA-_R2611503",
+"company": "Applied Materials",
+"title": "2026 Fall Materials Engineering Co-op (TCAD Modeling) - Doctorate (Gloucester, MA)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Manufacturing-Engineering-Intern_R2624484",
+"company": "Applied Materials",
+"title": "Manufacturing Engineering Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/AustinTX/Buyer-I--New-College-Grad--Bachelor-s--Austin--TX-_R2627768",
+"company": "Applied Materials",
+"title": "Buyer I, New College Grad- Bachelor's (Austin, TX)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/RehovotISR/System-Integration-Engineer_R2625538",
+"company": "Applied Materials",
+"title": "System Integration Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern_R2626742",
+"company": "Applied Materials",
+"title": "College Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Industrial-Engineering-Intern_R2627142",
+"company": "Applied Materials",
+"title": "Industrial Engineering Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/GPM-Intern_R2626422",
+"company": "Applied Materials",
+"title": "GPM Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Manufacturing-Internship-Program_R2627132",
+"company": "Applied Materials",
+"title": "Manufacturing Internship Program",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/HsinchuTWN/Non-Tech-Program-Manager_R2627308",
+"company": "Applied Materials",
+"title": "Non-Tech Program Manager",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/HsinchuTWN/Customer-and-Commercial-Operations-Specialist_R2627422",
+"company": "Applied Materials",
+"title": "Customer and Commercial Operations Specialist",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/HsinchuTWN/Non-Technical-Project-Program-Management---RVC-Operations-Project-Manager--NCG-_R2627419",
+"company": "Applied Materials",
+"title": "Non-Technical Project/Program Management - RVC Operations Project Manager (NCG)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/New-College-Grad---Process-Engineer---MS-PhD--Winter-2026-_R2627711",
+"company": "Applied Materials",
+"title": "New College Grad - Process Engineer - MS/PhD (Winter 2026)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Electrical-Engineer-New-College-Grad---BS-MS-Degree--Santa-Clara--CA-_R2627689",
+"company": "Applied Materials",
+"title": "Electrical Engineer New College Grad - BS/MS Degree (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Mechanical-Engineer-New-College-Grad---BS-MS-Degree--Santa-Clara--CA-_R2627688",
+"company": "Applied Materials",
+"title": "Mechanical Engineer New College Grad - BS/MS Degree (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Process-Engineer-New-College-Grad---BS-MS-Degree--Santa-Clara--CA-_R2627687-1",
+"company": "Applied Materials",
+"title": "Process Engineer New College Grad - BS/MS Degree (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/AustinTX/Global-Supply-Chain-Rotational-Program--Business-Intelligence-Analyst-I--New-College-Grad--Bachelor-s--Austin-TX-_R2627400",
+"company": "Applied Materials",
+"title": "Global Supply Chain Rotational Program, Business Intelligence Analyst I, New College Grad- Bachelor's (Austin TX)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern_R2627321",
+"company": "Applied Materials",
+"title": "College Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern_R2627226",
+"company": "Applied Materials",
+"title": "College Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern_R2627319",
+"company": "Applied Materials",
+"title": "College Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern_R2627320",
+"company": "Applied Materials",
+"title": "College Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern_R2627318",
+"company": "Applied Materials",
+"title": "College Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern_R2627317",
+"company": "Applied Materials",
+"title": "College Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern_R2627316",
+"company": "Applied Materials",
+"title": "College Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern_R2627315",
+"company": "Applied Materials",
+"title": "College Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern_R2627230",
+"company": "Applied Materials",
+"title": "College Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-intern_R2626165",
+"company": "Applied Materials",
+"title": "College intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Process-Engineering-Intern--Hybrid-Bonding-_R2626437",
+"company": "Applied Materials",
+"title": "Process Engineering Intern (Hybrid Bonding)",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern_R2626455",
+"company": "Applied Materials",
+"title": "College Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern_R2626457",
+"company": "Applied Materials",
+"title": "College Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Technology-Development-Engineer---Hybrid-Bonding---Advanced-Packaging--Internship-_R2626901",
+"company": "Applied Materials",
+"title": "Technology Development Engineer \u2013 Hybrid Bonding & Advanced Packaging (Internship)",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern_R2626453",
+"company": "Applied Materials",
+"title": "College Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern--Hardware-_R2627094",
+"company": "Applied Materials",
+"title": "College Intern (Hardware)",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern--Hardware-_R2627095",
+"company": "Applied Materials",
+"title": "College Intern (Hardware)",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Intern_R2626566",
+"company": "Applied Materials",
+"title": "Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Intern_R2626579",
+"company": "Applied Materials",
+"title": "Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern---Process-Integration_R2626676",
+"company": "Applied Materials",
+"title": "College Intern - Process Integration",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Process-Engineer-Internship--Enhancing-CVD-process-efficiency-and-film-quality-through-systematic-recipe-optimization_R2626530",
+"company": "Applied Materials",
+"title": "Process Engineer Internship: Enhancing CVD process efficiency and film quality through systematic recipe optimization",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Process-Support-Engineer--Entry-level-_R2626942-1",
+"company": "Applied Materials",
+"title": "Process Support Engineer (Entry-level)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Data-Analyst--Global-Forward-Network_R2626946",
+"company": "Applied Materials",
+"title": "Data Analyst, Global Forward Network",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Summer-2027-Supply-Chain-Materials-Project-Manager-Intern--Master-s--Santa-Clara--CA-_R2627074",
+"company": "Applied Materials",
+"title": "Summer 2027 Supply Chain Materials Project Manager Intern- Master's (Santa Clara, CA)",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/AustinTX/Summer-2027-Supply-Chain-Materials-Project-Manager-Intern--Master-s--Austin--TX-_R2627069",
+"company": "Applied Materials",
+"title": "Summer 2027 Supply Chain Materials Project Manager Intern- Master's (Austin, TX)",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Summer-2027-Supply-Chain-Buyer-Intern--Bachelor-s--Santa-Clara--CA-_R2627066",
+"company": "Applied Materials",
+"title": "Summer 2027 Supply Chain Buyer Intern- Bachelor's (Santa Clara, CA)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/GloucesterMA/Summer-2027-Supply-Chain-Buyer-Intern--Bachelor-s--Gloucester--MA-_R2627055",
+"company": "Applied Materials",
+"title": "Summer 2027 Supply Chain Buyer Intern- Bachelor's (Gloucester, MA)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/AustinTX/Summer-2027-Supply-Chain-Buyer-Intern--Bachelor-s--Austin--TX-_R2627046-1",
+"company": "Applied Materials",
+"title": "Summer 2027 Supply Chain Buyer Intern- Bachelor's (Austin, TX)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Global-Supply-Chain-Rotational-Program--New-College-Grad--Master-s--Santa-Clara--CA-_R2627027",
+"company": "Applied Materials",
+"title": "Global Supply Chain Rotational Program, New College Grad- Master's (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/AustinTX/Global-Supply-Chain-Rotational-Program--New-College-Grad--Master-s--Austin--TX-_R2627023",
+"company": "Applied Materials",
+"title": "Global Supply Chain Rotational Program, New College Grad- Master's (Austin, TX)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Global-Supply-Chain-Rotational-Program--Buyer-I--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627043-1",
+"company": "Applied Materials",
+"title": "Global Supply Chain Rotational Program, Buyer I, New College Grad- Bachelor's (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/GloucesterMA/Global-Supply-Chain-Rotational-Program--Volume-Buyer-I--New-College-Grad--Bachelor-s--Gloucester--MA-_R2626717",
+"company": "Applied Materials",
+"title": "Global Supply Chain Rotational Program, Volume Buyer I, New College Grad- Bachelor's (Gloucester, MA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/AustinTX/Global-Supply-Chain-Rotational-Program--Volume-Buyer-I--New-College-Grad--Bachelor-s--Austin--TX-_R2626608",
+"company": "Applied Materials",
+"title": "Global Supply Chain Rotational Program, Volume Buyer I, New College Grad- Bachelor's (Austin, TX)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Physicist-Scientist-V_R2626904",
+"company": "Applied Materials",
+"title": "Physicist/Scientist V",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/GloucesterMA/Physicist-Scientist--Adv-Degree--Gloucester--MA_R2611455",
+"company": "Applied Materials",
+"title": "Physicist/Scientist III, New College Grad - Adv Degree (Gloucester, MA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/HsinchuTWN/XMLNAME---------Process-Support-Engineer_R2627200",
+"company": "Applied Materials",
+"title": "\u3010\u65b0\u9bae\u4eba\u62db\u52df\u5c08\u6848\u3011\u9810\u5148\u4eab\u61c9 | \u9810\u8058\u62db\u52df\u5c08\u6848 - Process Support Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Process-Engineer-III_R2623961",
+"company": "Applied Materials",
+"title": "Process Engineer III",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Research---Development-Internship-Program_R2627133",
+"company": "Applied Materials",
+"title": "Research & Development Internship Program",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Global-Supply-Chain-Internship-Program_R2627122",
+"company": "Applied Materials",
+"title": "Global Supply Chain Internship Program",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/AGS-Field-Support-Internship-Program_R2627129",
+"company": "Applied Materials",
+"title": "AGS Field Support Internship Program",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Process-Engineer-Intern_R2626574",
+"company": "Applied Materials",
+"title": "Process Engineer Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Process-Engineer-III_R2615737",
+"company": "Applied Materials",
+"title": "Process Engineer III",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/YokkaichiJPN/-_R2626658",
+"company": "Applied Materials",
+"title": "\u30ab\u30b9\u30bf\u30de\u30fc\u30a8\u30f3\u30b8\u30cb\u30a2\u3000",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/GloucesterMA/Product-Marketing-II-New-College-Grad--Gloucester--MA-_R2625755",
+"company": "Applied Materials",
+"title": "Product Marketing II New College Grad (Gloucester, MA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Operations-Management--Manager_R2625832",
+"company": "Applied Materials",
+"title": "Operations Management, Manager",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/GloucesterMA/XMLNAME-2026-2027-Process-Engineer-Co-op---Doctorate--Gloucester--MA-_R2626230",
+"company": "Applied Materials",
+"title": "2026-2027 Process Engineer Co-op - Doctorate (Gloucester, MA)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Mechanical-Engineer-New-College-Grad---Masters-Degree--Santa-Clara--CA-_R2516983",
+"company": "Applied Materials",
+"title": "Mechanical Engineer New College Grad - Masters Degree (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Chemist-1--Bachelor-s---Santa-Clara--CA-_R2626220",
+"company": "Applied Materials",
+"title": "Chemist 1 New College Grad (Bachelor's - Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/WuxiCHN/Global-Installation-Engineer-Semi-ETCH-New-Graduate_R2624601",
+"company": "Applied Materials",
+"title": "Global Installation Engineer-Semi-ETCH-New Graduate",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/GloucesterMA/XMLNAME-2027-Engineer-Development-Rotation-Program---Systems-Engineer-I-New-College-Grad---BS-or-MS--Gloucester--MA-_R2625758-1",
+"company": "Applied Materials",
+"title": "2027 Engineer Development Rotation Program - Systems Engineer I New College Grad - BS or MS (Gloucester, MA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/GloucesterMA/XMLNAME-2027-Engineer-Development-Rotation-Program---Electrical-Engineer-I-New-College-Grad---BS-or-MS--Gloucester--MA-_R2625757-1",
+"company": "Applied Materials",
+"title": "2027 Engineer Development Rotation Program - Electrical Engineer I New College Grad - BS or MS (Gloucester, MA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/GloucesterMA/XMLNAME-2027-Engineer-Development-Rotation-Program---Mechanical-Engineer-I-New-College-Grad---BS-or-MS--Gloucester--MA-_R2625756-1",
+"company": "Applied Materials",
+"title": "2027 Engineer Development Rotation Program - Mechanical Engineer I New College Grad - BS or MS (Gloucester, MA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/RehovotISR/Motion-control-engineer_R2620070-1",
+"company": "Applied Materials",
+"title": "Motion control engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/ShanghaiCHN/-Customer-Engineer-Intern-_R2625965",
+"company": "Applied Materials",
+"title": "\u5ba2\u6237\u670d\u52a1\u5de5\u7a0b\u5e08\u5b9e\u4e60\u5c97\uff08Customer Engineer Intern\uff09",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/DalianCHN/Customer-Engineer--Trilingual--Chinese--English---Korean-_R2625799",
+"company": "Applied Materials",
+"title": "Customer Engineer (Trilingual: Chinese, English & Korean)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/TainanTWN/XMLNAME--2026-New-College-Graduate--Mechanical-Engineer-_R2625607",
+"company": "Applied Materials",
+"title": "\u30102026 New College Graduate \u65b0\u9bae\u4eba\u5c08\u5340\u3011Mechanical Engineer \u6a5f\u68b0\u958b\u767c\u5de5\u7a0b\u5e2b",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/KaohsiungTWN/XMLNAME--2026-New-College-Graduate--Process-Support-Engineer_R2625605-1",
+"company": "Applied Materials",
+"title": "\u30102026 New College Graduate \u65b0\u9bae\u4eba\u5c08\u5340\u3011Process Support Engineer \u88fd\u7a0b\u5de5\u7a0b\u5e2b",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Manufacturing-Engineer_R2624123",
+"company": "Applied Materials",
+"title": "Manufacturing Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Hwaseong-LucestarKOR/FY26-Customer-Engineer-----_R2519320",
+"company": "Applied Materials",
+"title": "FY26 Customer Engineer(\uc7a5\ube44 \uc5d4\uc9c0\ub2c8\uc5b4) \uc2e0\uc785\ucc44\uc6a9 \uc815\ubcf4\ub4f1\ub85d",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Optical-Engineer-III--E3-_R2516569-1",
+"company": "Applied Materials",
+"title": "Optical Engineer III (E3)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/FP-A-Analyst-New-College-Grad--MBA---Santa-Clara--CA-_R2624935",
+"company": "Applied Materials",
+"title": "FP&A Analyst New College Grad (MBA - Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Mechanical---Systems-Engineer--NCG-_R2621359",
+"company": "Applied Materials",
+"title": "Mechanical / Systems Engineer (NCG)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/AustinTX/Finance-Intern--MBA---Austin--TX-_R2624934",
+"company": "Applied Materials",
+"title": "Finance Intern (MBA - Austin, TX)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Finance-Intern--MBA---Santa-Clara--CA-_R2624906",
+"company": "Applied Materials",
+"title": "Finance Intern (MBA - Santa Clara, CA)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Industrial-Engineer--Fresh-Grads-Welcome-_R2622918",
+"company": "Applied Materials",
+"title": "Industrial Engineer (Fresh Grads Welcome)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/ShanghaiCHN/Global-Installation-Engineer-Semi-Shanghai-Beijing-Wuxi-Chengdu-New-Graduate_R2624660",
+"company": "Applied Materials",
+"title": "Global Installation Engineer-Semi-Shanghai/Beijing/Wuxi/Chengdu-New Graduate",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/ShanghaiCHN/Customer-Engineer---NCG--_R2624472",
+"company": "Applied Materials",
+"title": "Customer Engineer ( NCG )",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/MilanITA/Field-Service-Engineer--New-College-Graduate-Program-_R2623313",
+"company": "Applied Materials",
+"title": "Field Service Engineer (New College Graduate Program)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Intern---Regional-UPSkill-Enablement_R2623692",
+"company": "Applied Materials",
+"title": "Intern - Regional UPSkill Enablement",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Customer-Engineer---New-College-Graduates-_R2622684",
+"company": "Applied Materials",
+"title": "Customer Engineer ( New College Graduates)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/AI-Research-Scientist--Generative-Models-for-Scientific-Discovery-_R2611980-1",
+"company": "Applied Materials",
+"title": "Machine Learning Engineer (Generative AI)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/LeixlipIRL/Field-Service---Early-Career-Engineers_R2617457",
+"company": "Applied Materials",
+"title": "Field Service - Early Career Engineers",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Quality---Reliability-Systems-Engineer----E3-_R2620088",
+"company": "Applied Materials",
+"title": "Quality & Reliability Systems Engineer - (E3)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/LinkouTWN/Software--Technical--Support-Engineer-II----E2-_R2619469",
+"company": "Applied Materials",
+"title": "Software (Technical) Support Engineer II - (E2)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/RehovotISR/System-Integration-Engineer_R2612347",
+"company": "Applied Materials",
+"title": "System Integration Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Buyer--B2-_R2611123",
+"company": "Applied Materials",
+"title": "Materials Project Management",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Industrial-Engineering-Intern_R2614287",
+"company": "Applied Materials",
+"title": "Industrial Engineering Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/XMLNAME-2026-Summer-Intern---Physics---AI-modeling-Engineering_R2616095",
+"company": "Applied Materials",
+"title": "2026 Summer Intern - Physics & AI modeling Engineering",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Account-Technologist--New-College-Graduate---Early-in-Career-_R2615686",
+"company": "Applied Materials",
+"title": "Account Technologist (New College Graduate / Early in Career)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/TrevisoITA/Supplier-Industrial-Engineer--Internship-_R2613391",
+"company": "Applied Materials",
+"title": "Supplier Industrial Engineer (Internship)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/XMLNAME-2026-NCG---Process-Technician---Undergrad--Santa-Clara--CA-_R2519923-1",
+"company": "Applied Materials",
+"title": "2026 NCG - Process Technician - Undergrad (Santa Clara, CA)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Technical-Program-Manager-New-College-Grad---MS-PHD-Degree--Santa-Clara--CA-_R2518866",
+"company": "Applied Materials",
+"title": "Technical Program Manager New College Grad - MS/PHD Degree (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/XMLNAME-2026-Summer-Mechanical-Engineer-Intern---Masters--Santa-Clara--CA-_R2519236",
+"company": "Applied Materials",
+"title": "2026 Summer Mechanical Engineer Intern - Masters (Santa Clara, CA)",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Global-Supply-Chain-New-College-Graduate_R2410708",
+"company": "Applied Materials",
+"title": "Global Supply Chain New College Graduate",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Chemist---New-College-Graduate_R2512395",
+"company": "Applied Materials",
+"title": "Chemist - New College Graduate",
+"rule": "new-grad",
+"tag": ""
+},
+{
 "id": "wd:marvell:/job/Santa-Clara-CA/Technical-Writer-Intern--BS-BA---Summer-2027_2604149",
 "company": "Marvell",
 "title": "Technical Writer Intern, BS/BA - Summer 2027",
@@ -13514,6 +16314,118 @@
 "company": "Marvell",
 "title": "Reliability Intern, BS - Summer 2027",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:marvell:/job/Santa-Clara-CA/Process-Engineer-Intern--MS---Summer-2027_2603856-1",
+"company": "Marvell",
+"title": "Process Engineer Intern, MS - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:marvell:/job/Westborough-MA/Functional-Validation-Intern--BS---Summer-2027_2604514-1",
+"company": "Marvell",
+"title": "Functional Validation Intern, BS - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:marvell:/job/Morrisville-NC/Design-for-Test-Intern--BS---Summer-2027_2604511",
+"company": "Marvell",
+"title": "Design for Test Intern, BS - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:marvell:/job/Santa-Clara-CA/Application-Engineer-Intern--MS---Summer-2027_2604509",
+"company": "Marvell",
+"title": "Application Engineer Intern, MS - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:marvell:/job/Cordoba-Argentina/Program-Management-Intern_2502670",
+"company": "Marvell",
+"title": "Program Management Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:marvell:/job/Ottawa-Canada/Silicon-Photonics-Intern---PhD_2502469-1",
+"company": "Marvell",
+"title": "Silicon Photonics Intern - PhD (Fall 2026 Start Date)",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:marvell:/job/Singapore/Silicon-Photonics-Intern---PhD_2502472",
+"company": "Marvell",
+"title": "Silicon Photonics Intern - Ph.D",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:marvell:/job/Madrid/Software-Engineer-Intern_2502346",
+"company": "Marvell",
+"title": "Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:marvell:/job/Cordoba-Argentina/Digital-IC-Design-Intern_2502731",
+"company": "Marvell",
+"title": "Digital IC Design Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:marvell:/job/Westlake-Village-CA/Analog-Design-Intern---Master-s-Degree--Quarter-Schools---Fall-2026-Start-Dates-_2502475-1",
+"company": "Marvell",
+"title": "Analog Design Intern - Master's Degree (Quarter Schools / Fall 2026 Start Dates)",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "wd:marvell:/job/Cordoba-Argentina/Forward-Error-Correction-Intern_2602152",
+"company": "Marvell",
+"title": "Forward Error Correction Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:marvell:/job/Vancouver-Canada/Analog-Engineer-Intern---PhD_2502424-1",
+"company": "Marvell",
+"title": "Analog Engineer Intern - PhD",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:marvell:/job/Toronto-Canada/Analog-Engineer-Intern---PhD_2502426-1",
+"company": "Marvell",
+"title": "Analog Engineer Intern - PhD",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:marvell:/job/Ottawa-Canada/Analog-Engineer-Intern---PhD_2502430-1",
+"company": "Marvell",
+"title": "Analog Engineer Intern - PhD",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:marvell:/job/Santa-Clara-CA/Applied-Machine-Learning-Scientist-Intern---PhD_2502662-1",
+"company": "Marvell",
+"title": "Applied Machine Learning Scientist Intern - PhD",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:marvell:/job/Santa-Clara-CA/Design-DSP-Verification-Intern---PhD-Degree_2502786-1",
+"company": "Marvell",
+"title": "Design/DSP/Verification Intern - PhD Degree",
+"rule": "seniority",
 "tag": ""
 },
 {
