@@ -1,142 +1,86 @@
 {
-"yield_since": "2026-09-14",
+"yield_since": "2026-09-16",
 "yield": {
 "discovered_boards": {
-"scanned": 1337277,
-"A": 27,
-"B": 72
+"scanned": 1830,
+"A": 8,
+"B": 26
 },
 "workday:NVIDIA": {
-"scanned": 105911,
-"A": 12,
-"B": 18
+"scanned": 149,
+"A": 4,
+"B": 8
 },
 "workday:Micron": {
-"scanned": 95517,
+"scanned": 138,
 "A": 1,
-"B": 21
+"B": 8
 },
 "workday:Analog Devices": {
-"scanned": 37304,
+"scanned": 57,
 "A": 0,
-"B": 20
+"B": 8
 },
 "workday:KLA": {
-"scanned": 4392,
+"scanned": 6,
 "A": 0,
 "B": 0
 },
 "workday:Intel": {
-"scanned": 35643,
+"scanned": 51,
 "A": 0,
-"B": 12
+"B": 4
 },
 "workday:Applied Materials": {
-"scanned": 137247,
-"A": 1,
-"B": 10
-},
-"workday:Marvell": {
-"scanned": 38092,
-"A": 0,
-"B": 76
-},
-"workday:Caterpillar": {
-"scanned": 43037,
+"scanned": 196,
 "A": 0,
 "B": 3
 },
+"workday:Marvell": {
+"scanned": 53,
+"A": 0,
+"B": 25
+},
+"workday:Caterpillar": {
+"scanned": 59,
+"A": 0,
+"B": 1
+},
 "workday:Boston Dynamics": {
-"scanned": 3542,
+"scanned": 74,
 "A": 0,
 "B": 0
 },
 "workday:NXP": {
-"scanned": 68110,
+"scanned": 111,
 "A": 0,
-"B": 68
+"B": 23
 },
 "workday:Zebra": {
-"scanned": 7641,
+"scanned": 11,
 "A": 0,
 "B": 0
 },
 "workday:Trimble": {
-"scanned": 8074,
+"scanned": 11,
 "A": 0,
-"B": 3
+"B": 1
 },
 "listings_feed": {
-"scanned": 3172057,
-"A": 200,
-"B": 399
+"scanned": 4478,
+"A": 61,
+"B": 113
 },
 "markdown_source": {
-"scanned": 1691643,
-"A": 569,
-"B": 649
+"scanned": 2365,
+"A": 173,
+"B": 179
 },
 "atom_feed": {
-"scanned": 73400,
+"scanned": 100,
 "A": 0,
-"B": 11
+"B": 2
 }
 },
-"config_hash": "8b02f7c4bdf46d90",
-"season_rates": [
-1.0,
-0.9993,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-0.9993,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-0.9985,
-1.0,
-0.9993,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0
-],
-<<<<<<< Updated upstream
-"last_digest": 1789584687.9325528,
-=======
-"last_digest": 1789584759.2267566,
->>>>>>> Stashed changes
-"last_weekly": "2026-W37"
+"config_hash": "8b02f7c4bdf46d90"
 }
