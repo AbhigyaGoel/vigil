@@ -14490,10 +14490,10 @@
 "tag": ""
 },
 {
-"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264504",
+"id": "wd:analogdevices:",
 "company": "Analog Devices",
-"title": "Technician Student Intern",
-"rule": "seniority",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -17430,6 +17430,13 @@
 "tag": ""
 },
 {
+"id": "wd:nxp:/job/Toulouse/Stage-ingnieur---Simulation-CEM-de-cartes-lectroniques--H-F-_R-10065565",
+"company": "NXP",
+"title": "Stage ing\u00e9nieur : Simulation CEM de cartes \u00e9lectroniques (H/F)",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "wd:nxp:/job/Caen/Stage-ingnieur---Amlioration-du-mcanisme-de-message-entre-les-taches-OS-du-logiciel-embarqu--H-F-_R-10065394",
 "company": "NXP",
 "title": "Stage ing\u00e9nieur : Am\u00e9lioration du m\u00e9canisme de message entre les taches OS du logiciel embarqu\u00e9 en utilisant l'intelligence artificielle (H/F)",
@@ -17559,13 +17566,6 @@
 "id": "wd:nxp:/job/Grenoble/Stage-Ingnieur---Vrification-de-Performance-et-Modlisation-de-Systmes-sur-Puce--SoC---H-F-_R-10065455-1",
 "company": "NXP",
 "title": "Stage Ing\u00e9nieur : V\u00e9rification de Performance et Mod\u00e9lisation de Syst\u00e8mes sur Puce (SoC) (H/F)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:nxp:/job/Sophia-Antipolis-Valbonne/Stage-ingnieur---Ingnierie-produit---IA--F-H-_R-10064676",
-"company": "NXP",
-"title": "Stage ing\u00e9nieur : Ing\u00e9nierie produit & IA (F/H)",
 "rule": "not-intern",
 "tag": ""
 },
@@ -17850,6 +17850,13 @@
 "tag": ""
 },
 {
+"id": "wd:nxp:/job/Glasgow/Intern-AI-and-Software-Engineer---Automotive-MPUs_R-10065882-1",
+"company": "NXP",
+"title": "Intern AI and Software Engineer - Automotive MPUs",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "wd:nxp:/job/Bucharest/SW-Engineering-Intern_R-10064054",
 "company": "NXP",
 "title": "SW Engineering Intern",
@@ -17924,13 +17931,6 @@
 "company": "NXP",
 "title": "2027 Intern - Finance COE Accountant",
 "rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:nxp:/job/Kuala-Lumpur/XMLNAME-2026-Intern---Accounting_R-10064303",
-"company": "NXP",
-"title": "2026 Intern - Accounting",
-"rule": "irrelevant",
 "tag": ""
 },
 {
