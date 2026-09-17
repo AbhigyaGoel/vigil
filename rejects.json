@@ -994,6 +994,13 @@
 "tag": ""
 },
 {
+"id": "ab:antares:7ed6c040-72ff-43f5-9d3c-2f0314882003",
+"company": "Antares Nuclear",
+"title": "Head of Marketing & Communications",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "lv:autoroboto:0d499750-8d8d-4d6c-a1df-9d725a46749e",
 "company": "Autoroboto",
 "title": "Data Analysts",
@@ -3269,14 +3276,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705255005",
+"id": "gh:inversionspace:4709690005",
 "company": "Inversion Space",
 "title": "Senior Harness Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709690005",
+"id": "gh:inversionspace:4705255005",
 "company": "Inversion Space",
 "title": "Senior Harness Engineer",
 "rule": "not-intern",
@@ -3857,14 +3864,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5247348008",
+"id": "gh:k2spacecorporation:5373554008",
 "company": "K2 Space",
 "title": "Ground Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5373554008",
+"id": "gh:k2spacecorporation:5247348008",
 "company": "K2 Space",
 "title": "Ground Software Engineer",
 "rule": "not-intern",
@@ -4039,13 +4046,6 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5284325008",
-"company": "K2 Space",
-"title": "Principal ASIC Design Verification Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:k2spacecorporation:5287999008",
 "company": "K2 Space",
 "title": "Principal ASIC Design Verification Engineer",
@@ -4053,9 +4053,9 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5425319008",
+"id": "gh:k2spacecorporation:5284325008",
 "company": "K2 Space",
-"title": "Principal ASIC Package Design Engineer",
+"title": "Principal ASIC Design Verification Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -4067,14 +4067,21 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288635008",
+"id": "gh:k2spacecorporation:5425319008",
+"company": "K2 Space",
+"title": "Principal ASIC Package Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:k2spacecorporation:5288008008",
 "company": "K2 Space",
 "title": "Principal ASIC Physical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288008008",
+"id": "gh:k2spacecorporation:5288635008",
 "company": "K2 Space",
 "title": "Principal ASIC Physical Design Engineer",
 "rule": "not-intern",
@@ -4207,14 +4214,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5425267008",
+"id": "gh:k2spacecorporation:5425262008",
 "company": "K2 Space",
 "title": "Principal Mixed-Signal Design Engineer, Data Converters",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5425262008",
+"id": "gh:k2spacecorporation:5425267008",
 "company": "K2 Space",
 "title": "Principal Mixed-Signal Design Engineer, Data Converters",
 "rule": "not-intern",
@@ -4347,14 +4354,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5427413008",
+"id": "gh:k2spacecorporation:5427380008",
 "company": "K2 Space",
 "title": "RF/mmWave Post-Silicon Validation Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5427380008",
+"id": "gh:k2spacecorporation:5427413008",
 "company": "K2 Space",
 "title": "RF/mmWave Post-Silicon Validation Engineer",
 "rule": "not-intern",
@@ -4438,14 +4445,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5425327008",
+"id": "gh:k2spacecorporation:5425328008",
 "company": "K2 Space",
 "title": "Senior ASIC Package Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5425328008",
+"id": "gh:k2spacecorporation:5425327008",
 "company": "K2 Space",
 "title": "Senior ASIC Package Design Engineer",
 "rule": "not-intern",
@@ -4536,14 +4543,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288011008",
+"id": "gh:k2spacecorporation:5277855008",
 "company": "K2 Space",
 "title": "Senior DFT Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5277855008",
+"id": "gh:k2spacecorporation:5288011008",
 "company": "K2 Space",
 "title": "Senior DFT Engineer",
 "rule": "not-intern",
@@ -4634,14 +4641,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288027008",
+"id": "gh:k2spacecorporation:5165720008",
 "company": "K2 Space",
 "title": "Senior Flight Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5165720008",
+"id": "gh:k2spacecorporation:5288027008",
 "company": "K2 Space",
 "title": "Senior Flight Software Engineer",
 "rule": "not-intern",
@@ -4655,14 +4662,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288020008",
+"id": "gh:k2spacecorporation:5165716008",
 "company": "K2 Space",
 "title": "Senior FPGA Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5165716008",
+"id": "gh:k2spacecorporation:5288020008",
 "company": "K2 Space",
 "title": "Senior FPGA Engineer",
 "rule": "not-intern",
@@ -4690,14 +4697,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288028008",
+"id": "gh:k2spacecorporation:5205347008",
 "company": "K2 Space",
 "title": "Senior Ground Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5205347008",
+"id": "gh:k2spacecorporation:5288028008",
 "company": "K2 Space",
 "title": "Senior Ground Software Engineer",
 "rule": "not-intern",
@@ -4865,14 +4872,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5425335008",
+"id": "gh:k2spacecorporation:5425333008",
 "company": "K2 Space",
 "title": "Senior Post-Silicon Validation Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5425333008",
+"id": "gh:k2spacecorporation:5425335008",
 "company": "K2 Space",
 "title": "Senior Post-Silicon Validation Engineer",
 "rule": "not-intern",
@@ -5621,14 +5628,14 @@
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7989193003",
+"id": "gh:launchdarkly:7989185003",
 "company": "LaunchDarkly",
 "title": "Order Management Analyst, OTC",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7989185003",
+"id": "gh:launchdarkly:7989193003",
 "company": "LaunchDarkly",
 "title": "Order Management Analyst, OTC",
 "rule": "not-intern",
@@ -7588,14 +7595,14 @@
 "tag": ""
 },
 {
-"id": "gh:pacificfusion:4259183009",
+"id": "gh:pacificfusion:4051086009",
 "company": "Pacific Fusion",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:pacificfusion:4051086009",
+"id": "gh:pacificfusion:4259183009",
 "company": "Pacific Fusion",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
@@ -9128,14 +9135,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8463038002",
+"id": "gh:relativity:8780048002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8780048002",
+"id": "gh:relativity:8463038002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
@@ -9408,14 +9415,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8701334002",
+"id": "gh:relativity:8419277002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8419277002",
+"id": "gh:relativity:8701334002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -10591,14 +10598,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4409490009",
+"id": "gh:rocketems:4398207009",
 "company": "Rocket EMS",
 "title": "Production Expeditor",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4398207009",
+"id": "gh:rocketems:4409490009",
 "company": "Rocket EMS",
 "title": "Production Expeditor",
 "rule": "not-intern",
@@ -23597,13 +23604,6 @@
 "tag": ""
 },
 {
-"id": "ls:1924d443-3b61-47d4-addf-d6db4308935b",
-"company": "The Federal Reserve System",
-"title": "Graduate Statistical Analysis Intern - Regional & Community Outreach",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:0fcced78-d86d-400f-922d-576be4853376",
 "company": "DV Trading",
 "title": "Quantitative Risk Intern",
@@ -35012,13 +35012,6 @@
 "title": "Data Platform Engineer Intern - Global Engineering CDN",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:16763ef8-e382-4bed-9bf1-aade7161fb68",
-"company": "Amazon",
-"title": "Applied Science Intern - Science Recruiting",
-"rule": "seniority",
-"tag": ""
 },
 {
 "id": "ls:61953270-c6b4-4f92-91af-e17b940e3337",
@@ -63035,16 +63028,44 @@
 "tag": ""
 },
 {
-"id": "at:https://job-boards.greenhouse.io/internrecruiting/jobs/8204511",
-"company": "Internrecruiting",
-"title": "Software Engineer Co-op",
+"id": "at:https://jobs.lever.co/tri/6433edb6-76be-409f-9a73-9b9d9c207f9f",
+"company": "Toyota Research Institute",
+"title": "Human-Centered AI Research Intern, Causal Reasoning Models",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/158088",
+"company": "Honeywell",
+"title": "Software Engineer Co-Op - Spring/Summer 2027 \ud83c\uddfa\ud83c\uddf8",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "at:https://theocc.wd5.myworkdayjobs.com/careers/job/Dallas-TX/Year-Round-Intern---Application-Security_REQ-4838",
-"company": "OCC",
-"title": "Year-Round Intern - Application Security \ud83d\udec2",
+"id": "at:https://insperity.wd12.myworkdayjobs.com/NSP/job/Kingwood-TX/Rotational-AI-Intern_JR103294",
+"company": "Insperity",
+"title": "Rotational AI Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://labcorp.wd1.myworkdayjobs.com/external/job/Durham-NC/Intern---Network-Infrastructure---Automation-Engineering_2632795",
+"company": "LabCorp",
+"title": "Intern \u2013 Network Infrastructure & Automation Engineering \ud83d\udec2",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://leidos.wd5.myworkdayjobs.com/External/job/Pittsburgh-PA/Research-Engineer-Intern_R-00192500",
+"company": "Leidos",
+"title": "Research Engineer Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "at:https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760-1",
+"company": "Marvell",
+"title": "SRAM Software Engineer Intern, BS - Summer 2027",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -63056,48 +63077,6 @@
 "tag": ""
 },
 {
-"id": "at:https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260818",
-"company": "GM financial",
-"title": "Intern - Software Development Engineer",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260795",
-"company": "GM financial",
-"title": "Intern - Software Development Engineer",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260804",
-"company": "GM financial",
-"title": "Intern - Oracle Application Developer",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/119494",
-"company": "Howmet Aerospace",
-"title": "Intern - Artificial Intelligence (AI) \ud83d\udec2",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1067",
-"company": "Hunt Oil Company",
-"title": "AI Business Strategy & Transformation Intern - Fall 2026",
-"rule": "season",
-"tag": "title"
-},
-{
-"id": "at:https://clarios.wd5.myworkdayjobs.com/clarioscareers/job/United-States-Wisconsin-Milwaukee/Data-Science-Intern--Summer-2027-_WD50211",
-"company": "Clarios",
-"title": "Data Science Intern (Summer 2027) \ud83d\udec2",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "at:https://job-boards.greenhouse.io/covar/jobs/5240360007",
 "company": "CoVar",
 "title": "Machine Learning Internship Summer 2027",
@@ -63105,9 +63084,9 @@
 "tag": ""
 },
 {
-"id": "at:https://jj.wd5.myworkdayjobs.com/JJ/job/Milpitas-California-United-States-of-America/Process-Excellence---AI-Co-op_R-099367",
-"company": "Johnson & Johnson",
-"title": "Process Excellence & AI Co-op \ud83d\udec2",
+"id": "at:https://job-boards.greenhouse.io/internrecruiting/jobs/8204511",
+"company": "Internrecruiting",
+"title": "Software Engineer Co-op",
 "rule": "not-intern",
 "tag": ""
 },
@@ -63133,58 +63112,58 @@
 "tag": ""
 },
 {
-"id": "at:https://visa.wd5.myworkdayjobs.com/Visa/job/US---Bellevue-WA/Software-Engineer--Intern--Bellevue---2027_REF088585W-2",
-"company": "Visa",
-"title": "Software Engineer, Intern, Bellevue - 2027 \ud83d\udec2",
+"id": "at:https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1067",
+"company": "Hunt Oil Company",
+"title": "AI Business Strategy & Transformation Intern - Fall 2026",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "at:https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/119494",
+"company": "Howmet Aerospace",
+"title": "Intern - Artificial Intelligence (AI) \ud83d\udec2",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "at:https://visa.wd5.myworkdayjobs.com/Visa/job/US---Ashburn-VA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Ashburn_REF088599W-1",
-"company": "Visa",
-"title": "2027 Sophomore Internship Program - Software Engineer Intern, Ashburn \ud83d\udec2",
+"id": "at:https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260795",
+"company": "GM financial",
+"title": "Intern - Software Development Engineer",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "at:https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF088597W-1",
-"company": "Visa",
-"title": "2027 Sophomore Internship Program - Software Engineer Intern, Highlands Ranch \ud83d\udec2",
+"id": "at:https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260804",
+"company": "GM financial",
+"title": "Intern - Oracle Application Developer",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "at:https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin_REF088596W-1",
-"company": "Visa",
-"title": "2027 Sophomore Internship Program - Software Engineer Intern, Austin \ud83d\udec2",
+"id": "at:https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260818",
+"company": "GM financial",
+"title": "Intern - Software Development Engineer",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "at:https://visa.wd5.myworkdayjobs.com/Visa/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF088594W-1",
-"company": "Visa",
-"title": "2027 Sophomore Internship Program - Software Engineer Intern, Bellevue \ud83d\udec2",
+"id": "at:https://clarios.wd5.myworkdayjobs.com/clarioscareers/job/United-States-Wisconsin-Milwaukee/Data-Science-Intern--Summer-2027-_WD50211",
+"company": "Clarios",
+"title": "Data Science Intern (Summer 2027) \ud83d\udec2",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "at:https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF088591W-1",
-"company": "Visa",
-"title": "2027 Sophomore Internship Program - Software Engineer Intern, Foster City \ud83d\udec2",
-"rule": "irrelevant",
+"id": "at:https://jj.wd5.myworkdayjobs.com/JJ/job/Milpitas-California-United-States-of-America/Process-Excellence---AI-Co-op_R-099367",
+"company": "Johnson & Johnson",
+"title": "Process Excellence & AI Co-op \ud83d\udec2",
+"rule": "not-intern",
 "tag": ""
 },
 {
-"id": "at:https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/Software-Engineer--Intern--Highlands-Ranch--CO---2027_REF088583W",
-"company": "Visa",
-"title": "Software Engineer, Intern, Highlands Ranch, CO - 2027 \ud83d\udec2",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF088587W-1",
-"company": "Visa",
-"title": "Software Engineer, Intern - Foster City 2027 \ud83d\udec2",
+"id": "at:https://theocc.wd5.myworkdayjobs.com/careers/job/Dallas-TX/Year-Round-Intern---Application-Security_REQ-4838",
+"company": "OCC",
+"title": "Year-Round Intern - Application Security \ud83d\udec2",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -63196,9 +63175,65 @@
 "tag": ""
 },
 {
+"id": "at:https://visa.wd5.myworkdayjobs.com/Visa/job/US---Ashburn-VA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Ashburn_REF088599W-1",
+"company": "Visa",
+"title": "2027 Sophomore Internship Program - Software Engineer Intern, Ashburn \ud83d\udec2",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "at:https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Software-Engineer--Intern---2027-Austin--TX_REF088544W-1",
 "company": "Visa",
 "title": "Software Engineer, Intern - 2027 Austin, TX \ud83d\udec2",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Austin_REF088596W-1",
+"company": "Visa",
+"title": "2027 Sophomore Internship Program - Software Engineer Intern, Austin \ud83d\udec2",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://visa.wd5.myworkdayjobs.com/Visa/job/US---Bellevue-WA/Software-Engineer--Intern--Bellevue---2027_REF088585W-2",
+"company": "Visa",
+"title": "Software Engineer, Intern, Bellevue - 2027 \ud83d\udec2",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://visa.wd5.myworkdayjobs.com/Visa/job/US---Bellevue-WA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Bellevue_REF088594W-1",
+"company": "Visa",
+"title": "2027 Sophomore Internship Program - Software Engineer Intern, Bellevue \ud83d\udec2",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/Software-Engineer--Intern--Highlands-Ranch--CO---2027_REF088583W",
+"company": "Visa",
+"title": "Software Engineer, Intern, Highlands Ranch, CO - 2027 \ud83d\udec2",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Highlands-Ranch_REF088597W-1",
+"company": "Visa",
+"title": "2027 Sophomore Internship Program - Software Engineer Intern, Highlands Ranch \ud83d\udec2",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Software-Engineer--Intern---Foster-City-2027_REF088587W-1",
+"company": "Visa",
+"title": "Software Engineer, Intern - Foster City 2027 \ud83d\udec2",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/XMLNAME-2027-Sophomore-Internship-Program---Software-Engineer-Intern--Foster-City_REF088591W-1",
+"company": "Visa",
+"title": "2027 Sophomore Internship Program - Software Engineer Intern, Foster City \ud83d\udec2",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -63655,55 +63690,6 @@
 "company": "Micron Technology",
 "title": "Intern - Data Center SSD Firmware",
 "rule": "seniority",
-"tag": ""
-},
-{
-"id": "at:https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Ohio-Cincinnati/XMLNAME-2027-Cyber-Software-Engineer-Intern---Cincinnati-OH_R10249186",
-"company": "Northrop Grumman",
-"title": "2027 Cyber Software Engineer\u00a0Intern - Cincinnati OH \ud83c\uddfa\ud83c\uddf8",
-"rule": "defense",
-"tag": ""
-},
-{
-"id": "at:https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406",
-"company": "NVIDIA",
-"title": "Research Intern, Fundamental Generative AI - 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Data-Science_REQ-12796",
-"company": "Q2",
-"title": "2027 Summer Internship - Data Science \ud83d\udec2",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Machine-Learning-Engineer_REQ-12797",
-"company": "Q2",
-"title": "2027 Summer Internship - Machine Learning Engineer \ud83d\udec2",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Software-Engineer_REQ-12794",
-"company": "Q2",
-"title": "2027 Summer Internship - Software Engineer \ud83d\udec2",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/Braintree-MA---30-Braintree-Hill-Park/RS-Operational-AI-Analyst-Intern_R45766",
-"company": "SS&C",
-"title": "RS Operational AI Analyst Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://job-boards.greenhouse.io/ensco/jobs/5421861008",
-"company": "ENSCO",
-"title": "Information Security Intern \ud83c\uddfa\ud83c\uddf8",
-"rule": "irrelevant",
 "tag": ""
 }
 ]
