@@ -7847,13 +7847,6 @@
 "tag": ""
 },
 {
-"id": "ab:quantum:08848c67-8fd2-4094-8432-72de9835d7ad",
-"company": "Quantum",
-"title": "Senior Full Stack Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "ab:quantum:4b88dda0-9861-42ec-88f9-ef1d1e7727a4",
 "company": "Quantum",
 "title": "Senior Data Engineer",
@@ -7864,6 +7857,13 @@
 "id": "ab:quantum:bd5cdc9b-b883-469b-b211-78a839bbb4a4",
 "company": "Quantum",
 "title": "Senior Frontend Engineer (Web & App)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:quantum:1b27a3af-9b40-4b96-b9f1-0dd367a7e5d9",
+"company": "Quantum",
+"title": "Senior Full Stack Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -10657,6 +10657,13 @@
 "id": "gh:rocketems:4404607009",
 "company": "Rocket EMS",
 "title": "Shipping and Receiving Clerk",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:rocketems:4404609009",
+"company": "Rocket EMS",
+"title": "Shipping and Receiving Clerk (Split Shift)",
 "rule": "not-intern",
 "tag": ""
 },
@@ -14476,20 +14483,6 @@
 "tag": ""
 },
 {
-"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264511",
-"company": "Analog Devices",
-"title": "Technician Student Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264509",
-"company": "Analog Devices",
-"title": "Technician Student Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "wd:analogdevices:",
 "company": "Analog Devices",
 "title": "",
@@ -17570,6 +17563,13 @@
 "tag": ""
 },
 {
+"id": "wd:nxp:/job/Sophia-Antipolis-Valbonne/Stage-ingnieur---Ingnierie-produit---IA--F-H-_R-10064676",
+"company": "NXP",
+"title": "Stage ing\u00e9nieur : Ing\u00e9nierie produit & IA (F/H)",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "wd:nxp:/job/Caen/Stage-ingnieur---Productivit-par-l-IA-et-gestion-des-connaissances-pour-le-Support-Client-NFC-Wallet--H-F-_R-10064701",
 "company": "NXP",
 "title": "Stage ing\u00e9nieur : Productivit\u00e9 par l\u2019IA et gestion des connaissances pour le Support Client NFC Wallet (H/F)",
@@ -17850,13 +17850,6 @@
 "tag": ""
 },
 {
-"id": "wd:nxp:/job/Glasgow/Intern-AI-and-Software-Engineer---Automotive-MPUs_R-10065882-1",
-"company": "NXP",
-"title": "Intern AI and Software Engineer - Automotive MPUs",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "wd:nxp:/job/Bucharest/SW-Engineering-Intern_R-10064054",
 "company": "NXP",
 "title": "SW Engineering Intern",
@@ -17931,6 +17924,13 @@
 "company": "NXP",
 "title": "2027 Intern - Finance COE Accountant",
 "rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:nxp:/job/Kuala-Lumpur/XMLNAME-2026-Intern---Accounting_R-10064303",
+"company": "NXP",
+"title": "2026 Intern - Accounting",
+"rule": "irrelevant",
 "tag": ""
 },
 {
