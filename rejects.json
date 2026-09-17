@@ -8148,14 +8148,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8782930002",
+"id": "gh:relativity:8783355002",
 "company": "Relativity Space",
 "title": "Global Supply Manager, Indirect",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8783355002",
+"id": "gh:relativity:8782930002",
 "company": "Relativity Space",
 "title": "Global Supply Manager, Indirect",
 "rule": "not-intern",
@@ -8228,13 +8228,6 @@
 "id": "gh:relativity:8606445002",
 "company": "Relativity Space",
 "title": "Instrumentation and Controls Engineer I (Operations)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:relativity:8716117002",
-"company": "Relativity Space",
-"title": "Instrumentation & Controls Technician III",
 "rule": "not-intern",
 "tag": ""
 },
@@ -9100,14 +9093,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8463038002",
+"id": "gh:relativity:8780048002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8780048002",
+"id": "gh:relativity:8463038002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
@@ -9387,14 +9380,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8701334002",
+"id": "gh:relativity:8419277002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8419277002",
+"id": "gh:relativity:8701334002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -9625,14 +9618,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8464747002",
+"id": "gh:relativity:8728512002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8728512002",
+"id": "gh:relativity:8464747002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
@@ -12474,6 +12467,20 @@
 "tag": ""
 },
 {
+"id": "wd:nvidia:/job/US-CA-Santa-Clara/AI-Compiler-Engineer--New-College-Grad-2027_JR2026011",
+"company": "NVIDIA",
+"title": "AI Compiler Engineer- New College Grad 2027",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/US-CA-Santa-Clara/Software-QA-Engineer--New-College-Grad-2026_JR2025900",
+"company": "NVIDIA",
+"title": "Software QA Engineer- New College Grad 2026",
+"rule": "new-grad",
+"tag": ""
+},
+{
 "id": "wd:nvidia:/job/US-CA-Santa-Clara/GPU-Architecture-Engineer---New-College-Grad-2026_JR2021615",
 "company": "NVIDIA",
 "title": "GPU Architecture Engineer - New College Grad 2026",
@@ -13430,6 +13437,13 @@
 "company": "NVIDIA",
 "title": "Research Scientist, Generalist Embodied Agent Research - PhD New College Grad 2026",
 "rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Operation-Improvement-Scheduling_JR111097",
+"company": "Micron",
+"title": "Intern - Operations Improvement Scheduling",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -16265,6 +16279,13 @@
 "company": "Applied Materials",
 "title": "Chemist - New College Graduate",
 "rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:marvell:/job/Burlington-VT/SRAM-Software-Engineer-Intern--BS---Summer-2027_2603760-1",
+"company": "Marvell",
+"title": "SRAM Software Engineer Intern, BS - Summer 2027",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -19402,13 +19423,6 @@
 "title": "Intern Software Developer - Summer 2026",
 "rule": "season",
 "tag": "Summer 2026"
-},
-{
-"id": "ls:c3a7ff86-c368-460c-93a2-751b00392ebe",
-"company": "Geotab",
-"title": "Insights & Integrations Consultancy Data Scientist Intern",
-"rule": "curated_worker",
-"tag": ""
 },
 {
 "id": "ls:a0e95457-348b-495c-b6ca-6c74a2122451",
