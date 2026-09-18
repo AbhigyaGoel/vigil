@@ -1561,6 +1561,34 @@
 "tag": ""
 },
 {
+"id": "ab:constellationspace:b763d4ba-7b77-479b-89a0-f632d9d02f4a",
+"company": "Constellation Space",
+"title": "Graduate/PhD Research Intern, Machine Learning",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ab:constellationspace:c32309ae-2956-454a-807e-adb6966f08e0",
+"company": "Constellation Space",
+"title": "Software Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:constellationspace:4b79bd50-b782-4e9b-83e1-78b28fd657e5",
+"company": "Constellation Space",
+"title": "Machine Learning Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:constellationspace:31e8a547-1e21-401a-869c-951e9c4f505c",
+"company": "Constellation Space",
+"title": "Head of Business Development",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "ab:corvus-robotics:bcdadda2-d374-4a5f-afd3-73b868dc9c84",
 "company": "Corvus Robotics",
 "title": "Head of Talent",
@@ -13489,13 +13517,6 @@
 "tag": ""
 },
 {
-"id": "wd:micron:/job/Longmont-MAX--Office-CO/Intern---Enterprise-SSD-Customer-Support-Engineering_JR111592",
-"company": "Micron",
-"title": "Intern - Enterprise SSD Customer Support Engineering",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "wd:micron:/job/Boise-ID---Main-Site/TSE-KEG-Intern-Engineer_JR112283",
 "company": "Micron",
 "title": "Intern - TSE KEG Engineer",
@@ -14690,6 +14711,370 @@
 "company": "KLA",
 "title": "Ausbildung zum Elektroniker f\u00fcr Ger\u00e4te und Systeme (w/m/d)",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Ireland-Leixlip/Manufacturing-Technician-Traineeship_JR0287293",
+"company": "Intel",
+"title": "Manufacturing Technician Traineeship",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Ireland-Leixlip/Module-Engineer-Internship_JR0287294",
+"company": "Intel",
+"title": "Module Engineer Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/South-Korea-Seoul/Undergrad-Intern-Sales-and-Marketing_JR0287304",
+"company": "Intel",
+"title": "Undergrad Intern Sales and Marketing",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Israel-Kiryat-Gat/Data-Science-and-Analytics-Student_JR0286939",
+"company": "Intel",
+"title": "Data Science and Analytics Student",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Israel-Haifa/Software-Student-for-x86-Validation-Tools_JR0287280",
+"company": "Intel",
+"title": "Software Student for x86 Validation Tools",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/PRC-Shanghai/AI-Compiler-and-Library-Engineer_JR0287301",
+"company": "Intel",
+"title": "AI Compiler and Library Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/PRC-Shanghai/AI-Compiler-and-Library-Engineer-Intern_JR0287303",
+"company": "Intel",
+"title": "AI Compiler and Library Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Mexico-Guadalajara/Silicon-Design---Flows-and-Methodology-Intern_JR0286647",
+"company": "Intel",
+"title": "Silicon Design - Flows and Methodology Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Arizona-Phoenix/Operations-Research--Engineering-Analytics-Graduate-Intern_JR0286502",
+"company": "Intel",
+"title": "Operations Research, Engineering Analytics Graduate Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Module-Engineering-PhD-Intern-Summer-2027_JR0286916",
+"company": "Intel",
+"title": "Module Engineering PhD Intern Summer 2027",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Process-Integration-and-Yield-Engineering-PhD-Intern-Repeat_JR0287168",
+"company": "Intel",
+"title": "Process Integration and Yield Engineering PhD Intern Repeat",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Israel-Haifa/Layout-Student_JR0287070",
+"company": "Intel",
+"title": "Layout Student",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Vietnam-Ho_Chi_Minh_City/Facilities-Engineering-Intern_JR0287227",
+"company": "Intel",
+"title": "Facilities Engineering Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Arizona-Phoenix/Packaging-Technology-Development-Graduate-Intern_JR0287080",
+"company": "Intel",
+"title": "Packaging Technology Development Graduate Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/System-Technology-Research-Engineer----PhD-Intern-_JR0287000",
+"company": "Intel",
+"title": "System Technology Research Engineer - (PhD Intern)",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Malaysia-Penang/TEG-Equipment-Engineering-Intern_JR0287229",
+"company": "Intel",
+"title": "TEG Equipment Engineering Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Arizona-Phoenix/Module-Engineering-PhD-Intern_JR0286932",
+"company": "Intel",
+"title": "Module Engineering PhD Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Module-Engineering-PhD-Intern-New-2027_JR0287021",
+"company": "Intel",
+"title": "Module Engineering PhD Intern New 2027",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Module-Engineering-PhD-Intern-New-2027_JR0287020",
+"company": "Intel",
+"title": "Module Engineering PhD Intern New 2027",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Parametric-Test-Module-Intern_JR0286719",
+"company": "Intel",
+"title": "Parametric Test Module Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Module-Engineering-PhD-Intern---Wet-Etch_JR0287047",
+"company": "Intel",
+"title": "Module Engineering PhD Intern - Wet Etch",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Module-Engineering-PhD-Intern_JR0287022-1",
+"company": "Intel",
+"title": "Module Engineering PhD Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Module-Engineering-PhD-Intern_JR0287026",
+"company": "Intel",
+"title": "Module Engineering PhD Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Canada-Toronto/Compiler-Engineering-Undergraduate-Intern---SYCL-Runtime_JR0286849",
+"company": "Intel",
+"title": "Compiler Engineering Undergraduate Intern - SYCL Runtime",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Taiwan-Taipei/Solution-Enabling-Engineer--1-Year-Internship-_JR0286422",
+"company": "Intel",
+"title": "Solution Enabling Engineer (1 Year Internship)",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/PRC-Shanghai/Operations-Research-Engineer-Intern_JR0286945",
+"company": "Intel",
+"title": "Operations Research Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Virtual-Canada/AI-and-Compiler-Engineering-Graduate-Intern_JR0286850",
+"company": "Intel",
+"title": "AI and Compiler Engineering Graduate Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Software-Research-Engineering----PhD-Intern-_JR0287019",
+"company": "Intel",
+"title": "Software Research Engineering - (PhD Intern)",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Arizona-Phoenix/Advanced-Packaging-Integration-and-Simulation-Intern_JR0287009",
+"company": "Intel",
+"title": "Advanced Packaging Integration and Simulation Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Module-Engineering-PhD-Intern-2027_JR0286876",
+"company": "Intel",
+"title": "Module Engineering PhD Intern 2027",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Malaysia-Kulim/System-Software-Engineering-Intern_JR0286933",
+"company": "Intel",
+"title": "System Software Engineering Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Ireland-Leixlip/Software-Solutions-Eng-PhD-Intern_JR0286944",
+"company": "Intel",
+"title": "Software Solutions Eng PhD Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Malaysia-Kulim/DevOps-and-Software-Engineering-Intern_JR0286934",
+"company": "Intel",
+"title": "DevOps and Software Engineering Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Ireland-Leixlip/Intel-NPU-Internship_JR0286890",
+"company": "Intel",
+"title": "Intel NPU Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Malaysia-Penang/Intern-System-Software-Development-Engineer_JR0286955",
+"company": "Intel",
+"title": "Intern System Software Development Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Malaysia-Kulim/Intern-System-Software-Development-Engineer_JR0286935",
+"company": "Intel",
+"title": "Intern System Software Development Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/PRC-Chengdu/AI-ML-Software-App-Development-Intern_JR0286946",
+"company": "Intel",
+"title": "AI/ML Software App Development Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Malaysia-Penang/Intern-System-Software-Development-Engineer_JR0286937",
+"company": "Intel",
+"title": "Intern System Software Development Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-California-Santa-Clara/Technical-Sales---Intern--Bachelor-s_JR0286835",
+"company": "Intel",
+"title": "Technical Sales - Intern, Bachelor\u2019s",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-California-Santa-Clara/Technical-Sales---Intern--Graduate_JR0286831",
+"company": "Intel",
+"title": "Technical Sales - Intern, Graduate",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-California-Santa-Clara/Sales-and-Marketing---Intern--Bachelor-s_JR0286838",
+"company": "Intel",
+"title": "Sales and Marketing - Intern, Bachelor\u2019s",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-California-Santa-Clara/Sales-and-Marketing---Intern--Graduate_JR0286839",
+"company": "Intel",
+"title": "Sales and Marketing - Intern, Graduate",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Manufacturing-and-Process-Development---Intern--Bachelor-s_JR0286825",
+"company": "Intel",
+"title": "Manufacturing and Process Development - Intern, Bachelor\u2019s",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Manufacturing-and-Process-Development---Intern--Graduate_JR0286833",
+"company": "Intel",
+"title": "Manufacturing and Process Development - Intern, Graduate",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Facilities-Services---Intern--Bachelor-s_JR0286826",
+"company": "Intel",
+"title": "Facilities Services - Intern, Bachelor\u2019s",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Software-Engineering---Intern--Bachelor-s_JR0286834",
+"company": "Intel",
+"title": "Software Engineering - Intern, Bachelor\u2019s",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Software-Engineering---Intern--Graduate_JR0286836",
+"company": "Intel",
+"title": "Software Engineering - Intern, Graduate",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-New-Mexico-Albuquerque/New-Mexico-WPM-Manufacturing-Technician-Internship_JR0285454",
+"company": "Intel",
+"title": "New Mexico WPM Manufacturing Technician Internship",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Vietnam-Ho_Chi_Minh_City/Intern-Systems-Software-Development-Engineer_JR0286501",
+"company": "Intel",
+"title": "Intern Systems Software Development Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Malaysia-Penang/Intern-Systems-Software-Development-Engineer_JR0286499",
+"company": "Intel",
+"title": "Intern Systems Software Development Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/PRC-Beijing/Executive-Assistant-Intern_JR0285840",
+"company": "Intel",
+"title": "Executive Assistant Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Mexico-Guadalajara/Development-Tools-Software-Intern_JR0285211",
+"company": "Intel",
+"title": "Development Tools Software Intern",
+"rule": "geo",
 "tag": ""
 },
 {
@@ -15922,6 +16307,132 @@
 "company": "Applied Materials",
 "title": "Global Installation Engineer-Semi-Shanghai/Beijing/Wuxi/Chengdu-New Graduate",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/ShanghaiCHN/Customer-Engineer---NCG--_R2624472",
+"company": "Applied Materials",
+"title": "Customer Engineer ( NCG )",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Intern---Regional-UPSkill-Enablement_R2623692",
+"company": "Applied Materials",
+"title": "Intern - Regional UPSkill Enablement",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Customer-Engineer---New-College-Graduates-_R2622684",
+"company": "Applied Materials",
+"title": "Customer Engineer ( New College Graduates)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/AI-Research-Scientist--Generative-Models-for-Scientific-Discovery-_R2611980-1",
+"company": "Applied Materials",
+"title": "Machine Learning Engineer (Generative AI)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/LeixlipIRL/Field-Service---Early-Career-Engineers_R2617457",
+"company": "Applied Materials",
+"title": "Field Service - Early Career Engineers",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Quality---Reliability-Systems-Engineer----E3-_R2620088",
+"company": "Applied Materials",
+"title": "Quality & Reliability Systems Engineer - (E3)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/LinkouTWN/Software--Technical--Support-Engineer-II----E2-_R2619469",
+"company": "Applied Materials",
+"title": "Software (Technical) Support Engineer II - (E2)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/RehovotISR/System-Integration-Engineer_R2612347",
+"company": "Applied Materials",
+"title": "System Integration Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Buyer--B2-_R2611123",
+"company": "Applied Materials",
+"title": "Materials Project Management",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Industrial-Engineering-Intern_R2614287",
+"company": "Applied Materials",
+"title": "Industrial Engineering Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/XMLNAME-2026-Summer-Intern---Physics---AI-modeling-Engineering_R2616095",
+"company": "Applied Materials",
+"title": "2026 Summer Intern - Physics & AI modeling Engineering",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Account-Technologist--New-College-Graduate---Early-in-Career-_R2615686",
+"company": "Applied Materials",
+"title": "Account Technologist (New College Graduate / Early in Career)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/TrevisoITA/Supplier-Industrial-Engineer--Internship-_R2613391",
+"company": "Applied Materials",
+"title": "Supplier Industrial Engineer (Internship)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/XMLNAME-2026-NCG---Process-Technician---Undergrad--Santa-Clara--CA-_R2519923-1",
+"company": "Applied Materials",
+"title": "2026 NCG - Process Technician - Undergrad (Santa Clara, CA)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Technical-Program-Manager-New-College-Grad---MS-PHD-Degree--Santa-Clara--CA-_R2518866",
+"company": "Applied Materials",
+"title": "Technical Program Manager New College Grad - MS/PHD Degree (Santa Clara, CA)",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/XMLNAME-2026-Summer-Mechanical-Engineer-Intern---Masters--Santa-Clara--CA-_R2519236",
+"company": "Applied Materials",
+"title": "2026 Summer Mechanical Engineer Intern - Masters (Santa Clara, CA)",
+"rule": "season",
+"tag": "title"
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/Global-Supply-Chain-New-College-Graduate_R2410708",
+"company": "Applied Materials",
+"title": "Global Supply Chain New College Graduate",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Chemist---New-College-Graduate_R2512395",
+"company": "Applied Materials",
+"title": "Chemist - New College Graduate",
+"rule": "new-grad",
 "tag": ""
 },
 {
@@ -17792,6 +18303,69 @@
 "title": "2026 Summer Intern (Penang) Supply Chain Planner",
 "rule": "season",
 "tag": "title"
+},
+{
+"id": "wd:trimble:/job/Poland---Cracow/Working-Student-Marketing-Operations_R57133",
+"company": "Trimble",
+"title": "Working Student Marketing Operations",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:trimble:/job/US---OH-Dayton/Operations-Intern_R57679",
+"company": "Trimble",
+"title": "Operations Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:trimble:/job/US---CO-Westminster/Marketing--Communication---Event-Management-Intern_R57678",
+"company": "Trimble",
+"title": "Marketing, Communication & Event Management Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:trimble:/job/US---CO-Westminster/Software-Engineering-Intern_R57676",
+"company": "Trimble",
+"title": "Software Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:trimble:/job/US---CO-Westminster/Product-Management-Intern_R57675-1",
+"company": "Trimble",
+"title": "Product Management Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:trimble:/job/US---CO-Westminster/XMLNAME-12-Month-Geospatial-Intern_R57727",
+"company": "Trimble",
+"title": "12-Month Geospatial Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:trimble:/job/New-Zealand---Christchurch/Cybersecurity-Intern_R57612",
+"company": "Trimble",
+"title": "Cybersecurity Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:trimble:/job/US---CO-Westminster/Product-Marketing-Intern_R57557",
+"company": "Trimble",
+"title": "Product Marketing Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:trimble:/job/US---CO-Westminster/Product-Marketing-Intern_R57563",
+"company": "Trimble",
+"title": "Product Marketing Intern",
+"rule": "seniority",
+"tag": ""
 },
 {
 "id": "ls:9a900104-2a94-4f83-8db2-d908f008ed99",
