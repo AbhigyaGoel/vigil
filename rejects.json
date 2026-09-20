@@ -12810,9 +12810,9 @@
 "tag": ""
 },
 {
-"id": "wd:nvidia:/job/Israel-Yokneam/Software-Architect--Advanced-Development_JR2007439",
+"id": "wd:nvidia:",
 "company": "NVIDIA",
-"title": "Software Architect, Advanced Development",
+"title": "",
 "rule": "not-intern",
 "tag": ""
 },
@@ -12926,13 +12926,6 @@
 "company": "NVIDIA",
 "title": "System Software Engineer - Autonomous Vehicles",
 "rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:nvidia:/job/Taiwan-Taipei/System-Software-Engineer--SOC--New-College-Graduate_JR2020781",
-"company": "NVIDIA",
-"title": "System Software Engineer, SOC - New College Graduate",
-"rule": "new-grad",
 "tag": ""
 },
 {
@@ -13058,6 +13051,13 @@
 "id": "wd:nvidia:/job/China-Shanghai/NVIDIA-2027-New-College-Graduate--GPU-Architecture-Engineering---China_JR2024108",
 "company": "NVIDIA",
 "title": "NVIDIA 2027 New College Graduate: GPU Architecture Engineering - China",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/China-Shanghai/NVIDIA-2027-New-College-Graduate--Autonomous-Vehicles-and-Robotics---China_JR2024109",
+"company": "NVIDIA",
+"title": "NVIDIA 2027 New College Graduate: Autonomous Vehicles and Robotics - China",
 "rule": "new-grad",
 "tag": ""
 },
