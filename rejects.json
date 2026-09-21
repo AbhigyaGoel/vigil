@@ -8190,6 +8190,13 @@
 "tag": ""
 },
 {
+"id": "gh:relativity:8782930002",
+"company": "Relativity Space",
+"title": "Global Supply Manager, Indirect",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "gh:relativity:8783355002",
 "company": "Relativity Space",
 "title": "Global Supply Manager, Indirect",
@@ -8198,13 +8205,6 @@
 },
 {
 "id": "gh:relativity:8783350002",
-"company": "Relativity Space",
-"title": "Global Supply Manager, Indirect",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:relativity:8782930002",
 "company": "Relativity Space",
 "title": "Global Supply Manager, Indirect",
 "rule": "not-intern",
@@ -9072,14 +9072,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8455890002",
+"id": "gh:relativity:8612945002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8612945002",
+"id": "gh:relativity:8455890002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
@@ -9443,14 +9443,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8419277002",
+"id": "gh:relativity:8701334002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8701334002",
+"id": "gh:relativity:8419277002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -9646,14 +9646,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8606781002",
+"id": "gh:relativity:8633353002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8633353002",
+"id": "gh:relativity:8606781002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -9761,13 +9761,6 @@
 "id": "gh:relativity:8689222002",
 "company": "Relativity Space",
 "title": "Senior Wire Harness Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:relativity:8747134002",
-"company": "Relativity Space",
-"title": "Software Engineer I",
 "rule": "not-intern",
 "tag": ""
 },
@@ -10045,14 +10038,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8715897002",
+"id": "gh:relativity:8595007002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8595007002",
+"id": "gh:relativity:8715897002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -12040,13 +12033,6 @@
 "tag": ""
 },
 {
-"id": "gh:thenuclearcompany:5365389008",
-"company": "The Nuclear Company",
-"title": "Director, Tax",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:thenuclearcompany:5419781008",
 "company": "The Nuclear Company",
 "title": "Document Controller",
@@ -12551,17 +12537,17 @@
 "tag": ""
 },
 {
-"id": "wd:nvidia:/job/Canada-Toronto/PhD-Research-Intern--Quantum-and-AI-for-Chemistry---2027_JR2024997",
-"company": "NVIDIA",
-"title": "PhD Research Intern, Quantum and AI for Chemistry - 2027",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "wd:nvidia:/job/Taiwan-Taipei/Software-Engineer--Simulation-and-Virtualization--RDSS-Intern-_JR2025783",
 "company": "NVIDIA",
 "title": "Software Engineer, Simulation and Virtualization (RDSS Intern)",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/Canada-Toronto/PhD-Research-Intern--Quantum-and-AI-for-Chemistry---2027_JR2024997",
+"company": "NVIDIA",
+"title": "PhD Research Intern, Quantum and AI for Chemistry - 2027",
+"rule": "seniority",
 "tag": ""
 },
 {
