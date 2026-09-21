@@ -12516,10 +12516,10 @@
 "tag": ""
 },
 {
-"id": "wd:nvidia:/job/US-CA-Santa-Clara/PhD-Research-Intern--Networking---2027_JR2025098",
+"id": "wd:nvidia:/job/US-CA-Santa-Clara/Compiler-Engineer--Agentic-Compilation-Systems---New-College-Grad-2027_JR2026218",
 "company": "NVIDIA",
-"title": "PhD Research Intern, Networking - 2027",
-"rule": "seniority",
+"title": "Compiler Engineer, Agentic Compilation Systems - New College Grad 2027",
+"rule": "new-grad",
 "tag": ""
 },
 {
@@ -12583,6 +12583,13 @@
 "company": "NVIDIA",
 "title": "PhD Research Intern, Generalist Embodied Agents Research - 2027",
 "rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:nvidia:",
+"company": "NVIDIA",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
