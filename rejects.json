@@ -16765,13 +16765,6 @@
 "tag": ""
 },
 {
-"id": "wd:cat:/job/Metro-Manila-National-Capital-Region-Manila/Financial-Intern--Accounting---Finance-_R0000383225",
-"company": "Caterpillar",
-"title": "Financial Intern (Accounting / Finance)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "wd:cat:/job/Irving-Texas/XMLNAME-2027-Summer-Corporate-Intern---Finance_R0000380161",
 "company": "Caterpillar",
 "title": "2027 Summer Corporate Intern - Finance",
@@ -16845,13 +16838,6 @@
 "id": "wd:cat:/job/Peoria-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Communications_R0000380423",
 "company": "Caterpillar",
 "title": "2027 Summer Corporate Intern - Communications",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Selangor-Selangor/Intern--Accounting---Finance-_R0000380757",
-"company": "Caterpillar",
-"title": "Financial Intern (Accounting / Finance)",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -39102,13 +39088,6 @@
 "tag": ""
 },
 {
-"id": "ls:8ee871d8-4385-49e0-9f0d-1f89f3ed0863",
-"company": "Target",
-"title": "Software Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:b7359908-b1b9-4e89-befe-99ce05f4df7f",
 "company": "Walmart",
 "title": "Senior Data Scientist Intern",
@@ -44758,13 +44737,6 @@
 "tag": "Winter 2026"
 },
 {
-"id": "ls:57ded721-ead9-440b-999c-b6f3861f72ed",
-"company": "Howmet Aerospace",
-"title": "Artificial Intelligence Intern - AI",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:02b6eecc-ac3c-44e4-9b02-71dde8078aa0",
 "company": "Rothesay",
 "title": "Quantitative Strategist Intern",
@@ -46847,6 +46819,20 @@
 "id": "ls:5c544a3c-f3fe-4f7d-961c-7405d57bacad",
 "company": "UL Solutions",
 "title": "Digital Solutions Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:aba3cf97-4ffd-4dce-876d-ab3305231512",
+"company": "Boston Consulting Group",
+"title": "Forward Deployed AI Engineer Intern - BCG X",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
+"id": "ls:128e7ee0-9110-45e1-992d-270f1fa2be3d",
+"company": "Boston Consulting Group",
+"title": "Forward Deployed AI Scientist Intern - United Kingdom - BCG X",
 "rule": "season",
 "tag": "Winter 2026"
 },
