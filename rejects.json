@@ -8190,7 +8190,7 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8783355002",
+"id": "gh:relativity:8783350002",
 "company": "Relativity Space",
 "title": "Global Supply Manager, Indirect",
 "rule": "not-intern",
@@ -8204,7 +8204,7 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8783350002",
+"id": "gh:relativity:8783355002",
 "company": "Relativity Space",
 "title": "Global Supply Manager, Indirect",
 "rule": "not-intern",
@@ -9156,14 +9156,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8463038002",
+"id": "gh:relativity:8780048002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8780048002",
+"id": "gh:relativity:8463038002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
@@ -9646,14 +9646,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8606781002",
+"id": "gh:relativity:8633353002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8633353002",
+"id": "gh:relativity:8606781002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -9898,13 +9898,6 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8783893002",
-"company": "Relativity Space",
-"title": "Staff Engineer - Launch Fluids Engineering",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:relativity:8520074002",
 "company": "Relativity Space",
 "title": "Staff Global Supply Manager, Avionics",
@@ -10045,14 +10038,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8595007002",
+"id": "gh:relativity:8715897002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8715897002",
+"id": "gh:relativity:8595007002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -25578,13 +25571,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:d2bf0b8d-c3b1-4c24-ac23-6623d221258a",
-"company": "Royal Bank of Canada",
-"title": "Machine Learning Software Engineer Co-op - Multiple Teams",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:a167d0aa-3bb9-4b88-84a5-ee03be6a494f",
 "company": "RTX",
 "title": "Conversion Systems Engineer 1 Intern",
@@ -25798,6 +25784,13 @@
 "id": "ls:be628885-fde3-4b73-bb0a-58e11856e97b",
 "company": "NVIDIA",
 "title": "Software Engineering Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:3affcaac-d7f9-45d1-8139-19defc762e13",
+"company": "NVIDIA",
+"title": "Deep Learning Computer Architecture Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -41622,13 +41615,6 @@
 "tag": "Winter 2026"
 },
 {
-"id": "ls:437cd6b5-027a-421a-90aa-3cf4915196c5",
-"company": "Marvell",
-"title": "Analog Layout Engineer Intern",
-"rule": "season",
-"tag": "Winter 2026"
-},
-{
 "id": "ls:adb1e815-47fe-4268-911a-3c542a8a5b4e",
 "company": "Marvell",
 "title": "Data Center Silicon Hardware Engineering Intern - Winter 2027",
@@ -43181,13 +43167,6 @@
 "title": "Quantitative Researcher Intern - US",
 "rule": "season",
 "tag": "Summer 2026"
-},
-{
-"id": "ls:d3493d3d-52cf-4bc5-a30a-2f26571b4b4b",
-"company": "RTX",
-"title": "Software Developer Intern - Digital Engine Services - Ground Cloud Software Developer",
-"rule": "defense",
-"tag": ""
 },
 {
 "id": "ls:ca035415-b41d-4d0c-b07f-571c22ab04bb",
