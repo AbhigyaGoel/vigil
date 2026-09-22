@@ -12635,13 +12635,6 @@
 "tag": ""
 },
 {
-"id": "gh:thenuclearcompany:5376935008",
-"company": "The Nuclear Company",
-"title": "Land Specialist",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:thenuclearcompany:4778254008",
 "company": "The Nuclear Company",
 "title": "Licensing Engineer",
@@ -15421,10 +15414,325 @@
 "tag": ""
 },
 {
-"id": "wd:kla:/job/Weilburg-Germany/Ausbildung-zum-Elektroniker-fr-Gerte-und-Systeme--w-m-d-_2639003",
+"id": "wd:kla:",
 "company": "KLA",
-"title": "Ausbildung zum Elektroniker f\u00fcr Ger\u00e4te und Systeme (w/m/d)",
+"title": "",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Taiwan-Taipei/Solution-Enabling-Engineer--1-Year-Internship-_JR0286422",
+"company": "Intel",
+"title": "Solution Enabling Engineer (1 Year Internship)",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Process-Integration-and-Yield-Engineering-PhD-Intern_JR0287132",
+"company": "Intel",
+"title": "Process Integration and Yield Engineering PhD Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Ireland-Leixlip/Manufacturing-Technician-Traineeship_JR0287293",
+"company": "Intel",
+"title": "Manufacturing Technician Traineeship",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Ireland-Leixlip/Module-Engineer-Internship_JR0287294",
+"company": "Intel",
+"title": "Module Engineer Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/South-Korea-Seoul/Undergrad-Intern-Sales-and-Marketing_JR0287304",
+"company": "Intel",
+"title": "Undergrad Intern Sales and Marketing",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Mexico-Guadalajara/Silicon-Design---Flows-and-Methodology-Intern_JR0286647",
+"company": "Intel",
+"title": "Silicon Design - Flows and Methodology Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Arizona-Phoenix/Operations-Research--Engineering-Analytics-Graduate-Intern_JR0286502",
+"company": "Intel",
+"title": "Operations Research, Engineering Analytics Graduate Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Module-Engineering-PhD-Intern-Summer-2027_JR0286916",
+"company": "Intel",
+"title": "Module Engineering PhD Intern Summer 2027",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Process-Integration-and-Yield-Engineering-PhD-Intern-Repeat_JR0287168",
+"company": "Intel",
+"title": "Process Integration and Yield Engineering PhD Intern Repeat",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Israel-Haifa/Layout-Student_JR0287070",
+"company": "Intel",
+"title": "Layout Student",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Vietnam-Ho_Chi_Minh_City/Facilities-Engineering-Intern_JR0287227",
+"company": "Intel",
+"title": "Facilities Engineering Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Arizona-Phoenix/Packaging-Technology-Development-Graduate-Intern_JR0287080",
+"company": "Intel",
+"title": "Packaging Technology Development Graduate Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/System-Technology-Research-Engineer----PhD-Intern-_JR0287000",
+"company": "Intel",
+"title": "System Technology Research Engineer - (PhD Intern)",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Malaysia-Penang/TEG-Equipment-Engineering-Intern_JR0287229",
+"company": "Intel",
+"title": "TEG Equipment Engineering Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Arizona-Phoenix/Module-Engineering-PhD-Intern_JR0286932",
+"company": "Intel",
+"title": "Module Engineering PhD Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Module-Engineering-PhD-Intern-New-2027_JR0287021",
+"company": "Intel",
+"title": "Module Engineering PhD Intern New 2027",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Module-Engineering-PhD-Intern-New-2027_JR0287020",
+"company": "Intel",
+"title": "Module Engineering PhD Intern New 2027",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Parametric-Test-Module-Intern_JR0286719",
+"company": "Intel",
+"title": "Parametric Test Module Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Module-Engineering-PhD-Intern---Wet-Etch_JR0287047",
+"company": "Intel",
+"title": "Module Engineering PhD Intern - Wet Etch",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Module-Engineering-PhD-Intern_JR0287022-1",
+"company": "Intel",
+"title": "Module Engineering PhD Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Module-Engineering-PhD-Intern_JR0287026",
+"company": "Intel",
+"title": "Module Engineering PhD Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/PRC-Shanghai/Operations-Research-Engineer-Intern_JR0286945",
+"company": "Intel",
+"title": "Operations Research Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Virtual-Canada/AI-and-Compiler-Engineering-Graduate-Intern_JR0286850",
+"company": "Intel",
+"title": "AI and Compiler Engineering Graduate Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Software-Research-Engineering----PhD-Intern-_JR0287019",
+"company": "Intel",
+"title": "Software Research Engineering - (PhD Intern)",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Arizona-Phoenix/Advanced-Packaging-Integration-and-Simulation-Intern_JR0287009",
+"company": "Intel",
+"title": "Advanced Packaging Integration and Simulation Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Module-Engineering-PhD-Intern-2027_JR0286876",
+"company": "Intel",
+"title": "Module Engineering PhD Intern 2027",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Malaysia-Kulim/System-Software-Engineering-Intern_JR0286933",
+"company": "Intel",
+"title": "System Software Engineering Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Malaysia-Kulim/DevOps-and-Software-Engineering-Intern_JR0286934",
+"company": "Intel",
+"title": "DevOps and Software Engineering Intern",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Ireland-Leixlip/Intel-NPU-Internship_JR0286890",
+"company": "Intel",
+"title": "Intel NPU Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Malaysia-Penang/Intern-System-Software-Development-Engineer_JR0286955",
+"company": "Intel",
+"title": "Intern System Software Development Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Malaysia-Kulim/Intern-System-Software-Development-Engineer_JR0286935",
+"company": "Intel",
+"title": "Intern System Software Development Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/PRC-Chengdu/AI-ML-Software-App-Development-Intern_JR0286946",
+"company": "Intel",
+"title": "AI/ML Software App Development Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Malaysia-Penang/Intern-System-Software-Development-Engineer_JR0286937",
+"company": "Intel",
+"title": "Intern System Software Development Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-California-Santa-Clara/Technical-Sales---Intern--Bachelor-s_JR0286835",
+"company": "Intel",
+"title": "Technical Sales - Intern, Bachelor\u2019s",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-California-Santa-Clara/Technical-Sales---Intern--Graduate_JR0286831",
+"company": "Intel",
+"title": "Technical Sales - Intern, Graduate",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-California-Santa-Clara/Sales-and-Marketing---Intern--Bachelor-s_JR0286838",
+"company": "Intel",
+"title": "Sales and Marketing - Intern, Bachelor\u2019s",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-California-Santa-Clara/Sales-and-Marketing---Intern--Graduate_JR0286839",
+"company": "Intel",
+"title": "Sales and Marketing - Intern, Graduate",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Manufacturing-and-Process-Development---Intern--Bachelor-s_JR0286825",
+"company": "Intel",
+"title": "Manufacturing and Process Development - Intern, Bachelor\u2019s",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Manufacturing-and-Process-Development---Intern--Graduate_JR0286833",
+"company": "Intel",
+"title": "Manufacturing and Process Development - Intern, Graduate",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Facilities-Services---Intern--Bachelor-s_JR0286826",
+"company": "Intel",
+"title": "Facilities Services - Intern, Bachelor\u2019s",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Software-Engineering---Intern--Bachelor-s_JR0286834",
+"company": "Intel",
+"title": "Software Engineering - Intern, Bachelor\u2019s",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Software-Engineering---Intern--Graduate_JR0286836",
+"company": "Intel",
+"title": "Software Engineering - Intern, Graduate",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-New-Mexico-Albuquerque/New-Mexico-WPM-Manufacturing-Technician-Internship_JR0285454",
+"company": "Intel",
+"title": "New Mexico WPM Manufacturing Technician Internship",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Vietnam-Ho_Chi_Minh_City/Intern-Systems-Software-Development-Engineer_JR0286501",
+"company": "Intel",
+"title": "Intern Systems Software Development Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Mexico-Guadalajara/Development-Tools-Software-Intern_JR0285211",
+"company": "Intel",
+"title": "Development Tools Software Intern",
+"rule": "geo",
 "tag": ""
 },
 {
