@@ -15393,6 +15393,34 @@
 "tag": ""
 },
 {
+"id": "wd:kla:/job/USA-MI-Ann-Arbor-KLA/Human-Resource-Intern_2639645-1",
+"company": "KLA",
+"title": "Human Resource Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:kla:/job/Weilburg-Germany/Working-Student--f-m-d----Physics---Electrical-Engineering---Signal-Processing--Thesis-Option-Available-_2638657",
+"company": "KLA",
+"title": "Working Student (f/m/d) \u2013 Physics / Electrical Engineering / Signal Processing (Thesis Option Available)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:kla:/job/DEU-Saxony-Dresden-City-Center/Working-Student-Foundry-Analytics---SW-Development--m-f-d-_2638557",
+"company": "KLA",
+"title": "Working Student Foundry Analytics & SW Development (m/f/d)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:kla:/job/DEU-Saxony-Dresden-City-Center/Working-Student--gn--for-Data-Analysis_2638365",
+"company": "KLA",
+"title": "Working Student for Data Analysis (m/f/d)",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "wd:intel:/job/Taiwan-Taipei/Solution-Enabling-Engineer--1-Year-Internship-_JR0286422",
 "company": "Intel",
 "title": "Solution Enabling Engineer (1 Year Internship)",
@@ -15887,6 +15915,13 @@
 "company": "Applied Materials",
 "title": "Customer Engineer - C1",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/Santa-ClaraCA/Product-Line-Management-New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2626625",
+"company": "Applied Materials",
+"title": "Product Line Management New College Grad- Bachelor's (Santa Clara, CA)",
+"rule": "new-grad",
 "tag": ""
 },
 {
@@ -47047,13 +47082,6 @@
 "tag": ""
 },
 {
-"id": "ls:a3c5a65f-8eba-4d2e-a9b8-a50cceb40ad6",
-"company": "RSM",
-"title": "Tax Digital Services Intern - AI Engineering",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:08b81f58-c3c3-4212-a0ac-e8bc42112895",
 "company": "Acima",
 "title": "Software Engineer Intern",
@@ -47890,13 +47918,6 @@
 "id": "ls:5b34661b-6ae3-4276-8322-3005f82d5721",
 "company": "Nebraska Medicine",
 "title": "Forward Deployed AI Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:5292f2d8-70e9-44a6-a50e-aea6724dfacd",
-"company": "Symbotic",
-"title": "Software Engineer",
 "rule": "irrelevant",
 "tag": ""
 },
