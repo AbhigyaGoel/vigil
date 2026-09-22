@@ -14749,13 +14749,6 @@
 "tag": ""
 },
 {
-"id": "wd:intel:/job/Software-Student-for-x86-Validation-Tools_JR0287280",
-"company": "Intel",
-"title": "",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:intel:/job/Mexico-Guadalajara/Silicon-Design---Flows-and-Methodology-Intern_JR0286647",
 "company": "Intel",
 "title": "Silicon Design - Flows and Methodology Intern",
@@ -14910,10 +14903,10 @@
 "tag": ""
 },
 {
-"id": "wd:intel:/job/Ireland-Leixlip/Software-Solutions-Eng-PhD-Intern_JR0286944",
+"id": "wd:intel:/job/Software-Solutions-Eng-PhD-Intern_JR0286944",
 "company": "Intel",
-"title": "Software Solutions Eng PhD Intern",
-"rule": "seniority",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -16828,6 +16821,13 @@
 "tag": ""
 },
 {
+"id": "wd:cat:/job/Peoria-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Business-Operations_R0000391405-1",
+"company": "Caterpillar",
+"title": "2027 Summer Corporate Intern - Business Operations",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "wd:cat:/job/Monterrey-Nuevo-Len/Practicante-de-Desarrollo-Digital_R0000391049",
 "company": "Caterpillar",
 "title": "Practicante de Desarrollo Digital",
@@ -16958,13 +16958,6 @@
 "company": "Caterpillar",
 "title": "2027 Engineering Corporate Internship Program Welding",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Mossville-Illinois/XMLNAME-2027-Corporate-Parallel-Co-op-Program_R0000380509",
-"company": "Caterpillar",
-"title": "2027 Engineering Corporate Parallel Co-op Program",
-"rule": "not-intern",
 "tag": ""
 },
 {
@@ -17546,6 +17539,13 @@
 "company": "Boston Dynamics",
 "title": "Associate Director, R&D Quality Engineering",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:nxp:/job/Shanghai-Pudong/AI-Develop-Intern_R-10066739",
+"company": "NXP",
+"title": "AI Develop Intern",
+"rule": "irrelevant",
 "tag": ""
 },
 {
