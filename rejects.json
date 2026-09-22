@@ -49,6 +49,13 @@
 "tag": ""
 },
 {
+"id": "lv:acronaviation:bc17ed8b-1d8d-40c4-9785-60670db4164c",
+"company": "Acron Aviation",
+"title": "Engineering Manager - Recorders",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "lv:acronaviation:501dc19e-7a85-4e2e-a850-3b7496ddd8ae",
 "company": "Acron Aviation",
 "title": "Engineering Tools & Licensing Administrator",
@@ -3717,14 +3724,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705254005",
+"id": "gh:inversionspace:4709691005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709691005",
+"id": "gh:inversionspace:4705254005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
@@ -3815,14 +3822,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705193005",
+"id": "gh:inversionspace:4692769005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4692769005",
+"id": "gh:inversionspace:4705193005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
@@ -4424,14 +4431,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5247348008",
+"id": "gh:k2spacecorporation:5373554008",
 "company": "K2 Space",
 "title": "Ground Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5373554008",
+"id": "gh:k2spacecorporation:5247348008",
 "company": "K2 Space",
 "title": "Ground Software Engineer",
 "rule": "not-intern",
@@ -4599,14 +4606,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5284325008",
+"id": "gh:k2spacecorporation:5287999008",
 "company": "K2 Space",
 "title": "Principal ASIC Design Verification Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5287999008",
+"id": "gh:k2spacecorporation:5284325008",
 "company": "K2 Space",
 "title": "Principal ASIC Design Verification Engineer",
 "rule": "not-intern",
@@ -4627,14 +4634,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288008008",
+"id": "gh:k2spacecorporation:5288635008",
 "company": "K2 Space",
 "title": "Principal ASIC Physical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288635008",
+"id": "gh:k2spacecorporation:5288008008",
 "company": "K2 Space",
 "title": "Principal ASIC Physical Design Engineer",
 "rule": "not-intern",
@@ -4704,14 +4711,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5287992008",
+"id": "gh:k2spacecorporation:5026916008",
 "company": "K2 Space",
 "title": "Principal Flight Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5026916008",
+"id": "gh:k2spacecorporation:5287992008",
 "company": "K2 Space",
 "title": "Principal Flight Software Engineer",
 "rule": "not-intern",
@@ -4774,14 +4781,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5425267008",
+"id": "gh:k2spacecorporation:5425262008",
 "company": "K2 Space",
 "title": "Principal Mixed-Signal Design Engineer, Data Converters",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5425262008",
+"id": "gh:k2spacecorporation:5425267008",
 "company": "K2 Space",
 "title": "Principal Mixed-Signal Design Engineer, Data Converters",
 "rule": "not-intern",
@@ -4998,13 +5005,6 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5425328008",
-"company": "K2 Space",
-"title": "Senior ASIC Package Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:k2spacecorporation:5425327008",
 "company": "K2 Space",
 "title": "Senior ASIC Package Design Engineer",
@@ -5012,14 +5012,21 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288643008",
+"id": "gh:k2spacecorporation:5425328008",
+"company": "K2 Space",
+"title": "Senior ASIC Package Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:k2spacecorporation:5288010008",
 "company": "K2 Space",
 "title": "Senior ASIC Physical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288010008",
+"id": "gh:k2spacecorporation:5288643008",
 "company": "K2 Space",
 "title": "Senior ASIC Physical Design Engineer",
 "rule": "not-intern",
@@ -5215,14 +5222,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5165716008",
+"id": "gh:k2spacecorporation:5288020008",
 "company": "K2 Space",
 "title": "Senior FPGA Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288020008",
+"id": "gh:k2spacecorporation:5165716008",
 "company": "K2 Space",
 "title": "Senior FPGA Engineer",
 "rule": "not-intern",
@@ -5236,14 +5243,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5386721008",
+"id": "gh:k2spacecorporation:5386732008",
 "company": "K2 Space",
 "title": "Senior FPGA Prototyping Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5386732008",
+"id": "gh:k2spacecorporation:5386721008",
 "company": "K2 Space",
 "title": "Senior FPGA Prototyping Engineer",
 "rule": "not-intern",
@@ -5530,14 +5537,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5427358008",
+"id": "gh:k2spacecorporation:5427374008",
 "company": "K2 Space",
 "title": "Senior Serdes Characterization & Post-Silicon Validation Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5427374008",
+"id": "gh:k2spacecorporation:5427358008",
 "company": "K2 Space",
 "title": "Senior Serdes Characterization & Post-Silicon Validation Engineer",
 "rule": "not-intern",
@@ -6209,14 +6216,14 @@
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7989193003",
+"id": "gh:launchdarkly:7989185003",
 "company": "LaunchDarkly",
 "title": "Order Management Analyst, OTC",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:launchdarkly:7989185003",
+"id": "gh:launchdarkly:7989193003",
 "company": "LaunchDarkly",
 "title": "Order Management Analyst, OTC",
 "rule": "not-intern",
@@ -8183,14 +8190,14 @@
 "tag": ""
 },
 {
-"id": "gh:pacificfusion:4259183009",
+"id": "gh:pacificfusion:4051086009",
 "company": "Pacific Fusion",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:pacificfusion:4051086009",
+"id": "gh:pacificfusion:4259183009",
 "company": "Pacific Fusion",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
@@ -9751,14 +9758,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8463038002",
+"id": "gh:relativity:8780048002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8780048002",
+"id": "gh:relativity:8463038002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
@@ -10038,14 +10045,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8701334002",
+"id": "gh:relativity:8419277002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8419277002",
+"id": "gh:relativity:8701334002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -30737,13 +30744,6 @@
 "tag": "Winter 2026"
 },
 {
-"id": "ls:5eec1982-b0e8-4ec2-b9c3-ee8ed6051a4b",
-"company": "RTX",
-"title": "Numerical Methods Intern - Advanced Software Development",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:f4db16dc-9fd7-499a-b809-554855fcb08f",
 "company": "IAT Insurance Group",
 "title": "Data & Integration Intern",
@@ -35581,13 +35581,6 @@
 "tag": ""
 },
 {
-"id": "ls:f7b542cb-b7d4-42c0-8fe8-e4e3d9ccadf1",
-"company": "General Dynamics UK",
-"title": "Computer Science and Robotics Co-op - Information Technology",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:64a35586-2a6e-4c71-9919-ca8c55f250ed",
 "company": "Barclays",
 "title": "Technology Developer Intern - Technology",
@@ -38322,13 +38315,6 @@
 "company": "Covestro",
 "title": "Digital R&D Intern",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:5e35fca9-ff85-4307-a359-260093fe45c5",
-"company": "Formlabs",
-"title": "Embedded Software Intern - Winter/Spring 2027",
-"rule": "curated_worker",
 "tag": ""
 },
 {
@@ -42679,13 +42665,6 @@
 "tag": "Winter 2026"
 },
 {
-"id": "ls:4d33923f-011e-4c9c-8e39-4a4f417686d7",
-"company": "Waymo",
-"title": "Software Engineering Intern - Commercialization",
-"rule": "curated_worker",
-"tag": ""
-},
-{
 "id": "ls:f3ab5e1d-3b6c-4e18-a64a-21903b9beeba",
 "company": "Fanvue",
 "title": "Software Engineer Intern",
@@ -43082,13 +43061,6 @@
 "company": "General Dynamics Mission Systems",
 "title": "Engineer Intern - Software Engineering",
 "rule": "defense",
-"tag": ""
-},
-{
-"id": "ls:5ffd7690-69c5-4eba-894c-c97068ffa45b",
-"company": "CAI",
-"title": "Data Engineer Intern",
-"rule": "irrelevant",
 "tag": ""
 },
 {
