@@ -7833,6 +7833,13 @@
 "tag": ""
 },
 {
+"id": "ab:quantum:75dae293-00ca-4cb4-a546-680d78d3b022",
+"company": "Quantum",
+"title": "Graduate Business Analyst",
+"rule": "new-grad",
+"tag": ""
+},
+{
 "id": "ab:quantum:56edc854-6844-4126-b150-ce9a9b6efee6",
 "company": "Quantum",
 "title": "Business Analyst",
@@ -17531,6 +17538,20 @@
 "id": "wd:bostondynamics:/job/Waltham-Office-POST/Associate-Director--R-D-Quality-Engineering_R3003",
 "company": "Boston Dynamics",
 "title": "Associate Director, R&D Quality Engineering",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:nxp:/job/Bangkok/Accountant-Intern_R-10064511",
+"company": "NXP",
+"title": "Accountant Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:nxp:/job/Sophia-Antipolis-Valbonne/Stage-Ingnieur---Conception-pour-le-test--DFT----Conception-numrique--F-H-_R-10064622",
+"company": "NXP",
+"title": "Stage Ing\u00e9nieur : Conception pour le test (DFT) / Conception num\u00e9rique (F/H)",
 "rule": "not-intern",
 "tag": ""
 },
