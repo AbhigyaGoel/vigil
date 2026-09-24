@@ -17045,9 +17045,9 @@
 "tag": ""
 },
 {
-"id": "wd:amat:/job/SingaporeSGP/Manufacturing-Engineer_R2624123",
+"id": "wd:amat:",
 "company": "Applied Materials",
-"title": "Manufacturing Engineer",
+"title": "",
 "rule": "not-intern",
 "tag": ""
 },
@@ -38584,13 +38584,6 @@
 "tag": "Winter 2026"
 },
 {
-"id": "ls:d6b23fe5-6577-4b69-b13c-acc7b6056405",
-"company": "Texas Instruments",
-"title": "Web Marketing Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:b0874b91-889a-4766-93f6-8f7d25e25cc7",
 "company": "American Equity",
 "title": "IT Intern - Digital Platforms",
@@ -43834,6 +43827,13 @@
 "tag": ""
 },
 {
+"id": "ls:92e0027e-a9c8-4956-82d7-791d98c9d21b",
+"company": "Lightmatter",
+"title": "Silicon Intern - Hardware & Photonics Engineering",
+"rule": "curated_worker",
+"tag": ""
+},
+{
 "id": "ls:2ce45287-9550-4c52-9713-3ca4f1c8fc39",
 "company": "PressW",
 "title": "Applied AI Engineer Intern",
@@ -48874,13 +48874,6 @@
 "tag": ""
 },
 {
-"id": "ls:e951f72d-bd40-4561-aac8-f1125960366c",
-"company": "Jefferson Health",
-"title": "Analysis Intern Co-op",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:d19faef5-69be-4dee-b896-16d292336009",
 "company": "Neuberger Berman",
 "title": "Quantitative Analyst Intern",
@@ -49530,6 +49523,41 @@
 "title": "Software Engineering Co-op - Signal Processing",
 "rule": "seniority",
 "tag": ""
+},
+{
+"id": "ls:c3cf0e0c-833f-44df-a0c9-d931121ecb8a",
+"company": "Graphcore",
+"title": "Systems Engineering Intern",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "ls:2db508b9-8c94-4578-af5c-2e9050a1fc01",
+"company": "Graphcore",
+"title": "Hardware Platform Development Intern",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "ls:0c3e33aa-b7f2-43c5-905a-19d5decedeeb",
+"company": "Graphcore",
+"title": "Firmware Engineer Intern",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "ls:a16efc0d-108f-4ae3-81a2-aaf96195f8ce",
+"company": "Tesla",
+"title": "Solar Hardware Engineer Intern - PV Cell - Energy Engineering",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:d0f85828-c8e8-42fb-a47d-3f46e18db9d1",
+"company": "Tesla",
+"title": "Software Engineer Industrial Firmware Intern - Energy Engineering",
+"rule": "season",
+"tag": "Winter 2027"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
