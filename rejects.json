@@ -1722,13 +1722,6 @@
 "tag": ""
 },
 {
-"id": "ab:cowboyspace:1e354cdd-32cb-463f-aba4-d1f4b44d8638",
-"company": "Cowboy Space",
-"title": "Firmware Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "ab:cowboyspace:2632a55d-7df3-449a-baa8-2ff4d3e8d1d7",
 "company": "Cowboy Space",
 "title": "Power Avionics Engineer",
@@ -2208,6 +2201,13 @@
 "id": "ab:cowboyspace:d71e2bb4-8a43-43a2-a200-97ff3ffab07e",
 "company": "Cowboy Space",
 "title": "Facilities Manager",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:cowboyspace:10df4638-4287-4193-95ed-8020ca94f737",
+"company": "Cowboy Space",
+"title": "Embedded Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -3104,13 +3104,6 @@
 "id": "ab:gradientrobotics:af37dc54-f478-4c8b-984a-3b0faf5e69ca",
 "company": "Gradient Robotics",
 "title": "Senior Software Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "ab:gradientrobotics:f9039310-92ea-40b2-b983-317074149b9a",
-"company": "Gradient Robotics",
-"title": "Automation Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -70847,24 +70840,38 @@
 "tag": ""
 },
 {
-"id": "at:https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Software-Test-Engineering-Co-op--Beatbox-_R-098707",
-"company": "Johnson & Johnson",
-"title": "Software Test Engineering Co-op (Beatbox) \ud83d\udec2",
-"rule": "not-intern",
+"id": "at:https://jobs.ashbyhq.com/ramp/a13ae586-f4cb-4385-8822-c42b9b54ed74",
+"company": "Ramp",
+"title": "Software Engineer Internship, Frontend",
+"rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "at:https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Software-Test-Engineering-Co-op--RLM-_R-098669",
-"company": "Johnson & Johnson",
-"title": "Software Test Engineering Co-op (RLM) \ud83d\udec2",
-"rule": "not-intern",
+"id": "at:https://jobs.ashbyhq.com/ramp/fcf118cc-521a-4a62-9d13-945e5b6e3cb8",
+"company": "Ramp",
+"title": "Software Engineering Intern, Android",
+"rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "at:https://jj.wd5.myworkdayjobs.com/JJ/job/Halethorpe-Maryland-United-States-of-America/Heart-Recovery-Software-R-D-Co-Op_R-101393",
-"company": "Johnson & Johnson",
-"title": "Heart Recovery Software R&D Co-Op \ud83d\udec2",
-"rule": "not-intern",
+"id": "at:https://caci.wd1.myworkdayjobs.com/external/job/Reston-VA-US/Software-Engineering-Intern---Summer-2027_332041",
+"company": "CACI",
+"title": "Software Engineering Intern - Summer 2027",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "at:https://job-boards.greenhouse.io/graphcore/jobs/8841894002",
+"company": "Graphcore",
+"title": "Firmware Engineering Intern",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "at:https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Plano-TX/Software-Engineer-I--For-2026-Interns-Only-_R0030584",
+"company": "Sierra Nevada Corporation",
+"title": "Software Engineer I (For 2026 Interns Only) \ud83c\uddfa\ud83c\uddf8",
+"rule": "defense",
 "tag": ""
 },
 {
@@ -70886,6 +70893,27 @@
 "company": "Klaviyo",
 "title": "AI Engineer Intern",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Software-Test-Engineering-Co-op--Beatbox-_R-098707",
+"company": "Johnson & Johnson",
+"title": "Software Test Engineering Co-op (Beatbox) \ud83d\udec2",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "at:https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Software-Test-Engineering-Co-op--RLM-_R-098669",
+"company": "Johnson & Johnson",
+"title": "Software Test Engineering Co-op (RLM) \ud83d\udec2",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "at:https://jj.wd5.myworkdayjobs.com/JJ/job/Halethorpe-Maryland-United-States-of-America/Heart-Recovery-Software-R-D-Co-Op_R-101393",
+"company": "Johnson & Johnson",
+"title": "Heart Recovery Software R&D Co-Op \ud83d\udec2",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -71495,41 +71523,6 @@
 "company": "Priceline",
 "title": "Software Engineering - Full Stack (Northeastern Co-op)",
 "rule": "not-intern",
-"tag": ""
-},
-{
-"id": "at:https://priceline.wd1.myworkdayjobs.com/priceline-collegehiring/job/New-York/Software-Engineering---Web-Javascript--Northeastern-Co-op-_R5818",
-"company": "Priceline",
-"title": "Software Engineering - Web/Javascript (Northeastern Co-op)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "at:https://baxter.wd1.myworkdayjobs.com/baxter/job/Skaneateles-NY/Associate-Software-Engineer-Co-op_JR-207560-1",
-"company": "Baxter International",
-"title": "Associate Data Scientist Co-op",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "at:https://bbh.wd5.myworkdayjobs.com/BBH/job/New-York/XMLNAME-2027-Internal-Audit---Information-Technology---Cybersecurity-Summer-Internship_72899",
-"company": "Brown Brothers Harriman",
-"title": "2027 Internal Audit - Information Technology & Cybersecurity Summer Internship",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://jobs.ashbyhq.com/fable/3fd04c23-a63d-4b40-bfae-feafaa478caf",
-"company": "Fable",
-"title": "Software Engineering Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://thrivent.wd5.myworkdayjobs.com/external/job/Remote-Minnesota/Associate-Software-Engineer---Junior-Intern-Summer-2027_REQ-48334",
-"company": "Thrivent",
-"title": "Associate Software Engineer - Junior Intern Summer 2027 \ud83d\udec2",
-"rule": "irrelevant",
 "tag": ""
 }
 ]
