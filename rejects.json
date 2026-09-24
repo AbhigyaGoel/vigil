@@ -15526,6 +15526,13 @@
 "tag": ""
 },
 {
+"id": "wd:intel:/job/Malaysia-Penang/Finance-Intern_JR0287470",
+"company": "Intel",
+"title": "Finance Intern",
+"rule": "geo",
+"tag": ""
+},
+{
 "id": "wd:intel:/job/Malaysia-Penang/Intern-Systems-Software-Development-Engineer_JR0286936",
 "company": "Intel",
 "title": "Intern Systems Software Development Engineer",
@@ -18399,6 +18406,13 @@
 "id": "wd:bostondynamics:/job/Waltham-Office-POST/Associate-Director--R-D-Quality-Engineering_R3003",
 "company": "Boston Dynamics",
 "title": "Associate Director, R&D Quality Engineering",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:nxp:/job/Saclay/Stage-Ingnieur---Analyste-d-affaires--F-H-_R-10066924",
+"company": "NXP",
+"title": "Stage Ing\u00e9nieur : Analyste d'affaires (F/H)",
 "rule": "not-intern",
 "tag": ""
 },
