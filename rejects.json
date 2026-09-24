@@ -20335,13 +20335,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:ebfbd4aa-1575-4433-ae61-19d71eac1f5d",
-"company": "Tencent",
-"title": "Game Research & Development Intern - Engine Research",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:9424072c-485e-43c4-91e8-4f124356a286",
 "company": "Susquehanna International Group (SIG)",
 "title": "Trading System Engineering Intern",
@@ -21362,13 +21355,6 @@
 "title": "Software Engineer Intern",
 "rule": "season",
 "tag": "Summer 2026"
-},
-{
-"id": "ls:ea053f2a-38d8-4cc1-af0b-e280de37935e",
-"company": "Liberty University",
-"title": "Business Analyst Apprentice",
-"rule": "seniority",
-"tag": ""
 },
 {
 "id": "ls:83cb8151-53dc-4c90-9b6a-cf6be66d0457",
@@ -22669,6 +22655,13 @@
 "id": "ls:c630373c-97e1-47cf-a4b8-5348a77da451",
 "company": "Capital One",
 "title": "Data Science Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:f09f0a56-4999-4d19-afb4-894ea819d401",
+"company": "GE Healthcare",
+"title": "Engineering Development Program Intern - Software",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -26488,6 +26481,13 @@
 "tag": ""
 },
 {
+"id": "ls:ea8c5ebd-a6c4-49ff-9dac-f3532c41737a",
+"company": "NVIDIA",
+"title": "Systems Software Engineering Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
 "id": "ls:bb48b7b8-29e9-4f8f-8817-54e325180735",
 "company": "NVIDIA",
 "title": "Deep Learning Intern - Deep Learning Applications and Algorithms - Deep Learning Frameworks and Libraries",
@@ -29775,6 +29775,13 @@
 "company": "Westinghouse Electric Company",
 "title": "Computer Engineering / Software Engineering Intern",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:78fab1c2-9f47-412d-8659-873843843c0a",
+"company": "Manulife Financial",
+"title": "Quantitative Analyst Co-op Intern - Derivative and Asset Modeling",
+"rule": "seniority",
 "tag": ""
 },
 {
@@ -37079,6 +37086,13 @@
 "tag": ""
 },
 {
+"id": "ls:b18d2ee9-8e92-4db6-91d6-e4e35363850c",
+"company": "The Federal Reserve System",
+"title": "Payments Forum Intern - Spring/Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:4116310f-91a1-4afb-9a2d-a23816ce7200",
 "company": "Acxiom",
 "title": "Data Scientist Intern",
@@ -38500,13 +38514,6 @@
 "tag": ""
 },
 {
-"id": "ls:757ed4c0-2f8e-4285-a0dd-e82bb8698fb7",
-"company": "RTX",
-"title": "Software Engineering Co-op",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:1fad44eb-f0f2-4488-b5b5-d2cf14ce2106",
 "company": "Intact",
 "title": "Artificial Intelligence Developer Intern Co-op - Winter 2027",
@@ -39135,6 +39142,13 @@
 "title": "Data Science Intern 3",
 "rule": "irrelevant",
 "tag": ""
+},
+{
+"id": "ls:9bd16ba6-5f88-4345-9093-de6c410b805b",
+"company": "Polar Semiconductor",
+"title": "Industrial Engineer Intern",
+"rule": "season",
+"tag": "Winter 2026"
 },
 {
 "id": "ls:502dd44b-9ee1-4d08-b39c-a54f98a1aa2d",
@@ -39935,13 +39949,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:b0fd8336-e667-4187-901e-5e7d96cbd6bf",
-"company": "RTX",
-"title": "Manufacturing & Quality Analyst Intern - Stage 2027",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:7c5b5c68-c8bb-439a-8e46-f121d04eec2a",
 "company": "Quantinuum",
 "title": "Photonic Integrated Circuit Design Intern",
@@ -40495,13 +40502,6 @@
 "tag": ""
 },
 {
-"id": "ls:811210da-553e-4d37-b262-9897450dc43d",
-"company": "Amgen",
-"title": "Data Scientist Intern - Amgen\u2019s Technology & Medical Organizations",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:35ac9d4b-4222-4d9a-82df-3d81ec3a998c",
 "company": "Texas Instruments",
 "title": "Systems Engineering Intern",
@@ -40548,6 +40548,13 @@
 "company": "Nokia",
 "title": "Data Scientist Co-op/Intern",
 "rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:27460c05-e022-499c-bcc8-2783559d2639",
+"company": "Amgen",
+"title": "Digital Product Intern - Digital Product - Technology & Medical Organizations",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -43610,6 +43617,13 @@
 "tag": ""
 },
 {
+"id": "ls:28e7cce7-67d2-4001-b60a-26951a04ee0e",
+"company": "RTX",
+"title": "Software Engineer Intern - Receiver Exciter and Processing Architecture",
+"rule": "defense",
+"tag": ""
+},
+{
 "id": "ls:99e99058-6697-4526-a081-398624f49749",
 "company": "Tencent",
 "title": "Natural Language Processing Intern",
@@ -44611,6 +44625,13 @@
 "tag": ""
 },
 {
+"id": "ls:0a1eb39e-1b36-432c-8c24-333d6d4277ee",
+"company": "Invesco",
+"title": "ETF Product Development Intern - Early Career",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:23eccfe8-4364-45b3-a8ef-cb8127b89e2c",
 "company": "Avis Budget Group",
 "title": "IT Engineer Intern",
@@ -44733,6 +44754,13 @@
 "id": "ls:c50bee46-92b4-4533-af74-5b2ea470a569",
 "company": "TOPPAN Packaging Americas",
 "title": "Student Associate - AI & Business Analytics",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:4bde8bc5-067e-4676-9a52-d07891e1cb78",
+"company": "Zurn Elkay Water Solutions",
+"title": "Product Management Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -49152,6 +49180,13 @@
 "title": "AI Intern",
 "rule": "season",
 "tag": "Summer 2026"
+},
+{
+"id": "ls:6b8dd43f-f7c6-40fc-afb7-915318ecdc76",
+"company": "Cenovus Energy",
+"title": "Information Technology Student - Data Science and Software",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "ls:3a435b5c-6e92-490d-afae-1468682256cf",
