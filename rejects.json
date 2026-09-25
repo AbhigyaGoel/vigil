@@ -17444,6 +17444,13 @@
 "tag": ""
 },
 {
+"id": "wd:cat:/job/Wimborne-United-Kingdom/Electrical-Engineering---12-Month-Placement-Scheme_R0000388708",
+"company": "Caterpillar",
+"title": "Electrical Engineering - 12 Month Placement Scheme",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "wd:cat:/job/Stafford-United-Kingdom/Manufacturing-Engineering---Technical-Services---12-Month-Industrial-Placement-Scheme_R0000394564",
 "company": "Caterpillar",
 "title": "Manufacturing Engineering \u2013 Technical Services - 12 Month Industrial Placement Scheme",
@@ -17594,13 +17601,6 @@
 "id": "wd:cat:/job/Peterborough-United-Kingdom/Logistics-Engineering---12-Month-Placement-Student_R0000388675",
 "company": "Caterpillar",
 "title": "Logistics Engineering - 12 Month Placement Student",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:cat:/job/Peterborough-United-Kingdom/Operations-Management---12-Month-Placement-Student_R0000388674",
-"company": "Caterpillar",
-"title": "Operations Management - 12 Month Placement Student",
 "rule": "not-intern",
 "tag": ""
 },
@@ -25879,13 +25879,6 @@
 "tag": ""
 },
 {
-"id": "ls:bc2e9762-a592-48ef-9e42-21dfdec88ec4",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - Asset and Wealth Management",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:8cfb1bdb-94da-41c0-be36-e516586909b0",
 "company": "Dedalus Labs",
 "title": "Product Manager Intern",
@@ -27272,13 +27265,6 @@
 "tag": "Spring 2026"
 },
 {
-"id": "ls:d6b556fe-abad-41f9-80f2-0377ef5e9b34",
-"company": "Medpace",
-"title": "Python Intern - Summer 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:cd7682b8-7722-4a26-9813-42ece290a387",
 "company": "Google",
 "title": "Software Engineer Intern",
@@ -28347,13 +28333,6 @@
 "company": "Zipline",
 "title": "Embedded Systems Intern - Summer 2027",
 "rule": "curated_worker",
-"tag": ""
-},
-{
-"id": "ls:bec41fe0-ae4c-44d3-bddd-15ca4a245c18",
-"company": "Goldman Sachs",
-"title": "Summer Associate Intern",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -29816,6 +29795,13 @@
 "id": "ls:aad0cae7-225e-41d2-b416-7d42885da521",
 "company": "Sierra",
 "title": "Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:a3a30f46-fe3b-48db-8f94-28a5b0a06d39",
+"company": "Trane Technologies",
+"title": "AI & Analytics Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -32025,6 +32011,13 @@
 "tag": ""
 },
 {
+"id": "ls:4f3e401c-7208-4d5f-9349-638b02652ffa",
+"company": "Manulife Financial",
+"title": "Reporting Analyst Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:2fc117c6-a5e8-431c-a872-5d5445afc539",
 "company": "Manulife Financial",
 "title": "Reporting Analyst Co-op",
@@ -33334,6 +33327,13 @@
 "tag": ""
 },
 {
+"id": "ls:4edf1be0-a1a4-4828-a955-e65c4946143d",
+"company": "Blue Origin",
+"title": "Aerospace Software Applications Engineer 1 Intern",
+"rule": "season",
+"tag": "Summer 2026"
+},
+{
 "id": "ls:4b982322-5cf7-44e2-bedc-ef603ee2bcd2",
 "company": "GE Vernova",
 "title": "GridOS Project Engineer Intern Co-op - GridOS",
@@ -34244,13 +34244,6 @@
 "tag": ""
 },
 {
-"id": "ls:b6a6b28f-c858-4ef8-b6b4-aeda2206e9ad",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:f6b73d49-ad99-40ba-844a-4f885a901a91",
 "company": "Goldman Sachs",
 "title": "Quantitative Strats Analyst Intern - Americas - Investment Banking",
@@ -34265,13 +34258,6 @@
 "tag": ""
 },
 {
-"id": "ls:a815c1a3-823d-405a-99ea-e82fbbb247cd",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:5bdec003-2a02-42a4-a602-467541840552",
 "company": "Goldman Sachs",
 "title": "Summer Analyst Intern - Americas - Engineering",
@@ -34280,13 +34266,6 @@
 },
 {
 "id": "ls:06098497-6840-4802-8838-81e0dbdec164",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Engineering",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:b2b3a7df-bea1-4290-b988-4c3e567814b8",
 "company": "Goldman Sachs",
 "title": "Summer Analyst Intern - Engineering",
 "rule": "irrelevant",
@@ -35180,13 +35159,6 @@
 "title": "Photomask Yield Enhancement Intern",
 "rule": "season",
 "tag": "Winter 2026"
-},
-{
-"id": "ls:d5e526d4-218c-453d-99d1-8fc6b59a6f06",
-"company": "Kinaxis",
-"title": "Software Developer Co-op/Intern - Core Algorithms",
-"rule": "seniority",
-"tag": ""
 },
 {
 "id": "ls:16a27c2f-e977-4813-bb03-f6736d8f1f5f",
@@ -37093,13 +37065,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:940140be-314d-40e2-8614-14d3a19bb049",
-"company": "Vercel",
-"title": "Software Engineer Intern - Summer",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:282e63a7-0fb1-40c2-b5f5-6afd0e4a66d7",
 "company": "Vercel",
 "title": "Software Engineer Intern",
@@ -38297,13 +38262,6 @@
 "tag": ""
 },
 {
-"id": "ls:7ca37683-268a-4dd7-a974-d250fd211b31",
-"company": "RTX",
-"title": "Software Engineering Co-op",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:3aaa017a-6262-4f8b-bce9-760c9d609335",
 "company": "Entegris",
 "title": "AI Continuous Improvement Co-op",
@@ -38336,13 +38294,6 @@
 "company": "Tradeweb",
 "title": "AI Engineering Intern",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:757ed4c0-2f8e-4285-a0dd-e82bb8698fb7",
-"company": "RTX",
-"title": "Software Engineering Co-op",
-"rule": "seniority",
 "tag": ""
 },
 {
@@ -38545,13 +38496,6 @@
 "id": "ls:eabf370c-678d-4de3-925f-22d7298aeb68",
 "company": "Domino Data Lab",
 "title": "Forward Deployed Engineer Intern - Campus Recruiting 2027",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "ls:5c97952b-4d8f-49c5-8265-8e697873743a",
-"company": "TD Bank",
-"title": "Data Engineer Intern/Co-op - Winter 2027",
 "rule": "seniority",
 "tag": ""
 },
@@ -38974,6 +38918,13 @@
 "title": "Industrial Engineer Intern",
 "rule": "season",
 "tag": "Winter 2026"
+},
+{
+"id": "ls:502dd44b-9ee1-4d08-b39c-a54f98a1aa2d",
+"company": "Insulet",
+"title": "Electrical Engineering Co-op - R&D",
+"rule": "seniority",
+"tag": ""
 },
 {
 "id": "ls:15263e7f-505d-493b-9a92-35719d51ed83",
@@ -40338,6 +40289,13 @@
 "company": "Booz Allen",
 "title": "Software Engineer Intern - Summer 2027",
 "rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:5012230e-2a8b-4047-80ec-4b7c9ecbf427",
+"company": "Amgen",
+"title": "Software Engineer Intern - Amgen\u2019s Technology & Medical Organizations",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -42775,6 +42733,13 @@
 "title": "Data Scientist Intern - Winter 2027",
 "rule": "season",
 "tag": "Winter 2027"
+},
+{
+"id": "ls:781b4a1a-f2af-40b2-866b-03dcefc5245b",
+"company": "Trane Technologies",
+"title": "Software Development Engineer Intern",
+"rule": "season",
+"tag": "Winter 2026"
 },
 {
 "id": "ls:05f781d6-320d-4058-b525-0c77f5b27fb8",
