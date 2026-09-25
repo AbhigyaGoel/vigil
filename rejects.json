@@ -15449,62 +15449,6 @@
 "tag": ""
 },
 {
-"id": "wd:kla:/job/USA-MI-Ann-Arbor-KLA/Human-Resource-Intern_2639645-1",
-"company": "KLA",
-"title": "Human Resource Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:kla:/job/Milpitas-CA/Applications-Engineering--Intern_2641540-1",
-"company": "KLA",
-"title": "Applications Engineering  Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:kla:/job/Milpitas-CA/Software-Engineering-Intern--C----Unix-_2641325-1",
-"company": "KLA",
-"title": "Software Engineering Intern (C++, Unix)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:kla:/job/Shanghai-China/Software-Engineering-Intern_2641428",
-"company": "KLA",
-"title": "Software Engineering Intern",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:kla:/job/Shanghai-China/Software-Engineering-Intern_2641426",
-"company": "KLA",
-"title": "Software Engineering Intern",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:kla:/job/Weilburg-Germany/Working-Student--f-m-d----Physics---Electrical-Engineering---Signal-Processing--Thesis-Option-Available-_2638657",
-"company": "KLA",
-"title": "Working Student (f/m/d) \u2013 Physics / Electrical Engineering / Signal Processing (Thesis Option Available)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:kla:/job/DEU-Saxony-Dresden-City-Center/Working-Student-Foundry-Analytics---SW-Development--m-f-d-_2638557",
-"company": "KLA",
-"title": "Working Student Foundry Analytics & SW Development (m/f/d)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:kla:/job/DEU-Saxony-Dresden-City-Center/Working-Student--gn--for-Data-Analysis_2638365",
-"company": "KLA",
-"title": "Working Student for Data Analysis (m/f/d)",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:intel:/job/Malaysia-Kulim/Finance-Intern_JR0287472",
 "company": "Intel",
 "title": "Finance Intern",
@@ -22130,6 +22074,13 @@
 "id": "ls:95a232c5-f611-4960-ab8f-79fcd25db5f2",
 "company": "Flow Traders",
 "title": "Quantitative Trading Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:f0aadc2c-2a47-404c-bc18-f3863ab3e456",
+"company": "Pylon",
+"title": "Software Engineer Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -31920,13 +31871,6 @@
 "tag": ""
 },
 {
-"id": "ls:c3a1a72b-b2eb-407a-840f-68f1479c5386",
-"company": "TD Bank",
-"title": "Direct Investing Analytics & Insights Intern Co-op - Winter 2027",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:f4b5ad30-b50a-410a-bf80-36fad0275497",
 "company": "Reflect Orbital",
 "title": "Flight Software Engineer Intern",
@@ -32271,6 +32215,13 @@
 },
 {
 "id": "ls:ac297577-f4f9-4b73-ab38-00c094342140",
+"company": "Intel",
+"title": "Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:b854fca7-7546-478f-937b-a76b8dbbddae",
 "company": "Intel",
 "title": "Software Engineer Intern",
 "rule": "irrelevant",
@@ -32749,6 +32700,13 @@
 "id": "ls:ad9376a4-7196-4ce6-a3b4-e88763b96811",
 "company": "Hadrian",
 "title": "Software Engineer Intern",
+"rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "ls:8028ea71-392c-4173-9d2a-1dc31c5a4571",
+"company": "Hadrian",
+"title": "Data Science/Data Engineer Intern",
 "rule": "curated_worker",
 "tag": ""
 },
@@ -39263,6 +39221,13 @@
 "tag": ""
 },
 {
+"id": "ls:b698f712-411d-4005-b00c-49d33f52731c",
+"company": "RTX",
+"title": "Software Engineer Co-op",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "ls:6da14906-288f-4013-8974-f3152731b444",
 "company": "Ameriprise Financial",
 "title": "Data Analytics & AI Intern",
@@ -44772,6 +44737,13 @@
 "tag": "Spring 2027"
 },
 {
+"id": "ls:f0da3c1f-2fb8-46f1-b1f7-57c7a9ca092a",
+"company": "REV Robotics",
+"title": "Software Engineer Intern",
+"rule": "defense-desc",
+"tag": ""
+},
+{
 "id": "ls:e7670c04-e3a7-4a84-bb97-65416730882a",
 "company": "4AG Robotics",
 "title": "Robotics Software Co-op",
@@ -49418,13 +49390,6 @@
 "title": "Optical Engineer Intern - Electronic Systems",
 "rule": "season",
 "tag": "Winter 2027"
-},
-{
-"id": "ls:8e170ef4-7387-4cb2-8853-5e512c263392",
-"company": "GoTo Group",
-"title": "Backend Software Engineer Intern - Grasshopper",
-"rule": "season",
-"tag": "Winter 2026"
 },
 {
 "id": "ls:adf0a40d-85b8-4712-bc55-164c7686e667",
