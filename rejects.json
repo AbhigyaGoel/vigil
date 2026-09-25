@@ -17423,6 +17423,13 @@
 "tag": ""
 },
 {
+"id": "wd:cat:/job/Peterlee-United-Kingdom/Design-and-Development-Engineering--12-Month-Placement-Scheme-_R0000396146",
+"company": "Caterpillar",
+"title": "Design and Development Engineering (12 Month Placement Scheme)",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "wd:cat:/job/Wimborne-United-Kingdom/Manufacturing-Engineering-12-Month-Placement-Scheme_R0000388709",
 "company": "Caterpillar",
 "title": "Manufacturing Engineering 12 Month Placement Scheme",
@@ -25837,9 +25844,16 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:629fac72-4880-42e9-b648-cdfa036a00ac",
+"id": "ls:8540d9e9-5a90-4ecb-a7f6-b854e696fb8e",
 "company": "Goldman Sachs",
-"title": "Summer Associate Intern - Multiple Teams",
+"title": "Quantitative Strategist Intern - Multiple Teams",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:bc2e9762-a592-48ef-9e42-21dfdec88ec4",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Associate Intern - Asset and Wealth Management",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -25858,17 +25872,17 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:443c0a68-63ca-4026-94b7-cf3e555f2d0f",
+"id": "ls:ea185fae-1828-4e79-9bfa-34dc512cce8c",
 "company": "Goldman Sachs",
 "title": "Quantitative Strategist Associate Intern - The Core Quantitative Strats",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "ls:439c65c1-64f2-461c-8ca1-ca36969ef10a",
+"id": "ls:1560332f-3e4c-4d15-819d-df9bf4889deb",
 "company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Multiple Teams",
-"rule": "irrelevant",
+"title": "Summer Analyst Intern - FICC and Equities - Sales and Trading",
+"rule": "seniority",
 "tag": ""
 },
 {
@@ -28301,18 +28315,18 @@
 "tag": ""
 },
 {
+"id": "ls:bec41fe0-ae4c-44d3-bddd-15ca4a245c18",
+"company": "Goldman Sachs",
+"title": "Summer Associate Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:ca0cc910-e9e7-48a4-ac62-3536b3421ae2",
 "company": "Dimensional Fund Advisors",
 "title": "Investment Engineering Intern - Undergraduate & Master's",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:3197c0fa-efa1-4efc-9c3a-37fd84829e4a",
-"company": "Goldman Sachs",
-"title": "Associate Intern - The Core Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:46ff6819-f211-4a17-917d-93908fe60ce6",
@@ -34181,21 +34195,98 @@
 "tag": "Spring 2027"
 },
 {
-"id": "ls:5a49d74c-fa9f-4dd4-a66b-24fc3d9c1def",
+"id": "ls:f3cb1e27-85ef-4529-9ba5-6fb9462c60e9",
 "company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Americas - Engineering",
+"title": "Quantitative Strategist Intern - Asset and Wealth Management - Quantitative Strats",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "ls:5bdec003-2a02-42a4-a602-467541840552",
+"id": "ls:f3fffaac-34e8-4f3e-aa74-fb1928331995",
 "company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Americas - Engineering",
+"title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "ls:06098497-6840-4802-8838-81e0dbdec164",
+"id": "ls:b6a6b28f-c858-4ef8-b6b4-aeda2206e9ad",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:f6b73d49-ad99-40ba-844a-4f885a901a91",
+"company": "Goldman Sachs",
+"title": "Quantitative Strats Analyst Intern - Americas - Investment Banking",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:60f69f38-4cc3-4dbd-a041-e8208a00725c",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern - The Core Quantitative Strats",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:9d3e4916-4e1e-4317-83a1-92d2664ed59b",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Intern - Americas",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:a815c1a3-823d-405a-99ea-e82fbbb247cd",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:814b873c-2c4e-4173-85d1-c90cf9ccc964",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Intern - Investment Banking",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:765bb91e-34d7-4746-8e11-8598e700e845",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:260ebea6-b3a6-4e5e-8824-71490c13d10f",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern - Americas - Investment Banking Quantitative Strats",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:0f4448c3-2086-46c1-b64b-2ecdf04a0881",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Intern - Asset and Wealth Management - Quantitative Strats",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:1949c912-65b2-42ac-9836-c110baed0ef6",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern - Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:b2b3a7df-bea1-4290-b988-4c3e567814b8",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern - Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:792220f4-3ba1-4cf8-843e-e23208ba8d24",
 "company": "Goldman Sachs",
 "title": "Summer Analyst Intern - Engineering",
 "rule": "irrelevant",
@@ -35689,6 +35780,13 @@
 "id": "ls:0049eda1-f2e8-424b-bab5-4e0ef74ca654",
 "company": "Xcel Energy",
 "title": "Data Analyst Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:75efacf7-58e1-468e-9621-e23a1444acdf",
+"company": "ICF International",
+"title": "Software Developer Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -42609,6 +42707,13 @@
 "tag": ""
 },
 {
+"id": "ls:6b921b31-d209-48f8-a6ae-12349aed6e6b",
+"company": "bioM\u00e9rieux",
+"title": "Hardware Co-op",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "ls:1b017444-92b2-429c-9a15-d59c6b92aa96",
 "company": "Intelcom | Dragonfly",
 "title": "Data Analyst Intern",
@@ -45192,6 +45297,13 @@
 "tag": ""
 },
 {
+"id": "ls:ff910fd9-1784-4c56-8c70-b84c15ba59a8",
+"company": "Invesco",
+"title": "ETF Product Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:f9a08de0-d633-4b19-b444-8002689fc795",
 "company": "General Motors",
 "title": "Product Management Intern - Digital Product",
@@ -47544,6 +47656,13 @@
 "tag": ""
 },
 {
+"id": "ls:2afac2d3-8bf0-45b0-8af5-fc0db09951ba",
+"company": "Metropolitan Transportation Authority",
+"title": "Ridership Analysis & Modeling \u2013 Emerging Talent Intern - Fall",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
 "id": "ls:2fecdac2-af38-42da-b0bb-b7da07365cab",
 "company": "Astranis",
 "title": "Hardware Test Intern",
@@ -49437,6 +49556,76 @@
 "id": "ls:a888752d-3464-483f-b4e3-0d5130bc28cd",
 "company": "Haleon",
 "title": "Data & Governance Industrial Placement",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:5aa775c8-9b91-4114-8cd3-6ac58e7de513",
+"company": "Cadillac Formula 1 Team",
+"title": "Race Strategy Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:658fd45f-d93b-40ef-bfad-215f0b6f253d",
+"company": "Capital Group",
+"title": "Data & Technology Summer Associate - Capital Group Rotational Program",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:e61c4916-6a49-4922-a691-73e2250dd9c9",
+"company": "Leidos",
+"title": "Software Development Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:0cd0d31f-f4ae-4e6c-aa40-826253f51cf4",
+"company": "Johns Hopkins Applied Physics Laboratory",
+"title": "Space Exploration Software Engineer Intern - Embedded Applications",
+"rule": "defense-desc",
+"tag": ""
+},
+{
+"id": "ls:271bbb75-6699-403d-9363-90cbdfc87142",
+"company": "Royal Bank of Canada",
+"title": "Capital Markets Analyst Intern",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:06121173-b783-44a5-bd34-4a7465768bbb",
+"company": "Lutron Electronics",
+"title": "Software Engineering Co-op",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:074a0da6-73e2-402d-90a7-ca4bf302d862",
+"company": "First Citizens BancShares",
+"title": "IT Intern - Software Developer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:d314f5f4-0dfc-4dcd-9b4a-b27f1694d1b9",
+"company": "Bluestaq",
+"title": "Software Engineering Resident - Multiple Teams",
+"rule": "season",
+"tag": "Winter 2027"
+},
+{
+"id": "ls:f8aa999f-66d3-4ae6-b0bf-286944064197",
+"company": "Greenheck Group",
+"title": "Application Developer Co-op",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:ee8ed5ad-3be9-407e-8020-0d9a037d60be",
+"company": "Barrios",
+"title": "Data and Computer Engineering/Computer Science Intern",
 "rule": "irrelevant",
 "tag": ""
 },
