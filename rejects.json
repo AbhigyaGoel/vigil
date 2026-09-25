@@ -17521,13 +17521,6 @@
 "tag": ""
 },
 {
-"id": "wd:cat:",
-"company": "Caterpillar",
-"title": "",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:cat:/job/Wimborne-United-Kingdom/Electrical-Engineering---12-Month-Placement-Scheme_R0000388708",
 "company": "Caterpillar",
 "title": "Electrical Engineering - 12 Month Placement Scheme",
@@ -17563,9 +17556,9 @@
 "tag": ""
 },
 {
-"id": "wd:cat:/job/Stafford-United-Kingdom/Manufacturing-Engineering---Technical-Services---12-Month-Industrial-Placement-Scheme_R0000394564",
+"id": "wd:cat:",
 "company": "Caterpillar",
-"title": "Manufacturing Engineering \u2013 Technical Services - 12 Month Industrial Placement Scheme",
+"title": "",
 "rule": "not-intern",
 "tag": ""
 },
@@ -32725,6 +32718,13 @@
 "tag": ""
 },
 {
+"id": "ls:de8cb307-6829-4afa-8e31-0fefe60818e7",
+"company": "Tesla",
+"title": "Software Engineer Intern - Finance Programs",
+"rule": "season",
+"tag": "Spring 2027"
+},
+{
 "id": "ls:d9696ea6-f208-467f-a8df-f2c2afb5b120",
 "company": "Hadrian",
 "title": "Robotics Software Engineer Intern",
@@ -36043,13 +36043,6 @@
 "tag": "Summer 2026"
 },
 {
-"id": "ls:89f392a0-3d90-4962-aa65-978cc99f1a66",
-"company": "TD Bank",
-"title": "Product Management Intern/Co-op - Personal Savings & Investing",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:192e2d14-66ec-4599-b333-b1f244469d60",
 "company": "TD Bank",
 "title": "Summer Analyst - Software Engineering Rotational Program",
@@ -36475,6 +36468,13 @@
 "title": "Software Developer Intern - Innovation",
 "rule": "season",
 "tag": "Summer 2026"
+},
+{
+"id": "ls:d88cbfd5-185a-4200-8daa-b8222f07e7af",
+"company": "Syntiant",
+"title": "Machine Learning Intern - KWS/AED",
+"rule": "season",
+"tag": "Winter 2026"
 },
 {
 "id": "ls:f704cb4b-41eb-4858-bda2-954d4ae05e74",
@@ -39849,13 +39849,6 @@
 "title": "Software Engineer Co-op",
 "rule": "seniority",
 "tag": ""
-},
-{
-"id": "ls:11ca3bf4-cee5-430d-b716-f25dffb46824",
-"company": "Genentech",
-"title": "Digital Sciences Intern - Product Technical Development",
-"rule": "season",
-"tag": "Spring 2027"
 },
 {
 "id": "ls:440d6c3d-f1e6-4dcf-a975-bbe2cbe8aebf",
@@ -44051,13 +44044,6 @@
 "tag": ""
 },
 {
-"id": "ls:bad6cdd5-b63d-4320-a780-2ec8f140ff2d",
-"company": "The Walt Disney Company",
-"title": "Show Control Software Intern",
-"rule": "season",
-"tag": "Winter 2027"
-},
-{
 "id": "ls:f23c59b8-2691-43f7-a310-a6ca54c5b6a1",
 "company": "TD Bank",
 "title": "Product Management Intern Co-op",
@@ -44504,13 +44490,6 @@
 "title": "Data Engineer Intern",
 "rule": "season",
 "tag": "Winter 2026"
-},
-{
-"id": "ls:66a61359-31ec-434c-9b02-f8c2802c91b2",
-"company": "Kinaxis",
-"title": "AI Quality Co-op Intern - Evaluation & Security",
-"rule": "seniority",
-"tag": ""
 },
 {
 "id": "ls:258a5d1f-2df5-4402-8cc1-876a88c5d320",
@@ -45570,6 +45549,13 @@
 "tag": ""
 },
 {
+"id": "ls:21ae5c99-91ac-4040-8486-fdad81449835",
+"company": "Rundoo",
+"title": "Marketing Engineer Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "ls:02822068-8c62-4e46-a294-078ad3fb898f",
 "company": "Metropolitan Transportation Authority",
 "title": "Workforce Timekeeping",
@@ -46616,13 +46602,6 @@
 "id": "ls:f1a75938-3a7f-4507-b0b9-d2e5f9932f37",
 "company": "CAE",
 "title": "Unreal Engine Developer Intern - Se - Engin Unreal",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:62014017-f39b-4e2f-969b-4520e27dc627",
-"company": "Zimmer Biomet Holdings",
-"title": "Data Management Intern",
 "rule": "irrelevant",
 "tag": ""
 },
