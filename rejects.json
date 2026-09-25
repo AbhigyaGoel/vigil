@@ -16009,6 +16009,13 @@
 "tag": ""
 },
 {
+"id": "wd:amat:/job/SingaporeSGP/Global-Supply-Chain-New-College-Graduates-Program_R2629473",
+"company": "Applied Materials",
+"title": "Global Supply Chain New College Graduates Program",
+"rule": "new-grad",
+"tag": ""
+},
+{
 "id": "wd:amat:/job/SingaporeSGP/College-intern_R2629019",
 "company": "Applied Materials",
 "title": "College intern",
@@ -25879,6 +25886,20 @@
 "tag": "Fall 2026"
 },
 {
+"id": "ls:629fac72-4880-42e9-b648-cdfa036a00ac",
+"company": "Goldman Sachs",
+"title": "Summer Associate Intern - Multiple Teams",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:bc2e9762-a592-48ef-9e42-21dfdec88ec4",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Associate Intern - Asset and Wealth Management",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:8cfb1bdb-94da-41c0-be36-e516586909b0",
 "company": "Dedalus Labs",
 "title": "Product Manager Intern",
@@ -25893,10 +25914,24 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:1560332f-3e4c-4d15-819d-df9bf4889deb",
+"id": "ls:ea185fae-1828-4e79-9bfa-34dc512cce8c",
 "company": "Goldman Sachs",
-"title": "Summer Analyst Intern - FICC and Equities - Sales and Trading",
-"rule": "seniority",
+"title": "Quantitative Strategist Associate Intern - The Core Quantitative Strats",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:443c0a68-63ca-4026-94b7-cf3e555f2d0f",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Associate Intern - The Core Quantitative Strats",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:439c65c1-64f2-461c-8ca1-ca36969ef10a",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Intern - Multiple Teams",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -28329,11 +28364,25 @@
 "tag": ""
 },
 {
+"id": "ls:bec41fe0-ae4c-44d3-bddd-15ca4a245c18",
+"company": "Goldman Sachs",
+"title": "Summer Associate Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:ca0cc910-e9e7-48a4-ac62-3536b3421ae2",
 "company": "Dimensional Fund Advisors",
 "title": "Investment Engineering Intern - Undergraduate & Master's",
 "rule": "season",
 "tag": "Fall 2026"
+},
+{
+"id": "ls:3197c0fa-efa1-4efc-9c3a-37fd84829e4a",
+"company": "Goldman Sachs",
+"title": "Associate Intern - The Core Quantitative Strats",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "ls:46ff6819-f211-4a17-917d-93908fe60ce6",
@@ -31990,13 +32039,6 @@
 "tag": ""
 },
 {
-"id": "ls:4f3e401c-7208-4d5f-9349-638b02652ffa",
-"company": "Manulife Financial",
-"title": "Reporting Analyst Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:2fc117c6-a5e8-431c-a872-5d5445afc539",
 "company": "Manulife Financial",
 "title": "Reporting Analyst Co-op",
@@ -33306,13 +33348,6 @@
 "tag": ""
 },
 {
-"id": "ls:4edf1be0-a1a4-4828-a955-e65c4946143d",
-"company": "Blue Origin",
-"title": "Aerospace Software Applications Engineer 1 Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:4b982322-5cf7-44e2-bedc-ef603ee2bcd2",
 "company": "GE Vernova",
 "title": "GridOS Project Engineer Intern Co-op - GridOS",
@@ -34209,28 +34244,63 @@
 "tag": "Spring 2027"
 },
 {
-"id": "ls:60f69f38-4cc3-4dbd-a041-e8208a00725c",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - The Core Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:260ebea6-b3a6-4e5e-8824-71490c13d10f",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Americas - Investment Banking Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:0f4448c3-2086-46c1-b64b-2ecdf04a0881",
+"id": "ls:f3cb1e27-85ef-4529-9ba5-6fb9462c60e9",
 "company": "Goldman Sachs",
 "title": "Quantitative Strategist Intern - Asset and Wealth Management - Quantitative Strats",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "ls:1949c912-65b2-42ac-9836-c110baed0ef6",
+"id": "ls:f3fffaac-34e8-4f3e-aa74-fb1928331995",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:b6a6b28f-c858-4ef8-b6b4-aeda2206e9ad",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:f6b73d49-ad99-40ba-844a-4f885a901a91",
+"company": "Goldman Sachs",
+"title": "Quantitative Strats Analyst Intern - Americas - Investment Banking",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:5a49d74c-fa9f-4dd4-a66b-24fc3d9c1def",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern - Americas - Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:a815c1a3-823d-405a-99ea-e82fbbb247cd",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:5bdec003-2a02-42a4-a602-467541840552",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern - Americas - Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:06098497-6840-4802-8838-81e0dbdec164",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern - Engineering",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:b2b3a7df-bea1-4290-b988-4c3e567814b8",
 "company": "Goldman Sachs",
 "title": "Summer Analyst Intern - Engineering",
 "rule": "irrelevant",
@@ -38920,13 +38990,6 @@
 "tag": "Winter 2026"
 },
 {
-"id": "ls:502dd44b-9ee1-4d08-b39c-a54f98a1aa2d",
-"company": "Insulet",
-"title": "Electrical Engineering Co-op - R&D",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:15263e7f-505d-493b-9a92-35719d51ed83",
 "company": "Insulet",
 "title": "Embedded Software Engineering Co-op",
@@ -40289,13 +40352,6 @@
 "company": "Booz Allen",
 "title": "Software Engineer Intern - Summer 2027",
 "rule": "defense",
-"tag": ""
-},
-{
-"id": "ls:5012230e-2a8b-4047-80ec-4b7c9ecbf427",
-"company": "Amgen",
-"title": "Software Engineer Intern - Amgen\u2019s Technology & Medical Organizations",
-"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -42735,13 +42791,6 @@
 "tag": "Winter 2027"
 },
 {
-"id": "ls:781b4a1a-f2af-40b2-866b-03dcefc5245b",
-"company": "Trane Technologies",
-"title": "Software Development Engineer Intern",
-"rule": "season",
-"tag": "Winter 2026"
-},
-{
 "id": "ls:05f781d6-320d-4058-b525-0c77f5b27fb8",
 "company": "Procter & Gamble",
 "title": "PhD Summer Intern - Beauty Care",
@@ -44499,6 +44548,13 @@
 "tag": "Winter 2026"
 },
 {
+"id": "ls:66a61359-31ec-434c-9b02-f8c2802c91b2",
+"company": "Kinaxis",
+"title": "AI Quality Co-op Intern - Evaluation & Security",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "ls:258a5d1f-2df5-4402-8cc1-876a88c5d320",
 "company": "Rockwell Automation",
 "title": "Robotics Research Co-op - Physical AI - OTTO",
@@ -45006,13 +45062,6 @@
 "id": "ls:377f631c-ef18-4036-bcee-57777abb2135",
 "company": "Rundoo",
 "title": "Product Manager Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "ls:273b5a97-9303-4ce1-b5b0-31f437ccfdc7",
-"company": "RTX",
-"title": "Electrical Engineer Co-op - Summer/Fall",
 "rule": "seniority",
 "tag": ""
 },
@@ -46004,13 +46053,6 @@
 "tag": "Spring 2027"
 },
 {
-"id": "ls:3f8ecfdc-461f-4732-bf24-79251228640c",
-"company": "Northrop Grumman",
-"title": "Embedded Software Engineer Intern",
-"rule": "defense",
-"tag": ""
-},
-{
 "id": "ls:e4f74430-6399-401d-97ca-da938138aeb3",
 "company": "ABEC",
 "title": "Project Engineer Intern",
@@ -46417,13 +46459,6 @@
 "tag": ""
 },
 {
-"id": "ls:740153d0-fd38-4fff-bc27-425b307d5c71",
-"company": "Boston Scientific",
-"title": "AI Software Development Intern",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:ed00cc85-198b-4632-b6de-c47acb49112e",
 "company": "Tyler Technologies",
 "title": "Software Development Intern - Summer 2027",
@@ -46609,6 +46644,13 @@
 "id": "ls:f1a75938-3a7f-4507-b0b9-d2e5f9932f37",
 "company": "CAE",
 "title": "Unreal Engine Developer Intern - Se - Engin Unreal",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:62014017-f39b-4e2f-969b-4520e27dc627",
+"company": "Zimmer Biomet Holdings",
+"title": "Data Management Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -49540,6 +49582,13 @@
 },
 {
 "id": "ls:1641054b-4682-4012-95fb-6d5cf73457ca",
+"company": "Highgate",
+"title": "Revenue Management Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:76ef25fd-801d-4c81-9867-64085601c325",
 "company": "Highgate",
 "title": "Revenue Management Intern - Summer 2027",
 "rule": "irrelevant",
