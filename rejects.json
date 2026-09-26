@@ -36281,13 +36281,6 @@
 "tag": ""
 },
 {
-"id": "ls:a1c4c9f3-d62d-413d-937e-97b35075c9c6",
-"company": "RTX",
-"title": "Systems Co-op",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:47d85350-6752-4d98-9689-253712a32bb7",
 "company": "Momentive",
 "title": "Environmental Protection Intern",
@@ -37450,24 +37443,10 @@
 "tag": ""
 },
 {
-"id": "ls:e3d70ac5-dc1d-4c06-b733-8c76af99ef70",
-"company": "Barclays",
-"title": "Technology Developer Apprentice",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:e324dbfe-55ba-4099-a9f0-2268a787100e",
 "company": "Immuta",
 "title": "Product Engineering Intern",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:999c4ce7-c078-4671-af20-af4781f19526",
-"company": "Barclays",
-"title": "Technology Developer Apprentice - Digital & Technology Solutions",
-"rule": "seniority",
 "tag": ""
 },
 {
@@ -37497,13 +37476,6 @@
 "title": "Forensic Data & Analytics Intern",
 "rule": "season",
 "tag": "Winter 2026"
-},
-{
-"id": "ls:bc0b7e31-28a3-407d-882f-267df776fbd8",
-"company": "Barclays",
-"title": "Data and Analytics Intern - Customer and Digital",
-"rule": "irrelevant",
-"tag": ""
 },
 {
 "id": "ls:56aeb6bb-7cae-408d-8f71-eb7b1a99ea96",
@@ -40059,6 +40031,13 @@
 "title": "Project Engineer Intern",
 "rule": "season",
 "tag": "Winter 2026"
+},
+{
+"id": "ls:8155c07e-de11-481a-ba23-c42178f1189c",
+"company": "Guardian Life",
+"title": "Application Development Intern - Digital & Technology",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "ls:2e731a5d-c18c-446b-ab15-23f671730a6e",
@@ -43596,13 +43575,6 @@
 "tag": ""
 },
 {
-"id": "ls:fb558c48-2236-4414-8b4a-bfdb26b31409",
-"company": "Marvell",
-"title": "Analog Layout Co-op Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:5aa227fb-8db0-4113-81ec-a0441660db19",
 "company": "Marvell",
 "title": "SRAM Software Engineer Intern",
@@ -46581,6 +46553,13 @@
 "id": "ls:107197c3-30d5-45c2-b0b2-4a499d03531d",
 "company": "RTX",
 "title": "Methods Engineering Intern - Aftermarket & Sustainment Engineering",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:e85fe564-c92c-4c56-b2ce-41f4ca778811",
+"company": "RTX",
+"title": "Operations Software Engineering Intern - Summer 2027",
 "rule": "defense",
 "tag": ""
 },
