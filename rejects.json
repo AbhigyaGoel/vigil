@@ -25599,13 +25599,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:4c0cebd4-5e15-474e-8493-34860927bdfb",
-"company": "Composio",
-"title": "Fullstack Engineer Intern - Product Team",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:a0ec26fd-db0f-4eb4-9bed-73b9409cabc5",
 "company": "TikTok",
 "title": "Product Manager Intern - Content and Services",
@@ -25763,6 +25756,13 @@
 "id": "ls:629fac72-4880-42e9-b648-cdfa036a00ac",
 "company": "Goldman Sachs",
 "title": "Summer Associate Intern - Multiple Teams",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:bc2e9762-a592-48ef-9e42-21dfdec88ec4",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Associate Intern - Asset and Wealth Management",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -28035,13 +28035,6 @@
 "tag": ""
 },
 {
-"id": "ls:3c0eb87e-dc03-4ec2-a2f7-754825edf8ce",
-"company": "Realm",
-"title": "Software Engineer Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:249d2a83-d20a-41e7-b20f-ea879c5a1480",
 "company": "Repsol",
 "title": "Reservoir Engineer Intern",
@@ -28081,6 +28074,13 @@
 "company": "Zipline",
 "title": "Embedded Systems Intern - Summer 2027",
 "rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "ls:bec41fe0-ae4c-44d3-bddd-15ca4a245c18",
+"company": "Goldman Sachs",
+"title": "Summer Associate Intern",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -33824,9 +33824,30 @@
 "tag": "Spring 2027"
 },
 {
-"id": "ls:260ebea6-b3a6-4e5e-8824-71490c13d10f",
+"id": "ls:b6a6b28f-c858-4ef8-b6b4-aeda2206e9ad",
 "company": "Goldman Sachs",
-"title": "Summer Analyst Intern - Americas - Investment Banking Quantitative Strats",
+"title": "Summer Analyst Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:f6b73d49-ad99-40ba-844a-4f885a901a91",
+"company": "Goldman Sachs",
+"title": "Quantitative Strats Analyst Intern - Americas - Investment Banking",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:a815c1a3-823d-405a-99ea-e82fbbb247cd",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:792220f4-3ba1-4cf8-843e-e23208ba8d24",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern - Engineering",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -36358,13 +36379,6 @@
 "tag": ""
 },
 {
-"id": "ls:26621e42-f0f2-4777-9b7f-f505c5e66a92",
-"company": "COUNTRY Financial",
-"title": "Market Analytics Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:a70cad86-89f9-4f7c-881d-a22840ad91ee",
 "company": "COUNTRY Financial",
 "title": "Information Technology Services Intern",
@@ -38493,13 +38507,6 @@
 "tag": ""
 },
 {
-"id": "ls:25f24729-b8c9-4d4f-9896-76b196fe8aaa",
-"company": "Thomson Reuters",
-"title": "Software Engineer Co-op",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:e5d509b4-cf02-4596-b607-048396739370",
 "company": "State Farm",
 "title": "Data Science Intern - Magnet Program - Online MS Analytics",
@@ -38778,13 +38785,6 @@
 "title": "Software Engineer Intern",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:5b07d830-b50d-4cff-a64a-555dad0ea478",
-"company": "Kinaxis",
-"title": "Developer Intern - Clients - Front End Technologies",
-"rule": "season",
-"tag": "Winter 2027"
 },
 {
 "id": "ls:4c49bc10-cd1b-499e-8eac-48cf3b26e69c",
@@ -43526,13 +43526,6 @@
 "tag": "Winter 2026"
 },
 {
-"id": "ls:66a61359-31ec-434c-9b02-f8c2802c91b2",
-"company": "Kinaxis",
-"title": "AI Quality Co-op Intern - Evaluation & Security",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:258a5d1f-2df5-4402-8cc1-876a88c5d320",
 "company": "Rockwell Automation",
 "title": "Robotics Research Co-op - Physical AI - OTTO",
@@ -43804,6 +43797,13 @@
 "title": "Hardware Engineer Intern",
 "rule": "season",
 "tag": "Winter 2026"
+},
+{
+"id": "ls:0ce4d977-ead8-46ed-a4c7-aa2b56802591",
+"company": "Invesco",
+"title": "Early Career Intern - Private Markets Product",
+"rule": "irrelevant",
+"tag": ""
 },
 {
 "id": "ls:6f8f96a9-1d7a-4068-b399-2e3d6e8adf77",
@@ -46291,13 +46291,6 @@
 "tag": ""
 },
 {
-"id": "ls:143cb976-5cd1-40e5-bc6a-0f7216e58ec1",
-"company": "F5",
-"title": "Software Engineer Intern - Digital",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:93dd3fda-fc7f-40c8-b141-553b32a68027",
 "company": "Eaton",
 "title": "Electrical Engineer Intern/Co-op - Engineering",
@@ -46575,13 +46568,6 @@
 "company": "AQR Capital Management",
 "title": "Machine Learning Research Associate Intern",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:26c99824-2530-4ba1-8e76-2b97d10b1e14",
-"company": "RTX",
-"title": "Quality Project Management and Data Analysis Tool Development Intern",
-"rule": "defense",
 "tag": ""
 },
 {
@@ -47127,13 +47113,6 @@
 "id": "ls:04bd8248-d247-409c-a059-4abf49ba2622",
 "company": "F5",
 "title": "Software Development Engineer 2",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
-"id": "ls:5a8c9cf7-3eab-4d5e-91c3-eb63a3cb103d",
-"company": "Boston Scientific",
-"title": "Data Science Engineering Intern",
 "rule": "season",
 "tag": "Summer 2026"
 },
