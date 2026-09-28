@@ -15771,10 +15771,10 @@
 "tag": ""
 },
 {
-"id": "wd:intel:/job/US-Arizona-Phoenix/Advanced-Packaging-Integration-and-Simulation-Intern_JR0287009",
+"id": "wd:intel:/job/Advanced-Packaging-Integration-and-Simulation-Intern_JR0287009",
 "company": "Intel",
-"title": "Advanced Packaging Integration and Simulation Intern",
-"rule": "irrelevant",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -15807,6 +15807,13 @@
 },
 {
 "id": "wd:intel:/job/Malaysia-Penang/Intern-System-Software-Development-Engineer_JR0286955",
+"company": "Intel",
+"title": "Intern System Software Development Engineer",
+"rule": "geo",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Malaysia-Kulim/Intern-System-Software-Development-Engineer_JR0286935",
 "company": "Intel",
 "title": "Intern System Software Development Engineer",
 "rule": "geo",
@@ -26376,13 +26383,6 @@
 "tag": ""
 },
 {
-"id": "ls:ea8c5ebd-a6c4-49ff-9dac-f3532c41737a",
-"company": "NVIDIA",
-"title": "Systems Software Engineering Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:bb48b7b8-29e9-4f8f-8817-54e325180735",
 "company": "NVIDIA",
 "title": "Deep Learning Intern - Deep Learning Applications and Algorithms - Deep Learning Frameworks and Libraries",
@@ -28509,6 +28509,13 @@
 "title": "Software Developer Intern - University - 2027 Summer Games",
 "rule": "defense",
 "tag": ""
+},
+{
+"id": "ls:7fd82049-4a30-48f9-ab6c-519e8c2b11fd",
+"company": "Brunswick",
+"title": "Software Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
 },
 {
 "id": "ls:1a7cd887-6c00-45f3-bf3d-87fa5aebe90f",
@@ -35105,13 +35112,6 @@
 "tag": ""
 },
 {
-"id": "ls:11ebfbb3-96f2-4ff0-a652-c2c9f0c85e86",
-"company": "Micron Technology",
-"title": "DRAM Test Structure Design and Layout Engineering Intern",
-"rule": "season",
-"tag": "Winter 2026"
-},
-{
 "id": "ls:eb864411-1731-4c2b-b415-4b9881d16890",
 "company": "Xcel Energy",
 "title": "Renewable Operations Center Intern",
@@ -36067,6 +36067,13 @@
 "id": "ls:76730cc1-91aa-4e2a-84db-89852233810d",
 "company": "RTX",
 "title": "Software Engineer Intern",
+"rule": "defense",
+"tag": ""
+},
+{
+"id": "ls:c083713f-2297-45fc-a2d7-2bc2fc492057",
+"company": "RTX",
+"title": "FPGA Electrical Design Engineer Intern",
 "rule": "defense",
 "tag": ""
 },
@@ -38430,13 +38437,6 @@
 "tag": ""
 },
 {
-"id": "ls:bc964aa6-3faf-4081-85c0-6e13f1d14e51",
-"company": "RTX",
-"title": "Software Engineering Co-op",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:b698f712-411d-4005-b00c-49d33f52731c",
 "company": "RTX",
 "title": "Software Engineer Co-op",
@@ -40040,13 +40040,6 @@
 "tag": ""
 },
 {
-"id": "ls:27d35509-4d8d-4dd3-9313-54dfaee11170",
-"company": "BP",
-"title": "Data Strategist Intern - Global Data Strategists Team",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:8ebffa8a-5798-4920-9dd3-afa9ea573f00",
 "company": "Viavi Solutions",
 "title": "Software Engineer Co-op",
@@ -41245,13 +41238,6 @@
 },
 {
 "id": "ls:560fa8e4-f2ef-44db-b497-9f4c239819fa",
-"company": "Tencent",
-"title": "Machine Learning Intern",
-"rule": "season",
-"tag": "Winter 2026"
-},
-{
-"id": "ls:d67121ec-2c8e-4740-9997-3c06b550b498",
 "company": "Tencent",
 "title": "Machine Learning Intern",
 "rule": "season",
@@ -43057,6 +43043,13 @@
 "tag": ""
 },
 {
+"id": "ls:92807540-7edf-40a4-87d1-ea892d3e44ca",
+"company": "Visa",
+"title": "Staff Research Scientist Intern - Foundational AI",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "ls:42074831-4df6-43c3-a5e6-cd8a61daef56",
 "company": "Visa",
 "title": "Staff Research Scientist Intern - Agentic AI",
@@ -43208,13 +43201,6 @@
 "company": "LSEG",
 "title": "Engineering Intern",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:fb558c48-2236-4414-8b4a-bfdb26b31409",
-"company": "Marvell",
-"title": "Analog Layout Co-op Intern",
-"rule": "seniority",
 "tag": ""
 },
 {
@@ -44845,13 +44831,6 @@
 "id": "ls:6d1fe89e-0f46-49f6-adba-af9ae668e3cc",
 "company": "Upbound Group",
 "title": "Customer Performance Analytics Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:8494c8ac-a047-43cf-a4ba-874bc62f8213",
-"company": "Upbound Group",
-"title": "Digital Commerce Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -48093,13 +48072,6 @@
 "id": "ls:71018f38-602e-4001-9e45-698d20f81b5f",
 "company": "Intuit",
 "title": "Software Developer Co-op",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "ls:4df9553d-1bbf-46e2-b210-bfd748436f3c",
-"company": "Ciena",
-"title": "Processor Complex Engineer Co-op",
 "rule": "seniority",
 "tag": ""
 },
