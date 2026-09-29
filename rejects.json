@@ -13524,13 +13524,6 @@
 "tag": ""
 },
 {
-"id": "wd:nvidia:",
-"company": "NVIDIA",
-"title": "",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:nvidia:/job/Taiwan-Hsinchu/Design-Verification-Engineer--RDSS-Intern-_JR2024681",
 "company": "NVIDIA",
 "title": "Design Verification Engineer (RDSS Intern)",
@@ -14165,6 +14158,13 @@
 "company": "NVIDIA",
 "title": "Research Scientist, Generalist Embodied Agent Research - PhD New College Grad 2026",
 "rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Penang-Malaysia---Grande/Intern-Automation-Engineer_JR111391",
+"company": "Micron",
+"title": "Intern-Automation Engineer",
+"rule": "geo",
 "tag": ""
 },
 {
@@ -44838,13 +44838,6 @@
 "id": "ls:125bd988-6772-4728-ae9c-d0c5bc2562d3",
 "company": "Assured Guaranty",
 "title": "Product Software Developer - Back-End",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:1a872d07-40d8-4b98-8f0f-15127543ae64",
-"company": "Boston Scientific",
-"title": "Data Engineer Intern",
 "rule": "irrelevant",
 "tag": ""
 },
