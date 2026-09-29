@@ -15330,6 +15330,13 @@
 "tag": ""
 },
 {
+"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264298",
+"company": "Analog Devices",
+"title": "Technician/Engineer Student Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Engineer-Student-Intern_R256481",
 "company": "Analog Devices",
 "title": "Technician Student Intern",
@@ -15473,13 +15480,6 @@
 "id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264493",
 "company": "Analog Devices",
 "title": "Technician Student Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:analogdevices:/job/Philippines-Cavite-GTC/Technician-Student-Intern_R264298",
-"company": "Analog Devices",
-"title": "Technician/Engineer Student Intern",
 "rule": "seniority",
 "tag": ""
 },
@@ -72107,23 +72107,37 @@
 "tag": ""
 },
 {
-"id": "at:https://myhrabc.wd5.myworkdayjobs.com/Global/job/Conshohocken-PA/AI-Intern_R2613670",
-"company": "Cencora",
-"title": "AI Intern \ud83d\udec2",
+"id": "at:https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Inflammation_R0054741",
+"company": "Gilead Sciences",
+"title": "Intern - Research - Inflammation - AI \ud83d\udec2",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Research---Protein-Therapeutics--Computational-Biologics-Engineering_R0054739",
+"company": "Gilead Sciences",
+"title": "Intern - Research - Protein Therapeutics, Computational Biologics Engineering - AI \ud83d\udec2",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01871645",
+"company": "RTX",
+"title": "Software Engineering Co-op (Spring/Summer 2027) \ud83c\uddfa\ud83c\uddf8",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "at:https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Engineering-Grad-Intern_R016753",
+"company": "The Aerospace Corporation",
+"title": "2027 Software Tools and Assurance Engineering Grad Intern \ud83c\uddfa\ud83c\uddf8",
+"rule": "defense",
 "tag": ""
 },
 {
 "id": "at:https://app.careerpuck.com/job-board/lyft/job/8843341002?gh_jid=8843341002",
 "company": "Lyft",
 "title": "Applied Scientist Intern (Summer 2027)",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/Intern---Memory-Systems-Architecture---AI_JR112524",
-"company": "Micron Technology",
-"title": "Intern \u2013 Memory Systems Architecture & AI",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -72139,6 +72153,20 @@
 "company": "RTX",
 "title": "Software Engineering Co-op (Summer/Fall 2027) \ud83c\uddfa\ud83c\uddf8",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "at:https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/Intern---Memory-Systems-Architecture---AI_JR112524",
+"company": "Micron Technology",
+"title": "Intern \u2013 Memory Systems Architecture & AI",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://myhrabc.wd5.myworkdayjobs.com/Global/job/Conshohocken-PA/AI-Intern_R2613670",
+"company": "Cencora",
+"title": "AI Intern \ud83d\udec2",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -72726,34 +72754,6 @@
 "id": "at:https://job-boards.greenhouse.io/haigroup/jobs/4409386009",
 "company": "Haigroup",
 "title": "Software Development Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4405530009",
-"company": "Voloridge",
-"title": "Quantitative Trading Intern 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://job-boards.greenhouse.io/ziprecruiter/jobs/8180455",
-"company": "ZipRecruiter",
-"title": "Software Engineer - Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "at:https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Cary/IS-Common-Infrastructure-Intern--Summer-2027_JR00047125",
-"company": "ABB",
-"title": "IS Common Infrastructure Intern- Summer 2027 \ud83d\udec2",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Security-Internship-2027_R49322",
-"company": "C.H. Robinson",
-"title": "Cyber Security Internship 2027",
 "rule": "irrelevant",
 "tag": ""
 }
