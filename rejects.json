@@ -11060,14 +11060,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4413050009",
+"id": "gh:rocketems:4405219009",
 "company": "Rocket EMS",
 "title": "3rd OPS Operator (Second Shift)",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4405219009",
+"id": "gh:rocketems:4413050009",
 "company": "Rocket EMS",
 "title": "3rd OPS Operator (Second Shift)",
 "rule": "not-intern",
@@ -11340,14 +11340,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4424343009",
+"id": "gh:rocketems:4415551009",
 "company": "Rocket EMS",
 "title": "SMT Lead (Second Shift)",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4415551009",
+"id": "gh:rocketems:4424343009",
 "company": "Rocket EMS",
 "title": "SMT Lead (Second Shift)",
 "rule": "not-intern",
@@ -11382,7 +11382,7 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4403842009",
+"id": "gh:rocketems:4424367009",
 "company": "Rocket EMS",
 "title": "Stockroom Auditor",
 "rule": "not-intern",
@@ -11410,7 +11410,7 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4404040009",
+"id": "gh:rocketems:4424371009",
 "company": "Rocket EMS",
 "title": "Through-Hole Lead",
 "rule": "not-intern",
@@ -15981,6 +15981,13 @@
 "tag": ""
 },
 {
+"id": "wd:amat:/job/SingaporeSGP/Global-Supply-Chain-New-College-Graduates-Program_R2627465-1",
+"company": "Applied Materials",
+"title": "Global Supply Chain New College Graduates Program",
+"rule": "new-grad",
+"tag": ""
+},
+{
 "id": "wd:amat:/job/Santa-ClaraCA/New-College-Grad---Process-Engineer---MS-PhD--Winter-2026-_R2627711",
 "company": "Applied Materials",
 "title": "New College Grad - Process Engineer - MS/PhD (Winter 2026)",
@@ -16124,13 +16131,6 @@
 "id": "wd:amat:/job/ShanghaiCHN/Technical-Project-Program--Management-LSP-Shanghai-Y2027-Graduate_R2629209",
 "company": "Applied Materials",
 "title": "Technical Project/Program  Management-LSP-Shanghai-Y2027 Graduate",
-"rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:amat:/job/ShanghaiCHN/Customer---Commercial-Operations-Specialist-Shanghai-Y2027-Graduate_R2629208",
-"company": "Applied Materials",
-"title": "Customer & Commercial Operations Specialist-Shanghai-Y2027 Graduate",
 "rule": "new-grad",
 "tag": ""
 },
@@ -16415,6 +16415,13 @@
 "tag": ""
 },
 {
+"id": "wd:amat:/job/HefeiCHN/Customer-Engineer-Intern_R2628378",
+"company": "Applied Materials",
+"title": "Customer Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "wd:amat:/job/PhoenixAZ/Logistics-Operation-New-College-Grad--Bachelor-s--Phoenix--AZ-_R2627423",
 "company": "Applied Materials",
 "title": "Logistics Operation New College Grad, Bachelor's (Phoenix, AZ)",
@@ -16530,13 +16537,6 @@
 "id": "wd:amat:/job/SingaporeSGP/College-Intern---Process---hardware-development-in-PVD-chambers-for-emerging-films-in-micro-OLED-and-Integrated-voltage-regulator-for-AI-chips_R2626937",
 "company": "Applied Materials",
 "title": "College Intern - Process & hardware development in PVD chambers for emerging films in micro-OLED and Integrated voltage regulator for AI chips",
-"rule": "geo",
-"tag": ""
-},
-{
-"id": "wd:amat:/job/SingaporeSGP/College-Intern---Process---hardware-development-in-PVD-chambers-for-new-films--AlN-as-thermal-interface-material--TIM---SiN-as-photonic-waveguide-_R2626934",
-"company": "Applied Materials",
-"title": "College Intern - Process & hardware development in PVD chambers for new films: AlN as thermal interface material (TIM), SiN as photonic waveguide .",
 "rule": "geo",
 "tag": ""
 },
@@ -16664,6 +16664,13 @@
 "company": "Applied Materials",
 "title": "System Integration Engineer",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:amat:/job/SingaporeSGP/College-Intern_R2626742",
+"company": "Applied Materials",
+"title": "College Intern",
+"rule": "geo",
 "tag": ""
 },
 {
@@ -17077,13 +17084,6 @@
 "company": "Applied Materials",
 "title": "FP&A Analyst New College Grad (MBA - Santa Clara, CA)",
 "rule": "new-grad",
-"tag": ""
-},
-{
-"id": "wd:amat:/job/Santa-ClaraCA/Mechanical---Systems-Engineer--NCG-_R2621359",
-"company": "Applied Materials",
-"title": "Mechanical / Systems Engineer (NCG)",
-"rule": "not-intern",
 "tag": ""
 },
 {
