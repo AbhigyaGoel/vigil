@@ -25774,18 +25774,18 @@
 "tag": ""
 },
 {
+"id": "ls:bc2e9762-a592-48ef-9e42-21dfdec88ec4",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Associate Intern - Asset and Wealth Management",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:8cfb1bdb-94da-41c0-be36-e516586909b0",
 "company": "Dedalus Labs",
 "title": "Product Manager Intern",
 "rule": "seniority",
 "tag": ""
-},
-{
-"id": "ls:8c8c7d2c-0377-4609-87fb-df719e4b5165",
-"company": "Dedalus Labs",
-"title": "Design Engineer Intern",
-"rule": "season",
-"tag": "Fall 2026"
 },
 {
 "id": "ls:7e2511aa-764b-4960-9904-c05775bf9bce",
@@ -27678,13 +27678,6 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:9d4cf71d-6b40-40ca-8cb0-f26b01ceccc2",
-"company": "North Atlantic Industries",
-"title": "Full Stack Software Engineer Intern",
-"rule": "season",
-"tag": "Fall 2026"
-},
-{
 "id": "ls:e4a107a2-a0eb-4ef1-9ce9-2f1dfc6ea0f6",
 "company": "Honeywell",
 "title": "Software Engineer Intern - Computer Science",
@@ -27696,13 +27689,6 @@
 "company": "Honeywell",
 "title": "Software Engineer Intern - Computer Science",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:87b11195-7636-4d15-98ef-a30cea2dff16",
-"company": "Brunswick",
-"title": "Systems Engineer Co-op - Software Engineering",
-"rule": "seniority",
 "tag": ""
 },
 {
@@ -27976,6 +27962,13 @@
 "company": "Zipline",
 "title": "Embedded Systems Intern - Summer 2027",
 "rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "ls:bec41fe0-ae4c-44d3-bddd-15ca4a245c18",
+"company": "Goldman Sachs",
+"title": "Summer Associate Intern",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -33467,9 +33460,30 @@
 "tag": "Spring 2027"
 },
 {
+"id": "ls:b6a6b28f-c858-4ef8-b6b4-aeda2206e9ad",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:60f69f38-4cc3-4dbd-a041-e8208a00725c",
 "company": "Goldman Sachs",
 "title": "Summer Analyst Intern - The Core Quantitative Strats",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:9d3e4916-4e1e-4317-83a1-92d2664ed59b",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Intern - Americas",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:a815c1a3-823d-405a-99ea-e82fbbb247cd",
+"company": "Goldman Sachs",
+"title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -38360,13 +38374,6 @@
 "tag": ""
 },
 {
-"id": "ls:8938f71a-17d2-4a94-9a97-7a4c3d974bd2",
-"company": "Gilead Sciences",
-"title": "Kite Development Intern - Tech Ops - Process Development",
-"rule": "season",
-"tag": "Summer 2026"
-},
-{
 "id": "ls:ebf1ebb8-5b9b-4ef9-a965-ff8476d3418e",
 "company": "Fidelity Investments",
 "title": "Machine Learning Co-op - Graph Technology Team",
@@ -38384,6 +38391,13 @@
 "id": "ls:71e7a50c-dbfa-43e2-a899-2883fb7c6b5b",
 "company": "Fidelity Investments",
 "title": "Advanced Data Analytics and Insights Co-op",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:562a1131-7b05-4ca4-ba15-e968eb30a31a",
+"company": "Fidelity Investments",
+"title": "Data Scientist Co-op",
 "rule": "seniority",
 "tag": ""
 },
@@ -39361,13 +39375,6 @@
 "tag": ""
 },
 {
-"id": "ls:85d55295-0c76-4133-880c-055ce402b526",
-"company": "CoStar Group",
-"title": "Technology Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:7489238c-eadd-441d-adff-be9ecbdbd927",
 "company": "Ciena",
 "title": "Software Engineering Intern - Optical Transport and IP Networking",
@@ -39378,6 +39385,13 @@
 "id": "ls:5e63a9e0-387b-437d-983c-017171f32eea",
 "company": "CoStar Group",
 "title": "Technology Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:54109f9e-2999-4211-9273-b6d34bc06e25",
+"company": "CoStar Group",
+"title": "Technology Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -40446,6 +40460,13 @@
 "tag": ""
 },
 {
+"id": "ls:560fa8e4-f2ef-44db-b497-9f4c239819fa",
+"company": "Tencent",
+"title": "Machine Learning Intern",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
 "id": "ls:d67121ec-2c8e-4740-9997-3c06b550b498",
 "company": "Tencent",
 "title": "Machine Learning Intern",
@@ -40855,6 +40876,13 @@
 "id": "ls:97d67a9f-ceb5-40f2-9511-3c86c813689a",
 "company": "Lunar Outpost",
 "title": "Ground Software Engineer Intern - Summer 2027",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:81f7768f-10a0-4ecd-bed1-3e66d96f5cdb",
+"company": "APEX Analytix",
+"title": "Automation Developer Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -44037,13 +44065,6 @@
 "tag": ""
 },
 {
-"id": "ls:bfd666d6-eb74-40ca-8595-5c0e16820216",
-"company": "Rodan Energy Solutions",
-"title": "Data Operations Engineer AI Co-op - Winter 2027",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:8979d060-2c5b-44d4-9801-4d95ce44a26f",
 "company": "Mastercard",
 "title": "Research & Development Co-op - WashU",
@@ -44055,13 +44076,6 @@
 "company": "General Motors",
 "title": "Software Engineer Intern - Digital Product: Software Engineering",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:c0b22f53-3c47-45f3-8c12-a94866f7f461",
-"company": "Rodan Energy Solutions",
-"title": "AI Solutions Co-op",
-"rule": "seniority",
 "tag": ""
 },
 {
@@ -45598,13 +45612,6 @@
 "tag": ""
 },
 {
-"id": "ls:c2cbd149-9096-42ca-b785-b8ab7d96e3cf",
-"company": "Qumulo",
-"title": "Software Development Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:7724bd8c-18b5-472a-842e-3a48517d683c",
 "company": "Bracket Bot",
 "title": "Robotics Engineering Intern",
@@ -46592,13 +46599,6 @@
 "tag": "Winter 2026"
 },
 {
-"id": "ls:d3e5ba1e-a291-46e1-a4b3-7da47159deb3",
-"company": "Kinaxis",
-"title": "Developer Intern - Back End Technologies",
-"rule": "season",
-"tag": "Winter 2027"
-},
-{
 "id": "ls:799d62f1-1dde-4bfb-83e1-3f4c656bf2d8",
 "company": "Atlassian",
 "title": "Data Scientist Intern",
@@ -47331,6 +47331,13 @@
 "company": "Foresters Financial",
 "title": "Software Engineer Co-op Student",
 "rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:51b8b3e7-e7d0-4727-9f90-91917bc88230",
+"company": "RTX",
+"title": "Software Engineer Intern",
+"rule": "defense",
 "tag": ""
 },
 {
@@ -48136,6 +48143,13 @@
 "company": "Axcelis Technologies",
 "title": "Manufacturing Test Development Engineer Co-op",
 "rule": "seniority",
+"tag": ""
+},
+{
+"id": "ls:a273034e-3b57-4e7a-9eaa-23b7e5d751d3",
+"company": "UL Solutions",
+"title": "Product Management Intern",
+"rule": "irrelevant",
 "tag": ""
 },
 {
