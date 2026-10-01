@@ -4172,6 +4172,13 @@
 "tag": ""
 },
 {
+"id": "gh:k2spacecorporation:5440593008",
+"company": "K2 Space",
+"title": "Accounts Payable Clerk",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "gh:k2spacecorporation:5020127008",
 "company": "K2 Space",
 "title": "All Future Mission Assignments - Avionics ",
@@ -4676,13 +4683,6 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5284325008",
-"company": "K2 Space",
-"title": "Principal ASIC Design Verification Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:k2spacecorporation:5287999008",
 "company": "K2 Space",
 "title": "Principal ASIC Design Verification Engineer",
@@ -4690,9 +4690,9 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5425326008",
+"id": "gh:k2spacecorporation:5284325008",
 "company": "K2 Space",
-"title": "Principal ASIC Package Design Engineer",
+"title": "Principal ASIC Design Verification Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -4704,14 +4704,21 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288635008",
+"id": "gh:k2spacecorporation:5425326008",
+"company": "K2 Space",
+"title": "Principal ASIC Package Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:k2spacecorporation:5288008008",
 "company": "K2 Space",
 "title": "Principal ASIC Physical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288008008",
+"id": "gh:k2spacecorporation:5288635008",
 "company": "K2 Space",
 "title": "Principal ASIC Physical Design Engineer",
 "rule": "not-intern",
@@ -5068,14 +5075,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5277848008",
+"id": "gh:k2spacecorporation:5287990008",
 "company": "K2 Space",
 "title": "Senior ASIC Design Verification Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5287990008",
+"id": "gh:k2spacecorporation:5277848008",
 "company": "K2 Space",
 "title": "Senior ASIC Design Verification Engineer",
 "rule": "not-intern",
@@ -5096,14 +5103,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288010008",
+"id": "gh:k2spacecorporation:5288643008",
 "company": "K2 Space",
 "title": "Senior ASIC Physical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288643008",
+"id": "gh:k2spacecorporation:5288010008",
 "company": "K2 Space",
 "title": "Senior ASIC Physical Design Engineer",
 "rule": "not-intern",
@@ -5250,14 +5257,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5197513008",
+"id": "gh:k2spacecorporation:5288002008",
 "company": "K2 Space",
 "title": "Senior Firmware Engineer, Vehicle",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288002008",
+"id": "gh:k2spacecorporation:5197513008",
 "company": "K2 Space",
 "title": "Senior Firmware Engineer, Vehicle",
 "rule": "not-intern",
@@ -5446,14 +5453,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5430848008",
+"id": "gh:k2spacecorporation:5430847008",
 "company": "K2 Space",
 "title": "Senior Mixed-Signal Post-Silicon Validation Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5430847008",
+"id": "gh:k2spacecorporation:5430848008",
 "company": "K2 Space",
 "title": "Senior Mixed-Signal Post-Silicon Validation Engineer",
 "rule": "not-intern",
@@ -5516,14 +5523,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5425335008",
+"id": "gh:k2spacecorporation:5425333008",
 "company": "K2 Space",
 "title": "Senior Post-Silicon Validation Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5425333008",
+"id": "gh:k2spacecorporation:5425335008",
 "company": "K2 Space",
 "title": "Senior Post-Silicon Validation Engineer",
 "rule": "not-intern",
@@ -7448,13 +7455,6 @@
 "tag": ""
 },
 {
-"id": "ab:northwoodspace:ced2080b-8e06-470e-9968-397b3903c30a",
-"company": "Northwood Space",
-"title": "Senior Inventory Specialist",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "ab:northwoodspace:5285a408-95a4-40ab-a19b-79dcba7633bf",
 "company": "Northwood Space",
 "title": "Indirect Commodity Manager",
@@ -7605,6 +7605,13 @@
 "id": "ab:northwoodspace:5ec24b1c-54db-4a28-b47d-3af484a16bfd",
 "company": "Northwood Space",
 "title": "RF & Antenna Systems Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:northwoodspace:df79ec41-2102-44fd-93ab-3c5959b8222a",
+"company": "Northwood Space",
+"title": "Senior Inventory Specialist ",
 "rule": "not-intern",
 "tag": ""
 },
@@ -19744,13 +19751,6 @@
 "company": "Trimble",
 "title": "Product Marketing Intern",
 "rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:trimble:",
-"company": "Trimble",
-"title": "",
-"rule": "not-intern",
 "tag": ""
 },
 {
