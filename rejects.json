@@ -1316,6 +1316,13 @@
 "tag": ""
 },
 {
+"id": "ab:bedrock-robotics:e199e72a-0361-40dc-8fd3-e02e534af85a",
+"company": "Bedrock Robotics",
+"title": "2027 Internship Product Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ab:brinc:4ffc380f-5194-4475-ae00-141b5c8b41bc",
 "company": "BRINC Drones",
 "title": "Senior Electrical Engineer, Hardware",
@@ -8883,7 +8890,7 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8783350002",
+"id": "gh:relativity:8783355002",
 "company": "Relativity Space",
 "title": "Global Supply Manager, Indirect",
 "rule": "not-intern",
@@ -8897,7 +8904,7 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8783355002",
+"id": "gh:relativity:8783350002",
 "company": "Relativity Space",
 "title": "Global Supply Manager, Indirect",
 "rule": "not-intern",
@@ -9443,16 +9450,23 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8843178002",
+"id": "gh:relativity:8843174002",
 "company": "Relativity Space",
-"title": "Plant Controller",
+"title": "Plant Controller, Cape",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8843174002",
+"id": "gh:relativity:8843178002",
 "company": "Relativity Space",
-"title": "Plant Controller, Cape",
+"title": "Plant Controller, Long Beach",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:relativity:8843210002",
+"company": "Relativity Space",
+"title": "Plant Controller, Stennis",
 "rule": "not-intern",
 "tag": ""
 },
@@ -9870,14 +9884,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8780048002",
+"id": "gh:relativity:8463038002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8463038002",
+"id": "gh:relativity:8780048002",
 "company": "Relativity Space",
 "title": "Senior Electrical Engineer",
 "rule": "not-intern",
@@ -9919,14 +9933,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8762076002",
+"id": "gh:relativity:8575499002",
 "company": "Relativity Space",
 "title": "Senior Flight Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8575499002",
+"id": "gh:relativity:8762076002",
 "company": "Relativity Space",
 "title": "Senior Flight Software Engineer",
 "rule": "not-intern",
@@ -10388,14 +10402,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8606781002",
+"id": "gh:relativity:8633353002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8633353002",
+"id": "gh:relativity:8606781002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -74284,9 +74298,37 @@
 "tag": ""
 },
 {
-"id": "at:https://marvell.wd1.myworkdayjobs.com/marvellcareers2/job/IN---Pune/Intern--Software-QA-Engineer_2603892",
-"company": "Marvell",
-"title": "Intern, Software QA Engineer",
+"id": "at:https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Maynard-Massachusetts-US/Software-Engineer-II--Co-op----United-States_2026923",
+"company": "Cisco",
+"title": "Software Engineer II (Co-op) - United States",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "at:https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Maynard-Massachusetts-US/Software-Engineer-I--Co-op----United-States_2026920",
+"company": "Cisco",
+"title": "Software Engineer I (Co-op) - United States",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "at:https://dukeenergy.wd1.myworkdayjobs.com/search/job/Lake-Mary-FL/PGO-Cybersecurity-Summer-2027-Internship_R41822",
+"company": "Duke Energy",
+"title": "PGO Cybersecurity Summer 2027 Internship",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://www.oldmissioncapital.com/careers/?gh_jid=8002345003",
+"company": "Old Mission Capital",
+"title": "Quantitative Trader - 2027 Micro-Internship Program (January Start)",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "at:https://stripe.com/jobs/search?gh_jid=8194291",
+"company": "Stripe",
+"title": "Data Analyst, Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -74302,6 +74344,13 @@
 "company": "Varda Space",
 "title": "Flight Software Internship - Summer 2027 \ud83c\uddfa\ud83c\uddf8",
 "rule": "curated_worker",
+"tag": ""
+},
+{
+"id": "at:https://marvell.wd1.myworkdayjobs.com/marvellcareers2/job/IN---Pune/Intern--Software-QA-Engineer_2603892",
+"company": "Marvell",
+"title": "Intern, Software QA Engineer",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -74925,41 +74974,6 @@
 "company": "The Toro Company",
 "title": "Electrical/software Co-Op - BOSS Snowplow",
 "rule": "not-intern",
-"tag": ""
-},
-{
-"id": "at:https://job-boards.greenhouse.io/queracomputinginc/jobs/5435902008",
-"company": "QuEra Computing",
-"title": "Internship - Scientific Software and Compilation",
-"rule": "curated_worker",
-"tag": ""
-},
-{
-"id": "at:https://apply.workable.com/rentvision/j/0F1C7992BF/",
-"company": "Rentvision",
-"title": "Software Engineering Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://avav.wd1.myworkdayjobs.com/avav/job/Melbourne-FL/Summer-2027-Software-Engineering-Intern_8550",
-"company": "Avav",
-"title": "Summer 2027 Software Engineering Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://avav.wd1.myworkdayjobs.com/avav/job/Simi-Valley-CA/Software-Engineering-Intern_8813",
-"company": "Avav",
-"title": "Software Engineering Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "at:https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Business-Intelligence-Development-Internship_RQ228935",
-"company": "General Dynamics Information Technology",
-"title": "GDIT Summer Internship Program \u2013 Summer 2027 AI/ML Business Intelligence Development Internship \ud83c\uddfa\ud83c\uddf8",
-"rule": "defense",
 "tag": ""
 }
 ]
