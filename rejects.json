@@ -8729,6 +8729,13 @@
 "tag": ""
 },
 {
+"id": "gh:relativity:8859332002",
+"company": "Relativity Space",
+"title": "Director, Physical Security & Facility Security Officer",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "gh:relativity:8359924002",
 "company": "Relativity Space",
 "title": "Director, Supplier Development Engineering",
@@ -10388,14 +10395,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8633353002",
+"id": "gh:relativity:8606781002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8606781002",
+"id": "gh:relativity:8633353002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -13174,6 +13181,55 @@
 "tag": ""
 },
 {
+"id": "ab:voyant-photonics:eab6df99-6bf3-4fa5-b325-bf8c9e9f728f",
+"company": "Voyant Photonics",
+"title": "Senior Verification & Integration Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:voyant-photonics:3f4fafb4-260c-4172-9f37-0244c7fdd145",
+"company": "Voyant Photonics",
+"title": "Principal Electrical Engineer ",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:voyant-photonics:ddb3b46a-60a5-4af3-ab2f-311a1c574048",
+"company": "Voyant Photonics",
+"title": "Senior / Principal Silicon Photonic Packaging & Process Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:voyant-photonics:f54348d7-8968-4c21-9b78-5d9bc710daf3",
+"company": "Voyant Photonics",
+"title": "Principal Electrical Engineer ",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:voyant-photonics:5a9dc21d-1453-469d-862f-ba2f0b758efa",
+"company": "Voyant Photonics",
+"title": "Senior Hardware Engineer, Analog & Mixed-Signal",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:voyant-photonics:efcadc56-5da2-4da7-8db3-1c4e296e9f5f",
+"company": "Voyant Photonics",
+"title": "Senior Electrical Engineer, Analog & Mixed-Signal",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:voyant-photonics:ae08246e-3f98-4c39-91cf-bbd76e600f6a",
+"company": "Voyant Photonics",
+"title": "Electrical Engineer -  Analog & Mixed-Signal",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "wd:nvidia:/job/US-OR-Hillsboro/Systems-Software-Engineer---New-College-Grad-2026_JR2017083",
 "company": "NVIDIA",
 "title": "Systems Software Engineer - New College Grad 2026",
@@ -14199,6 +14255,104 @@
 "id": "wd:nvidia:/job/US-CA-Santa-Clara/Low-Power-ASIC-Engineer---New-College-Grad-2026_JR2017005",
 "company": "NVIDIA",
 "title": "Low Power ASIC Engineer - New College Grad 2026",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/US-CA-Santa-Clara/PhD-Research-Intern--Generative-AI---2026_JR2016035",
+"company": "NVIDIA",
+"title": "PhD Research Intern, Generative AI - 2026",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/US-CA-Santa-Clara/PhD-Software-Engineering-Intern--Decision-Intelligence---Fall-2026_JR2017522",
+"company": "NVIDIA",
+"title": "PhD Software Engineering Intern, Decision Intelligence - Fall 2026",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/US-CA-Santa-Clara/Applied-Deep-Learning-PhD-Research-Intern--Reinforcement-Learning-for-LLMs---Fall-2026_JR2012398",
+"company": "NVIDIA",
+"title": "Applied Deep Learning PhD Research Intern, Reinforcement Learning for LLMs - Fall 2026",
+"rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/US-TX-Austin/Power-Methodology-and-Modeling-Engineer---New-College-Grad-2026_JR2017486-1",
+"company": "NVIDIA",
+"title": "Power Methodology and Modeling Engineer - New College Grad 2026",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/Taiwan-Taipei/Board-Design-Engineer--LDE---New-College-Graduate_JR2016978-1",
+"company": "NVIDIA",
+"title": "Board Design Engineer, LDE - New College Graduate",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/Armenia-Yerevan/Research-Scientist---New-College-Grad-2025_JR1998091-1",
+"company": "NVIDIA",
+"title": "Research Scientist - New College Grad 2025",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--Circuits---New-College-Grad-2026_JR2010010",
+"company": "NVIDIA",
+"title": "Research Scientist, Circuits - PhD New College Grad 2026",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/US-TX-Austin/Signal-and-Power-Integrity-Engineer---New-College-Grad-2026_JR2015067",
+"company": "NVIDIA",
+"title": "Signal and Power Integrity Engineer - New College Grad 2026",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/Israel-Tel-Aviv/Physical-Design-Backend-Engineer_JR2013310",
+"company": "NVIDIA",
+"title": "Physical Design Backend Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/Hungary-Budapest/Formal-Verification-Engineer---New-College-Graduate_JR2008771",
+"company": "NVIDIA",
+"title": "Formal Verification Engineer - New College Graduate",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--AI-Accelerator-SW-HW-Co-Design---New-College-Grad-2026_JR2011644",
+"company": "NVIDIA",
+"title": "Research Scientist, AI Accelerator Design and VLSI - New College Grad 2026",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--AI-for-Graphics-and-Gaming---New-College-Grad-2026_JR2011267",
+"company": "NVIDIA",
+"title": "Research Scientist, AI for Graphics and Gaming - New College Grad 2026",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/US-TX-Austin/ASIC-Design-Verification-Engineer---New-College-Grad-2026_JR2010391",
+"company": "NVIDIA",
+"title": "ASIC Design Verification Engineer - New College Grad 2026",
+"rule": "new-grad",
+"tag": ""
+},
+{
+"id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--ML-Systems---New-College-Grad-2026_JR2010161",
+"company": "NVIDIA",
+"title": "Research Scientist, ML Systems - PhD New College Grad 2026",
 "rule": "new-grad",
 "tag": ""
 },
@@ -34146,13 +34300,6 @@
 "tag": ""
 },
 {
-"id": "ls:2958c86d-fef5-4422-a0a1-7bd489bfebf1",
-"company": "Schonfeld",
-"title": "Business Analytics Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:492852af-0410-4c62-9c26-766e5ec7b288",
 "company": "ENFOS",
 "title": "Software Engineer Intern - Summer 2027",
@@ -43760,13 +43907,6 @@
 "id": "ls:7d669b5f-60d8-41f2-8c63-353b9b7240a7",
 "company": "GE Healthcare",
 "title": "Software Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:7291b6ac-970f-4f7b-bbd8-67141ae89009",
-"company": "GE Healthcare",
-"title": "Data Analytics Intern",
 "rule": "irrelevant",
 "tag": ""
 },
