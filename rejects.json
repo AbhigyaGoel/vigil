@@ -1883,13 +1883,6 @@
 "tag": ""
 },
 {
-"id": "ab:cowboyspace:a4a3597f-7c1a-46f6-918d-558c4251ff25",
-"company": "Cowboy Space",
-"title": "Controls Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "ab:cowboyspace:6a113e46-8a9b-4c29-9287-e030e61c6fa2",
 "company": "Cowboy Space",
 "title": "Senior Controls Engineer",
@@ -7479,13 +7472,6 @@
 "id": "ab:northwoodspace:ad3d19b2-114e-4096-810e-64f289c862db",
 "company": "Northwood Space",
 "title": "Lead Software Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "ab:northwoodspace:9a61b2d6-446d-4f1f-91f4-e7b91a5fe087",
-"company": "Northwood Space",
-"title": "Executive Assistant",
 "rule": "not-intern",
 "tag": ""
 },
@@ -14343,6 +14329,13 @@
 "tag": ""
 },
 {
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---ATE-Process-Engineer-ID1_JR113953",
+"company": "Micron",
+"title": "Intern - ATE Process Engineer ID1",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "wd:micron:/job/Avezzano-AQ-Italy/INTERN-NVE-Design-Eng_JR113382",
 "company": "Micron",
 "title": "INTERN_NVE Design Eng",
@@ -16275,10 +16268,10 @@
 "tag": ""
 },
 {
-"id": "wd:amat:/job/Santa-ClaraCA/Process-Engineer-III-New-College-Grad----E3-_R2628743",
+"id": "wd:amat:",
 "company": "Applied Materials",
-"title": "Process Engineer III New College Grad - (E3)",
-"rule": "new-grad",
+"title": "",
+"rule": "not-intern",
 "tag": ""
 },
 {
@@ -22939,6 +22932,13 @@
 "tag": ""
 },
 {
+"id": "ls:2852d53d-1e2d-4026-9f6f-90758dc79f0a",
+"company": "Copart",
+"title": "Software Engineer Intern",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
 "id": "ls:5fdbf0e9-e98a-4251-b983-801d494ae586",
 "company": "Chicago Trading Company",
 "title": "Software Engineering Intern",
@@ -26208,6 +26208,13 @@
 "tag": ""
 },
 {
+"id": "ls:ac5989fe-f0e5-4cd6-a149-b8329eda175c",
+"company": "Thomson Reuters",
+"title": "Applied Research Intern - NLP/ML/GenAI",
+"rule": "season",
+"tag": "Fall 2026"
+},
+{
 "id": "ls:2de78b3a-47c4-4a03-9f0b-683df19e56db",
 "company": "Google",
 "title": "Research Scientist PhD Intern",
@@ -26989,13 +26996,6 @@
 "company": "H3X Technologies",
 "title": "Embedded Controls Intern",
 "rule": "curated_worker",
-"tag": ""
-},
-{
-"id": "ls:dc42c118-273e-4eda-b0ee-e5b47a65e974",
-"company": "PricewaterhouseCoopers (PwC)",
-"title": "Data Enablement Co-op - Data Enablement",
-"rule": "seniority",
 "tag": ""
 },
 {
@@ -29354,6 +29354,13 @@
 "id": "ls:fbc330bb-a6c5-48a8-b0d9-537f8bf68269",
 "company": "Travelers",
 "title": "Business Insights & Analytics Intern - BI&A LDP",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:c6dd05de-594d-4fa3-8da1-c646ae0eca31",
+"company": "Travelers",
+"title": "Engineering Development Intern",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -31934,13 +31941,6 @@
 "tag": "Winter 2026"
 },
 {
-"id": "ls:a0690963-ad5c-4710-92b1-ce2cab817542",
-"company": "Alberta Investment Management Corporation",
-"title": "Fixed Income Co-op",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:8a987894-dc4b-4761-8202-798f94b57890",
 "company": "Micron Technology",
 "title": "Marketing Analytics Intern - Global Communications & Marketing",
@@ -32534,6 +32534,13 @@
 "title": "State Product Analyst Intern - Personal Lines",
 "rule": "irrelevant",
 "tag": ""
+},
+{
+"id": "ls:84f60c1d-5d94-4e3b-a460-466cccf1d021",
+"company": "Brunswick",
+"title": "Engineering Test Lab Intern",
+"rule": "season",
+"tag": "Summer 2026"
 },
 {
 "id": "ls:3354c8ef-ad93-4536-af40-a7cd70a9bd65",
@@ -39501,13 +39508,6 @@
 "tag": ""
 },
 {
-"id": "ls:6be172ec-d3a7-445d-8218-d442e9c6dd1c",
-"company": "Lowe's",
-"title": "Software Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:515ff3f1-c3f2-4546-8895-14d8779915e5",
 "company": "Lowe's",
 "title": "Digital Product Management Intern",
@@ -45255,13 +45255,6 @@
 "tag": ""
 },
 {
-"id": "ls:c125d363-9bdc-456d-92f1-eff43afdc8ae",
-"company": "Intel",
-"title": "Firmware Development Undergraduate Engineering Co-op",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:c09501b3-944d-4fa2-a12b-031be140f633",
 "company": "IMC Trading",
 "title": "Hardware Machine Learning PhD Research Intern",
@@ -46078,6 +46071,13 @@
 "company": "Capital Group",
 "title": "Data & Technology Summer Associate - Capital Group Rotational Program",
 "rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:e61c4916-6a49-4922-a691-73e2250dd9c9",
+"company": "Leidos",
+"title": "Software Development Intern",
+"rule": "defense",
 "tag": ""
 },
 {
@@ -47215,6 +47215,13 @@
 "tag": ""
 },
 {
+"id": "ls:5c39f3b6-0839-4032-bfa3-cc95ec3a854d",
+"company": "Chamberlain Group",
+"title": "Engineer 1 Intern - Firmware",
+"rule": "season",
+"tag": "Winter 2026"
+},
+{
 "id": "ls:b2b7e2a7-9e82-4ddc-a910-d256f40be96a",
 "company": "NVIDIA",
 "title": "PhD Research Intern - AI Accelerator Design and VLSI",
@@ -48335,6 +48342,13 @@
 "tag": ""
 },
 {
+"id": "ls:8b6adedc-bcf4-4553-9fa2-ff61cdd5425f",
+"company": "Southwest Airlines",
+"title": "Software Engineer Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:d9419501-0152-4c0a-81b6-645f84e65a7c",
 "company": "Southwest Airlines",
 "title": "Digital Product Intern",
@@ -48494,6 +48508,13 @@
 "title": "Product Growth Intern - MBA",
 "rule": "irrelevant",
 "tag": ""
+},
+{
+"id": "ls:5ca3d9ed-7ea0-42ca-87f3-9791668c9ee4",
+"company": "Old Mission",
+"title": "Quantitative Trader Intern",
+"rule": "season",
+"tag": "Winter 2027"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
