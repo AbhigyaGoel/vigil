@@ -707,13 +707,6 @@
 "tag": ""
 },
 {
-"id": "ab:antares:999f09b9-b661-4c36-94bb-f41a35a35e0e",
-"company": "Antares Nuclear",
-"title": "Harnessing Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "ab:antares:ff02e2c0-7fe8-4dc4-9a90-74e1222b946e",
 "company": "Antares Nuclear",
 "title": "Senior/Staff Electrical Systems Engineer",
@@ -1074,6 +1067,13 @@
 "id": "ab:antares:75980ec1-ab41-49f0-aa9c-f66b8579e749",
 "company": "Antares Nuclear",
 "title": "Strategic Finance Associate",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:antares:0dc3aabc-fd44-4d4b-bb79-9b2e5fd57c06",
+"company": "Antares Nuclear",
+"title": "Harnessing Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -3773,14 +3773,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709691005",
+"id": "gh:inversionspace:4705254005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705254005",
+"id": "gh:inversionspace:4709691005",
 "company": "Inversion Space",
 "title": "Senior Avionics Embedded Software Engineer",
 "rule": "not-intern",
@@ -3885,14 +3885,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4692769005",
+"id": "gh:inversionspace:4705193005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705193005",
+"id": "gh:inversionspace:4692769005",
 "company": "Inversion Space",
 "title": "Senior GNC Engineer",
 "rule": "not-intern",
@@ -3906,14 +3906,14 @@
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4709690005",
+"id": "gh:inversionspace:4705255005",
 "company": "Inversion Space",
 "title": "Senior Harness Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:inversionspace:4705255005",
+"id": "gh:inversionspace:4709690005",
 "company": "Inversion Space",
 "title": "Senior Harness Engineer",
 "rule": "not-intern",
@@ -4529,14 +4529,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5373554008",
+"id": "gh:k2spacecorporation:5247348008",
 "company": "K2 Space",
 "title": "Ground Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5247348008",
+"id": "gh:k2spacecorporation:5373554008",
 "company": "K2 Space",
 "title": "Ground Software Engineer",
 "rule": "not-intern",
@@ -4711,14 +4711,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5425319008",
+"id": "gh:k2spacecorporation:5425326008",
 "company": "K2 Space",
 "title": "Principal ASIC Package Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5425326008",
+"id": "gh:k2spacecorporation:5425319008",
 "company": "K2 Space",
 "title": "Principal ASIC Package Design Engineer",
 "rule": "not-intern",
@@ -4802,14 +4802,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5026916008",
+"id": "gh:k2spacecorporation:5287992008",
 "company": "K2 Space",
 "title": "Principal Flight Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5287992008",
+"id": "gh:k2spacecorporation:5026916008",
 "company": "K2 Space",
 "title": "Principal Flight Software Engineer",
 "rule": "not-intern",
@@ -4872,14 +4872,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5425267008",
+"id": "gh:k2spacecorporation:5425262008",
 "company": "K2 Space",
 "title": "Principal Mixed-Signal Design Engineer, Data Converters",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5425262008",
+"id": "gh:k2spacecorporation:5425267008",
 "company": "K2 Space",
 "title": "Principal Mixed-Signal Design Engineer, Data Converters",
 "rule": "not-intern",
@@ -5103,13 +5103,6 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5425328008",
-"company": "K2 Space",
-"title": "Senior ASIC Package Design Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:k2spacecorporation:5425327008",
 "company": "K2 Space",
 "title": "Senior ASIC Package Design Engineer",
@@ -5117,14 +5110,21 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288010008",
+"id": "gh:k2spacecorporation:5425328008",
+"company": "K2 Space",
+"title": "Senior ASIC Package Design Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:k2spacecorporation:5288643008",
 "company": "K2 Space",
 "title": "Senior ASIC Physical Design Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288643008",
+"id": "gh:k2spacecorporation:5288010008",
 "company": "K2 Space",
 "title": "Senior ASIC Physical Design Engineer",
 "rule": "not-intern",
@@ -5271,13 +5271,6 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5197513008",
-"company": "K2 Space",
-"title": "Senior Firmware Engineer, Vehicle",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:k2spacecorporation:5288002008",
 "company": "K2 Space",
 "title": "Senior Firmware Engineer, Vehicle",
@@ -5285,14 +5278,21 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5165720008",
+"id": "gh:k2spacecorporation:5197513008",
+"company": "K2 Space",
+"title": "Senior Firmware Engineer, Vehicle",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:k2spacecorporation:5288027008",
 "company": "K2 Space",
 "title": "Senior Flight Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5288027008",
+"id": "gh:k2spacecorporation:5165720008",
 "company": "K2 Space",
 "title": "Senior Flight Software Engineer",
 "rule": "not-intern",
@@ -5327,14 +5327,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5386721008",
+"id": "gh:k2spacecorporation:5386732008",
 "company": "K2 Space",
 "title": "Senior FPGA Prototyping Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5386732008",
+"id": "gh:k2spacecorporation:5386721008",
 "company": "K2 Space",
 "title": "Senior FPGA Prototyping Engineer",
 "rule": "not-intern",
@@ -5467,14 +5467,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5430847008",
+"id": "gh:k2spacecorporation:5430848008",
 "company": "K2 Space",
 "title": "Senior Mixed-Signal Post-Silicon Validation Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5430848008",
+"id": "gh:k2spacecorporation:5430847008",
 "company": "K2 Space",
 "title": "Senior Mixed-Signal Post-Silicon Validation Engineer",
 "rule": "not-intern",
@@ -5537,14 +5537,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5425335008",
+"id": "gh:k2spacecorporation:5425333008",
 "company": "K2 Space",
 "title": "Senior Post-Silicon Validation Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5425333008",
+"id": "gh:k2spacecorporation:5425335008",
 "company": "K2 Space",
 "title": "Senior Post-Silicon Validation Engineer",
 "rule": "not-intern",
@@ -5579,14 +5579,14 @@
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5427380008",
+"id": "gh:k2spacecorporation:5427413008",
 "company": "K2 Space",
 "title": "Senior RF/mmWave Post-Silicon Validation Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:k2spacecorporation:5427413008",
+"id": "gh:k2spacecorporation:5427380008",
 "company": "K2 Space",
 "title": "Senior RF/mmWave Post-Silicon Validation Engineer",
 "rule": "not-intern",
@@ -9821,14 +9821,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8612945002",
+"id": "gh:relativity:8455890002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8455890002",
+"id": "gh:relativity:8612945002",
 "company": "Relativity Space",
 "title": "Senior CNC Machinist, Second Shift",
 "rule": "not-intern",
@@ -9947,14 +9947,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8575499002",
+"id": "gh:relativity:8762076002",
 "company": "Relativity Space",
 "title": "Senior Flight Software Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8762076002",
+"id": "gh:relativity:8575499002",
 "company": "Relativity Space",
 "title": "Senior Flight Software Engineer",
 "rule": "not-intern",
@@ -10199,14 +10199,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8701334002",
+"id": "gh:relativity:8419277002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8419277002",
+"id": "gh:relativity:8701334002",
 "company": "Relativity Space",
 "title": "Senior Mechanical Engineer",
 "rule": "not-intern",
@@ -10808,14 +10808,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8715897002",
+"id": "gh:relativity:8595007002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8595007002",
+"id": "gh:relativity:8715897002",
 "company": "Relativity Space",
 "title": "Staff Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -11508,14 +11508,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4415551009",
+"id": "gh:rocketems:4424343009",
 "company": "Rocket EMS",
 "title": "SMT Lead (Second Shift)",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4424343009",
+"id": "gh:rocketems:4415551009",
 "company": "Rocket EMS",
 "title": "SMT Lead (Second Shift)",
 "rule": "not-intern",
@@ -12418,14 +12418,14 @@
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5238458008",
+"id": "gh:stratolaunch:5398750008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:stratolaunch:5398750008",
+"id": "gh:stratolaunch:5238458008",
 "company": "Stratolaunch",
 "title": "Propulsion Technician",
 "rule": "not-intern",
@@ -18700,237 +18700,6 @@
 "id": "wd:bostondynamics:/job/Waltham-MA/Software-Engineer---Atlas_R2655",
 "company": "Boston Dynamics",
 "title": "Senior Staff Firmware Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-Office-POST/Research-Scientist--RL-for-Dexterous-Manipulation--Atlas_R2756",
-"company": "Boston Dynamics",
-"title": "Research Scientist, RL for Dexterous Manipulation, Atlas",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-Office-POST/Staff-Reinforcement-Learning-Research-Engineer_R2942-1",
-"company": "Boston Dynamics",
-"title": "Staff Reinforcement Learning Research Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-Office-POST/Staff--ML-Research-Scientist_R2751-1",
-"company": "Boston Dynamics",
-"title": "Staff, ML Research Scientist",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-Office-POST/Teleoperations-Research-Engineer--Atlas_R2926",
-"company": "Boston Dynamics",
-"title": "Teleoperations Research Engineer, Atlas",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-Office-POST/Manager--Machine-Learning-on-Orbit_R2890",
-"company": "Boston Dynamics",
-"title": "Manager, Machine Learning on Orbit",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Savannah/Field-Repair-Technician--2nd-Shift---RMAC_R3041-1",
-"company": "Boston Dynamics",
-"title": "Field Repair Technician, 2nd Shift - RMAC",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Savannah/Field-Repair-Technician_R3040",
-"company": "Boston Dynamics",
-"title": "Field Repair Technician",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-MA/Staff-Mechanical-Engineer_R3132",
-"company": "Boston Dynamics",
-"title": "Staff Mechanical Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-Office-POST/Senior-Staff-Software-Engineer--Central-Software_R3198",
-"company": "Boston Dynamics",
-"title": "Senior Staff Software Engineer, Central Software",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Billerica-MA/R-D-Robotics-Technician-IV_R3197",
-"company": "Boston Dynamics",
-"title": "R&D Robotics Technician IV",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-MA/Staff-Electrical-Engineer_R3031",
-"company": "Boston Dynamics",
-"title": "Staff Electrical Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-MA/Staff-Software-Engineer-in-Test_R3182",
-"company": "Boston Dynamics",
-"title": "Staff Software Engineer in Test",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-Office-POST/Senior-Staff-Product-Marketing-Manager---Atlas_R2748",
-"company": "Boston Dynamics",
-"title": "Senior Staff Product Marketing Manager - Atlas",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-Office-POST/Research-Scientist--Spatial-AI---Perception_R2871",
-"company": "Boston Dynamics",
-"title": "Atlas Research Engineer, SLAM & Spatial AI",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-MA/Atlas-Electrical-Engineering-Manager_R2870",
-"company": "Boston Dynamics",
-"title": "Atlas Electrical Engineering Manager",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-MA/Senior-Staff-HR-Business-Partner_R2872",
-"company": "Boston Dynamics",
-"title": "Senior Staff HR Business Partner",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Billerica-MA/Robotics-Operations-Technician-IV_R2894",
-"company": "Boston Dynamics",
-"title": "Robotics Operations Technician IV",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-Office-POST/Senior-Staff-Commodity-Manager_R2967",
-"company": "Boston Dynamics",
-"title": "Senior Staff Commodity Manager",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-Office-POST/CNC-Machinist--IV_R2979",
-"company": "Boston Dynamics",
-"title": "CNC Machinist, IV",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Savannah/Applications-Integration-Engineer--RMAC-_R2995",
-"company": "Boston Dynamics",
-"title": "Applications/Integration Engineer (RMAC)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-Office-POST/Staff-Test-Development-Engineer---Software-and-Automation_R3064-1",
-"company": "Boston Dynamics",
-"title": "Staff Test Development Engineer - Software and Automation",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-MA/Senior-SQA-Engineer_R3072",
-"company": "Boston Dynamics",
-"title": "Senior SQA Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-Office-POST/Staff-Fleet-Operations-Robot-Captain--Atlas_R2376-1",
-"company": "Boston Dynamics",
-"title": "Staff Fleet Operations Robot Captain, Atlas",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-Office-POST/Staff-Embedded-Perception-Engineer_R2564",
-"company": "Boston Dynamics",
-"title": "Atlas Staff Perception Engineer, Tactile Sensing",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-Office-POST/Fleet-Operations--Application-Engineer_R2906",
-"company": "Boston Dynamics",
-"title": "Fleet Operations: Application Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-Office-POST/Software-Engineer-in-Test--Humanoid-Robotics_R3187",
-"company": "Boston Dynamics",
-"title": "Software Engineer in Test, Humanoid Robotics",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-Office-POST/Third-Shift-Supervisor--Atlas-Data-Operations_R3180-1",
-"company": "Boston Dynamics",
-"title": "Third Shift Supervisor, Atlas Data Operations",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-Office-POST/Senior-Engineering-Manager--ML-Platform_R2824",
-"company": "Boston Dynamics",
-"title": "Senior Engineering Manager, ML Platform",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-MA/Senior-Staff-Mechanical-Engineer---Atlas_R3013",
-"company": "Boston Dynamics",
-"title": "Senior Staff Robotics Simulation Engineer - Thermal & Fluids Analysis",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-Office-POST/Staff-Business-Operations-Project-Manager_R3066",
-"company": "Boston Dynamics",
-"title": "Staff Business Operations Project Manager",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-MA/Senior-Staff-Manufacturing-Engineer_R2700",
-"company": "Boston Dynamics",
-"title": "Senior Staff Manufacturing Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-MA/Senior-Staff-Manufacturing-DFX-Engineer_R2704",
-"company": "Boston Dynamics",
-"title": "Senior Staff Manufacturing Engineer",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "wd:bostondynamics:/job/Waltham-Office-POST/Associate-Director--R-D-Quality-Engineering_R3003",
-"company": "Boston Dynamics",
-"title": "Associate Director, R&D Quality Engineering",
 "rule": "not-intern",
 "tag": ""
 },
