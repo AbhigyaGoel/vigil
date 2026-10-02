@@ -14364,13 +14364,6 @@
 "tag": ""
 },
 {
-"id": "wd:micron:",
-"company": "Micron",
-"title": "",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:micron:/job/Boise-ID---Main-Site/Intern---Photolithography-Process_JR107508",
 "company": "Micron",
 "title": "Intern - Photolithography Process",
@@ -14976,6 +14969,13 @@
 "id": "wd:micron:/job/Fab-10NX-Singapore/Intern---NAND-Product-Development-Engineer_JR111283",
 "company": "Micron",
 "title": "Intern - NAND Product Development Engineer",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:micron:/job/Boise-ID---Main-Site/Intern---DRAM-Customer-Enablement-Engineering_JR106521",
+"company": "Micron",
+"title": "Intern - DRAM Customer Enablement Engineering",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -26243,13 +26243,6 @@
 "tag": ""
 },
 {
-"id": "ls:d3edd2a3-5270-4a02-9f8f-830ec508bcc6",
-"company": "American Express",
-"title": "Product Development Intern - Global Servicing",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:1474720a-8c92-4fe6-adc2-0373d1b2fa67",
 "company": "Zipline",
 "title": "Long Range Platform Embedded Firmware Intern - Summer 2027",
@@ -30294,13 +30287,6 @@
 "title": "Technology Intern - Summer Internship Program",
 "rule": "irrelevant",
 "tag": ""
-},
-{
-"id": "ls:58e0fc45-0a62-48e7-b095-d62d3cfbca39",
-"company": "Intelcom | Dragonfly",
-"title": "Software Developer Intern - Address Intelligence Platform",
-"rule": "season",
-"tag": "Winter 2026"
 },
 {
 "id": "ls:aecf9a61-0e55-4e17-873b-d56a92f353a8",
@@ -36337,13 +36323,6 @@
 "tag": ""
 },
 {
-"id": "ls:20f34452-67a0-400c-8cb5-7f929d7c7dec",
-"company": "Intelcom | Dragonfly",
-"title": "Sales Project Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
 "id": "ls:37b49760-4eb8-426a-b9d7-3452d4d88e99",
 "company": "Kensho",
 "title": "Machine Learning Engineer Intern",
@@ -40087,13 +40066,6 @@
 "title": "Data Science & Marketing Effectiveness Intern",
 "rule": "seniority",
 "tag": ""
-},
-{
-"id": "ls:1d4cc953-544e-4872-9740-94020ef03904",
-"company": "Intelcom | Dragonfly",
-"title": "Back-end Developer Intern - Mobile Application",
-"rule": "season",
-"tag": "Winter 2026"
 },
 {
 "id": "ls:d94c84cc-d47a-4059-ba2f-57d2caabe29d",
@@ -45493,13 +45465,6 @@
 "tag": "Winter 2027"
 },
 {
-"id": "ls:b785f9ef-f9c9-4d16-aae2-973ad2a1b2dc",
-"company": "Boston Scientific",
-"title": "Software Development Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:e7777af9-8bca-4dd7-b5b6-6ec86fff06f9",
 "company": "Boston Scientific",
 "title": "Software Development Engineer Co-op",
@@ -47181,13 +47146,6 @@
 },
 {
 "id": "ls:a6d20bfd-fd5e-467c-9b88-327066eed625",
-"company": "RTX",
-"title": "Software Engineer Intern",
-"rule": "defense",
-"tag": ""
-},
-{
-"id": "ls:d9192af9-44cc-4afc-bb53-481c9e5acabf",
 "company": "RTX",
 "title": "Software Engineer Intern",
 "rule": "defense",
