@@ -399,6 +399,13 @@
 "tag": ""
 },
 {
+"id": "gh:advancedspace:4426403009",
+"company": "Advanced Space",
+"title": "Machine Learning Engineer (5-8 yrs) ",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "gh:advancedspace:4369105009",
 "company": "Advanced Space",
 "title": "Mission Design Engineer (2-5 yrs) ",
@@ -444,6 +451,13 @@
 "id": "gh:advancedspace:4397308009",
 "company": "Advanced Space",
 "title": "Sr. Systems Engineer (8-12 yrs)",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:advancedspace:4426484009",
+"company": "Advanced Space",
+"title": "Staff Accountant (1-3 yrs)",
 "rule": "not-intern",
 "tag": ""
 },
@@ -843,13 +857,6 @@
 "id": "ab:antares:94737f92-590a-4293-a76f-6eb395501265",
 "company": "Antares Nuclear",
 "title": "Senior Mechanical Design Engineer - Reactivity Controls",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "ab:antares:de66feee-aff4-422e-915d-cb35a4f33f3e",
-"company": "Antares Nuclear",
-"title": "R&D Machinist I-III",
 "rule": "not-intern",
 "tag": ""
 },
@@ -13223,6 +13230,13 @@
 "tag": ""
 },
 {
+"id": "wd:nvidia:/job/US-CA-Santa-Clara/Research-Scientist--Fundamental-Generative-AI---New-College-Grad-2026_JR2012698",
+"company": "NVIDIA",
+"title": "Research Scientist, Fundamental Generative AI - New College Grad 2026",
+"rule": "new-grad",
+"tag": ""
+},
+{
 "id": "wd:nvidia:/job/US-OR-Hillsboro/Systems-Software-Engineer---New-College-Grad-2026_JR2017083",
 "company": "NVIDIA",
 "title": "Systems Software Engineer - New College Grad 2026",
@@ -15890,13 +15904,6 @@
 "tag": ""
 },
 {
-"id": "wd:intel:/job/US-Oregon-Hillsboro/Technology-Research-2D-Transistor-Engineer-Intern_JR0287001",
-"company": "Intel",
-"title": "Technology Research 2D Transistor Engineer Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "wd:intel:/job/PRC-Shanghai/AI-framework-engineer_JR0287327",
 "company": "Intel",
 "title": "AI framework engineer",
@@ -16027,6 +16034,13 @@
 "company": "Intel",
 "title": "Module Engineering PhD Intern 2027",
 "rule": "seniority",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/Malaysia-Kulim/System-Software-Engineering-Intern_JR0286933",
+"company": "Intel",
+"title": "System Software Engineering Intern",
+"rule": "geo",
 "tag": ""
 },
 {
