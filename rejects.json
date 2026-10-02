@@ -12726,13 +12726,6 @@
 "tag": ""
 },
 {
-"id": "gh:thenuclearcompany:5429925008",
-"company": "The Nuclear Company",
-"title": "Director, Cloud & Security Engineering",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:thenuclearcompany:5301431008",
 "company": "The Nuclear Company",
 "title": "Director, Energy Sales",
@@ -12911,6 +12904,13 @@
 "id": "gh:thenuclearcompany:4668800008",
 "company": "The Nuclear Company",
 "title": "Senior Licensing Engineer",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "gh:thenuclearcompany:5429925008",
+"company": "The Nuclear Company",
+"title": "Senior Manager, Cloud & Security Engineering",
 "rule": "not-intern",
 "tag": ""
 },
@@ -15785,6 +15785,13 @@
 "tag": ""
 },
 {
+"id": "wd:intel:/job/US-Oregon-Hillsboro/Software-Engineering-PhD-Intern-New-2027_JR0287458-1",
+"company": "Intel",
+"title": "Software Engineering - PhD Intern",
+"rule": "seniority",
+"tag": ""
+},
+{
 "id": "wd:intel:/job/Mexico-Guadalajara/Platform-Validation-Intern_JR0287673",
 "company": "Intel",
 "title": "Platform Validation Intern",
@@ -15901,13 +15908,6 @@
 "company": "Intel",
 "title": "Technology Research 2D Transistor Engineer Intern",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:intel:/job/PRC-Shanghai/AI-framework-engineer_JR0287327",
-"company": "Intel",
-"title": "AI framework engineer",
-"rule": "not-intern",
 "tag": ""
 },
 {
