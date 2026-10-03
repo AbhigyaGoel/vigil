@@ -11249,6 +11249,13 @@
 "tag": ""
 },
 {
+"id": "gh:rocketems:4432804009",
+"company": "Rocket EMS",
+"title": "Human Resources Generalist",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "gh:rocketems:4424242009",
 "company": "Rocket EMS",
 "title": "Janitor",
@@ -11452,14 +11459,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4415551009",
+"id": "gh:rocketems:4424343009",
 "company": "Rocket EMS",
 "title": "SMT Lead (Second Shift)",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4424343009",
+"id": "gh:rocketems:4415551009",
 "company": "Rocket EMS",
 "title": "SMT Lead (Second Shift)",
 "rule": "not-intern",
@@ -15193,27 +15200,6 @@
 "id": "wd:micron:/job/San-Jose-CA/Corporate-Marketing-Storytelling-Intern_JR109493",
 "company": "Micron",
 "title": "Intern - Corporate Marketing Storytelling",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:micron:/job/Meridian-ID/Intern---Marketing-Analytics_JR109458",
-"company": "Micron",
-"title": "Intern - Marketing Analytics",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "wd:micron:/job/Longmont-MAX--Office-CO/Intern---Technical-Customer-Management--AI_JR109454",
-"company": "Micron",
-"title": "Intern - Technical Customer Management, AI",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "wd:micron:/job/Meridian-ID/Intern---Marketing-Research_JR109460",
-"company": "Micron",
-"title": "Intern - Marketing Research",
 "rule": "seniority",
 "tag": ""
 },
