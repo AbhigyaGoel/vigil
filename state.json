@@ -1,154 +1,86 @@
 {
-"yield_since": "2026-10-01",
+"yield_since": "2026-10-05",
 "yield": {
 "discovered_boards": {
-"scanned": 2336804,
+"scanned": 1931,
 "A": 10,
-"B": 30
+"B": 29
 },
 "workday:NVIDIA": {
-"scanned": 208207,
+"scanned": 185,
 "A": 5,
 "B": 7
 },
 "workday:Micron": {
-"scanned": 211578,
+"scanned": 187,
 "A": 1,
 "B": 14
 },
 "workday:Analog Devices": {
-"scanned": 44149,
+"scanned": 39,
 "A": 0,
 "B": 9
 },
 "workday:KLA": {
-"scanned": 19104,
+"scanned": 16,
 "A": 0,
 "B": 3
 },
 "workday:Intel": {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"scanned": 73281,
-=======
-"scanned": 73282,
->>>>>>> Stashed changes
-=======
-"scanned": 73346,
->>>>>>> Stashed changes
+"scanned": 65,
 "A": 0,
 "B": 9
 },
 "workday:Applied Materials": {
-"scanned": 238720,
+"scanned": 201,
 "A": 0,
 "B": 3
 },
 "workday:Marvell": {
-"scanned": 114808,
+"scanned": 102,
 "A": 1,
-"B": 32
+"B": 31
 },
 "workday:Caterpillar": {
-"scanned": 85636,
+"scanned": 73,
 "A": 0,
 "B": 2
 },
 "workday:Boston Dynamics": {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"scanned": 85173,
-=======
-"scanned": 85174,
->>>>>>> Stashed changes
-=======
-"scanned": 85245,
->>>>>>> Stashed changes
+"scanned": 72,
 "A": 0,
 "B": 0
 },
 "workday:NXP": {
-"scanned": 132824,
+"scanned": 116,
 "A": 0,
-"B": 23
+"B": 15
 },
 "workday:Zebra": {
-"scanned": 13325,
+"scanned": 8,
 "A": 0,
 "B": 0
 },
 "workday:Trimble": {
-"scanned": 10405,
+"scanned": 9,
 "A": 0,
 "B": 1
 },
 "listings_feed": {
-"scanned": 5787501,
-"A": 68,
-"B": 161
+"scanned": 4738,
+"A": 65,
+"B": 146
 },
 "markdown_source": {
-"scanned": 4795445,
-"A": 207,
-"B": 212
+"scanned": 4251,
+"A": 185,
+"B": 197
 },
 "atom_feed": {
-"scanned": 120800,
+"scanned": 100,
 "A": 0,
-"B": 8
+"B": 2
 }
 },
-"config_hash": "8b02f7c4bdf46d90",
-"last_weekly": "2026-W40",
-"season_rates": [
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-0.9993,
-1.0,
-1.0,
-1.0,
-1.0,
-0.9993,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-0.9993,
-1.0,
-1.0,
-1.0,
-1.0,
-0.9801,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0,
-1.0
-],
-"last_digest": 1791224253.396704
+"config_hash": "8b02f7c4bdf46d90"
 }
