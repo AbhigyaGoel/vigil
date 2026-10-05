@@ -13426,13 +13426,6 @@
 "tag": ""
 },
 {
-"id": "wd:nvidia:",
-"company": "NVIDIA",
-"title": "",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "wd:nvidia:/job/US-CA-Santa-Clara/ASIC-Design-Engineer---New-College-Grad-2027_JR2026277",
 "company": "NVIDIA",
 "title": "ASIC Design Engineer - New College Grad 2027",
@@ -25830,51 +25823,9 @@
 "tag": "Fall 2026"
 },
 {
-"id": "ls:8540d9e9-5a90-4ecb-a7f6-b854e696fb8e",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:bc2e9762-a592-48ef-9e42-21dfdec88ec4",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - Asset and Wealth Management",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:8cfb1bdb-94da-41c0-be36-e516586909b0",
 "company": "Dedalus Labs",
 "title": "Product Manager Intern",
-"rule": "seniority",
-"tag": ""
-},
-{
-"id": "ls:ea185fae-1828-4e79-9bfa-34dc512cce8c",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - The Core Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:443c0a68-63ca-4026-94b7-cf3e555f2d0f",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Associate Intern - The Core Quantitative Strats",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:439c65c1-64f2-461c-8ca1-ca36969ef10a",
-"company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Multiple Teams",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:1560332f-3e4c-4d15-819d-df9bf4889deb",
-"company": "Goldman Sachs",
-"title": "Summer Analyst Intern - FICC and Equities - Sales and Trading",
 "rule": "seniority",
 "tag": ""
 },
@@ -27867,13 +27818,6 @@
 "tag": ""
 },
 {
-"id": "ls:bec41fe0-ae4c-44d3-bddd-15ca4a245c18",
-"company": "Goldman Sachs",
-"title": "Summer Associate Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
 "id": "ls:ca0cc910-e9e7-48a4-ac62-3536b3421ae2",
 "company": "Dimensional Fund Advisors",
 "title": "Investment Engineering Intern - Undergraduate & Master's",
@@ -28831,13 +28775,6 @@
 "title": "Digital Technology Intern - Application Development - Year Round",
 "rule": "season",
 "tag": "Fall 2026"
-},
-{
-"id": "ls:de60ac4b-0555-4de8-b900-307f633054e8",
-"company": "Manulife Financial",
-"title": "Software Engineering Co-op",
-"rule": "seniority",
-"tag": ""
 },
 {
 "id": "ls:65097872-fc5a-464c-a9ca-5d4d382c4765",
@@ -30047,13 +29984,6 @@
 "id": "ls:b366c04d-a45d-4b79-a577-682f0b05ade0",
 "company": "Post Holdings",
 "title": "Business Intelligence Intern - Summer 2027",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:6de536a3-1aec-4953-91d2-43e21e6062ef",
-"company": "Post Holdings",
-"title": "Data Science Intern - Summer 2027",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -32683,23 +32613,30 @@
 "tag": "Spring 2027"
 },
 {
-"id": "ls:f3fffaac-34e8-4f3e-aa74-fb1928331995",
+"id": "ls:f3cb1e27-85ef-4529-9ba5-6fb9462c60e9",
 "company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Americas - The Core Quantitative Strats",
+"title": "Quantitative Strategist Intern - Asset and Wealth Management - Quantitative Strats",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "ls:f6b73d49-ad99-40ba-844a-4f885a901a91",
+"id": "ls:60f69f38-4cc3-4dbd-a041-e8208a00725c",
 "company": "Goldman Sachs",
-"title": "Quantitative Strats Analyst Intern - Americas - Investment Banking",
+"title": "Summer Analyst Intern - The Core Quantitative Strats",
 "rule": "irrelevant",
 "tag": ""
 },
 {
-"id": "ls:814b873c-2c4e-4173-85d1-c90cf9ccc964",
+"id": "ls:9d3e4916-4e1e-4317-83a1-92d2664ed59b",
 "company": "Goldman Sachs",
-"title": "Quantitative Strategist Intern - Investment Banking",
+"title": "Quantitative Strategist Intern - Americas",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:5bdec003-2a02-42a4-a602-467541840552",
+"company": "Goldman Sachs",
+"title": "Summer Analyst Intern - Americas - Engineering",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -33799,13 +33736,6 @@
 "id": "ls:ad76bb5f-450d-4b14-9845-e47ac383e2f0",
 "company": "Tokyo Electron",
 "title": "Automation Developer/Analyst Intern",
-"rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:4466fb7f-9aa6-4069-988d-f50f6c016ffc",
-"company": "Royal Bank of Canada",
-"title": "Data Engineer - RBC Amplify",
 "rule": "irrelevant",
 "tag": ""
 },
@@ -37660,6 +37590,20 @@
 "tag": ""
 },
 {
+"id": "ls:580171f7-4613-4a78-b99a-3b85b469f5d0",
+"company": "TD Bank",
+"title": "Software Engineer Intern - Global Technology & Solutions",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:a78f5a0d-953f-4465-8622-6c6b2ad17d27",
+"company": "TD Bank",
+"title": "Data Engineer Intern - Global Technology & Solutions",
+"rule": "irrelevant",
+"tag": ""
+},
+{
 "id": "ls:e019b0ce-4c0e-490b-b51c-9ac7e88b4472",
 "company": "Interstates",
 "title": "Data Analyst Intern",
@@ -38126,13 +38070,6 @@
 "company": "EquipmentShare",
 "title": "Software Engineer Intern",
 "rule": "irrelevant",
-"tag": ""
-},
-{
-"id": "ls:16e17942-d165-4b2f-bcb6-074d432003ea",
-"company": "Royal Bank of Canada",
-"title": "Quantitative Trading Analyst Co-op - Global Equities",
-"rule": "seniority",
 "tag": ""
 },
 {
@@ -39170,13 +39107,6 @@
 "title": "Product Engineer Intern - DRAM Technology - Node Development",
 "rule": "season",
 "tag": "Winter 2026"
-},
-{
-"id": "ls:6b921b31-d209-48f8-a6ae-12349aed6e6b",
-"company": "bioM\u00e9rieux",
-"title": "Hardware Co-op",
-"rule": "seniority",
-"tag": ""
 },
 {
 "id": "ls:e83d5205-2c76-4f34-adbc-45a543b7b26b",
@@ -48550,6 +48480,41 @@
 "title": "Physical Design Intern",
 "rule": "curated_worker",
 "tag": ""
+},
+{
+"id": "ls:3d0e6a5a-a1a8-484a-9a12-fd9fcdb36ad4",
+"company": "State of North Carolina",
+"title": "Data Science Intern",
+"rule": "season",
+"tag": "Spring 2027"
+},
+{
+"id": "ls:20960b45-bcba-4977-a12f-eabbf6b2c80c",
+"company": "State of North Carolina",
+"title": "Data Analytics Intern",
+"rule": "season",
+"tag": "Spring 2027"
+},
+{
+"id": "ls:0f621445-f310-4ae7-9e91-f830db926091",
+"company": "State of North Carolina",
+"title": "Data Engineer Intern",
+"rule": "season",
+"tag": "Spring 2027"
+},
+{
+"id": "ls:95c1d1a0-3fe5-4666-a8b9-fd45c3237c63",
+"company": "Mohawk",
+"title": "Product Management Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "ls:a74310a0-f20c-47e3-a801-788c1fc295d6",
+"company": "Microsoft",
+"title": "Firmware Engineer Intern",
+"rule": "season",
+"tag": "Winter 2027"
 },
 {
 "id": "ls:df70fa57-977b-4f31-832e-a0e57ed070b5",
