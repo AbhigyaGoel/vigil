@@ -15897,9 +15897,22 @@
 "tag": ""
 },
 {
+<<<<<<< Updated upstream
 "id": "wd:intel:/job/US-Oregon-Hillsboro/AI-Solution-Architect---Graduate-Intern_JR0287531",
 "company": "Intel",
 "title": "AI Solution Architect - Undergraduate Intern",
+=======
+"id": "wd:intel:/job/US-California-Santa-Clara/AI-Solution-Architect---Graduate-Intern_JR0287524",
+"company": "Intel",
+"title": "AI Solution Architect - Graduate Intern",
+"rule": "irrelevant",
+"tag": ""
+},
+{
+"id": "wd:intel:/job/US-California-Santa-Clara/AI-Solution-Architect-Graduate-Intern_JR0287530",
+"company": "Intel",
+"title": "AI Solution Architect Graduate Intern",
+>>>>>>> Stashed changes
 "rule": "irrelevant",
 "tag": ""
 },
@@ -18728,6 +18741,13 @@
 "id": "wd:bostondynamics:/job/Waltham-Office-POST/Senior-Staff-NPI-Sourcing-Specialist_R3067",
 "company": "Boston Dynamics",
 "title": "Senior Staff NPI Sourcing Specialist",
+"rule": "not-intern",
+"tag": ""
+},
+{
+"id": "wd:bostondynamics:/job/Waltham-MA/IT-Service-Operations-Technician_R3216",
+"company": "Boston Dynamics",
+"title": "IT Service Operations Technician",
 "rule": "not-intern",
 "tag": ""
 },
