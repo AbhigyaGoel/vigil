@@ -1316,6 +1316,13 @@
 "tag": ""
 },
 {
+"id": "ab:brinc:5d984871-bbc0-4ac8-b3e6-6ba4f7071946",
+"company": "BRINC Drones",
+"title": "Product Specialist",
+"rule": "not-intern",
+"tag": ""
+},
+{
 "id": "ab:brinc:4ffc380f-5194-4475-ae00-141b5c8b41bc",
 "company": "BRINC Drones",
 "title": "Senior Electrical Engineer, Hardware",
@@ -3245,6 +3252,13 @@
 "company": "GrayMatter Robotics",
 "title": "Sr. Robotics Design Engineer: Government Projects",
 "rule": "not-intern",
+"tag": ""
+},
+{
+"id": "ab:graymatter-robotics:773aa23e-1faf-47f9-bd80-701b6c00f4c4",
+"company": "GrayMatter Robotics",
+"title": "Mechanical Design Intern - Immediate Fill ",
+"rule": "irrelevant",
 "tag": ""
 },
 {
@@ -6072,13 +6086,6 @@
 "id": "gh:katalyst:5988727004",
 "company": "Katalyst Space Technologies",
 "title": "Senior/Principal Navigation Engineer, Spacecraft ",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:katalyst:5988872004",
-"company": "Katalyst Space Technologies",
-"title": "Senior Space Systems Engineer",
 "rule": "not-intern",
 "tag": ""
 },
@@ -9695,13 +9702,6 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8561397002",
-"company": "Relativity Space",
-"title": "Senior AI/ML Scientist, Planetary Science",
-"rule": "not-intern",
-"tag": ""
-},
-{
 "id": "gh:relativity:8780032002",
 "company": "Relativity Space",
 "title": "Senior Avionics Hardware Engineer",
@@ -10395,14 +10395,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8633353002",
+"id": "gh:relativity:8606781002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8606781002",
+"id": "gh:relativity:8633353002",
 "company": "Relativity Space",
 "title": "Senior Software Engineer, Full Stack",
 "rule": "not-intern",
@@ -10416,14 +10416,14 @@
 "tag": ""
 },
 {
-"id": "gh:relativity:8728512002",
+"id": "gh:relativity:8464747002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:relativity:8464747002",
+"id": "gh:relativity:8728512002",
 "company": "Relativity Space",
 "title": "Senior Structures Engineer",
 "rule": "not-intern",
@@ -11466,14 +11466,14 @@
 "tag": ""
 },
 {
-"id": "gh:rocketems:4415551009",
+"id": "gh:rocketems:4424343009",
 "company": "Rocket EMS",
 "title": "SMT Lead (Second Shift)",
 "rule": "not-intern",
 "tag": ""
 },
 {
-"id": "gh:rocketems:4424343009",
+"id": "gh:rocketems:4415551009",
 "company": "Rocket EMS",
 "title": "SMT Lead (Second Shift)",
 "rule": "not-intern",
@@ -11518,20 +11518,6 @@
 "id": "gh:rocketems:4413045009",
 "company": "Rocket EMS",
 "title": "Stockroom Clerk (Second Shift)",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:rocketems:4410425009",
-"company": "Rocket EMS",
-"title": "Test Operator",
-"rule": "not-intern",
-"tag": ""
-},
-{
-"id": "gh:rocketems:4404264009",
-"company": "Rocket EMS",
-"title": "Test Operator (Second Shift)",
 "rule": "not-intern",
 "tag": ""
 },
@@ -12670,9 +12656,9 @@
 "tag": ""
 },
 {
-"id": "gh:thenuclearcompany:5386722008",
+"id": "gh:thenuclearcompany:5444354008",
 "company": "The Nuclear Company",
-"title": "Assistant Controller",
+"title": "Assistant Controller (Director) ",
 "rule": "not-intern",
 "tag": ""
 },
@@ -38808,13 +38794,6 @@
 "tag": ""
 },
 {
-"id": "ls:79a2dc1b-cfae-4772-be32-6665799e95fb",
-"company": "Santander",
-"title": "Data Steward Intern",
-"rule": "season",
-"tag": "Winter 2026"
-},
-{
 "id": "ls:e76d4605-d469-425d-a79a-1fa00dca13b2",
 "company": "Altera",
 "title": "Quartus Compiler Software Intern",
@@ -47486,13 +47465,6 @@
 "title": "Distributed Systems Software Engineer Intern - Energy Engineering",
 "rule": "season",
 "tag": "Winter 2027"
-},
-{
-"id": "ls:ede62c8f-075b-4ba3-8409-4a187f9b6f1c",
-"company": "Leidos",
-"title": "Software Developer Intern",
-"rule": "defense",
-"tag": ""
 },
 {
 "id": "ls:70d761ed-4033-4ec5-ba9e-7b0f887afcfa",
