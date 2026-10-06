@@ -19,7 +19,7 @@ def check(name, got, want):
 
 def rec(i, tier, score, bigco=False):
     return {"id": f"t:{i}", "company": f"Co{i}", "title": "Hardware Intern", "location": "Austin, TX",
-            "url": f"https://x/{i}", "score": score, "tier": tier, "bigco": bigco,
+            "url": f"https://x/{i}", "score": score, "tier": tier, "bigco": bigco, "geo": "us",
             "posted": 0, "published": 0, "pay": "", "season": ""}
 
 
@@ -38,6 +38,21 @@ def test_deliver():
     check("tierB_bigco_default", by["t:5"], "default")
     check("only_pushes_sent", sorted(sent), [("t:1", "high"), ("t:2", "default"), ("t:3", "default"), ("t:5", "default")])
     check("found_stamped", all(r["found"] == now for r in out), True)
+
+
+def test_deliver_filters():
+    watch.push_role = lambda r, p: None
+    vague = {**rec(10, "A", 4), "url": "https://www.linkedin.com/jobs/view/1", "location": "Massachusetts"}
+    real = {**rec(11, "A", 4), "url": "https://www.linkedin.com/jobs/view/2", "location": "Boston, MA"}
+    foreign = {**rec(12, "B", 5), "geo": "tierb", "location": "Toronto, ON, Canada"}
+    unknown = {**rec(13, "B", 5), "geo": "unknown", "location": ""}
+    city = {**rec(14, "B", 5), "geo": "unknown", "location": "Brno"}
+    by = {r["id"]: r["delivery"] for r in watch.deliver([vague, real], [foreign, unknown, city], time.time())}
+    check("unrecognized_city_tierb_not_pushed", by["t:14"], "board")
+    check("linkedin_bare_state_not_pushed", by["t:10"], "board")
+    check("linkedin_with_city_pushed", by["t:11"], "high")
+    check("foreign_tierb_not_pushed", by["t:12"], "board")
+    check("unknown_geo_tierb_pushed", by["t:13"], "default")
 
 
 def test_deliver_cap():
@@ -74,6 +89,7 @@ def test_role_pay():
 
 if __name__ == "__main__":
     test_deliver()
+    test_deliver_filters()
     test_deliver_cap()
     test_board_merge()
     test_role_pay()

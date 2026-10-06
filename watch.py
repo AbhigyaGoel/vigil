@@ -980,7 +980,8 @@ def role_record(job, decision, score, enrich):
             "published": job.get("published", 0), "terms": job.get("terms"),
             "season": fmt_season(job.get("terms")),
             "pay": role_pay(job, enrich.get(job["id"], {})),
-            "bigco": is_bigco(company) or is_bigco(job["company"])}
+            "bigco": is_bigco(company) or is_bigco(job["company"]),
+            "geo": geo_tier(job["location"])}
 
 
 def scan(seen, enrich):
@@ -1071,6 +1072,24 @@ def test_alert():
     print("sent test push ->", rec["title"])
 
 
+_BARE_PLACE = re.compile(r"^\s*[A-Za-z .]+\s*$")
+
+
+def scraped_vague(r):
+    """A LinkedIn-scraped row (IEEE markdown) whose whole location is one place
+    name ("Massachusetts") - the shape of staffing-agency / look-alike listings
+    (Orvanta, Vexra Engineering, ...). Real companies on LinkedIn list a city."""
+    loc = r.get("location") or ""
+    return ("linkedin.com/jobs" in (r.get("url") or "") and bool(_BARE_PLACE.match(loc))
+            and bool(US_PLACE and US_PLACE.fullmatch(loc.strip())))
+
+
+def no_location(r):
+    """Location genuinely missing (blank / bare 'Remote') - the ambiguity Tier B
+    prompt-push exists for. An unrecognized city ('Brno', 'Shanghai') is NOT this."""
+    return bool(re.fullmatch(r"\s*(?:remote)?\s*", r.get("location") or "", re.I))
+
+
 def deliver(tier_a, tier_b, now):
     """Decide what reaches the phone. Every relevant role is pushed; company size
     only sets how loud.
@@ -1085,9 +1104,11 @@ def deliver(tier_a, tier_b, now):
     out, sent = [], 0
     for r in tier_a + sorted(tier_b, key=lambda x: -x.get("score", 0)):
         r = {**r, "found": now}
-        if r["tier"] == "A":
+        if scraped_vague(r):
+            r["delivery"] = "board"
+        elif r["tier"] == "A":
             r["delivery"] = "default" if r["bigco"] else "high"
-        elif r.get("score", 0) >= prompt_bar:
+        elif r.get("score", 0) >= prompt_bar and (r.get("geo") == "us" or no_location(r)):
             r["delivery"] = "default"
         else:
             r["delivery"] = "board"
