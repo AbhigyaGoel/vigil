@@ -97,15 +97,15 @@ def test_scan_dedups(monkeyplan):
     os.environ["SKIP_ATS"] = "1"
     try:
         seen = set()
-        a, b, rej, stats = watch.scan(seen, {}, collect_rejects=True)
+        a, b, stats = watch.scan(seen, {})
     finally:
         os.environ.pop("SKIP_ATS", None)
 
     delivered = a + b
     check("one_copy_delivered", len([r for r in delivered if "555" in r["url"]]), 1)
     check("worker_owned_dropped", any(r["company"] == "Zipline" for r in delivered), False)
-    check("worker_owned_in_rejects",
-          any(r["rule"] == "curated_worker" for r in rej), True)
+    check("worker_owned_counted",
+          sum(s["drop"]["curated_worker"] for s in stats.values()), 1)
 
 
 def run():

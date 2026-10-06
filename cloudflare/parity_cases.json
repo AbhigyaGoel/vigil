@@ -70,5 +70,47 @@
     {"title": "Machine Learning Engineer Intern", "expect": false},
     {"title": "Biomedical Engineer Intern", "expect": false},
     {"title": "Data Analyst Intern", "expect": false}
+  ],
+  "bigco": [
+    {"company": "Meta", "expect": true},
+    {"company": "General Motors", "expect": true},
+    {"company": "Texas Instruments", "expect": true},
+    {"company": "samsungsemiconductor", "expect": true},
+    {"company": "woven-by-toyota", "expect": true},
+    {"company": "Intel Corporation", "expect": true},
+    {"company": "GM Cruise", "expect": true},
+    {"company": "Metagenomi", "expect": false},
+    {"company": "Intellia", "expect": false},
+    {"company": "Gmail Labs", "expect": false},
+    {"company": "Bedrock Robotics", "expect": false},
+    {"company": "SpaceX", "expect": false},
+    {"company": "K2 Space", "expect": false},
+    {"company": "", "expect": false}
+  ],
+  "paydisplay": [
+    {"range": [28, 34], "expect": "$28-34/hr"},
+    {"range": [30, 30], "expect": "$30/hr"},
+    {"range": [32.5, 40], "expect": "$32.5-40/hr"},
+    {"range": [110000, 160000], "expect": "$110k-160k/yr (~$53-77/hr)"},
+    {"range": [7000, 8000], "expect": "$7,000-8,000/mo (~$40-46/hr)"},
+    {"range": null, "expect": ""}
+  ],
+  "structpay": [
+    {"kind": "gh", "raw": [{"min_cents": 2800, "max_cents": 3400, "currency_type": "USD"}], "expect": "$28-34/hr"},
+    {"kind": "gh", "raw": [{"min_cents": 8300000, "max_cents": 13900000, "currency_type": "USD"}], "expect": "$83k-139k/yr (~$40-67/hr)"},
+    {"kind": "gh", "raw": [{"min_cents": 3000, "max_cents": 4000, "currency_type": "CAD"}], "expect": ""},
+    {"kind": "gh", "raw": [], "expect": ""},
+    {"kind": "lv", "raw": {"min": 135000, "max": 165000, "currency": "USD", "interval": "per-year-salary"}, "expect": "$135k-165k/yr (~$65-79/hr)"},
+    {"kind": "lv", "raw": null, "expect": ""},
+    {"kind": "ab", "raw": {"summaryComponents": [{"compensationType": "Salary", "currencyCode": "USD", "minValue": 32, "maxValue": 37, "interval": "1 YEAR"}]}, "expect": "$32-37/hr"},
+    {"kind": "ab", "raw": {"summaryComponents": [{"compensationType": "EquityPercentage", "minValue": null, "maxValue": null}]}, "expect": ""}
+  ],
+  "stamp": [
+    {"epoch": 1791247320, "date": "Oct 5", "found": "Oct 5, 8:42 PM ET"},
+    {"epoch": 1800032700, "date": "Jan 15", "found": "Jan 15, 12:05 PM ET"},
+    {"epoch": 1793511000, "date": "Nov 1", "found": "Nov 1, 1:30 AM ET"},
+    {"epoch": 1793514600, "date": "Nov 1", "found": "Nov 1, 1:30 AM ET"},
+    {"epoch": 1805007600, "date": "Mar 14", "found": "Mar 14, 3:00 AM ET"},
+    {"epoch": 0, "date": "", "found": ""}
   ]
 }

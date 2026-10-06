@@ -4,8 +4,10 @@ vigil - hardware internship tracker (wide-net / scoring tier).
 
 Runs on GitHub Actions. Pulls the aggregator + Workday sources, filters with a
 per-source policy, scores each survivor hardware-first, and splits into:
-  Tier A -> instant ntfy push        (score >= 3, US, Summer-2027-eligible)
-  Tier B -> hourly batch, low priority (everything else that survives)
+  Tier A -> instant ntfy push        (score >= 3, US, Summer-2027-eligible, not a big co)
+  Tier B -> the roles board only     (everything else that survives, incl. big-co roles)
+Every surviving role lands in roles.json, which the worker serves as the roles
+board (vigil.abhigya.workers.dev) with pay and an absolute found-at time.
 Curated company boards (Greenhouse/Lever/Ashby) get instant pushes from the
 Cloudflare Worker instead, so they're skipped here when SKIP_ATS is set.
 
@@ -17,6 +19,7 @@ Modes:
   python watch.py --once           single pass (GitHub Actions)
   python watch.py --dry            per-source/per-tier table, sends nothing
   python watch.py --explain <id>   full decision trace for one job id
+  python watch.py --backfill-board seed roles.json with every currently-open match
 
 Stdlib only.
 """
@@ -30,9 +33,11 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from hashlib import sha256
 from pathlib import Path
+
+import display
 
 ROOT = Path(__file__).parent
 UA = {"User-Agent": "vigil/2.0 (github.com/AbhigyaGoel/vigil)"}
@@ -51,9 +56,8 @@ def load_config():
 CFG = load_config()
 SEEN_PATH = ROOT / "seen.json"
 ENRICH_PATH = ROOT / "enrichment.json"
-PENDING_PATH = ROOT / "pending_tierb.json"
 STATE_PATH = ROOT / "state.json"
-REJECTS_PATH = ROOT / "rejects.json"
+ROLES_PATH = ROOT / "roles.json"   # the roles board (served by the worker)
 
 
 def rx(key, default=None):
@@ -75,6 +79,16 @@ DROP_CO = rx("drop_countries")
 # exclude_companies: wrap in word boundaries so 'axon' doesn't hit 'Axoni'.
 _eco = CFG.get("exclude_companies") or []
 EXCLUDE_CO = re.compile(r"\b(?:" + "|".join(_eco) + r")\b", re.I) if _eco else None
+# big_companies: established corporates. Their roles still land on the board but
+# never buzz the phone. Leading \b only, so 'samsung' also hits the
+# 'samsungsemiconductor' slug; entries that need a trailing boundary carry it.
+_big = CFG.get("big_companies") or []
+BIG_CO = re.compile(r"\b(?:" + "|".join(_big) + r")", re.I) if _big else None
+
+
+def is_bigco(company):
+    """Mirrors filters.mjs isBigCo (parity 'bigco')."""
+    return bool(BIG_CO and company and BIG_CO.search(company))
 
 # Curated priority: a hand-picked company's intern always DELIVERS, but only a
 # hardware/robotics-relevant title earns instant Tier A. A clearly off-target
@@ -336,10 +350,10 @@ _PAY_PREFIX = re.compile(
     r"(?:\s*(?:-|–|—|to)\s*\$?\s?(\d{1,3}(?:\.\d{1,2})?))?", re.I)
 
 
-def extract_pay(desc):
-    """Midpoint hourly $ from a stated range/single value, or None when no
-    hourly figure is found - ambiguous, never a drop reason on its own."""
-    m = _PAY_SUFFIX.search(desc) or _PAY_PREFIX.search(desc)
+def extract_pay_range(desc):
+    """(lo, hi) hourly $ from a stated range/single value, or None when no hourly
+    figure is found. Mirrors filters.mjs payRange."""
+    m = _PAY_SUFFIX.search(desc or "") or _PAY_PREFIX.search(desc or "")
     if not m:
         return None
     lo = float(m.group(1))
@@ -348,7 +362,13 @@ def extract_pay(desc):
         lo, hi = hi, lo
     if lo < 5 or lo > 250:  # sanity bounds - reject a non-hourly $ figure that slipped through
         return None
-    return (lo + hi) / 2
+    return lo, hi
+
+
+def extract_pay(desc):
+    """Midpoint hourly $, or None - ambiguous, never a drop reason on its own."""
+    r = extract_pay_range(desc)
+    return None if r is None else (r[0] + r[1]) / 2
 
 
 def extract_signals(desc):
@@ -366,6 +386,7 @@ def extract_signals(desc):
         "grad_only": bool(re.search(r"\b(ph\.?d|doctoral|master)", desc, re.I)
                           and not _HAS_BACH.search(desc)),
         "pay": extract_pay(desc),
+        "pay_range": extract_pay_range(desc),   # display only (the board + push body)
     }
 
 
@@ -477,11 +498,15 @@ def atom_feed(url):
 
 
 def greenhouse(slug):
-    for j in get_json(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true").get("jobs", []):
+    url = f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true&pay_transparency=true"
+    for j in get_json(url).get("jobs", []):
         yield {
             "id": f"gh:{slug}:{j['id']}", "company": slug, "title": j.get("title", ""),
             "location": (j.get("location") or {}).get("name", ""), "url": j.get("absolute_url", ""),
             "category": None, "terms": None, "posted": to_epoch(j.get("updated_at")),
+            "published": to_epoch(j.get("first_published")),
+            "display_name": j.get("company_name") or "",
+            "pay_struct": display.gh_pay(j.get("pay_input_ranges")),
             "src": "greenhouse", "policy": "curated", "desc": _HTML.sub(" ", j.get("content", "") or ""),
         }
 
@@ -492,16 +517,19 @@ def lever(slug):
             "id": f"lv:{slug}:{j['id']}", "company": slug, "title": j.get("text", ""),
             "location": (j.get("categories") or {}).get("location", ""), "url": j.get("hostedUrl", ""),
             "category": None, "terms": None, "posted": to_epoch(j.get("createdAt")),
+            "pay_struct": display.lever_pay(j.get("salaryRange")),
             "src": "lever", "policy": "curated", "desc": j.get("descriptionPlain", "") or "",
         }
 
 
 def ashby(slug):
-    for j in get_json(f"https://api.ashbyhq.com/posting-api/job-board/{slug}").get("jobs", []):
+    url = f"https://api.ashbyhq.com/posting-api/job-board/{slug}?includeCompensation=true"
+    for j in get_json(url).get("jobs", []):
         yield {
             "id": f"ab:{slug}:{j.get('id')}", "company": slug, "title": j.get("title", ""),
             "location": j.get("location", ""), "url": j.get("jobUrl", ""), "category": None,
             "terms": None, "posted": to_epoch(j.get("publishedAt") or j.get("updatedAt")),
+            "pay_struct": display.ashby_pay(j.get("compensation")),
             "src": "ashby", "policy": "curated", "desc": j.get("descriptionPlain", "") or "",
         }
 
@@ -799,6 +827,9 @@ def config_hash():
 
 # ---------------- notify ----------------
 
+BOARD_URL = CFG.get("board_url", "")
+
+
 def ntfy(title, body, click=None, priority="high"):
     topic = CFG.get("ntfy_topic", "")
     if not topic or topic.startswith("CHANGE-ME"):
@@ -807,20 +838,13 @@ def ntfy(title, body, click=None, priority="high"):
                "Priority": priority}
     if click:
         headers["Click"] = click
-        headers["Actions"] = f"view, Apply, {click}"
+        actions = [f"view, Apply, {click}"]
+        if BOARD_URL:
+            actions.append(f"view, All roles, {BOARD_URL}")
+        headers["Actions"] = "; ".join(actions)
     req = urllib.request.Request(f"https://ntfy.sh/{topic}", data=body.encode("utf-8"),
                                  headers=headers, method="POST")
     urllib.request.urlopen(req, timeout=20).read()
-
-
-def fmt_age(posted):
-    """'2d' / '5h', or '' when the source gave no real date (never fake a '0d')."""
-    if not posted:
-        return ""
-    secs = time.time() - posted
-    if secs < 0:
-        return ""
-    return f"{int(secs // 3600)}h" if secs < 86400 else f"{int(secs // 86400)}d"
 
 
 def fmt_season(terms):
@@ -832,61 +856,77 @@ def fmt_season(terms):
     return next((t for t in tlist if t in A_SEASONS), tlist[0])
 
 
-def push_role(job, priority="high"):
-    """One notification. Header = 'Company - Title' (never repeated in the body);
-    body = location + posted-age / season / score, omitting whatever's unknown."""
-    parts = []
-    age = fmt_age(job.get("posted"))
-    if age:
-        parts.append(f"Posted {age} ago")
-    season = fmt_season(job.get("terms"))
-    if season:
-        parts.append(season)
-    parts.append(f"score {job.get('score', 0)}")
-    body = (job.get("location") or "location n/a") + "\n" + " · ".join(parts)
-    ntfy(f"{job['company']} - {job['title']}", body, click=job["url"], priority=priority)
+_DISPLAY_NAMES = {k.lower(): v for k, v in (CFG.get("display_names") or {}).items()}
 
 
-def send_digest(roles):
-    """Tier B batch (4+ roles): one line each, hardest-hitting first, cap 25."""
-    roles = sorted(roles, key=lambda r: -r.get("score", 0))
-
-    def line(r):
-        bits = [r["company"], r["title"], r.get("location") or "?"]
-        age = fmt_age(r.get("posted"))
-        if age:
-            bits.append(age)
-        return " · ".join(bits)
-
-    lines = [line(r) for r in roles[:25]]
-    extra = f"\n+{len(roles) - 25} more" if len(roles) > 25 else ""
-    ntfy(f"{len(roles)} new hardware roles", "\n".join(lines) + extra, priority="low")
+def display_company(slug):
+    """'gecko-robotics' -> 'Gecko Robotics'; config display_names fixes the rest."""
+    if not slug:
+        return slug
+    named = _DISPLAY_NAMES.get(slug.lower())
+    if named:
+        return named
+    return " ".join(w[:1].upper() + w[1:] for w in re.split(r"[-_]+", slug) if w)
 
 
-def send_weekly_rejects(rejects, yld=None, since=None):
-    import random
-    by_rule = Counter(r["rule"] for r in rejects)
-    season = Counter(r.get("tag", "?") for r in rejects if r["rule"] == "season")
-    sample = random.sample(rejects, min(20, len(rejects))) if rejects else []
-    body = []
-    if yld:  # cumulative per-source scanned/A/B -> shows a source that never yields Tier A
-        body.append(f"Yield since {since or 'seed'} (scanned/A/B):")
-        body += [f"  {k}: {y['scanned']}/{y['A']}/{y['B']}" for k, y in sorted(yld.items())]
-        body.append("")
-    body.append("Drops by rule: " + ", ".join(f"{k}:{v}" for k, v in by_rule.most_common()))
-    if season:
-        body.append("Season drops by tag: " + ", ".join(f"{k}:{v}" for k, v in season.most_common()))
-    body.append("")
-    body += [f"[{r['rule']}] {r['company']}: {r['title'][:44]}" for r in sample]
-    ntfy(f"vigil weekly: {len(rejects)} rejects, yield report", "\n".join(body) or "no data",
-         priority="low")
+def role_pay(job, sig):
+    """Display pay: the ATS's structured range first, then a range parsed from the
+    description, then the cached midpoint (enrichment entries written before
+    pay_range existed). '' when nothing is stated."""
+    rng = job.get("pay_struct") or sig.get("pay_range")
+    if not rng and sig.get("pay"):
+        rng = (sig["pay"], sig["pay"])
+    return display.fmt_pay(tuple(rng) if rng else None)
+
+
+def push_role(rec, priority="high"):
+    """One notification: 'Company - Title' header, then location / pay + season /
+    absolute posted + found stamps (see display.push_body)."""
+    body = display.push_body(rec.get("location"), rec.get("pay"), rec.get("season"),
+                             rec.get("published") or rec.get("posted"), rec.get("found"))
+    ntfy(f"{rec['company']} - {rec['title']}", body, click=rec["url"], priority=priority)
+
+
+# ---------------- roles board ----------------
+# Every surviving role is kept here (pushed or not) so the board can show it.
+BOARD_KEEP_DAYS = 60
+BOARD_MAX = 3000
+
+
+def board_merge(board, recs):
+    """New list: recs (newest) ahead of the existing board, deduped by id, aged out
+    past BOARD_KEEP_DAYS, capped at BOARD_MAX."""
+    cutoff = time.time() - BOARD_KEEP_DAYS * 86400
+    out, have = [], set()
+    for r in list(recs) + list(board):
+        if r["id"] in have:
+            continue
+        if r.get("found") and r["found"] < cutoff:
+            continue
+        have.add(r["id"])
+        out.append(r)
+    return out[:BOARD_MAX]
 
 
 # ---------------- run ----------------
 
-def scan(seen, enrich, collect_rejects=False):
-    """Full pass. Returns (tier_a, tier_b, rejects, stats). Adds matched ids to seen."""
-    tier_a, tier_b, rejects = [], [], []
+def role_record(job, decision, score, enrich):
+    """What the push and the board need. found/delivery are stamped by the caller."""
+    company = job["company"]
+    if job.get("policy") == "curated":   # curated adapters carry the slug, not a name
+        company = (job.get("display_name") or "").strip() or display_company(company)
+    return {"id": job["id"], "company": company, "title": job["title"],
+            "location": job["location"], "url": job["url"], "score": score,
+            "tier": decision, "posted": job.get("posted", 0),
+            "published": job.get("published", 0), "terms": job.get("terms"),
+            "season": fmt_season(job.get("terms")),
+            "pay": role_pay(job, enrich.get(job["id"], {})),
+            "bigco": is_bigco(company) or is_bigco(job["company"])}
+
+
+def scan(seen, enrich):
+    """Full pass. Returns (tier_a, tier_b, stats). Adds matched ids to seen."""
+    tier_a, tier_b = [], []
     stats = defaultdict(lambda: {"scanned": 0, "A": 0, "B": 0, "drop": Counter()})
     skip_ats = bool(os.environ.get("SKIP_ATS"))  # worker owns the curated tier
     for fn, arg in build_plan():
@@ -907,29 +947,17 @@ def scan(seen, enrich, collect_rejects=False):
                     continue
                 if skip_ats and worker_owned(job):  # FIX B: worker already delivers this
                     src_stat["drop"]["curated_worker"] += 1
-                    if collect_rejects:
-                        rejects.append({"id": job["id"], "company": job["company"],
-                                        "title": job["title"], "rule": "curated_worker", "tag": ""})
                     continue
                 decision, val = classify(job, enrich)
                 if decision == "drop":
                     src_stat["drop"][val] += 1
-                    if collect_rejects:
-                        tag = ""
-                        t = job.get("terms")
-                        if val == "season":
-                            tag = (t[0] if isinstance(t, list) and t else (t or "title"))
-                        rejects.append({"id": job["id"], "company": job["company"],
-                                        "title": job["title"], "rule": val, "tag": tag})
                     continue
                 seen.add(job["id"])
                 if ck:
                     seen.add(ck)           # so the same role via another feed won't re-alert
                 if ck2:
                     seen.add(ck2)          # so a cross-domain mirror of this role won't re-alert
-                rec = {"id": job["id"], "company": job["company"], "title": job["title"],
-                       "location": job["location"], "url": job["url"], "score": val,
-                       "posted": job.get("posted", 0), "terms": job.get("terms")}
+                rec = role_record(job, decision, val, enrich)
                 if decision == "A":
                     src_stat["A"] += 1; tier_a.append(rec)
                 else:
@@ -938,7 +966,7 @@ def scan(seen, enrich, collect_rejects=False):
             print(f"WARN {name} -> {repr(e)[:90]}", file=sys.stderr)
         time.sleep(0.25)
     tier_a.sort(key=lambda r: -r["score"])
-    return tier_a, tier_b, rejects, stats
+    return tier_a, tier_b, stats
 
 
 def print_table(stats):
@@ -974,37 +1002,79 @@ def do_explain(job_id):
 
 
 def test_alert():
-    """Exercise the real delivery path in the real format: one Tier A push + one
-    Tier B digest (8 rows). Titles carry [TEST] so it can't be mistaken for real."""
-    day = 86400
-    a = {"company": "Nuro", "title": "[TEST] Embedded Systems Intern",
-         "location": "Mountain View, CA", "url": "https://github.com/AbhigyaGoel/vigil",
-         "score": 4, "posted": time.time() - 2 * day, "terms": ["Summer 2027"]}
-    push_role(a, "high")
-    print("sent Tier A test ->", a["title"])
-    rows = [("Zipline", "Perception Intern", 5, 1), ("Rivian", "Vehicle Controls Intern", 4, 3),
-            ("Nuro", "Embedded Systems Intern", 4, 2), ("Cobot", "Robotics Hardware Intern", 4, 0),
-            ("Skydio", "Firmware Intern", 3, 5), ("1X", "Mechatronics Intern", 3, 4),
-            ("Physical Intelligence", "Controls Intern", 3, 7), ("Figure", "Sensor Fusion Intern", 3, 6)]
-    roles = [{"company": c, "title": f"[TEST] {t}", "location": "South San Francisco, CA",
-              "url": f"https://github.com/AbhigyaGoel/vigil#{i}", "score": s,
-              "posted": (time.time() - d * day) if d else 0, "terms": None}
-             for i, (c, t, s, d) in enumerate(rows)]
-    send_digest(roles)
-    print(f"sent Tier B digest -> {len(roles)} rows")
+    """Exercise the real delivery path in the real format. The title carries
+    [TEST] so it can't be mistaken for a real role."""
+    rec = {"company": "Bedrock Robotics", "title": "[TEST] Embedded Systems Intern",
+           "location": "San Francisco, CA", "url": "https://github.com/AbhigyaGoel/vigil",
+           "pay": display.fmt_pay((40, 48)), "season": "Summer 2027",
+           "published": time.time() - 2 * 86400, "found": time.time()}
+    push_role(rec, "high")
+    print("sent test push ->", rec["title"])
+
+
+def deliver(tier_a, tier_b, now):
+    """Decide what buzzes the phone. Everything else is board-only.
+      push high : Tier A at a non-big company
+      push low  : Tier B at a non-big company that scored target-grade but missed
+                  Tier A only on AMBIGUOUS geo/season (e.g. a scraped row with no
+                  location) - it shouldn't hide on the board
+      board     : big-company roles, and the rest of Tier B
+    Returns the records stamped with found + delivery, ready for the board."""
+    cap = CFG.get("max_alerts_per_run", 25)
+    prompt_bar = CFG.get("tierb_prompt_score", 3)
+    out, sent = [], 0
+    for r in tier_a + sorted(tier_b, key=lambda x: -x.get("score", 0)):
+        r = {**r, "found": now}
+        if r["bigco"]:
+            r["delivery"] = "board"
+        elif r["tier"] == "A":
+            r["delivery"] = "high"
+        elif r.get("score", 0) >= prompt_bar:
+            r["delivery"] = "low"
+        else:
+            r["delivery"] = "board"
+        if r["delivery"] != "board":
+            if sent >= cap:
+                print(f"WARN push cap {cap} hit; {r['company']} | {r['title']} board-only",
+                      file=sys.stderr)
+                r["delivery"] = "board"
+            else:
+                try:
+                    push_role(r, r["delivery"])
+                    sent += 1
+                    print(f"PING-{r['delivery']}", r["company"], "|", r["title"])
+                except Exception as e:
+                    print("WARN push", repr(e)[:70], file=sys.stderr)
+        out.append(r)
+    return out
+
+
+def backfill_board():
+    """Seed roles.json with every currently-open match (found=0: 'before tracking').
+    Run locally once without SKIP_ATS so the curated boards are included too."""
+    global ENRICH_FETCH
+    ENRICH_FETCH = False
+    tier_a, tier_b, stats = scan(set(), _load(ENRICH_PATH, {}))
+    recs = [{**r, "found": 0, "delivery": "board"} for r in tier_a + tier_b]
+    board = board_merge(_load(ROLES_PATH, []), recs)
+    ROLES_PATH.write_text(json.dumps(board, indent=0), encoding="utf-8")
+    print_table(stats)
+    print(f"board: {len(board)} roles ({sum(not r['bigco'] for r in board)} non-big-co)")
 
 
 def main():
     global ENRICH_FETCH
     if "--test-alert" in sys.argv:
         return test_alert()
+    if "--backfill-board" in sys.argv:
+        return backfill_board()
     if "--explain" in sys.argv:
         i = sys.argv.index("--explain")
         return do_explain(sys.argv[i + 1])
 
     if "--dry" in sys.argv:
         ENRICH_FETCH = False  # title-only for speed; no employer-site fetching
-        _, _, _, stats = scan(set(), _load(ENRICH_PATH, {}), collect_rejects=False)
+        _, _, stats = scan(set(), _load(ENRICH_PATH, {}))
         print_table(stats)
         return
 
@@ -1014,79 +1084,32 @@ def main():
     cur_hash = config_hash()
     reseed = state.get("config_hash") != cur_hash
     seen = set() if reseed else set(_load(SEEN_PATH, []))
-    pending = {} if reseed else {k: v for k, v in _load(PENDING_PATH, {}).items()}
     first_run = reseed or not seen
     ENRICH_FETCH = not first_run  # skip the expensive description fetch on the silent seed
     ENRICH_BUDGET[0] = CFG.get("enrich_budget", 60)
 
-    tier_a, tier_b, rejects, stats = scan(seen, enrich, collect_rejects=not first_run)
+    tier_a, tier_b, stats = scan(seen, enrich)
 
     now = datetime.now(timezone.utc)
-    today, week = now.strftime("%Y-%m-%d"), now.strftime("%Y-W%W")
-    # yield PERSISTS across reseeds - the probation metric must survive LOGIC_VERSION bumps
+    # yield PERSISTS across reseeds (kept in state for --dry style debugging; never pushed)
     yld = state.get("yield", {})
-    state.setdefault("yield_since", today)
+    state.setdefault("yield_since", now.strftime("%Y-%m-%d"))
     for k, s in stats.items():
         y = yld.setdefault(k, {"scanned": 0, "A": 0, "B": 0})
         y["scanned"] += s["scanned"]; y["A"] += s["A"]; y["B"] += s["B"]
     state["yield"] = yld
 
+    board = _load(ROLES_PATH, [])
     if first_run:
-        for r in tier_a:
-            pending.pop(r["id"], None)  # seed silently, no pushes
+        # Seed silently: nothing pushes, but the roles still belong on the board.
+        recs = [{**r, "found": 0, "delivery": "board"} for r in tier_a + tier_b]
         print(f"SEEDED{' (config changed)' if reseed else ''}. "
               f"tracking {len(seen)}, {len(tier_a)} A + {len(tier_b)} B suppressed.")
     else:
-        cap = CFG.get("max_alerts_per_run", 25)
-        for r in tier_a[:cap]:
-            try:
-                push_role(r, "high")
-                print("PING-A", r["company"], "|", r["title"])
-            except Exception as e:
-                print("WARN push", repr(e)[:70], file=sys.stderr)
-        if len(tier_a) > cap:
-            print(f"WARN capped Tier A at {cap} (had {len(tier_a)})", file=sys.stderr)
-        # Tier B split: a target-grade role (score>=prompt_bar) is only in Tier B
-        # because geo/season is AMBIGUOUS (e.g. a scraped row with no location, like
-        # Warp's robotics intern) - it shouldn't sit behind the hourly batch. Push it
-        # NOW at low priority; the genuinely low-value remainder still batches.
-        prompt_bar = CFG.get("tierb_prompt_score", 3)
-        prompt_b = [r for r in tier_b if r.get("score", 0) >= prompt_bar]
-        rest_b = [r for r in tier_b if r.get("score", 0) < prompt_bar]
-        for r in sorted(prompt_b, key=lambda x: -x.get("score", 0))[:cap]:
-            try:
-                push_role(r, "low")
-                print("PING-B*", r["company"], "|", r["title"], f"(score {r.get('score')})")
-            except Exception as e:
-                print("WARN push", repr(e)[:70], file=sys.stderr)
-        for r in rest_b:
-            pending[r["id"]] = r
-        print(f"{len(tier_a)} Tier A pushed, {len(prompt_b)} high-score Tier B pushed now, "
-              f"{len(rest_b)} batched ({len(pending)} pending).")
-
-    # Tier B: at most once per hour, and only when there's something new (never an
-    # empty digest). 1-3 roles go out as individual low-priority notifications so each
-    # keeps its own Apply button; 4+ batch into a single low-priority list.
-    if not first_run:
-        if pending and time.time() - state.get("last_digest", 0) >= 3600:
-            roles = list(pending.values())
-            try:
-                if len(roles) <= 3:
-                    for r in sorted(roles, key=lambda x: -x.get("score", 0)):
-                        push_role(r, "low")
-                    print(f"Tier B: {len(roles)} sent individually")
-                else:
-                    send_digest(roles); print(f"Tier B digest: {len(roles)}")
-                pending = {}; state["last_digest"] = time.time()
-            except Exception as e:
-                print("WARN digest", repr(e)[:70], file=sys.stderr)
-        h = CFG.get("digest_hour_utc", 13)
-        if (state.get("last_weekly") != week and now.weekday() >= CFG.get("weekly_day", 0)
-                and now.hour >= h):
-            try:
-                send_weekly_rejects(rejects, yld, state.get("yield_since")); state["last_weekly"] = week
-            except Exception as e:
-                print("WARN weekly", repr(e)[:70], file=sys.stderr)
+        recs = deliver(tier_a, tier_b, time.time())
+        print(f"{len(tier_a)} Tier A + {len(tier_b)} Tier B new; "
+              f"{sum(r['delivery'] != 'board' for r in recs)} pushed, rest on the board.")
+    board = board_merge(board, recs)
 
     # season-rate anomaly WARN: fire only on a sharp jump vs the trailing average,
     # so a steady 98% August doesn't cry wolf but an upstream tagging shift does.
@@ -1107,11 +1130,12 @@ def main():
 
     # persist
     state["config_hash"] = cur_hash
+    for stale in ("last_digest", "last_weekly", "last_daily"):   # digests are gone
+        state.pop(stale, None)
     SEEN_PATH.write_text(json.dumps(sorted(seen), indent=0), encoding="utf-8")
-    PENDING_PATH.write_text(json.dumps(pending, indent=0), encoding="utf-8")
     STATE_PATH.write_text(json.dumps(state, indent=0), encoding="utf-8")
     ENRICH_PATH.write_text(json.dumps(enrich, indent=0), encoding="utf-8")
-    REJECTS_PATH.write_text(json.dumps(rejects, indent=0), encoding="utf-8")  # current-run snapshot
+    ROLES_PATH.write_text(json.dumps(board, indent=0), encoding="utf-8")
     print_table(stats)
 
 

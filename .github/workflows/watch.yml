@@ -19,9 +19,12 @@ permissions:
 jobs:
   watch:
     runs-on: ubuntu-latest
+    # A run takes ~1-2 min. Without a cap a hung source fetch holds the
+    # concurrency slot for GitHub's 6h default and every dispatch queues behind it.
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
@@ -33,11 +36,22 @@ jobs:
           # instant tier, so the same role doesn't alert from both systems.
           SKIP_ATS: ${{ vars.SKIP_ATS }}
 
-      - name: Commit seen.json (the dedupe memory)
+      # Pushes already went out, so losing this commit means the next run re-sends
+      # them. GitHub's git backend intermittently 500s ("fatal error in
+      # commit_refs"); retry with backoff, rebasing onto whatever landed meanwhile.
+      # In a rebase, -X theirs keeps THIS run's version of a conflicting file: only
+      # Actions writes the state files and runs are serialized, so this run's copy
+      # is the newest.
+      - name: Commit state (dedupe memory + roles board)
         run: |
           git config user.name "vigil"
           git config user.email "actions@github.com"
-          git pull --rebase --autostash || true
-          git add seen.json enrichment.json pending_tierb.json state.json rejects.json
-          git diff --staged --quiet || git commit -m "state: $(date -u +%FT%TZ)"
-          git push
+          git add seen.json enrichment.json state.json roles.json
+          git diff --staged --quiet && exit 0
+          git commit -q -m "state: $(date -u +%FT%TZ)"
+          for attempt in 1 2 3 4 5; do
+            git pull -q --rebase -X theirs && git push -q && exit 0
+            echo "push attempt $attempt failed; retrying"
+            sleep $((attempt * 10))
+          done
+          exit 1

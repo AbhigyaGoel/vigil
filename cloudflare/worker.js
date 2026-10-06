@@ -3,9 +3,11 @@
  *
  * Polls the CURATED company boards (Greenhouse / Lever / Ashby) every minute and
  * instant-pushes new intern roles to ntfy. Curated = hand-picked companies, so
- * there is NO include_keywords GATE (a vague "Engineering Intern" is still wanted);
- * relevance only sets PRIORITY - hardware/robotics titles push high, clearly
- * off-target ones (IT/generic-SWE/ML/biomed w/ no hardware signal) push low.
+ * there is NO include_keywords GATE (a vague "Engineering Intern" is still wanted).
+ * Only hardware/robotics-relevant roles at non-big companies buzz the phone; the
+ * rest (off-target functions, big-co roles, mid-band pay on a weak fit) go to the
+ * roles board only. The board is served by fetch() below and merges this worker's
+ * finds (KV) with watch.py's roles.json from the repo.
  * Filtering (intern gate, excludes, title-season drop, geography) + the relevance
  * split are shared with watch.py via filters.mjs so the two can't drift - see parity.
  *
@@ -14,7 +16,9 @@
  * so bump the suffix to force a silent reseed after a filter-behavior change.
  */
 
-import { makeFilters, curatedTitlePass, hardMismatch, curatedRelevant, payDrop, payMidbandWeak } from "./filters.mjs";
+import { makeFilters, curatedTitlePass, hardMismatch, curatedRelevant, payDrop, payMidbandWeak, payRange, isBigCo } from "./filters.mjs";
+import { ghPay, leverPay, ashbyPay, fmtPay, fmtDate, fmtFound, pushBody, displayCompany } from "./display.mjs";
+import { renderBoard } from "./board.mjs";
 
 // GROUPS=1: on Workers Paid (see wrangler.toml [limits] cpu_ms) every board is
 // polled every minute in one parallel pass, so posting-to-phone latency is ~1-2
@@ -24,6 +28,11 @@ const GROUPS = 1;
 const SUBREQUEST_CAP = 1000;   // Workers Paid per-invocation subrequest limit (Free = 50)
 const UA = { "User-Agent": "vigil/2.1 (github.com/AbhigyaGoel/vigil)" };
 let cfgCache = { at: 0, cfg: null };
+let rolesCache = { at: 0, rows: [] };
+const BOARD_KEY = "board_v1";
+const BOARD_MAX = 800;              // worker-side finds; watch.py's roles.json holds the rest
+const BOARD_KEEP_SEC = 60 * 86400;
+const BOARDS_KNOWN_KEY = "boards_known_v1";
 
 async function getConfig(env) {
   if (cfgCache.cfg && Date.now() - cfgCache.at < 300_000) return cfgCache.cfg;
@@ -84,49 +93,101 @@ async function gj(url) {
 }
 const toMs = (v) => (v ? (typeof v === "number" ? (v > 1e12 ? v : v * 1000) : Date.parse(v) || 0) : 0);
 
-async function fetchBoard(b) {
+// `company` stays the slug (filters match on it); `name` is what the user reads.
+// payStruct is the ATS's structured pay range (display only).
+async function fetchBoard(b, names) {
   if (b.kind === "gh") {
-    const d = await gj(`https://boards-api.greenhouse.io/v1/boards/${b.slug}/jobs`);
+    const d = await gj(`https://boards-api.greenhouse.io/v1/boards/${b.slug}/jobs?pay_transparency=true`);
     return (d.jobs || []).map((j) => ({
-      id: `gh:${b.slug}:${j.id}`, company: b.slug, title: j.title || "",
-      location: (j.location || {}).name || "", url: j.absolute_url || "", posted: toMs(j.updated_at),
+      id: `gh:${b.slug}:${j.id}`, company: b.slug, name: (j.company_name || "").trim() || displayCompany(b.slug, names),
+      title: j.title || "", location: (j.location || {}).name || "", url: j.absolute_url || "",
+      posted: toMs(j.updated_at), published: toMs(j.first_published), payStruct: ghPay(j.pay_input_ranges),
       detail: `https://boards-api.greenhouse.io/v1/boards/${b.slug}/jobs/${j.id}`,  // per-job desc
     }));
   }
   if (b.kind === "lv") {
     const d = await gj(`https://api.lever.co/v0/postings/${b.slug}?mode=json`);
     return d.map((j) => ({
-      id: `lv:${b.slug}:${j.id}`, company: b.slug, title: j.text || "",
+      id: `lv:${b.slug}:${j.id}`, company: b.slug, name: displayCompany(b.slug, names), title: j.text || "",
       location: (j.categories || {}).location || "", url: j.hostedUrl || "", posted: toMs(j.createdAt),
+      payStruct: leverPay(j.salaryRange),
       desc: j.descriptionPlain || "",   // free in the board pull -> enables grad/degree demotion
     }));
   }
-  const d = await gj(`https://api.ashbyhq.com/posting-api/job-board/${b.slug}`);
+  const d = await gj(`https://api.ashbyhq.com/posting-api/job-board/${b.slug}?includeCompensation=true`);
   return (d.jobs || []).map((j) => ({
-    id: `ab:${b.slug}:${j.id}`, company: b.slug, title: j.title || "",
+    id: `ab:${b.slug}:${j.id}`, company: b.slug, name: displayCompany(b.slug, names), title: j.title || "",
     location: j.location || "", url: j.jobUrl || "", posted: toMs(j.publishedAt || j.updatedAt),
+    payStruct: ashbyPay(j.compensation),
     desc: j.descriptionPlain || "",   // free in the board pull -> enables grad/degree demotion
   }));
 }
 
-function ageStr(posted) {
-  if (!posted) return "";                 // omit age rather than fake "0d"
-  const secs = (Date.now() - posted) / 1000;
-  if (secs < 0) return "";
-  return secs < 86400 ? `${Math.floor(secs / 3600)}h` : `${Math.floor(secs / 86400)}d`;
+// One board/push record. Times are epoch SECONDS (same as watch.py's roles.json).
+function roleRecord(job, f, delivery, nowSec) {
+  return {
+    id: job.id, company: job.name || job.company, title: job.title, location: job.location || "",
+    url: job.url, pay: fmtPay(job.payStruct || payRange(job.desc || "")), season: "",
+    posted: Math.floor((job.posted || 0) / 1000), published: Math.floor((job.published || 0) / 1000),
+    found: nowSec, delivery, bigco: isBigCo(job.company, f) || isBigCo(job.name, f),
+  };
 }
 
-async function ntfy(env, job, priority = "high") {
+async function ntfy(env, rec, priority, boardUrl) {
   if (!env.NTFY_TOPIC) return;
-  const age = ageStr(job.posted);
-  const body = (job.location || "location n/a") + (age ? `\nPosted ${age} ago` : "");
+  const body = pushBody(rec.location, rec.pay, rec.season, rec.published || rec.posted, rec.found);
+  const actions = [`view, Apply, ${rec.url}`];
+  if (boardUrl) actions.push(`view, All roles, ${boardUrl}`);
   await fetch(`https://ntfy.sh/${env.NTFY_TOPIC}`, {
     method: "POST",
     body,   // header (company - title) is NOT repeated here
     headers: {
-      ...UA, Title: `${job.company} - ${job.title}`.slice(0, 140).replace(/[^\x20-\x7e]/g, ""),
-      Priority: priority, Click: job.url, Actions: `view, Apply, ${job.url}`,
+      ...UA, Title: `${rec.company} - ${rec.title}`.slice(0, 140).replace(/[^\x20-\x7e]/g, ""),
+      Priority: priority, Click: rec.url, Actions: actions.join("; "),
     },
+  });
+}
+
+// Prepend new rows to this worker's KV board. Backfilled rows (found=0) are kept
+// until the cap pushes them out; stamped rows age out after BOARD_KEEP_SEC.
+async function addToBoard(env, recs, nowSec) {
+  const board = JSON.parse((await env.SEEN.get(BOARD_KEY)) || "[]");
+  const ids = new Set(recs.map((r) => r.id));
+  const kept = board.filter((r) => !ids.has(r.id) && (!r.found || r.found >= nowSec - BOARD_KEEP_SEC));
+  await env.SEEN.put(BOARD_KEY, JSON.stringify([...recs, ...kept].slice(0, BOARD_MAX)));
+}
+
+// Board rows from both producers: this worker's KV finds + watch.py's roles.json.
+async function loadBoard(env) {
+  const mine = JSON.parse((await env.SEEN.get(BOARD_KEY)) || "[]");
+  if (Date.now() - rolesCache.at > 60_000) {
+    const url = (env.CONFIG_URL || "https://raw.githubusercontent.com/AbhigyaGoel/vigil/master/config.json")
+      .replace(/config\.json$/, "roles.json");
+    try {
+      const r = await fetch(url, { headers: UA, cf: { cacheTtl: 60 } });
+      if (r.ok) rolesCache = { at: Date.now(), rows: await r.json() };
+      else console.log(`WARN roles.json -> HTTP ${r.status}`);
+    } catch (e) {
+      console.log(`WARN roles.json -> ${e.message}`);
+    }
+  }
+  const byId = new Map();
+  for (const r of [...mine, ...rolesCache.rows]) {
+    const have = byId.get(r.id);
+    if (!have || (!have.found && r.found)) byId.set(r.id, r);   // a real found stamp beats a backfill
+  }
+  const rows = [...byId.values()].sort((a, b) =>
+    (b.found || 0) - (a.found || 0) || (b.published || b.posted || 0) - (a.published || a.posted || 0));
+  const nowSec = Date.now() / 1000;
+  const today = fmtDate(nowSec), yday = fmtDate(nowSec - 86400);
+  return rows.map((r) => {
+    const d = r.found ? fmtDate(r.found) : "";
+    return {
+      id: r.id, company: r.company, title: r.title, location: r.location || "", url: r.url,
+      pay: r.pay || "", season: r.season || "", bigco: !!r.bigco, delivery: r.delivery || "board",
+      found: r.found || 0, foundStr: fmtFound(r.found), postedStr: fmtDate(r.published || r.posted),
+      day: !d ? "Found before tracking started" : d === today ? "Today" : d === yday ? "Yesterday" : d,
+    };
   });
 }
 
@@ -151,11 +212,11 @@ export default {
     // board can't sink the run - each rejection is isolated to an empty result.
     const pulls = await Promise.all(
       boards.map((b) =>
-        fetchBoard(b)
-          .then((jobs) => ({ b, jobs }))
+        fetchBoard(b, cfg.display_names)
+          .then((jobs) => ({ b, jobs, ok: true }))
           .catch((e) => {
             console.log(`WARN ${b.kind}:${b.slug} -> ${e.message}`);
-            return { b, jobs: [] };
+            return { b, jobs: [], ok: false };
           })
       )
     );
@@ -164,12 +225,31 @@ export default {
     // GH grad-check detail fetches share the per-invocation subrequest budget with
     // the board pulls (already spent) and the ntfy sends (cap + headroom).
     let ghBudget = Math.max(0, SUBREQUEST_CAP - boards.length - cap - 5);
+
+    // A board added to config.json must not dump its whole open backlog on the
+    // phone. The first successful pull of an unknown board seeds it silently: its
+    // current roles go straight to the board page ("found before tracking").
+    // Bootstrap (no list yet): a board already seeded before has ids in `seen`.
+    const knownRaw = await env.SEEN.get(BOARDS_KNOWN_KEY);
+    const known = new Set(knownRaw ? JSON.parse(knownRaw) : pulls
+      .filter(({ jobs }) => jobs.some((j) => seen.has(j.id))).map(({ b }) => `${b.kind}:${b.slug}`));
+    let knownDirty = !knownRaw;
+    const backfill = [];
+
     const candidates = [];
-    for (const { jobs } of pulls) {
+    for (const { b, jobs, ok } of pulls) {
+      const key = `${b.kind}:${b.slug}`;
+      const fresh = ok && !known.has(key);
+      if (fresh) { known.add(key); knownDirty = true; }
       for (const job of jobs) {
         if (seen.has(job.id)) continue;
         if (job.posted && Date.now() - job.posted > maxAgeMs) continue;
         if (!curatedTitlePass(job, f)) continue;   // intern + excludes + season + US (cheap)
+        if (fresh) {
+          seen.add(job.id);
+          backfill.push(roleRecord(job, f, "board", 0));
+          continue;
+        }
         // grad/degree demotion: Lever/Ashby carry desc inline; Greenhouse needs a
         // per-job fetch, but only for a role about to be pushed (0-2/run).
         let desc = job.desc || "";
@@ -186,43 +266,65 @@ export default {
       }
     }
 
-    let dirty = false;
+    let dirty = backfill.length > 0;
+    if (backfill.length) console.log(`NEW BOARDS seeded silently: ${backfill.length} roles -> board`);
+    if (knownDirty) await env.SEEN.put(BOARDS_KNOWN_KEY, JSON.stringify([...known]));
     if (seeding) {
       // First run for this bucket: suppress everything currently open (no alert flood).
       for (const j of candidates) seen.add(j.id);
-      dirty = candidates.length > 0;
+      dirty = dirty || candidates.length > 0;   // keep any new-board backfill ids too
       await env.SEEN.put(seedKey, new Date().toISOString());
       console.log(`SEEDED bucket ${bucket}: ${seen.size} tracked`);
     } else if (candidates.length) {
       // Push up to the per-run cap, and mark ONLY what we actually pushed as seen so
       // any overflow re-surfaces next minute instead of being silently swallowed.
       const push = candidates.slice(0, cap);
-      // Hardware/robotics-relevant -> high-priority instant; clearly off-target
-      // (IT, generic SWE, ML, biomed with no hardware signal) -> low-priority so it
-      // still lands but doesn't buzz. Mirrors watch.py's curated Tier-A/B split.
-      // Mid-band pay with no explicit hardware keyword hit also caps at low-priority.
+      // Buzz the phone only for hardware/robotics-relevant roles at non-big
+      // companies. Off-target functions (IT, generic SWE, ML, biomed with no
+      // hardware signal), mid-band pay on a weak fit, and big-co roles go to the
+      // board only. Mirrors watch.py deliver().
+      const nowSec = Math.floor(Date.now() / 1000);
+      const boardAdds = [];
       for (const j of push) {
-        const relevant = curatedRelevant(j, f) && !payMidbandWeak(j, j.desc, cfg, f);
-        await ntfy(env, j, relevant ? "high" : "low");
+        const big = isBigCo(j.company, f) || isBigCo(j.name, f);
+        const buzz = !big && curatedRelevant(j, f) && !payMidbandWeak(j, j.desc, cfg, f);
+        const rec = roleRecord(j, f, buzz ? "high" : "board", nowSec);
+        if (buzz) await ntfy(env, rec, "high", cfg.board_url);
+        boardAdds.push(rec);
         seen.add(j.id);
       }
-      dirty = push.length > 0;
+      dirty = true;
+      await addToBoard(env, [...boardAdds, ...backfill], nowSec);
       if (candidates.length > cap)
         console.log(`WARN ${candidates.length} new > cap ${cap}; ${candidates.length - cap} deferred to next run`);
-      console.log(`PING x${push.length}: ${push.map((j) => j.title).join(" | ")}`);
+      console.log(`NEW x${push.length} (${boardAdds.filter((r) => r.delivery === "high").length} pushed): ${push.map((j) => j.title).join(" | ")}`);
+    }
+    if (backfill.length && !(candidates.length && !seeding)) {
+      await addToBoard(env, backfill, Math.floor(Date.now() / 1000));
     }
     if (dirty) await env.SEEN.put("seen_v4", JSON.stringify([...seen]));
   },
 
   async fetch(req, env) {
-    if (new URL(req.url).searchParams.has("test")) {   // exercise the worker's push path
-      const job = { company: "Figure", title: "[TEST] Hardware Test Intern (worker)",
-        location: "Sunnyvale, CA", url: "https://github.com/AbhigyaGoel/vigil" };
-      await ntfy(env, job);
-      return new Response(`worker test push sent: ${job.title} -> ${job.url}\n`);
+    const url = new URL(req.url);
+    const cfg = await getConfig(env);
+    if (url.searchParams.has("test")) {   // exercise the worker's push path
+      const nowSec = Math.floor(Date.now() / 1000);
+      const rec = { company: "Figure", title: "[TEST] Hardware Test Intern (worker)",
+        location: "Sunnyvale, CA", url: "https://github.com/AbhigyaGoel/vigil", pay: fmtPay([38, 45]),
+        season: "Summer 2027", posted: nowSec - 3 * 86400, found: nowSec };
+      await ntfy(env, rec, "high", cfg.board_url);
+      return new Response(`worker test push sent: ${rec.title} -> ${rec.url}\n`);
     }
-    const n = JSON.parse((await env.SEEN.get("seen_v4")) || "[]").length;
-    return new Response(`vigil instant tier (curated boards): alive, tracking ${n}.\n`,
-      { headers: { "Content-Type": "text/plain" } });
+    if (url.pathname !== "/" && url.pathname !== "/roles.json") {
+      return new Response("not found\n", { status: 404 });
+    }
+    const rows = await loadBoard(env);
+    if (url.pathname === "/roles.json") {
+      return new Response(JSON.stringify(rows), { headers: { "Content-Type": "application/json" } });
+    }
+    return new Response(renderBoard(rows, fmtFound(Date.now() / 1000)), {
+      headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" },
+    });
   },
 };

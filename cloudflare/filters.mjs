@@ -35,8 +35,13 @@ export function makeFilters(cfg) {
   const excludeCo = cfg.exclude_companies && cfg.exclude_companies.length
     ? new RegExp("\\b(?:" + cfg.exclude_companies.join("|") + ")\\b", "i") : null;
 
+  // Leading \b only (mirrors watch.py BIG_CO) so 'samsung' hits 'samsungsemiconductor'.
+  const bigCo = cfg.big_companies && cfg.big_companies.length
+    ? new RegExp("\\b(?:" + cfg.big_companies.join("|") + ")", "i") : null;
+
   return {
     geo,
+    bigCo,
     seasonDrop: (title) => !!(seasonRe && seasonRe.test(title || "")),
     exclude: rx(cfg.exclude_keywords),
     excludeCo,
@@ -64,7 +69,7 @@ export function curatedRelevant(job, f) {
 // $34"). No match -> null, never a drop reason on its own.
 const PAY_SUFFIX = /\$\s?(\d{1,3}(?:\.\d{1,2})?)(?:\s*(?:-|–|—|to)\s*\$?\s?(\d{1,3}(?:\.\d{1,2})?))?\s*(?:\/\s*(?:hr|hour)\b|per\s+hour\b|(?:an|\/)\s*hour\b|hourly\b)/i;
 const PAY_PREFIX = /(?:hourly\s*(?:rate|pay|wage)|pay\s*rate)\D{0,40}\$\s?(\d{1,3}(?:\.\d{1,2})?)(?:\s*(?:-|–|—|to)\s*\$?\s?(\d{1,3}(?:\.\d{1,2})?))?/i;
-export function extractPay(desc) {
+export function payRange(desc) {
   if (!desc) return null;
   const m = desc.match(PAY_SUFFIX) || desc.match(PAY_PREFIX);
   if (!m) return null;
@@ -72,7 +77,16 @@ export function extractPay(desc) {
   let hi = m[2] ? parseFloat(m[2]) : lo;
   if (hi < lo) [lo, hi] = [hi, lo];
   if (lo < 5 || lo > 250) return null;  // sanity bounds - reject a non-hourly $ figure
-  return (lo + hi) / 2;
+  return [lo, hi];
+}
+export function extractPay(desc) {
+  const r = payRange(desc);
+  return r ? (r[0] + r[1]) / 2 : null;
+}
+
+// Established corporate: board-only, never a phone push. Mirrors watch.py is_bigco.
+export function isBigCo(company, f) {
+  return !!(f.bigCo && company && f.bigCo.test(company));
 }
 // Hard drop: pay stated below the floor. Mirrors watch.py's pay_floor_hourly rule.
 export function payDrop(desc, cfg) {

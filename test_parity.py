@@ -10,12 +10,15 @@ import subprocess
 import sys
 from pathlib import Path
 
+import display
 import watch
 
 ROOT = Path(__file__).parent
 cases = json.loads((ROOT / "cloudflare" / "parity_cases.json").read_text())
 fixture_total = (len(cases["geo"]) + len(cases["season"]) + len(cases["curated"])
-                 + len(cases["grad"]) + len(cases["relevance"]) + len(cases["pay"]))
+                 + len(cases["grad"]) + len(cases["relevance"]) + len(cases["pay"])
+                 + len(cases["bigco"]) + len(cases["paydisplay"]) + len(cases["structpay"])
+                 + len(cases["stamp"]))
 
 fail, ran = 0, 0
 for c in cases["geo"]:
@@ -50,6 +53,27 @@ for c in cases["pay"]:
     got = watch.extract_pay(c["desc"])
     if got != c["expect"]:
         fail += 1; print(f"PY PAY FAIL {c['desc']!r} -> {got} (want {c['expect']})")
+
+for c in cases["bigco"]:
+    ran += 1
+    if watch.is_bigco(c["company"]) != c["expect"]:
+        fail += 1; print(f"PY BIGCO FAIL {c['company']!r} (want {c['expect']})")
+for c in cases["paydisplay"]:
+    ran += 1
+    got = display.fmt_pay(tuple(c["range"]) if c["range"] else None)
+    if got != c["expect"]:
+        fail += 1; print(f"PY PAYDISPLAY FAIL {c['range']} -> {got!r} (want {c['expect']!r})")
+STRUCT = {"gh": display.gh_pay, "lv": display.lever_pay, "ab": display.ashby_pay}
+for c in cases["structpay"]:
+    ran += 1
+    got = display.fmt_pay(STRUCT[c["kind"]](c["raw"]))
+    if got != c["expect"]:
+        fail += 1; print(f"PY STRUCTPAY FAIL {c['kind']} -> {got!r} (want {c['expect']!r})")
+for c in cases["stamp"]:
+    ran += 1
+    d, fo = display.fmt_date(c["epoch"]), display.fmt_found(c["epoch"])
+    if (d, fo) != (c["date"], c["found"]):
+        fail += 1; print(f"PY STAMP FAIL {c['epoch']} -> {d} | {fo} (want {c['date']} | {c['found']})")
 
 if ran != fixture_total:
     fail += 1; print(f"PY DID NOT RUN ALL CASES: ran {ran} of {fixture_total}")
