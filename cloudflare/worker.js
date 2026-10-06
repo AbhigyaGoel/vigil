@@ -204,7 +204,10 @@ export default {
     ctx.waitUntil(maybeDispatchActions(env));
     const cfg = await getConfig(env);
     const f = makeFilters(cfg);
-    const maxAgeMs = (cfg.max_age_days || 21) * 86_400_000;
+    // No posting-age cutoff here: `seen` already stops repeats, and a still-open
+    // role at a curated company is worth applying to however old it is. An age
+    // gate silently skipped roles that became eligible late (a filter fix, a newly
+    // added board) - e.g. a 30-day-old Fab2 internship was never pushed.
     const cap = cfg.max_alerts_per_run || 25;
 
     const bucket = Math.floor(Date.now() / 60_000) % GROUPS;
@@ -252,7 +255,6 @@ export default {
       const silent = fresh && !knownRaw;
       for (const job of jobs) {
         if (seen.has(job.id)) continue;
-        if (job.posted && Date.now() - job.posted > maxAgeMs) continue;
         if (!curatedTitlePass(job, f)) continue;   // intern + excludes + season + US (cheap)
         if (silent) {
           seen.add(job.id);
