@@ -13,16 +13,16 @@ at a hand-picked company is wanted); bulk/aggregator sources require keywords.
 
 Every role is filtered (season, geography, seniority, defense), then **scored**
 hardware-first (hardware +4, robotics-software/perception/CV +3, wrong-skill -2).
-Only the roles worth a buzz reach the phone; everything else waits on the board:
+Every relevant role is pushed; company size only sets how loud:
 
-- **Push** - a strong-fit US role (Tier A) at a company that is NOT on the
-  `big_companies` list -> instant ntfy notification. A strong-fit role that
-  missed Tier A only because its location or season is unclear pushes quietly
-  (low priority, no buzz).
-- **Board** - every other surviving role (big-company roles, off-target functions,
-  lower scores) -> the roles board at the worker's URL. No digests.
+- **High** - a strong-fit US role (Tier A) at a startup / non-big company.
+- **Default** - a strong-fit role at a company on the `big_companies` list
+  (NVIDIA, Intel, ...), or a target-grade role that missed Tier A only on an
+  unclear location/season or mid-band pay. Still alerts.
+- **Not pushed** - weak fits and off-target functions (IT, ops, content, ...).
+  They're kept in `roles.json` / the worker's `/` page for reference only.
 
-Each push and board row shows pay when the posting states it (the ATS's
+Each push shows pay when the posting states it (the ATS's
 structured range, or an hourly figure from the description; salaries also show
 an hourly equivalent), plus absolute **Posted** and **Found** stamps in US
 Eastern time, so a notification still makes sense a week later.
@@ -30,13 +30,10 @@ Eastern time, so a notification still makes sense a week later.
 Two runners: a Cloudflare Worker polls curated boards every minute (instant),
 and GitHub Actions runs `watch.py` every ~5 min over the aggregators + Workday
 (with description enrichment and scoring). Delivery is [ntfy](https://ntfy.sh)
-(free app, no account). Each notification has an Apply button and an All roles
-button that opens the board.
+(free app, no account). Each notification has an Apply button.
 
-The board (`/` on the worker; `/roles.json` for raw data) merges the worker's
-finds with `roles.json`, which Actions commits each run. It defaults to
-startups only, groups rows by the day vigil found them, highlights what's new
-since your last visit, and lets you hide roles (stored in your browser).
+A reference page (`/` on the worker; `/roles.json` for raw data) lists every
+surviving role, pushed or not, merged from the worker and `roles.json`.
 
 ## Setup
 
@@ -66,11 +63,11 @@ Edit `config.json`, or put personal changes in `config.local.json` (gitignored,
 so your topic and filters stay out of the repo):
 
 - `greenhouse`, `lever`, `ashby`, `workday`: company boards. Add your targets.
-  A newly added board is seeded silently: its existing roles go to the board,
-  and only roles posted after that push.
-- `big_companies`: established corporates whose roles go to the board but never
-  push. Changing this list does not trigger a reseed.
-- `board_url`: the board link attached to each notification.
+  A newly added board's currently open roles push like new postings.
+- `big_companies`: established corporates; their roles push at default priority
+  instead of high. Changing this list does not trigger a reseed.
+- `us_places`: US city/state names, so "San Francisco" or "Massachusetts" with no
+  ", CA"-style code still counts as US.
 - `scoring`: `[weight, regex]` rows - the hardware-vs-software ranking lives here.
 - `season_drop_terms` / `season_a_terms`: what counts as off-season vs Tier-A-eligible.
 - `include_keywords`, `exclude_keywords`, `exclude_companies`: regex filters.

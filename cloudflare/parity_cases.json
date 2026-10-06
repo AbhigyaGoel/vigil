@@ -13,7 +13,14 @@
     {"loc": "Palo Alto, CA / Toronto, ON, Canada", "expect": "us"},
     {"loc": "Remote - US", "expect": "us"},
     {"loc": "Remote", "expect": "unknown"},
-    {"loc": "", "expect": "unknown"}
+    {"loc": "", "expect": "unknown"},
+    {"loc": "San Francisco", "expect": "us"},
+    {"loc": "Austin", "expect": "us"},
+    {"loc": "Long Beach CA", "expect": "us"},
+    {"loc": "Massachusetts", "expect": "us"},
+    {"loc": "SF", "expect": "us"},
+    {"loc": "Vancouver, Canada", "expect": "tierb"},
+    {"loc": "3 Locations", "expect": "unknown"}
   ],
   "season": [
     {"title": "Perception Intern - Fall 2026", "expect": true},
@@ -35,7 +42,11 @@
     {"job": {"title": "Staff Firmware Engineer", "company": "Waymo", "location": "Mountain View, CA", "url": "x"}, "expect": false},
     {"job": {"title": "Marketing Intern", "company": "Waymo", "location": "Mountain View, CA", "url": "x"}, "expect": false},
     {"job": {"title": "Hardware Test Intern", "company": "Waymo", "location": "Mountain View, CA", "url": "x", "desc": "This internship pays $20.00 - $24.00 per hour."}, "expect": false},
-    {"job": {"title": "Hardware Test Intern", "company": "Waymo", "location": "Mountain View, CA", "url": "x", "desc": "This internship pays $36.00 per hour."}, "expect": true}
+    {"job": {"title": "Hardware Test Intern", "company": "Waymo", "location": "Mountain View, CA", "url": "x", "desc": "This internship pays $36.00 per hour."}, "expect": true},
+    {"job": {"title": "Algorithm Engineer, Deep Learning & Vision (New Grad)", "company": "botauto", "location": "Houston, TX", "url": "https://x/1"}, "expect": false},
+    {"job": {"title": "Hardware Engineering Intern", "company": "fab2", "location": "Austin", "url": "https://x/2"}, "expect": true},
+    {"job": {"title": "2027 Engineering Summer Internship", "company": "jetzero", "location": "Long Beach, CA", "url": "https://x/3", "desc": "Pay range: $25 - $40/hour"}, "expect": true},
+    {"job": {"title": "Electrical Engineer (New Grad Summer 2027)", "company": "freeformfuturecorp", "location": "Los Angeles, CA", "url": "https://x/4"}, "expect": false}
   ],
   "pay": [
     {"desc": "Compensation: $34.00 - $38.00 per hour.", "expect": 36.0},
@@ -56,7 +67,12 @@
     {"desc": "Master's degree required.", "expect": true},
     {"desc": "Pursuing a BS or MS in Electrical Engineering.", "expect": false},
     {"desc": "BSEE required, graduating 2028.", "expect": false},
-    {"desc": "Pursuing a Bachelor's degree.", "expect": false}
+    {"desc": "Pursuing a Bachelor's degree.", "expect": false},
+    {"desc": "School: Hunter College, McGill University, The Master's College, The New School", "expect": false},
+    {"desc": "You will master the embedded toolchain and ship firmware.", "expect": false},
+    {"desc": "Available only to students currently enrolled in a MS or PhD program in Electrical Engineering.", "expect": true},
+    {"desc": "Currently pursuing a Master's degree in Electrical Engineering.", "expect": true},
+    {"desc": "Pursuing a B.S. or M.S. in Computer Science or Electrical Engineering.", "expect": false}
   ],
   "relevance": [
     {"title": "Engineering Intern", "expect": true},
@@ -69,7 +85,15 @@
     {"title": "IT Systems Administrator Intern", "expect": false},
     {"title": "Machine Learning Engineer Intern", "expect": false},
     {"title": "Biomedical Engineer Intern", "expect": false},
-    {"title": "Data Analyst Intern", "expect": false}
+    {"title": "Data Analyst Intern", "expect": false},
+    {"title": "Commercial Marketplace Strategy and Operations Intern (Summer 2027)", "expect": false},
+    {"title": "Intern, IT Specialist", "expect": false},
+    {"title": "2027 Engineering Summer Internship", "expect": true},
+    {"title": "2027 Internship Test Operations Engineer", "expect": true},
+    {"title": "Flight Software Intern (Summer 2027)", "expect": true},
+    {"title": "Content Creator (Intern)", "expect": false},
+    {"title": "Intern, Cybersecurity", "expect": false},
+    {"title": "2027 Summer Intern, BS/MS, Global Supply Management (GSM)", "expect": false}
   ],
   "bigco": [
     {"company": "Meta", "expect": true},

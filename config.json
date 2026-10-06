@@ -22,6 +22,8 @@
   "soft_categories": ["AI/ML/Data", "Data Science, AI & Machine Learning", "Software", "Software Engineering"],
   "tagged_subregex": "robot|perception|autonom|self-?driving|\\bAV\\b|\\bADAS\\b|\\bSLAM\\b|computer vision|embodied|manipulation|sensor|lidar|drone|\\bUAV\\b|vehicle|controls?|motion|edge|on-?device|embedded|hardware|firmware|inference|kernel|\\bCUDA\\b|compiler|accelerat",
   "tier_b_countries": ["canada", "united kingdom", "\\buk\\b", "england", "scotland", "ireland", "germany", "france", "spain", "italy", "netherlands", "sweden", "switzerland", "poland", "portugal", "austria", "belgium", "denmark", "finland", "norway", "czech", "japan"],
+  "_us_places_note": "City-only or state-name-only locations (\"San Francisco\", \"Austin\", \"Massachusetts\") have no \", CA\"-style code; without this they read as unknown geography and a strong role missed the top tier. Checked AFTER drop/tier-B countries, so a foreign city of the same name with its country listed still goes there.",
+  "us_places": ["alabama", "alaska", "arizona", "arkansas", "california", "colorado", "connecticut", "delaware", "florida", "hawaii", "idaho", "illinois", "indiana", "iowa", "kansas", "kentucky", "louisiana", "maine", "maryland", "massachusetts", "michigan", "minnesota", "mississippi", "missouri", "montana", "nebraska", "nevada", "new hampshire", "new jersey", "new mexico", "new york", "north carolina", "north dakota", "ohio", "oklahoma", "oregon", "pennsylvania", "rhode island", "south carolina", "south dakota", "tennessee", "texas", "utah", "vermont", "virginia", "washington", "west virginia", "wisconsin", "wyoming", "san francisco", "\\bSF\\b", "bay area", "silicon valley", "los angeles", "\\bLA\\b", "\\bNYC\\b", "boston", "seattle", "austin", "pittsburgh", "long beach", "hawthorne", "el segundo", "torrance", "san jose", "santa clara", "sunnyvale", "mountain view", "palo alto", "menlo park", "redwood city", "san mateo", "foster city", "fremont", "san leandro", "oakland", "berkeley", "emeryville", "alameda", "irvine", "san diego", "santa monica", "scotts valley", "denver", "boulder", "golden", "broomfield", "littleton", "chicago", "detroit", "ann arbor", "atlanta", "houston", "dallas", "phoenix", "tempe", "salt lake city", "huntsville", "bothell", "redmond", "bellevue", "kirkland", "portland", "miami", "washington,? d\\.?c", "somerville", "waltham", "burlington, ma", "wilmington, ma", "brookings", "rapid city", "champaign"],
   "drop_countries": ["china", "\\bindia\\b", "singapore", "korea", "taiwan", "israel", "australia", "new zealand", "brazil", "mexico", "united arab emirates", "\\buae\\b", "saudi arabia", "\\bqatar\\b", "hong kong", "philippines", "vietnam", "thailand", "indonesia", "malaysia", "turkey", "egypt"],
   "_scoring_note": "Deviation from the +3/+2 in the prompt: hardware is +4 and robotics-software is +3 (both clear the Tier A >=3 bar on title alone, hardware still sorts higher). The written +3/+2 left robotics-software below the bar unless a fragile description fetch added +1, which failed the Zipline/Multiply recall test.",
   "scoring": [
@@ -33,8 +35,7 @@
   ],
   "desc_hw_keywords": ["\\bPCB\\b", "\\bSoC\\b", "\\bSLAM\\b", "lidar", "radar", "sensor fusion", "\\bROS ?2?\\b", "kinematics", "microcontroller", "\\bMCU\\b", "\\bDSP\\b", "\\bCUDA\\b", "\\bTPU\\b", "motor control", "actuator", "bring-?up", "\\bHIL\\b", "signal integrity", "photonics", "schematic", "verilog", "\\bVHDL\\b", "\\bI2C\\b", "\\bSPI\\b", "\\bUART\\b", "\\bPWM\\b", "\\bRTOS\\b", "\\bFPGA\\b"],
   "desc_clearance": "security clearance|\\bTS/SCI\\b|secret clearance|\\bclearance\\b|polygraph",
-  "board_url": "https://vigil.abhigya.workers.dev",
-  "_big_companies_note": "Established corporates. Their roles still land on the roles board (tagged 'Big co') but NEVER push to the phone - startup/cutting-edge roles are the ones worth a buzz. Matched against company name AND board slug with a LEADING word boundary only, so 'samsung' also catches the 'samsungsemiconductor' slug; add a trailing \\b to an entry that would otherwise prefix-match unrelated names. Delivery-only: editing this never reseeds.",
+  "_big_companies_note": "Established corporates. Their relevant roles still push, at DEFAULT priority; startups push at HIGH. Weak-fit roles never push regardless of company. Matched against company name AND board slug with a LEADING word boundary only, so 'samsung' also catches the 'samsungsemiconductor' slug; add a trailing \\b to an entry that would otherwise prefix-match unrelated names. Delivery-only: editing this never reseeds.",
   "big_companies": [
     "meta\\b", "facebook", "google", "alphabet", "microsoft", "amazon", "aws\\b", "apple\\b", "netflix", "oracle", "ibm\\b", "cisco", "dell\\b", "hewlett", "hp\\b", "hpe\\b",
     "intel\\b", "amd\\b", "advanced micro devices", "nvidia", "qualcomm", "broadcom", "texas instruments", "micron", "analog devices", "nxp", "marvell", "kla\\b", "applied materials", "lam research", "samsung", "sk ?hynix", "infineon", "stmicro", "onsemi", "microchip", "western digital", "seagate", "globalfoundries", "tsmc",
@@ -43,7 +44,7 @@
     "medtronic", "abbott", "johnson ?& ?johnson", "philips", "stryker", "boston scientific", "zebra", "trimble", "garmin", "motorola", "uber\\b", "walmart", "target\\b", "exxon", "chevron", "shell\\b"
   ],
   "display_names": {
-    "1x": "1X", "physicalintelligence": "Physical Intelligence", "maticrobots": "Matic Robots", "serverobotics": "Serve Robotics", "reviserobotics": "Revise Robotics", "droyd": "DROYD", "rivianvw.tech": "Rivian and VW Group Technology", "applied": "Applied Intuition", "d-matrix": "d-Matrix", "fab2": "Fab2", "overviewenergy": "Overview Energy", "apex-technology-inc": "Apex Space", "h3x-technologies": "H3X", "openai": "OpenAI", "hadrian-automation": "Hadrian", "bedrock-robotics": "Bedrock Robotics", "wayve": "Wayve",
+    "1x": "1X", "physicalintelligence": "Physical Intelligence", "maticrobots": "Matic Robots", "serverobotics": "Serve Robotics", "reviserobotics": "Revise Robotics", "droyd": "DROYD", "rivianvw.tech": "Rivian and VW Group Technology", "applied": "Applied Intuition", "d-matrix": "d-Matrix", "fab2": "Fab2", "overviewenergy": "Overview Energy", "apex-technology-inc": "Apex Space", "h3x-technologies": "H3X", "openai": "OpenAI", "hadrian-automation": "Hadrian", "bedrock-robotics": "Bedrock Robotics", "wayve": "Wayve", "cirrus": "Cirrus Logic",
     "zoox": "Zoox", "brightmachines": "Bright Machines", "diversified-automation": "Diversified Automation", "weride": "WeRide", "plus-2": "PlusAI", "woven-by-toyota": "Woven by Toyota", "beta": "BETA Technologies", "rigetti": "Rigetti", "parallelwireless": "Parallel Wireless", "extremenetworks": "Extreme Networks",
     "field-ai": "Field AI", "picklerobot": "Pickle Robot", "anybotics": "ANYbotics", "cfsenergy": "Commonwealth Fusion Systems", "ispace-inc": "ispace", "espace": "E-Space", "loftorbital": "Loft Orbital", "tutorintelligence": "Tutor Intelligence", "lumafield": "Lumafield", "waabi": "Waabi", "agtonomy": "Agtonomy", "pyka": "Pyka", "solestial": "Solestial", "thebotcompany": "The Bot Company", "dyna-robotics": "Dyna Robotics", "graymatter-robotics": "GrayMatter Robotics", "corvus-robotics": "Corvus Robotics", "reflexrobotics": "Reflex Robotics", "sunday": "Sunday Robotics", "mindrobotics": "Mind Robotics", "gradientrobotics": "Gradient Robotics", "pivotrobotics": "Pivot Robotics", "haydenai": "Hayden AI", "aerovect": "AeroVect", "odys-aviation": "Odys Aviation", "impulse": "Impulse Space", "northwoodspace": "Northwood Space", "xona-space": "Xona Space", "logos-space": "Logos Space", "observable-space": "Observable Space", "cowboyspace": "Cowboy Space", "the-exploration-company": "The Exploration Company", "constellationspace": "Constellation Space", "regent": "REGENT", "standardbots": "Standard Bots", "matx": "MatX", "formenergy": "Form Energy", "glacier": "Glacier", "sereact": "Sereact", "built-robotics": "Built Robotics", "flyzipline": "Zipline"
   },
@@ -434,7 +435,13 @@
     "circuit",
     "hardware validation",
     "electromechanical",
-    "electro-mechanical"
+    "electro-mechanical",
+    "flight software",
+    "propulsion",
+    "spacecraft",
+    "satellite",
+    "guidance,? navigation",
+    "space systems"
   ],
   "exclude_keywords": [
     "\\bco-?ops?\\b",

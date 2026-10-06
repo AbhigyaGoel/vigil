@@ -32,11 +32,11 @@ def test_deliver():
         [rec(3, "B", 4), rec(4, "B", 1), rec(5, "B", 4, bigco=True)], now)
     by = {r["id"]: r["delivery"] for r in out}
     check("tierA_startup_high", by["t:1"], "high")
-    check("tierA_bigco_board", by["t:2"], "board")
-    check("tierB_target_low", by["t:3"], "low")
+    check("tierA_bigco_default", by["t:2"], "default")
+    check("tierB_target_default", by["t:3"], "default")
     check("tierB_weak_board", by["t:4"], "board")
-    check("tierB_bigco_board", by["t:5"], "board")
-    check("only_pushes_sent", sorted(sent), [("t:1", "high"), ("t:3", "low")])
+    check("tierB_bigco_default", by["t:5"], "default")
+    check("only_pushes_sent", sorted(sent), [("t:1", "high"), ("t:2", "default"), ("t:3", "default"), ("t:5", "default")])
     check("found_stamped", all(r["found"] == now for r in out), True)
 
 

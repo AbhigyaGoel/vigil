@@ -4,8 +4,9 @@ vigil - hardware internship tracker (wide-net / scoring tier).
 
 Runs on GitHub Actions. Pulls the aggregator + Workday sources, filters with a
 per-source policy, scores each survivor hardware-first, and splits into:
-  Tier A -> instant ntfy push        (score >= 3, US, Summer-2027-eligible, not a big co)
-  Tier B -> the roles board only     (everything else that survives, incl. big-co roles)
+  Tier A -> instant ntfy push        (score >= 3, US, Summer-2027-eligible). Startups push
+            at high priority, big companies (config big_companies) at default.
+  Tier B -> not pushed, except target-grade roles with an unclear location/season (low).
 Every surviving role lands in roles.json, which the worker serves as the roles
 board (vigil.abhigya.workers.dev) with pay and an absolute found-at time.
 Curated company boards (Greenhouse/Lever/Ashby) get instant pushes from the
@@ -24,6 +25,7 @@ Modes:
 Stdlib only.
 """
 
+import html
 import json
 import os
 import re
@@ -76,6 +78,7 @@ CLEARANCE = rx("desc_clearance")
 DESC_HW = rx("desc_hw_keywords")
 TIER_B_CO = rx("tier_b_countries")
 DROP_CO = rx("drop_countries")
+US_PLACE = rx("us_places")
 # exclude_companies: wrap in word boundaries so 'axon' doesn't hit 'Axoni'.
 _eco = CFG.get("exclude_companies") or []
 EXCLUDE_CO = re.compile(r"\b(?:" + "|".join(_eco) + r")\b", re.I) if _eco else None
@@ -100,7 +103,9 @@ CURATED_OFFTARGET = re.compile(
     r"biomedical|clinical|finance|financial|business|product manag\w*|program manag\w*|"
     r"\bTPM\b|technical program manag\w*|supply chain|human resources|\bHR\b|recruiting|legal|"
     r"communications?|public relations|technical writ\w*|customer (?:success|support|experience)|"
-    r"account manag\w*)\b", re.I)
+    r"account manag\w*|strateg\w*|marketplace|\bIT\b|IT specialist|people operations|"
+    r"product intern|business development|supply (?:chain|management)|content|creator|"
+    r"cyber ?security|growth|graphic|data engineer\w*|product & design|\bMES\b)\b", re.I)
 
 
 def curated_relevant(title):
@@ -123,9 +128,13 @@ def curated_relevant(title):
 #      with URLs on entirely different domains - canon_key's URL matching can't unify
 #      those. content_key() falls back to company+title+city, specific enough that two
 #      genuinely different reqs rarely collide.
-_CURATED = {"gh": {s.lower() for s in CFG.get("greenhouse", [])},
-            "lv": {s.lower() for s in CFG.get("lever", [])},
-            "ab": {s.lower() for s in CFG.get("ashby", [])}}
+def _bare(slug):
+    return slug.split("@", 1)[0].lower()   # "cirrus@eu" -> "cirrus"
+
+
+_CURATED = {"gh": {_bare(s) for s in CFG.get("greenhouse", [])},
+            "lv": {_bare(s) for s in CFG.get("lever", [])},
+            "ab": {_bare(s) for s in CFG.get("ashby", [])}}
 
 
 def _norm_name(s):
@@ -138,7 +147,7 @@ _CURATED_NAMES.discard("")
 
 _ATS_URL = [
     ("gh", re.compile(r"(?:job-)?boards(?:-api)?\.greenhouse\.io/(?:v1/boards/)?([^/?#]+)", re.I)),
-    ("lv", re.compile(r"(?:jobs|api)\.lever\.co/(?:v0/postings/)?([^/?#]+)", re.I)),
+    ("lv", re.compile(r"(?:jobs|api)(?:\.eu)?\.lever\.co/(?:v0/postings/)?([^/?#]+)", re.I)),
     ("ab", re.compile(r"(?:jobs|api)\.ashbyhq\.com/(?:posting-api/job-board/)?([^/?#]+)", re.I)),
 ]
 
@@ -225,6 +234,10 @@ SCORING = [(w, re.compile(p, re.I)) for w, p in CFG.get("scoring", [])]
 MAX_AGE = CFG.get("max_age_days", 21) * 86400
 US_STATE = re.compile(r",\s*[A-Z]{2}(\b|$)")
 US_NAME = re.compile(r"\b(united states|usa|u\.s\.a?\.)\b", re.I)
+# ats_require lets "new grad"/"early career" programs through (some are intern
+# tracks); a title with no intern/co-op/student word is a full-time grad hire.
+INTERN_WORD = re.compile(r"\bintern|co-?op|student", re.I)
+NEWGRAD_ONLY = re.compile(r"new ?grad|graduate|early career|entry[- ]level|university grad", re.I)
 NEWGRAD = re.compile(r"new col|new ?grad|college grad|\bgraduate\b|university grad", re.I)
 
 ENRICH_FETCH = True      # network description fetch; off during seed and --dry
@@ -274,10 +287,13 @@ def season_dropped(terms, title):
 
 
 def season_a_eligible(terms):
+    """Disqualifying seasons were already dropped (season_dropped), so a role that
+    is untagged or tagged only 'N/A' is still a Summer-2027 candidate - Simplify
+    tags plenty of real 2027 internships N/A."""
     if not terms:
-        return False  # ambiguous -> Tier B, never A
+        return True
     tset = set(terms) if isinstance(terms, list) else {terms}
-    return bool(tset & A_SEASONS)
+    return bool(tset & A_SEASONS) or tset <= {"N/A", "n/a", ""}
 
 
 def _seg_geo(seg):
@@ -288,7 +304,7 @@ def _seg_geo(seg):
         return "drop"
     if TIER_B_CO and TIER_B_CO.search(s):
         return "tierb"
-    if US_STATE.search(seg) or US_NAME.search(s):
+    if US_STATE.search(seg) or US_NAME.search(s) or (US_PLACE and US_PLACE.search(s)):
         return "us"
     low = s.lower()
     if "remote" in low and ("us" in low or "united states" in low):
@@ -333,6 +349,12 @@ def desc_score(sig):
 
 # "2027 or later" / "and beyond" / "onwards" / "2027+" means I (2028) am eligible.
 _ELIGIBLE_TAIL = re.compile(r"or later|and beyond|onwards?|or after|or above|and later|\+", re.I)
+# Master's/PhD-only: needs degree-requirement phrasing, not just the word "master"
+# (school names like "The Master's College", "master the toolchain"). Mirrors
+# filters.mjs GRAD_ONLY.
+_GRAD_ONLY = re.compile(
+    r"\b(?:ph\.?\s?d|doctoral|master'?s?\s+(?:degree|program|student|candidate|level|of science)"
+    r"|M\.S\.|MS\s+(?:degree|program|student|or\s+PhD)|graduate\s+(?:degree|program|student))", re.I)
 # Bachelor's, however postings actually write it: BS, B.S., BS/MS, BSc, BSEE, BSCS...
 _HAS_BACH = re.compile(r"\bbachelor|\bundergrad|\bB\.?S\.?\b|\bBSc\b|\bBS[A-Z]{2,3}\b", re.I)
 
@@ -383,11 +405,41 @@ def extract_signals(desc):
         "clearance": bool(CLEARANCE and CLEARANCE.search(desc)),
         "hw": bool(DESC_HW and DESC_HW.search(desc)),
         "grad_bad": grad_bad,
-        "grad_only": bool(re.search(r"\b(ph\.?d|doctoral|master)", desc, re.I)
+        "grad_only": bool(_GRAD_ONLY.search(desc)
                           and not _HAS_BACH.search(desc)),
         "pay": extract_pay(desc),
         "pay_range": extract_pay_range(desc),   # display only (the board + push body)
     }
+
+
+_LV_JOB = re.compile(r"https?://jobs\.(eu\.)?lever\.co/([^/?#]+)/([0-9a-f-]{36})", re.I)
+_GH_JOB = re.compile(r"greenhouse\.io/(?:embed/job_app\?for=)?([^/?#&]+)/jobs/(\d+)", re.I)
+# Apply pages carry school pickers ("The Master's College"), EEO text and scripts;
+# none of it is the job, and a school name was tripping the Master's-only check.
+_HTML_NOISE = re.compile(r"<(script|style|select|noscript|template)\b.*?</\1>", re.I | re.S)
+
+
+def lever_text(j):
+    """Lever splits a posting: descriptionPlain + `lists` (requirements live here)
+    + additionalPlain. The degree line is usually in lists, so read all three."""
+    lists = " ".join(f"{x.get('text', '')} {_HTML.sub(' ', x.get('content', '') or '')}"
+                     for x in j.get("lists") or [])
+    return " ".join([j.get("descriptionPlain") or "", lists, j.get("additionalPlain") or ""])
+
+
+def listing_description(url):
+    """Description for an aggregator row. When the apply link is a Lever or
+    Greenhouse posting, read that ATS's JSON (clean text); otherwise fetch the
+    page with its form widgets and scripts stripped."""
+    m = _LV_JOB.search(url)
+    if m:
+        host = "api.eu.lever.co" if m.group(1) else "api.lever.co"
+        return lever_text(get_json(f"https://{host}/v0/postings/{m.group(2)}/{m.group(3)}", timeout=15))
+    m = _GH_JOB.search(url)
+    if m:
+        d = get_json(f"https://boards-api.greenhouse.io/v1/boards/{m.group(1)}/jobs/{m.group(2)}", timeout=15)
+        return _HTML.sub(" ", html.unescape(d.get("content", "") or ""))
+    return _HTML.sub(" ", _HTML_NOISE.sub(" ", get_text(url, timeout=12)))
 
 
 def fetch_description(job, enrich):
@@ -409,7 +461,7 @@ def fetch_description(job, enrich):
                 time.sleep(0.4)           # rate-limit Workday
             elif job.get("src") == "listings" and job.get("url"):
                 ENRICH_BUDGET[0] -= 1
-                desc = get_text(job["url"], timeout=12)
+                desc = listing_description(job["url"])
         except Exception:
             desc = ""
     sig = extract_signals(desc) if desc else {}
@@ -512,13 +564,15 @@ def greenhouse(slug):
 
 
 def lever(slug):
-    for j in get_json(f"https://api.lever.co/v0/postings/{slug}?mode=json"):
+    slug, _, region = slug.partition("@")   # "slug@eu" = Lever's EU host (Cirrus Logic)
+    host = "api.eu.lever.co" if region == "eu" else "api.lever.co"
+    for j in get_json(f"https://{host}/v0/postings/{slug}?mode=json"):
         yield {
             "id": f"lv:{slug}:{j['id']}", "company": slug, "title": j.get("text", ""),
             "location": (j.get("categories") or {}).get("location", ""), "url": j.get("hostedUrl", ""),
             "category": None, "terms": None, "posted": to_epoch(j.get("createdAt")),
             "pay_struct": display.lever_pay(j.get("salaryRange")),
-            "src": "lever", "policy": "curated", "desc": j.get("descriptionPlain", "") or "",
+            "src": "lever", "policy": "curated", "desc": lever_text(j),
         }
 
 
@@ -565,9 +619,16 @@ def workday(entry):
             total = d.get("total") or 0
         for p in posts:
             path = p.get("externalPath", "")
+            loc = p.get("locationsText", "")
+            if re.match(r"\d+ Locations?$", loc):
+                # "/job/US-Oregon-Hillsboro/..." names the primary site; without it a
+                # multi-site role reads as unknown geography and misses Tier A.
+                seg = (path.split("/") + ["", "", ""])[2]
+                where = ("United States " + seg[3:]) if seg.startswith("US-") else seg
+                loc = f"{loc} ({where.replace('-', ' ')})"
             yield {
                 "id": f"wd:{tenant}:{path}", "company": name, "title": p.get("title", ""),
-                "location": p.get("locationsText", ""), "url": f"https://{host}/{site}{path}",
+                "location": loc, "url": f"https://{host}/{site}{path}",
                 "category": None, "terms": None, "posted": 0, "src": "workday", "policy": "bulk",
                 "detail": f"https://{host}/wday/cxs/{tenant}/{site}{path}",
             }
@@ -594,8 +655,7 @@ def discovered_boards(cfg):
     name_exc = re.compile("|".join(exc), re.I) if exc else None
     if not name_inc or not disc.get("registry_url"):
         return
-    have = (set(cfg.get("greenhouse", [])) | set(cfg.get("lever", []))
-            | set(cfg.get("ashby", [])))
+    have = {_bare(s) for k in ("greenhouse", "lever", "ashby") for s in cfg.get(k, [])}
     try:
         reg = get_json(disc["registry_url"], timeout=30)
     except Exception as e:
@@ -684,6 +744,8 @@ def classify(job, enrich, trace=None):
     if policy != "tagged" and ATS_REQUIRE and not ATS_REQUIRE.search(title):
         reason = "new-grad" if NEWGRAD.search(title) else "not-intern"
         note(f"DROP {reason}"); return "drop", reason
+    if not INTERN_WORD.search(title) and NEWGRAD_ONLY.search(title):
+        note("DROP new-grad (full-time grad role, not an internship)"); return "drop", "new-grad"
     note("pass intern-gate")
     if EXCLUDE and EXCLUDE.search(blob):
         note("DROP seniority/role"); return "drop", "seniority"
@@ -720,7 +782,10 @@ def classify(job, enrich, trace=None):
     sig = fetch_description(job, enrich)
     if sig.get("clearance"):
         note("DROP defense (clearance in description)"); return "drop", "defense-desc"
-    pay = sig.get("pay")
+    # Gate on the TOP of a stated range: "$25-40/hr" can pay $40, so its midpoint
+    # must not demote it. Cached entries without pay_range fall back to the midpoint.
+    rng = sig.get("pay_range")
+    pay = rng[1] if rng else sig.get("pay")
     pay_floor = CFG.get("pay_floor_hourly") or 0
     if pay is not None and pay_floor and pay < pay_floor:
         note(f"DROP low-pay (${pay:.0f}/hr < ${pay_floor:.0f}/hr floor)"); return "drop", "low-pay"
@@ -827,9 +892,6 @@ def config_hash():
 
 # ---------------- notify ----------------
 
-BOARD_URL = CFG.get("board_url", "")
-
-
 def ntfy(title, body, click=None, priority="high"):
     topic = CFG.get("ntfy_topic", "")
     if not topic or topic.startswith("CHANGE-ME"):
@@ -838,10 +900,7 @@ def ntfy(title, body, click=None, priority="high"):
                "Priority": priority}
     if click:
         headers["Click"] = click
-        actions = [f"view, Apply, {click}"]
-        if BOARD_URL:
-            actions.append(f"view, All roles, {BOARD_URL}")
-        headers["Actions"] = "; ".join(actions)
+        headers["Actions"] = f"view, Apply, {click}"
     req = urllib.request.Request(f"https://ntfy.sh/{topic}", data=body.encode("utf-8"),
                                  headers=headers, method="POST")
     urllib.request.urlopen(req, timeout=20).read()
@@ -1013,24 +1072,23 @@ def test_alert():
 
 
 def deliver(tier_a, tier_b, now):
-    """Decide what buzzes the phone. Everything else is board-only.
-      push high : Tier A at a non-big company
-      push low  : Tier B at a non-big company that scored target-grade but missed
-                  Tier A only on AMBIGUOUS geo/season (e.g. a scraped row with no
-                  location) - it shouldn't hide on the board
-      board     : big-company roles, and the rest of Tier B
+    """Decide what reaches the phone. Every relevant role is pushed; company size
+    only sets how loud.
+      high    : Tier A at a startup / non-big company
+      default : Tier A at a big company (still alerts - apply-worthy, just ranked lower)
+      default : Tier B that scored target-grade but missed Tier A only on ambiguous
+                geo/season or mid-band pay (e.g. a scraped row with no location)
+      board   : the rest of Tier B (weak fit) - recorded, not pushed
     Returns the records stamped with found + delivery, ready for the board."""
     cap = CFG.get("max_alerts_per_run", 25)
     prompt_bar = CFG.get("tierb_prompt_score", 3)
     out, sent = [], 0
     for r in tier_a + sorted(tier_b, key=lambda x: -x.get("score", 0)):
         r = {**r, "found": now}
-        if r["bigco"]:
-            r["delivery"] = "board"
-        elif r["tier"] == "A":
-            r["delivery"] = "high"
+        if r["tier"] == "A":
+            r["delivery"] = "default" if r["bigco"] else "high"
         elif r.get("score", 0) >= prompt_bar:
-            r["delivery"] = "low"
+            r["delivery"] = "default"
         else:
             r["delivery"] = "board"
         if r["delivery"] != "board":

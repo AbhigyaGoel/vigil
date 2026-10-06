@@ -7,6 +7,7 @@ export function makeFilters(cfg) {
   const rx = (a) => (a && a.length ? new RegExp(a.join("|"), "i") : null);
   const DROP = rx(cfg.drop_countries);
   const TIERB = rx(cfg.tier_b_countries);
+  const US_PLACE = rx(cfg.us_places);
   const US_STATE = /,\s*[A-Z]{2}(\b|$)/;               // case-sensitive, like Python
   const US_NAME = /\b(united states|usa|u\.s\.a?\.)\b/i;
 
@@ -15,7 +16,7 @@ export function makeFilters(cfg) {
     if (!s) return "unknown";
     if (DROP && DROP.test(s)) return "drop";            // country name beats a 2-letter code
     if (TIERB && TIERB.test(s)) return "tierb";
-    if (US_STATE.test(seg) || US_NAME.test(s)) return "us";
+    if (US_STATE.test(seg) || US_NAME.test(s) || (US_PLACE && US_PLACE.test(s))) return "us";
     const low = s.toLowerCase();
     if (low.includes("remote") && (low.includes("us") || low.includes("united states"))) return "us";
     return "unknown";
@@ -57,7 +58,7 @@ export function makeFilters(cfg) {
 // "Engineering Intern" is kept high; "Software Engineer, Robotics" and "Embedded
 // SWE" are saved by their hardware/robotics keyword. Mirrors watch.py
 // curated_relevant() — asserted by the parity 'relevance' fixtures.
-const CURATED_OFFTARGET = /\b(?:software|swe|full ?stack|front ?end|back ?end|web developer|information technology|sys ?admin|systems? administrator|help ?desk|machine learning|ml|data scien|data analyst|biomedical|clinical|finance|financial|business|product manag\w*|program manag\w*|\bTPM\b|technical program manag\w*|supply chain|human resources|\bHR\b|recruiting|legal|communications?|public relations|technical writ\w*|customer (?:success|support|experience)|account manag\w*)\b/i;
+const CURATED_OFFTARGET = /\b(?:software|swe|full ?stack|front ?end|back ?end|web developer|information technology|sys ?admin|systems? administrator|help ?desk|machine learning|ml|data scien|data analyst|biomedical|clinical|finance|financial|business|product manag\w*|program manag\w*|\bTPM\b|technical program manag\w*|supply chain|human resources|\bHR\b|recruiting|legal|communications?|public relations|technical writ\w*|customer (?:success|support|experience)|account manag\w*|strateg\w*|marketplace|\bIT\b|IT specialist|people operations|product intern|business development|supply (?:chain|management)|content|creator|cyber ?security|growth|graphic|data engineer\w*|product & design|\bMES\b)\b/i;
 export function curatedRelevant(job, f) {
   const title = job.title || "";
   if (f.include && f.include.test(title)) return true;   // explicit hardware/robotics signal
@@ -92,8 +93,8 @@ export function isBigCo(company, f) {
 export function payDrop(desc, cfg) {
   const floor = cfg.pay_floor_hourly;
   if (!floor) return false;
-  const pay = extractPay(desc);
-  return pay !== null && pay < floor;
+  const r = payRange(desc);   // top of the range, mirrors watch.py classify
+  return r !== null && r[1] < floor;
 }
 // Mid-band pay (floor <= pay < preferred) only stays high-priority on a strong
 // fit. The worker has no ported scoring table, so an explicit include_keywords
@@ -101,8 +102,8 @@ export function payDrop(desc, cfg) {
 export function payMidbandWeak(job, desc, cfg, f) {
   const preferred = cfg.pay_preferred_hourly;
   if (!preferred) return false;
-  const pay = extractPay(desc);
-  if (pay === null || pay >= preferred) return false;
+  const r = payRange(desc);
+  if (r === null || r[1] >= preferred) return false;
   return !(f.include && f.include.test(job.title || ""));
 }
 
@@ -111,7 +112,7 @@ export function payMidbandWeak(job, desc, cfg, f) {
 // requirement. Only applied when a description is available for free (Lever/Ashby).
 const GRAD_EARLY = /(graduat|class of|degree by|complet\w+)[^.]{0,40}?\b20(25|26|27)\b([^.]{0,20})/i;
 const ELIGIBLE_TAIL = /or later|and beyond|onwards?|or after|or above|and later|\+/i;
-const GRAD_ONLY = /\b(ph\.?d|doctoral|master)/i;
+const GRAD_ONLY = /\b(?:ph\.?\s?d|doctoral|master'?s?\s+(?:degree|program|student|candidate|level|of science)|M\.S\.|MS\s+(?:degree|program|student|or\s+PhD)|graduate\s+(?:degree|program|student))/i;
 const HAS_BACH = /\bbachelor|\bundergrad|\bB\.?S\.?\b|\bBSc\b|\bBS[A-Z]{2,3}\b/i;
 export function hardMismatch(desc) {
   if (!desc) return false;
@@ -125,12 +126,16 @@ export function hardMismatch(desc) {
 // description separately (inline for Lever/Ashby, per-job fetch for Greenhouse)
 // and applies hardMismatch after this passes, so a description is fetched only
 // for roles about to be pushed.
+// Mirrors watch.py INTERN_WORD / NEWGRAD_ONLY.
+const INTERN_WORD = /\bintern|co-?op|student/i;
+const NEWGRAD_ONLY = /new ?grad|graduate|early career|entry[- ]level|university grad/i;
 export function curatedTitlePass(job, f) {
   if (!job.url || !job.title) return false;
   const blob = `${job.title} ${job.company}`;
   if (f.exclude && f.exclude.test(blob)) return false;
   if (f.excludeCo && job.company && f.excludeCo.test(job.company)) return false;
   if (f.intern && !f.intern.test(job.title)) return false;   // intern/co-op gate
+  if (!INTERN_WORD.test(job.title) && NEWGRAD_ONLY.test(job.title)) return false;   // full-time grad role
   if (f.seasonDrop(job.title)) return false;                 // title says a 2026 season
   if (f.geo(job.location) !== "us") return false;            // non-US never instant-pushes
   return true;

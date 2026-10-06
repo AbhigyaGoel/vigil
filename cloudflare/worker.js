@@ -4,9 +4,9 @@
  * Polls the CURATED company boards (Greenhouse / Lever / Ashby) every minute and
  * instant-pushes new intern roles to ntfy. Curated = hand-picked companies, so
  * there is NO include_keywords GATE (a vague "Engineering Intern" is still wanted).
- * Only hardware/robotics-relevant roles at non-big companies buzz the phone; the
- * rest (off-target functions, big-co roles, mid-band pay on a weak fit) go to the
- * roles board only. The board is served by fetch() below and merges this worker's
+ * Hardware/robotics-relevant roles push: startups at high priority, big companies
+ * (and mid-band pay on a weak-fit title) at default. Off-target functions are
+ * recorded on the roles board only. The board is served by fetch() below and merges this worker's
  * finds (KV) with watch.py's roles.json from the repo.
  * Filtering (intern gate, excludes, title-season drop, geography) + the relevance
  * split are shared with watch.py via filters.mjs so the two can't drift - see parity.
@@ -91,6 +91,12 @@ async function gj(url) {
   if (!r.ok) throw new Error(`HTTP ${r.status}`);
   return r.json();
 }
+// Lever splits a posting: descriptionPlain + `lists` (requirements, where the
+// degree line usually is) + additionalPlain. Mirrors watch.py lever_text().
+function leverText(j) {
+  const lists = (j.lists || []).map((x) => `${x.text || ""} ${(x.content || "").replace(/<[^>]+>/g, " ")}`).join(" ");
+  return [j.descriptionPlain || "", lists, j.additionalPlain || ""].join(" ");
+}
 const toMs = (v) => (v ? (typeof v === "number" ? (v > 1e12 ? v : v * 1000) : Date.parse(v) || 0) : 0);
 
 // `company` stays the slug (filters match on it); `name` is what the user reads.
@@ -106,12 +112,15 @@ async function fetchBoard(b, names) {
     }));
   }
   if (b.kind === "lv") {
-    const d = await gj(`https://api.lever.co/v0/postings/${b.slug}?mode=json`);
+    // "slug@eu" = a board on Lever's EU host (e.g. Cirrus Logic).
+    const [slug, region] = b.slug.split("@");
+    const host = region === "eu" ? "api.eu.lever.co" : "api.lever.co";
+    const d = await gj(`https://${host}/v0/postings/${slug}?mode=json`);
     return d.map((j) => ({
-      id: `lv:${b.slug}:${j.id}`, company: b.slug, name: displayCompany(b.slug, names), title: j.text || "",
+      id: `lv:${slug}:${j.id}`, company: slug, name: displayCompany(slug, names), title: j.text || "",
       location: (j.categories || {}).location || "", url: j.hostedUrl || "", posted: toMs(j.createdAt),
       payStruct: leverPay(j.salaryRange),
-      desc: j.descriptionPlain || "",   // free in the board pull -> enables grad/degree demotion
+      desc: leverText(j),   // free in the board pull -> enables grad/degree demotion
     }));
   }
   const d = await gj(`https://api.ashbyhq.com/posting-api/job-board/${b.slug}?includeCompensation=true`);
@@ -133,17 +142,15 @@ function roleRecord(job, f, delivery, nowSec) {
   };
 }
 
-async function ntfy(env, rec, priority, boardUrl) {
+async function ntfy(env, rec, priority) {
   if (!env.NTFY_TOPIC) return;
   const body = pushBody(rec.location, rec.pay, rec.season, rec.published || rec.posted, rec.found);
-  const actions = [`view, Apply, ${rec.url}`];
-  if (boardUrl) actions.push(`view, All roles, ${boardUrl}`);
   await fetch(`https://ntfy.sh/${env.NTFY_TOPIC}`, {
     method: "POST",
     body,   // header (company - title) is NOT repeated here
     headers: {
       ...UA, Title: `${rec.company} - ${rec.title}`.slice(0, 140).replace(/[^\x20-\x7e]/g, ""),
-      Priority: priority, Click: rec.url, Actions: actions.join("; "),
+      Priority: priority, Click: rec.url, Actions: `view, Apply, ${rec.url}`,
     },
   });
 }
@@ -226,10 +233,11 @@ export default {
     // the board pulls (already spent) and the ntfy sends (cap + headroom).
     let ghBudget = Math.max(0, SUBREQUEST_CAP - boards.length - cap - 5);
 
-    // A board added to config.json must not dump its whole open backlog on the
-    // phone. The first successful pull of an unknown board seeds it silently: its
-    // current roles go straight to the board page ("found before tracking").
-    // Bootstrap (no list yet): a board already seeded before has ids in `seen`.
+    // A board newly added to config.json: its open roles are new to the user, so
+    // they go through the normal push path (cap + defer keeps a big board from
+    // spamming one minute). Only the bootstrap - no known-boards list yet, i.e.
+    // the first run after this feature shipped - seeds silently; a board already
+    // seeded before has ids in `seen`.
     const knownRaw = await env.SEEN.get(BOARDS_KNOWN_KEY);
     const known = new Set(knownRaw ? JSON.parse(knownRaw) : pulls
       .filter(({ jobs }) => jobs.some((j) => seen.has(j.id))).map(({ b }) => `${b.kind}:${b.slug}`));
@@ -241,11 +249,12 @@ export default {
       const key = `${b.kind}:${b.slug}`;
       const fresh = ok && !known.has(key);
       if (fresh) { known.add(key); knownDirty = true; }
+      const silent = fresh && !knownRaw;
       for (const job of jobs) {
         if (seen.has(job.id)) continue;
         if (job.posted && Date.now() - job.posted > maxAgeMs) continue;
         if (!curatedTitlePass(job, f)) continue;   // intern + excludes + season + US (cheap)
-        if (fresh) {
+        if (silent) {
           seen.add(job.id);
           backfill.push(roleRecord(job, f, "board", 0));
           continue;
@@ -279,17 +288,18 @@ export default {
       // Push up to the per-run cap, and mark ONLY what we actually pushed as seen so
       // any overflow re-surfaces next minute instead of being silently swallowed.
       const push = candidates.slice(0, cap);
-      // Buzz the phone only for hardware/robotics-relevant roles at non-big
-      // companies. Off-target functions (IT, generic SWE, ML, biomed with no
-      // hardware signal), mid-band pay on a weak fit, and big-co roles go to the
-      // board only. Mirrors watch.py deliver().
+      // Push every hardware/robotics-relevant role: startups high; big companies
+      // and mid-band pay on a weak-fit title at default (still alerts). Only
+      // off-target functions (IT, generic SWE, ML, biomed, ops...) stay unpushed.
+      // Mirrors watch.py deliver().
       const nowSec = Math.floor(Date.now() / 1000);
       const boardAdds = [];
       for (const j of push) {
         const big = isBigCo(j.company, f) || isBigCo(j.name, f);
-        const buzz = !big && curatedRelevant(j, f) && !payMidbandWeak(j, j.desc, cfg, f);
-        const rec = roleRecord(j, f, buzz ? "high" : "board", nowSec);
-        if (buzz) await ntfy(env, rec, "high", cfg.board_url);
+        const level = !curatedRelevant(j, f) ? "board"
+          : big || payMidbandWeak(j, j.desc, cfg, f) ? "default" : "high";
+        const rec = roleRecord(j, f, level, nowSec);
+        if (level !== "board") await ntfy(env, rec, level);
         boardAdds.push(rec);
         seen.add(j.id);
       }
@@ -297,7 +307,7 @@ export default {
       await addToBoard(env, [...boardAdds, ...backfill], nowSec);
       if (candidates.length > cap)
         console.log(`WARN ${candidates.length} new > cap ${cap}; ${candidates.length - cap} deferred to next run`);
-      console.log(`NEW x${push.length} (${boardAdds.filter((r) => r.delivery === "high").length} pushed): ${push.map((j) => j.title).join(" | ")}`);
+      console.log(`NEW x${push.length} (${boardAdds.filter((r) => r.delivery !== "board").length} pushed): ${push.map((j) => j.title).join(" | ")}`);
     }
     if (backfill.length && !(candidates.length && !seeding)) {
       await addToBoard(env, backfill, Math.floor(Date.now() / 1000));
@@ -313,7 +323,7 @@ export default {
       const rec = { company: "Figure", title: "[TEST] Hardware Test Intern (worker)",
         location: "Sunnyvale, CA", url: "https://github.com/AbhigyaGoel/vigil", pay: fmtPay([38, 45]),
         season: "Summer 2027", posted: nowSec - 3 * 86400, found: nowSec };
-      await ntfy(env, rec, "high", cfg.board_url);
+      await ntfy(env, rec, "high");
       return new Response(`worker test push sent: ${rec.title} -> ${rec.url}\n`);
     }
     if (url.pathname !== "/" && url.pathname !== "/roles.json") {
