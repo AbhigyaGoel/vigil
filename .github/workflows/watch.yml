@@ -32,6 +32,7 @@ jobs:
         run: python watch.py --once
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
           # Set repo variable SKIP_ATS=1 once the Cloudflare worker owns the
           # instant tier, so the same role doesn't alert from both systems.
           SKIP_ATS: ${{ vars.SKIP_ATS }}

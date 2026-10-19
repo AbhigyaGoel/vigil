@@ -142,17 +142,31 @@ function roleRecord(job, f, delivery, nowSec) {
   };
 }
 
+// Returns true when ntfy accepted the push. A rejected push (429 from shared
+// Cloudflare egress, 5xx, network error) is logged and reported so the caller
+// leaves the role unseen and retries it next minute instead of losing it.
 async function ntfy(env, rec, priority) {
-  if (!env.NTFY_TOPIC) return;
+  if (!env.NTFY_TOPIC) return true;
   const body = pushBody(rec.location, rec.pay, rec.season, rec.published || rec.posted, rec.found);
-  await fetch(`https://ntfy.sh/${env.NTFY_TOPIC}`, {
-    method: "POST",
-    body,   // header (company - title) is NOT repeated here
-    headers: {
-      ...UA, Title: `${rec.company} - ${rec.title}`.slice(0, 140).replace(/[^\x20-\x7e]/g, ""),
-      Priority: priority, Click: rec.url, Actions: `view, Apply, ${rec.url}`,
-    },
-  });
+  try {
+    const r = await fetch(`https://ntfy.sh/${env.NTFY_TOPIC}`, {
+      method: "POST",
+      body,   // header (company - title) is NOT repeated here
+      headers: {
+        ...UA, Title: `${rec.company} - ${rec.title}`.slice(0, 140).replace(/[^\x20-\x7e]/g, ""),
+        Priority: priority, Click: rec.url, Actions: `view, Apply, ${rec.url}`,
+        // Anonymous ntfy quota is per sending IP, and Workers egress IPs are shared
+        // with other tenants (429 "daily message quota reached"). A token bills the
+        // quota to our own account instead.
+        ...(env.NTFY_TOKEN ? { Authorization: `Bearer ${env.NTFY_TOKEN}` } : {}),
+      },
+    });
+    if (!r.ok) console.log(`ERROR ntfy ${r.status} ${rec.company} - ${rec.title}: ${(await r.text()).slice(0, 200)}`);
+    return r.ok || (r.status < 500 && r.status !== 429);   // other 4xx won't fix itself: don't loop
+  } catch (e) {
+    console.log(`ERROR ntfy ${rec.company} - ${rec.title}: ${e}`);
+    return false;
+  }
 }
 
 // Prepend new rows to this worker's KV board. Backfilled rows (found=0) are kept
@@ -301,7 +315,7 @@ export default {
         const level = !curatedRelevant(j, f) ? "board"
           : big || payMidbandWeak(j, j.desc, cfg, f) ? "default" : "high";
         const rec = roleRecord(j, f, level, nowSec);
-        if (level !== "board") await ntfy(env, rec, level);
+        if (level !== "board" && !(await ntfy(env, rec, level))) continue;   // unseen -> retried next run
         boardAdds.push(rec);
         seen.add(j.id);
       }
@@ -325,8 +339,9 @@ export default {
       const rec = { company: "Figure", title: "[TEST] Hardware Test Intern (worker)",
         location: "Sunnyvale, CA", url: "https://github.com/AbhigyaGoel/vigil", pay: fmtPay([38, 45]),
         season: "Summer 2027", posted: nowSec - 3 * 86400, found: nowSec };
-      await ntfy(env, rec, "high");
-      return new Response(`worker test push sent: ${rec.title} -> ${rec.url}\n`);
+      const ok = await ntfy(env, rec, "high");
+      return new Response(`worker test push ${ok ? "accepted by ntfy" : "REJECTED by ntfy (see wrangler tail)"}: ${rec.title}\n`,
+        { status: ok ? 200 : 502 });
     }
     if (url.pathname !== "/" && url.pathname !== "/roles.json") {
       return new Response("not found\n", { status: 404 });

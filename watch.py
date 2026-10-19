@@ -31,6 +31,7 @@ import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
@@ -43,6 +44,7 @@ import display
 
 ROOT = Path(__file__).parent
 UA = {"User-Agent": "vigil/2.0 (github.com/AbhigyaGoel/vigil)"}
+NTFY_RETRY_DELAYS = (2, 5, 0)   # seconds to wait after attempts 1 and 2; 3 attempts total
 
 
 def load_config():
@@ -52,6 +54,8 @@ def load_config():
         cfg.update(json.loads(local.read_text(encoding="utf-8-sig")))
     if os.environ.get("NTFY_TOPIC"):
         cfg["ntfy_topic"] = os.environ["NTFY_TOPIC"]
+    if os.environ.get("NTFY_TOKEN"):   # per-account quota instead of the shared-IP one
+        cfg["ntfy_token"] = os.environ["NTFY_TOKEN"]
     return cfg
 
 
@@ -898,12 +902,27 @@ def ntfy(title, body, click=None, priority="high"):
         return
     headers = {**UA, "Title": title[:140].encode("ascii", "ignore").decode(),
                "Priority": priority}
+    if CFG.get("ntfy_token"):
+        headers["Authorization"] = f"Bearer {CFG['ntfy_token']}"
     if click:
         headers["Click"] = click
         headers["Actions"] = f"view, Apply, {click}"
     req = urllib.request.Request(f"https://ntfy.sh/{topic}", data=body.encode("utf-8"),
                                  headers=headers, method="POST")
-    urllib.request.urlopen(req, timeout=20).read()
+    # The role is already marked seen, so a dropped push is a lost alert. Retry
+    # transient failures (runner network blips, 429, 5xx); other 4xx won't heal.
+    for delay in NTFY_RETRY_DELAYS:
+        try:
+            urllib.request.urlopen(req, timeout=20).read()
+            return
+        except urllib.error.HTTPError as e:
+            if e.code < 500 and e.code != 429:
+                raise
+            last = e
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            last = e
+        time.sleep(delay)
+    raise last
 
 
 def fmt_season(terms):
