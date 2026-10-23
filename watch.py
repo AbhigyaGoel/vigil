@@ -1044,7 +1044,7 @@ def scan(seen, enrich):
         except Exception as e:
             print(f"WARN {name} -> {repr(e)[:90]}", file=sys.stderr)
         time.sleep(0.25)
-    tier_a.sort(key=lambda r: -r["score"])
+    tier_a.sort(key=lambda r: (r["bigco"], -r["score"]))   # startups first, then fit
     return tier_a, tier_b, stats
 
 
@@ -1121,7 +1121,7 @@ def deliver(tier_a, tier_b, now):
     cap = CFG.get("max_alerts_per_run", 25)
     prompt_bar = CFG.get("tierb_prompt_score", 3)
     out, sent = [], 0
-    for r in tier_a + sorted(tier_b, key=lambda x: -x.get("score", 0)):
+    for r in tier_a + sorted(tier_b, key=lambda x: (x["bigco"], -x.get("score", 0))):
         r = {**r, "found": now}
         if scraped_vague(r):
             r["delivery"] = "board"

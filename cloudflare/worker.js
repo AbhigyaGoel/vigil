@@ -303,7 +303,9 @@ export default {
     } else if (candidates.length) {
       // Push up to the per-run cap, and mark ONLY what we actually pushed as seen so
       // any overflow re-surfaces next minute instead of being silently swallowed.
-      const push = candidates.slice(0, cap);
+      // Startups first, so the cap defers big-company overflow, never a startup's.
+      const big = (j) => isBigCo(j.company, f) || isBigCo(j.name, f);
+      const push = [...candidates].sort((x, y) => big(x) - big(y)).slice(0, cap);
       // Push every hardware/robotics-relevant role: startups high; big companies
       // and mid-band pay on a weak-fit title at default (still alerts). Only
       // off-target functions (IT, generic SWE, ML, biomed, ops...) stay unpushed.
@@ -311,9 +313,8 @@ export default {
       const nowSec = Math.floor(Date.now() / 1000);
       const boardAdds = [];
       for (const j of push) {
-        const big = isBigCo(j.company, f) || isBigCo(j.name, f);
         const level = !curatedRelevant(j, f) ? "board"
-          : big || payMidbandWeak(j, j.desc, cfg, f) ? "default" : "high";
+          : big(j) || payMidbandWeak(j, j.desc, cfg, f) ? "default" : "high";
         const rec = roleRecord(j, f, level, nowSec);
         if (level !== "board" && !(await ntfy(env, rec, level))) continue;   // unseen -> retried next run
         boardAdds.push(rec);

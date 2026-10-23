@@ -2,7 +2,7 @@
   "_docs_1": "Defaults. Personal overrides go in config.local.json (gitignored) - any key there overrides the same key here WHOLESALE. The NTFY_TOPIC env var beats both (used by GitHub Actions secrets).",
   "_docs_2": "ATS slugs below were verified against live Summer2027 hardware postings (URL-mined from SimplifyJobs listings.json) and against zshah101's 4,054-board ATS registry. Slugs marked in _unverified_slugs are guesses - bad slugs only log a WARN and get skipped.",
   "_docs_3": "listings_repos roll over yearly (Summer2027 -> Summer2028). If one starts 404ing, check github.com/SimplifyJobs for the new repo name. Append :branch to override the default 'dev' branch.",
-  "_docs_4": "exclude_keywords ships with defense contractors filtered out. Not your politics? Delete those lines in your fork.",
+  "_docs_4": "Defense filtering is OFF (exclude_companies empty, no defense exclude_keywords, desc_clearance empty). Defense primes/labs sit in big_companies, so they push at default priority while startups push at high and sort first.",
   "_docs_5": "IMPLEMENTED in watch.py + worker.js: include_terms (season filter on listing.terms; rows lacking a terms field are kept), require_active, exclude_companies (company-level blocklist), markdown_sources, atom_feeds, and a Workday adapter. keep() already falls back to keyword-only for sources with no category (e.g. vanshb03), so that source was never contributing zero.",
   "_docs_6": "PAY GATE (watch.py extract_pay / cloudflare/filters.mjs extractPay): only fires when an hourly $ figure is actually stated in the description (GH/Lever/Ashby inline, or a fetched Workday/Simplify desc) - no pay stated is ambiguous and never drops, per the rails. pay_floor_hourly: hard drop below this (positive evidence of low pay). pay_preferred_hourly: at/above this, no penalty. Between floor and preferred, the role only reaches Tier A / high-priority if it's a strong hardware/robotics fit (score >= pay_midband_min_score in watch.py; an explicit include_keywords title hit as the closest JS-side proxy, since the worker has no ported scoring table) - otherwise it still delivers, just demoted to Tier B / low-priority.",
 
@@ -34,14 +34,41 @@
     [-3, "\\bPhD\\b|\\bMBA\\b"]
   ],
   "desc_hw_keywords": ["\\bPCB\\b", "\\bSoC\\b", "\\bSLAM\\b", "lidar", "radar", "sensor fusion", "\\bROS ?2?\\b", "kinematics", "microcontroller", "\\bMCU\\b", "\\bDSP\\b", "\\bCUDA\\b", "\\bTPU\\b", "motor control", "actuator", "bring-?up", "\\bHIL\\b", "signal integrity", "photonics", "schematic", "verilog", "\\bVHDL\\b", "\\bI2C\\b", "\\bSPI\\b", "\\bUART\\b", "\\bPWM\\b", "\\bRTOS\\b", "\\bFPGA\\b"],
-  "desc_clearance": "security clearance|\\bTS/SCI\\b|secret clearance|\\bclearance\\b|polygraph",
+  "desc_clearance": "",
   "_big_companies_note": "Established corporates. Their relevant roles still push, at DEFAULT priority; startups push at HIGH. Weak-fit roles never push regardless of company. Matched against company name AND board slug with a LEADING word boundary only, so 'samsung' also catches the 'samsungsemiconductor' slug; add a trailing \\b to an entry that would otherwise prefix-match unrelated names. Delivery-only: editing this never reseeds.",
   "big_companies": [
     "meta\\b", "facebook", "google", "alphabet", "microsoft", "amazon", "aws\\b", "apple\\b", "netflix", "oracle", "ibm\\b", "cisco", "dell\\b", "hewlett", "hp\\b", "hpe\\b",
     "intel\\b", "amd\\b", "advanced micro devices", "nvidia", "qualcomm", "broadcom", "texas instruments", "micron", "analog devices", "nxp", "marvell", "kla\\b", "applied materials", "lam research", "samsung", "sk ?hynix", "infineon", "stmicro", "onsemi", "microchip", "western digital", "seagate", "globalfoundries", "tsmc",
     "general motors", "gm\\b", "ford\\b", "stellantis", "toyota", "woven", "honda", "hyundai", "bmw\\b", "mercedes", "volkswagen", "tesla", "caterpillar", "deere", "cummins", "paccar",
     "honeywell", "general electric", "ge aerospace", "ge vernova", "ge healthcare", "boeing", "airbus", "collins aerospace", "pratt", "siemens", "bosch", "3m\\b", "emerson", "rockwell", "abb\\b", "schneider", "eaton",
-    "medtronic", "abbott", "johnson ?& ?johnson", "philips", "stryker", "boston scientific", "zebra", "trimble", "garmin", "motorola", "uber\\b", "walmart", "target\\b", "exxon", "chevron", "shell\\b"
+    "medtronic", "abbott", "johnson ?& ?johnson", "philips", "stryker", "boston scientific", "zebra", "trimble", "garmin", "motorola", "uber\\b", "walmart", "target\\b", "exxon", "chevron", "shell\\b",
+    "anduril",
+    "palantir",
+    "lockheed",
+    "raytheon",
+    "rtx\\b",
+    "northrop",
+    "general dynamics",
+    "general atomics",
+    "l3harris",
+    "bae\\b",
+    "leidos",
+    "booz allen",
+    "saic\\b",
+    "caci\\b",
+    "peraton",
+    "parsons",
+    "huntington ingalls",
+    "textron",
+    "sierra nevada",
+    "aerovironment",
+    "kratos",
+    "amentum",
+    "axon\\b",
+    "sandia",
+    "lawrence livermore",
+    "mitre\\b",
+    "draper\\b"
   ],
   "display_names": {
     "1x": "1X", "physicalintelligence": "Physical Intelligence", "maticrobots": "Matic Robots", "serverobotics": "Serve Robotics", "reviserobotics": "Revise Robotics", "droyd": "DROYD", "rivianvw.tech": "Rivian and VW Group Technology", "applied": "Applied Intuition", "d-matrix": "d-Matrix", "fab2": "Fab2", "overviewenergy": "Overview Energy", "apex-technology-inc": "Apex Space", "h3x-technologies": "H3X", "openai": "OpenAI", "hadrian-automation": "Hadrian", "bedrock-robotics": "Bedrock Robotics", "wayve": "Wayve", "cirrus": "Cirrus Logic",
@@ -189,7 +216,14 @@
     "jetzero",
     "efficientcomputer",
     "rebuildmanufacturing",
-    "tau"
+    "tau",
+    "andurilindustries",
+    "trueanomalyinc",
+    "aevexaerospace",
+    "terranorbitalcorporation",
+    "voyagertechnologiesinc",
+    "axon",
+    "spacekinetic"
   ],
   "lever": [
     "zoox",
@@ -218,7 +252,12 @@
     "humble-robotics",
     "lumafield",
     "agtonomy",
-    "waabi"
+    "waabi",
+    "shieldai",
+    "hermeus",
+    "skyways",
+    "dodmg",
+    "palantir"
   ],
   "ashby": [
     "physicalintelligence",
@@ -282,7 +321,9 @@
     "standardbots",
     "matx",
     "formenergy",
-    "saronic"
+    "saronic",
+    "windborne-systems",
+    "turion-space"
   ],
   "curated_aliases": [
     "zipline"
@@ -302,33 +343,6 @@
     { "name": "Trimble", "tenant": "trimble", "host": "trimble.wd1.myworkdayjobs.com", "site": "TrimbleCareers" }
   ],
   "_workday_todo": "12 verified tenants (intern workerSubType facet): NVIDIA, Micron, ADI, KLA, Intel, Applied Materials (amat), Marvell, Caterpillar (cat), Boston Dynamics, NXP, Zebra, Trimble. SKIPPED - no workerSubType facet (would need fuzzy fallback): Cognex (has a Core Vision Intern, board is only ~96 rows so fuzzy would be complete - add if wanted), Magna, Rockwell (early-careers site had only 2 roles). Qualcomm cxs 422s on every site. AMD/John Deere/Rivian/Bosch/Lam Research: no public Workday board found. NON-Workday, need separate adapters: Apple (jobs.apple.com search API), Texas Instruments (Oracle Cloud). To add: find board URL https://<host>/<site>/..., tenant is the path after /wday/cxs/, verify a workerSubType intern facet exists.",
-  "_deliberately_omitted": {
-    "note": "Verified-real slugs left out because the company's revenue is materially defense/DoD. Paste back in if you change your mind.",
-    "greenhouse": [
-      "andurilindustries",
-      "trueanomalyinc",
-      "aevexaerospace",
-      "terranorbitalcorporation",
-      "voyagertechnologiesinc",
-      "axon",
-      "spacekinetic"
-    ],
-    "lever": [
-      "shieldai",
-      "saronic",
-      "hermeus",
-      "cesiumastro",
-      "skyways",
-      "dodmg",
-      "palantir"
-    ],
-    "ashby": [
-      "windborne-systems",
-      "turion-space",
-      "mach",
-      "odin-dynamics"
-    ]
-  },
   "_unverified_slugs": [
     "formlabs",
     "flyzipline",
@@ -468,66 +482,7 @@
     "installer",
     "data cent(er|re)",
     "custodian",
-    "warehouse",
-    "defen[cs]e",
-    "\\bDoD\\b",
-    "national security",
-    "warfighter",
-    "munition",
-    "missile",
-    "hypersonic",
-    "weapon",
-    "\\bTS/SCI\\b",
-    "\\bITAR\\b",
-    "starshield"
+    "warehouse"
   ],
-  "exclude_companies": [
-    "anduril",
-    "shield ?ai",
-    "palantir",
-    "epirus",
-    "castelion",
-    "true anomaly",
-    "mach industries",
-    "vannevar",
-    "aevex",
-    "\\bBAE\\b",
-    "raytheon",
-    "\\bRTX\\b",
-    "lockheed",
-    "northrop",
-    "general atomics",
-    "general dynamics",
-    "helsing",
-    "l3harris",
-    "leidos",
-    "booz allen",
-    "sierra nevada",
-    "aerovironment",
-    "kratos",
-    "textron",
-    "huntington ingalls",
-    "\\bCACI\\b",
-    "\\bSAIC\\b",
-    "peraton",
-    "parsons",
-    "amentum",
-    "draper",
-    "\\bMITRE\\b",
-    "sandia",
-    "lawrence livermore",
-    "\\bHRL\\b",
-    "aerospace corporation",
-    "applied physical sciences",
-    "morse corp",
-    "windborne",
-    "turion",
-    "hermeus",
-    "cesium",
-    "odin dynamics",
-    "space dynamics",
-    "axon",
-    "terran orbital",
-    "voyager technologies"
-  ]
+  "exclude_companies": []
 }
