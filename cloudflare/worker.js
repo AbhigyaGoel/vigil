@@ -16,7 +16,7 @@
  * so bump the suffix to force a silent reseed after a filter-behavior change.
  */
 
-import { makeFilters, curatedTitlePass, hardMismatch, curatedRelevant, payDrop, payMidbandWeak, payRange, isBigCo } from "./filters.mjs";
+import { makeFilters, curatedTitlePass, hardMismatch, curatedRelevant, payDrop, payMidbandWeak, payRange, isBigCo, pushStale } from "./filters.mjs";
 import { ghPay, leverPay, ashbyPay, fmtPay, fmtDate, fmtFound, pushBody, displayCompany } from "./display.mjs";
 import { renderBoard } from "./board.mjs";
 
@@ -270,7 +270,7 @@ export default {
       for (const job of jobs) {
         if (seen.has(job.id)) continue;
         if (!curatedTitlePass(job, f)) continue;   // intern + excludes + season + US (cheap)
-        if (silent) {
+        if (silent || pushStale(job, cfg, Date.now())) {   // old posting: board, no buzz
           seen.add(job.id);
           backfill.push(roleRecord(job, f, "board", 0));
           continue;

@@ -26,6 +26,7 @@ globalThis.fetch = (url, init) => {
   return realFetch(url, init);
 };
 const ctx = { waitUntil: () => {} };
+const cfgLocal = JSON.parse(readFileSync(new URL("../config.json", import.meta.url)));
 
 // Cold KV (bucket never seeded): the first run must persist every seeded id.
 const cold = new Map();
@@ -53,8 +54,14 @@ if (victim) {
   store.set("seen_v4", JSON.stringify(JSON.parse(store.get("seen_v4")).filter((id) => !id.startsWith(victim + ":"))));
   await worker.scheduled({}, env, ctx);
   console.log(`new board ${victim}: pushes=${pushes.length}`);
-  const boarded = JSON.parse(store.get("board_v1")).filter((r) => r.id.startsWith(victim + ":") && r.found);
-  if (!boarded.length) { console.log("FAIL: newly added board's roles were not processed"); process.exit(1); }
+  // Fresh roles push (found stamped); ones older than push_max_age_days land unstamped.
+  const rows = JSON.parse(store.get("board_v1")).filter((r) => r.id.startsWith(victim + ":"));
+  if (!rows.length) { console.log("FAIL: newly added board's roles were not processed"); process.exit(1); }
+  const cutoff = Date.now() / 1000 - (cfgLocal.push_max_age_days || 0) * 86400;
+  const stalePushed = rows.filter((r) => r.found && (r.published || r.posted) && (r.published || r.posted) < cutoff);
+  if (cfgLocal.push_max_age_days && stalePushed.length) {
+    console.log("FAIL: stale roles pushed", stalePushed.map((r) => r.title)); process.exit(1);
+  }
 }
 
 const res = await worker.fetch(new Request("https://vigil.example/"), env);

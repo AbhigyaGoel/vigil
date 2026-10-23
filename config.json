@@ -9,6 +9,8 @@
   "ntfy_topic": "CHANGE-ME-set-the-NTFY_TOPIC-secret",
   "max_alerts_per_run": 25,
   "max_age_days": 21,
+  "push_max_age_days": 21,
+  "_push_max_age_note": "Delivery-only: a role whose first-published date is known and older than this never buzzes the phone (it still lands on the board). No date stated = no proof it is old = still pushes.",
 
   "pay_floor_hourly": 25,
   "pay_preferred_hourly": 34,

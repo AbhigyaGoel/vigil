@@ -87,10 +87,30 @@ def test_role_pay():
     check("none", watch.role_pay({}, {}), "")
 
 
+def test_deliver_stale():
+    """A posting older than push_max_age_days lands on the board, never buzzes; an
+    unknown date isn't proof of age, so it still pushes."""
+    sent = []
+    watch.push_role = lambda r, p: sent.append(r["id"])
+    now = time.time()
+    old = {**rec(1, "A", 5), "published": now - 60 * 86400}
+    edited = {**rec(2, "A", 5), "published": now - 60 * 86400, "posted": now - 86400}
+    fresh = {**rec(3, "A", 5), "published": now - 2 * 86400}
+    undated = rec(4, "A", 5)
+    out = watch.deliver([old, edited, fresh, undated], [], now)
+    by = {r["id"]: r["delivery"] for r in out}
+    check("stale_board", by["t:1"], "board")
+    check("stale_edit_doesnt_refresh", by["t:2"], "board")
+    check("fresh_high", by["t:3"], "high")
+    check("undated_high", by["t:4"], "high")
+    check("stale_not_sent", sorted(sent), ["t:3", "t:4"])
+
+
 if __name__ == "__main__":
     test_deliver()
     test_deliver_filters()
     test_deliver_cap()
+    test_deliver_stale()
     test_board_merge()
     test_role_pay()
     if fails:

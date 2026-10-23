@@ -93,6 +93,15 @@ _big = CFG.get("big_companies") or []
 BIG_CO = re.compile(r"\b(?:" + "|".join(_big) + r")", re.I) if _big else None
 
 
+def push_stale(rec, now):
+    """Posted longer ago than push_max_age_days -> board-only, never a push. Prefers the
+    first-published stamp (Greenhouse updated_at bumps on every edit). An unknown date
+    is not proof of age, so it still pushes. Mirrors filters.mjs pushStale."""
+    days = CFG.get("push_max_age_days") or 0
+    born = rec.get("published") or rec.get("posted") or 0
+    return bool(days and born and now - born > days * 86400)
+
+
 def is_bigco(company):
     """Mirrors filters.mjs isBigCo (parity 'bigco')."""
     return bool(BIG_CO and company and BIG_CO.search(company))
@@ -1123,7 +1132,7 @@ def deliver(tier_a, tier_b, now):
     out, sent = [], 0
     for r in tier_a + sorted(tier_b, key=lambda x: (x["bigco"], -x.get("score", 0))):
         r = {**r, "found": now}
-        if scraped_vague(r):
+        if scraped_vague(r) or push_stale(r, now):
             r["delivery"] = "board"
         elif r["tier"] == "A":
             r["delivery"] = "default" if r["bigco"] else "high"

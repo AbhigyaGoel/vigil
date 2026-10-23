@@ -85,6 +85,16 @@ export function extractPay(desc) {
   return r ? (r[0] + r[1]) / 2 : null;
 }
 
+// Posted longer ago than push_max_age_days -> board-only, never a push. Prefers the
+// first-published stamp (Greenhouse updated_at bumps on every edit). Unknown date is
+// not proof of age, so it still pushes. job.published/posted are ms. Mirrors watch.py
+// push_stale.
+export function pushStale(job, cfg, nowMs) {
+  const days = (cfg && cfg.push_max_age_days) || 0;
+  const born = job.published || job.posted || 0;
+  return !!(days && born && nowMs - born > days * 86_400_000);
+}
+
 // Established corporate: board-only, never a phone push. Mirrors watch.py is_bigco.
 export function isBigCo(company, f) {
   return !!(f.bigCo && company && f.bigCo.test(company));
