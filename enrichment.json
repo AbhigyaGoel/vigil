@@ -22225,7 +22225,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 0,
+"core_fit": 0,
 "pay_range": null
 },
 "ls:aeab764d-5a2a-4abf-8dc2-c9aef5a4ec51": {
@@ -22234,7 +22234,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 6,
+"core_fit": 6,
 "pay_range": null
 },
 "ls:c7ab76aa-55a7-4283-bba4-e4f368c17bd5": {
@@ -22252,7 +22252,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 0,
+"core_fit": 0,
 "pay_range": null
 },
 "ls:81bb64c3-b219-41c9-8a9d-5d61feb95dbc": {
@@ -22261,7 +22261,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 0,
+"core_fit": 0,
 "pay_range": null
 },
 "ls:c0f9841a-4867-4a52-8302-9f1d9e05ca08": {
@@ -22269,11 +22269,11 @@
 "hw": false,
 "grad_bad": false,
 "grad_only": false,
-"pay": 20.0,
-"fit": 0,
+"pay": 40.0,
+"core_fit": 0,
 "pay_range": [
-20.0,
-20.0
+40.0,
+40.0
 ]
 },
 "ls:14dd2b03-6438-4e36-bae0-d3232c7923da": {
@@ -22282,7 +22282,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 3,
+"core_fit": 1,
 "pay_range": null
 },
 "ls:78f881bd-6ece-4393-aaf1-e81fd8596d88": {
@@ -22291,7 +22291,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": 30.7,
-"fit": 3,
+"core_fit": 3,
 "pay_range": [
 30.7,
 30.7
@@ -22303,7 +22303,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 0,
+"core_fit": 0,
 "pay_range": null
 },
 "ls:9cd6fe4b-5705-4c78-bd3f-42710712db27": {
@@ -22312,7 +22312,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 0,
+"core_fit": 0,
 "pay_range": null
 },
 "ls:afbcd8c5-60ad-498a-905c-6a091dffe1a3": {
@@ -22321,7 +22321,7 @@
 "grad_bad": true,
 "grad_only": false,
 "pay": 30.0,
-"fit": 2,
+"core_fit": 5,
 "pay_range": [
 30.0,
 30.0
@@ -22357,7 +22357,7 @@
 "grad_bad": true,
 "grad_only": false,
 "pay": 30.0,
-"fit": 0,
+"core_fit": 0,
 "pay_range": [
 30.0,
 30.0
@@ -22369,7 +22369,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 0,
+"core_fit": 0,
 "pay_range": null
 },
 "ls:445db909-6382-4c10-911d-fd089f146f4a": {
@@ -22378,7 +22378,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 0,
+"core_fit": 0,
 "pay_range": null
 },
 "ls:7e711ce3-51ad-4c03-ba5e-9f27258b65df": {
@@ -22387,7 +22387,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 0,
+"core_fit": 0,
 "pay_range": null
 },
 "ls:529ec434-7642-4f89-8dce-c32598ea5eef": {
@@ -22396,7 +22396,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 0,
+"core_fit": 0,
 "pay_range": null
 },
 "ls:fd4ddbc3-2093-48b5-b364-7e8f72f0aa2d": {
@@ -22414,7 +22414,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 0,
+"core_fit": 0,
 "pay_range": null
 },
 "ls:7a0fcd2a-9cdd-4832-95ba-6a0989ecb3a3": {
@@ -22441,7 +22441,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 0,
+"core_fit": 0,
 "pay_range": null
 },
 "ls:47bfdcc8-4ce1-4a8a-b57e-2a7fecbbaaae": {
@@ -22459,7 +22459,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 0,
+"core_fit": 0,
 "pay_range": null
 },
 "ls:0aa8fe34-4c71-413b-b204-37dd5226fd7d": {
@@ -22468,7 +22468,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 0,
+"core_fit": 0,
 "pay_range": null
 },
 "ls:2504b83a-b236-4dd0-a755-bd49281455a5": {
@@ -22495,7 +22495,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 0,
+"core_fit": 0,
 "pay_range": null
 },
 "wd:marvell:/job/Pavia-Italy/Firmware-Engineering-Intern_2603916-1": {
@@ -22522,7 +22522,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 0,
+"core_fit": 0,
 "pay_range": null
 },
 "ls:42f52351-602a-458f-98a8-5259b10419d1": {
@@ -22543,7 +22543,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 0,
+"core_fit": 0,
 "pay_range": null
 },
 "ls:a0512115-877f-4d69-8afa-beff709bf82d": {
@@ -22552,7 +22552,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 0,
+"core_fit": 0,
 "pay_range": null
 },
 "ls:e6fb5000-2e1c-4620-a9c8-da52d2e6ca4d": {
@@ -22561,7 +22561,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 4,
+"core_fit": 4,
 "pay_range": null
 },
 "ls:6f89592c-cad0-4384-8d65-14460588b283": {
@@ -22570,7 +22570,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 0,
+"core_fit": 0,
 "pay_range": null
 },
 "ls:079bf3d3-847a-4fc1-988a-ae3cdbafd70e": {
@@ -22579,7 +22579,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 0,
+"core_fit": 0,
 "pay_range": null
 },
 "ls:dc2466dc-e133-4a6f-83df-7f4f3354eb6b": {
@@ -22588,7 +22588,7 @@
 "grad_bad": false,
 "grad_only": false,
 "pay": null,
-"fit": 0,
+"core_fit": 0,
 "pay_range": null
 },
 "wd:trimble:/job/US---TN-Knoxville/Software-Engineering-Intern_R58120": {
@@ -22631,6 +22631,15 @@
 ]
 },
 "ls:24c0beef-0178-4ee1-9cc0-a0ee2aa50f69": {
+"clearance": false,
+"hw": false,
+"grad_bad": false,
+"grad_only": false,
+"pay": null,
+"core_fit": 0,
+"pay_range": null
+},
+"ls:956ebdb0-0f9f-4dbf-9e87-cc04a1c35594": {
 "clearance": false,
 "hw": false,
 "grad_bad": false,
