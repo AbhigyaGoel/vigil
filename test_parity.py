@@ -18,7 +18,7 @@ cases = json.loads((ROOT / "cloudflare" / "parity_cases.json").read_text())
 fixture_total = (len(cases["geo"]) + len(cases["season"]) + len(cases["curated"])
                  + len(cases["grad"]) + len(cases["relevance"]) + len(cases["pay"])
                  + len(cases["bigco"]) + len(cases["paydisplay"]) + len(cases["structpay"])
-                 + len(cases["stamp"]))
+                 + len(cases["stamp"]) + len(cases["fit"]))
 
 fail, ran = 0, 0
 for c in cases["geo"]:
@@ -76,6 +76,11 @@ for c in cases["stamp"]:
     d, fo = display.fmt_date(c["epoch"]), display.fmt_found(c["epoch"])
     if (d, fo) != (c["date"], c["found"]):
         fail += 1; print(f"PY STAMP FAIL {c['epoch']} -> {d} | {fo} (want {c['date']} | {c['found']})")
+for c in cases["fit"]:
+    ran += 1
+    got = watch.FIT.score(c["html"])
+    if got != c["expect"]:
+        fail += 1; print(f"PY FIT FAIL {c['html'][:50]!r} -> {got} (want {c['expect']})")
 
 if ran != fixture_total:
     fail += 1; print(f"PY DID NOT RUN ALL CASES: ran {ran} of {fixture_total}")

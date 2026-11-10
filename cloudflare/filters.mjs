@@ -3,6 +3,8 @@
 // parity.mjs + test_parity.py assert both sides agree on a fixed set of roles,
 // so the two implementations can't silently drift.
 
+import { makeFit } from "./fit.mjs";
+
 export function makeFilters(cfg) {
   const rx = (a) => (a && a.length ? new RegExp(a.join("|"), "i") : null);
   const DROP = rx(cfg.drop_countries);
@@ -43,16 +45,11 @@ export function makeFilters(cfg) {
   // Defense neoprimes / new-space (mirrors watch.py EDGE_CO): leading \b only.
   const edgeCo = cfg.edge_companies && cfg.edge_companies.length
     ? new RegExp("\\b(?:" + cfg.edge_companies.join("|") + ")", "i") : null;
-  // Resume fit (mirrors watch.py RESUME_FIT): [weight, regex] rows, each counts once.
-  const fitRows = (cfg.resume_fit || []).map(([w, r]) => [w, new RegExp(r, "i")]);
-
   return {
     geo,
     bigCo,
     edgeCo,
-    fitRows,
-    fitMin: cfg.resume_fit_min || 0,
-    fitGenericCap: cfg.resume_fit_generic_cap ?? 2,
+    fit: makeFit(cfg),   // resume fit on duties + qualifications (fit.mjs)
     seasonDrop: (title) => !!(seasonRe && seasonRe.test(title || "")),
     exclude: rx(cfg.exclude_keywords),
     excludeCo,
@@ -66,27 +63,30 @@ export function makeFilters(cfg) {
 // instant ping. Clearly off-target functions (IT, ML, biomedical, finance...)
 // that carry NO hardware signal stay board-only. A generic "Engineering Intern" is
 // kept; "Software Engineer, Robotics" and "Embedded SWE" are saved by their
-// hardware/robotics keyword. A generic software/ML title is saved when the company
-// is an edge company (defense neoprime / new-space) or the description is a strong
-// resume fit (config resume_fit >= resume_fit_min) - one "Software Engineer Intern"
-// req often spans firmware, flight SW and apps (Shield AI). Mirrors watch.py
+// hardware/robotics keyword. A generic software/ML title is saved when its duties +
+// qualifications are a strong resume fit (fit.mjs) - one "Software Engineer Intern"
+// req often spans firmware, flight SW and apps (Shield AI). An edge company (defense
+// neoprime / new-space) gets a lower bar, never a bypass, and a title naming an
+// off-target specialty (Android, Frontend...) is never saved. Mirrors watch.py
 // curated_relevant() - asserted by the parity 'relevance' fixtures.
 const SOFT_ENG_TITLE = /\b(?:software|swe|full ?stack|front ?end|back ?end|machine learning|ml|ai engineer\w*|developer|data engineer\w*)\b/i;
 const NONENG_TITLE = /\b(?:web developer|information technology|sys ?admin|systems? administrator|help ?desk|data scien|data analyst|biomedical|clinical|finance|financial|business|product manag\w*|program manag\w*|\bTPM\b|technical program manag\w*|supply chain|human resources|\bHR\b|recruiting|legal|communications?|public relations|technical writ\w*|customer (?:success|support|experience)|account manag\w*|strateg\w*|marketplace|\bIT\b|IT specialist|people operations|product intern|business development|supply (?:chain|management)|content|creator|cyber ?security|growth|graphic|product & design|\bMES\b|artist|procurement|contracts)\b/i;
 export function isEdge(job, f) {
   return !!(f.edgeCo && ((job.company && f.edgeCo.test(job.company)) || (job.name && f.edgeCo.test(job.name))));
 }
-// Weight-1 rows are generic (C++, Linux, real-time...) and add at most fitGenericCap
-// together, so stacking common terms can't clear the bar. Mirrors watch.py resume_fit.
-export function resumeFit(desc, f) {
-  const hits = f.fitRows.filter(([, r]) => r.test(desc || "")).map(([w]) => w);
-  const sum = (a) => a.reduce((s, w) => s + w, 0);
-  return sum(hits.filter((w) => w > 1)) + Math.min(sum(hits.filter((w) => w <= 1)), f.fitGenericCap);
+// A generic software/ML title the fit check may rescue (mirrors watch.py fit_candidate).
+export function fitCandidate(title, f) {
+  const t = title || "";
+  return SOFT_ENG_TITLE.test(t) && !NONENG_TITLE.test(t) && !f.fit.offSpecialty(t);
 }
 export function softEngRescued(job, f) {
-  const title = job.title || "";
-  if (!SOFT_ENG_TITLE.test(title) || NONENG_TITLE.test(title)) return false;
-  return isEdge(job, f) || !!(f.fitMin && resumeFit(job.desc, f) >= f.fitMin);
+  // descHtml keeps the headings the section split needs; desc is the flat fallback.
+  return fitCandidate(job.title, f) && f.fit.ok(f.fit.score(job.descHtml || job.desc), isEdge(job, f));
+}
+// Relevance for this title can only be decided from its description (mirrors the
+// watch.py need_fit path): no hardware keyword, but a fit-check candidate.
+export function needsFitDesc(job, f) {
+  return !(f.include && f.include.test(job.title || "")) && fitCandidate(job.title, f);
 }
 export function curatedRelevant(job, f) {
   const title = job.title || "";

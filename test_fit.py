@@ -1,10 +1,11 @@
-"""Unit tests for resume-fit surfacing of generic SWE roles (watch.py v2.12).
+"""Unit tests for resume-fit surfacing of generic SWE roles (watch.py v2.13).
 
 Covers, for aggregator rows (Simplify listings, policy=tagged):
   - a generic SWE title is judged on its fetched description's resume fit
   - no description yet -> dropped as fit-pending (retried next run), never pushed
   - weak fit -> dropped; strong fit -> Tier A with the fit bonus
-  - an edge company's SWE title needs no description at all
+  - an edge company gets a lower bar but still needs a description
+  - an off-target specialty title (Android) is rejected without any fetch
   - a cached entry from before the fit score existed is re-fetched, not trusted
 
 Run:  python test_fit.py    (exit 0 = all pass)
@@ -30,16 +31,16 @@ def row(company="Acme Corp", title="Software Engineer Intern", jid="ls:t1"):
 
 
 def with_fetch(desc, fn):
-    """Run fn with listing_description stubbed to return desc (counts calls)."""
+    """Run fn with listing_html stubbed to return desc (counts calls)."""
     calls = []
-    orig, orig_fetch = watch.listing_description, watch.ENRICH_FETCH
-    watch.listing_description = lambda url: calls.append(url) or desc
+    orig, orig_fetch = watch.listing_html, watch.ENRICH_FETCH
+    watch.listing_html = lambda url: calls.append(url) or desc
     watch.ENRICH_FETCH = True
     watch.FIT_BUDGET[0] = 5
     try:
         return fn(), calls
     finally:
-        watch.listing_description, watch.ENRICH_FETCH = orig, orig_fetch
+        watch.listing_html, watch.ENRICH_FETCH = orig, orig_fetch
 
 
 def test_strong_fit_tier_a():
@@ -62,18 +63,40 @@ def test_pending_without_description():
     check("pending not cached", "ls:t1" in enrich, False)
 
 
-def test_edge_company_needs_no_description():
+def test_edge_company_lower_bar_not_bypass():
     watch.ENRICH_FETCH = False
-    dec, _ = watch.classify(row(company="Shield AI", jid="ls:t2"), {})
-    check("edge company", dec, "A")
+    check("edge company no desc", watch.classify(row(company="Shield AI", jid="ls:t2"), {}),
+          ("drop", "fit-pending"))
+    modest = "Build C++ software for our drone autonomy stack."   # 4: under 5, over the edge bar
+    (dec, _), _ = with_fetch(modest, lambda: watch.classify(row(company="Shield AI", jid="ls:t6"), {}))
+    check("edge company modest fit", dec, "A")
+    (dec, why), _ = with_fetch(modest, lambda: watch.classify(row(jid="ls:t7"), {}))
+    check("non-edge modest fit", (dec, why), ("drop", "weak-fit"))
+
+
+def test_off_specialty_title_never_fetched():
+    (dec, why), calls = with_fetch(STRONG, lambda: watch.classify(
+        row(company="Allen Control Systems", title="Android Developer Intern", jid="ls:t8"), {}))
+    check("android dropped", (dec, why), ("drop", "irrelevant"))
+    check("android not fetched", len(calls), 0)
+
+
+def test_blurb_ignored():
+    blurb = ("<p>We build autonomous robots with computer vision, embedded systems, firmware "
+             "and hardware-in-the-loop testing.</p>")
+    role = ("<h3>What You'll Do</h3><ul><li>Build React dashboards and REST APIs for the sales "
+            "team, with SQL reporting and cloud deployment pipelines.</li></ul>"
+            "<h3>Qualifications</h3><ul><li>JavaScript and SQL; familiarity with cloud services and APIs.</li></ul>")
+    (dec, why), _ = with_fetch(blurb + role, lambda: watch.classify(row(jid="ls:t9"), {}))
+    check("blurb-only fit dropped", (dec, why), ("drop", "weak-fit"))
 
 
 def test_stale_cache_refetched():
-    enrich = {"ls:t3": {"hw": False, "pay": None}}   # cached before the fit score existed
+    enrich = {"ls:t3": {"hw": False, "pay": None, "fit": 9}}   # cached before section-aware fit
     (dec, _), calls = with_fetch(STRONG, lambda: watch.classify(row(jid="ls:t3"), enrich))
     check("stale cache refetched", len(calls), 1)
     check("stale cache tier", dec, "A")
-    check("fit now cached", "fit" in enrich["ls:t3"], True)
+    check("fit now cached", "core_fit" in enrich["ls:t3"], True)
 
 
 def test_non_engineering_never_judged():

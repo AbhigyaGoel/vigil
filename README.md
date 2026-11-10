@@ -75,6 +75,10 @@ so your topic and filters stay out of the repo):
   CI test automation, bus protocols, wireless, Qt/LVGL, clearance). A generic SWE
   title at ANY company surfaces when its description scores at least the minimum;
   Simplify/Workday descriptions are fetched for this under `fit_fetch_budget` per run.
+  Only the posting's duties + qualifications are scored (`fit.py` splits on headings
+  and drops the company blurb and benefits tail). A title naming an
+  `off_specialty_titles` entry (Android, Frontend, Infrastructure...) is never
+  rescued, and `edge_companies` get the lower `resume_fit_min_edge` bar, not a bypass.
 - `us_places`: US city/state names, so "San Francisco" or "Massachusetts" with no
   ", CA"-style code still counts as US.
 - `scoring`: `[weight, regex]` rows - the hardware-vs-software ranking lives here.

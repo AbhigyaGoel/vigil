@@ -16,7 +16,8 @@
  * so bump the suffix to force a silent reseed after a filter-behavior change.
  */
 
-import { makeFilters, curatedTitlePass, hardMismatch, curatedRelevant, payDrop, payMidbandWeak, payRange, isBigCo, pushStale } from "./filters.mjs";
+import { makeFilters, curatedTitlePass, hardMismatch, curatedRelevant, needsFitDesc, payDrop, payMidbandWeak, payRange, isBigCo, pushStale } from "./filters.mjs";
+import { unescape } from "./fit.mjs";
 import { ghPay, leverPay, ashbyPay, fmtPay, fmtDate, fmtFound, pushBody, displayCompany } from "./display.mjs";
 import { renderBoard } from "./board.mjs";
 
@@ -97,6 +98,12 @@ function leverText(j) {
   const lists = (j.lists || []).map((x) => `${x.text || ""} ${(x.content || "").replace(/<[^>]+>/g, " ")}`).join(" ");
   return [j.descriptionPlain || "", lists, j.additionalPlain || ""].join(" ");
 }
+// The same parts as HTML with the list headings kept, for the resume-fit section
+// split. Mirrors watch.py lever_html().
+function leverHtml(j) {
+  const lists = (j.lists || []).map((x) => `<h3>${x.text || ""}</h3><ul>${x.content || ""}</ul>`).join("");
+  return [j.description || "", lists, j.additional || ""].join("");
+}
 const toMs = (v) => (v ? (typeof v === "number" ? (v > 1e12 ? v : v * 1000) : Date.parse(v) || 0) : 0);
 
 // `company` stays the slug (filters match on it); `name` is what the user reads.
@@ -121,6 +128,7 @@ async function fetchBoard(b, names) {
       location: (j.categories || {}).location || "", url: j.hostedUrl || "", posted: toMs(j.createdAt),
       payStruct: leverPay(j.salaryRange),
       desc: leverText(j),   // free in the board pull -> enables grad/degree demotion
+      descHtml: leverHtml(j),
     }));
   }
   const d = await gj(`https://api.ashbyhq.com/posting-api/job-board/${b.slug}?includeCompensation=true`);
@@ -129,6 +137,7 @@ async function fetchBoard(b, names) {
     location: j.location || "", url: j.jobUrl || "", posted: toMs(j.publishedAt || j.updatedAt),
     payStruct: ashbyPay(j.compensation),
     desc: j.descriptionPlain || "",   // free in the board pull -> enables grad/degree demotion
+    descHtml: j.descriptionHtml || "",
   }));
 }
 
@@ -280,10 +289,18 @@ export default {
         let desc = job.desc || "";
         if (!desc && job.detail && ghBudget > 0) {
           ghBudget--;
-          try { const jd = await gj(job.detail); desc = (jd.content || "").replace(/<[^>]+>/g, " "); } catch {}
+          try {
+            const jd = await gj(job.detail);
+            job.descHtml = unescape(jd.content || "");   // GH escapes its HTML
+            desc = job.descHtml.replace(/<[^>]+>/g, " ");
+          } catch {}
           if (ghBudget === 0) console.log("WARN gh_detail_budget spent; remaining GH roles push without grad/degree check");
         }
         job.desc = desc;   // retain for the pay mid-band priority check at push time
+        // A generic software title is judged on its description's resume fit; with no
+        // description yet (budget spent / fetch failed) leave it unseen for next run
+        // rather than settle it board-only on no evidence.
+        if (!desc && needsFitDesc(job, f)) continue;
         // budget spent -> desc stays "" -> hardMismatch/payDrop false -> push anyway (recall-first)
         if (hardMismatch(desc)) continue;
         if (payDrop(desc, cfg)) continue;   // stated pay below pay_floor_hourly

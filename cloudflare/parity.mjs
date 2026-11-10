@@ -49,8 +49,12 @@ for (const c of cases.stamp) {
   const d = fmtDate(c.epoch), fo = fmtFound(c.epoch);
   if (d !== c.date || fo !== c.found) { fail++; console.log(`STAMP FAIL ${c.epoch} -> ${d} | ${fo} (want ${c.date} | ${c.found})`); }
 }
-const extra = cases.bigco.length + cases.paydisplay.length + cases.structpay.length + cases.stamp.length;
+for (const c of cases.fit) {
+  const got = f.fit.score(c.html);
+  if (got !== c.expect) { fail++; console.log(`FIT FAIL ${JSON.stringify(c.html.slice(0, 50))} -> ${got} (want ${c.expect})`); }
+}
+const extra = cases.bigco.length + cases.paydisplay.length + cases.structpay.length + cases.stamp.length + cases.fit.length;
 const n = extra + cases.geo.length + cases.season.length + cases.curated.length + cases.grad.length + cases.relevance.length + cases.pay.length;
-console.log(`COUNT geo=${cases.geo.length} season=${cases.season.length} curated=${cases.curated.length} grad=${cases.grad.length} relevance=${cases.relevance.length} pay=${cases.pay.length} bigco=${cases.bigco.length} paydisplay=${cases.paydisplay.length} structpay=${cases.structpay.length} stamp=${cases.stamp.length} total=${n}`);
+console.log(`COUNT geo=${cases.geo.length} season=${cases.season.length} curated=${cases.curated.length} grad=${cases.grad.length} relevance=${cases.relevance.length} pay=${cases.pay.length} bigco=${cases.bigco.length} paydisplay=${cases.paydisplay.length} structpay=${cases.structpay.length} stamp=${cases.stamp.length} fit=${cases.fit.length} total=${n}`);
 console.log(fail ? `JS parity: ${fail}/${n} FAIL` : `JS parity: all ${n} pass`);
 process.exit(fail ? 1 : 0);

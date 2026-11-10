@@ -41,6 +41,7 @@ from hashlib import sha256
 from pathlib import Path
 
 import display
+import fit as fitmod
 
 ROOT = Path(__file__).parent
 UA = {"User-Agent": "vigil/2.0 (github.com/AbhigyaGoel/vigil)"}
@@ -93,24 +94,7 @@ _big = CFG.get("big_companies") or []
 BIG_CO = re.compile(r"\b(?:" + "|".join(_big) + r")", re.I) if _big else None
 _edge = CFG.get("edge_companies") or []
 EDGE_CO = re.compile(r"\b(?:" + "|".join(_edge) + r")", re.I) if _edge else None
-RESUME_FIT = [(w, re.compile(r, re.I)) for w, r in CFG.get("resume_fit") or []]
-FIT_MIN = CFG.get("resume_fit_min") or 0
-
-
-FIT_GENERIC_CAP = CFG.get("resume_fit_generic_cap", 2)
-
-
-def resume_fit(text):
-    """How strongly a description matches the resume's distinctive skills (config
-    resume_fit; each row counts once). Weight-1 rows are generic (C++, Linux,
-    real-time...) and add at most resume_fit_generic_cap together, so stacking
-    common terms can't clear the bar. Mirrors filters.mjs resumeFit."""
-    hits = [w for w, r in RESUME_FIT if r.search(text or "")]
-    return sum(w for w in hits if w > 1) + min(sum(w for w in hits if w <= 1), FIT_GENERIC_CAP)
-
-
-def fit_ok(fit):
-    return bool(FIT_MIN and fit is not None and fit >= FIT_MIN)
+FIT = fitmod.Fit(CFG)   # resume fit on a posting's duties + qualifications (fit.py)
 
 
 def push_stale(rec, now):
@@ -161,12 +145,18 @@ def soft_eng_title(title):
     return bool(SOFT_ENG_TITLE.search(title or "") and not NONENG_TITLE.search(title or ""))
 
 
+def fit_candidate(title):
+    """A generic software/ML title the resume-fit check may rescue: not a
+    non-engineering function, and not an off-target specialty (Android, Frontend,
+    Infrastructure...) - the title says what the work is."""
+    return soft_eng_title(title) and not FIT.off_specialty(title)
+
+
 def soft_eng_rescued(title, company, desc=""):
-    """A generic software/ML title that's on-target because of WHERE it is (edge
-    company) or because the description is a strong resume fit."""
-    if not soft_eng_title(title):
-        return False
-    return is_edge(company) or fit_ok(resume_fit(desc))
+    """A generic software/ML title whose duties + qualifications are a strong resume
+    fit. An edge company (defense neoprime / new-space) gets a lower bar, never a
+    bypass: its web/mobile/infra roles are no better a fit than anyone else's."""
+    return fit_candidate(title) and FIT.ok(FIT.score(desc), edge=is_edge(company))
 
 
 def curated_relevant(title, company="", desc=""):
@@ -458,7 +448,9 @@ def extract_pay(desc):
     return None if r is None else (r[0] + r[1]) / 2
 
 
-def extract_signals(desc):
+def extract_signals(desc, structured=None):
+    """structured: the description with its headings intact (HTML), for the
+    section-aware resume fit; the flat text serves every other signal."""
     if not desc:
         return {}
     grad_bad = False
@@ -473,7 +465,7 @@ def extract_signals(desc):
         "grad_only": bool(_GRAD_ONLY.search(desc)
                           and not _HAS_BACH.search(desc)),
         "pay": extract_pay(desc),
-        "fit": resume_fit(desc),
+        "core_fit": FIT.score(structured or desc),
         "pay_range": extract_pay_range(desc),   # display only (the board + push body)
     }
 
@@ -493,19 +485,31 @@ def lever_text(j):
     return " ".join([j.get("descriptionPlain") or "", lists, j.get("additionalPlain") or ""])
 
 
-def listing_description(url):
-    """Description for an aggregator row. When the apply link is a Lever or
-    Greenhouse posting, read that ATS's JSON (clean text); otherwise fetch the
-    page with its form widgets and scripts stripped."""
+def lever_html(j):
+    """The same three Lever parts as HTML, list headings kept, for the section split."""
+    lists = "".join(f"<h3>{x.get('text', '')}</h3><ul>{x.get('content', '') or ''}</ul>"
+                    for x in j.get("lists") or [])
+    return "".join([j.get("description") or "", lists, j.get("additional") or ""])
+
+
+def listing_html(url):
+    """Description for an aggregator row, headings intact. When the apply link is a
+    Lever or Greenhouse posting, read that ATS's JSON; otherwise fetch the page with
+    its form widgets and scripts stripped."""
     m = _LV_JOB.search(url)
     if m:
         host = "api.eu.lever.co" if m.group(1) else "api.lever.co"
-        return lever_text(get_json(f"https://{host}/v0/postings/{m.group(2)}/{m.group(3)}", timeout=15))
+        return lever_html(get_json(f"https://{host}/v0/postings/{m.group(2)}/{m.group(3)}", timeout=15))
     m = _GH_JOB.search(url)
     if m:
         d = get_json(f"https://boards-api.greenhouse.io/v1/boards/{m.group(1)}/jobs/{m.group(2)}", timeout=15)
-        return _HTML.sub(" ", html.unescape(d.get("content", "") or ""))
-    return _HTML.sub(" ", _HTML_NOISE.sub(" ", get_text(url, timeout=12)))
+        return html.unescape(d.get("content", "") or "")
+    return _HTML_NOISE.sub(" ", get_text(url, timeout=12))
+
+
+def listing_description(url):
+    """Flat text of listing_html (every non-fit signal reads flat text)."""
+    return _HTML.sub(" ", listing_html(url))
 
 
 def fetch_description(job, enrich, need_fit=False):
@@ -515,10 +519,11 @@ def fetch_description(job, enrich, need_fit=False):
     fetch returns {} and is NOT cached, so a later run can try again."""
     jid = job["id"]
     # need_fit: a generic-SWE role is judged on resume fit; entries cached before
-    # the fit score existed lack it, so they're fetched again.
-    if jid in enrich and not (need_fit and "fit" not in enrich[jid]):
+    # the section-aware score existed lack it, so they're fetched again.
+    if jid in enrich and not (need_fit and "core_fit" not in enrich[jid]):
         return enrich[jid]
     desc = job.get("desc") or ""          # inline for curated boards
+    structured = job.get("desc_html") or ""
     inline = bool(desc)
     budget = FIT_BUDGET if need_fit else ENRICH_BUDGET
     if not desc and ENRICH_FETCH and budget[0] > 0:
@@ -526,14 +531,16 @@ def fetch_description(job, enrich, need_fit=False):
             if job.get("src") == "workday":
                 budget[0] -= 1
                 d = get_json(job["detail"], timeout=20)
-                desc = (d.get("jobPostingInfo") or {}).get("jobDescription", "") or ""
+                structured = (d.get("jobPostingInfo") or {}).get("jobDescription", "") or ""
+                desc = _HTML.sub(" ", structured)
                 time.sleep(0.4)           # rate-limit Workday
             elif job.get("src") == "listings" and job.get("url"):
                 budget[0] -= 1
-                desc = listing_description(job["url"])
+                structured = listing_html(job["url"])
+                desc = _HTML.sub(" ", structured)
         except Exception:
             desc = ""
-    sig = extract_signals(desc) if desc else {}
+    sig = extract_signals(desc, structured) if desc else {}
     if desc or inline:                    # cache real results; never cache skipped-empties
         enrich[jid] = sig
     return sig
@@ -629,6 +636,7 @@ def greenhouse(slug):
             "display_name": j.get("company_name") or "",
             "pay_struct": display.gh_pay(j.get("pay_input_ranges")),
             "src": "greenhouse", "policy": "curated", "desc": _HTML.sub(" ", j.get("content", "") or ""),
+            "desc_html": html.unescape(j.get("content", "") or ""),
         }
 
 
@@ -641,7 +649,7 @@ def lever(slug):
             "location": (j.get("categories") or {}).get("location", ""), "url": j.get("hostedUrl", ""),
             "category": None, "terms": None, "posted": to_epoch(j.get("createdAt")),
             "pay_struct": display.lever_pay(j.get("salaryRange")),
-            "src": "lever", "policy": "curated", "desc": lever_text(j),
+            "src": "lever", "policy": "curated", "desc": lever_text(j), "desc_html": lever_html(j),
         }
 
 
@@ -654,6 +662,7 @@ def ashby(slug):
             "terms": None, "posted": to_epoch(j.get("publishedAt") or j.get("updatedAt")),
             "pay_struct": display.ashby_pay(j.get("compensation")),
             "src": "ashby", "policy": "curated", "desc": j.get("descriptionPlain", "") or "",
+            "desc_html": j.get("descriptionHtml", "") or "",
         }
 
 
@@ -836,20 +845,15 @@ def classify(job, enrich, trace=None):
             note(f"relevance: hardware category ({cat})")
         elif any(c in cat for c in SOFT_CATS) and TAGGED_SUB and TAGGED_SUB.search(title):
             note(f"relevance: soft category ({cat}) + sub-regex")
-        elif any(c in cat for c in SOFT_CATS) and soft_eng_title(title):
-            if is_edge(company):
-                note(f"relevance: soft category ({cat}) + software title at edge company")
-            else:
-                need_fit = True
-                note(f"relevance: soft category ({cat}) + software title -> judged on resume fit")
+        elif any(c in cat for c in SOFT_CATS) and fit_candidate(title):
+            need_fit = True
+            note(f"relevance: soft category ({cat}) + software title -> judged on resume fit")
         else:
             note(f"DROP irrelevant (category={cat})"); return "drop", "irrelevant"
     elif policy in ("bulk", "untagged"):
         if INCLUDE and INCLUDE.search(title):
             note("relevance: include_keywords")
-        elif soft_eng_title(title) and is_edge(company):
-            note("relevance: software title at edge company")
-        elif soft_eng_title(title):
+        elif fit_candidate(title):
             need_fit = True
             note("relevance: software title -> judged on resume fit")
         else:
@@ -862,15 +866,18 @@ def classify(job, enrich, trace=None):
 
     # --- stage 2: description signals ---
     sig = fetch_description(job, enrich, need_fit)
-    fit = sig.get("fit")
+    fit = sig.get("core_fit")
     if need_fit:
         # No description yet (seed run / budget spent) is not a verdict: drop for now,
         # NOT marked seen, so a later run fetches it and judges it then.
+        edge = is_edge(company)
+        bar = FIT.min_edge if edge else FIT.min
         if fit is None:
             note("DROP fit-pending (no description yet)"); return "drop", "fit-pending"
-        if not fit_ok(fit):
-            note(f"DROP weak resume fit ({fit} < {FIT_MIN})"); return "drop", "weak-fit"
-        note(f"relevance: resume fit {fit} >= {FIT_MIN}")
+        if not FIT.ok(fit, edge=edge):
+            note(f"DROP weak resume fit ({fit} < {bar}{', edge bar' if edge else ''})")
+            return "drop", "weak-fit"
+        note(f"relevance: resume fit {fit} >= {bar}{' (edge bar)' if edge else ''}")
     if sig.get("clearance"):
         note("DROP defense (clearance in description)"); return "drop", "defense-desc"
     # Gate on the TOP of a stated range: "$25-40/hr" can pay $40, so its midpoint
@@ -884,7 +891,7 @@ def classify(job, enrich, trace=None):
     # --- score & tier ---
     bs, ds = base_score(title), desc_score(sig)
     es = (CFG.get("edge_company_score") or 0) if is_edge(company) else 0
-    fs = (CFG.get("resume_fit_score") or 0) if fit_ok(fit) else 0
+    fs = (CFG.get("resume_fit_score") or 0) if FIT.ok(fit) else 0
     score = bs + ds + es + fs
     note(f"score={score} (title {bs}, desc {ds}, edge company {es}, resume fit {fs})")
 
@@ -906,7 +913,7 @@ def classify(job, enrich, trace=None):
             note("TIER B (curated, non-US)"); return "B", score
         if sig.get("grad_bad") or sig.get("grad_only"):
             note("TIER B (curated, grad/degree mismatch)"); return "B", score
-        if not curated_relevant(title, company, job.get("desc") or ""):
+        if not curated_relevant(title, company, job.get("desc_html") or job.get("desc") or ""):
             note("TIER B (curated, off-target function)"); return "B", score
         if not pay_ok(score):
             note(f"TIER B (curated, pay ${pay:.0f}/hr mid-band, fit score {score} < {pay_midband_bar})")
@@ -938,7 +945,7 @@ def _load(path, default):
     return default
 
 
-LOGIC_VERSION = "v2.12"  # bump when filter/scoring CODE changes -> forces a silent reseed
+LOGIC_VERSION = "v2.13"  # bump when filter/scoring CODE changes -> forces a silent reseed
 # v2.6: added zapplyjobs low-latency feeds + Tier-B prompt-push.
 # v2.7: added registry-based auto-discovery of hardware/robotics boards; reseed so the
 # ~49 discovered boards' backlog seeds silently instead of flooding on first scan.
@@ -977,6 +984,11 @@ LOGIC_VERSION = "v2.12"  # bump when filter/scoring CODE changes -> forces a sil
 # company whose description is a strong resume fit (config resume_fit >= resume_fit_min;
 # Simplify/Workday descriptions fetched under fit_fetch_budget). A strong-fit description
 # also scores +resume_fit_score on any role.
+# v2.13: resume fit scores only a posting's duties + qualifications (fit.py drops the
+# company blurb and benefits tail), a generic title naming an off-target specialty
+# (Android/Frontend/Infrastructure...) is never rescued, and edge_companies get a lower
+# fit bar instead of bypassing the check. Traced to an ACS "Android Developer Intern"
+# alert: the edge bypass let it through, and its About-us text alone scored 13.
 # Traced to Shield AI's single "Software Engineer Intern" req (spans firmware/embedded,
 # flight SW, apps) landing board-only as an off-target function.
 
@@ -987,7 +999,8 @@ def config_hash():
             "desc_hw_keywords", "desc_clearance", "ats_require", "max_age_days",
             "pay_floor_hourly", "pay_preferred_hourly", "pay_midband_min_score",
             "edge_companies", "edge_company_score", "resume_fit", "resume_fit_min",
-            "resume_fit_score", "resume_fit_generic_cap"]
+            "resume_fit_score", "resume_fit_generic_cap", "resume_fit_min_edge",
+            "off_specialty_titles", "on_specialty_titles"]
     blob = json.dumps({"_v": LOGIC_VERSION, **{k: CFG.get(k) for k in keys}}, sort_keys=True)
     return sha256(blob.encode()).hexdigest()[:16]
 
