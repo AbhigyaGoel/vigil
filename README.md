@@ -66,6 +66,15 @@ so your topic and filters stay out of the repo):
   A newly added board's currently open roles push like new postings.
 - `big_companies`: established corporates; their roles push at default priority
   instead of high. Changing this list does not trigger a reseed.
+- `edge_companies`: defense neoprimes and new-space/aero companies where a generic
+  "Software Engineer Intern" is on-target (one req often covers embedded, flight
+  software and apps). A software/ML title there counts as relevant on every source
+  and scores `+edge_company_score`.
+- `resume_fit` / `resume_fit_min`: `[weight, regex]` rows built from the resume's
+  distinctive skills (embedded/RTOS, HIL/SIL, flight SW, ROS2, edge ML, C++, sim,
+  CI test automation, bus protocols, wireless, Qt/LVGL, clearance). A generic SWE
+  title at ANY company surfaces when its description scores at least the minimum;
+  Simplify/Workday descriptions are fetched for this under `fit_fetch_budget` per run.
 - `us_places`: US city/state names, so "San Francisco" or "Massachusetts" with no
   ", CA"-style code still counts as US.
 - `scoring`: `[weight, regex]` rows - the hardware-vs-software ranking lives here.

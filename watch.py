@@ -91,6 +91,26 @@ EXCLUDE_CO = re.compile(r"\b(?:" + "|".join(_eco) + r")\b", re.I) if _eco else N
 # 'samsungsemiconductor' slug; entries that need a trailing boundary carry it.
 _big = CFG.get("big_companies") or []
 BIG_CO = re.compile(r"\b(?:" + "|".join(_big) + r")", re.I) if _big else None
+_edge = CFG.get("edge_companies") or []
+EDGE_CO = re.compile(r"\b(?:" + "|".join(_edge) + r")", re.I) if _edge else None
+RESUME_FIT = [(w, re.compile(r, re.I)) for w, r in CFG.get("resume_fit") or []]
+FIT_MIN = CFG.get("resume_fit_min") or 0
+
+
+FIT_GENERIC_CAP = CFG.get("resume_fit_generic_cap", 2)
+
+
+def resume_fit(text):
+    """How strongly a description matches the resume's distinctive skills (config
+    resume_fit; each row counts once). Weight-1 rows are generic (C++, Linux,
+    real-time...) and add at most resume_fit_generic_cap together, so stacking
+    common terms can't clear the bar. Mirrors filters.mjs resumeFit."""
+    hits = [w for w, r in RESUME_FIT if r.search(text or "")]
+    return sum(w for w in hits if w > 1) + min(sum(w for w in hits if w <= 1), FIT_GENERIC_CAP)
+
+
+def fit_ok(fit):
+    return bool(FIT_MIN and fit is not None and fit >= FIT_MIN)
 
 
 def push_stale(rec, now):
@@ -110,21 +130,51 @@ def is_bigco(company):
 # hardware/robotics-relevant title earns instant Tier A. A clearly off-target
 # function (IT, generic SWE, ML, biomedical) with no hardware signal routes to the
 # Tier B hourly batch instead. Mirrors filters.mjs curatedRelevant (parity 'relevance').
-CURATED_OFFTARGET = re.compile(
-    r"\b(?:software|swe|full ?stack|front ?end|back ?end|web developer|information technology|"
-    r"sys ?admin|systems? administrator|help ?desk|machine learning|ml|data scien|data analyst|"
+# Generic software/ML titles: off-target on their own, but on-target at an edge company
+# (defense neoprime / new-space) or when the description shows embedded/firmware/flight-SW
+# work - one "Software Engineer Intern" req often spans firmware, flight SW and apps.
+# Mirrors filters.mjs SOFT_ENG_TITLE / NONENG_TITLE.
+SOFT_ENG_TITLE = re.compile(
+    r"\b(?:software|swe|full ?stack|front ?end|back ?end|machine learning|ml|ai engineer\w*|"
+    r"developer|data engineer\w*)\b", re.I)
+NONENG_TITLE = re.compile(
+    r"\b(?:web developer|information technology|"
+    r"sys ?admin|systems? administrator|help ?desk|data scien|data analyst|"
     r"biomedical|clinical|finance|financial|business|product manag\w*|program manag\w*|"
     r"\bTPM\b|technical program manag\w*|supply chain|human resources|\bHR\b|recruiting|legal|"
     r"communications?|public relations|technical writ\w*|customer (?:success|support|experience)|"
     r"account manag\w*|strateg\w*|marketplace|\bIT\b|IT specialist|people operations|"
     r"product intern|business development|supply (?:chain|management)|content|creator|"
-    r"cyber ?security|growth|graphic|data engineer\w*|product & design|\bMES\b)\b", re.I)
+    r"cyber ?security|growth|graphic|product & design|\bMES\b|artist|procurement|contracts)\b", re.I)
 
 
-def curated_relevant(title):
+def is_edge(company):
+    """Defense neoprime / new-space company (config edge_companies). Checks the slug
+    and its display name, so the 'applied' slug still reads as Applied Intuition.
+    Mirrors filters.mjs isEdge."""
+    return bool(EDGE_CO and company and (EDGE_CO.search(company)
+                                         or EDGE_CO.search(display_company(company) or "")))
+
+
+def soft_eng_title(title):
+    """Generic software/ML title with nothing non-engineering in it."""
+    return bool(SOFT_ENG_TITLE.search(title or "") and not NONENG_TITLE.search(title or ""))
+
+
+def soft_eng_rescued(title, company, desc=""):
+    """A generic software/ML title that's on-target because of WHERE it is (edge
+    company) or because the description is a strong resume fit."""
+    if not soft_eng_title(title):
+        return False
+    return is_edge(company) or fit_ok(resume_fit(desc))
+
+
+def curated_relevant(title, company="", desc=""):
     if INCLUDE and INCLUDE.search(title or ""):   # explicit hardware/robotics signal
         return True
-    return not CURATED_OFFTARGET.search(title or "")
+    if not (SOFT_ENG_TITLE.search(title or "") or NONENG_TITLE.search(title or "")):
+        return True                               # generic "Engineering Intern" etc.
+    return soft_eng_rescued(title, company, desc)
 
 
 # ---------------- dedup keys ----------------
@@ -249,12 +299,14 @@ US_STATE = re.compile(r",\s*[A-Z]{2}(\b|$)")
 US_NAME = re.compile(r"\b(united states|usa|u\.s\.a?\.)\b", re.I)
 # ats_require lets "new grad"/"early career" programs through (some are intern
 # tracks); a title with no intern/co-op/student word is a full-time grad hire.
-INTERN_WORD = re.compile(r"\bintern|co-?op|student", re.I)
+INTERN_WORD = re.compile(r"\bintern(?!al)|co-?op|student", re.I)   # not "Internal Tools"
 NEWGRAD_ONLY = re.compile(r"new ?grad|graduate|early career|entry[- ]level|university grad", re.I)
 NEWGRAD = re.compile(r"new col|new ?grad|college grad|\bgraduate\b|university grad", re.I)
 
 ENRICH_FETCH = True      # network description fetch; off during seed and --dry
 ENRICH_BUDGET = [60]     # max Workday/Simplify detail fetches per run (bounds runtime)
+FIT_BUDGET = [40]        # separate budget for generic-SWE resume-fit fetches, so a backlog
+                         # of software listings can never starve the hardware fetches
 
 
 # ---------------- http ----------------
@@ -421,6 +473,7 @@ def extract_signals(desc):
         "grad_only": bool(_GRAD_ONLY.search(desc)
                           and not _HAS_BACH.search(desc)),
         "pay": extract_pay(desc),
+        "fit": resume_fit(desc),
         "pay_range": extract_pay_range(desc),   # display only (the board + push body)
     }
 
@@ -455,25 +508,28 @@ def listing_description(url):
     return _HTML.sub(" ", _HTML_NOISE.sub(" ", get_text(url, timeout=12)))
 
 
-def fetch_description(job, enrich):
+def fetch_description(job, enrich, need_fit=False):
     """Return extracted signals for a survivor, cached by id. GH/Lever/Ashby carry
     the description inline (job['desc']); only Workday + Simplify need a network
     fetch, which is gated (off at seed/dry) and budget-capped. A skipped or failed
     fetch returns {} and is NOT cached, so a later run can try again."""
     jid = job["id"]
-    if jid in enrich:
+    # need_fit: a generic-SWE role is judged on resume fit; entries cached before
+    # the fit score existed lack it, so they're fetched again.
+    if jid in enrich and not (need_fit and "fit" not in enrich[jid]):
         return enrich[jid]
     desc = job.get("desc") or ""          # inline for curated boards
     inline = bool(desc)
-    if not desc and ENRICH_FETCH and ENRICH_BUDGET[0] > 0:
+    budget = FIT_BUDGET if need_fit else ENRICH_BUDGET
+    if not desc and ENRICH_FETCH and budget[0] > 0:
         try:
             if job.get("src") == "workday":
-                ENRICH_BUDGET[0] -= 1
+                budget[0] -= 1
                 d = get_json(job["detail"], timeout=20)
                 desc = (d.get("jobPostingInfo") or {}).get("jobDescription", "") or ""
                 time.sleep(0.4)           # rate-limit Workday
             elif job.get("src") == "listings" and job.get("url"):
-                ENRICH_BUDGET[0] -= 1
+                budget[0] -= 1
                 desc = listing_description(job["url"])
         except Exception:
             desc = ""
@@ -773,18 +829,31 @@ def classify(job, enrich, trace=None):
     note(f"geo={geo}")
 
     # --- relevance gate (policy-specific) ---
+    need_fit = False   # generic SWE title anywhere: on-target only if the description fits the resume
     if policy == "tagged":
         cat = (job.get("category") or "").lower()
         if any(c in cat for c in CATS):
             note(f"relevance: hardware category ({cat})")
         elif any(c in cat for c in SOFT_CATS) and TAGGED_SUB and TAGGED_SUB.search(title):
             note(f"relevance: soft category ({cat}) + sub-regex")
+        elif any(c in cat for c in SOFT_CATS) and soft_eng_title(title):
+            if is_edge(company):
+                note(f"relevance: soft category ({cat}) + software title at edge company")
+            else:
+                need_fit = True
+                note(f"relevance: soft category ({cat}) + software title -> judged on resume fit")
         else:
             note(f"DROP irrelevant (category={cat})"); return "drop", "irrelevant"
     elif policy in ("bulk", "untagged"):
-        if not (INCLUDE and INCLUDE.search(title)):
+        if INCLUDE and INCLUDE.search(title):
+            note("relevance: include_keywords")
+        elif soft_eng_title(title) and is_edge(company):
+            note("relevance: software title at edge company")
+        elif soft_eng_title(title):
+            need_fit = True
+            note("relevance: software title -> judged on resume fit")
+        else:
             note("DROP irrelevant (no include_keywords)"); return "drop", "irrelevant"
-        note("relevance: include_keywords")
     else:
         note("relevance: curated (no keyword gate)")
 
@@ -792,7 +861,16 @@ def classify(job, enrich, trace=None):
         note("DROP stale"); return "drop", "stale"
 
     # --- stage 2: description signals ---
-    sig = fetch_description(job, enrich)
+    sig = fetch_description(job, enrich, need_fit)
+    fit = sig.get("fit")
+    if need_fit:
+        # No description yet (seed run / budget spent) is not a verdict: drop for now,
+        # NOT marked seen, so a later run fetches it and judges it then.
+        if fit is None:
+            note("DROP fit-pending (no description yet)"); return "drop", "fit-pending"
+        if not fit_ok(fit):
+            note(f"DROP weak resume fit ({fit} < {FIT_MIN})"); return "drop", "weak-fit"
+        note(f"relevance: resume fit {fit} >= {FIT_MIN}")
     if sig.get("clearance"):
         note("DROP defense (clearance in description)"); return "drop", "defense-desc"
     # Gate on the TOP of a stated range: "$25-40/hr" can pay $40, so its midpoint
@@ -805,8 +883,10 @@ def classify(job, enrich, trace=None):
 
     # --- score & tier ---
     bs, ds = base_score(title), desc_score(sig)
-    score = bs + ds
-    note(f"score={score} (title {bs}, desc {ds})")
+    es = (CFG.get("edge_company_score") or 0) if is_edge(company) else 0
+    fs = (CFG.get("resume_fit_score") or 0) if fit_ok(fit) else 0
+    score = bs + ds + es + fs
+    note(f"score={score} (title {bs}, desc {ds}, edge company {es}, resume fit {fs})")
 
     pay_preferred = CFG.get("pay_preferred_hourly") or 0
     pay_midband_bar = CFG.get("pay_midband_min_score", 0)
@@ -826,7 +906,7 @@ def classify(job, enrich, trace=None):
             note("TIER B (curated, non-US)"); return "B", score
         if sig.get("grad_bad") or sig.get("grad_only"):
             note("TIER B (curated, grad/degree mismatch)"); return "B", score
-        if not curated_relevant(title):
+        if not curated_relevant(title, company, job.get("desc") or ""):
             note("TIER B (curated, off-target function)"); return "B", score
         if not pay_ok(score):
             note(f"TIER B (curated, pay ${pay:.0f}/hr mid-band, fit score {score} < {pay_midband_bar})")
@@ -858,7 +938,7 @@ def _load(path, default):
     return default
 
 
-LOGIC_VERSION = "v2.11"  # bump when filter/scoring CODE changes -> forces a silent reseed
+LOGIC_VERSION = "v2.12"  # bump when filter/scoring CODE changes -> forces a silent reseed
 # v2.6: added zapplyjobs low-latency feeds + Tier-B prompt-push.
 # v2.7: added registry-based auto-discovery of hardware/robotics boards; reseed so the
 # ~49 discovered boards' backlog seeds silently instead of flooding on first scan.
@@ -892,13 +972,22 @@ LOGIC_VERSION = "v2.11"  # bump when filter/scoring CODE changes -> forces a sil
 # (Google "Silicon Engineering Intern" pushed once instant + once in a Tier B digest) to
 # Google listing the same req twice with a qualifier-suffix title difference that the old
 # exact-match content_key missed. Reseed for both.
+# v2.12: generic software/ML intern titles are on-target at edge_companies (defense
+# neoprimes / new-space: relevant on every source, +edge_company_score) and at any
+# company whose description is a strong resume fit (config resume_fit >= resume_fit_min;
+# Simplify/Workday descriptions fetched under fit_fetch_budget). A strong-fit description
+# also scores +resume_fit_score on any role.
+# Traced to Shield AI's single "Software Engineer Intern" req (spans firmware/embedded,
+# flight SW, apps) landing board-only as an off-target function.
 
 def config_hash():
     keys = ["include_keywords", "exclude_keywords", "exclude_companies", "include_categories",
             "soft_categories", "tagged_subregex", "season_drop_terms", "season_a_terms",
             "season_title_drop", "scoring", "tier_b_countries", "drop_countries",
             "desc_hw_keywords", "desc_clearance", "ats_require", "max_age_days",
-            "pay_floor_hourly", "pay_preferred_hourly", "pay_midband_min_score"]
+            "pay_floor_hourly", "pay_preferred_hourly", "pay_midband_min_score",
+            "edge_companies", "edge_company_score", "resume_fit", "resume_fit_min",
+            "resume_fit_score", "resume_fit_generic_cap"]
     blob = json.dumps({"_v": LOGIC_VERSION, **{k: CFG.get(k) for k in keys}}, sort_keys=True)
     return sha256(blob.encode()).hexdigest()[:16]
 
@@ -1194,6 +1283,7 @@ def main():
     first_run = reseed or not seen
     ENRICH_FETCH = not first_run  # skip the expensive description fetch on the silent seed
     ENRICH_BUDGET[0] = CFG.get("enrich_budget", 60)
+    FIT_BUDGET[0] = CFG.get("fit_fetch_budget", 40)
 
     tier_a, tier_b, stats = scan(seen, enrich)
 

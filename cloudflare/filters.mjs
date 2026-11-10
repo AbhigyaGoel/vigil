@@ -40,9 +40,19 @@ export function makeFilters(cfg) {
   const bigCo = cfg.big_companies && cfg.big_companies.length
     ? new RegExp("\\b(?:" + cfg.big_companies.join("|") + ")", "i") : null;
 
+  // Defense neoprimes / new-space (mirrors watch.py EDGE_CO): leading \b only.
+  const edgeCo = cfg.edge_companies && cfg.edge_companies.length
+    ? new RegExp("\\b(?:" + cfg.edge_companies.join("|") + ")", "i") : null;
+  // Resume fit (mirrors watch.py RESUME_FIT): [weight, regex] rows, each counts once.
+  const fitRows = (cfg.resume_fit || []).map(([w, r]) => [w, new RegExp(r, "i")]);
+
   return {
     geo,
     bigCo,
+    edgeCo,
+    fitRows,
+    fitMin: cfg.resume_fit_min || 0,
+    fitGenericCap: cfg.resume_fit_generic_cap ?? 2,
     seasonDrop: (title) => !!(seasonRe && seasonRe.test(title || "")),
     exclude: rx(cfg.exclude_keywords),
     excludeCo,
@@ -53,16 +63,36 @@ export function makeFilters(cfg) {
 
 // Curated priority: a hand-picked company's intern still DELIVERS regardless of
 // relevance, but only hardware/robotics-relevant titles fire a high-priority
-// instant ping. Clearly off-target functions (IT, generic SWE, ML, biomedical)
-// that carry NO hardware signal deliver at low priority instead. A generic
-// "Engineering Intern" is kept high; "Software Engineer, Robotics" and "Embedded
-// SWE" are saved by their hardware/robotics keyword. Mirrors watch.py
-// curated_relevant() — asserted by the parity 'relevance' fixtures.
-const CURATED_OFFTARGET = /\b(?:software|swe|full ?stack|front ?end|back ?end|web developer|information technology|sys ?admin|systems? administrator|help ?desk|machine learning|ml|data scien|data analyst|biomedical|clinical|finance|financial|business|product manag\w*|program manag\w*|\bTPM\b|technical program manag\w*|supply chain|human resources|\bHR\b|recruiting|legal|communications?|public relations|technical writ\w*|customer (?:success|support|experience)|account manag\w*|strateg\w*|marketplace|\bIT\b|IT specialist|people operations|product intern|business development|supply (?:chain|management)|content|creator|cyber ?security|growth|graphic|data engineer\w*|product & design|\bMES\b)\b/i;
+// instant ping. Clearly off-target functions (IT, ML, biomedical, finance...)
+// that carry NO hardware signal stay board-only. A generic "Engineering Intern" is
+// kept; "Software Engineer, Robotics" and "Embedded SWE" are saved by their
+// hardware/robotics keyword. A generic software/ML title is saved when the company
+// is an edge company (defense neoprime / new-space) or the description is a strong
+// resume fit (config resume_fit >= resume_fit_min) - one "Software Engineer Intern"
+// req often spans firmware, flight SW and apps (Shield AI). Mirrors watch.py
+// curated_relevant() - asserted by the parity 'relevance' fixtures.
+const SOFT_ENG_TITLE = /\b(?:software|swe|full ?stack|front ?end|back ?end|machine learning|ml|ai engineer\w*|developer|data engineer\w*)\b/i;
+const NONENG_TITLE = /\b(?:web developer|information technology|sys ?admin|systems? administrator|help ?desk|data scien|data analyst|biomedical|clinical|finance|financial|business|product manag\w*|program manag\w*|\bTPM\b|technical program manag\w*|supply chain|human resources|\bHR\b|recruiting|legal|communications?|public relations|technical writ\w*|customer (?:success|support|experience)|account manag\w*|strateg\w*|marketplace|\bIT\b|IT specialist|people operations|product intern|business development|supply (?:chain|management)|content|creator|cyber ?security|growth|graphic|product & design|\bMES\b|artist|procurement|contracts)\b/i;
+export function isEdge(job, f) {
+  return !!(f.edgeCo && ((job.company && f.edgeCo.test(job.company)) || (job.name && f.edgeCo.test(job.name))));
+}
+// Weight-1 rows are generic (C++, Linux, real-time...) and add at most fitGenericCap
+// together, so stacking common terms can't clear the bar. Mirrors watch.py resume_fit.
+export function resumeFit(desc, f) {
+  const hits = f.fitRows.filter(([, r]) => r.test(desc || "")).map(([w]) => w);
+  const sum = (a) => a.reduce((s, w) => s + w, 0);
+  return sum(hits.filter((w) => w > 1)) + Math.min(sum(hits.filter((w) => w <= 1)), f.fitGenericCap);
+}
+export function softEngRescued(job, f) {
+  const title = job.title || "";
+  if (!SOFT_ENG_TITLE.test(title) || NONENG_TITLE.test(title)) return false;
+  return isEdge(job, f) || !!(f.fitMin && resumeFit(job.desc, f) >= f.fitMin);
+}
 export function curatedRelevant(job, f) {
   const title = job.title || "";
   if (f.include && f.include.test(title)) return true;   // explicit hardware/robotics signal
-  return !CURATED_OFFTARGET.test(title);
+  if (!SOFT_ENG_TITLE.test(title) && !NONENG_TITLE.test(title)) return true;
+  return softEngRescued(job, f);
 }
 
 // Hourly pay (mirrors watch.py extract_pay): a suffix form ("$28 - $34/hour",
@@ -137,7 +167,7 @@ export function hardMismatch(desc) {
 // and applies hardMismatch after this passes, so a description is fetched only
 // for roles about to be pushed.
 // Mirrors watch.py INTERN_WORD / NEWGRAD_ONLY.
-const INTERN_WORD = /\bintern|co-?op|student/i;
+const INTERN_WORD = /\bintern(?!al)|co-?op|student/i;   // not "Internal Tools"
 const NEWGRAD_ONLY = /new ?grad|graduate|early career|entry[- ]level|university grad/i;
 export function curatedTitlePass(job, f) {
   if (!job.url || !job.title) return false;

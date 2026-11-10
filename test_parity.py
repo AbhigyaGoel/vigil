@@ -46,8 +46,10 @@ for c in cases["grad"]:
         fail += 1; print(f"PY GRAD FAIL {c['desc']!r} -> {got} (want {c['expect']})")
 for c in cases["relevance"]:
     ran += 1
-    if watch.curated_relevant(c["title"]) != c["expect"]:
-        fail += 1; print(f"PY RELEVANCE FAIL {c['title']!r} -> {watch.curated_relevant(c['title'])} (want {c['expect']})")
+    # Python resolves a slug's display name itself (display_names); "name" is the JS-side input.
+    got = watch.curated_relevant(c["title"], c.get("name") or c.get("company", ""), c.get("desc", ""))
+    if got != c["expect"]:
+        fail += 1; print(f"PY RELEVANCE FAIL {c['title']!r} @ {c.get('company')!r} -> {got} (want {c['expect']})")
 for c in cases["pay"]:
     ran += 1
     got = watch.extract_pay(c["desc"])

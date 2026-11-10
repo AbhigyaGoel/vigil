@@ -29,8 +29,8 @@ for (const c of cases.grad) {
   if (got !== c.expect) { fail++; console.log(`GRAD FAIL ${JSON.stringify(c.desc)} -> ${got} (want ${c.expect})`); }
 }
 for (const c of cases.relevance) {
-  const got = curatedRelevant({ title: c.title }, f);
-  if (got !== c.expect) { fail++; console.log(`RELEVANCE FAIL ${c.title} -> ${got} (want ${c.expect})`); }
+  const got = curatedRelevant({ title: c.title, company: c.company, name: c.name, desc: c.desc }, f);
+  if (got !== c.expect) { fail++; console.log(`RELEVANCE FAIL ${c.title} @ ${c.company} -> ${got} (want ${c.expect})`); }
 }
 for (const c of cases.bigco) {
   const got = isBigCo(c.company, f);

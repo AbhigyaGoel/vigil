@@ -46,7 +46,10 @@
     {"job": {"title": "Algorithm Engineer, Deep Learning & Vision (New Grad)", "company": "botauto", "location": "Houston, TX", "url": "https://x/1"}, "expect": false},
     {"job": {"title": "Hardware Engineering Intern", "company": "fab2", "location": "Austin", "url": "https://x/2"}, "expect": true},
     {"job": {"title": "2027 Engineering Summer Internship", "company": "jetzero", "location": "Long Beach, CA", "url": "https://x/3", "desc": "Pay range: $25 - $40/hour"}, "expect": true},
-    {"job": {"title": "Electrical Engineer (New Grad Summer 2027)", "company": "freeformfuturecorp", "location": "Los Angeles, CA", "url": "https://x/4"}, "expect": false}
+    {"job": {"title": "Electrical Engineer (New Grad Summer 2027)", "company": "freeformfuturecorp", "location": "Los Angeles, CA", "url": "https://x/4"}, "expect": false},
+    {"job": {"title": "Software Engineer I - Internal Tools (New Grad)", "company": "shieldai", "location": "Seattle, WA", "url": "x"}, "expect": false},
+    {"job": {"title": "Skillbridge Internship", "company": "scout-ai", "location": "Paso Robles, CA", "url": "x"}, "expect": false},
+    {"job": {"title": "Summer 2027 - Software Engineer Intern", "company": "shieldai", "location": "San Diego, California", "url": "x"}, "expect": true}
   ],
   "pay": [
     {"desc": "Compensation: $34.00 - $38.00 per hour.", "expect": 36.0},
@@ -93,7 +96,31 @@
     {"title": "Flight Software Intern (Summer 2027)", "expect": true},
     {"title": "Content Creator (Intern)", "expect": false},
     {"title": "Intern, Cybersecurity", "expect": false},
-    {"title": "2027 Summer Intern, BS/MS, Global Supply Management (GSM)", "expect": false}
+    {"title": "2027 Summer Intern, BS/MS, Global Supply Management (GSM)", "expect": false},
+    {"title": "Summer 2027 - Software Engineer Intern", "company": "shieldai", "expect": true},
+    {"title": "Software Engineer Intern", "company": "Shield AI", "expect": true},
+    {"title": "Software Engineer Intern", "company": "andurilindustries", "expect": true},
+    {"title": "Machine Learning Engineer Intern", "company": "saronic", "expect": true},
+    {"title": "Software Engineer Intern", "company": "applied", "name": "Applied Intuition", "expect": true},
+    {"title": "Finance Intern", "company": "shieldai", "expect": false},
+    {"title": "Business Operations Intern", "company": "andurilindustries", "expect": false},
+    {"title": "Software Engineer Intern", "company": "openai", "expect": false},
+    {"title": "Software Engineer Intern", "company": "openai", "desc": "Interns write code for autonomous systems, from user-facing applications and embedded flight software to ML models. Firmware/Embedded: develop embedded C/C++ for a flight controller.", "expect": true},
+    {"title": "Software Engineer Intern, Infrastructure", "company": "samsara", "desc": "Build cloud APIs and distributed backend services.", "expect": false},
+    {"title": "Web Developer Intern", "company": "shieldai", "expect": false},
+    {"title": "Software Engineer Intern", "company": "Relativity", "expect": false},
+    {"title": "Software Engineer Intern", "company": "Relativity Space", "expect": true},
+    {"title": "Software Engineer Intern", "company": "Impulse Dynamics", "expect": false},
+    {"title": "Software Engineer Intern, Internal Apps", "company": "neuralink", "desc": "Neuralink builds brain-computer interfaces using robotic surgery. Build internal web tools.", "expect": false},
+    {"title": "Software Engineer Intern", "company": "zoox", "desc": "Write embedded C++ for vehicle firmware and HIL rigs.", "expect": true},
+    {"title": "Technical Design Artist, Intern 2027", "company": "allen-control-systems", "expect": false},
+    {"title": "Procurement / Contracts Intern", "company": "hevenaerotech", "expect": false},
+    {"title": "Software Engineer Intern", "company": "stripe", "desc": "Build payment APIs in Ruby and React on Linux.", "expect": false},
+    {"title": "Software Engineer Intern", "company": "qualtrics", "desc": "Write multithreaded C++ for our simulation engine on Linux.", "expect": false},
+    {"title": "Backend Software Engineer Intern", "company": "acme", "desc": "Our robots are cool. You will build REST APIs.", "expect": false},
+    {"title": "Software Engineer Intern - Search Infrastructure", "company": "TikTok", "desc": "Strong C++, Linux development, real-time data processing, low-latency distributed systems, Docker.", "expect": false},
+    {"title": "Software Engineer Intern", "company": "qualtrics", "desc": "Write C++ device drivers on embedded Linux and automate HIL testing with Jenkins.", "expect": true},
+    {"title": "Software Engineer Intern", "company": "figma", "desc": "Engineers are embedded in product teams. Experience with C++ and real time collaboration.", "expect": false}
   ],
   "bigco": [
     {"company": "Meta", "expect": true},
@@ -109,7 +136,8 @@
     {"company": "Bedrock Robotics", "expect": false},
     {"company": "SpaceX", "expect": false},
     {"company": "K2 Space", "expect": false},
-    {"company": "", "expect": false}
+    {"company": "", "expect": false},
+    {"company": "Anduril Industries", "expect": false}
   ],
   "paydisplay": [
     {"range": [28, 34], "expect": "$28-34/hr"},

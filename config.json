@@ -44,7 +44,6 @@
     "general motors", "gm\\b", "ford\\b", "stellantis", "toyota", "woven", "honda", "hyundai", "bmw\\b", "mercedes", "volkswagen", "tesla", "caterpillar", "deere", "cummins", "paccar",
     "honeywell", "general electric", "ge aerospace", "ge vernova", "ge healthcare", "boeing", "airbus", "collins aerospace", "pratt", "siemens", "bosch", "3m\\b", "emerson", "rockwell", "abb\\b", "schneider", "eaton",
     "medtronic", "abbott", "johnson ?& ?johnson", "philips", "stryker", "boston scientific", "zebra", "trimble", "garmin", "motorola", "uber\\b", "walmart", "target\\b", "exxon", "chevron", "shell\\b",
-    "anduril",
     "palantir",
     "lockheed",
     "raytheon",
@@ -72,7 +71,70 @@
     "mitre\\b",
     "draper\\b"
   ],
+  "_edge_companies_note": "Defense neoprimes + new-space/aero where a GENERIC software title (Software Engineer / SWE / ML intern) is still on-target: their SWE internships span embedded, flight software, autonomy and perception (e.g. Shield AI's one SWE intern req covers firmware/embedded too). A software/ML title at a matching company counts as relevant on every source (curated, Simplify, discovery) and scores +edge_company_score so it reaches Tier A. Non-engineering titles (finance, HR, legal...) are still off-target. Matched against company name AND board slug with a leading word boundary only, like big_companies.",
+  "edge_company_score": 3,
+  "edge_companies": [
+    "anduril", "shield ?ai", "saronic", "hermeus", "true ?anomaly", "epirus", "castelion", "chaos ?industries", "mach ?industries", "machindustries",
+    "neros", "firestorm", "vannevar", "scout[- ]?ai", "overland ?ai", "forterra", "havoc ?ai", "blue ?water ?autonomy", "saildrone", "picogrid", "cx2\\b",
+    "allen[- ]?control", "auterion", "dedrone", "ursa ?major", "x-?bow", "firehawk", "istari", "cesium ?astro", "zone ?5", "red ?6\\b", "armada\\b",
+    "brinc\\b", "swarm ?aero", "sphinx ?defense", "defense ?unicorns", "heven", "orb ?aerospace", "radiant[- ]industries", "hadrian", "divergent", "skydio",
+    "applied intuition", "palantir", "hawkeye ?360", "blacksky", "scout ?space", "primer\\b", "aevex",
+    "spacex", "k2 ?space", "apex space", "apex-technology", "impulse(?: ?space)?$", "varda", "stoke ?space", "relativity ?space", "rocket ?lab", "astranis", "northwood",
+    "albedo", "muon ?space", "turion", "reflect[- ]?orbital", "katalyst", "inversion(?: ?space)?$", "portal ?space", "vast(?: ?space)?$", "outpost ?space", "firefly ?aerospace", "umbra(?: ?space)?$"
+  ],
+  "_resume_fit_note": "Resume fit: [weight, regex] rows scored against a posting's DESCRIPTION (each row counts once). Built from the resume's DISTINCTIVE skills (embedded/RTOS, HIL/SIL, flight SW, ROS2/autonomy, edge ML, C++, sim/QEMU, CI test automation, bus protocols, wireless, Qt/LVGL, clearance) - not generic web stack, which every applicant has. A generic software/ML title at ANY company counts as relevant when fit >= resume_fit_min (curated boards: inline description, also enforced by the worker; Simplify/Workday/discovery: the description is fetched under fit_fetch_budget per run, cached, and the role is retried until fetched). Any role whose description clears the bar also scores +resume_fit_score. Weight-1 rows are GENERIC (C++, Linux, real-time, distributed systems...) and together add at most resume_fit_generic_cap, so a role needs >= 3 points of distinctive skills - a big-tech search/infra SWE listing 'C++, Linux, low-latency, distributed systems' does not qualify.",
+  "resume_fit_min": 5,
+  "resume_fit_score": 3,
+  "resume_fit_generic_cap": 2,
+  "fit_fetch_budget": 40,
+  "resume_fit": [
+    [4, "embedded (?:systems?|software|firmware|C\\b|C\\+\\+|Linux|devices?|hardware|platforms?|targets?|engineer\\w*|development|controllers?|processors?)|firmware|bare[- ]metal|microcontroller|\\bMCU\\b|\\bRTOS\\b|real-time operating|FreeRTOS|Zephyr"],
+    [4, "hardware[- ]in[- ]the[- ]loop|\\bHIL\\b|software[- ]in[- ]the[- ]loop|\\bSIL\\b|(?:board|hardware|silicon|system) bring-?up"],
+    [3, "flight software|flight control|avionics|guidance,? navigation|\\bGNC\\b|\\bPX4\\b|ArduPilot|MAVLink|Pixhawk"],
+    [3, "\\bROS ?2?\\b|robot|autonomous (?:systems?|vehicles?|driving|robots?|navigation|aircraft|vessels?|platforms?)|autonomy (?:stack|software|systems?|algorithms?)|motion planning|\\bSLAM\\b|sensor fusion|kinematics"],
+    [2, "perception|computer vision|OpenCV|object detection|lidar|radar|signal processing|\\bDSP\\b"],
+    [2, "edge (?:ai|ml|inference|comput)|on-?device|Jetson|TensorRT|Edge TPU|quantiz"],
+    [2, "simulat|emulat|\\bQEMU\\b|digital twin"],
+    [2, "test automation|test infrastructure|\\bJenkins\\b|\\bCMake\\b|build systems?"],
+    [2, "\\bUART\\b|\\bI2C\\b|\\bSPI\\b|CAN ?bus|\\bCAN-?FD\\b|ESP32|STM32|Arduino|Raspberry Pi|device drivers?|\\bGPIO\\b"],
+    [2, "wireless|\\bMQTT\\b|ESP-NOW|Wireshark|network(?:ing)? protocols?"],
+    [2, "\\bQt\\b|\\bLVGL\\b"],
+    [2, "(?:secret|security|TS/SCI) clearance|clearance (?:required|eligib)"],
+    [1, "\\bC\\+\\+|\\bC/C\\+\\+"],
+    [1, "\\bLinux\\b"],
+    [1, "\\bRust\\b"],
+    [1, "multithread|concurren|low[- ]latency|real[- ]time"],
+    [1, "distributed systems"],
+    [1, "\\bFPGA\\b|Verilog"],
+    [1, "\\bDocker\\b"]
+  ],
   "display_names": {
+    "castelioncorporation": "Castelion",
+    "machindustries": "Mach Industries",
+    "epirus": "Epirus",
+    "chaosindustries": "CHAOS Industries",
+    "nerostechnologies": "Neros",
+    "zone5technologies": "Zone 5 Technologies",
+    "sphinxdefense": "Sphinx Defense",
+    "vannevarlabs": "Vannevar Labs",
+    "defenseunicorns": "Defense Unicorns",
+    "armada": "Armada",
+    "blacksky": "BlackSky",
+    "hawkeye360": "HawkEye 360",
+    "scoutspace": "Scout Space",
+    "hevenaerotech": "Heven AeroTech",
+    "auterion": "Auterion",
+    "ursamajor": "Ursa Major",
+    "cx2": "CX2",
+    "orbaerospace": "Orb Aerospace",
+    "allen-control-systems": "Allen Control Systems",
+    "scout-ai": "Scout AI",
+    "havocai": "HavocAI",
+    "brinc": "BRINC",
+    "radiant-industries": "Radiant",
+    "swarmaero": "Swarm Aero",
+    "shieldai": "Shield AI",
+    "andurilindustries": "Anduril",
     "1x": "1X", "physicalintelligence": "Physical Intelligence", "maticrobots": "Matic Robots", "serverobotics": "Serve Robotics", "reviserobotics": "Revise Robotics", "droyd": "DROYD", "rivianvw.tech": "Rivian and VW Group Technology", "applied": "Applied Intuition", "d-matrix": "d-Matrix", "fab2": "Fab2", "overviewenergy": "Overview Energy", "apex-technology-inc": "Apex Space", "h3x-technologies": "H3X", "openai": "OpenAI", "hadrian-automation": "Hadrian", "bedrock-robotics": "Bedrock Robotics", "wayve": "Wayve", "cirrus": "Cirrus Logic",
     "zoox": "Zoox", "brightmachines": "Bright Machines", "diversified-automation": "Diversified Automation", "weride": "WeRide", "plus-2": "PlusAI", "woven-by-toyota": "Woven by Toyota", "beta": "BETA Technologies", "rigetti": "Rigetti", "parallelwireless": "Parallel Wireless", "extremenetworks": "Extreme Networks",
     "field-ai": "Field AI", "picklerobot": "Pickle Robot", "anybotics": "ANYbotics", "cfsenergy": "Commonwealth Fusion Systems", "ispace-inc": "ispace", "espace": "E-Space", "loftorbital": "Loft Orbital", "tutorintelligence": "Tutor Intelligence", "lumafield": "Lumafield", "waabi": "Waabi", "agtonomy": "Agtonomy", "pyka": "Pyka", "solestial": "Solestial", "thebotcompany": "The Bot Company", "dyna-robotics": "Dyna Robotics", "graymatter-robotics": "GrayMatter Robotics", "corvus-robotics": "Corvus Robotics", "reflexrobotics": "Reflex Robotics", "sunday": "Sunday Robotics", "mindrobotics": "Mind Robotics", "gradientrobotics": "Gradient Robotics", "pivotrobotics": "Pivot Robotics", "haydenai": "Hayden AI", "aerovect": "AeroVect", "odys-aviation": "Odys Aviation", "impulse": "Impulse Space", "northwoodspace": "Northwood Space", "xona-space": "Xona Space", "logos-space": "Logos Space", "observable-space": "Observable Space", "cowboyspace": "Cowboy Space", "the-exploration-company": "The Exploration Company", "constellationspace": "Constellation Space", "regent": "REGENT", "standardbots": "Standard Bots", "matx": "MatX", "formenergy": "Form Energy", "glacier": "Glacier", "sereact": "Sereact", "built-robotics": "Built Robotics", "flyzipline": "Zipline"
@@ -106,7 +168,7 @@
   "_slug_registry_source": "https://raw.githubusercontent.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/main/data/companies.json",
 
   "discovery": {
-    "_docs": "Auto-discover NEW hardware/robotics company ATS boards from the zshah101 registry (4500+ cos -> ats+slug) instead of hand-maintaining slugs. Runs in watch.py (Actions), NOT the worker. Discovered boards are KEYWORD-GATED (policy=bulk: a title must hit include_keywords) because these companies aren't hand-vetted like the curated instant tier - so noise costs nothing and only hardware/robotics-titled US roles alert. Slugs already in the curated lists are skipped (no double-alert); defense names are dropped by name_exclude + exclude_companies. ~49 new boards match today.",
+    "_docs": "Auto-discover NEW hardware/robotics company ATS boards from the zshah101 registry (4500+ cos -> ats+slug) instead of hand-maintaining slugs. Runs in watch.py (Actions), NOT the worker. Discovered boards are KEYWORD-GATED (policy=bulk: a title must hit include_keywords) because these companies aren't hand-vetted like the curated instant tier - so noise costs nothing and only hardware/robotics-titled US roles alert. Slugs already in the curated lists are skipped (no double-alert); defense names are INCLUDED (name_include), exclude_companies still applies.",
     "enabled": true,
     "registry_url": "https://raw.githubusercontent.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/main/data/companies.json",
     "name_include": [
@@ -114,12 +176,10 @@
       "photonic", "semiconductor", "silicon", "mechatron", "autonom", "aviation",
       "nuclear", "fusion", "quantum", "satellite", "propuls", "rocket", "launch",
       "orbital", "wafer", "foundry", "actuator", "embedded", "prosthe", "telescope",
-      "antenna", "nanotech", "microelectron", "\\bchip\\b", "hardware"
+      "antenna", "nanotech", "microelectron", "\\bchip\\b", "hardware",
+      "defen[cs]e", "tactical", "hypersonic", "missile", "munition", "unmanned", "autonomy"
     ],
-    "name_exclude": [
-      "defen[cs]e", "military", "weapon", "missile", "munition", "warfare",
-      "tactical", "combat", "\\bdod\\b", "hypersonic", "armament", "ordnance"
-    ],
+    "name_exclude": [],
     "max_boards": 120
   },
 
@@ -225,7 +285,23 @@
     "terranorbitalcorporation",
     "voyagertechnologiesinc",
     "axon",
-    "spacekinetic"
+    "spacekinetic",
+    "castelioncorporation",
+    "machindustries",
+    "epirus",
+    "chaosindustries",
+    "nerostechnologies",
+    "zone5technologies",
+    "sphinxdefense",
+    "vannevarlabs",
+    "defenseunicorns",
+    "armada",
+    "blacksky",
+    "hawkeye360",
+    "scoutspace",
+    "hevenaerotech",
+    "auterion",
+    "ursamajor"
   ],
   "lever": [
     "zoox",
@@ -259,7 +335,9 @@
     "hermeus",
     "skyways",
     "dodmg",
-    "palantir"
+    "palantir",
+    "cx2",
+    "orbaerospace"
   ],
   "ashby": [
     "physicalintelligence",
@@ -325,7 +403,15 @@
     "formenergy",
     "saronic",
     "windborne-systems",
-    "turion-space"
+    "turion-space",
+    "allen-control-systems",
+    "scout-ai",
+    "havocai",
+    "picogrid",
+    "brinc",
+    "primer",
+    "radiant-industries",
+    "swarmaero"
   ],
   "curated_aliases": [
     "zipline"
@@ -484,7 +570,8 @@
     "installer",
     "data cent(er|re)",
     "custodian",
-    "warehouse"
+    "warehouse",
+    "skill ?bridge"
   ],
   "exclude_companies": []
 }
