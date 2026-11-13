@@ -1,0 +1,120 @@
+{
+  "_docs": "Fund-portfolio discovery (discover.py, monthly GitHub Action - never on the alert path). Pulls each fund's portfolio, keeps robotics/hardware/autonomy companies, resolves + live-verifies their ATS board, and opens a PR with a REPORT only. It never writes config.json: copy approved slugs in by hand. Endpoints below were verified live 2026-11-12; a fund that breaks shows up as FAILED in the report with the reason.",
+  "funds": [
+    {
+      "name": "Eclipse",
+      "kind": "getro",
+      "host": "jobs.eclipse.capital"
+    },
+    {
+      "name": "Playground Global",
+      "kind": "getro",
+      "host": "careers.playground.global"
+    },
+    {
+      "name": "Root Ventures",
+      "kind": "jsonld",
+      "url": "https://root.vc/",
+      "funder_id": "https://root.vc/#organization",
+      "_note": "No job board. root.vc is a terminal-style SPA; the portfolio is only in its schema.org JSON-LD (Organization nodes whose funder is Root)."
+    },
+    {
+      "name": "Construct Capital",
+      "kind": "webflow",
+      "url": "https://www.constructcap.com/companies",
+      "_note": "No job board. Webflow CMS list, paginated with ?<listid>_page=N links."
+    },
+    {
+      "name": "DCVC",
+      "kind": "getro",
+      "host": "jobs.dcvc.com"
+    },
+    {
+      "name": "Khosla",
+      "kind": "getro",
+      "host": "jobs.khoslaventures.com"
+    },
+    {
+      "name": "Lux",
+      "kind": "getro",
+      "host": "jobs.luxcapital.com"
+    },
+    {
+      "name": "Sequoia",
+      "kind": "consider",
+      "host": "jobs.sequoiacap.com"
+    },
+    {
+      "name": "Toyota Ventures",
+      "kind": "getro",
+      "host": "jobs.toyota.ventures"
+    },
+    {
+      "name": "Rainfall Ventures",
+      "kind": "getro",
+      "host": "careers.rainfall.com"
+    }
+  ],
+  "_keywords_note": "Matched (case-insensitive) against company name + description. Kept on any hit. Qualified on purpose after a live run let these through: bare 'embedded' (embedded finance), 'silicon' (Silicon Valley), 'sensors', 'computer vision', 'autonom'/'autonomy' (AI agents; 'independence and autonomy'), 'chip' ('blue-chip brands', 'chip isolation'), 'edge AI' ('cutting-edge AI'). Bare 'hardware' is kept and still admits some software companies ('hardware and software'); review those in the PR.",
+  "keywords": [
+    "\\brobot(?!ic process)",
+    "\\bhumanoid",
+    "\\bhardware\\b",
+    "\\bautonomous (?:vehicles?|driving|trucks?|trucking|systems?|robots?|robotics|aircraft|flight|vessels?|ships?|boats?|machines?|mobility|navigation|drones?|tractors?|forklifts?|construction|equipment)",
+    "\\bautonomy (?:stack|software|platform|systems?)",
+    "self-driving",
+    "driverless",
+    "\\bembedded (?:systems?|software|firmware|hardware|devices?|electronics|linux|computing|vision)",
+    "\\bfirmware\\b",
+    "physical (?:ai|intelligence)",
+    "\\bembodied",
+    "\\bdrones?\\b",
+    "\\bUAVs?\\b",
+    "\\blidar\\b",
+    "\\bmechatronic",
+    "\\bactuators?\\b",
+    "\\bsemiconductors?\\b",
+    "\\b(?:ai|custom|silicon|photonic|quantum|compute|computing|accelerator|analog|optical|memory|inference) chips?\\b",
+    "\\bchip (?:design|architecture|maker|startup|company)",
+    "robotic manipulation",
+    "\\bmanipulators?\\b",
+    "sensor fusion",
+    "(?<!cutting-)\\bedge (?:ai|computing)",
+    "\\bspacecraft",
+    "\\bsatellites?\\b",
+    "\\bavionics",
+    "(?:industrial|factory|warehouse|manufacturing) automation",
+    "machine vision"
+  ],
+  "_tags_note": "Getro/Consider industry tags, matched EXACTLY (whole tag, case-insensitive). The generic 'Hardware' tag is excluded on purpose: Getro auto-applies it to mortgage, fintech and dev-tool companies (191 of 1,152 companies on 2026-11-12).",
+  "tags": [
+    "Robotics",
+    "Robotics Engineering",
+    "Automation & Robotics",
+    "Autonomous Vehicles",
+    "Autonomous Systems",
+    "Autonomy",
+    "Drones",
+    "Drone Management",
+    "Semiconductor",
+    "Semiconductors",
+    "Application Specific Semiconductors",
+    "AI Semiconductors",
+    "Semiconductor Manufacturing",
+    "Embedded Systems",
+    "Embedded Software",
+    "Industrial Automation",
+    "Warehouse Automation",
+    "Manufacturing Automation",
+    "LiDAR",
+    "Sensor Fusion",
+    "Hardware Engineering",
+    "Hardware + software engineering",
+    "Silicon Photonic Chips",
+    "Computer Hardware",
+    "Computer Hardware Manufacturing"
+  ],
+  "_ats_note": "Platforms vigil's adapters support. Workday entries are only resolved from a link on the company's careers page (tenant/site can't be guessed).",
+  "fetch_workers": 12,
+  "report_dir": "discovery"
+}

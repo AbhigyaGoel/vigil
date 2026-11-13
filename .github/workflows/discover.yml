@@ -1,0 +1,55 @@
+# Monthly fund-portfolio discovery. Separate from the alert path: it never touches
+# seen.json/state.json/config.json and never sends a push. It runs discover.py and
+# opens a PR containing only discovery/report.{md,json}; approved slugs are copied
+# into config.json by hand. Needs Settings > Actions > General > "Allow GitHub
+# Actions to create and approve pull requests" turned on.
+name: discover
+
+on:
+  schedule:
+    - cron: "23 14 1 * *"   # 14:23 UTC on the 1st of each month
+  workflow_dispatch:
+
+concurrency:
+  group: discover
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    # A full run is ~4 min (10 funds, ~220 companies probed live).
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Run discovery
+        run: python discover.py
+
+      - name: Open PR with the report
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          branch="discovery/$(date -u +%Y-%m)"
+          git config user.name "vigil"
+          git config user.email "actions@github.com"
+          git checkout -B "$branch"
+          git add discovery/report.md discovery/report.json
+          git diff --staged --quiet && { echo "report unchanged"; exit 0; }
+          git commit -q -m "chore: portfolio discovery report $(date -u +%F)"
+          git push -q -f origin "$branch"
+          # PR bodies cap at 65,536 chars; the full table is in discovery/report.md.
+          head -c 60000 discovery/report.md > pr_body.md
+          if gh pr view "$branch" --json state -q .state 2>/dev/null | grep -q OPEN; then
+            gh pr edit "$branch" --body-file pr_body.md
+          else
+            gh pr create --base master --head "$branch" \
+              --title "Portfolio discovery $(date -u +%Y-%m): new ATS boards to review" \
+              --body-file pr_body.md
+          fi
