@@ -1,0 +1,3220 @@
+{
+ "date": "2026-11-13",
+ "funds": [
+  {
+   "name": "Eclipse",
+   "kind": "getro",
+   "ok": true,
+   "error": "",
+   "total": 62,
+   "kept": 38
+  },
+  {
+   "name": "Playground Global",
+   "kind": "getro",
+   "ok": true,
+   "error": "",
+   "total": 51,
+   "kept": 20
+  },
+  {
+   "name": "Root Ventures",
+   "kind": "jsonld",
+   "ok": true,
+   "error": "",
+   "total": 78,
+   "kept": 15
+  },
+  {
+   "name": "Construct Capital",
+   "kind": "webflow",
+   "ok": true,
+   "error": "",
+   "total": 50,
+   "kept": 5
+  },
+  {
+   "name": "DCVC",
+   "kind": "getro",
+   "ok": true,
+   "error": "",
+   "total": 89,
+   "kept": 22
+  },
+  {
+   "name": "Khosla",
+   "kind": "getro",
+   "ok": true,
+   "error": "",
+   "total": 329,
+   "kept": 49
+  },
+  {
+   "name": "Lux",
+   "kind": "getro",
+   "ok": true,
+   "error": "",
+   "total": 189,
+   "kept": 42
+  },
+  {
+   "name": "Sequoia",
+   "kind": "consider",
+   "ok": true,
+   "error": "",
+   "total": 255,
+   "kept": 17
+  },
+  {
+   "name": "Toyota Ventures",
+   "kind": "getro",
+   "ok": true,
+   "error": "",
+   "total": 41,
+   "kept": 24
+  },
+  {
+   "name": "Rainfall Ventures",
+   "kind": "getro",
+   "ok": true,
+   "error": "",
+   "total": 66,
+   "kept": 2
+  }
+ ],
+ "new": [
+  {
+   "name": "AbCellera Biologics",
+   "funds": [
+    "DCVC"
+   ],
+   "domain": "abcellera.com",
+   "matched": "hardware",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "abcellera",
+     "jobs": 36,
+     "evidence": "careers-page link",
+     "board_name": "AbCellera"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Aeva",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "aeva.com",
+   "matched": "manufacturing automation",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "aeva",
+     "jobs": 46,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "AIM Intelligent Machines",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "aim.vision",
+   "matched": "Autonomy Platform",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "aim",
+     "jobs": 19,
+     "evidence": "name guess"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "AllSpice",
+   "funds": [
+    "Root Ventures"
+   ],
+   "domain": "allspice.io",
+   "matched": "hardware",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "allspice",
+     "jobs": 5,
+     "evidence": "careers-page link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Apex.AI",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "apex.ai",
+   "matched": "autonomous vehicles",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "apex-ai",
+     "jobs": 7,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Atom Computing",
+   "funds": [
+    "DCVC"
+   ],
+   "domain": "atom-computing.com",
+   "matched": "tag:Computer Hardware",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "atomcomputing",
+     "jobs": 41,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Augury",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "augury.com",
+   "matched": "tag:Industrial Automation",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "augury",
+     "jobs": 12,
+     "evidence": "fund-board job link",
+     "board_name": "Augury"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Aurora Innovation",
+   "funds": [
+    "Sequoia"
+   ],
+   "domain": "aurora.tech",
+   "matched": "self-driving",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "aurora-operations-inc",
+     "jobs": 82,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Blockstream",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "blockstream.com",
+   "matched": "Satellite",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "blockstream",
+     "jobs": 46,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Boxbot",
+   "funds": [
+    "Playground Global",
+    "Toyota Ventures"
+   ],
+   "domain": "boxbot.io",
+   "matched": "hardware",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "boxbot",
+     "jobs": 5,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Capella Space",
+   "funds": [
+    "DCVC"
+   ],
+   "domain": "capellaspace.com",
+   "matched": "satellites",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "ionq",
+     "jobs": 109,
+     "evidence": "fund-board job link",
+     "board_name": "IonQ"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Capstan Medical",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "capstanmedical.com",
+   "matched": "tag:Robotics",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "capstan-medical",
+     "jobs": 27,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Cobalt Robotics",
+   "funds": [
+    "Sequoia"
+   ],
+   "domain": "cobaltrobotics.com",
+   "matched": "Robot",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "cobaltrobotics",
+     "jobs": 10,
+     "evidence": "name guess"
+    }
+   ],
+   "tried": [
+    "uses bamboohr (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Compound Eye",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "compoundeye.com",
+   "matched": "autonomous machines",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "compound-eye",
+     "jobs": 3,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Copia",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "copia.io",
+   "matched": "industrial automation",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "copia",
+     "jobs": 4,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Crystal IS",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "cisuvc.com",
+   "matched": "tag:Application Specific Semiconductors",
+   "verified": [
+    {
+     "ats": "workday",
+     "slug": "akamerica|akamerica.wd501.myworkdayjobs.com|aka",
+     "jobs": 62,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Echodyne",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "echodyne.com",
+   "matched": "tag:Autonomous Vehicles",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "echodynecorp",
+     "jobs": 63,
+     "evidence": "fund-board job link",
+     "board_name": "Echodyne Corp"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Epsilon3",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "epsilon3.io",
+   "matched": "spacecraft",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "epsilon3",
+     "jobs": 4,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Foundry Robotics",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "foundryrobotics.ai",
+   "matched": "Robot",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "foundry-robotics",
+     "jobs": 29,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Foxglove",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "foxglove.dev",
+   "matched": "robot",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "foxglove",
+     "jobs": 5,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Fulfil",
+   "funds": [
+    "DCVC",
+    "Eclipse"
+   ],
+   "domain": "fulfil.ai",
+   "matched": "robot",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "fulfil",
+     "jobs": 10,
+     "evidence": "fund-board job link",
+     "board_name": "Fulfil Solutions"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Genalyte",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "genalyte.com",
+   "matched": "silicon chip",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "genalyte",
+     "jobs": 4,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Genesis",
+   "funds": [
+    "Eclipse",
+    "Khosla"
+   ],
+   "domain": "genesis.ai",
+   "matched": "physical AI",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "genesis",
+     "jobs": 69,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Gimlet Labs",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "gimletlabs.ai",
+   "matched": "hardware",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "gimlet",
+     "jobs": 17,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Jetson",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "jetsonhome.com",
+   "matched": "hardware",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "jetsonhome",
+     "jobs": 55,
+     "evidence": "fund-board job link",
+     "board_name": "Jetson Home"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Linero",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "linero.ai",
+   "matched": "semiconductor",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "linero",
+     "jobs": 16,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Mecka AI",
+   "funds": [
+    "Sequoia"
+   ],
+   "domain": "mecka.ai",
+   "matched": "robot",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "mecka.ai",
+     "jobs": 49,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Mendaera, Inc.",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "mendaera.com",
+   "matched": "robot",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "mendaerainc",
+     "jobs": 5,
+     "evidence": "fund-board job link",
+     "board_name": "Mendaera, Inc."
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Meter",
+   "funds": [
+    "Sequoia"
+   ],
+   "domain": "meter.com",
+   "matched": "hardware",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "meter",
+     "jobs": 58,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Multiply Labs",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "multiplylabs.com",
+   "matched": "robot",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "multiplylabs",
+     "jobs": 14,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Near Space Labs",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "nearspacelabs.com",
+   "matched": "robot",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "nearspacelabs",
+     "jobs": 1,
+     "evidence": "fund-board job link",
+     "board_name": "Near Space Labs"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Odyssey",
+   "funds": [
+    "DCVC"
+   ],
+   "domain": "odyssey.systems",
+   "matched": "robot",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "odysseyml",
+     "jobs": 16,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "OpenSpace",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "openspace.ai",
+   "matched": "drones",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "openspace",
+     "jobs": 12,
+     "evidence": "fund-board job link",
+     "board_name": "OpenSpace"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Parallel Domain",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "paralleldomain.com",
+   "matched": "autonomous system",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "paralleldomain",
+     "jobs": 8,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Podium Automation",
+   "funds": [
+    "Construct Capital"
+   ],
+   "domain": "podiumautomation.com",
+   "matched": "industrial automation",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "podium-automation",
+     "jobs": 6,
+     "evidence": "careers-page link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Point One Navigation",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "pointonenav.com",
+   "matched": "satellite",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "point-one-navigation",
+     "jobs": 13,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "PsiQuantum",
+   "funds": [
+    "Playground Global"
+   ],
+   "domain": "psiquantum.com",
+   "matched": "hardware",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "psiquantum",
+     "jobs": 96,
+     "evidence": "fund-board job link",
+     "board_name": "PsiQuantum"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Reality Defender",
+   "funds": [
+    "DCVC"
+   ],
+   "domain": "realitydefender.com",
+   "matched": "Robot",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "realitydefender",
+     "jobs": 5,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Recycleye",
+   "funds": [
+    "DCVC"
+   ],
+   "domain": "recycleye.com",
+   "matched": "tag:Robotics",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "recycleye",
+     "jobs": 5,
+     "evidence": "fund-board job link",
+     "board_name": "RECYCLEYE"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Reframe Systems",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "reframe.systems",
+   "matched": "robot",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "reframesystems",
+     "jobs": 34,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Remedy Robotics",
+   "funds": [
+    "DCVC"
+   ],
+   "domain": "remedyrobotics.com",
+   "matched": "Robot",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "remedyrobotics",
+     "jobs": 4,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Rescale",
+   "funds": [
+    "DCVC"
+   ],
+   "domain": "rescale.com",
+   "matched": "hardware",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "rescale",
+     "jobs": 18,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Rhoda AI",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "rhoda.ai",
+   "matched": "robot",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "rhoda-ai",
+     "jobs": 45,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "RobCo",
+   "funds": [
+    "Sequoia"
+   ],
+   "domain": "rob.co",
+   "matched": "industrial automation",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "robco",
+     "jobs": 33,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Robust.AI",
+   "funds": [
+    "Playground Global"
+   ],
+   "domain": "robust.ai",
+   "matched": "hardware",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "robust-ai",
+     "jobs": 5,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Saildrone",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "saildrone.com",
+   "matched": "autonomous vessels",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "saildroneinc",
+     "jobs": 51,
+     "evidence": "fund-board job link",
+     "board_name": "Saildrone"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Scaled Foundations",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "generalrobotics.company",
+   "matched": "robot",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "generalrobotics",
+     "jobs": 12,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Tacit",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "tacit.ai",
+   "matched": "hardware",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "tacit",
+     "jobs": 13,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Tandem PV",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "tandempv.com",
+   "matched": "tag:Application Specific Semiconductors",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "tandempv",
+     "jobs": 6,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Tines",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "tines.com",
+   "matched": "tag:Industrial Automation",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "tines",
+     "jobs": 31,
+     "evidence": "name guess",
+     "board_name": "Tines"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "tryripline.com",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "tryripline.com",
+   "matched": "hardware",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "tryripline",
+     "jobs": 2,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Velo3D",
+   "funds": [
+    "Khosla",
+    "Playground Global"
+   ],
+   "domain": "velo3d.com",
+   "matched": "hardware",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "velo3d",
+     "jobs": 42,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Vertical Semiconductor",
+   "funds": [
+    "Playground Global"
+   ],
+   "domain": "verticalsemi.com",
+   "matched": "Semiconductor",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "verticalsemi",
+     "jobs": 5,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Vinci4D.ai",
+   "funds": [
+    "Eclipse",
+    "Khosla"
+   ],
+   "domain": "vinci4d.ai",
+   "matched": "hardware",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "vinci",
+     "jobs": 37,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Vivodyne",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "vivodyne.com",
+   "matched": "robot",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "vivodyne",
+     "jobs": 4,
+     "evidence": "fund-board job link",
+     "board_name": "Vivodyne"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Voxel",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "voxelai.com",
+   "matched": "tag:Industrial Automation",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "voxel",
+     "jobs": 4,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Western Magnetics",
+   "funds": [
+    "Root Ventures"
+   ],
+   "domain": "westmag.com",
+   "matched": "drones",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "westmag",
+     "jobs": 12,
+     "evidence": "careers-page link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Whisper Aero",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "whisper.aero",
+   "matched": "drones",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "whisperaero",
+     "jobs": 8,
+     "evidence": "fund-board job link",
+     "board_name": "Whisper Aero"
+    }
+   ],
+   "tried": []
+  }
+ ],
+ "unresolved": [
+  {
+   "name": "AheadComputing",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "aheadcomputing.com",
+   "matched": "semiconductor",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Akash Systems",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "akashsystems.com",
+   "matched": "satellites",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Alkira",
+   "funds": [
+    "Sequoia"
+   ],
+   "domain": "alkira.com",
+   "matched": "hardware",
+   "verified": [],
+   "tried": [
+    "uses bamboohr (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "AM Batteries",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "am-batteries.com",
+   "matched": "tag:Industrial Automation",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Anjuna",
+   "funds": [
+    "Playground Global"
+   ],
+   "domain": "anjuna.io",
+   "matched": "hardware",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Aria Networks, Inc.",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "arianetworks.com",
+   "matched": "hardware",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Astrus",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "astrus.ai",
+   "matched": "tag:Semiconductor",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Atomic Industries",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "atomic.industries",
+   "matched": "tag:Industrial Automation",
+   "verified": [],
+   "tried": [
+    "ashby:atomic (name guess) -> live, but nothing ties it to this company"
+   ]
+  },
+  {
+   "name": "Autobrains",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "autobrains.ai",
+   "matched": "tag:Autonomous Vehicles",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Avail Medsystems",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "avail.io",
+   "matched": "hardware",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Ayar Labs",
+   "funds": [
+    "Playground Global"
+   ],
+   "domain": "ayarlabs.com",
+   "matched": "hardware",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Bionaut Labs",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "bionautlabs.com",
+   "matched": "robot",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Blue Water Autonomy",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "blw.ai",
+   "matched": "autonomous vessels",
+   "verified": [],
+   "tried": [
+    "uses rippling (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Blues",
+   "funds": [
+    "Sequoia"
+   ],
+   "domain": "blues.io",
+   "matched": "hardware",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "BurnBot",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "burnbot.com",
+   "matched": "tag:Drones",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Burro",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "burro.ai",
+   "matched": "robot",
+   "verified": [],
+   "tried": [
+    "lever:burro (fund-board job link) -> HTTP 404"
+   ]
+  },
+  {
+   "name": "Caelux Corporation",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "caelux.com",
+   "matched": "tag:Semiconductor",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Caper",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "caper.ai",
+   "matched": "sensor fusion",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Carbice Corporation",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "carbice.com",
+   "matched": "tag:Autonomous Vehicles",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Chef Robotics",
+   "funds": [
+    "Construct Capital"
+   ],
+   "domain": "chefrobotics.ai",
+   "matched": "Robot",
+   "verified": [],
+   "tried": [
+    "uses gem (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Clear Labs",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "clearlabs.com",
+   "matched": "tag:Robotics",
+   "verified": [],
+   "tried": [
+    "greenhouse:clear (name guess) -> live, but nothing ties it to this company (board is 'CLEAR - Corporate')",
+    "uses workable (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Cognition IP",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "cognitionip.com",
+   "matched": "Robot",
+   "verified": [],
+   "tried": [
+    "uses breezy (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Covariant",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "covariant.ai",
+   "matched": "robot",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Creator",
+   "funds": [
+    "Root Ventures"
+   ],
+   "domain": "creator.rest",
+   "matched": "robot",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Deep Sentinel",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "deepsentinel.com",
+   "matched": "self-driving",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Deepsim",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "deepsim.io",
+   "matched": "chip design",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "DeepWeave",
+   "funds": [
+    "Root Ventures"
+   ],
+   "domain": "deepweave.ai",
+   "matched": "semiconductor",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Deft Robotics",
+   "funds": [
+    "Rainfall Ventures"
+   ],
+   "domain": "deftai.co",
+   "matched": "Robot",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Desktop Metal",
+   "funds": [
+    "DCVC",
+    "Lux"
+   ],
+   "domain": "desktopmetal.com",
+   "matched": "tag:Robotics",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Dusty Robotics",
+   "funds": [
+    "Root Ventures"
+   ],
+   "domain": "dustyrobotics.com",
+   "matched": "Robot",
+   "verified": [],
+   "tried": [
+    "greenhouse:dustyrobotics (careers-page link) -> HTTP 404"
+   ]
+  },
+  {
+   "name": "Elementary Robotics",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "elementaryrobotics.com",
+   "matched": "Robot",
+   "verified": [],
+   "tried": [
+    "uses bamboohr (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Emancro",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "emancro.ai",
+   "matched": "robot",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Esper",
+   "funds": [
+    "Root Ventures"
+   ],
+   "domain": "esper.io",
+   "matched": "hardware",
+   "verified": [],
+   "tried": [
+    "lever:esper (name guess) -> live, but nothing ties it to this company"
+   ]
+  },
+  {
+   "name": "EverSpin Technologies",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "everspin.com",
+   "matched": "tag:Semiconductor Manufacturing",
+   "verified": [],
+   "tried": [
+    "uses adp (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Fabric",
+   "funds": [
+    "Playground Global"
+   ],
+   "domain": "getfabric.com",
+   "matched": "robot",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "ForSight Robotics",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "forsightrobotics.com",
+   "matched": "Robot",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Fortem Technologies",
+   "funds": [
+    "DCVC"
+   ],
+   "domain": "fortemtech.com",
+   "matched": "drones",
+   "verified": [],
+   "tried": [
+    "uses paylocity (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Fragile",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "tryfragile.com",
+   "matched": "hardware",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Gambit",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "gambit.us",
+   "matched": "autonomous systems",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Gen Alpha",
+   "funds": [
+    "Root Ventures"
+   ],
+   "domain": "generation-alpha-transistor.com",
+   "matched": "chip design",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Haiqu",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "haiqu.ai",
+   "matched": "hardware",
+   "verified": [],
+   "tried": [
+    "uses workable (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Hangar Technology",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "hangar.com",
+   "matched": "drones",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Happiest Baby",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "happiestbaby.com",
+   "matched": "robot",
+   "verified": [],
+   "tried": [
+    "uses jazzhr (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Happy Droid",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "happydroid.ai",
+   "matched": "robot",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Impulse Space",
+   "funds": [
+    "DCVC",
+    "Lux"
+   ],
+   "domain": "impulsespace.com",
+   "matched": "satellite",
+   "verified": [],
+   "tried": [
+    "uses pinpoint (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Industrial Next",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "industrialnext.ai",
+   "matched": "hardware",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Instock.com",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "instock.com",
+   "matched": "tag:Robotics",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Instrumental",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "instrumental.com",
+   "matched": "tag:Hardware + software engineering",
+   "verified": [],
+   "tried": [
+    "uses gem (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Intuition Robotics",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "intuitionrobotics.com",
+   "matched": "Robot",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Jasper",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "jaspercooks.com",
+   "matched": "robot",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Joby Aviation",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "jobyaviation.com",
+   "matched": "tag:Autonomous Vehicles",
+   "verified": [],
+   "tried": [
+    "uses icims (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Kayhan",
+   "funds": [
+    "Root Ventures"
+   ],
+   "domain": "kayhan.space",
+   "matched": "satellite",
+   "verified": [],
+   "tried": [
+    "uses breezy (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Kymeta",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "kymeta.com",
+   "matched": "satellite",
+   "verified": [],
+   "tried": [
+    "uses jobvite (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "LabGenius",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "labgeni.us",
+   "matched": "robot",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Mangata Networks",
+   "funds": [
+    "Playground Global"
+   ],
+   "domain": "mangatanetworks.com",
+   "matched": "satellite",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Manzano Systems",
+   "funds": [
+    "Root Ventures"
+   ],
+   "domain": "manzanosystems.com",
+   "matched": "photonic chips",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Matrix Industries",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "matrixindustries.com",
+   "matched": "tag:Application Specific Semiconductors",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Mesa Quantum",
+   "funds": [
+    "Playground Global"
+   ],
+   "domain": "mesaquantum.com",
+   "matched": "tag:Application Specific Semiconductors",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Mojo Vision",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "mojo.vision",
+   "matched": "semiconductor",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Mytra",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "mytra.ai",
+   "matched": "robot",
+   "verified": [],
+   "tried": [
+    "uses rippling (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Nauto",
+   "funds": [
+    "Playground Global",
+    "Toyota Ventures"
+   ],
+   "domain": "nauto.com",
+   "matched": "self-driving",
+   "verified": [],
+   "tried": [
+    "greenhouse:nauto (careers-page link) -> HTTP 404"
+   ]
+  },
+  {
+   "name": "New Theory",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "newtheory.ai",
+   "matched": "Robot",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Next Silicon",
+   "funds": [
+    "Playground Global"
+   ],
+   "domain": "nextsilicon.com",
+   "matched": "tag:Computer Hardware",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Nomagic",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "nomagic.ai",
+   "matched": "robot",
+   "verified": [],
+   "tried": [
+    "lever:nomagic (fund-board job link) -> HTTP 404"
+   ]
+  },
+  {
+   "name": "Nominal",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "nominal.io",
+   "matched": "hardware",
+   "verified": [],
+   "tried": [
+    "uses gem (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "NVision Imaging Technologies",
+   "funds": [
+    "Playground Global"
+   ],
+   "domain": "nvision-imaging.com",
+   "matched": "hardware",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "OpenTrons",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "opentrons.com",
+   "matched": "robot",
+   "verified": [],
+   "tried": [
+    "uses jobvite (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Ori",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "oriliving.com",
+   "matched": "robot",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Oxide Computer Company",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "oxide.computer",
+   "matched": "hardware",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Paladin Drones",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "paladindrones.io",
+   "matched": "Drones",
+   "verified": [],
+   "tried": [
+    "uses jazzhr (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Partcl",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "partcl.com",
+   "matched": "chip design",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Personetics",
+   "funds": [
+    "Sequoia"
+   ],
+   "domain": "personetics.com",
+   "matched": "Self-Driving",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Phasecraft",
+   "funds": [
+    "Playground Global"
+   ],
+   "domain": "phasecraft.io",
+   "matched": "hardware",
+   "verified": [],
+   "tried": [
+    "uses workable (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "PhyAgents",
+   "funds": [
+    "Root Ventures"
+   ],
+   "domain": "phyagents.com",
+   "matched": "robot",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Physna",
+   "funds": [
+    "Sequoia"
+   ],
+   "domain": "physna.com",
+   "matched": "Physical AI",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Plotlogic",
+   "funds": [
+    "DCVC"
+   ],
+   "domain": "plotlogic.com",
+   "matched": "tag:LiDAR",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Pontem AI",
+   "funds": [
+    "Construct Capital"
+   ],
+   "domain": "pontemai.com",
+   "matched": "edge AI",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Quantum Source",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "qs-labs.com",
+   "matched": "tag:Computer Hardware",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Quoherent",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "quoherent.com",
+   "matched": "tag:Semiconductor",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "R2 Semiconductor",
+   "funds": [
+    "Sequoia"
+   ],
+   "domain": "r2semi.com",
+   "matched": "Semiconductor",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Radical",
+   "funds": [
+    "Root Ventures"
+   ],
+   "domain": "radicalsemiconductor.com",
+   "matched": "Semiconductor",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Realtime Robotics",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "rtr.ai",
+   "matched": "Robot",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Ribbit",
+   "funds": [
+    "Rainfall Ventures"
+   ],
+   "domain": "flyribbit.com",
+   "matched": "tag:Autonomous Vehicles",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Ridecell",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "ridecell.com",
+   "matched": "tag:Autonomous Vehicles",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "RightHand Robotics",
+   "funds": [
+    "Playground Global"
+   ],
+   "domain": "righthandrobotics.com",
+   "matched": "Robot",
+   "verified": [],
+   "tried": [
+    "uses breezy (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Righthook",
+   "funds": [
+    "Root Ventures"
+   ],
+   "domain": "righthook.io",
+   "matched": "autonomous vehicles",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Ripcord",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "ripcord.com",
+   "matched": "robot",
+   "verified": [],
+   "tried": [
+    "greenhouse:ripcord (careers-page link) -> HTTP 404"
+   ]
+  },
+  {
+   "name": "Ruby Robotics",
+   "funds": [
+    "Root Ventures"
+   ],
+   "domain": "ruby-robotics.com",
+   "matched": "Robot",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Sabanto",
+   "funds": [
+    "DCVC"
+   ],
+   "domain": "sabantoag.com",
+   "matched": "autonomy system",
+   "verified": [],
+   "tried": [
+    "uses breezy (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Seismic",
+   "funds": [
+    "Root Ventures"
+   ],
+   "domain": "myseismic.com",
+   "matched": "robot",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Sensemesh",
+   "funds": [
+    "DCVC"
+   ],
+   "domain": "sensemesh.ai",
+   "matched": "drone",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Shapeways",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "shapeways.com",
+   "matched": "tag:Drones",
+   "verified": [],
+   "tried": [
+    "uses workable (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Simbe Robotics",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "simberobotics.com",
+   "matched": "Robot",
+   "verified": [],
+   "tried": [
+    "lever:simberobotics (fund-board job link) -> HTTP 404"
+   ]
+  },
+  {
+   "name": "SiPhox",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "siphox.com",
+   "matched": "photonic chip",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "SLAMcore",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "slamcore.com",
+   "matched": "robot",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Slip Robotics",
+   "funds": [
+    "DCVC"
+   ],
+   "domain": "sliprobotics.com",
+   "matched": "Robot",
+   "verified": [],
+   "tried": [
+    "uses workable (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Snowcap Compute Inc.",
+   "funds": [
+    "Playground Global"
+   ],
+   "domain": "snowcapcompute.com",
+   "matched": "computing chips",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Sphere",
+   "funds": [
+    "Construct Capital"
+   ],
+   "domain": "spheresemi.com",
+   "matched": "analog chip",
+   "verified": [],
+   "tried": [
+    "ashby:sphere (name guess) -> live, but nothing ties it to this company",
+    "uses gem (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Tempo Automation",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "tempoautomation.com",
+   "matched": "Semiconductor",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "TeraWatt Technology",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "terawatt-technology.com",
+   "matched": "drones",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Third Wave Automation",
+   "funds": [
+    "Eclipse",
+    "Toyota Ventures"
+   ],
+   "domain": "thirdwave.ai",
+   "matched": "Autonomy Platform",
+   "verified": [],
+   "tried": [
+    "greenhouse:thirdwaveautomation (careers-page link) -> 0 jobs"
+   ]
+  },
+  {
+   "name": "Tula Technology",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "tulatech.com",
+   "matched": "hardware",
+   "verified": [],
+   "tried": [
+    "greenhouse:tula (name guess) -> live, but nothing ties it to this company (board is 'TULA Skincare')"
+   ]
+  },
+  {
+   "name": "Uhnder",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "uhnder.com",
+   "matched": "chip design",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "unspun",
+   "funds": [
+    "DCVC"
+   ],
+   "domain": "unspun.io",
+   "matched": "tag:Industrial Automation",
+   "verified": [],
+   "tried": [
+    "uses teamtailor (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Verdant Robotics",
+   "funds": [
+    "DCVC"
+   ],
+   "domain": "verdantrobotics.com",
+   "matched": "Robot",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Vertical Oceans",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "verticaloceans.blue",
+   "matched": "hardware",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Vibe Robotics",
+   "funds": [
+    "Root Ventures"
+   ],
+   "domain": "vbr.sh",
+   "matched": "Robot",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Vicarious Surgical",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "vicarioussurgical.com",
+   "matched": "robot",
+   "verified": [],
+   "tried": [
+    "greenhouse:vicarioussurgical (careers-page link) -> HTTP 404"
+   ]
+  },
+  {
+   "name": "VulcanForms",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "vulcanforms.com",
+   "matched": "Semiconductors",
+   "verified": [],
+   "tried": [
+    "uses bamboohr (no vigil adapter)",
+    "uses rippling (no vigil adapter)"
+   ]
+  },
+  {
+   "name": "Whisper.ai",
+   "funds": [
+    "Sequoia"
+   ],
+   "domain": "whisper.ai",
+   "matched": "hardware",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Xlight Inc.",
+   "funds": [
+    "Playground Global"
+   ],
+   "domain": "xlight.com",
+   "matched": "tag:Semiconductor Manufacturing",
+   "verified": [],
+   "tried": []
+  },
+  {
+   "name": "Zendar",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "zendar.io",
+   "matched": "autonomous vehicles",
+   "verified": [],
+   "tried": []
+  }
+ ],
+ "already_configured": [
+  {
+   "name": "Agility Robotics",
+   "funds": [
+    "DCVC",
+    "Playground Global"
+   ],
+   "domain": "agilityrobotics.com",
+   "matched": "Robot",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "agilityrobotics",
+     "jobs": 75,
+     "evidence": "fund-board job link",
+     "board_name": "Agility Robotics"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Agtonomy",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "agtonomy.com",
+   "matched": "machine vision",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "agtonomy",
+     "jobs": 6,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "AMP Sortation",
+   "funds": [
+    "Sequoia"
+   ],
+   "domain": "ampsortation.com",
+   "matched": "Robot",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "ampsortation",
+     "jobs": 8,
+     "evidence": "fund-board job link",
+     "board_name": "AMP: AI-Powered Sortation for Waste and Recycling"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Anduril",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "anduril.com",
+   "matched": "hardware",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "andurilindustries",
+     "jobs": 2577,
+     "evidence": "fund-board job link",
+     "board_name": "Anduril Industries"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Apex",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "apexspace.com",
+   "matched": "satellites",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "apex-technology-inc",
+     "jobs": 137,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Applied Intuition",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "appliedintuition.com",
+   "matched": "autonomous vehicles",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "applied",
+     "jobs": 325,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Armada",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "armada.ai",
+   "matched": "edge computing",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "armada",
+     "jobs": 27,
+     "evidence": "fund-board job link",
+     "board_name": "Armada"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Astranis",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "astranis.com",
+   "matched": "satellites",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "astranis",
+     "jobs": 180,
+     "evidence": "fund-board job link",
+     "board_name": "Astranis"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Bedrock Robotics",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "bedrockrobotics.com",
+   "matched": "Robot",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "bedrock-robotics",
+     "jobs": 57,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Bright Machines",
+   "funds": [
+    "Eclipse",
+    "Lux"
+   ],
+   "domain": "brightmachines.com",
+   "matched": "robot",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "brightmachines",
+     "jobs": 17,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Cerebras",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "cerebras.net",
+   "matched": "semiconductor",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "cerebras",
+     "jobs": 125,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Cobot",
+   "funds": [
+    "Khosla",
+    "Sequoia"
+   ],
+   "domain": "co.bot",
+   "matched": "Robot",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "cobot",
+     "jobs": 14,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "d-Matrix",
+   "funds": [
+    "Playground Global"
+   ],
+   "domain": "d-matrix.ai",
+   "matched": "tag:Application Specific Semiconductors",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "d-matrix",
+     "jobs": 38,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Efficient Computer",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "efficient.computer",
+   "matched": "hardware",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "efficientcomputer",
+     "jobs": 21,
+     "evidence": "fund-board job link",
+     "board_name": "Efficient Computer"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "fab2.com",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "fab2.com",
+   "matched": "hardware",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "fab2",
+     "jobs": 59,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Field Ai",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "fieldai.com",
+   "matched": "autonomy software",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "field-ai",
+     "jobs": 103,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Formic",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "formic.co",
+   "matched": "robot",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "formic",
+     "jobs": 58,
+     "evidence": "fund-board job link",
+     "board_name": "Formic"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Glydways",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "glydways.com",
+   "matched": "tag:Autonomous Vehicles",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "glydways",
+     "jobs": 16,
+     "evidence": "fund-board job link",
+     "board_name": "Glydways"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Graphcore",
+   "funds": [
+    "Sequoia"
+   ],
+   "domain": "graphcore.ai",
+   "matched": "semiconductor",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "graphcore",
+     "jobs": 198,
+     "evidence": "fund-board job link",
+     "board_name": "Graphcore"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Hadrian",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "hadrian.co",
+   "matched": "satellites",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "hadrian-automation",
+     "jobs": 171,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Humble Robotics",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "humblerobotics.ai",
+   "matched": "Robot",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "humble-robotics",
+     "jobs": 23,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Lumafield",
+   "funds": [
+    "DCVC",
+    "Lux"
+   ],
+   "domain": "lumafield.com",
+   "matched": "tag:Computer Hardware",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "lumafield",
+     "jobs": 27,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Mach Industries",
+   "funds": [
+    "Khosla",
+    "Sequoia"
+   ],
+   "domain": "machindustries.com",
+   "matched": "drone",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "machindustries",
+     "jobs": 185,
+     "evidence": "fund-board job link",
+     "board_name": "Mach Industries"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "May Mobility",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "maymobility.com",
+   "matched": "autonomous vehicle",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "maymobility",
+     "jobs": 36,
+     "evidence": "fund-board job link",
+     "board_name": "May Mobility"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Mind Robotics",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "mindrobotics.com",
+   "matched": "Robot",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "mindrobotics",
+     "jobs": 33,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Muon Space",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "muonspace.com",
+   "matched": "satellite",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "muonspace",
+     "jobs": 143,
+     "evidence": "fund-board job link",
+     "board_name": "Muon Space"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Observable Space",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "observable.space",
+   "matched": "hardware",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "observable-space",
+     "jobs": 27,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Physical Intelligence",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "physicalintelligence.company",
+   "matched": "Physical Intelligence",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "physicalintelligence",
+     "jobs": 46,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Pickle Robot",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "picklerobot.com",
+   "matched": "Robot",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "picklerobot",
+     "jobs": 10,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Planet",
+   "funds": [
+    "DCVC",
+    "Lux"
+   ],
+   "domain": "planet.com",
+   "matched": "satellites",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "planetlabs",
+     "jobs": 118,
+     "evidence": "fund-board job link",
+     "board_name": "Planet"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Reflex Robotics",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "reflexrobotics.com",
+   "matched": "Robot",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "reflexrobotics",
+     "jobs": 8,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Relativity Space",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "relativityspace.com",
+   "matched": "tag:Robotics",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "relativity",
+     "jobs": 403,
+     "evidence": "fund-board job link",
+     "board_name": "Relativity Space"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Reliable Robotics",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "reliable.co",
+   "matched": "Robot",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "reliable-robotics",
+     "jobs": 60,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Rigetti Computing",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "rigetti.com",
+   "matched": "tag:Application Specific Semiconductors",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "rigetti",
+     "jobs": 16,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Rocket Lab",
+   "funds": [
+    "DCVC"
+   ],
+   "domain": "rocketlabusa.com",
+   "matched": "spacecraft",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "rocketlab",
+     "jobs": 545,
+     "evidence": "fund-board job link",
+     "board_name": "Rocket Lab Corporation"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Skydio",
+   "funds": [
+    "Playground Global"
+   ],
+   "domain": "skydio.com",
+   "matched": "drone",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "skydio",
+     "jobs": 192,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Skyryse",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "skyryse.com",
+   "matched": "autonomous flight",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "skyryse",
+     "jobs": 22,
+     "evidence": "fund-board job link",
+     "board_name": "Skyryse"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "SpaceX",
+   "funds": [
+    "Sequoia"
+   ],
+   "domain": "spacex.com",
+   "matched": "spacecraft",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "spacex",
+     "jobs": 2880,
+     "evidence": "fund-board job link",
+     "board_name": "SpaceX"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Swarm",
+   "funds": [
+    "Construct Capital",
+    "Khosla"
+   ],
+   "domain": "swarm.aero",
+   "matched": "UAVs",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "swarmaero",
+     "jobs": 42,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Tenstorrent",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "tenstorrent.com",
+   "matched": "hardware",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "tenstorrent",
+     "jobs": 129,
+     "evidence": "fund-board job link",
+     "board_name": "Tenstorrent"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "True Anomaly",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "trueanomaly.space",
+   "matched": "spacecraft",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "trueanomalyinc",
+     "jobs": 212,
+     "evidence": "fund-board job link",
+     "board_name": "True Anomaly"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Ursa Major Technologies",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "ursamajortechnologies.com",
+   "matched": "satellite",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "ursamajor",
+     "jobs": 123,
+     "evidence": "fund-board job link",
+     "board_name": "Ursa Major"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Verkada",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "verkada.com",
+   "matched": "tag:Embedded Systems",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "verkada",
+     "jobs": 346,
+     "evidence": "fund-board job link",
+     "board_name": "Verkada"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Waabi",
+   "funds": [
+    "Khosla"
+   ],
+   "domain": "waabi.ai",
+   "matched": "Physical AI",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "waabi",
+     "jobs": 86,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Wayve",
+   "funds": [
+    "Eclipse"
+   ],
+   "domain": "wayve.ai",
+   "matched": "autonomous driving",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "wayve",
+     "jobs": 166,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Xona Space Systems",
+   "funds": [
+    "Toyota Ventures"
+   ],
+   "domain": "xonaspace.com",
+   "matched": "satellite",
+   "verified": [
+    {
+     "ats": "ashby",
+     "slug": "xona-space",
+     "jobs": 56,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Zipline",
+   "funds": [
+    "Sequoia"
+   ],
+   "domain": "flyzipline.com",
+   "matched": "robot",
+   "verified": [
+    {
+     "ats": "greenhouse",
+     "slug": "flyzipline",
+     "jobs": 342,
+     "evidence": "name guess",
+     "board_name": "Zipline "
+    }
+   ],
+   "tried": []
+  },
+  {
+   "name": "Zoox",
+   "funds": [
+    "Lux"
+   ],
+   "domain": "zoox.com",
+   "matched": "robot",
+   "verified": [
+    {
+     "ats": "lever",
+     "slug": "zoox",
+     "jobs": 236,
+     "evidence": "fund-board job link"
+    }
+   ],
+   "tried": []
+  }
+ ],
+ "config_snippet": {
+  "greenhouse": [
+   "abcellera",
+   "augury",
+   "ionq",
+   "echodynecorp",
+   "fulfil",
+   "jetsonhome",
+   "mendaerainc",
+   "nearspacelabs",
+   "openspace",
+   "psiquantum",
+   "recycleye",
+   "saildroneinc",
+   "tines",
+   "vivodyne",
+   "whisperaero"
+  ],
+  "lever": [
+   "aeva",
+   "apex-ai",
+   "atomcomputing",
+   "boxbot",
+   "capstan-medical",
+   "cobaltrobotics",
+   "copia",
+   "epsilon3",
+   "genalyte",
+   "multiplylabs",
+   "paralleldomain",
+   "robust-ai",
+   "velo3d"
+  ],
+  "ashby": [
+   "aim",
+   "allspice",
+   "aurora-operations-inc",
+   "blockstream",
+   "compound-eye",
+   "foundry-robotics",
+   "foxglove",
+   "genesis",
+   "gimlet",
+   "linero",
+   "mecka.ai",
+   "meter",
+   "odysseyml",
+   "podium-automation",
+   "point-one-navigation",
+   "realitydefender",
+   "reframesystems",
+   "remedyrobotics",
+   "rescale",
+   "rhoda-ai",
+   "robco",
+   "generalrobotics",
+   "tacit",
+   "tandempv",
+   "tryripline",
+   "verticalsemi",
+   "vinci",
+   "voxel",
+   "westmag"
+  ],
+  "workday": [
+   {
+    "name": "Crystal IS",
+    "tenant": "akamerica",
+    "host": "akamerica.wd501.myworkdayjobs.com",
+    "site": "aka"
+   }
+  ]
+ }
+}

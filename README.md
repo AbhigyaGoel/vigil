@@ -97,8 +97,19 @@ Tools: `python watch.py --dry` (per-source/per-tier table, sends nothing),
 `python watch.py --backfill-board` (fill `roles.json` with every open match), and
 `python watch.py --test-alert` (one real push in the live format). Tests:
 `python test_parity.py`, `python test_dedup.py`, `python test_delivery.py`,
-`node cloudflare/smoke.mjs` (runs the worker against live boards; sends nothing). Changing
+`node cloudflare/smoke.mjs` (runs the worker against live boards; sends nothing),
+`python test_discover.py`. Changing
 any filter auto-forces a silent reseed, so widening never floods you with backfill.
+
+## Portfolio discovery
+
+`discover.py` (monthly Action `discover.yml`, never on the alert path) pulls the
+portfolios of the funds in `discovery.json` (Getro/Consider job-board JSON, else
+the fund's portfolio page), keeps robotics/hardware/autonomy companies, resolves
+each one's Greenhouse/Lever/Ashby/Workday board and verifies it live (200 with
+jobs). It opens a PR with `discovery/report.md`: new verified slugs not yet in
+`config.json`, plus unresolved companies and why. It never edits `config.json`;
+copy approved slugs in by hand. `python discover.py --limit 3` is a quick smoke run.
 
 ## License
 
